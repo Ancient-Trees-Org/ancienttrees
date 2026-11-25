@@ -38,6 +38,7 @@ import email.utils
 import imaplib
 import json
 import os
+import re
 import sys
 from email.header import decode_header, make_header
 
@@ -408,18 +409,26 @@ def main():
     # send leaves a copy in his Sent folder, so "there is a sent message to
     # this address" is true of all 146 of them and means nothing. What counts
     # is a message to that address dated AFTER their reply arrived.
+    #
+    # And by THREAD, not by address (2026-11-25, Hidde: "hoe kan je dat
+    # missen"). Joey's "White Oak on Grubb Road" (11-23) counted as answered
+    # because an automatic mail about another of his trees ("About what you
+    # sent us: The Laurel Hill ...") went to him later that night, and the
+    # reply drafted for him never went out. A sent mail answers somebody only
+    # when it is a reply (Re:/Aw:/Antw: or an In-Reply-To) on the same subject.
     import email.utils as eu
-    incoming = {}
+    incoming, in_subj = {}, {}
     for i, frm, subj, date in matched:
         t = aware(date)
         if t and (frm not in incoming or t > incoming[frm]):
             incoming[frm] = t
+            in_subj[frm] = strip_prefixes(subj or "")
     answered = {}
     try:
         d.select(folder(d, '"[Gmail]/Sent Mail"'), readonly=True)   # the space needs the quotes
         ok, sdata = d.search(None, f'(SINCE {int(dd)}-{month}-{y})')
         for i in sdata[0].split():
-            ok, hdr = d.fetch(i, "(BODY.PEEK[HEADER.FIELDS (TO DATE SUBJECT)])")
+            ok, hdr = d.fetch(i, "(BODY.PEEK[HEADER.FIELDS (TO DATE SUBJECT IN-REPLY-TO)])")
             if ok != "OK" or not hdr or not hdr[0]:
                 continue
             h = email.message_from_bytes(hdr[0][1])
@@ -427,9 +436,13 @@ def main():
             t = aware(when)
             if not t:
                 continue
+            sent_subj = decode(h.get("Subject")) or ""
+            is_reply = bool(h.get("In-Reply-To")) or bool(
+                re.match(r"\s*(re|aw|antw|sv|r)\s*:", sent_subj, re.I))
             for _, to in eu.getaddresses([h.get("To", "")]):
                 to = to.lower()
-                if to in incoming and t > incoming[to]:
+                same_thread = is_reply and strip_prefixes(sent_subj) == in_subj.get(to)
+                if to in incoming and t > incoming[to] and same_thread:
                     if to not in answered or t < answered[to][0]:
                         answered[to] = (t, decode(h.get("Subject")))
     except Exception as e:
