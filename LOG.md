@@ -222,6 +222,11 @@ No claims standing. READY leads (york, guimaraes, leamington-spa) are the ones t
 - Rung 2: **iOS app red is GitHub, not the app**: the 18:15 scheduled run died with "job not acquired by runner of type hosted", all three jobs, macOS arm64 capacity. Nothing to fix; the next run should clear it. **Web Live red is one photo**: the reader's Palermo fig (pal_001-...-d8741ffa.jpg, 579x833, shown at 390x488 pt on phones, 2.0 file pixels per screen pixel; the check's ceiling is `SOFT_AT = 2.0`). A reader's photo is never refused for size and the ratchet is not mine to loosen, so left red. For Hidde: either let the strip show that file smaller or raise `SOFT_AT` a hair; one reader photo should not keep the light red.
 - Rungs 5 to 9: own research paused; 4 READY leads (under the six floor), reader_words and recognise --stuck empty; pagegaps shows only species and park intros, which sit behind the strict cut. No agent dispatched.
 
+## 2026-11-25 session: the repo moved to the Ancient-Trees-Org organisation
+
+- **Moved**: ancienttrees and ancienttrees-open now live under github.com/Ancient-Trees-Org (Hidde created the org; `scripts/move_to_org.py` rewrote the 7 files). The 25 secrets, Pages (ancienttrees.app, open.ancienttrees.app, both answer 200) and the github-pages environment came along. The Mac's remote points to the org. A deploy (run 45617756403) and a reader-judge run (45617763984) were dispatched on the moved repo as the test.
+- **Still Hidde's**: a new fine-grained token for the Supabase trigger with the org as resource owner (the old one only reaches the personal account's repos; until then the 15-minute poll picks readers up), then paste supabase/reader-judge-trigger.sql again; www's CNAME at TransIP to `ancient-trees-org.github.io.`; invite the second person as org Owner. Steps in .github/ORG_MOVE.md.
+
 ## 2026-11-24 session: a second owner everywhere; GitHub move to an organisation prepared
 
 - **Asked by Hidde: what if Google blocks the Workspace account too.** Sending keeps working (Resend). Incoming mail is restored by moving the MX records at TransIP to another mail host. Search Console comes back through DNS; GA would start empty again; Play is the real risk. The cheapest guard is putting billing on the Workspace trial. The recovery address koos.agency ends with his job in December.
