@@ -67,18 +67,34 @@
       "curation_status": "ai_generated",
       "verify_notes": "Arboretum's own pages: bought as a seedling in 1956 (40 cents), grown five years in the nursery, moved to this spot 3 Oct 1961; cultivar named 'Carolyn' (sources differ whether for the first or oldest granddaughter of a former curator; no name needed). One of two state champions in Longenecker Gardens. Black tupelo is native in Wisconsin to one county only (Kenosha). A male tupelo was transplanted nearby for pollen. Stock released to the nursery trade, royalties to the Arboretum. Register curator note 24 Feb 2021: alive and well. iNaturalist observation 2026-10-14 within lifecheck radius. Age is documented purchase date plus nursery years (seedling age at purchase unknown, so broad). Pin: nomination point lands at the Visitor Center NW corner as the register describes. Register figures (nomination measurement, date not in the layer): circumference 63.5 in (161 cm), height 39 ft (11.9 m), crown spread [45, 44] ft, 113.625 champion points. Champion status is the state's largest-of-species record at nomination; vitality field none. Open-licence photo search (Commons geosearch 200 m) found no picture of this trunk.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/msn_001-the-carolyn-black-tupelo.jpg",
+        "url": "https://ancienttrees.app/photos/msn_001-the-carolyn-black-tupelo-dc24cfa4.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 1204,
-        "height": 1600,
+        "width": 962,
+        "height": 1284,
         "taken_month": 11,
+        "taken_month_basis": "no date in the file; the tree is in full maroon autumn colour (autumn, northern hemisphere)",
         "source": "contributor",
         "contributor_user_id": "p_aad7d9ef9052b9ddb73256d9",
-        "sighting_id": "fd7d9144-7117-4787-95fa-41774c530290",
-        "note": "Photographed by a reader and sent through the app (2026-11-24); a viewing pass approved it on 2026-11-24: The whole bare tree in winter silhouette at dusk, sky still blue, colour: a single straight leader with many slender limbs held out flat in tiers and a dense twiggy crown, the low lit building and parking behind it across prairie grass. The reader picked this tree in the app; it has no photograph at all. Species seen: bare crown of many fine, crooked twigs on near-horizontal tiered limbs from one straight central trunk, the form of a black tupelo. Fits the description: a mid-sized tree of about twelve metres standing alone near a long low building with parking and lights, prairie grass around it, as at the Arboretum Visitor Center beside Curtis Prairie.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+        "sighting_id": "dc24cfa4-d29d-405c-b603-538df9e37cc6",
+        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-25: The whole tree in full deep maroon-red autumn colour against a blue sky, daylight, the crown filling the frame above prairie grass and a path, a long low building roof behind at right. Better than the current lead (a bare silhouette at dusk by the same reader): it shows exactly what the recognition line points at. Species seen: dense rounded crown of glossy elliptic leaves turned deep crimson-maroon, dark central trunk with many near-horizontal limbs, the autumn form of a black tupelo. Fits the description: a mid-sized tree of about twelve metres in deep maroon autumn colour beside the Visitor Center building and a path with a gate rail at left, prairie planting around it, as the recognition line describes.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/msn_001-the-carolyn-black-tupelo.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1204,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_aad7d9ef9052b9ddb73256d9",
+          "sighting_id": "fd7d9144-7117-4787-95fa-41774c530290",
+          "note": "Photographed by a reader and sent through the app (2026-11-24); a viewing pass approved it on 2026-11-24: The whole bare tree in winter silhouette at dusk, sky still blue, colour: a single straight leader with many slender limbs held out flat in tiers and a dense twiggy crown, the low lit building and parking behind it across prairie grass. The reader picked this tree in the app; it has no photograph at all. Species seen: bare crown of many fine, crooked twigs on near-horizontal tiered limbs from one straight central trunk, the form of a black tupelo. Fits the description: a mid-sized tree of about twelve metres standing alone near a long low building with parking and lights, prairie grass around it, as at the Arboretum Visitor Center beside Curtis Prairie.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "msn_002",

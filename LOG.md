@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-25 reader judge: the Madison tupelo now leads in its autumn red
+
+- **Madison, The Carolyn Black Tupelo (msn_001):** the reader who sent yesterday's winter silhouette sent the whole tree in full maroon autumn colour, in daylight, at the Visitor Center as the recognition line describes. It is now the lead photograph and the winter shot moves into the strip. The file has no date, so the photo is filed under autumn (November) by its colour. Their second upload was the same photograph again, so it was rejected as a duplicate. Pin untouched: their coordinate is our own pin. The pin catch-up could not read coordinates (HTTPError), as in the last run.
+- Left alone: lead 3c544597 (Amsterdam) and the old `mine` leads. They are our own account's photographs and their files are not on disk.
+- No open reports, no feedback without a verdict, no tips to judge, no reader words to quote. qa source, preflight (0 problems) and i18ncheck are clean.
+
 ## 2026-11-25 reader judge: a reader's photograph now leads the Hamarikyu pine
 
 - **Tokyo, The Three Hundred Year Pine (tok_006):** a reader's photograph from the app, taken today. It shows the black pine itself: the wide, low, layered crown on its log props behind the bamboo fence, in daylight. Added as the lead photograph, and the old one moves into the strip. Filed in November from the photograph's own date. Sender mailed by sightings_publish. Its pin catch-up could not read coordinates (HTTPError); the tree's pin was untouched.

@@ -7745,6 +7745,23 @@
    "lat": 35.6627303,
    "lon": 139.7633984,
    "pin_checked": "2026-11-25"
+  },
+  "dc24cfa4-d29d-405c-b603-538df9e37cc6": {
+   "outcome": "added",
+   "date": "2026-11-25",
+   "tree_id": "msn_001",
+   "city_slug": "madison",
+   "file": "msn_001-the-carolyn-black-tupelo-dc24cfa4.jpg",
+   "reason": "The whole tree in full deep maroon-red autumn colour against a blue sky, daylight, the crown filling the frame above prairie grass and a path, a long low building roof behind at right. Better than the current lead (a bare silhouette at dusk by the same reader): it shows exactly what the recognition ",
+   "lat": 43.041354,
+   "lon": -89.430758,
+   "pin_checked": "2026-11-25"
+  },
+  "4d5715f0-d7cf-4e5d-9a91-8360640555a3": {
+   "outcome": "rejected",
+   "date": "2026-11-25",
+   "tree_id": "msn_001",
+   "reason": "duplicate: the same photograph, pixel for pixel, as sighting dc24cfa4 sent by the same reader for the same tree, which goes live"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

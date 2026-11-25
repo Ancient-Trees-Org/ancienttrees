@@ -40,6 +40,50 @@
    "agreed": null
   },
   {
+   "id": "sight:dc24cfa4-d29d-405c-b603-538df9e37cc6",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Carolyn Black Tupelo",
+   "city": "Madison",
+   "species": "Black Tupelo (Nyssa sylvatica)",
+   "photo": "out/sightings/dc24cfa4-d29d-405c-b603-538df9e37cc6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Tupelo (Nyssa sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "The whole tree in full maroon autumn colour in daylight, black tupelo form, at the Visitor Center as described; added as the lead photograph, the reader's winter silhouette moves into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4d5715f0-d7cf-4e5d-9a91-8360640555a3",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Carolyn Black Tupelo",
+   "city": "Madison",
+   "species": "Black Tupelo (Nyssa sylvatica)",
+   "photo": "out/sightings/4d5715f0-d7cf-4e5d-9a91-8360640555a3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Tupelo (Nyssa sylvatica)"
+   },
+   "verdict": "reject",
+   "reason": "Duplicate: the same photograph as dc24cfa4 from the same reader, which went live.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:745e0fd4-abaf-413b-a870-67eb466731e0",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",
