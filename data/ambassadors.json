@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-25T00:52Z",
+  "synced": "2026-11-25T14:54Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -428,6 +428,15 @@
       "public": true,
       "since": "2026-11-25",
       "display_name": "Michael H.",
+      "profile_public": true
+    },
+    {
+      "user_id": "4f8f5bbc-4626-4507-9adc-afbd8c8eb4ba",
+      "place_slug": "nottingham",
+      "place_name": "Nottingham",
+      "public": true,
+      "since": "2026-11-25",
+      "display_name": "Roger H.",
       "profile_public": true
     },
     {
@@ -2767,6 +2776,13 @@
       "place_name": "Glasgow",
       "date": null,
       "note": "same person as row 1623; answered in that thread"
+    },
+    {
+      "row": 1663,
+      "user_id": "p_579c1c4f4393a3acb029263c",
+      "place_slug": "nottingham",
+      "place_name": "Nottingham",
+      "date": "2026-11-25"
     }
   ],
   "told": {
@@ -3948,6 +3964,13 @@
         "gen_019",
         "gen_020",
         "gen_021"
+      ],
+      "since": "2026-11-25",
+      "mailed": []
+    },
+    "nottingham": {
+      "trees": [
+        "ntm_001"
       ],
       "since": "2026-11-25",
       "mailed": []
