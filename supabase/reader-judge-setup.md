@@ -3,7 +3,7 @@
 Not needed: reader-judge.yml already polls every 15 minutes. This makes Supabase start it at once.
 
 1. https://github.com/settings/personal-access-tokens/new
-   Name `reader-judge`, expiration one year, Only select repositories: `ancienttrees`, Repository permissions: Contents = Read and write. Generate, copy.
+   Name `reader-judge`, Resource owner `Ancient-Trees-Org` (since 2026-11-25; a token owned by a personal account does not reach the org's repo), expiration one year, Only select repositories: `ancienttrees`, Repository permissions: Contents = Read and write. Generate, copy.
 2. https://supabase.com/dashboard/project/caimvxiyrtifilimlkqw/integrations/vault/secrets
    Add new secret. Name `github_dispatch_token`, value: the token.
 3. https://supabase.com/dashboard/project/caimvxiyrtifilimlkqw/sql/new
