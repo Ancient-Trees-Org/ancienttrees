@@ -113,6 +113,11 @@ CHECKS = [
         # The next sentence may carry it (2026-10-29: two sentences, not one).
         r"\b(?:[Ll]ive|[Ww]oon) in Baarn\b(?![^.]*\.?\s*[^.]*(?:Ancient Trees|work on|werk aan))",
     ]),
+    # Hidde, 2026-11-25, on the Inspiring News reply: "propose google meet
+    # instead of zoom from now on". A call we propose is a Google Meet call.
+    ("ZOOM PROPOSED (we propose Google Meet)", [
+        r"\bZoom (?:call|meeting|link)\b", r"\b(?:via|on|by|over|per) Zoom\b",
+    ]),
     ("AMSTERDAM IN A DUTCH MAIL (only foreigners need it)", [
         r"minuten (?:van|onder|vanaf) Amsterdam", r"(?:vlak ?bij|onder) Amsterdam",
     ]),

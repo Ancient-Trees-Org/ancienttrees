@@ -542,3 +542,7 @@ A reader who got the ambassador P.S. asked what it would entail. My draft explai
 > Hidde / Ancient Trees
 
 No direct "would you like to be our ambassador?": the no-pressure line closes it, and their yes comes on its own.
+
+## 2026-11-25: a call we propose is Google Meet (Lucas, Inspiring News)
+
+Lucas offered Zoom for his interview; my draft took it up. Hidde: **"propose google meet instead of zoom from now on"**. Whenever a reply proposes a call, it says Google Meet, also when they mentioned Zoom. mailcheck's ZOOM PROPOSED.
