@@ -128,6 +128,77 @@
    "agreed": null
   },
   {
+   "id": "lead:be5a23fb-6bae-44ee-9726-aa1cf1d76cc5",
+   "seen": "2026-11-25",
+   "kind": "a tree we do not map",
+   "tree": "European Larch (larix decidua) in Challancin, Col de Bard / Court de Bard, La Salle (AO).",
+   "city": null,
+   "species": "European Larch",
+   "photo": "p_5c0b520b6fc67b7bf93d1acc/BE5A23FB-6BAE-44EE-9726-AA1CF1D76CC5.jpg",
+   "reader_note": "This incredible monumental tree is on the way of the beautiful Col du Bard (2.178 masl), in the signed path for the monumental Larch/Chavraz.\n\nFollowing this excursion you can see lots of wonders of the high Aosta Valley mountains, like the Mont Blanc (4.807 masl), the Grivola (3.969 masl) and the Grand Paradise (4061 masl).\n\nThe energy near of him it’s simply magic and majestic.\n\nI advise to go to see him! But please remember that you’re a guest, don’t be rude with Nature and offer your gratitu",
+   "reader_girth_cm": 400,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Larch"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad old larch beside a signed mountain path above La Salle, leaning furrowed trunk, limbs sweeping to the ground and hung with beard lichen; stands out in its setting. Photo GPS fix. Live as la-salle/lsa_001 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:be5a23fb-6bae-44ee-9726-aa1cf1d76cc5",
+   "seen": "2026-11-25",
+   "kind": "a tree we do not map",
+   "tree": "The Bearded Larch of the Col du Bard Path",
+   "city": "La Salle",
+   "species": "European Larch (Larix decidua)",
+   "photo": "p_5c0b520b6fc67b7bf93d1acc/BE5A23FB-6BAE-44EE-9726-AA1CF1D76CC5.jpg",
+   "reader_note": "This incredible monumental tree is on the way of the beautiful Col du Bard (2.178 masl), in the signed path for the monumental Larch/Chavraz.\n\nFollowing this excursion you can see lots of wonders of the high Aosta Valley mountains, like the Mont Blanc (4.807 masl), the Grivola (3.969 masl) and the Grand Paradise (4061 masl).\n\nThe energy near of him it’s simply magic and majestic.\n\nI advise to go to see him! But please remember that you’re a guest, don’t be rude with Nature and offer your gratitu",
+   "verdict": "publish",
+   "reason": "Two different frames viewed (the other two sent were copies): the lichen-hung larch beside the Col du Bard path; lead photo and one in the strip of lsa_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:be5a23fb-6bae-44ee-9726-aa1cf1d76cc5-extra-1",
+   "seen": "2026-11-25",
+   "kind": "a tree we do not map",
+   "tree": "The Bearded Larch of the Col du Bard Path",
+   "city": "La Salle",
+   "species": "European Larch (Larix decidua)",
+   "photo": "p_5c0b520b6fc67b7bf93d1acc/BE5A23FB-6BAE-44EE-9726-AA1CF1D76CC5.jpg",
+   "reader_note": "This incredible monumental tree is on the way of the beautiful Col du Bard (2.178 masl), in the signed path for the monumental Larch/Chavraz.\n\nFollowing this excursion you can see lots of wonders of the high Aosta Valley mountains, like the Mont Blanc (4.807 masl), the Grivola (3.969 masl) and the Grand Paradise (4061 masl).\n\nThe energy near of him it’s simply magic and majestic.\n\nI advise to go to see him! But please remember that you’re a guest, don’t be rude with Nature and offer your gratitu",
+   "verdict": "publish",
+   "reason": "Second frame viewed: the same lichen-hung larch from further down the Col du Bard path, the signpost past its foot; in the strip of lsa_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "tip:1653",
+   "seen": "2026-11-25",
+   "kind": "a tip without a photograph",
+   "tree": "B8B6298A-A004-460A-BB5D-8FED0B431470",
+   "city": "Aosta",
+   "species": null,
+   "photo": null,
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "verdict": "publish",
+   "reason": "Second send a minute after 1652, same photograph location to the metre, no photograph or words of its own: the same larch, now live as la-salle/lsa_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:745e0fd4-abaf-413b-a870-67eb466731e0",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",

@@ -12347,6 +12347,43 @@
    "seen": "2026-11-24",
    "judged": "2026-11-24",
    "published_as": "toblach/tbl_001"
+  },
+  {
+   "sighting_id": "be5a23fb-6bae-44ee-9726-aa1cf1d76cc5",
+   "user_id": "p_5c0b520b6fc67b7bf93d1acc",
+   "mine": false,
+   "name": "European Larch (larix decidua) in Challancin, Col de Bard / Court de Bard, La Salle (AO).",
+   "unsure_among": null,
+   "species": "European Larch",
+   "age": "<500 years old",
+   "girth_cm": 400,
+   "girth_hugs": null,
+   "note": "This incredible monumental tree is on the way of the beautiful Col du Bard (2.178 masl), in the signed path for the monumental Larch/Chavraz.\n\nFollowing this excursion you can see lots of wonders of the high Aosta Valley mountains, like the Mont Blanc (4.807 masl), the Grivola (3.969 masl) and the Grand Paradise (4061 masl).\n\nThe energy near of him it’s simply magic and majestic.\n\nI advise to go to see him! But please remember that you’re a guest, don’t be rude with Nature and offer your gratitu",
+   "latitude": 45.7511583333333,
+   "longitude": 7.10956116666667,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 8,
+   "photo": "p_5c0b520b6fc67b7bf93d1acc/BE5A23FB-6BAE-44EE-9726-AA1CF1D76CC5.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/be5a23fb-6bae-44ee-9726-aa1cf1d76cc5-extra-1.jpg",
+    "out/sightings/be5a23fb-6bae-44ee-9726-aa1cf1d76cc5-extra-2.jpg",
+    "out/sightings/be5a23fb-6bae-44ee-9726-aa1cf1d76cc5-extra-3.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-25: a broad old larch beside a mountain path, its thick furrowed trunk leaning and swollen at one side, long limbs sweeping down to the ground, every branch hung with grey-green beard lichen, spruce and larch forest around, a small wooden signpost on the path behind, overcast daylight, colour. Live as la-salle/lsa_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-25",
+   "judged": "2026-11-25",
+   "published_as": "la-salle/lsa_001"
   }
  ]
 }

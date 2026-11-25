@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-25 reader judge: a lichen-hung larch above La Salle, Aosta Valley
+
+- **Live: la-salle/lsa_001, The Bearded Larch of the Col du Bard Path** (new one-tree place La Salle, Italy). A reader sent it through the app with four photographs, of which two frames were different. They show a broad, leaning old larch beside a mountain path, its limbs hung with beard lichen. The location comes from the photograph's GPS, so the pin is confirmed. One frame is the lead photo and one goes in the strip, both filed in August from the photo's own date. The reader's age (under 500 years) and girth (about 4 m) are stated as theirs. Their note mentions "the monumental Larch/Chavraz", which I could not tie to this trunk, so the page claims no name. Submission 1653 is a second send of the same spot a minute later, with no photo or words, so it gets the same verdict.
+- **Left for the next run:** sighting 3c544597 (Amsterdam, 52.3972,4.8739). Its photograph is not on disk, so it was not judged.
+- No open reports, no feedback waiting, no readers' words waiting.
+
 ## 2026-11-25 session: Android test invitation for the new Play app goes out
 
 - **Google approved build 6** on 11-24, and the closed test "Alpha" is active. The opt-in link https://play.google.com/apps/testing/app.ancienttrees.map works: Hidde joined with his Workspace address, which was added to the "Android testers" list (now 773).
