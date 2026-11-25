@@ -2415,6 +2415,66 @@
         "The Big Belly Oak"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_3e4b6086edcba616bdf65e60",
+      "place_slug": "cape-neddick",
+      "place_name": "Cape Neddick",
+      "date": "2026-11-25",
+      "trees": [
+        "The Roadside Oak of Cape Neddick"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_1342bcb505edaa231f7fcdfc",
+      "place_slug": "casargo",
+      "place_name": "Casargo",
+      "date": "2026-11-25",
+      "trees": [
+        "The Great Beech of Casargo"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_474ac6c9446d8b3d5076a2e9",
+      "place_slug": "cat-tien-national-park",
+      "place_name": "Cat Tien National Park",
+      "date": "2026-11-25",
+      "trees": [
+        "The Giant Tung of Cat Tien"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_ed3ce913cbfa6c389149b684",
+      "place_slug": "goll-woods",
+      "place_name": "Goll Woods",
+      "date": "2026-11-25",
+      "trees": [
+        "The Chinkapin Oak of Goll Woods"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_4384c988562d2ece5e457be4",
+      "place_slug": "stanton-upon-hine-heath",
+      "place_name": "Stanton upon Hine Heath",
+      "date": "2026-11-25",
+      "trees": [
+        "The Looped Oak of Stanton upon Hine Heath"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_808e308bc43966422bba227e",
+      "place_slug": "thredbo",
+      "place_name": "Thredbo",
+      "date": "2026-11-25",
+      "trees": [
+        "The Snow Gum above Thredbo"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
