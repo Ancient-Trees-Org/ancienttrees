@@ -181,9 +181,12 @@ const canonical = `${BASE_URL}/account`;
       {/* SUGGESTED, while the field is empty (2026-11-04, the app's Find
           people page). The row is the list's own row with the grey role
           line of the city page's ambassador row under the name. */}
-      <div class="people-sug" id="people-sug" hidden data-photographed={U.peoplePhotographed(9999, "%place%")} data-one={U.peoplePhotographed(1, "%place%")}>
+      <div class="people-sug" id="people-sug" hidden data-photographed={U.peoplePhotographed(9999, "%place%")} data-one={U.peoplePhotographed(1, "%place%")} data-any={U.peoplePhotographedAny(9999)} data-any-one={U.peoplePhotographedAny(1)}>
         <p class="eyebrow people-sug-h">{U.peopleSuggested}</p>
         <ul class="people-list" id="people-sug-list"></ul>
+        {/* The foot of Suggested (2026-11-25): in view, it loads the next
+            page of photographers (people-js.ts loadMore). */}
+        <div class="people-more" id="people-more" hidden><span class="vp-spin" role="status"></span></div>
       </div>
       <script type="application/json" id="people-data" set:html={PEOPLE_DATA}></script>
     </div>

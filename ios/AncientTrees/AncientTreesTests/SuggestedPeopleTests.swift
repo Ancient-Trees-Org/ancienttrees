@@ -49,4 +49,20 @@ final class SuggestedPeopleTests: XCTestCase {
         let city = ["t1": "baarn", "t2": "utrecht", "t3": "utrecht"]
         XCTAssertEqual(SuggestedPeople.places(of: ["t1", "t2", "t3", "x"]) { city[$0] }, ["utrecht", "baarn"])
     }
+
+    /// The next page (2026-11-25): appended under what is shown, never twice,
+    /// never you or a blocked person, the reason without a place.
+    func testMoreAppendsNewPeopleOnly() {
+        let shown = build()
+        let page = [
+            Profiles.MorePhotographer(user_id: "p-tom", display_name: "Tom", avatar_url: nil, trees: 2),
+            Profiles.MorePhotographer(user_id: "me", display_name: "Me", avatar_url: nil, trees: 9),
+            Profiles.MorePhotographer(user_id: "p-blocked", display_name: "B", avatar_url: nil, trees: 3),
+            Profiles.MorePhotographer(user_id: "p-ana", display_name: "Ana", avatar_url: nil, trees: 12),
+            Profiles.MorePhotographer(user_id: "p-one", display_name: "Jo", avatar_url: nil, trees: 1),
+        ]
+        let next = SuggestedPeople.more(page, after: shown, me: "me", blocked: { $0 == "p-blocked" })
+        XCTAssertEqual(next.map(\.profile.user_id), ["p-ana", "p-one"])
+        XCTAssertEqual(next.map(\.reason), ["Photographed 12 trees", "Photographed 1 tree"])
+    }
 }

@@ -3812,6 +3812,9 @@ dialog.people-sheet .at-sheet-h { margin: 0 2.4rem 0.9rem 0; }
 .people-sug { margin-top: 12px; }
 .people-sug[hidden] { display: none; }
 .people-sug-h { margin: 0 0 4px; }
+/* The foot of Suggested: loads the next page while in view (people-js.ts). */
+.people-more { display: flex; justify-content: center; align-items: center; height: 56px; }
+.people-more[hidden] { display: none; }
 .people-sug .people-list { min-height: 0; }
 .people-av { position: relative; }
 .people-seal { position: absolute; right: -3px; bottom: -3px; width: 15px; height: 15px; display: flex; }

@@ -100,6 +100,8 @@
     <string name="people_ambassador_of">Ambassadeur van %1$s</string>
     <string name="people_photographed_1">Fotografeerde 1 boom in %1$s</string>
     <string name="people_photographed_n">Fotografeerde %1$d bomen in %2$s</string>
+    <string name="people_photographed_any_1">Fotografeerde 1 boom</string>
+    <string name="people_photographed_any_n">Fotografeerde %1$d bomen</string>
     <string name="people_follow">Volgen</string>
     <string name="people_follow_back">Terugvolgen</string>
     <string name="people_following_state">Volgend</string>

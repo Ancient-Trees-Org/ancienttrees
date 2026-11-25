@@ -48,6 +48,10 @@ struct PeopleView: View {
     @State private var results: [Profiles.Profile] = []
     /// What fills the page while the field is empty (Kit/SuggestedPeople.swift).
     @State private var suggestions: [SuggestedPerson] = []
+    /// Suggested keeps going while you scroll (2026-11-25): a page is on its
+    /// way, or the server has nobody left (or cannot answer), so it stops.
+    @State private var loadingMore = false
+    @State private var noMore = false
     @State private var followingIds: Set<String> = []
     @State private var searching = false
     /// Who the report-or-block sheet is about. One optional rather than a
@@ -164,6 +168,31 @@ struct PeopleView: View {
         }
         await profiles.loadAmbassadors(for: ids, token: token)
         suggestions = list
+        noMore = false
+    }
+
+    /// THE NEXT PAGE OF SUGGESTED (Hidde, 2026-11-25: "dat doorloopt en nieuwe
+    /// mensen laadt als je naar beneden gaat"), asked when the last row comes
+    /// into view, as Instagram's suggested people do. The most active public
+    /// photographers anywhere, 20 at a time, never somebody already shown or
+    /// followed (supabase/suggested-more.sql). Stops after the last one, or
+    /// when the server cannot answer.
+    private func loadMore() async {
+        guard source == .search, !loadingMore, !noMore, !DemoPeople.on,
+              let me = account.session?.userId else { return }
+        loadingMore = true
+        defer { loadingMore = false }
+        let token = await account.freshToken()
+        let shown = suggestions
+        guard let rows = await profiles.morePhotographers(skip: shown.map(\.profile.user_id),
+                                                          n: SuggestedPeople.page, token: token) else {
+            noMore = true; return
+        }
+        let next = SuggestedPeople.more(rows, after: shown, me: me, blocked: { moderation.hides($0) })
+        if rows.count < SuggestedPeople.page { noMore = true }
+        if next.isEmpty { noMore = true; return }
+        await profiles.loadAmbassadors(for: next.map(\.profile.user_id), token: token)
+        suggestions += next
     }
 
     /// Suggestions while the field is empty, never beside search results.
@@ -255,6 +284,18 @@ struct PeopleView: View {
                         ForEach(suggestions, id: \.profile.user_id) { s in
                             personRow(s.profile, reason: s.reason,
                                       seal: s.ambassador || !(profiles.placesByUser[s.profile.user_id] ?? []).isEmpty)
+                                // The last row in view asks for the next page.
+                                .onAppear {
+                                    if s.profile.user_id == suggestions.last?.profile.user_id {
+                                        Task { await loadMore() }
+                                    }
+                                }
+                        }
+                        if loadingMore {
+                            ProgressView()
+                                .frame(maxWidth: .infinity)
+                                .listRowSeparator(.hidden)
+                                .accessibilityIdentifier("people-suggested-more")
                         }
                     } header: {
                         Text("Suggested")

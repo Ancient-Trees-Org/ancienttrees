@@ -41,6 +41,31 @@ public enum SuggestedPeople {
 
     public static func reason(ambassadorOf place: String) -> String { "\(place) ambassador" }
 
+    /// Below the first rows, Suggested keeps going (Hidde, 2026-11-25, "Ja,
+    /// bouw het"; Instagram's suggested people load more as you scroll): the
+    /// public profiles who photographed the most trees anywhere, a page at a
+    /// time (supabase/suggested-more.sql).
+    public static let page = 20
+
+    public static func reason(photographedAnywhere n: Int) -> String {
+        n == 1 ? "Photographed 1 tree" : "Photographed \(n) trees"
+    }
+
+    /// The next page, appended under `shown`: one row per person, never you,
+    /// a blocked person or anybody already on the list.
+    public static func more(_ rows: [Profiles.MorePhotographer], after shown: [SuggestedPerson],
+                            me: String?, blocked: (String) -> Bool) -> [SuggestedPerson] {
+        var seen = Set(shown.map(\.profile.user_id))
+        var out: [SuggestedPerson] = []
+        for r in rows where r.user_id != me && !blocked(r.user_id) && !r.display_name.isEmpty {
+            guard seen.insert(r.user_id).inserted else { continue }
+            out.append(SuggestedPerson(profile: .init(user_id: r.user_id, display_name: r.display_name,
+                                                      avatar_url: r.avatar_url),
+                                       reason: reason(photographedAnywhere: r.trees), ambassador: false))
+        }
+        return out
+    }
+
     /// One ambassador from the feed: their profile id and the place's name.
     public struct Ambassador: Hashable, Sendable {
         public let userId: String

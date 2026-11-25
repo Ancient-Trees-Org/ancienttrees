@@ -182,6 +182,35 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, owner: Strin
     val photographedMany = stringResource(R.string.people_photographed_n)
     fun reasonAmbassador(place: String) = ambassadorWord.format(place)
     fun reasonPhoto(n: Int, place: String) = if (n == 1) photographedOne.format(place) else photographedMany.format(n, place)
+    val anywhereOne = stringResource(R.string.people_photographed_any_1)
+    val anywhereMany = stringResource(R.string.people_photographed_any_n)
+    var loadingMore by remember { mutableStateOf(false) }
+    var noMore by remember { mutableStateOf(false) }
+
+    /** THE NEXT PAGE OF SUGGESTED (Hidde, 2026-11-25; People.swift loadMore): when
+     *  the foot of the list comes into view, the most active public photographers
+     *  anywhere, 20 at a time, never somebody shown or followed; stops after the
+     *  last one or when the server cannot answer. */
+    suspend fun loadMore() {
+        if (source != PeopleSource.SEARCH || me == null || demo || loadingMore || noMore) return
+        loadingMore = true
+        try {
+            val shown = suggestions
+            val rows = host.profiles.morePhotographers(shown.map { it.profile.userId }, 20, token())
+            if (rows == null) { noMore = true; return }
+            if (rows.size < 20) noMore = true
+            val seen = shown.map { it.profile.userId }.toHashSet()
+            val next = rows.filter {
+                it.userId != me && !host.moderation.hides(it.userId) && it.displayName.isNotEmpty() && seen.add(it.userId)
+            }.map {
+                Suggestion(Profiles.Profile(it.userId, it.displayName, it.avatarUrl),
+                    if (it.trees == 1) anywhereOne else anywhereMany.format(it.trees), false)
+            }
+            if (next.isEmpty()) { noMore = true; return }
+            host.profiles.loadAmbassadors(next.map { it.profile.userId }, token())
+            suggestions = shown + next
+        } finally { loadingMore = false }
+    }
 
     suspend fun loadSuggestions() {
         if (source != PeopleSource.SEARCH || me == null) { suggestions = emptyList(); loadFollowing(); return }
@@ -227,6 +256,7 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, owner: Strin
         list = list.map { s -> fresh[s.profile.userId]?.let { p -> s.copy(profile = s.profile.copy(displayName = p.displayName.ifEmpty { s.profile.displayName }, avatarUrl = p.avatarUrl)) } ?: s }
         host.profiles.loadAmbassadors(list.map { it.profile.userId }, t)
         suggestions = list
+        noMore = false
         me?.let { lastSuggestions = it to list }
     }
 
@@ -360,6 +390,13 @@ private fun FindPeopleInner(host: PeopleHost, source: PeopleSource, owner: Strin
                 items(suggestions, key = { "s" + it.profile.userId }) { s ->
                     PersonRow(host, s.profile, s.reason, s.ambassador || host.profiles.placesByUser[s.profile.userId].orEmpty().isNotEmpty(),
                         following = s.profile.userId in followingIds, source = source, onFollow = { toggle(s.profile) }, onMore = { acting = s.profile })
+                }
+                // The foot of Suggested: in view, it asks for the next page.
+                if (!noMore) item(key = "s-more") {
+                    LaunchedEffect(suggestions.size) { loadMore() }
+                    Box(Modifier.fillMaxWidth().height(56.dp).testTag("people-suggested-more"), contentAlignment = Alignment.Center) {
+                        if (loadingMore) androidx.compose.material3.CircularProgressIndicator(Modifier.size(22.dp), color = brand.inkSoft, strokeWidth = 2.dp)
+                    }
                 }
             } else {
                 items(visible, key = { it.userId }) { p ->

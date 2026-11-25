@@ -99,7 +99,7 @@ export const PEOPLE_JS = `
     return t.replace('%place%', place);
   }
   function loadSuggestions() {
-    sug = [];
+    sug = []; moreDone = false;
     Promise.all([
       rows('/rest/v1/saves?select=tree_id&user_id=eq.' + me),
       rows('/rest/v1/visited?select=tree_id&user_id=eq.' + me),
@@ -165,8 +165,57 @@ export const PEOPLE_JS = `
     box.hidden = !show;
     // The results list keeps its height for typing; not under suggestions.
     el('people-list').hidden = show;
+    el('people-more').hidden = !show || moreDone;
     if (!show) return;
     el('people-sug-list').innerHTML = sug.map(rowHtml).join('');
+  }
+
+  // SUGGESTED KEEPS GOING (Hidde, 2026-11-25: "dat doorloopt en nieuwe mensen
+  // laadt als je naar beneden gaat"; Instagram's suggested people, the app's
+  // People.swift loadMore): when the foot of the list comes into view, the
+  // next 20 public photographers anywhere, most trees first, never somebody
+  // shown or followed (supabase/suggested-more.sql); stops after the last one
+  // or when the server cannot answer.
+  var moreBusy = false, moreDone = false;
+  function reasonAny(n) {
+    var box = el('people-sug');
+    return n === 1 ? box.getAttribute('data-any-one') : box.getAttribute('data-any').replace('9999', String(n));
+  }
+  function loadMore() {
+    if (moreBusy || moreDone || mode !== 'search' || !me || !token || !sug.length) return;
+    moreBusy = true;
+    fetch(SB + '/rest/v1/rpc/suggested_more', { method: 'POST',
+      headers: { 'apikey': KEY, 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ skip: sug.map(function(p) { return p.user_id; }), n: 20 }) })
+      .then(function(r) { return r.ok ? r.json() : null; })
+      .catch(function() { return null; })
+      .then(function(rows) {
+        moreBusy = false;
+        if (!Array.isArray(rows)) { moreDone = true; paintSuggestions(); return; }
+        if (rows.length < 20) moreDone = true;
+        var seen = {};
+        sug.forEach(function(p) { seen[p.user_id] = true; });
+        var next = rows.filter(function(x) {
+          if (x.user_id === me || blocked[x.user_id] || !x.display_name || seen[x.user_id]) return false;
+          seen[x.user_id] = true; return true;
+        }).map(function(x) {
+          return { user_id: x.user_id, display_name: x.display_name, avatar_url: x.avatar_url,
+                   reason: reasonAny(x.trees), seal: false };
+        });
+        if (!next.length) moreDone = true;
+        sug = sug.concat(next);
+        paintSuggestions();
+        // A short page leaves the foot in view, and the observer only speaks
+        // when that changes: ask again ourselves.
+        if (!moreDone) requestAnimationFrame(function() {
+          if (el('people-more').getBoundingClientRect().top < innerHeight + 200) loadMore();
+        });
+      });
+  }
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function(es) {
+      if (es.some(function(e) { return e.isIntersecting; })) loadMore();
+    }, { rootMargin: '0px 0px 200px 0px' }).observe(el('people-more'));
   }
 
   function step(name) {

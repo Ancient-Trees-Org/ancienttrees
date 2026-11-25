@@ -516,6 +516,25 @@ public final class Profiles {
         return (try? JSONDecoder().decode([Photographer].self, from: data)) ?? []
     }
 
+    /// One more page of Suggested (supabase/suggested-more.sql, 2026-11-25):
+    /// public profiles who photographed the most trees anywhere, never one in
+    /// `skip`, nobody you follow. Nil when the call failed (the list stops).
+    public struct MorePhotographer: Decodable, Sendable, Hashable {
+        public let user_id: String
+        public let display_name: String
+        public let avatar_url: String?
+        public let trees: Int
+    }
+
+    public func morePhotographers(skip: [String], n: Int = 20, token: String?) async -> [MorePhotographer]? {
+        guard let token else { return nil }
+        struct Body: Encodable { let skip: [String]; let n: Int }
+        guard let data = try? await send(request("rpc/suggested_more", "POST", token: token,
+                                                 body: try? JSONEncoder().encode(Body(skip: skip, n: n))))
+        else { return nil }
+        return try? JSONDecoder().decode([MorePhotographer].self, from: data)
+    }
+
     private func send(_ r: URLRequest) async throws -> Data {
         let (data, response) = try await Net.data(for: r)
         let code = (response as? HTTPURLResponse)?.statusCode ?? 0

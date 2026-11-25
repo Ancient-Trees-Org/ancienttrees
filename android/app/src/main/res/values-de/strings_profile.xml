@@ -100,6 +100,8 @@
     <string name="people_ambassador_of">Botschafter für %1$s</string>
     <string name="people_photographed_1">Hat 1 Baum in %1$s fotografiert</string>
     <string name="people_photographed_n">Hat %1$d Bäume in %2$s fotografiert</string>
+    <string name="people_photographed_any_1">Hat 1 Baum fotografiert</string>
+    <string name="people_photographed_any_n">Hat %1$d Bäume fotografiert</string>
     <string name="people_follow">Folgen</string>
     <string name="people_follow_back">Zurückfolgen</string>
     <string name="people_following_state">Folgst du</string>

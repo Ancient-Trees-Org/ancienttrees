@@ -4,6 +4,7 @@
     "stuck-signin-links.sql": {"exempt": "stores nothing; a read-only function over Supabase's own sign-in links that tells the service key which accounts never used theirs, so the same sign-in mail can be sent again"},
     "reader-judge-trigger.sql": {"exempt": "stores nothing; on a new tree or shared photo it asks GitHub to start a workflow, and the call carries only the words reader-tree, never an id, a name or a place"},
     "PENDING.sql": {"exempt":"a copy kept on hold, never pasted; the live file it copies is mapped"},
+    "suggested-more.sql": {"exempt": "stores nothing; a read-only function that lists more public profiles with published photographs under Find people, the same fields suggested-people.sql already shows"},
     "follow-activity.sql": {"exempt": "stores nothing; a read-only function that shows you your own hearts and who follows you, from tables already mapped (profiles.sql, photo-hearts-who.sql)"},
     "ambassadors.sql": {"phrase": "ambassador of a place"},
     "avatars-policy.sql": {"phrase": "add a picture"},

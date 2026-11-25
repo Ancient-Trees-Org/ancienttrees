@@ -225,6 +225,7 @@ export interface UIStrings {
    *  photographed trees in a place you saved or collected. */
   peopleSuggested: string;
   peoplePhotographed: (n: number, place: string) => string;
+  peoplePhotographedAny: (n: number) => string;
   /** The ambassador row in the city page's white box (direction C, Hidde,
    *  2026-11-05). Nobody yet: one line that opens the request. Somebody looks
    *  after the place but is not named: the same row asks for "a" second one.
@@ -760,6 +761,7 @@ const EN: UIStrings = {
   ambassadorRole: (place) => `${place} ambassador`,
   peopleSuggested: "Suggested",
   peoplePhotographed: (n, place) => n === 1 ? `Photographed 1 tree in ${place}` : `Photographed ${n} trees in ${place}`,
+  peoplePhotographedAny: (n) => n === 1 ? `Photographed 1 tree` : `Photographed ${n} trees`,
   ageYears: (n) => `${n} years`,
   seenChip: "Collected",
   seasonChip: { bloom: "In bloom", autumn: "Autumn colour", fruit: "In fruit", leaves: "Fresh leaves", catkins: "Catkins", winter: "Winter shape", peak: "In season" },
@@ -1420,6 +1422,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     ambassadorRole: (place) => `Cuida la lista de ${place}`,
     peopleSuggested: "Sugerencias",
     peoplePhotographed: (n, place) => n === 1 ? `Fotografió 1 árbol en ${place}` : `Fotografió ${n} árboles en ${place}`,
+    peoplePhotographedAny: (n) => n === 1 ? `Fotografió 1 árbol` : `Fotografió ${n} árboles`,
     ageYears: (n) => `${n} años`,
     seenChip: "Coleccionado",
     seasonChip: { bloom: "En flor", autumn: "Color de otoño", fruit: "Con fruto", leaves: "Hojas nuevas", catkins: "Amentos", winter: "Silueta invernal", peak: "En temporada" },
@@ -1808,6 +1811,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     ambassadorRole: (place) => `Cura la lista di ${place}`,
     peopleSuggested: "Suggeriti",
     peoplePhotographed: (n, place) => n === 1 ? `Ha fotografato 1 albero a ${place}` : `Ha fotografato ${n} alberi a ${place}`,
+    peoplePhotographedAny: (n) => n === 1 ? `Ha fotografato 1 albero` : `Ha fotografato ${n} alberi`,
     ageYears: (n) => `${n} anni`,
     seenChip: "Collezionato",
     seasonChip: { bloom: "In fiore", autumn: "Colori d'autunno", fruit: "Con frutti", leaves: "Foglie nuove", catkins: "Amenti", winter: "Sagoma invernale", peak: "Di stagione" },
@@ -2196,6 +2200,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     ambassadorRole: (place) => `Ambassadeur van ${place}`,
     peopleSuggested: "Voorgesteld",
     peoplePhotographed: (n, place) => n === 1 ? `Fotografeerde 1 boom in ${place}` : `Fotografeerde ${n} bomen in ${place}`,
+    peoplePhotographedAny: (n) => n === 1 ? `Fotografeerde 1 boom` : `Fotografeerde ${n} bomen`,
     ageYears: (n) => `${n} jaar`,
     seenChip: "Verzameld",
     seasonChip: { bloom: "In bloei", autumn: "Herfstkleur", fruit: "Vruchten", leaves: "Vers blad", catkins: "Katjes", winter: "Wintersilhouet", peak: "Nu op z'n mooist" },
@@ -2584,6 +2589,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     ambassadorRole: (place) => `Betreut die Liste für ${place}`,
     peopleSuggested: "Vorschläge",
     peoplePhotographed: (n, place) => n === 1 ? `Hat 1 Baum in ${place} fotografiert` : `Hat ${n} Bäume in ${place} fotografiert`,
+    peoplePhotographedAny: (n) => n === 1 ? `Hat 1 Baum fotografiert` : `Hat ${n} Bäume fotografiert`,
     ageYears: (n) => `${n} Jahre`,
     seenChip: "Gesammelt",
     seasonChip: { bloom: "In Blüte", autumn: "Herbstfärbung", fruit: "Früchte", leaves: "Frisches Laub", catkins: "Kätzchen", winter: "Wintersilhouette", peak: "Jetzt am schönsten" },
@@ -2972,6 +2978,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     ambassadorRole: (place) => `Cuida da lista de ${place}`,
     peopleSuggested: "Sugestões",
     peoplePhotographed: (n, place) => n === 1 ? `Fotografou 1 árvore em ${place}` : `Fotografou ${n} árvores em ${place}`,
+    peoplePhotographedAny: (n) => n === 1 ? `Fotografou 1 árvore` : `Fotografou ${n} árvores`,
     ageYears: (n) => `${n} anos`,
     seenChip: "Colecionada",
     seasonChip: { bloom: "Em flor", autumn: "Cores de outono", fruit: "Com fruto", leaves: "Folhas novas", catkins: "Amentilhos", winter: "Silhueta de inverno", peak: "Na época" },
@@ -3360,6 +3367,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     ambassadorRole: (place) => `Veille sur la liste de ${place}`,
     peopleSuggested: "Suggestions",
     peoplePhotographed: (n, place) => n === 1 ? `A photographié 1 arbre à ${place}` : `A photographié ${n} arbres à ${place}`,
+    peoplePhotographedAny: (n) => n === 1 ? `A photographié 1 arbre` : `A photographié ${n} arbres`,
     ageYears: (n) => `${n} ans`,
     seenChip: "Collectionné",
     seasonChip: { bloom: "En fleurs", autumn: "Couleurs d'automne", fruit: "En fruits", leaves: "Jeunes feuilles", catkins: "Chatons", winter: "Silhouette d'hiver", peak: "De saison" },
@@ -3747,6 +3755,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     ambassadorRole: (place) => `${place}のアンバサダー`,
     peopleSuggested: "おすすめ",
     peoplePhotographed: (n, place) => `${place}で${n}本の木を撮影`,
+    peoplePhotographedAny: (n) => `${n}本の木を撮影`,
     ageYears: (n) => `${n}年`,
     seenChip: "集めた",
     seasonChip: { bloom: "開花中", autumn: "紅葉", fruit: "実り", leaves: "新緑", catkins: "尾状花序", winter: "冬の樹形", peak: "見頃" },

@@ -289,6 +289,25 @@ class Profiles(private val args: List<String> = emptyList()) {
         }.getOrDefault(emptyList())
     }
 
+    /**
+     * One more page of Suggested (supabase/suggested-more.sql, 2026-11-25;
+     * Profiles.morePhotographers on the iPhone): public profiles who photographed
+     * the most trees anywhere, never one in [skip], nobody you follow. The place
+     * is empty. Null when the call failed, so the list stops.
+     */
+    suspend fun morePhotographers(skip: List<String>, n: Int, token: String?): List<Photographer>? {
+        if (token == null) return null
+        val body = JSONObject().put("skip", JSONArray(skip)).put("n", n)
+        val r = Supa.send("/rest/v1/rpc/suggested_more", token = token, body = body.toString())
+        if (!r.ok) return null
+        return runCatching {
+            val a = JSONArray(r.body)
+            (0 until a.length()).map { a.getJSONObject(it) }.map {
+                Photographer("", it.getString("user_id"), it.optString("display_name"), it.str("avatar_url"), it.optInt("trees"))
+            }
+        }.getOrNull()
+    }
+
     // MARK: inside
 
     private suspend fun get(path: String, token: String?): List<JSONObject>? {
