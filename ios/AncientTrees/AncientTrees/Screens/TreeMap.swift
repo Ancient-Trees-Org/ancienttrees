@@ -540,6 +540,45 @@ struct TreeMap: UIViewRepresentable {
         })
     }
 
+    /// What the tree layers show now, so an update that changed nothing costs
+    /// nothing. The very array, saved and collected sets last drawn (same
+    /// storage is the fast path: the rising sheet updates the view about 80
+    /// times a pin tap, 2026-11-03), and what the pins draw (drawKeys), so a
+    /// new but identical array does not redraw.
+    ///
+    /// forget() clears ALL of it. A style reload (light to dark under a live
+    /// map) drops our layers; the reload branch used to clear only the keys,
+    /// so the same array still looked drawn, the keys were never rebuilt and
+    /// the map stayed empty until a pan (walk before build 42, 2026-11-25).
+    struct DrawnTrees {
+        private var trees: [Tree] = []
+        private var collected: Set<String> = []
+        private var favourites: Set<String> = []
+        private var keys: Set<TreeDrawKey> = []
+        private var drewOnce = false
+
+        /// True when the tree layers must be set again for these.
+        mutating func update(_ trees: [Tree], collected: Set<String>,
+                             favourites: Set<String>) -> Bool {
+            let same = drewOnce && trees.count == self.trees.count
+                && trees.withUnsafeBufferPointer { a in
+                    self.trees.withUnsafeBufferPointer { b in a.baseAddress == b.baseAddress }
+                }
+                && collected == self.collected && favourites == self.favourites
+            if same { return false }
+            let want = TreeMap.drawKeys(trees, collected: collected, favourites: favourites)
+            self.trees = trees
+            self.collected = collected
+            self.favourites = favourites
+            if drewOnce && want == keys { return false }
+            keys = want
+            drewOnce = true
+            return true
+        }
+
+        mutating func forget() { self = DrawnTrees() }
+    }
+
     /// The same for your own pins: where it stands, what it is called and
     /// whether it has a photograph, which is what setMine draws.
     struct MineDrawKey: Hashable, Sendable {
@@ -604,12 +643,8 @@ struct TreeMap: UIViewRepresentable {
         private var pending: (trees: [Tree],
                               mine: [(id: UUID, lat: Double, lng: Double, name: String, photo: UIImage?)],
                               declutter: Bool)?
-        private var drawnTreeIDs: Set<TreeMap.TreeDrawKey> = []
-        /// The very array, saved and collected sets last drawn, so an update
-        /// that changed none of them costs nothing (see sync).
-        private var drawnTrees: [Tree] = []
-        private var drawnCollected: Set<String> = []
-        private var drawnFavourites: Set<String> = []
+        /// What the tree layers show now (TreeMap.DrawnTrees).
+        private var drawn = TreeMap.DrawnTrees()
         private var drawnMineIDs: Set<TreeMap.MineDrawKey> = []
         /// The constraint that keeps the recentre control above the sheet.
         var recentreLift: NSLayoutConstraint?
@@ -652,7 +687,7 @@ struct TreeMap: UIViewRepresentable {
             // on the OLD one, so without this the map comes back with a dark
             // basemap and no trees on it at all.
             if styleReady {
-                drawnTreeIDs = []
+                drawn.forget()
                 drawnMineIDs = []
                 pending = (trees: parent.trees, mine: parent.mine,
                            declutter: parent.declutter)
@@ -698,27 +733,11 @@ struct TreeMap: UIViewRepresentable {
             // the watchdog killed the app (2026-11-03, TreeMap.swift:629). The
             // same array is the same storage, so comparing where it lives is
             // exact and costs nothing; any filter or new feed is a new array.
-            let sameTrees = trees.count == drawnTrees.count
-                && trees.withUnsafeBufferPointer { a in
-                    drawnTrees.withUnsafeBufferPointer { b in a.baseAddress == b.baseAddress }
-                }
-            let treesChanged = !sameTrees || parent.collected != drawnCollected
-                || parent.favourites != drawnFavourites
-            // A new array is not yet a new map: compare what the pins draw
-            // (TreeMap.drawKeys), so a refresh that moved a pin, added a
-            // photograph or fixed a name redraws and an identical one does not.
-            var wantTrees = drawnTreeIDs
-            if treesChanged {
-                wantTrees = TreeMap.drawKeys(trees, collected: parent.collected,
-                                             favourites: parent.favourites)
-                drawnTrees = trees
-                drawnCollected = parent.collected
-                drawnFavourites = parent.favourites
-            }
+            let redrawTrees = drawn.update(trees, collected: parent.collected,
+                                           favourites: parent.favourites)
             let wantMine = TreeMap.drawKeys(mine)
             MainActor.assumeIsolated {
-            if wantTrees != drawnTreeIDs {
-                drawnTreeIDs = wantTrees
+            if redrawTrees {
                 MapLayers.setTrees(trees, on: style, declutter: declutter,
                                    zoom: map.zoomLevel,
                                    collected: parent.collected,

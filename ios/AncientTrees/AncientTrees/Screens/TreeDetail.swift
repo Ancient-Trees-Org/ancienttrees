@@ -366,7 +366,7 @@ struct TreeDetail: View {
             // buttons floating on it; the white band above our photo was the
             // navigation bar's own area doing nothing.
             .ignoresSafeArea(edges: .top)
-            .toolbarBackground(.hidden, for: .navigationBar)
+            .modifier(HeroBarBackground())
             actionBar
                 // The snackbar ("Added to Want to visit") stands on this bar.
                 .onGeometryChange(for: CGFloat.self) { $0.size.height } action: { barHeight = $0 }
@@ -2968,6 +2968,23 @@ struct TreeDetail: View {
                 Brand.ground
             }
             .ignoresSafeArea(edges: .bottom)
+        }
+    }
+}
+
+/// The bar over the tree page's photograph. On iOS 26 the buttons are glass
+/// discs that float on the picture and on the text alike, so the bar has no
+/// background at all. Before 26 they are plain "Back" and two glyphs: hidden
+/// there, the clock and "Back" sat on top of the facts once the page scrolled
+/// (walk before build 42, 2026-11-25, iOS 18.6). There the bar keeps the
+/// system's own behaviour, clear at the top edge over the photograph and the
+/// system material once text scrolls under it (AncientTreesApp's appearance).
+struct HeroBarBackground: ViewModifier {
+    func body(content: Content) -> some View {
+        if #available(iOS 26, *) {
+            content.toolbarBackground(.hidden, for: .navigationBar)
+        } else {
+            content
         }
     }
 }

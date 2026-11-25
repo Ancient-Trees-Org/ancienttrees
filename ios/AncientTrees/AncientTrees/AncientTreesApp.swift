@@ -64,9 +64,24 @@ struct AncientTreesApp: App {
         if let inline = UIFont(name: "Gabarito-Bold", size: 17) {
             bar.titleTextAttributes = [.font: inline, .foregroundColor: ink]
         }
-        UINavigationBar.appearance().standardAppearance = bar
+        // Clear at the scroll edge, Apple's own default. Once content scrolls
+        // under the bar, iOS 26 draws its glass edge effect by itself, but
+        // iOS 18 and earlier draw nothing behind a transparent bar: the clock
+        // and "Back" sat on top of the tree page's facts, Find people's names
+        // and Settings (walk before build 42, 2026-11-25). Below 26 the
+        // scrolled bar takes the system material, as every UIKit app's does.
+        let scrolled: UINavigationBarAppearance
+        if #available(iOS 26, *) {
+            scrolled = bar
+        } else {
+            scrolled = UINavigationBarAppearance()
+            scrolled.configureWithDefaultBackground()
+            scrolled.largeTitleTextAttributes = bar.largeTitleTextAttributes
+            scrolled.titleTextAttributes = bar.titleTextAttributes
+        }
+        UINavigationBar.appearance().standardAppearance = scrolled
         UINavigationBar.appearance().scrollEdgeAppearance = bar
-        UINavigationBar.appearance().compactAppearance = bar
+        UINavigationBar.appearance().compactAppearance = scrolled
     }
 
     var body: some Scene {

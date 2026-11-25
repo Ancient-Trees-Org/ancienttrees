@@ -163,7 +163,7 @@ struct PersonProfileView: View {
                     // support.alltrails.com 360019244871; Strava, Polarsteps).
                     // Signed out, the names are behind an account, so it asks.
                     HStack(spacing: 14) {
-                        countButton("**\(followers)** followers", id: "person-followers") {
+                        countButton("**\(followers)** \(followers == 1 ? "follower" : "followers")", id: "person-followers") {
                             openList(followers: true)
                         }
                         countButton("**\(profile?.following ?? 0)** following", id: "person-following") {

@@ -699,6 +699,50 @@
    "first_seen": "2026-11-25",
    "status": "open",
    "found_by": "reader"
+  },
+  {
+   "id": "ESC-2026-11-25-map-loses-every-pin-after-a-light-or-dar",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/TreeMap.swift",
+   "summary": "Map loses every pin after a light or dark switch until a pan",
+   "first_seen": "2026-11-25",
+   "status": "open",
+   "found_by": "test",
+   "test": "AncientTreesTests/AStyleReloadDrawsTheTreesAgain"
+  },
+  {
+   "id": "ESC-2026-11-25-tree-page-credit-reads-photo-with-an-emp",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Kit/Photos.swift",
+   "summary": "Tree page credit reads Photo: with an empty name for a reader's photograph",
+   "first_seen": "2026-11-25",
+   "status": "open",
+   "found_by": "test",
+   "test": "AncientTreesTests/CreditLineTests"
+  },
+  {
+   "id": "ESC-2026-11-25-ios-18-navigation-bar-is-see-through-whe",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/AncientTreesApp.swift",
+   "summary": "iOS 18 navigation bar is see-through when content scrolls under it",
+   "first_seen": "2026-11-25",
+   "status": "open",
+   "found_by": "test",
+   "no_test_reason": "a translucency fault: no XCUI frame measures what shows through a bar; looked at on iOS 18.6 scrolled, tree page and Find people"
+  },
+  {
+   "id": "ESC-2026-11-25-my-trees-follower-count-overlaps-the-nam",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Collect.swift",
+   "summary": "My trees follower count overlaps the name at large text",
+   "first_seen": "2026-11-25",
+   "status": "open",
+   "found_by": "test",
+   "no_test_reason": "no machine check runs the app at accessibility text sizes yet; found by the large-text pass of the release walk, looked at after the fix"
   }
  ]
 }

@@ -13,6 +13,17 @@
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
 
+## 2026-11-25 session: the test chain before iPhone build 42 (Hidde: "Ja, start hem")
+
+- **Fixed in the app, from the release walk** (iPhone 16 Pro Max iOS 18.6, SE at XXL text, test account; walk notes in out/tmp/walk-ios.md):
+  - The map lost every pin after a light/dark switch until a pan. A style reload cleared the drawn keys but not the drawn array, so nothing was set again. `TreeMap.DrawnTrees.forget()` clears all of it; test MapStyleReloadTests, red with the old forget. Looked at: pins stay through light, dark, light.
+  - iOS 18: the navigation bar was see-through once content scrolled under it (the clock and Back over the tree page's facts, Find people, Settings), since 2026-08-20. Below iOS 26 the scrolled bar now takes the system material and the tree page keeps a clear bar only over its photo (`HeroBarBackground`). iOS 26 unchanged. Looked at scrolled and at rest.
+  - The tree page credit read "Photo:  · Provided by a reader..." for a reader's photograph: the feed's empty credit_line now means no credit, as on the website. Test CreditLineTests.
+  - My trees at large text: "0 followers" wrapped and sat over the name; the counts stay on one line. "1 followers" is "1 follower" (My trees, a person's profile).
+- **Data**: the Pekingtuin oak's story said 5.52 m around; the national register (2024) and the facts box say 5.9 m. Story follows the register.
+- **Machines**: appsweep 160 screens, the ones looked at clean. Android: unit tests and Play build ok, the Play apk by finger ok; the instrumented run on the minified build hung past its 30 minutes on this Mac (CI's own walk is green, its spacing job red since 11-25 08:30).
+- **Not fixed, nits from the walk** (should-fix list for a later build): the country list in Edit profile has no search and opens at the top; "A visitor" for your own heart on a private account; Want to visit keeps the card of a tree the filter hides; the review sheet came twice in minutes; searching "oak" misses Pedunculate Oak; offline nothing says so.
+
 ## 2026-11-25 session: a reader who reports a bug now hears when it is fixed
 
 - **New mail** (Hidde: "Ja, bouw hem"): `scripts/bug_fixed_mail.py` tells a reader whose feedback was closed as a bug that it is fixed, once the fix reaches them: the live site's commit for web, the App Store build for iPhone, an Android build. One standard line in our words (`reader_line` on the bug row, Dutch when they wrote Dutch), never theirs. Runs in tell-readers.yml after each deploy and in the knock. Tests: scripts/test_bug_fixed_mail.py.

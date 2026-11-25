@@ -1015,7 +1015,7 @@ struct CollectView: View {
                             // Taps, not Buttons: this header is the sheet's
                             // handle (BottomSheet sheetTap, 2026-11-05).
                             (Text("\(profiles.followers)").fontWeight(.semibold).foregroundStyle(Brand.ink)
-                                + Text(" followers"))
+                                + Text(profiles.followers == 1 ? " follower" : " followers"))
                                 // The 44 INSIDE the control, so it is 44 tall
                                 // (appfit measured 20 when the frame sat outside).
                                 .frame(minHeight: 44)
@@ -1036,6 +1036,12 @@ struct CollectView: View {
                             .padding(.vertical, -12)
                         }
                         .font(.subheadline).foregroundStyle(Brand.inkSoft)
+                        // ONE LINE EACH. The -12 overhang is sized for one line;
+                        // at the capped size "0 followers" wrapped to two and
+                        // the overhang pulled it over the name (walk before
+                        // build 42, 2026-11-25, iPhone SE at XXL text).
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.7)
                         // CAPPED, because two counts side by side cannot grow
                         // to five times their size and stay two counts. At the
                         // largest accessibility setting this read "0 followe...

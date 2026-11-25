@@ -62,7 +62,12 @@ public enum Photos {
         // photograph somebody gave us, whose licence field is a sentence naming
         // the giver again. The join stays only for a catalogue bundled before
         // the field existed.
-        if let line = p.creditLine, !line.isEmpty { return line }
-        return [p.name, p.license].compactMap { $0 }.joined(separator: " \u{00B7} ")
+        // An empty line is the feed's answer too: no name to credit (a reader's
+        // photograph, whose name the server gives under the photo), so the
+        // website prints nothing and so does the app. Treating "" as missing
+        // printed "Photo:  · Provided by a reader..." (walk before build 42).
+        if let line = p.creditLine { return line.isEmpty ? nil : line }
+        let parts = [p.name, p.license].compactMap { $0 }.filter { !$0.isEmpty }
+        return parts.isEmpty ? nil : parts.joined(separator: " \u{00B7} ")
     }
 }
