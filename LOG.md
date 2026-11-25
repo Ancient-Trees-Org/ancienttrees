@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-25 reader judge: a reader's photograph now leads the Hamarikyu pine
+
+- **Tokyo, The Three Hundred Year Pine (tok_006):** a reader's photograph from the app, taken today. It shows the black pine itself: the wide, low, layered crown on its log props behind the bamboo fence, in daylight. Added as the lead photograph, and the old one moves into the strip. Filed in November from the photograph's own date. Sender mailed by sightings_publish. Its pin catch-up could not read coordinates (HTTPError); the tree's pin was untouched.
+- **Left for the next run:** the Amsterdam lead 3c544597 ("not sure which tree", near the Stationsplein elm). Its photograph is not on disk and it is marked `mine`, so it was not judged blind.
+- No open reports, no feedback without a verdict, no tips to judge, no reader words waiting for a page.
+
 ## 2026-11-25 night window 00:51: checked, shipped nothing
 
 - Rung 1: three new tree notes read, none on the closed list, marked seen. No reader backlog over 24h. The one unmapped reader photo (3c544597, Amsterdam) belongs to the reader judge.

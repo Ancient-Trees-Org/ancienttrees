@@ -296,19 +296,34 @@
       "access": "Paid entry, 300 yen (150 yen for ages 65 and over). Open 9:00 to 17:00, last entry 16:30; closed over the New Year period.",
       "transport": "7 min walk from Shiodome Station (Oedo/Yurikamome lines)",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Hama-Rikyu_300-year-old_pine.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Kimon Berlin and Gribeco, Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/tok_006-the-three-hundred-year-pine-884271d6.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3504,
-        "height": 2336,
-        "taken_month": 11
+        "width": 1600,
+        "height": 1204,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_9cc5eb32fee176817f33833a",
+        "sighting_id": "884271d6-d2ca-4381-87d4-7dcdbb2e2255",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); a viewing pass approved it on 2026-11-25: The Hamarikyu black pine itself: a wide, low, layered crown on log props behind the bamboo fence, in bright daylight and colour. A good reader photograph of this tree. Species seen: long paired pine needles in tufts, dark furrowed trunks, flat layered crown: a Japanese black pine. Fits the description: branches sprawling low and wide rather than upward, propped on many log supports, inside a garden fence with city towers behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Pin corrected from the garden's main entrance to the tree's own position: OpenStreetMap carries a contributor-mapped node named \"三百年の松\" (Three-Hundred-Year Pine Tree) tagged as Pinus thunbergii at this spot, with a matching guidepost and information-board node within a few metres corroborating it.",
       "location_precision": "confirmed",
       "paid_entry": true,
-      "how_to_recognise": "You can recognise it by the low branches, propped on log supports and running more than 20 metres out from the trunk instead of upward. It stands in Hamarikyu Onshi Teien and is the biggest black pine in Tokyo."
+      "how_to_recognise": "You can recognise it by the low branches, propped on log supports and running more than 20 metres out from the trunk instead of upward. It stands in Hamarikyu Onshi Teien and is the biggest black pine in Tokyo.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Hama-Rikyu_300-year-old_pine.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Kimon Berlin and Gribeco, Wikimedia Commons",
+          "status": "approved",
+          "width": 3504,
+          "height": 2336,
+          "taken_month": 11
+        }
+      ]
     },
     {
       "id": "tok_007",

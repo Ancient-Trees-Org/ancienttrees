@@ -3264,6 +3264,21 @@
      "mailed": "2026-11-24"
     }
    ]
+  },
+  "p_9cc5eb32fee176817f33833a": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "884271d6-d2ca-4381-87d4-7dcdbb2e2255",
+     "tree_id": "tok_006",
+     "tree_name": "The Three Hundred Year Pine",
+     "city": "Tokyo",
+     "city_slug": "tokyo",
+     "display_name": null,
+     "live": "2026-11-25"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

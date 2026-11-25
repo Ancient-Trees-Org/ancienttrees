@@ -18,6 +18,28 @@
    "agreed": null
   },
   {
+   "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Three Hundred Year Pine",
+   "city": "Tokyo",
+   "species": "Japanese Black Pine (Pinus thunbergii)",
+   "photo": "out/sightings/884271d6-d2ca-4381-87d4-7dcdbb2e2255.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 63,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Japanese Black Pine (Pinus thunbergii)"
+   },
+   "verdict": "publish",
+   "reason": "the Hamarikyu black pine itself, low layered crown on props behind the bamboo fence, daylight; now the lead photo on tok_006",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:745e0fd4-abaf-413b-a870-67eb466731e0",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",
