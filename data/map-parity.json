@@ -124,6 +124,15 @@
       "android": "nothing to change: TreeMapView.kt installLayers adds fixed-name layers once per style and updates the one source with setGeoJson",
       "status": "one-sided",
       "why": "only the iPhone renames its layers on every redraw, so only it could meet a name twice"
+    },
+    {
+      "what": "No error when a tapped pin's card closes while it opens on a phone-width web map (web_errors, 2026-11-25)",
+      "since": "2026-11-25",
+      "web": "map-card-js.ts reads the card's position for the phone ease only while the card is still up",
+      "ios": "nothing to change: the card is a SwiftUI view, never read after it is gone",
+      "android": "nothing to change: the card is a Compose view, never read after it is gone",
+      "status": "one-sided",
+      "why": "a script reading a removed DOM element is a web-only fault; the card behaves the same everywhere"
     }
   ]
 }
