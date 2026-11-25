@@ -2356,6 +2356,26 @@
         "The Bearded Larch of the Col du Bard Path"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_3bb792528c3370538a708e62",
+      "place_slug": "arezzo",
+      "place_name": "Arezzo",
+      "date": "2026-11-25",
+      "trees": [
+        "Bella di Ceciliano"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_0ff8aaa6b520db6499506ff3",
+      "place_slug": "verona",
+      "place_name": "Verona",
+      "date": "2026-11-25",
+      "trees": [
+        "The Golden Tree by the Flagpoles"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
