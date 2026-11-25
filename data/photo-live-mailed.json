@@ -3057,7 +3057,17 @@
   },
   "p_da3da5a4ed100473ae2ad2cf": {
    "last": "2026-11-23",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "00433fac-03a3-48ed-a513-56ddfa936aa9",
+     "tree_id": "spl_001",
+     "tree_name": "The Hajdukova Murva (Hajduk's Mulberry)",
+     "city": "Split",
+     "city_slug": "split",
+     "display_name": null,
+     "live": "2026-11-25"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "e585bee9-5973-43f0-83aa-027decd6bd22",

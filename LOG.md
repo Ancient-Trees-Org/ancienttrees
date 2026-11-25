@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-25 reader judge: a first photograph for Hajduk's Mulberry in Split
+
+- **Live: split/spl_001, The Hajdukova Murva**, which had no photograph, now has a reader's photo as its lead. It shows the old mulberry in the Stari plac courtyard: one thick leaning trunk in a ring of fallen leaves, the crown turning yellow, and the club terraces behind. Species and setting match. It is filed in November. The pin did not move, because the coordinate the reader's app sent was our own pin, not a GPS fix. The reader was mailed.
+- **Left for the next run, still:** sighting 3c544597 (Amsterdam). Its photograph is still not on disk, so it was not judged. The other waiting leads are our own account's photographs (`mine`), which a run never publishes.
+- No open reports, no feedback waiting, no readers' words waiting.
+
 ## 2026-11-25 reader judge: a lichen-hung larch above La Salle, Aosta Valley
 
 - **Live: la-salle/lsa_001, The Bearded Larch of the Col du Bard Path** (new one-tree place La Salle, Italy). A reader sent it through the app with four photographs, of which two frames were different. They show a broad, leaning old larch beside a mountain path, its limbs hung with beard lichen. The location comes from the photograph's GPS, so the pin is confirmed. One frame is the lead photo and one goes in the strip, both filed in August from the photo's own date. The reader's age (under 500 years) and girth (about 4 m) are stated as theirs. Their note mentions "the monumental Larch/Chavraz", which I could not tie to this trunk, so the page claims no name. Submission 1653 is a second send of the same spot a minute later, with no photo or words, so it gets the same verdict.

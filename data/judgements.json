@@ -199,6 +199,28 @@
    "agreed": null
   },
   {
+   "id": "sight:00433fac-03a3-48ed-a513-56ddfa936aa9",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Hajdukova Murva (Hajduk's Mulberry)",
+   "city": "Split",
+   "species": "White Mulberry (Morus alba)",
+   "photo": "out/sightings/00433fac-03a3-48ed-a513-56ddfa936aa9.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Mulberry (Morus alba)"
+   },
+   "verdict": "publish",
+   "reason": "Lead photograph for spl_001 (it had none): the old mulberry in the Stari plac courtyard, one thick leaning trunk, crown turning yellow, terraces behind. Species and setting match; filed in November.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:745e0fd4-abaf-413b-a870-67eb466731e0",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",
