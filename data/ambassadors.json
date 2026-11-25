@@ -2346,6 +2346,16 @@
         "The Sécheron Plane",
         "The Himalayan Cedar of Parc Mon Repos"
       ]
+    },
+    {
+      "user_id": "p_5c0b520b6fc67b7bf93d1acc",
+      "place_slug": "la-salle",
+      "place_name": "La Salle",
+      "date": "2026-11-25",
+      "trees": [
+        "The Bearded Larch of the Col du Bard Path"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
