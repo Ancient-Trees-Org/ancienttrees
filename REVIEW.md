@@ -230,14 +230,3 @@ App half (iPhone SE: feedback, map-bar, map-full, map-pin, map, own-tree; map-fu
 - NOTE APP map-pin.png: standing since 11-09. The map is on Amsterdam while the open card is "Dąb Fabrykant (the Factory Owner's Oak, als…", a Polish tree not in view. New this time: the card title is cut mid-word at two lines ("als…"), so the name a person reads is a fragment; a short display name or a third line would hold it. Also the locate button sits over a pin at the right edge and the pin shows through it.
 - NOTE APP own-tree.png: "Amsterdam" under the title is underlined like a link while nothing around it is; the hero is a flat illustrated placeholder for a tree with no photo. Probably the designed empty state; flagging only the underline.
 
-## 2026-11-10 compliance
-
-First review, a session audit on Hidde's ask ("wees een lawyer en geef ons een audit"). Fixed the same day: the privacy page rewritten to what the product does (every account has a public profile, notes and the new-from-visitors row are public, shared links), plus who decides, legal bases, retention, processors, rights and the Autoriteit Persoonsgegevens; the terms (16 and over, profiles, notes, names in the visitors row); photo credits on the website link the licence and the source; first mails must carry a way to say no (mailcheck). Open, in data/compliance.json:
-- profiles-33-flipped-public (Hidde): 33 private accounts made public on 2026-10-29 without asking.
-- profiles-public-by-default (Hidde): no choice at sign-up.
-- controller-identity (Hidde): no surname or KvK on the privacy page.
-- posthog-without-consent (Hidde): app analytics with the account number, no consent, no retention.
-- mailed-photos-before-yes (Hidde): mailed photos go live before the permission.
-- mail-words-quoted-without-asking (Hidde): sentences from mails quoted on pages.
-- app-credits-without-links (session): the app's credit line has no licence or source link.
-

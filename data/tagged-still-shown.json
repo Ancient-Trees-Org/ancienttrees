@@ -1,10 +1,10 @@
 {
  "generated": "scripts/tagged_shown.py",
  "since": "2026-11-01",
- "google_data_through": "2026-11-21",
- "tagged_pages_shown": 1014,
- "impressions": 4325,
- "clicks": 82,
+ "google_data_through": "2026-11-24",
+ "tagged_pages_shown": 1015,
+ "impressions": 4343,
+ "clicks": 83,
  "pages": [
   {
    "path": "/united-states/maryland",
@@ -291,6 +291,21 @@
    "last_day": "2026-11-20"
   },
   {
+   "path": "/seoul/banghak-dong-ginkgo",
+   "impressions": 10,
+   "clicks": 1,
+   "days": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-06",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-22"
+  },
+  {
    "path": "/tokyo/zenpukuji-ginkgo",
    "impressions": 10,
    "clicks": 1,
@@ -319,18 +334,19 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/seoul/banghak-dong-ginkgo",
+   "path": "/ja/tokyo/akiba-no-kuromatsu",
    "impressions": 9,
    "clicks": 1,
    "days": [
     "2026-11-02",
     "2026-11-03",
-    "2026-11-06",
-    "2026-11-08",
-    "2026-11-09"
+    "2026-11-04",
+    "2026-11-15",
+    "2026-11-21",
+    "2026-11-23"
    ],
    "first_day": "2026-11-02",
-   "last_day": "2026-11-09"
+   "last_day": "2026-11-23"
   },
   {
    "path": "/dublin/addisons-walk",
@@ -383,19 +399,6 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-09"
-  },
-  {
-   "path": "/ja/tokyo/akiba-no-kuromatsu",
-   "impressions": 7,
-   "clicks": 1,
-   "days": [
-    "2026-11-02",
-    "2026-11-03",
-    "2026-11-04",
-    "2026-11-15"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-15"
   },
   {
    "path": "/berlin/ginkgo-of-schlosspark-britz",
@@ -472,6 +475,19 @@
    ],
    "first_day": "2026-11-04",
    "last_day": "2026-11-09"
+  },
+  {
+   "path": "/bath/plane-trees-of-the-circus",
+   "impressions": 5,
+   "clicks": 1,
+   "days": [
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04"
+   ],
+   "first_day": "2026-11-01",
+   "last_day": "2026-11-04"
   },
   {
    "path": "/fr/nice",
@@ -902,6 +918,33 @@
    "last_day": "2026-11-10"
   },
   {
+   "path": "/monterey/lone-cypress",
+   "impressions": 57,
+   "clicks": 0,
+   "days": [
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-21",
+    "2026-11-22",
+    "2026-11-23"
+   ],
+   "first_day": "2026-11-01",
+   "last_day": "2026-11-23"
+  },
+  {
    "path": "/prague/oak-of-u-malvazinky",
    "impressions": 57,
    "clicks": 0,
@@ -978,31 +1021,6 @@
    ],
    "first_day": "2026-11-01",
    "last_day": "2026-11-17"
-  },
-  {
-   "path": "/monterey/lone-cypress",
-   "impressions": 52,
-   "clicks": 0,
-   "days": [
-    "2026-11-01",
-    "2026-11-02",
-    "2026-11-03",
-    "2026-11-06",
-    "2026-11-07",
-    "2026-11-08",
-    "2026-11-09",
-    "2026-11-10",
-    "2026-11-13",
-    "2026-11-14",
-    "2026-11-15",
-    "2026-11-17",
-    "2026-11-18",
-    "2026-11-19",
-    "2026-11-20",
-    "2026-11-21"
-   ],
-   "first_day": "2026-11-01",
-   "last_day": "2026-11-21"
   },
   {
    "path": "/prague/elm-of-zatory",
@@ -1528,6 +1546,23 @@
    "last_day": "2026-11-13"
   },
   {
+   "path": "/de/vienna/ginkgo-of-schonbrunn",
+   "impressions": 15,
+   "clicks": 0,
+   "days": [
+    "2026-11-02",
+    "2026-11-05",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-19",
+    "2026-11-20",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-22"
+  },
+  {
    "path": "/kyoto/inverted-ginkgo-of-nishi-honganji",
    "impressions": 15,
    "clicks": 0,
@@ -1602,22 +1637,6 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-09"
-  },
-  {
-   "path": "/de/vienna/ginkgo-of-schonbrunn",
-   "impressions": 14,
-   "clicks": 0,
-   "days": [
-    "2026-11-02",
-    "2026-11-05",
-    "2026-11-08",
-    "2026-11-09",
-    "2026-11-10",
-    "2026-11-19",
-    "2026-11-20"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-20"
   },
   {
    "path": "/es/menorca",
@@ -1962,6 +1981,19 @@
    "last_day": "2026-11-10"
   },
   {
+   "path": "/alicante",
+   "impressions": 10,
+   "clicks": 0,
+   "days": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-09",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-22"
+  },
+  {
    "path": "/amsterdam/heimanseik",
    "impressions": 10,
    "clicks": 0,
@@ -2122,18 +2154,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/alicante",
-   "impressions": 9,
-   "clicks": 0,
-   "days": [
-    "2026-11-02",
-    "2026-11-03",
-    "2026-11-09"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-09"
-  },
-  {
    "path": "/boston/shaw-memorial-elms",
    "impressions": 9,
    "clicks": 0,
@@ -2144,6 +2164,20 @@
    ],
    "first_day": "2026-11-01",
    "last_day": "2026-11-03"
+  },
+  {
+   "path": "/budapest",
+   "impressions": 9,
+   "clicks": 0,
+   "days": [
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-08",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-01",
+   "last_day": "2026-11-22"
   },
   {
    "path": "/cagliari/ficus-of-piazza-matteotti",
@@ -2158,6 +2192,21 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-09"
+  },
+  {
+   "path": "/de/nuremberg/close-plane-of-kontumazgarten",
+   "impressions": 9,
+   "clicks": 0,
+   "days": [
+    "2026-11-03",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-13",
+    "2026-11-15",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-03",
+   "last_day": "2026-11-22"
   },
   {
    "path": "/de/vienna/field-elm-of-burggasse",
@@ -2319,19 +2368,6 @@
    "last_day": "2026-11-15"
   },
   {
-   "path": "/budapest",
-   "impressions": 8,
-   "clicks": 0,
-   "days": [
-    "2026-11-01",
-    "2026-11-02",
-    "2026-11-03",
-    "2026-11-08"
-   ],
-   "first_day": "2026-11-01",
-   "last_day": "2026-11-08"
-  },
-  {
    "path": "/de/hamburg",
    "impressions": 8,
    "clicks": 0,
@@ -2342,20 +2378,6 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-08"
-  },
-  {
-   "path": "/de/nuremberg/close-plane-of-kontumazgarten",
-   "impressions": 8,
-   "clicks": 0,
-   "days": [
-    "2026-11-03",
-    "2026-11-08",
-    "2026-11-09",
-    "2026-11-13",
-    "2026-11-15"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-15"
   },
   {
    "path": "/es/madrid/himalayan-cedar-of-the-crystal-palace",
@@ -2668,6 +2690,19 @@
    "last_day": "2026-11-03"
   },
   {
+   "path": "/concoret/guillotin-oak-chene-a-guillotin",
+   "impressions": 7,
+   "clicks": 0,
+   "days": [
+    "2026-11-02",
+    "2026-11-09",
+    "2026-11-17",
+    "2026-11-24"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-24"
+  },
+  {
    "path": "/de/berlin/great-oak-of-pfaueninsel",
    "impressions": 7,
    "clicks": 0,
@@ -2733,18 +2768,6 @@
    "last_day": "2026-11-08"
   },
   {
-   "path": "/lohja/paavolas-oak",
-   "impressions": 7,
-   "clicks": 0,
-   "days": [
-    "2026-11-03",
-    "2026-11-08",
-    "2026-11-09"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-09"
-  },
-  {
    "path": "/naples/pine-of-posillipo",
    "impressions": 7,
    "clicks": 0,
@@ -2797,6 +2820,21 @@
    "last_day": "2026-11-14"
   },
   {
+   "path": "/species/california-fan-palm",
+   "impressions": 7,
+   "clicks": 0,
+   "days": [
+    "2026-11-03",
+    "2026-11-10",
+    "2026-11-15",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-03",
+   "last_day": "2026-11-22"
+  },
+  {
    "path": "/species/japanese-bay-tree",
    "impressions": 7,
    "clicks": 0,
@@ -2836,16 +2874,14 @@
    "last_day": "2026-11-14"
   },
   {
-   "path": "/antwerp",
+   "path": "/bath",
    "impressions": 6,
    "clicks": 0,
    "days": [
-    "2026-11-01",
-    "2026-11-02",
-    "2026-11-03"
+    "2026-11-02"
    ],
-   "first_day": "2026-11-01",
-   "last_day": "2026-11-03"
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-02"
   },
   {
    "path": "/brisbane/silky-oak",
@@ -2900,18 +2936,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/concoret/guillotin-oak-chene-a-guillotin",
-   "impressions": 6,
-   "clicks": 0,
-   "days": [
-    "2026-11-02",
-    "2026-11-09",
-    "2026-11-17"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-17"
-  },
-  {
    "path": "/de/berlin/kaisereiche",
    "impressions": 6,
    "clicks": 0,
@@ -2947,6 +2971,19 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-09"
+  },
+  {
+   "path": "/es/valencia/palm-of-vicente-peris",
+   "impressions": 6,
+   "clicks": 0,
+   "days": [
+    "2026-11-03",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-03",
+   "last_day": "2026-11-22"
   },
   {
    "path": "/fr/paris",
@@ -3082,6 +3119,21 @@
    "last_day": "2026-11-15"
   },
   {
+   "path": "/olympic-national-park/quinault-big-spruce",
+   "impressions": 6,
+   "clicks": 0,
+   "days": [
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-08",
+    "2026-11-15",
+    "2026-11-17",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-01",
+   "last_day": "2026-11-22"
+  },
+  {
    "path": "/pelham/comfort-maple",
    "impressions": 6,
    "clicks": 0,
@@ -3143,20 +3195,6 @@
    "last_day": "2026-11-03"
   },
   {
-   "path": "/species/california-fan-palm",
-   "impressions": 6,
-   "clicks": 0,
-   "days": [
-    "2026-11-03",
-    "2026-11-10",
-    "2026-11-15",
-    "2026-11-18",
-    "2026-11-19"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-19"
-  },
-  {
    "path": "/species/common-fig",
    "impressions": 6,
    "clicks": 0,
@@ -3196,29 +3234,17 @@
    "last_day": "2026-11-04"
   },
   {
-   "path": "/tokyo/three-hundred-year-pine",
-   "impressions": 6,
-   "clicks": 0,
-   "days": [
-    "2026-11-01",
-    "2026-11-02",
-    "2026-11-03"
-   ],
-   "first_day": "2026-11-01",
-   "last_day": "2026-11-03"
-  },
-  {
-   "path": "/zurich/linden-of-linn",
+   "path": "/species/turkey-oak",
    "impressions": 6,
    "clicks": 0,
    "days": [
     "2026-11-02",
     "2026-11-03",
-    "2026-11-06",
-    "2026-11-10"
+    "2026-11-21",
+    "2026-11-23"
    ],
    "first_day": "2026-11-02",
-   "last_day": "2026-11-10"
+   "last_day": "2026-11-23"
   },
   {
    "path": "/athens/olive-tree-of-pisistratus",
@@ -3413,18 +3439,6 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-08"
-  },
-  {
-   "path": "/es/valencia/palm-of-vicente-peris",
-   "impressions": 5,
-   "clicks": 0,
-   "days": [
-    "2026-11-03",
-    "2026-11-08",
-    "2026-11-09"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-09"
   },
   {
    "path": "/fr/geneva",
@@ -3653,20 +3667,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/olympic-national-park/quinault-big-spruce",
-   "impressions": 5,
-   "clicks": 0,
-   "days": [
-    "2026-11-01",
-    "2026-11-02",
-    "2026-11-08",
-    "2026-11-15",
-    "2026-11-17"
-   ],
-   "first_day": "2026-11-01",
-   "last_day": "2026-11-17"
-  },
-  {
    "path": "/palo-alto/el-palo-alto",
    "impressions": 5,
    "clicks": 0,
@@ -3822,18 +3822,6 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-10"
-  },
-  {
-   "path": "/species/turkey-oak",
-   "impressions": 5,
-   "clicks": 0,
-   "days": [
-    "2026-11-02",
-    "2026-11-03",
-    "2026-11-21"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-21"
   },
   {
    "path": "/venice/cypresses-of-san-michele-cemetery",
@@ -4076,6 +4064,19 @@
    "last_day": "2026-11-09"
   },
   {
+   "path": "/es/pamplona",
+   "impressions": 4,
+   "clicks": 0,
+   "days": [
+    "2026-11-03",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-03",
+   "last_day": "2026-11-22"
+  },
+  {
    "path": "/es/seville/grapefruit-of-the-cartuja-monastery",
    "impressions": 4,
    "clicks": 0,
@@ -4239,6 +4240,30 @@
    "last_day": "2026-11-09"
   },
   {
+   "path": "/it/venice",
+   "impressions": 4,
+   "clicks": 0,
+   "days": [
+    "2026-11-04",
+    "2026-11-09",
+    "2026-11-24"
+   ],
+   "first_day": "2026-11-04",
+   "last_day": "2026-11-24"
+  },
+  {
+   "path": "/ito/yamamomo-of-renchakuji",
+   "impressions": 4,
+   "clicks": 0,
+   "days": [
+    "2026-11-01",
+    "2026-11-03",
+    "2026-11-23"
+   ],
+   "first_day": "2026-11-01",
+   "last_day": "2026-11-23"
+  },
+  {
    "path": "/ja/kagoshima/cycad-where-sperm-was-first-discovered",
    "impressions": 4,
    "clicks": 0,
@@ -4289,6 +4314,18 @@
    "last_day": "2026-11-08"
   },
   {
+   "path": "/los-angeles/oldest-palm-tree-in-los-angeles",
+   "impressions": 4,
+   "clicks": 0,
+   "days": [
+    "2026-11-09",
+    "2026-11-19",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-09",
+   "last_day": "2026-11-22"
+  },
+  {
    "path": "/maui",
    "impressions": 4,
    "clicks": 0,
@@ -4300,6 +4337,19 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-09"
+  },
+  {
+   "path": "/mexico-city/fresno-de-santa-catarina-avenida-francisco-sosa",
+   "impressions": 4,
+   "clicks": 0,
+   "days": [
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-19",
+    "2026-11-21"
+   ],
+   "first_day": "2026-11-01",
+   "last_day": "2026-11-21"
   },
   {
    "path": "/nl/arnhem",
@@ -4523,6 +4573,18 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-08"
+  },
+  {
+   "path": "/vilnius/daukantas-memorial-oak",
+   "impressions": 4,
+   "clicks": 0,
+   "days": [
+    "2026-11-03",
+    "2026-11-08",
+    "2026-11-23"
+   ],
+   "first_day": "2026-11-03",
+   "last_day": "2026-11-23"
   },
   {
    "path": "/aarhus/happy-pig-den-glade-gris",
@@ -4860,18 +4922,6 @@
    "last_day": "2026-11-08"
   },
   {
-   "path": "/es/pamplona",
-   "impressions": 3,
-   "clicks": 0,
-   "days": [
-    "2026-11-03",
-    "2026-11-09",
-    "2026-11-10"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-10"
-  },
-  {
    "path": "/es/seville/centennial-hackberries-of-maria-luisa",
    "impressions": 3,
    "clicks": 0,
@@ -5039,6 +5089,18 @@
    "last_day": "2026-11-09"
   },
   {
+   "path": "/it/palermo/date-palm-of-villa-bonanno",
+   "impressions": 3,
+   "clicks": 0,
+   "days": [
+    "2026-11-08",
+    "2026-11-20",
+    "2026-11-23"
+   ],
+   "first_day": "2026-11-08",
+   "last_day": "2026-11-23"
+  },
+  {
    "path": "/it/rome/cedar-of-the-belvedere",
    "impressions": 3,
    "clicks": 0,
@@ -5046,28 +5108,6 @@
     "2026-11-03"
    ],
    "first_day": "2026-11-03",
-   "last_day": "2026-11-03"
-  },
-  {
-   "path": "/it/venice",
-   "impressions": 3,
-   "clicks": 0,
-   "days": [
-    "2026-11-04",
-    "2026-11-09"
-   ],
-   "first_day": "2026-11-04",
-   "last_day": "2026-11-09"
-  },
-  {
-   "path": "/ito/yamamomo-of-renchakuji",
-   "impressions": 3,
-   "clicks": 0,
-   "days": [
-    "2026-11-01",
-    "2026-11-03"
-   ],
-   "first_day": "2026-11-01",
    "last_day": "2026-11-03"
   },
   {
@@ -5205,18 +5245,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/mexico-city/fresno-de-santa-catarina-avenida-francisco-sosa",
-   "impressions": 3,
-   "clicks": 0,
-   "days": [
-    "2026-11-01",
-    "2026-11-02",
-    "2026-11-19"
-   ],
-   "first_day": "2026-11-01",
-   "last_day": "2026-11-19"
-  },
-  {
    "path": "/milan/il-ginkgo-dellorto-botanico-di-brera",
    "impressions": 3,
    "clicks": 0,
@@ -5324,6 +5352,17 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-04"
+  },
+  {
+   "path": "/paris/turkish-hazel-of-square-du-temple",
+   "impressions": 3,
+   "clicks": 0,
+   "days": [
+    "2026-11-08",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-08",
+   "last_day": "2026-11-22"
   },
   {
    "path": "/parks/central-park-new-york",
@@ -5593,17 +5632,6 @@
     "2026-11-08"
    ],
    "first_day": "2026-11-01",
-   "last_day": "2026-11-08"
-  },
-  {
-   "path": "/vilnius/daukantas-memorial-oak",
-   "impressions": 3,
-   "clicks": 0,
-   "days": [
-    "2026-11-03",
-    "2026-11-08"
-   ],
-   "first_day": "2026-11-03",
    "last_day": "2026-11-08"
   },
   {
@@ -6032,17 +6060,6 @@
    "last_day": "2026-11-03"
   },
   {
-   "path": "/crete",
-   "impressions": 2,
-   "clicks": 0,
-   "days": [
-    "2026-11-08",
-    "2026-11-09"
-   ],
-   "first_day": "2026-11-08",
-   "last_day": "2026-11-09"
-  },
-  {
    "path": "/crete/evergreen-plane-of-gortyn",
    "impressions": 2,
    "clicks": 0,
@@ -6182,6 +6199,17 @@
    "last_day": "2026-11-09"
   },
   {
+   "path": "/de/vienna/founding-plane-of-rathauspark",
+   "impressions": 2,
+   "clicks": 0,
+   "days": [
+    "2026-11-08",
+    "2026-11-23"
+   ],
+   "first_day": "2026-11-08",
+   "last_day": "2026-11-23"
+  },
+  {
    "path": "/de/vienna/oak-of-grimmelshausengasse",
    "impressions": 2,
    "clicks": 0,
@@ -6268,6 +6296,16 @@
    "last_day": "2026-11-09"
   },
   {
+   "path": "/enschede",
+   "impressions": 2,
+   "clicks": 0,
+   "days": [
+    "2026-11-24"
+   ],
+   "first_day": "2026-11-24",
+   "last_day": "2026-11-24"
+  },
+  {
    "path": "/enschede/sweet-birch-of-the-oosterbegraafplaats",
    "impressions": 2,
    "clicks": 0,
@@ -6330,17 +6368,6 @@
     "2026-11-08"
    ],
    "first_day": "2026-11-02",
-   "last_day": "2026-11-08"
-  },
-  {
-   "path": "/es/girona/great-pine-of-romanya",
-   "impressions": 2,
-   "clicks": 0,
-   "days": [
-    "2026-11-04",
-    "2026-11-08"
-   ],
-   "first_day": "2026-11-04",
    "last_day": "2026-11-08"
   },
   {
@@ -6468,6 +6495,17 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-08"
+  },
+  {
+   "path": "/fr/paris/oriental-plane-of-square-louise-michel",
+   "impressions": 2,
+   "clicks": 0,
+   "days": [
+    "2026-11-21",
+    "2026-11-24"
+   ],
+   "first_day": "2026-11-21",
+   "last_day": "2026-11-24"
   },
   {
    "path": "/fukuoka/camphor-of-kego-shrine",
@@ -6671,6 +6709,17 @@
    "last_day": "2026-11-02"
   },
   {
+   "path": "/it/bologna/ginkgo-of-piazza-cavour",
+   "impressions": 2,
+   "clicks": 0,
+   "days": [
+    "2026-11-10",
+    "2026-11-23"
+   ],
+   "first_day": "2026-11-10",
+   "last_day": "2026-11-23"
+  },
+  {
    "path": "/it/cagliari/cypress-of-pirri-cemetery",
    "impressions": 2,
    "clicks": 0,
@@ -6734,17 +6783,6 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-03"
-  },
-  {
-   "path": "/it/palermo/date-palm-of-villa-bonanno",
-   "impressions": 2,
-   "clicks": 0,
-   "days": [
-    "2026-11-08",
-    "2026-11-20"
-   ],
-   "first_day": "2026-11-08",
-   "last_day": "2026-11-20"
   },
   {
    "path": "/it/rome/aleppo-pine-of-celimontana",
@@ -6917,6 +6955,17 @@
    "last_day": "2026-11-03"
   },
   {
+   "path": "/leipzig/pagoda-tree-of-karl-heine-strasse",
+   "impressions": 2,
+   "clicks": 0,
+   "days": [
+    "2026-11-02",
+    "2026-11-23"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-23"
+  },
+  {
    "path": "/lisbon/cypress-of-principe-real",
    "impressions": 2,
    "clicks": 0,
@@ -6937,6 +6986,17 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-09"
+  },
+  {
+   "path": "/lisbon/ginkgo-of-praca-paiva-couceiro",
+   "impressions": 2,
+   "clicks": 0,
+   "days": [
+    "2026-11-09",
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-09",
+   "last_day": "2026-11-22"
   },
   {
    "path": "/liverpool/allerton-oak",
@@ -6970,17 +7030,6 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-08"
-  },
-  {
-   "path": "/los-angeles/oldest-palm-tree-in-los-angeles",
-   "impressions": 2,
-   "clicks": 0,
-   "days": [
-    "2026-11-09",
-    "2026-11-19"
-   ],
-   "first_day": "2026-11-09",
-   "last_day": "2026-11-19"
   },
   {
    "path": "/lukavice",
@@ -7165,16 +7214,6 @@
    ],
    "first_day": "2026-11-05",
    "last_day": "2026-11-09"
-  },
-  {
-   "path": "/paris/turkish-hazel-of-square-du-temple",
-   "impressions": 2,
-   "clicks": 0,
-   "days": [
-    "2026-11-08"
-   ],
-   "first_day": "2026-11-08",
-   "last_day": "2026-11-08"
   },
   {
    "path": "/parks/arnold-arboretum-boston",
@@ -7396,17 +7435,6 @@
     "2026-11-03"
    ],
    "first_day": "2026-11-03",
-   "last_day": "2026-11-03"
-  },
-  {
-   "path": "/seville/fig-of-the-glorieta-de-goya",
-   "impressions": 2,
-   "clicks": 0,
-   "days": [
-    "2026-11-02",
-    "2026-11-03"
-   ],
-   "first_day": "2026-11-02",
    "last_day": "2026-11-03"
   },
   {
@@ -7957,6 +7985,16 @@
    "last_day": "2026-11-02"
   },
   {
+   "path": "/barcelona/avocado-of-placa-de-can-bruixa",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-24"
+   ],
+   "first_day": "2026-11-24",
+   "last_day": "2026-11-24"
+  },
+  {
    "path": "/barcelona/black-locust-of-the-ciutadella",
    "impressions": 1,
    "clicks": 0,
@@ -8307,6 +8345,16 @@
    "last_day": "2026-11-10"
   },
   {
+   "path": "/cordoba",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-08"
+   ],
+   "first_day": "2026-11-08",
+   "last_day": "2026-11-08"
+  },
+  {
    "path": "/cordoba/olive-of-the-orange-courtyard",
    "impressions": 1,
    "clicks": 0,
@@ -8347,16 +8395,6 @@
    "last_day": "2026-11-02"
   },
   {
-   "path": "/crete/olive-tree-of-azoria-kavousi",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-03"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-03"
-  },
-  {
    "path": "/crete/olive-tree-of-vouves",
    "impressions": 1,
    "clicks": 0,
@@ -8385,6 +8423,16 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-03"
+  },
+  {
+   "path": "/de/berlin/englischer-garten-wingnut",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-24"
+   ],
+   "first_day": "2026-11-24",
+   "last_day": "2026-11-24"
   },
   {
    "path": "/de/dresden/zerr-eiche-of-trinitatisplatz",
@@ -8445,16 +8493,6 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-03"
-  },
-  {
-   "path": "/de/vienna/founding-plane-of-rathauspark",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-08"
-   ],
-   "first_day": "2026-11-08",
-   "last_day": "2026-11-08"
   },
   {
    "path": "/de/vienna/sessile-oak-of-belvedereallee",
@@ -8618,16 +8656,6 @@
   },
   {
    "path": "/eindhoven/de-gevlekte-zuiderling",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-03"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-03"
-  },
-  {
-   "path": "/emmen/oak-at-the-long-grave",
    "impressions": 1,
    "clicks": 0,
    "days": [
@@ -8937,6 +8965,16 @@
    "last_day": "2026-11-03"
   },
   {
+   "path": "/fr/paris/amur-cork-tree-of-square-michel-foucault",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-22",
+   "last_day": "2026-11-22"
+  },
+  {
    "path": "/fr/paris/horse-chestnut-of-square-rene-le-gall",
    "impressions": 1,
    "clicks": 0,
@@ -8945,16 +8983,6 @@
    ],
    "first_day": "2026-11-09",
    "last_day": "2026-11-09"
-  },
-  {
-   "path": "/fr/paris/oriental-plane-of-square-louise-michel",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-21"
-   ],
-   "first_day": "2026-11-21",
-   "last_day": "2026-11-21"
   },
   {
    "path": "/fr/paris/plane-of-quai-saint-bernard",
@@ -9207,16 +9235,6 @@
    "last_day": "2026-11-02"
   },
   {
-   "path": "/hilversum/juliana-lime-of-the-hilvertsweg",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-09"
-   ],
-   "first_day": "2026-11-09",
-   "last_day": "2026-11-09"
-  },
-  {
    "path": "/himi/jonichiji-no-icho",
    "impressions": 1,
    "clicks": 0,
@@ -9235,6 +9253,16 @@
    ],
    "first_day": "2026-11-08",
    "last_day": "2026-11-08"
+  },
+  {
+   "path": "/hino/kumano-no-hidarimakigaya",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-23"
+   ],
+   "first_day": "2026-11-23",
+   "last_day": "2026-11-23"
   },
   {
    "path": "/hiroshima/cedar-of-ato-myojin-shrine",
@@ -9317,16 +9345,6 @@
    "last_day": "2026-11-03"
   },
   {
-   "path": "/it/bologna/ginkgo-of-piazza-cavour",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-10"
-   ],
-   "first_day": "2026-11-10",
-   "last_day": "2026-11-10"
-  },
-  {
    "path": "/it/cagliari/blue-eucalyptus-of-campu-omu",
    "impressions": 1,
    "clicks": 0,
@@ -9335,6 +9353,16 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-02"
+  },
+  {
+   "path": "/it/milan/il-noce-del-caucaso-dei-giardini-montanelli",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-24"
+   ],
+   "first_day": "2026-11-24",
+   "last_day": "2026-11-24"
   },
   {
    "path": "/it/milan/il-platano-della-biodiversita",
@@ -9505,6 +9533,16 @@
    ],
    "first_day": "2026-11-01",
    "last_day": "2026-11-01"
+  },
+  {
+   "path": "/ja/kyoto/camphor-of-munakata-shrine",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-22",
+   "last_day": "2026-11-22"
   },
   {
    "path": "/ja/kyoto/inverted-ginkgo-of-nishi-honganji",
@@ -9757,16 +9795,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/leipzig/pagoda-tree-of-karl-heine-strasse",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-02"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-02"
-  },
-  {
    "path": "/lisbon/ancient-olive-of-santa-iria-de-azoia",
    "impressions": 1,
    "clicks": 0,
@@ -9777,14 +9805,14 @@
    "last_day": "2026-11-03"
   },
   {
-   "path": "/lisbon/ginkgo-of-praca-paiva-couceiro",
+   "path": "/lisbon/belas-sombras-of-jardim-antonio-feijo",
    "impressions": 1,
    "clicks": 0,
    "days": [
-    "2026-11-09"
+    "2026-11-22"
    ],
-   "first_day": "2026-11-09",
-   "last_day": "2026-11-09"
+   "first_day": "2026-11-22",
+   "last_day": "2026-11-22"
   },
   {
    "path": "/lisbon/monterey-cypress-of-parque-do-caramao-da-ajuda",
@@ -9875,6 +9903,16 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-03"
+  },
+  {
+   "path": "/madrid/cypress-of-the-royal-botanic-garden",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-22",
+   "last_day": "2026-11-22"
   },
   {
    "path": "/madrid/himalayan-cedar-of-the-crystal-palace",
@@ -10095,16 +10133,6 @@
    ],
    "first_day": "2026-11-09",
    "last_day": "2026-11-09"
-  },
-  {
-   "path": "/naples",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-03"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-03"
   },
   {
    "path": "/nara/enoki-of-wakamiya",
@@ -10385,6 +10413,16 @@
    ],
    "first_day": "2026-11-09",
    "last_day": "2026-11-09"
+  },
+  {
+   "path": "/paris/old-hazel-of-square-maurice-gardette",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-22"
+   ],
+   "first_day": "2026-11-22",
+   "last_day": "2026-11-22"
   },
   {
    "path": "/parks/castle-park-helmond",
@@ -11445,16 +11483,6 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-02"
-  },
-  {
-   "path": "/zurich",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-08"
-   ],
-   "first_day": "2026-11-08",
-   "last_day": "2026-11-08"
   },
   {
    "path": "/zurich/1780-planes-of-platzspitz",

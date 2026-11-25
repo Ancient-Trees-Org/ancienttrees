@@ -5579,6 +5579,51 @@
    }
   },
   {
+   "common": "Fan Palm",
+   "latin": "Arecaceae",
+   "names": {
+    "en": [
+     "Palm",
+     "Palm family",
+     "Palms",
+     "palm tree family"
+    ],
+    "nl": [
+     "palm",
+     "palmboom",
+     "palmenfamilie"
+    ],
+    "de": [
+     "Palme",
+     "Palmen",
+     "Palmengewächse"
+    ],
+    "es": [
+     "palma",
+     "palmera",
+     "palmeras"
+    ],
+    "it": [
+     "albero di palma",
+     "palma",
+     "palme"
+    ],
+    "fr": [
+     "Arécacées",
+     "Palmae",
+     "palmacées",
+     "palmier"
+    ],
+    "pt": [
+     "palmeira"
+    ],
+    "ja": [
+     "ヤシ科",
+     "棕櫚科"
+    ]
+   }
+  },
+  {
    "common": "Fern-leaved Beech",
    "latin": "Fagus sylvatica f. asplenifolia",
    "names": {
@@ -6386,6 +6431,22 @@
     ],
     "ja": [
      "ガンボリンボ"
+    ]
+   }
+  },
+  {
+   "common": "Hackberry",
+   "latin": "Celtis sp.",
+   "names": {
+    "nl": [
+     "netelboom"
+    ],
+    "de": [
+     "Zürgelbäume"
+    ],
+    "fr": [
+     "fourchier",
+     "micocoulier"
     ]
    }
   },
@@ -21920,6 +21981,51 @@
      "ヤブコウジ属",
      "薮柑子属",
      "藪柑子属"
+    ]
+   }
+  },
+  {
+   "common": "Palm",
+   "latin": "Arecaceae",
+   "genus": true,
+   "names": {
+    "en": [
+     "Palm family",
+     "Palms",
+     "palm tree family",
+     "palm trees"
+    ],
+    "nl": [
+     "palmboom",
+     "palmenfamilie"
+    ],
+    "de": [
+     "Palme",
+     "Palmen",
+     "Palmengewächse"
+    ],
+    "es": [
+     "palma",
+     "palmera",
+     "palmeras"
+    ],
+    "it": [
+     "albero di palma",
+     "palma",
+     "palme"
+    ],
+    "fr": [
+     "Arécacées",
+     "Palmae",
+     "palmacées",
+     "palmier"
+    ],
+    "pt": [
+     "palmeira"
+    ],
+    "ja": [
+     "ヤシ科",
+     "棕櫚科"
     ]
    }
   },
