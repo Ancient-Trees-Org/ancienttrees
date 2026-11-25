@@ -1,5 +1,17 @@
 # LOG
 
+<!-- archive-index -->
+
+**Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
+
+- [2026-11](archive/LOG-2026-11.md)
+- [2026-10](archive/LOG-2026-10.md)
+- [2026-09](archive/LOG-2026-09.md)
+- [2026-08](archive/LOG-2026-08.md)
+- [2026-07](archive/LOG-2026-07.md)
+
+So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
+<!-- archive-index -->
 ## 2026-11-25 reader judge: a reader's photograph now leads the Battersea strawberry tree
 
 - **Live:** a reader's photograph of the Battersea Park Hybrid Strawberry Tree (london/lon_025). It shows the red peeling limbs twisting up into the evergreen crown, in daylight, taken 3 m from our pin. It is now the lead photograph and the old one has moved into the strip. Verdict sight:84640469 is `publish`, and the reader's "it is live" mail goes after the deploy.
@@ -63,18 +75,6 @@
 - **For Hidde: paste supabase/suggested-more.sql into the Supabase SQL editor.** The Management API token in ~/.ancienttrees-supabase.env is refused since 2026-11-25 ("Invalid access token"), so it could not be run from here. Until it is pasted the list simply stops where it stopped before.
 - Checked: iOS unit test SuggestedPeopleTests.testMoreAppendsNewPeopleOnly; Android compiles; the web script parses. Not seen loading real pages, because the function is not on the server yet.
 
-<!-- archive-index -->
-
-**Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
-
-- [2026-11](archive/LOG-2026-11.md)
-- [2026-10](archive/LOG-2026-10.md)
-- [2026-09](archive/LOG-2026-09.md)
-- [2026-08](archive/LOG-2026-08.md)
-- [2026-07](archive/LOG-2026-07.md)
-
-So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
-<!-- archive-index -->
 ## 2026-11-25 reader judge: Bologna redwood photo live
 
 - A reader's photograph of The Sequoia of the Giardini Margherita (bologna/bol_002) is on the page: the whole coast redwood from base to crown above autumn trees, 20 m from our pin, species and description match. Added as `add`, so it leads and the old photo moves to the strip; filed under November. The reader's mail went through sightings_publish --send. The pin catch-up could not read coordinates (HTTPError); our pin was left as it was.
