@@ -1,5 +1,42 @@
 {
  "_note": "Photographs readers sent through the app, matched to a tree we map, waiting for a viewing pass. Judge with the photo-judge agent and apply with scripts/sightings_publish.py. Rebuilt on every knock from the rows without a verdict.",
  "written": "2026-11-25",
- "queue": []
+ "queue": [
+  {
+   "sighting_id": "00433fac-03a3-48ed-a513-56ddfa936aa9",
+   "user_id": "p_da3da5a4ed100473ae2ad2cf",
+   "tree_id": "spl_001",
+   "city_slug": "split",
+   "city": "Split",
+   "tree_name": "The Hajdukova Murva (Hajduk's Mulberry)",
+   "match": "app",
+   "distance_m": 0,
+   "mine": false,
+   "current_photo": "none",
+   "current_source": null,
+   "tree_species": "White Mulberry (Morus alba)",
+   "recognise": "Seen over the fence from the pavement on Zrinsko-Frankopanska or Plinarska: the one old broad mulberry standing inside the sports ground rather than on the street side of it.",
+   "tree_girth_cm": null,
+   "tree_height_m": null,
+   "story": "In 2015 a team from Zagreb's Faculty of Science took a DNA sample from an ailing mulberry tree in Split and cloned it 105 times, once for every year of HNK Hajduk Split's existence. The tree had stood in the courtyard of the club's first home, Stari plac, since before Hajduk itself existed, and every player who wore the checkerboard shirt between the club's founding in 1911 and its move to Poljud in 1979 walked past it on the way to training. Supporters kept coming back long after the club left: candles still turn up at its roots on the anniversaries of dead club legends, an unofficial shrine nobody organized and everybody understands. By 2014 the tree was ailing badly enough that the city's",
+   "name": "The Hajdukova Murva (Hajduk's Mulberry)",
+   "species": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "taken_at": "2026-11-25",
+   "photo_path": "p_da3da5a4ed100473ae2ad2cf/00433FAC-03A3-48ED-A513-56DDFA936AA9.jpg",
+   "age": null,
+   "sign_path": null,
+   "sign_file": null,
+   "extra_files": [],
+   "latitude": 43.5123,
+   "longitude": 16.4351,
+   "file": "out/sightings/00433fac-03a3-48ed-a513-56ddfa936aa9.jpg",
+   "light": null,
+   "vouched": null,
+   "rank": 0,
+   "worth": "closes a gap: this tree has no photograph at all"
+  }
+ ]
 }
