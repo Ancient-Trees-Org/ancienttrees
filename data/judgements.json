@@ -233,7 +233,10 @@
    "verdict": "lead",
    "reason": "Beech in Raincliffe Woods, about 400 cm round by the reader's measure; no spot in a large wood and no source yet, so a lead in data/leads/scarborough.json and the reader asked where exactly.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-25"
+   ]
   },
   {
    "id": "tip:1655",
@@ -248,7 +251,10 @@
    "verdict": "lead",
    "reason": "Chestnut in Raincliffe Woods said to be the country's second oldest, about 420 cm round by the reader's measure; no spot and no source found, so a lead in data/leads/scarborough.json and the reader asked where exactly.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-25"
+   ]
   },
   {
    "id": "sight:84640469-c5f1-4fc4-b5fc-6b25bd76406f",
@@ -849,10 +855,13 @@
     "score": null,
     "note": "nothing measurable about Roverella"
    },
-   "verdict": "hold",
-   "reason": "Photograph viewed: a broad downy oak in full summer leaf before a villa gate. The file is a cropped phone screenshot (no camera data, 4:5 social crop, summer leaf under a November date), a real doubt it is the reader's own: held doubt_photo, as the Tsagarada plane. The tree is real: Albero monumentale d'Italia 01/A390/AR/09, 570 cm round, 24 m, 41 m from their hand-placed pin at Ceciliano, Arezzo; a register-backed page needs a life check and a public-view check.",
-   "hidde": null,
-   "agreed": null
+   "verdict": "publish",
+   "reason": "Live as arezzo/arz_001 on Hidde's word (2026-11-25, \"Ja, zet ze live\"): the reader's photograph of the registered Roverella at Ceciliano (570 cm, 24 m) leads; the screenshot doubt overruled.",
+   "hidde": "Ja, zet ze live: a screenshot of a registered monumental tree is no reason to hold",
+   "agreed": false,
+   "shown": [
+    "2026-11-25"
+   ]
   },
   {
    "id": "sight:d5762513-97f9-4f10-87eb-f80e6a8bdc4d",
@@ -1094,8 +1103,11 @@
    },
    "verdict": "hold",
    "reason": "Night shot of a tree wrapped in Christmas lights in Piazza Bra; the lights hide leaf and bark, so we cannot tell it is the cedar.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "is most likely a cedar: the lit tree in Piazza Bra is our cedar, into its gallery",
+   "agreed": false,
+   "shown": [
+    "2026-11-25"
+   ]
   },
   {
    "id": "sight:b11a2e87-fbcc-400b-b029-966b64e2e894",
@@ -1244,7 +1256,10 @@
    "verdict": "hold",
    "reason": "doubt_location: big broadleaf in autumn leaf at night in Piazza Bra; the coordinate is where the phone sent it from, 600 m off, and nothing in frame places the trunk. No submissions row, so no hold mail.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-25"
+   ]
   },
   {
    "id": "sight:ca3121a2-a7d7-4193-91d8-1aa8d9838b9f",
@@ -4790,7 +4805,10 @@
    "verdict": "hold",
    "reason": "doubt_photo: the Tsagarada plane at night in snow, framed by letterbox bars like a screenshot of a shared picture. The tree is the famous Greek lead awaiting a verify pass.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-25"
+   ]
   },
   {
    "id": "tip:1435",
@@ -28736,6 +28754,49 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:e604000d-20cf-4082-885d-3e34c988c961",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Roverella",
+   "city": null,
+   "species": "Roverella",
+   "photo": "p_3bb792528c3370538a708e62/E604000D-20CF-4082-885D-3E34C988C961.jpg",
+   "reader_note": "The tree named “Bella” is perfectly harmonious and reminiscent of the fractals",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "near",
+    "why": "the nearest register entry is 42 m away (italy-masaf): possibly the same tree, possibly its neighbour, so check before leaning on it",
+    "nearest": [
+     {
+      "lat": 43.496911,
+      "lng": 11.862469,
+      "source": "italy-masaf",
+      "designation": "Albero monumentale d'Italia",
+      "name": "Roverella",
+      "species": "Quercus pubescens Willd.",
+      "girth_cm": 570.0,
+      "height_m": 24.0,
+      "distance_m": 41.5
+     }
+    ]
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Roverella"
+   },
+   "verdict": "publish",
+   "reason": "Live as arezzo/arz_001 on Hidde's word (2026-11-25, \"Ja, zet ze live\"): the reader's photograph of the registered Roverella at Ceciliano (570 cm, 24 m) leads; the screenshot doubt overruled.",
+   "hidde": "Ja, zet ze live: a screenshot of a registered monumental tree is no reason to hold",
+   "agreed": false,
+   "shown": [
+    "2026-11-25"
+   ]
   }
  ]
 }

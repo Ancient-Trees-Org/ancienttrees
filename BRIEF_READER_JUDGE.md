@@ -21,6 +21,8 @@ A reader's tree goes live when it has a GPS fix or a photograph and is somewhat 
 
 **`not_special` is the rare verdict, not the safe one** (Hidde, 2026-11-24, overruling two holds the same afternoon: "ik vind die palm in florianopolis wel vet waarom niet?", and the golden tulip tree sent for the Solbosch beech, "this also looks like a special tree"). A tree that stands out in its own setting is special: a palm whose crown rises above the forest, a big tree blazing in autumn colour alone on a lawn, a column above the pines. Judge the photograph as a walker would, not against the record books. `not_special` is for an ordinary tree in an ordinary frame (a street tree, a garden shrub, a young planting); when you hesitate, it goes live.
 
+**`doubt_photo` and "cannot tell it is ours" are rare too** (Hidde, 2026-11-25, overruling both the same afternoon: "is most likely a cedar", "Ja, zet ze live"). A photograph sent FOR one of our trees, from its square or park, whose shape fits (a conifer's tiered sprays under Christmas lights in Piazza Bra) is that tree: it goes in the strip, never a hold because lights, night or a crowd hide the bark. A cropped or filtered screenshot is how people keep their own photos; it is `doubt_photo` only when the picture plainly is someone else's (another person's name, likes and buttons over it, a watermark). When an official register entry stands within about 50 m with the same species, the tree is settled: publish on the register's coordinate, girth and height, the reader's photograph leading.
+
 ## Putting it live
 
 - **A photo of a tree we map**: verdicts JSON, then `python3 scripts/sightings_publish.py verdicts.json --send` (its docstring has the fields). Never by hand.

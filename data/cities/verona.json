@@ -70,7 +70,22 @@
         "kind": "fruit"
       },
       "how_to_recognise": "You can recognise it by its tall crown rising beside the Roman Arena, its roots recently anchored with concrete piles after a 2025 scare. It stands in Piazza Bra, among the square's circular flowerbeds.",
-      "height_m": 20
+      "height_m": 20,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ver_001-the-cedar-of-piazza-bra-bf974f50.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_0ff8aaa6b520db6499506ff3",
+          "sighting_id": "bf974f50-cd09-4f72-8f18-b010bd334f3d",
+          "note": "Photographed by a reader and sent through the app (2026-11-21); a viewing pass approved it on 2026-11-25: Hidde looked 2026-11-25 (\"is most likely a cedar\"): the cedar of Piazza Bra under its Christmas lights, sent for it from the square. Behind the lead in the gallery: a night shot under lights does not lead. Species seen: a tall broad conifer crown with flat tiered sprays at its right edge, the shape of a cedar of Lebanon, under strings of lights. Fits the description: the big tree in the gardens of Piazza Bra, flagpoles and lawn in front, the square's paving and crowd around it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "ver_002",
