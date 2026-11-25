@@ -2,6 +2,15 @@
   "_about": "Every way the maps differ between website, iPhone and Android, and what is owed. scripts/mapparity.py refuses a push that changes one platform's map without touching this file; qa check_map_parity_ledger() holds its shape. status: open (a platform owes the change), one-sided (different on purpose, with why), done. Hidde, 2026-11-20: \"niet alles moet hetzelfde maar als het kan wel\".",
   "rows": [
     {
+      "what": "The trees come back on the map after a light/dark switch while it is open",
+      "since": "2026-11-25",
+      "web": "nothing to fix: the website map does not swap its style when the phone changes theme",
+      "ios": "TreeMap.DrawnTrees.forget() on a style reload clears everything that decides a redraw (MapStyleReloadTests); before, the pins stayed away until a pan",
+      "android": "nothing to fix: TreeMapView.kt sets the tree layers in every setStyle callback and keeps no drawn memo across it",
+      "status": "one-sided",
+      "why": "a bug in the iPhone's own redraw memo; the other platforms never had that memo"
+    },
+    {
       "what": "A tapped pin's card lets go with a short swipe down: 56 of drag or a 125/s flick (Material 3's sheet thresholds)",
       "since": "2026-11-24",
       "web": "on a phone the card floats over the map (Airbnb's mobile site) and a tap on the map lets it go; it has no sheet to swipe",
