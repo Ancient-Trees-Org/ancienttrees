@@ -353,6 +353,11 @@ private fun TreeDetailInner(
                             val by = tree.shots.getOrNull(shotAt)?.by
                             val author = by?.let { photoAuthors[it] }
                             if (author?.authorName != null) {
+                                // Name, time and heart take the line up to the add (iOS: the
+                                // byline, then Spacer(minLength: 8)). A weighted Spacer beside
+                                // them took half the line, so face and time squeezed the name
+                                // out and only "· 1 week ago" showed (found 2026-11-25).
+                                Row(Modifier.weight(1f).padding(end = 8.dp), verticalAlignment = Alignment.CenterVertically) {
                                 // The tiles' byline written out (TreeDetail.swift, Hidde
                                 // 2026-11-20: "A, met boomnaam"): face, name, when it was sent.
                                 Row(
@@ -375,6 +380,7 @@ private fun TreeDetailInner(
                                         fontWeight = FontWeight.Medium,
                                         color = brand.inkSoft,
                                         maxLines = 1,
+                                        overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis,
                                         modifier = Modifier.weight(1f, fill = false),
                                     )
                                     SentAgo.long(author.publishedAt)?.let { w ->
@@ -383,8 +389,8 @@ private fun TreeDetailInner(
                                 }
                                 // The heart, beside the name, outside its tap (TreeDetail.swift, 2026-11-20).
                                 PhotoHeart(by.lowercase())
-                            }
-                            Spacer(Modifier.weight(1f))
+                                }
+                            } else Spacer(Modifier.weight(1f))
                             val onAdd = shotAt >= tree.shots.count()
                             Box(Modifier.graphicsLayer { alpha = if (onAdd) 0f else 1f }) {
                                 AddPhotoPill(enabled = !onAdd) { startAddPhoto() }
