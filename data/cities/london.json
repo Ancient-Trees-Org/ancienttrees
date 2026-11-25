@@ -1920,8 +1920,8 @@
       "girth_cm": 600,
       "location": {
         "address": "George Green, Wanstead, London E11",
-        "latitude": 51.57438,
-        "longitude": 0.0275,
+        "latitude": 51.574712,
+        "longitude": 0.028342,
         "neighbourhood": "Wanstead"
       },
       "verified_sources": [
@@ -1932,7 +1932,7 @@
       ],
       "access": "Free. Open village green by the road junction at Wanstead, maintained by the City of London Corporation as Conservators of Epping Forest.",
       "transport": "Wanstead station (Central line), about 5 minutes' walk; George Green lies about 400 m south of the station.",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "recognise": "The four old Spanish chestnuts stand on the green itself; the biggest has a trunk about 6 m round, and the group is the remnant of the old Wanstead House estate plantings. One young chestnut planted in 1999 stands among them: ignore that one.",
       "curation_status": "flagged",
       "verify_notes": "Great Trees of London (Time Out Guides, 2010, p.112, via Wikipedia list): 'George Green Sweet Chestnut', probably planted early 1700s. Wanstead Wildlife survey 6 Mar 2007 (revisited 14 Oct 2008), five numbered chestnuts on George Green: tree 5 girth 6.0 m, height 18.8 m; tree 4 girth 3.9 m, height 21.1 m (tallest); tree 3 half-trunk, girth 1.6 m (half girth only), 13 m, struck by lightning 1984; tree 1 pollard, girth printed as '3.75 cm' (source typo, not used); tree 2 is a 1999 replacement for the 'tree with a postcode' (a 250-year-old chestnut felled 7 Dec 1993 for the M11 Link Road after the anti-road protest, per wansteadium.com). London Gardens Trust (via search summary, page 404s) lists three notable chestnuts (C17th-18th). Wanstead Wildlife says only a few large old trees remain from the Wanstead House avenues and calls the Bush Wood and George Green chestnuts the most significant. A Wikiwand copy of the Great Trees list says the tree survived arson attacks (hollow blocked with a wooden door); not seen on the primary page, so not stated. Conflict on age: 'early 1700s' (Great Trees) vs 'about 400 years' (garbled copy) vs 250 years for the felled one. Alive: last dated measurement 2008, Great Trees list 2010; no recent dated observation found, so flagged. Entry is the group of four old trees on the green (one collectible point). Pin is the green's centroid from Nominatim (green bbox about 200 m wide), approximate. Photo pass 2026-11-04 (approved): Commons file titled George Green Sweet Chestnut (11); a whole broad chestnut in leaf on the green, daylight; one of the George Green group.",
@@ -1946,14 +1946,49 @@
         "label": "October, when the spiny chestnut cases drop on the green"
       },
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/George_Green_Sweet_Chestnut_%2811%29.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Hopefully Acceptable Username",
-        "attribution_url": "https://commons.wikimedia.org/wiki/File:George_Green_Sweet_Chestnut_(11).jpg",
+        "url": "https://ancienttrees.app/photos/lon_043-the-george-green-sweet-chestnuts-ade4fd8a.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 4032,
-        "height": 3024,
-        "taken_month": 11
+        "width": 1600,
+        "height": 900,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_36f0881f0396f9c47693d500",
+        "sighting_id": "ade4fd8a-9d64-4fad-8ad3-b4bd7304ceb2",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); a viewing pass approved it on 2026-11-25: Three of the old chestnuts on George Green side by side in autumn colour under blue sky, Wanstead shopfronts behind; extras show a single crown, a leaning trunk and the twisted bark. Better than our current lead for showing the group. Species seen: long toothed lanceolate leaves turning gold, deeply furrowed spiralling bark. Fits the description: several broad old sweet chestnuts with massive trunks standing on an open green beside a high street.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/George_Green_Sweet_Chestnut_%2811%29.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Hopefully Acceptable Username",
+          "attribution_url": "https://commons.wikimedia.org/wiki/File:George_Green_Sweet_Chestnut_(11).jpg",
+          "status": "approved",
+          "width": 4032,
+          "height": 3024,
+          "taken_month": 11
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_043-the-george-green-sweet-chestnuts-1acc3d6c.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 900,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_36f0881f0396f9c47693d500",
+          "sighting_id": "1acc3d6c-5ca2-447b-a23f-4921d1841992",
+          "note": "Photographed by a reader and sent through the app (2026-11-25); a viewing pass approved it on 2026-11-25: One of the George Green chestnuts alone, full crown in autumn gold, low sun; a good second picture behind the group shot. Species seen: chestnut crown of long serrated leaves in yellow, broad dark trunk. Fits the description: a big domed old chestnut on the open green, shopfronts and houses behind, a young staked tree beside it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ],
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "ade4fd8a-9d64-4fad-8ad3-b4bd7304ceb2",
+        "moved_m": 69,
+        "date": "2026-11-25",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {

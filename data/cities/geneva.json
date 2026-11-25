@@ -240,8 +240,8 @@
       "age_max": 130,
       "location": {
         "address": "Place du Cirque, Plainpalais",
-        "latitude": 46.2011713,
-        "longitude": 6.1401296,
+        "latitude": 46.201112,
+        "longitude": 6.139989,
         "neighbourhood": "Plainpalais"
       },
       "story": "The largest plane tree in downtown Geneva grows in the middle of one of its busiest intersections, and the reason it got that big is buried under the pavement. Place du Cirque sits on the former bed of the Arve river, rerouted decades before the tree was planted around 1900, and the water table left behind still runs close enough to the surface for the tree's roots to draw on it freely. The result, after roughly a century and a quarter: 35 metres tall, a trunk 4.25 metres around, one and a half metres in diameter, dimensions that would be remarkable in a forest and are startling in the middle of a traffic circle. Thousands of pedestrians pass directly under its canopy every day without necessarily registering that they are walking beneath one of the biggest trees in the canton, let alone the largest one standing in the city centre itself. The square takes its name from the travelling circuses that once pitched their tents on this stretch of the Plainpalais plain. The tree arrived after most of that history, but has since outlasted every circus that has come and gone since.",
@@ -252,20 +252,34 @@
       "access": "Free, open public square at any time",
       "transport": "Central Plainpalais, walkable from the old town, roughly 10 minutes",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/gen_006-the-place-du-cirque-plane.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_18ab583bf11c12476cf3436d",
+        "sighting_id": "42b23058-5ddc-4386-b371-992865e29867",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); a viewing pass approved it on 2026-11-25: The one big plane on the island in the middle of the Place du Cirque crossing, whole tree in frame, autumn leaf, grey daylight; the second shot shows the same tree from the pavement. Closes the tree's photo gap. Species seen: mottled flaking plane bark on a tall forked bole, lobed leaves turning brown. Fits the description: a lone large plane standing on a planted island in a traffic intersection between Geneva apartment blocks, tram wires overhead.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "how_to_recognise": "You can recognise it as the one big tree in the middle of the traffic circle, 35 metres tall over a trunk 4.25 metres round. It stands on the Place du Cirque.",
       "official_register": {
         "name": "250 arbres à découvrir (Ville de Genève)",
         "url": "https://www.geneve.ch/themes/environnement-urbain-espaces-verts/ville-nature/arbres/250-arbres-decouvrir/platane-place-cirque"
       },
       "girth_cm": 425,
-      "height_m": 35
+      "height_m": 35,
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "42b23058-5ddc-4386-b371-992865e29867",
+        "moved_m": 13,
+        "date": "2026-11-25",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+      }
     },
     {
       "id": "gen_007",

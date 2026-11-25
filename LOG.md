@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+
+## 2026-11-25 reader judge: first photograph of the Geneva Place du Cirque plane, a new lead for the George Green chestnuts
+
+- **Live:** the first photograph of the Place du Cirque Plane (geneva/gen_006). It shows the one big plane on its island in the middle of the crossing, in autumn leaf. Its pin moved 13 m to the reader's GPS fix and is now confirmed.
+- **Live:** two photographs of the George Green Sweet Chestnuts (london/lon_043), from one reader. The group shot of three chestnuts in autumn gold is now the lead photograph, the single crown went into the strip, and the old lead moved to the strip as well. The pin moved 69 m to the group shot's GPS fix and is now confirmed. The trees fill that frame, so it was not taken from far off.
+- **Report 1000148** (Cambridge, the Milton Mulberry cam_002): a reader moved our approximate pin 5 m. I took their spot, it stays `approximate`, recorded `pin_source`, and sent the standard pin thank-you.
+- **Still waiting:** sighting 3c544597 (Amsterdam, our own account) still has no photo on disk. The older Japan and Baarn leads (`mine` and September ones) have no files on this runner either, so none of them were judged.
+- No feedback, tips or readers' words were waiting. qa (source), preflight and i18ncheck are clean.
+
 ## 2026-11-25 reader judge: a reader's photograph now leads the Battersea strawberry tree
 
 - **Live:** a reader's photograph of the Battersea Park Hybrid Strawberry Tree (london/lon_025). It shows the red peeling limbs twisting up into the evergreen crown, in daylight, taken 3 m from our pin. It is now the lead photograph and the old one has moved into the strip. Verdict sight:84640469 is `publish`, and the reader's "it is live" mail goes after the deploy.

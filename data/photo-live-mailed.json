@@ -3328,6 +3328,45 @@
      "mailed": "2026-11-25"
     }
    ]
+  },
+  "p_18ab583bf11c12476cf3436d": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "42b23058-5ddc-4386-b371-992865e29867",
+     "tree_id": "gen_006",
+     "tree_name": "The Place du Cirque Plane",
+     "city": "Geneva",
+     "city_slug": "geneva",
+     "display_name": null,
+     "live": "2026-11-25"
+    }
+   ],
+   "sent": []
+  },
+  "p_36f0881f0396f9c47693d500": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "ade4fd8a-9d64-4fad-8ad3-b4bd7304ceb2",
+     "tree_id": "lon_043",
+     "tree_name": "The George Green Sweet Chestnuts",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-25"
+    },
+    {
+     "sighting_id": "1acc3d6c-5ca2-447b-a23f-4921d1841992",
+     "tree_id": "lon_043",
+     "tree_name": "The George Green Sweet Chestnuts",
+     "city": "London",
+     "city_slug": "london",
+     "display_name": null,
+     "live": "2026-11-25"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

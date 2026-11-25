@@ -273,6 +273,72 @@
    "agreed": null
   },
   {
+   "id": "sight:42b23058-5ddc-4386-b371-992865e29867",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Place du Cirque Plane",
+   "city": "Geneva",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/42b23058-5ddc-4386-b371-992865e29867.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 13,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at both frames: the lone plane on the Place du Cirque island, autumn leaf, grey daylight. First photograph on gen_006; pin moved 13 m to the reader's fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ade4fd8a-9d64-4fad-8ad3-b4bd7304ceb2",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The George Green Sweet Chestnuts",
+   "city": "London",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "photo": "out/sightings/ade4fd8a-9d64-4fad-8ad3-b4bd7304ceb2.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 69,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut (Castanea sativa)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at all four frames: three of the George Green chestnuts together in autumn gold, plus a crown, a leaning trunk and bark. Now the lead photograph of lon_043; old lead moved to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:1acc3d6c-5ca2-447b-a23f-4921d1841992",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The George Green Sweet Chestnuts",
+   "city": "London",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "photo": "out/sightings/1acc3d6c-5ca2-447b-a23f-4921d1841992.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 41,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut (Castanea sativa)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at it: one George Green chestnut alone, full autumn crown, low sun. In lon_043's strip behind the same reader's group shot.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:745e0fd4-abaf-413b-a870-67eb466731e0",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",

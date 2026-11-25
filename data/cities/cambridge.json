@@ -78,10 +78,11 @@
       "age_max": 417,
       "location": {
         "address": "Fellows' Garden, Christ's College, Saint Andrew's Street, Cambridge CB2 3BU",
-        "latitude": 52.206171,
-        "longitude": 0.122749,
+        "latitude": 52.206127,
+        "longitude": 0.122783,
         "neighbourhood": "City centre"
       },
+      "pin_source": "reader report 1000148, a pin moved by hand 5 m on the map (2026-11-25)",
       "story": "James I wanted England to have a silk industry to rival France and Italy, and in the early 1600s ordered mulberry trees planted nationwide to feed silkworms. Christ's College planted one in its Fellows' Garden in 1608 or 1609, the year after the poet John Milton was born; by the time Milton arrived as a student in 1625, the tree was already established, and college tradition holds he spent time beneath it, though no contemporary record proves it directly. The silk scheme collapsed everywhere in England, partly because James's advisors specified the wrong species for silkworms to thrive on, but the mulberry outlived the industry it was planted for by well over a century. In 1795 a storm uprooted it completely. Rather than replace it with a sapling, the college's gardeners let it regrow from its own root system, and what stands today, propped on wooden posts, low and sprawling with trunks and branches poking out at odd angles from a raised mound, has been growing continuously from that same root for well over two centuries since. It still produces a real crop of mulberries each summer, which the college's gardeners harvest and turn into jam for the kitchens.",
       "verified_sources": [
         "https://www.christs.cam.ac.uk/visiting-christs/mulberry",
