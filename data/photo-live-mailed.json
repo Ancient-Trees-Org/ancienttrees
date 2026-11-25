@@ -3287,19 +3287,15 @@
    ]
   },
   "p_8debc1a01e9228232e31dc0d": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-25",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "75e408b1-04bb-4837-92c8-8a9e0ac8dd46",
      "tree_id": "tor_003",
-     "tree_name": "The Ginkgo of the Giardini Cavour",
-     "city": "Turin",
-     "city_slug": "turin",
-     "display_name": null,
-     "live": "2026-11-25"
+     "mailed": "2026-11-25"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
