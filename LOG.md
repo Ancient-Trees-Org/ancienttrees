@@ -13,6 +13,12 @@
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
 
+## 2026-11-25 session: a reader who reports a bug now hears when it is fixed
+
+- **New mail** (Hidde: "Ja, bouw hem"): `scripts/bug_fixed_mail.py` tells a reader whose feedback was closed as a bug that it is fixed, once the fix reaches them: the live site's commit for web, the App Store build for iPhone, an Android build. One standard line in our words (`reader_line` on the bug row, Dutch when they wrote Dutch), never theirs. Runs in tell-readers.yml after each deploy and in the knock. Tests: scripts/test_bug_fixed_mail.py.
+- `escaped.py --reader-line` / `--reader-line-nl`; `--fixed` now refuses a reader's bug without a reader line.
+- First in line: #1491 (the country that would not stay), waiting for iPhone build 42 in the App Store. #1488 (Tortworth under Westonbirt) waits for its fix.
+
 ## 2026-11-25 reader judge: Big Belly Oak, Brudenell Oak, Kingley Vale yews and an Ames sycamore live
 
 - **Live, new trees from readers** (photographs viewed, the pin is where each reader stood):
