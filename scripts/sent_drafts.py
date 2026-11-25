@@ -194,6 +194,22 @@ def closed(path):
     return any(l.startswith("CLOSED:") for l in head)
 
 
+def marked_sent(path):
+    """The day on a 'SENT <YYYY-MM-DD> ...' line a session wrote at the top
+    of a draft once it went (reply-reader-1362: sent in his own thread), or
+    None."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            head = [next(fh, "") for _ in range(10)]
+    except OSError:
+        return None
+    for l in head:
+        m = re.match(r"SENT:? (\d{4}-\d{2}-\d{2})", l)
+        if m:
+            return m.group(1)
+    return None
+
+
 def sent_log():
     try:
         doc = json.load(open(SENT, encoding="utf-8"))
@@ -240,6 +256,39 @@ def mailbox(since, wanted_to, wanted_subj):
                 hits.append((a, subj, when))
     d.logout()
     return hits
+
+
+READER_DRAFT = re.compile(r"reply-reader-(?:android-)?(\d+)-")
+
+
+def reader_replied(ids):
+    """{submission id: replied_at day} for reader replies that went out.
+
+    A reader's reply travels as the submission's reply_text, sent by
+    contributor_reply.py, which stamps replied_at; the draft names no address,
+    so it read "no address to check" forever and a session brought Hidde a
+    reply to send that had gone the day before (reader 1433, 2026-11-25:
+    "kun je dingen nalopen"). None when the database cannot be read."""
+    if not ids:
+        return {}
+    try:
+        from inbox import SUPA, load_key
+        import urllib.request
+        key = load_key()
+        if not key:
+            return None
+        out = {}
+        # Reports on a tree live in tree_reports since 2026-11-16, numbered
+        # from 1000000 (tree_reports.py); the rest are submissions.
+        for table in ("submissions", "tree_reports"):
+            q = "/rest/v1/%s?select=id,replied_at&replied_at=not.is.null&id=in.(%s)" % (
+                table, ",".join(str(i) for i in sorted(ids)))
+            req = urllib.request.Request(SUPA + q, headers={"apikey": key, "Authorization": "Bearer " + key})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                out.update({int(x["id"]): x["replied_at"][:10] for x in json.load(r)})
+        return out
+    except Exception:
+        return None
 
 
 def main():
@@ -301,6 +350,8 @@ def main():
 
     for rel in [k for k in drafts if os.path.basename(k) in NOT_DRAFTS]:
         del drafts[rel]
+    reader_ids = {int(m.group(1)) for m in (READER_DRAFT.match(os.path.basename(k)) for k in drafts) if m}
+    replied = reader_replied(reader_ids)
     for rel, v in drafts.items():
         to, subjects, made = v.get("to", []), v.get("subjects", []), v.get("made", "")
         sent = v.setdefault("sent", {})
@@ -308,6 +359,11 @@ def main():
             # woodland-trust-permission.md kept showing as unsent after the
             # Trust answered on 2026-10-09; a session then advised sending it.
             v["status"] = "closed"
+            continue
+        day = marked_sent(os.path.join(ROOT, rel))
+        if day:
+            v["status"], v["sent_on"] = "sent", day
+            v.setdefault("count", "marked sent")
             continue
         # scan() skips drafts past DAYS, whose rows then carry no tags.
         tags = set(v.get("tags") or batch_tags(os.path.join(ROOT, rel)))
@@ -325,6 +381,14 @@ def main():
             n = sum(1 for s in subjects if ("subject:" + s) in sent)
             total = len(subjects)
         else:
+            m = READER_DRAFT.match(os.path.basename(rel))
+            if m and replied is not None:
+                day = replied.get(int(m.group(1)))
+                # A reply that went before this draft was made answered an
+                # earlier message of theirs, not this one.
+                if day and day >= made:
+                    v["status"], v["sent_on"], v["count"] = "sent", day, "1 of 1"
+                    continue
             # A mail draft that names no address and no subject (reply-peter-
             # wifi-crash.md: "To: Peter Kálnai") cannot be checked: say so.
             mailish = re.match(r"(reply|mail|ambassador)-", os.path.basename(rel))
