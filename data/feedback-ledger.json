@@ -297,9 +297,10 @@
    "what": "Yes to the ambassador ask by mail: Chiang Mai badge granted; the welcome mail could not go from this run (no mail credentials) and waits for the knock's welcome-missing."
   },
   "1488": {
-   "date": "2026-11-22",
-   "status": "handled",
-   "what": "The reader's chestnut went live as tree twc_001 in its own place, Tortworth, not under Westonbirt."
+   "bug": "ESC-2026-11-25-my-trees-labels-a-tree-you-added-with-th",
+   "date": "2026-11-25",
+   "status": "bug",
+   "what": ""
   },
   "1491": {
    "bug": "ESC-2026-11-22-edit-profile-put-the-saved-country-back-",

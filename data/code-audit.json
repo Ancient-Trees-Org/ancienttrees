@@ -677,6 +677,26 @@
    "found_by": "hidde",
    "no_test_reason": "the threshold lives inside each sheet's gesture; checked by hand in the iOS simulator and the Android emulator with a slow 60 pt drag that sprang back before and closes now",
    "fixed_in": "52899c936"
+  },
+  {
+   "id": "ESC-2026-11-25-my-trees-labels-a-tree-you-added-with-th",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Collect.swift:197",
+   "summary": "My Trees labels a tree you added with the place of the nearest tree we map, with no distance limit on iOS (50 km on Android): the Tortworth chestnut showed under Westonbirt (feedback 1488)",
+   "first_seen": "2026-11-25",
+   "status": "open",
+   "found_by": "reader"
+  },
+  {
+   "id": "ESC-2026-11-25-a-tree-you-added-cannot-be-edited-afterw",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Collect.swift",
+   "summary": "A tree you added cannot be edited afterwards (place, name, details): the reader of the Tortworth chestnut found no way to correct it (feedback 1488)",
+   "first_seen": "2026-11-25",
+   "status": "open",
+   "found_by": "reader"
   }
  ]
 }
