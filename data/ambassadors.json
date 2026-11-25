@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-24T19:21Z",
+  "synced": "2026-11-25T00:52Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -104,21 +104,21 @@
       "profile_public": true
     },
     {
-      "user_id": "22d2ba90-aae5-4f61-a5ed-50659da65ae4",
-      "place_slug": "edinburgh",
-      "place_name": "Edinburgh",
-      "public": true,
-      "since": "2026-11-15",
-      "display_name": "Joanne P.",
-      "profile_public": true
-    },
-    {
       "user_id": "4ec36139-4bf3-4dae-9433-f55cf21ec1ad",
       "place_slug": "london",
       "place_name": "London",
       "public": true,
       "since": "2026-11-15",
       "display_name": "Golden Fig 0074",
+      "profile_public": true
+    },
+    {
+      "user_id": "22d2ba90-aae5-4f61-a5ed-50659da65ae4",
+      "place_slug": "edinburgh",
+      "place_name": "Edinburgh",
+      "public": true,
+      "since": "2026-11-15",
+      "display_name": "Joanne P.",
       "profile_public": true
     },
     {
@@ -194,15 +194,6 @@
       "profile_public": true
     },
     {
-      "user_id": "93021247-88bb-4324-b177-89875bc1a0e5",
-      "place_slug": "budapest",
-      "place_name": "Budapest",
-      "public": true,
-      "since": "2026-11-17",
-      "display_name": "daninegyeri",
-      "profile_public": true
-    },
-    {
       "user_id": "e013665c-9cee-4f25-b8aa-8cea1abe7766",
       "place_slug": "media-pennsylvania",
       "place_name": "Media",
@@ -218,6 +209,15 @@
       "public": true,
       "since": "2026-11-17",
       "display_name": "Калоян Р.",
+      "profile_public": true
+    },
+    {
+      "user_id": "93021247-88bb-4324-b177-89875bc1a0e5",
+      "place_slug": "budapest",
+      "place_name": "Budapest",
+      "public": true,
+      "since": "2026-11-17",
+      "display_name": "daninegyeri",
       "profile_public": true
     },
     {
@@ -410,6 +410,24 @@
       "public": true,
       "since": "2026-11-24",
       "display_name": "Jakob G.",
+      "profile_public": true
+    },
+    {
+      "user_id": "d8b4c312-fb89-4384-9dbc-f27bf8a87a26",
+      "place_slug": "hiroshima",
+      "place_name": "Hiroshima",
+      "public": true,
+      "since": "2026-11-25",
+      "display_name": "Gnarled Olive 1956",
+      "profile_public": true
+    },
+    {
+      "user_id": "dd95c4bd-6e88-4a48-8b99-edbf81da5291",
+      "place_slug": "geneva",
+      "place_name": "Geneva",
+      "public": true,
+      "since": "2026-11-25",
+      "display_name": "Michael H.",
       "profile_public": true
     },
     {
@@ -2308,6 +2326,26 @@
         "The Tall Larch of the Landro Valley"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_8762d5eeaf614cc69438a40e",
+      "place_slug": "hiroshima",
+      "place_name": "Hiroshima",
+      "date": "2026-11-25",
+      "trees": [
+        "The Willow Nearest the Hypocentre",
+        "The Aogiri of Peace Memorial Park"
+      ]
+    },
+    {
+      "user_id": "p_7e44bc8df9bd3137413fdca6",
+      "place_slug": "geneva",
+      "place_name": "Geneva",
+      "date": "2026-11-25",
+      "trees": [
+        "The Sécheron Plane",
+        "The Himalayan Cedar of Parc Mon Repos"
+      ]
     }
   ],
   "requested": [
@@ -3816,6 +3854,72 @@
         "gir_008"
       ],
       "since": "2026-11-24",
+      "mailed": []
+    },
+    "hiroshima": {
+      "trees": [
+        "hir_001",
+        "hir_002",
+        "hir_003",
+        "hir_004",
+        "hir_005",
+        "hir_006",
+        "hir_007",
+        "hir_008",
+        "hir_009",
+        "hir_010",
+        "hir_011",
+        "hir_012",
+        "hir_013",
+        "hir_014",
+        "hir_015",
+        "hir_016",
+        "hir_017",
+        "hir_018",
+        "hir_019",
+        "hir_020",
+        "hir_021",
+        "hir_022",
+        "hir_023",
+        "hir_024",
+        "hir_025",
+        "hir_026",
+        "hir_027",
+        "hir_028",
+        "hir_029",
+        "hir_030",
+        "hir_031",
+        "hir_032",
+        "hir_033"
+      ],
+      "since": "2026-11-25",
+      "mailed": []
+    },
+    "geneva": {
+      "trees": [
+        "gen_001",
+        "gen_002",
+        "gen_003",
+        "gen_004",
+        "gen_005",
+        "gen_006",
+        "gen_007",
+        "gen_008",
+        "gen_009",
+        "gen_010",
+        "gen_011",
+        "gen_012",
+        "gen_013",
+        "gen_014",
+        "gen_015",
+        "gen_016",
+        "gen_017",
+        "gen_018",
+        "gen_019",
+        "gen_020",
+        "gen_021"
+      ],
+      "since": "2026-11-25",
       "mailed": []
     }
   }

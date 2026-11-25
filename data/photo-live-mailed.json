@@ -642,113 +642,68 @@
    ]
   },
   "p_3bb2d9b77f839015a3f92de9": {
-   "last": "2026-11-16",
-   "pending": [
-    {
-     "sighting_id": "455f464a-464b-476c-b634-b9bdc511f84c",
-     "tree_id": "vfg_001",
-     "tree_name": "The Sprawling Sycamore of Pawling Farm",
-     "city": "Valley Forge",
-     "city_slug": "valley-forge",
-     "display_name": null,
-     "live": "2026-11-17"
-    },
-    {
-     "sighting_id": "fd777c00-bef5-4180-b214-8508313c12fb",
-     "tree_id": "vfg_001",
-     "tree_name": "The Sprawling Sycamore of Pawling Farm",
-     "city": "Valley Forge",
-     "city_slug": "valley-forge",
-     "display_name": null,
-     "live": "2026-11-17"
-    },
-    {
-     "sighting_id": "79399d95-56b8-4b54-9f84-0af78aaa3973",
-     "tree_id": "vfg_001",
-     "tree_name": "The Sprawling Sycamore of Pawling Farm",
-     "city": "Valley Forge",
-     "city_slug": "valley-forge",
-     "display_name": null,
-     "live": "2026-11-18"
-    },
-    {
-     "sighting_id": "c0841407-ba01-4abc-8f2b-30306e6989e5",
-     "tree_id": "cdf_001",
-     "tree_name": "The Brandywine Sycamore (Lafayette Sycamore)",
-     "city": "Chadds Ford",
-     "city_slug": "chadds-ford",
-     "display_name": null,
-     "live": "2026-11-19"
-    },
-    {
-     "sighting_id": "5df3b5ab-3be0-4590-82f9-5f6e1ffd7246",
-     "tree_id": "mdp_002",
-     "tree_name": "Tyler Arboretum Painter Ginkgo",
-     "city": "Media",
-     "city_slug": "media-pennsylvania",
-     "display_name": null,
-     "live": "2026-11-20"
-    },
-    {
-     "sighting_id": "218c153a-24e0-4209-b718-a40d6156ba61",
-     "tree_id": "mdp_001",
-     "tree_name": "Tyler Arboretum Giant Sequoia",
-     "city": "Media",
-     "city_slug": "media-pennsylvania",
-     "display_name": null,
-     "live": "2026-11-20"
-    },
-    {
-     "sighting_id": "c85a9ca3-8cfd-4853-afaf-35ce22996993",
-     "tree_id": "mdp_001",
-     "tree_name": "Tyler Arboretum Giant Sequoia",
-     "city": "Media",
-     "city_slug": "media-pennsylvania",
-     "display_name": null,
-     "live": "2026-11-20"
-    },
-    {
-     "sighting_id": "8587a0c8-80d2-4576-9e46-25d9cd95be6a",
-     "tree_id": "cdf_001",
-     "tree_name": "The Brandywine Sycamore (Lafayette Sycamore)",
-     "city": "Chadds Ford",
-     "city_slug": "chadds-ford",
-     "display_name": null,
-     "live": "2026-11-20"
-    },
-    {
-     "sighting_id": "c2a1f582-4998-479f-ab00-9c0c2758cf20",
-     "tree_id": "phl_003",
-     "tree_name": "The Katsura-Tree of Morris Arboretum",
-     "city": "Philadelphia",
-     "city_slug": "philadelphia",
-     "display_name": null,
-     "live": "2026-11-21"
-    },
-    {
-     "sighting_id": "74f4a12b-4119-4694-ab59-125839f977f8",
-     "tree_id": "phl_020",
-     "tree_name": "The Weeping European Beech at Morris Arboretum",
-     "city": "Philadelphia",
-     "city_slug": "philadelphia",
-     "display_name": null,
-     "live": "2026-11-21"
-    },
-    {
-     "sighting_id": "310205a9-4579-44a8-b087-6b4e64e54d70",
-     "tree_id": "phl_007",
-     "tree_name": "The Laurel Hill Cutleaf Linden",
-     "city": "Philadelphia",
-     "city_slug": "philadelphia",
-     "display_name": null,
-     "live": "2026-11-23"
-    }
-   ],
+   "last": "2026-11-25",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "c23e144f-d6a9-4473-8b17-e39cc9bc7050",
      "tree_id": "wtn_001",
      "mailed": "2026-11-16"
+    },
+    {
+     "sighting_id": "455f464a-464b-476c-b634-b9bdc511f84c",
+     "tree_id": "vfg_001",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "fd777c00-bef5-4180-b214-8508313c12fb",
+     "tree_id": "vfg_001",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "79399d95-56b8-4b54-9f84-0af78aaa3973",
+     "tree_id": "vfg_001",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "c0841407-ba01-4abc-8f2b-30306e6989e5",
+     "tree_id": "cdf_001",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "5df3b5ab-3be0-4590-82f9-5f6e1ffd7246",
+     "tree_id": "mdp_002",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "218c153a-24e0-4209-b718-a40d6156ba61",
+     "tree_id": "mdp_001",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "c85a9ca3-8cfd-4853-afaf-35ce22996993",
+     "tree_id": "mdp_001",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "8587a0c8-80d2-4576-9e46-25d9cd95be6a",
+     "tree_id": "cdf_001",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "c2a1f582-4998-479f-ab00-9c0c2758cf20",
+     "tree_id": "phl_003",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "74f4a12b-4119-4694-ab59-125839f977f8",
+     "tree_id": "phl_020",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "310205a9-4579-44a8-b087-6b4e64e54d70",
+     "tree_id": "phl_007",
+     "mailed": "2026-11-25"
     }
    ]
   },
@@ -1961,23 +1916,18 @@
    ]
   },
   "p_98341868b2bd7fa318d5e77a": {
-   "last": "2026-11-18",
-   "pending": [
-    {
-     "sighting_id": "0dc02495-3796-430f-a137-473641f7b6a7",
-     "tree_id": "stw_001",
-     "tree_name": "The north door yews of St Edward's, Stow-on-the-Wold",
-     "city": "Stow-on-the-Wold",
-     "city_slug": "stow-on-the-wold",
-     "display_name": null,
-     "live": "2026-11-18"
-    }
-   ],
+   "last": "2026-11-25",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "ea481510-d49d-44c4-8cf9-c27c49f968e8",
      "tree_id": "stw_001",
      "mailed": "2026-11-18"
+    },
+    {
+     "sighting_id": "0dc02495-3796-430f-a137-473641f7b6a7",
+     "tree_id": "stw_001",
+     "mailed": "2026-11-25"
     }
    ]
   },
@@ -2205,32 +2155,23 @@
    ]
   },
   "p_1930a537941dd45cebc49579": {
-   "last": "2026-11-18",
-   "pending": [
-    {
-     "sighting_id": "ac011137-15ee-4125-ab0e-dd8b588d4709",
-     "tree_id": "lon_052",
-     "tree_name": "The Gnarled Beech of Hampstead Heath",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-21"
-    },
-    {
-     "sighting_id": "29c28107-0cee-412b-911e-62cb94a71313",
-     "tree_id": "lon_014",
-     "tree_name": "The Marylebone Elm",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-21"
-    }
-   ],
+   "last": "2026-11-25",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "145ff4d3-da0a-437e-8295-38c085728740",
      "tree_id": "lon_020",
      "mailed": "2026-11-18"
+    },
+    {
+     "sighting_id": "ac011137-15ee-4125-ab0e-dd8b588d4709",
+     "tree_id": "lon_052",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "29c28107-0cee-412b-911e-62cb94a71313",
+     "tree_id": "lon_014",
+     "mailed": "2026-11-25"
     }
    ]
   },
@@ -2295,32 +2236,23 @@
    ]
   },
   "p_f351766b4a0e0a7e2b2b452b": {
-   "last": "2026-11-18",
-   "pending": [
-    {
-     "sighting_id": "1d8d8c2e-a5ad-45d4-ba5f-72956149bc7c",
-     "tree_id": "nij_017",
-     "tree_name": "The Copper Beech of the Antonius Abtkerk",
-     "city": "Nijmegen",
-     "city_slug": "nijmegen",
-     "display_name": null,
-     "live": "2026-11-18"
-    },
-    {
-     "sighting_id": "e23fe779-5876-4cd3-9fab-c50f7e28dcda",
-     "tree_id": "nij_017",
-     "tree_name": "The Copper Beech of the Antonius Abtkerk",
-     "city": "Nijmegen",
-     "city_slug": "nijmegen",
-     "display_name": null,
-     "live": "2026-11-18"
-    }
-   ],
+   "last": "2026-11-25",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "b496e5e0-e922-41e7-a23f-a0201fe141b7",
      "tree_id": "nij_017",
      "mailed": "2026-11-18"
+    },
+    {
+     "sighting_id": "1d8d8c2e-a5ad-45d4-ba5f-72956149bc7c",
+     "tree_id": "nij_017",
+     "mailed": "2026-11-25"
+    },
+    {
+     "sighting_id": "e23fe779-5876-4cd3-9fab-c50f7e28dcda",
+     "tree_id": "nij_017",
+     "mailed": "2026-11-25"
     }
    ]
   },
@@ -3193,34 +3125,26 @@
    ]
   },
   "p_a94e34ccafeeffaec7bf9e05": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-25",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "b6555e27-0c13-4715-b4d6-45b7f2ed37c9",
      "tree_id": "ehp_001",
-     "tree_name": "The Many-Stemmed Beech of East Hampton",
-     "city": "East Hampton",
-     "city_slug": "east-hampton",
-     "display_name": null,
-     "live": "2026-11-23"
+     "mailed": "2026-11-25"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_7000e289bb3522744b204b19": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-25",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "a104b938-9cfc-492e-bb48-0babab021f3b",
      "tree_id": "wdc_016",
-     "tree_name": "Travilah Oak",
-     "city": "Washington DC",
-     "city_slug": "washington-dc",
-     "display_name": null,
-     "live": "2026-11-24"
+     "mailed": "2026-11-25"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_f0c4b3c42fa99912d3ce18aa": {
    "last": "2026-11-24",
@@ -3298,19 +3222,15 @@
    ]
   },
   "p_0a92b73bb85b607e09b323ee": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-25",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "421f46f9-e2f0-4010-9611-dc19762ef95d",
      "tree_id": "ver_011",
-     "tree_name": "The Silk Mulberry of Ca' di David",
-     "city": "Verona",
-     "city_slug": "verona",
-     "display_name": null,
-     "live": "2026-11-24"
+     "mailed": "2026-11-25"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_16d7943edfd395d2a903824f": {
    "last": "2026-11-24",
