@@ -1,3 +1,4 @@
+SENT 2026-11-25 (outreach_send via Resend, batch reply-three-2026-11-25), on Hidde's "Ja, verstuur".
 To: Stefano (thread "Re: Help us test the Android app"), Italian, from the new-app invite of 2026-11-25.
 His mail, in English: "Tried it with trees in Milan and it seems to work well. The ones it shows I already knew, so 👌 Bye, Stefano"
 Milan on the site: data/cities/milan.json. He knows the Milan trees, so the one ask is which ones we miss.

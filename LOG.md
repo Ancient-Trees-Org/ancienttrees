@@ -31,7 +31,9 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 ## 2026-11-25 session: inbox, two interviews tomorrow
 
 - **Sent** on Hidde's "verstuur alle mails hierboven", through Resend in their threads: Mattia Sartori (Il Dolomiti) Google Meet is fine, Thu 26 Nov 14:00; Lucas Barquero (Inspiring News, Spain) interview proposed Thu 26 Nov 15:00 on Google Meet; Marianne (Android tester, 70+, cannot get out much) the trees of the world from home, mistakes welcome.
-- **Held**: Pete's reply (Android tester whose Play account is another Gmail): it says his address is added, so it waits until Hidde puts it on the "Android testers" list in Play Console. Draft drafts/reply-pete-android-2026-11-25.md.
+- **Sent later the same evening**: Pete (his Play address was already on the "Android testers" list, checked in Play Console through Hidde's Chrome); Joey (Willistown, his White Oak mail of 11-23, which the inbox script had marked answered because an automatic mail about another of his trees went to him later); Stefano (Milan, tested fine: which Milan tree do we miss?); an Android tester whose link did not work (on the list; sign in to Play with that Gmail).
+- **Fixed**: scripts/outreach_inbox.py counts a sent mail as an answer only when it is a reply on the same subject (Joey's case). Dave's two Raincliffe Woods what3words spots resolved and put on the right leads (the reader judge had them unassigned); still leads without a photograph.
+- **CTV (Devika)**: our 11-24 mail asking her to resend the interview time to hidde@ is sent; no answer in the ancienttrees.app mailbox yet. A short follow-up in her thread on Monday if nothing comes.
 - **Rules from Hidde**: calls we propose are Google Meet, never Zoom (mailcheck ZOOM PROPOSED); a tester who cannot get out much gets the trees of the world from home (drafts/HIS_VOICE.md).
 - **No reply needed**: Waste Magazine has the article and asks for a reminder if no link within a few days (around 2026-11-30). The ancienttrees.app mailbox starts 2026-11-23; older threads (Joey and the rest) live in the old Gmail, which no script reads now.
 

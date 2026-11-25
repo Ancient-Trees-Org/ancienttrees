@@ -1,3 +1,4 @@
+SENT 2026-11-25 (outreach_send via Resend, batch reply-three-2026-11-25), on Hidde's "Ja, verstuur".
 To: the tester at the Gmail address in thread "Re: Help us test the Android app" (wrote 2026-11-25 18:25, Danish mail client, wrote in English; no name given).
 Their mail: "Hi, the link doesnt appear to work"
 Checked 2026-11-25 in Play Console: their address is already on the "Android testers" list of the new app. So the likely cause is the Google account Play is signed in with.
