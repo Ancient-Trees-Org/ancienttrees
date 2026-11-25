@@ -125,7 +125,10 @@ function atMapCard(map, opts) {
     if (window.atPaintSaves) window.atPaintSaves();
     if (window.atPaintSeen) window.atPaintSeen();
     place();
-    if (phone.matches) {
+    // Painting the saves and seen marks can close the card again before this
+    // line (web_errors, 2026-11-20 to 11-25: "el is null" on city maps in
+    // Chrome and Safari), so the card is read only while it is still up.
+    if (phone.matches && el) {
       var mr = map.getContainer().getBoundingClientRect();
       var cardTop = el.getBoundingClientRect().top - mr.top;
       var p = map.project(at);

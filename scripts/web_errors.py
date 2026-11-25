@@ -13,8 +13,11 @@ the digest's quality line). This is the reader, with the service key
 
 A TYPE is the message plus the script it came from. The last 24 hours are
 read against the seven days before them:
-  red     a type not seen in those seven days, on 3+ pages or 5+ reports in
-          the last 24 hours (a new fault spreading): rung-2 work
+  red     on 3+ pages or 5+ reports in the last 24 hours, and either not seen
+          in those seven days or seen fewer times in all seven than in this
+          one day (a fault spreading): rung-2 work
+Browsers word one fault differently (Chrome "Cannot read properties of null",
+Safari "null is not an object"), so `normalise()` reads them as one type.
   orange  any other new type
   green   nothing new (known types still firing are listed, not lit)
   grey    the table is not there yet, or no key
@@ -79,6 +82,35 @@ def is_foreign(message):
     return bool(FOREIGN.search(message or ""))
 
 
+# Every browser words the same fault its own way, so one bug read as three
+# types and none reached the red line (2026-11-25: "el is null" came as
+# Chrome's "Cannot read properties of null (reading 'getBoundingClientRect')"
+# and Safari's "null is not an object (evaluating 'el.getBoundingClientRect')",
+# 3 reports on 3 city pages in a day, two orange types). One wording for all.
+_SAME_FAULT = [
+    # Chrome: Cannot read properties of null (reading 'x')
+    (re.compile(r"Cannot read propert(?:y|ies) of (null|undefined) \(reading '([^']+)'\)"),
+     lambda m: "%s has no property '%s'" % (m.group(1), m.group(2))),
+    # Safari: null is not an object (evaluating 'a.b.x')
+    (re.compile(r"(null|undefined) is not an object \(evaluating '(?:[^']*\.)?([^'.]+)'\)"),
+     lambda m: "%s has no property '%s'" % (m.group(1), m.group(2))),
+    # Firefox: can't access property "x", a.b is null
+    (re.compile(r"can't access property \"([^\"]+)\", \S+ is (null|undefined)"),
+     lambda m: "%s has no property '%s'" % (m.group(2), m.group(1))),
+]
+
+
+def normalise(message):
+    """The message in one wording whatever the browser: no "Uncaught " in
+    front (Chrome's window.onerror adds it), null and undefined reads alike."""
+    m = re.sub(r"^Uncaught ", "", (message or "").strip())
+    for pattern, say in _SAME_FAULT:
+        hit = pattern.search(m)
+        if hit:
+            return "TypeError: " + say(hit)
+    return m
+
+
 def group(rows, now=None):
     """One dict per type: last-24h reports and pages, the week before, newest."""
     now = now or datetime.datetime.now(datetime.timezone.utc)
@@ -87,7 +119,7 @@ def group(rows, now=None):
     for r in rows:
         if is_foreign(r.get("message")):
             continue
-        k = (r.get("message") or "", r.get("source") or "")
+        k = (normalise(r.get("message")), r.get("source") or "")
         t = types.setdefault(k, {"message": k[0], "source": k[1], "day": 0, "pages": set(),
                                  "before": 0, "browsers": set(), "last": ""})
         when = _when(r["created_at"])
@@ -101,7 +133,12 @@ def group(rows, now=None):
     out = list(types.values())
     for t in out:
         t["new"] = t["day"] > 0 and t["before"] == 0
-        t["spreading"] = t["new"] and (len(t["pages"]) >= RED_PAGES or t["day"] >= RED_REPORTS)
+        wide = len(t["pages"]) >= RED_PAGES or t["day"] >= RED_REPORTS
+        # A known type that fires more in one day than in the whole week
+        # before is a fault getting worse, not background noise: it was seen
+        # once before, so it never counted as new and never turned red.
+        t["rising"] = not t["new"] and t["day"] > t["before"]
+        t["spreading"] = wide and (t["new"] or t["rising"])
     out.sort(key=lambda t: (-t["spreading"], -t["new"], -t["day"], -t["before"]))
     return out
 
@@ -124,8 +161,8 @@ def light():
     new = [t for t in types if t["new"]]
     if spreading:
         t = spreading[0]
-        return "red", "new error spreading: \"%s\" in %s, %d reports on %d pages" % (
-            t["message"][:60], t["source"] or "?", t["day"], len(t["pages"]))
+        return "red", "%s error spreading: \"%s\" in %s, %d reports on %d pages" % (
+            "new" if t["new"] else "known", t["message"][:60], t["source"] or "?", t["day"], len(t["pages"]))
     if new:
         t = new[0]
         return "orange", "%d new error type(s), first \"%s\" in %s" % (
