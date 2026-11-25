@@ -2385,6 +2385,36 @@
         "The Golden Tree by the Flagpoles"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_55175e1d5168ec9b0cca118d",
+      "place_slug": "ames",
+      "place_name": "Ames",
+      "date": "2026-11-25",
+      "trees": [
+        "The White Sycamore of Ames"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_0e9b63ca8063438dd88360b2",
+      "place_slug": "kingley-vale",
+      "place_name": "Kingley Vale",
+      "date": "2026-11-25",
+      "trees": [
+        "The Ancient Yews of Kingley Vale"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_b8a9f9498ee0e37cb3d2b9f3",
+      "place_slug": "savernake-forest",
+      "place_name": "Savernake Forest",
+      "date": "2026-11-25",
+      "trees": [
+        "The Big Belly Oak"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
