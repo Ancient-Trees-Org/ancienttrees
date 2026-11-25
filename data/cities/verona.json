@@ -3,10 +3,10 @@
   "country": "Italy",
   "face_tree_id": "ver_005",
   "status": "needs_curation",
-  "intro": "Verona keeps fewer officially catalogued monumental trees than nearby Bologna or Naples, only three on Italy's national register within the city itself, but what it has clusters around places everyone already visits: the cedar shading the square in front of the Arena, the cypress avenue Goethe wrote home about, a plane tree filling an entire public garden. This list adds the Renaissance garden that outlived its most famous tree and a few specimens the city fought to keep, ten within the city's bounds, plus an eleventh a short train ride east, the holm oak in front of San Bonifacio station.",
+  "intro": "Verona keeps fewer officially catalogued monumental trees than nearby Bologna or Naples, only three on Italy's national register within the city itself, but what it has clusters around places everyone already visits: the cedar shading the square in front of the Arena, the cypress avenue Goethe wrote home about, a plane tree filling an entire public garden. This list adds the Renaissance garden that outlived its most famous tree and a few specimens the city fought to keep, eleven within the city's bounds, plus a twelfth a short train ride east, the holm oak in front of San Bonifacio station.",
   "meta_description": "Verona's most remarkable trees, from the century-old cedar just saved beside the Arena to the cypress avenue that captivated Goethe in 1786.",
   "question_answer": "Verona's oldest precisely documented tree is the Cedar of Lebanon in Piazza Bra, planted in 1873 as part of the square's original garden design and still standing beside the Roman Arena today, roughly 153 years old. It stands free to visit in the city's largest and most central square.",
-  "question_meta": "Verona's oldest documented tree is a 150-year-old cedar in Piazza Bra beside the Arena, planted in 1873. Its story and ten more remarkable trees.",
+  "question_meta": "Verona's oldest documented tree is a 150-year-old cedar in Piazza Bra beside the Arena, planted in 1873. Its story and eleven more remarkable trees.",
   "question_context": "Verona's tree heritage is thinner in the official record than some Italian cities: only three specimens within the city itself appear on the national Alberi Monumentali d'Italia register, all added in recent years. Among those, and among the wider set of well-documented specimens across the city's parks and gardens, the Cedar of Lebanon in Piazza Bra has the most precisely traceable planting date, tied to the square's 1870s garden redesign rather than a rounder estimate. It made local headlines in 2025 when arborists raced to stabilise it after its roots showed signs of failure, a rescue completed and re-verified stable by October of that year. Giardino Giusti's cypress avenue, older in reputation and once admired by Goethe on his 1786 visit, cannot match that precision: its most famous original tree came down in a 2020 storm and was replanted, so the avenue's age today is a mix of survivors and regrowth rather than one dated planting. The square itself is free and always open.",
   "faq": [
     {
@@ -22,8 +22,8 @@
       "a": "Most standing in public squares and parks are free. The Giardino Giusti charges an entry fee, and the Himalayan cedar of Villa Bersani grows on private property, visible from the street corner it overlooks rather than from inside the grounds."
     },
     {
-      "q": "Why does this list have only ten trees in the city?",
-      "a": "Verona's officially documented tree heritage is smaller than several other Italian cities on this site. Rather than pad the list with unverifiable specimens, it keeps to ten trees in the city, nine well researched and one a reader sent from the southern fields,, plus the registered holm oak in front of San Bonifacio station a short train ride east; more may be added as better sources turn up."
+      "q": "Why does this list have only eleven trees in the city?",
+      "a": "Verona's officially documented tree heritage is smaller than several other Italian cities on this site. Rather than pad the list with unverifiable specimens, it keeps to eleven trees in the city, nine well researched and two that readers sent, one from the southern fields and one from Piazza Bra, plus the registered holm oak in front of San Bonifacio station a short train ride east; more may be added as better sources turn up."
     }
   ],
   "trees": [
@@ -558,6 +558,48 @@
           "note": "Photographed by a reader and sent through the app (2026-07-02); a viewing pass approved it on 2026-11-24: Same mulberry as the lead, from the field side in July with water standing on the grass: the broad trunk with the pale-rimmed knot hole low on it (matches the reader's earlier frames), wire fence at left, crown of heart-shaped leaves. Good daylight and colour, but a closer trunk-and-crown frame than the whole-tree lead, so it goes in the gallery. Species seen: broad furrowed trunk, big rounded heart-shaped leaves on long whippy shoots from cut knuckles: a pollarded mulberry. Fits the description: short broad trunk, cut knuckles at the top, wire fence just beside it, mown grass: the setting the recognition line names.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ]
+    },
+    {
+      "id": "ver_012",
+      "name": "The Golden Tree by the Flagpoles",
+      "species": "Unknown species (broadleaf, to be confirmed)",
+      "location": {
+        "address": "Gardens of Piazza Bra, 37121 Verona",
+        "latitude": 45.4386,
+        "longitude": 10.9931,
+        "neighbourhood": "Centro Storico"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "named site",
+        "date": "2026-11-25",
+        "note": "The photograph shows Piazza Bra's gardens (the Liston's lamps, the flagpoles); the phone's coordinate was about 600 m off, where it sent the photo from. The pin marks the gardens, not the trunk."
+      },
+      "how_to_recognise": "A broad, dense broadleaf crown, gold in November, rising from the lawn of Piazza Bra's gardens right behind two tall flagpoles, with bicycles parked at its foot.",
+      "access": "Free. In the public gardens of Piazza Bra, open at all hours.",
+      "verified_sources": [
+        "A reader's photograph through the app, 2026-11-21, taken in the gardens of Piazza Bra beside the two flagpoles, the Liston's lamps in frame"
+      ],
+      "story": "A reader crossing Piazza Bra on a November evening, with the crowds of the Liston drifting past, stopped to photograph this tree and sent it to us.\n\nIn the picture its crown is the brightest thing in the square. Every leaf has turned the same deep gold, and the lights of the gardens catch it from below so that it glows against the misty sky. The crown is broad and dense, wider than it is tall, and rises from a short trunk in the lawn behind two tall flagpoles, with bicycles leaning at its foot.\n\nWe do not yet know what it is. The leaves are broad, and in the dark it could be a lime or a horse chestnut; if you know, tell us here, and a photograph by daylight would settle it. We do not know its age or the size of its trunk either.\n\nA few steps away stands the cedar of Piazza Bra, the square's best-known tree, so the two make an easy pair. Piazza Bra is free and open at all hours. Look for the flagpoles at the edge of the gardens, and come in November to see it gold.",
+      "curation_status": "flagged",
+      "found_by_reader": {
+        "sighting_id": "b11a2e87-fbcc-400b-b029-966b64e2e894",
+        "date": "2026-11-25"
+      },
+      "verify_notes": "2026-11-25 session: sent by a reader through the app on 2026-11-21 for our cedar (ver_001) (b11a2e87-fbcc-400b-b029-966b64e2e894). Photograph viewed: a big broadleaf tree in yellow autumn leaf at night in the gardens of Piazza Bra, behind two tall flagpoles, bicycles at its foot, the Liston's lamps and crowd to the left, colour. Deciduous, so another tree; held doubt_location 2026-11-24 because the phone's coordinate was 600 m off. Hidde overruled it on 2026-11-25 (\"Ja, zet live\"): the photograph itself places it in Piazza Bra's gardens. Species, age and girth unknown; the page asks.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ver_012-the-golden-tree-by-the-flagpoles.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_0ff8aaa6b520db6499506ff3",
+        "sighting_id": "b11a2e87-fbcc-400b-b029-966b64e2e894",
+        "taken_month": 11,
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-25: a big broadleaf tree in yellow autumn leaf at night in the gardens of Piazza Bra, behind two tall flagpoles, bicycles at its foot, the Liston's lamps and crowd to the left, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ],
   "oldest_tree_id": "ver_001"

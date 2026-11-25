@@ -18,7 +18,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Live**: arezzo/arz_001 Bella di Ceciliano, a reader's downy oak outside Arezzo, on the register's coordinate, girth (570 cm) and height (24 m), Albero monumentale d'Italia 01/A390/AR/09; the reader's photograph leads, their 400 years stated as theirs. One tree, so no place page.
 - **Gallery**: the reader's night photograph of the cedar of Piazza Bra under its Christmas lights, into verona/ver_001's strip behind the Commons lead.
 - **Lesson** (Hidde: "is most likely a cedar", "Ja, zet ze live"): a photo sent for our tree from its square whose shape fits is that tree; a cropped screenshot is doubt_photo only when it is plainly someone else's; a register entry within about 50 m settles the tree. Written into BRIEF_READER_JUDGE.md.
-- Still held, not discussed: the reader's second Piazza Bra photo (a yellow broadleaf by the same flagpoles, lead b11a2e87, doubt_location).
+- **Live** (Hidde, later: "Ja, zet live"): verona/ver_012, the reader's second Piazza Bra photo, a gold broadleaf behind the two flagpoles, species unknown and asked; pin on the gardens, approximate. Verona's counts in English and Italian now say eleven in the city; the Italian overlay has the tree.
 
 ## 2026-11-25 reader judge: first photograph of the Geneva Place du Cirque plane, a new lead for the George Green chestnuts
 

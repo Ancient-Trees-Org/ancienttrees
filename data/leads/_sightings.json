@@ -12095,11 +12095,11 @@
    "extra_files": [],
    "nearest_published_m": 621,
    "sent_for": "ver_001",
-   "status": "held",
-   "why": "Photograph viewed 2026-11-24: a big broadleaf tree in yellow autumn leaf at night in Piazza Bra, Verona, behind two flagpoles, the Liston's lamps and crowd to the left. Sent for our cedar (ver_001), but it is deciduous, so another tree. Its coordinate is where the phone was when it sent the photo, about 600 m from Piazza Bra, and the photo carries no marker that places one trunk among the square's gardens; held until the reader says where it stands.",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-24: a big broadleaf tree in yellow autumn leaf at night in the gardens of Piazza Bra, behind two tall flagpoles, bicycles at its foot, the Liston's lamps and crowd to the left, colour. Held doubt_location that day; Hidde overruled it on 2026-11-25 (\"Ja, zet live\"). Live as verona/ver_012, pin on the gardens.",
    "seen": "2026-11-24",
-   "hold": "doubt_location",
-   "judged": "2026-11-24"
+   "judged": "2026-11-25",
+   "published_as": "verona/ver_012"
   },
   {
    "sighting_id": "35263410-988c-419f-9141-f49826a2f81c",

@@ -1126,10 +1126,10 @@
     "score": null,
     "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
    },
-   "verdict": "hold",
-   "reason": "A deciduous tree in autumn leaf in Piazza Bra at night, not the cedar it was sent for; moved to a lead of its own.",
-   "hidde": null,
-   "agreed": null
+   "verdict": "publish",
+   "reason": "Live as verona/ver_012 on Hidde's word (2026-11-25, \"Ja, zet live\"); doubt_location overruled.",
+   "hidde": "Ja, zet live: the photo itself places it in Piazza Bra's gardens",
+   "agreed": false
   },
   {
    "id": "sight:1dac0633-bdf5-4a8e-89ec-f76e4652a9ac",
@@ -1253,10 +1253,10 @@
    ],
    "register": null,
    "measure": null,
-   "verdict": "hold",
-   "reason": "doubt_location: big broadleaf in autumn leaf at night in Piazza Bra; the coordinate is where the phone sent it from, 600 m off, and nothing in frame places the trunk. No submissions row, so no hold mail.",
-   "hidde": null,
-   "agreed": null,
+   "verdict": "publish",
+   "reason": "Live as verona/ver_012 on Hidde's word (2026-11-25, \"Ja, zet live\"); doubt_location overruled.",
+   "hidde": "Ja, zet live: the photo itself places it in Piazza Bra's gardens",
+   "agreed": false,
    "shown": [
     "2026-11-25"
    ]
@@ -1781,6 +1781,49 @@
    "reason": "A very tall larch on a bare straight trunk rising far above the spruces beside a forest path south of Toblach, its crown gold in autumn: a column above the pines. Live as toblach/tbl_001 with the reader's hand-placed pin, approximate.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:e604000d-20cf-4082-885d-3e34c988c961",
+   "seen": "2026-11-24",
+   "kind": "a tree we do not map",
+   "tree": "Roverella",
+   "city": null,
+   "species": "Roverella",
+   "photo": "p_3bb792528c3370538a708e62/E604000D-20CF-4082-885D-3E34C988C961.jpg",
+   "reader_note": "The tree named “Bella” is perfectly harmonious and reminiscent of the fractals",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "near",
+    "why": "the nearest register entry is 42 m away (italy-masaf): possibly the same tree, possibly its neighbour, so check before leaning on it",
+    "nearest": [
+     {
+      "lat": 43.496911,
+      "lng": 11.862469,
+      "source": "italy-masaf",
+      "designation": "Albero monumentale d'Italia",
+      "name": "Roverella",
+      "species": "Quercus pubescens Willd.",
+      "girth_cm": 570.0,
+      "height_m": 24.0,
+      "distance_m": 41.5
+     }
+    ]
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Roverella"
+   },
+   "verdict": "publish",
+   "reason": "Live as arezzo/arz_001 on Hidde's word (2026-11-25, \"Ja, zet ze live\"): the reader's photograph of the registered Roverella at Ceciliano (570 cm, 24 m) leads; the screenshot doubt overruled.",
+   "hidde": "Ja, zet ze live: a screenshot of a registered monumental tree is no reason to hold",
+   "agreed": false,
+   "shown": [
+    "2026-11-25"
+   ]
   },
   {
    "id": "sight:22267ba3-4b26-4074-a420-e440906c2010",
@@ -28754,49 +28797,6 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
-  },
-  {
-   "id": "sight:e604000d-20cf-4082-885d-3e34c988c961",
-   "seen": "2026-11-24",
-   "kind": "a tree we do not map",
-   "tree": "Roverella",
-   "city": null,
-   "species": "Roverella",
-   "photo": "p_3bb792528c3370538a708e62/E604000D-20CF-4082-885D-3E34C988C961.jpg",
-   "reader_note": "The tree named “Bella” is perfectly harmonious and reminiscent of the fractals",
-   "reader_girth_cm": null,
-   "coords": [
-    null,
-    null
-   ],
-   "register": {
-    "verdict": "near",
-    "why": "the nearest register entry is 42 m away (italy-masaf): possibly the same tree, possibly its neighbour, so check before leaning on it",
-    "nearest": [
-     {
-      "lat": 43.496911,
-      "lng": 11.862469,
-      "source": "italy-masaf",
-      "designation": "Albero monumentale d'Italia",
-      "name": "Roverella",
-      "species": "Quercus pubescens Willd.",
-      "girth_cm": 570.0,
-      "height_m": 24.0,
-      "distance_m": 41.5
-     }
-    ]
-   },
-   "measure": {
-    "score": null,
-    "note": "nothing measurable about Roverella"
-   },
-   "verdict": "publish",
-   "reason": "Live as arezzo/arz_001 on Hidde's word (2026-11-25, \"Ja, zet ze live\"): the reader's photograph of the registered Roverella at Ceciliano (570 cm, 24 m) leads; the screenshot doubt overruled.",
-   "hidde": "Ja, zet ze live: a screenshot of a registered monumental tree is no reason to hold",
-   "agreed": false,
-   "shown": [
-    "2026-11-25"
-   ]
   }
  ]
 }
