@@ -13,8 +13,8 @@
       "species": "Coast Redwood (Sequoia sempervirens)",
       "location": {
         "address": "Big Trees Loop, Big Tree Area, Bull Creek, Rockefeller Forest, Humboldt Redwoods State Park, California",
-        "latitude": 40.344778,
-        "longitude": -123.996166,
+        "latitude": 40.3498383333333,
+        "longitude": -123.991355,
         "neighbourhood": "Rockefeller Forest"
       },
       "story": "In November 1991 the American Forestry Association named this coast redwood the national champion of its species, and the park's sign beside it still gives the figures. It is 363 feet tall, about 110 metres, with a trunk 53.2 feet round, about 16 metres, and an average crown spread of 62 feet. Save the Redwoods League explains that the title goes to the best combination of height, trunk and crown, not to height alone.\n\nIt stands in Rockefeller Forest, the part of Humboldt Redwoods State Park that holds the largest remaining continuous old-growth coast redwood forest in the world. Settlers began felling the redwoods here in the 1850s and the timber industry followed. The park began in 1921, when Save the Redwoods League bought land largely from the Pacific Lumber Company, and only about five percent of the old coast redwood forest survives anywhere.\n\nNobody has published an age for it. The reader who sent it to us filed it as a giant sequoia, but the park's own sign names it Sequoia sempervirens, the coast redwood. It is on the Big Trees Loop by the Big Tree Area parking on Bull Creek, in the same grove as the Tall Tree, and it costs nothing to stand at its foot and look up.",
@@ -46,13 +46,14 @@
         "note": "Photographed by a reader and sent through the app (2009-08-13); a viewing pass approved it on 2026-11-17: this tree, the trunk is the point Species seen: coast redwood fluted trunk base. Fits the description: enormous redwood trunk base beside a boardwalk, reader sitting for scale.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "girth_cm": 1622,
       "height_m": 110.6,
       "pin_source": {
-        "kind": "reader's hand-placed pin",
-        "date": "2026-11-15",
-        "note": "Where the reader moved the pin by hand (submission 803); the phone's own position was 664 m away. Approximate."
+        "kind": "reader GPS fix",
+        "sighting_id": "45373393-9b42-4b86-904f-cb9fc689d00f",
+        "date": "2026-11-25",
+        "note": "The reader's GPS fix with their photographs of the trunk and the park's 'Giant Tree, Champion Coast Redwood' sign; our earlier pin was approximate and 695 m south-west, in the forest off the loop. Moved by the reader judge 2026-11-25."
       },
       "photos": [
         {

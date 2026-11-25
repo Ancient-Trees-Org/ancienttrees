@@ -13,6 +13,21 @@
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
 
+## 2026-11-25 reader judge: Big Belly Oak, Brudenell Oak, Kingley Vale yews and an Ames sycamore live
+
+- **Live, new trees from readers** (photographs viewed, the pin is where each reader stood):
+  - savernake-forest/svk_001 is the Big Belly Oak: the hollow, steel-banded oak by the A346, with its name sign in the photo. About 1,000 years old per Wikipedia; the reader says 1,100.
+  - savernake-forest/svk_002 is the Brudenell Oak: a moss-green oak among golden beeches, with its name sign. The reader puts it at 410 years.
+  - kingley-vale/kgv_001 is the ancient yews of Kingley Vale. The photo shows a fluted trunk inside a lattice of limbs, and the reader's note is quoted.
+  - ames/amw_001 is a white-limbed American sycamore on a roadside bank in Ames, Iowa. The reader sent the same photo twice; both copies are marked as this tree. Ames is added to data/us-states.json.
+  - All three places are new. Each has an intro, question texts and three FAQs.
+- **Into the strips:** the Giant Tree (hum_001), the Tall Tree (hum_002) and the Great Cedar of Varese (var_001). The live-first step had already put them there. A second, identical Tall Tree photo was rejected as a duplicate.
+- **Pin:** hum_001's approximate pin was 695 m off. It moved to the reader's GPS fix, taken at the trunk with the park's "Giant Tree, Champion Coast Redwood" sign. It is now confirmed.
+- **Report 1000149** (St. Wolfgang's Oak, thm_001) was the "wrong location" chip alone: no words and no coordinate. The confirmed pin stays and the reader got the standard pin thank-you.
+- **Mail replies 1667 and 1668**: the Raincliffe Woods tipster sent two what3words spots, without saying which is the beech and which the chestnut. Both spots are on the leads in data/leads/scarborough.json, not converted (no what3words key here). There is still no photograph or source, so both stay leads.
+- **Still waiting:** sighting 3c544597 (Amsterdam, our own account) has no photo on disk. The older `mine` leads have no files on this runner either.
+- qa (source) and preflight (0 problems) are clean; i18ncheck is clean.
+
 ## 2026-11-25 session: inbox, two interviews tomorrow
 
 - **Sent** on Hidde's "verstuur alle mails hierboven", through Resend in their threads: Mattia Sartori (Il Dolomiti) Google Meet is fine, Thu 26 Nov 14:00; Lucas Barquero (Inspiring News, Spain) interview proposed Thu 26 Nov 15:00 on Google Meet; Marianne (Android tester, 70+, cannot get out much) the trees of the world from home, mistakes welcome.

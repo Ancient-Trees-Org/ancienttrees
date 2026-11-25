@@ -1,0 +1,125 @@
+{
+  "city": "Savernake Forest",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Savernake Forest is an old royal hunting forest just south-east of Marlborough in Wiltshire, privately owned for centuries and open to walkers. It is known for its ancient oaks, each with a name. A reader sent us two of them: the Big Belly Oak, the forest's oldest at about a thousand years, beside the A346, and the moss-green Brudenell Oak among the beeches.",
+  "meta_description": "Two ancient oaks of Savernake Forest near Marlborough, Wiltshire: the thousand-year-old Big Belly Oak and the Brudenell Oak, with where to find them.",
+  "hero_tree_id": "svk_001",
+  "oldest_tree_id": "svk_001",
+  "trees": [
+    {
+      "id": "svk_001",
+      "name": "The Big Belly Oak",
+      "species": "Sessile Oak (Quercus petraea)",
+      "age_estimate": "about 1,000 years; 1,100 by a reader's estimate",
+      "age_min": 1000,
+      "age_max": 1100,
+      "age_basis": "source",
+      "location": {
+        "address": "Beside the A346 between Marlborough and Burbage, Savernake Forest, Wiltshire",
+        "neighbourhood": "Savernake Forest",
+        "latitude": 51.3906348918453,
+        "longitude": -1.69486554198626
+      },
+      "story": "Savernake Forest's oldest oak was already a young tree when William the Conqueror defeated King Harold in 1066. The Big Belly Oak is thought to have started growing around the year 1000, which makes it about a thousand years old. In 2002 it was named one of fifty Great British Trees for the Queen's Golden Jubilee, and in 2014 it was shortlisted for the Woodland Trust's Tree of the Year.\n\nA reader stopped at it in November and sent us the photograph, putting its age at 1,100 years. The name explains itself when you stand there. The trunk is enormously fat, about eleven metres round at chest height, swollen into burrs and folds and hollowed out at the base where the heartwood has long gone. A steel band now holds its waist together. Above it the old limbs twist off at odd angles, some bare and silver, others still carrying a crown of bronze leaves in autumn.\n\nIt is a sessile oak, and it grows right at the edge of the A346 between Marlborough and Burbage, so most people see it through a car window. Pull in and walk up to it instead, and keep to the verge on the forest side.",
+      "how_to_recognise": "A squat, hollow oak in the bracken beside the A346, its trunk swollen into burrs and gripped by a steel band, with a green sign at its foot reading Big Belly Oak.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Big_Belly_Oak (Big Belly Oak: the oldest oak in Savernake Forest, about 1,000 years old, sessile oak, girth 11.18 m at 1.2 m, by the A346 between Marlborough and Burbage, one of 50 Great British Trees in 2002)",
+        "https://www.wikidata.org/wiki/Q123127824 (Big Belly Oak, ancient oak in Savernake Forest, Wiltshire)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "ba5e165e-4669-4825-b637-62b75c608652",
+        "date": "2026-11-25"
+      },
+      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting ba5e165e-4669-4825-b637-62b75c608652), their name 'Pedunculate Oak', species 'Pedunculate Oak', age '1100', girth None cm. Photograph viewed: the whole hollow, burred oak from the bracken, the steel band round its waist, its green 'Big Belly Oak' sign in front, autumn leaves, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's.",
+      "access": "Free. Savernake Forest is open to walkers; the oak stands at the roadside of the A346, so take care with the traffic.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "ba5e165e-4669-4825-b637-62b75c608652",
+        "moved_m": 0,
+        "date": "2026-11-25",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/svk_001-big-belly-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_b8a9f9498ee0e37cb3d2b9f3",
+        "sighting_id": "ba5e165e-4669-4825-b637-62b75c608652",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: the whole hollow, burred oak from the bracken, the steel band round its waist, its green 'Big Belly Oak' sign in front, autumn leaves, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    },
+    {
+      "id": "svk_002",
+      "name": "The Brudenell Oak",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "about 410 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Savernake Forest, near Marlborough, Wiltshire",
+        "neighbourhood": "Savernake Forest",
+        "latitude": 51.396557246383,
+        "longitude": -1.69447305612424
+      },
+      "story": "Savernake Forest is known for its ancient oaks, and many of them carry names on small green signs. This one is the Brudenell Oak, and a reader found it in November and sent us the photograph, the name sign standing in the fallen leaves at its foot.\n\nThe picture shows a tree that seems to open its arms. A short trunk, thick with moss from the roots up, divides at head height into two great limbs that lean apart like arms, and from them the crooked branches spread wide over the forest floor. In autumn the beeches around it turn gold and the oak's own leaves go brown, so the green of the moss is what you notice first.\n\nThe reader puts it at about 410 years. That is their figure; we have not found a measurement or a written record of its age, and we would like one. If you know it, or have measured the girth, tell us here and we will add it with your name for the source.\n\nThe Big Belly Oak, the forest's oldest, stands well under a kilometre to the south, so the two make a short walk together.",
+      "how_to_recognise": "A massive moss-covered oak among beeches, its short trunk opening into two great spreading limbs, with a green sign in front reading Brudenell Oak.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "2b60934b-b1d3-4799-9020-d3189d754166",
+        "date": "2026-11-25"
+      },
+      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting 2b60934b-b1d3-4799-9020-d3189d754166), their name 'Pedunculate Oak', species 'Pedunculate Oak', age '410', girth None cm. Photograph viewed: the whole moss-green trunk splitting into great limbs, the green 'Brudenell Oak' sign in front, golden beech leaves all round, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's.",
+      "access": "Free. In Savernake Forest, open to walkers; the oak stands among the trees with its name sign in front.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "2b60934b-b1d3-4799-9020-d3189d754166",
+        "moved_m": 0,
+        "date": "2026-11-25",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/svk_002-brudenell-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_b8a9f9498ee0e37cb3d2b9f3",
+        "sighting_id": "2b60934b-b1d3-4799-9020-d3189d754166",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: the whole moss-green trunk splitting into great limbs, the green 'Brudenell Oak' sign in front, golden beech leaves all round, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ],
+  "question_meta": "Two ancient oaks of Savernake Forest near Marlborough, Wiltshire: the thousand-year-old Big Belly Oak and the Brudenell Oak, with where to find them.",
+  "question_answer": "The oldest tree in Savernake Forest is the Big Belly Oak, a sessile oak thought to be about 1,000 years old. It stands beside the A346 between Marlborough and Burbage.",
+  "question_context": "Savernake Forest, south-east of Marlborough in Wiltshire, is full of old oaks with names, and the oldest of them is the Big Belly Oak. It is thought to have started growing around the year 1000, so it would have been a young tree when William the Conqueror defeated King Harold in 1066. It is a sessile oak with a trunk about eleven metres round at chest height, hollow at the base and now held together by a steel band, and in 2002 it was named one of fifty Great British Trees for the Queen's Golden Jubilee. It grows right beside the A346 between Marlborough and Burbage, so it is easy to reach but needs care with the traffic. A reader who photographed it in November puts it at 1,100 years. The same reader sent us the Brudenell Oak, a massive moss-covered oak among beeches with its name on a green sign, which they put at about 410 years. Both are free to visit on foot, and the forest is open to walkers.",
+  "faq": [
+    {
+      "q": "Which is the oldest tree in Savernake Forest?",
+      "a": "The Big Belly Oak, a sessile oak thought to be about 1,000 years old, beside the A346 between Marlborough and Burbage."
+    },
+    {
+      "q": "Can I visit the oaks of Savernake Forest?",
+      "a": "Yes. The forest is open to walkers and both oaks are free to see. The Big Belly Oak stands at the roadside, so take care with the traffic."
+    },
+    {
+      "q": "How do I recognise the Brudenell Oak?",
+      "a": "A massive moss-covered oak among beeches, its short trunk opening into two great limbs, with a green sign in front reading Brudenell Oak."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "city": "Kingley Vale",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Kingley Vale is a national nature reserve in the South Downs, about five miles north-west of Chichester in West Sussex, and one of the finest yew forests in Europe. Some of its yews are thought to be up to 2,000 years old. A reader sent us a photograph from among the oldest of them, where trunks and limbs grow into one dim lattice.",
+  "meta_description": "The ancient yew forest of Kingley Vale near Chichester, with trees up to 2,000 years old: what you will see and how to walk in.",
+  "hero_tree_id": "kgv_001",
+  "oldest_tree_id": "kgv_001",
+  "trees": [
+    {
+      "id": "kgv_001",
+      "name": "The Ancient Yews of Kingley Vale",
+      "species": "European Yew (Taxus baccata)",
+      "age_estimate": "500 to 2,000 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Kingley Vale National Nature Reserve, West Stoke, near Chichester, West Sussex",
+        "neighbourhood": "Kingley Vale",
+        "latitude": 50.8891138888889,
+        "longitude": -0.832747222222222
+      },
+      "story": "\"This is an ancient woodland of Yew trees, not one tree but hundreds forming an interlocking lacework of gnarled limbs and twisted trunks,\" wrote the reader who sent us this photograph from Kingley Vale, north of Chichester.\n\nKingley Vale holds one of the most impressive yew forests in Europe, and some of its trees are thought to be as much as 2,000 years old, among the oldest living things in Britain. That they survived at all is the remarkable part: across Europe the old yews were felled for longbow staves from the fourteenth century on, and stands like this one became rare.\n\nThe photograph shows what the reader means by lacework. On the left rises one great fluted trunk, red under the grey, and from it and its neighbours limbs bend down to the ground, cross each other and climb again, so that the whole grove is one tangle of wood with sunlight coming through in pieces. The reader puts the trees at 500 to 2,000 years and one trunk at about 4.5 metres round; those figures are theirs.\n\nWalk up the valley from West Stoke, and step in under the limbs.",
+      "how_to_recognise": "Low in the vale: a cluster of huge, fluted red-brown yew trunks whose limbs bend down, cross and root again, making a dim lattice you can walk under.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Kingley_Vale_National_Nature_Reserve (one of Europe's most impressive yew forests, yews as much as 2,000 years old; managed by Natural England; car park at West Stoke)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "96e2b8d1-62d5-4891-9c1b-44273b4474de",
+        "date": "2026-11-25"
+      },
+      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting 96e2b8d1-62d5-4891-9c1b-44273b4474de), their name 'Kingley Vale Ancient Yew Woodland', species 'European Yew', age '500-2000', girth 450 cm. Photograph viewed: a great fluted yew trunk on the left and a lattice of twisting, crossing yew limbs filling the rest of the frame, sunlit, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's.",
+      "access": "Free. A national nature reserve managed by Natural England, open at all times; park at West Stoke and walk up the valley.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "96e2b8d1-62d5-4891-9c1b-44273b4474de",
+        "moved_m": 0,
+        "date": "2026-11-25",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/kgv_001-ancient-yews-of-kingley-vale.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_0e9b63ca8063438dd88360b2",
+        "sighting_id": "96e2b8d1-62d5-4891-9c1b-44273b4474de",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: a great fluted yew trunk on the left and a lattice of twisting, crossing yew limbs filling the rest of the frame, sunlit, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+        "taken_month": 3,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ],
+  "question_meta": "The ancient yew forest of Kingley Vale near Chichester, with trees up to 2,000 years old: what you will see and how to walk in.",
+  "question_answer": "Kingley Vale's oldest yews are thought to be as much as 2,000 years old, among the oldest living things in Britain. They grow in the national nature reserve north-west of Chichester.",
+  "question_context": "Kingley Vale, a national nature reserve in the South Downs north-west of Chichester, holds one of the most impressive yew forests in Europe, and some of its trees are thought to be as much as 2,000 years old. That makes them some of the oldest living things in Britain. Their survival is the surprising part: from the fourteenth century the old yews of Europe were cut for longbow staves, and few large stands were left. A reader who walked in among the oldest trees sent us a photograph and called it \"an interlocking lacework of gnarled limbs and twisted trunks\", and that is what it shows: huge fluted trunks whose limbs bend down, cross and climb again. The reader puts the trees at 500 to 2,000 years and one trunk at about 4.5 metres round. The reserve is managed by Natural England and is free and open at all times. Park at West Stoke and walk up the valley, or take the footpaths up from Stoughton.",
+  "faq": [
+    {
+      "q": "How old are the yews of Kingley Vale?",
+      "a": "Some are thought to be as much as 2,000 years old, among the oldest living things in Britain."
+    },
+    {
+      "q": "Can I visit Kingley Vale?",
+      "a": "Yes. It is a national nature reserve, free and open at all times. The car park is at West Stoke, about five miles north-west of Chichester."
+    },
+    {
+      "q": "Why did Kingley Vale's yews survive?",
+      "a": "Most of Europe's old yews were felled for longbow staves from the fourteenth century on; Kingley Vale is one of the few large stands that remained."
+    }
+  ]
+}

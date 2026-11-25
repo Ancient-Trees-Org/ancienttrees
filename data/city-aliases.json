@@ -203,6 +203,9 @@
       "Amersfoart",
       "Gemeente Amersfoort"
     ],
+    "ames": [
+      "Eimsa"
+    ],
     "amsterdam": [
       "Amesterdão",
       "Amszterdam",
@@ -2621,6 +2624,9 @@
     "kimotsuki": [
       "Kimotsuki Chō"
     ],
+    "kingley-vale": [
+      "Kingley Vale National Nature Reserve"
+    ],
     "kings-canyon-national-park": [
       "Kings Canyon",
       "Parc national de Kings Canyon",
@@ -4630,6 +4636,11 @@
       "Savana",
       "Savanna"
     ],
+    "savernake-forest": [
+      "Foresta di Savernake",
+      "Fforest Savernake",
+      "Savernake-arbaro"
+    ],
     "schlettau": [
       "Šletava"
     ],
@@ -5796,6 +5807,7 @@
     "altrier": "Altrier",
     "amerongen": "Amerongen",
     "amersfoort": "Amersfoort",
+    "ames": "Ames, Iowa",
     "amsterdam": "Amsterdam",
     "amt-neuhaus": "Amt Neuhaus",
     "ancient-bristlecone-pine-forest": "Ancient Bristlecone Pine Forest",
@@ -6229,6 +6241,7 @@
     "khao-yai": "Khao Yai National Park",
     "killarney": "Killarney",
     "kimotsuki": "Kimotsuki, Kagoshima",
+    "kingley-vale": "Kingley Vale National Nature Reserve",
     "kings-canyon-national-park": "Kings Canyon National Park",
     "kingston-st-mary": "Kingston St Mary",
     "kintai": "Kintai",
@@ -6598,6 +6611,7 @@
     "sardinia": "Sardinia",
     "saulkrasti": "Saulkrasti",
     "savannah": "Savannah, Georgia",
+    "savernake-forest": "Savernake Forest",
     "scheessel": "Scheeßel",
     "schenklengsfeld": "Schenklengsfeld",
     "schlagsdorf": "Schlagsdorf",

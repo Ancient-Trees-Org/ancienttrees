@@ -7850,24 +7850,63 @@
    "pin_checked": "2026-11-25"
   },
   "2b60934b-b1d3-4799-9020-d3189d754166": {
-   "outcome": "lead",
+   "outcome": "published",
    "date": "2026-11-25"
   },
   "8ae07f75-f6ba-4055-a274-fb7f03b4f380": {
-   "outcome": "lead",
+   "outcome": "published",
    "date": "2026-11-25"
   },
   "af38a0d5-0114-4c0e-8b25-336a957b89a8": {
-   "outcome": "lead",
+   "outcome": "published",
    "date": "2026-11-25"
   },
   "ba5e165e-4669-4825-b637-62b75c608652": {
-   "outcome": "lead",
+   "outcome": "published",
    "date": "2026-11-25"
   },
   "96e2b8d1-62d5-4891-9c1b-44273b4474de": {
-   "outcome": "lead",
+   "outcome": "published",
    "date": "2026-11-25"
+  },
+  "45373393-9b42-4b86-904f-cb9fc689d00f": {
+   "outcome": "added",
+   "date": "2026-11-25",
+   "tree_id": "hum_001",
+   "city_slug": "humboldt-redwoods-state-park",
+   "file": "hum_001-the-giant-tree-45373393.jpg",
+   "reason": "The Giant Tree itself: fire-scarred redwood trunk inside its boardwalk enclosure; the reader's second picture is the park's brown sign 'Giant Tree, Champion Coast Redwood, 1991, Height 363 feet, Circumference 53.2 feet'. Species seen: coast redwood: fibrous furrowed red-brown bark, fluted base, redw",
+   "lat": 40.3498383333333,
+   "lon": -123.991355,
+   "pin_checked": "2026-11-25"
+  },
+  "67933e44-d017-44fd-9497-68b5a39e964f": {
+   "outcome": "added",
+   "date": "2026-11-25",
+   "tree_id": "hum_002",
+   "city_slug": "humboldt-redwoods-state-park",
+   "file": "hum_002-the-tall-tree-67933e44.jpg",
+   "reason": "Looking up the Tall Tree from the ferns on Bull Creek Flat, 18 m from our confirmed pin, daylight; the whole trunk to the crown. Species seen: coast redwood: straight columnar red-brown trunk, sword ferns, redwood grove. Fits the description: a very tall single redwood column in the Rockefeller Fore",
+   "lat": 40.3512083333333,
+   "lon": -123.992195,
+   "pin_checked": "2026-11-25"
+  },
+  "7c3c5ac3-eb20-48cd-9c98-f82c44c4c525": {
+   "outcome": "rejected",
+   "date": "2026-11-25",
+   "tree_id": "hum_002",
+   "reason": "duplicate: the same picture as 67933e44 (same pixels, same GPS, same account), sent twice"
+  },
+  "bddcda78-ceef-4f9d-bfd3-40836fc3667d": {
+   "outcome": "added",
+   "date": "2026-11-25",
+   "tree_id": "var_001",
+   "city_slug": "varese",
+   "file": "var_001-the-great-cedar-of-varese-bddcda78.jpg",
+   "reason": "The whole Great Cedar of Varese on its lawn in bright daylight, 10 m from our pin. Species seen: cedar of Lebanon: tiered flat blue-green sprays, several trunks, broad crown. Fits the description: huge dark multi-trunked cedar inside a low fence, information boards and the white bench with the red h",
+   "lat": 45.8154133333333,
+   "lon": 8.82277833333333,
+   "pin_checked": "2026-11-25"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

@@ -345,6 +345,234 @@
    "agreed": null
   },
   {
+   "id": "sight:45373393-9b42-4b86-904f-cb9fc689d00f",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Giant Tree",
+   "city": "Humboldt Redwoods State Park",
+   "species": "Coast Redwood (Sequoia sempervirens)",
+   "photo": "out/sightings/45373393-9b42-4b86-904f-cb9fc689d00f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 695,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Coast Redwood (Sequoia sempervirens)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the Giant Tree's fire-scarred trunk in its boardwalk ring, with the park's champion sign in a second frame. In the strip of hum_001; its approximate pin moved to this fix.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:67933e44-d017-44fd-9497-68b5a39e964f",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Tall Tree",
+   "city": "Humboldt Redwoods State Park",
+   "species": "Coast Redwood (Sequoia sempervirens)",
+   "photo": "out/sightings/67933e44-d017-44fd-9497-68b5a39e964f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 18,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Coast Redwood (Sequoia sempervirens)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the Tall Tree from the ferns, the whole trunk to the crown, 18 m from our pin. In the strip of hum_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7c3c5ac3-eb20-48cd-9c98-f82c44c4c525",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Tall Tree",
+   "city": "Humboldt Redwoods State Park",
+   "species": "Coast Redwood (Sequoia sempervirens)",
+   "photo": "out/sightings/7c3c5ac3-eb20-48cd-9c98-f82c44c4c525.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 18,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Coast Redwood (Sequoia sempervirens)"
+   },
+   "verdict": "hold",
+   "reason": "Same photograph as 67933e44 sent twice; rejected as a duplicate, the other copy is live.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bddcda78-ceef-4f9d-bfd3-40836fc3667d",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Great Cedar of Varese",
+   "city": "Varese",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/bddcda78-ceef-4f9d-bfd3-40836fc3667d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 1100,
+   "match": "distance",
+   "distance_m": 10,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole Great Cedar on its lawn with the fence, boards and red-heart bench of our recognition line. In the strip of var_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2b60934b-b1d3-4799-9020-d3189d754166",
+   "seen": "2026-11-25",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_b8a9f9498ee0e37cb3d2b9f3/2B60934B-B1D3-4799-9020-D3189D754166.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the moss-green Brudenell Oak with its name sign among autumn beeches. Live as savernake-forest/svk_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:8ae07f75-f6ba-4055-a274-fb7f03b4f380",
+   "seen": "2026-11-25",
+   "kind": "a tree we do not map",
+   "tree": "American Sycamore",
+   "city": null,
+   "species": "American Sycamore",
+   "photo": "p_55175e1d5168ec9b0cca118d/8AE07F75-F6BA-4055-A274-FB7F03B4F380.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a lone white-limbed American sycamore on a roadside bank in Ames, winter. Live as ames/amw_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:af38a0d5-0114-4c0e-8b25-336a957b89a8",
+   "seen": "2026-11-25",
+   "kind": "a tree we do not map",
+   "tree": "American Sycamore",
+   "city": null,
+   "species": "American Sycamore",
+   "photo": "p_55175e1d5168ec9b0cca118d/AF38A0D5-0114-4C0E-8B25-336A957B89A8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Sycamore"
+   },
+   "verdict": "publish",
+   "reason": "Same photograph as 8ae07f75 sent twice; that one is live as ames/amw_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:ba5e165e-4669-4825-b637-62b75c608652",
+   "seen": "2026-11-25",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_b8a9f9498ee0e37cb3d2b9f3/BA5E165E-4669-4825-B637-62B75C608652.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the hollow, banded Big Belly Oak with its name sign. Live as savernake-forest/svk_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:96e2b8d1-62d5-4891-9c1b-44273b4474de",
+   "seen": "2026-11-25",
+   "kind": "a tree we do not map",
+   "tree": "Kingley Vale Ancient Yew Woodland",
+   "city": null,
+   "species": "European Yew",
+   "photo": "p_0e9b63ca8063438dd88360b2/96E2B8D1-62D5-4891-9C1B-44273B4474DE.jpg",
+   "reader_note": "This is an ancient woodland of Yew trees, not one tree but hundreds forming an interlocking lacework of gnarled limbs and twisted trunks.",
+   "reader_girth_cm": 450,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Yew"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a great fluted yew and a lattice of crossing yew limbs at Kingley Vale. Live as kingley-vale/kgv_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:745e0fd4-abaf-413b-a870-67eb466731e0",
    "seen": "2026-11-24",
    "kind": "a tree we do not map",
@@ -28795,6 +29023,82 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:8ae07f75-f6ba-4055-a274-fb7f03b4f380",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The White Sycamore of Ames",
+   "city": "Ames",
+   "species": "American Sycamore (Platanus occidentalis)",
+   "photo": "out/sightings/8ae07f75-f6ba-4055-a274-fb7f03b4f380.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "new tree",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a lone white-limbed American sycamore on a roadside bank, winter daylight. Lead photograph of ames/amw_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:96e2b8d1-62d5-4891-9c1b-44273b4474de",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Ancient Yews of Kingley Vale",
+   "city": "Kingley Vale",
+   "species": "European Yew (Taxus baccata)",
+   "photo": "out/sightings/96e2b8d1-62d5-4891-9c1b-44273b4474de.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "new tree",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a great fluted yew and a lattice of crossing yew limbs, sunlit. Lead photograph of kingley-vale/kgv_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ba5e165e-4669-4825-b637-62b75c608652",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Big Belly Oak",
+   "city": "Savernake Forest",
+   "species": "Sessile Oak (Quercus petraea)",
+   "photo": "out/sightings/ba5e165e-4669-4825-b637-62b75c608652.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "new tree",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the hollow, banded Big Belly Oak with its name sign, autumn daylight. Lead photograph of savernake-forest/svk_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2b60934b-b1d3-4799-9020-d3189d754166",
+   "seen": "2026-11-25",
+   "kind": "photo of a tree we map",
+   "tree": "The Brudenell Oak",
+   "city": "Savernake Forest",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/2b60934b-b1d3-4799-9020-d3189d754166.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "new tree",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the moss-green Brudenell Oak with its name sign among golden beeches. Lead photograph of savernake-forest/svk_002.",
    "hidde": null,
    "agreed": null
   }

@@ -5,18 +5,30 @@
       "name": "Raincliffe Woods beech",
       "species": "Beech (Fagus sp.)",
       "place": "Raincliffe Woods, Scarborough, North Yorkshire",
-      "found_by_reader": {"tip": "submission 1654"},
+      "found_by_reader": {
+        "tip": "submission 1654"
+      },
       "reader_girth_cm": 400,
-      "reason": "Reader's tip without a photograph (2026-11-25): one of the biggest, oldest and most beautiful trees in Raincliffe Woods, girth about 400 cm by their measure. Missing: where in the wood it stands (Raincliffe Woods is a large woodland, so no honest pin yet). No register or source found. Reader asked where exactly."
+      "reason": "Reader's tip without a photograph (2026-11-25): one of the biggest, oldest and most beautiful trees in Raincliffe Woods, girth about 400 cm by their measure. Missing: where in the wood it stands (Raincliffe Woods is a large woodland, so no honest pin yet). No register or source found. Reader asked where exactly. 2026-11-25 mail replies (feedback 1667, 1668, both on the chestnut's thread): the reader gave two what3words spots, ///fallback.snoring.duet and ///subsets.roaming.commit, one for each of their two trees; which is which is not said. Not converted to coordinates on this runner (no what3words key). Still no photograph or written source, so it stays a lead; a photograph from the spot would put it live under the closed list.",
+      "what3words": [
+        "fallback.snoring.duet",
+        "subsets.roaming.commit"
+      ]
     },
     {
       "id": "sca_L2",
       "name": "Raincliffe Woods chestnut",
       "species": "Chestnut (Castanea sp.)",
       "place": "Raincliffe Woods, Scarborough, North Yorkshire",
-      "found_by_reader": {"tip": "submission 1655"},
+      "found_by_reader": {
+        "tip": "submission 1655"
+      },
       "reader_girth_cm": 420,
-      "reason": "Reader's tip without a photograph (2026-11-25): believed locally to be the second oldest chestnut in the country, girth about 420 cm by their measure. Missing: where in the wood it stands; no source found for the claim in a quick search. Reader asked where exactly."
+      "reason": "Reader's tip without a photograph (2026-11-25): believed locally to be the second oldest chestnut in the country, girth about 420 cm by their measure. Missing: where in the wood it stands; no source found for the claim in a quick search. Reader asked where exactly. 2026-11-25 mail replies (feedback 1667, 1668, both on the chestnut's thread): the reader gave two what3words spots, ///fallback.snoring.duet and ///subsets.roaming.commit, one for each of their two trees; which is which is not said. Not converted to coordinates on this runner (no what3words key). Still no photograph or written source, so it stays a lead; a photograph from the spot would put it live under the closed list.",
+      "what3words": [
+        "fallback.snoring.duet",
+        "subsets.roaming.commit"
+      ]
     }
   ],
   "blocked": []
