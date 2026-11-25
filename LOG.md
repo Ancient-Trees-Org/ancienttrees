@@ -13,6 +13,14 @@
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
 
+## 2026-11-25 - Night run 2026-11-25 13:00 UTC ended without saying anything
+
+Written by the workflow's Run health step, not by the run. 1.7 minutes of its 120 minute window (wall clock: cancelled before it could report its own duration), ended clean (cut off at the cap, no result record). 2 commit(s), none of them a published tree.
+
+This entry exists because the run wrote none. The prompt asks every run to log even when it ships nothing, and a run that gives up is exactly the one that skips that instruction, so the count above is measured rather than reported.
+
+What it cannot tell you is WHY the run stopped: no attempt left closing words on disk. If this shape repeats, the two things worth suspecting are the usage window and the refused commands.
+
 ## 2026-11-25 session: two holds overruled by Hidde, Bella di Ceciliano live, the Piazza Bra cedar under its lights
 
 - **Live**: arezzo/arz_001 Bella di Ceciliano, a reader's downy oak outside Arezzo, on the register's coordinate, girth (570 cm) and height (24 m), Albero monumentale d'Italia 01/A390/AR/09; the reader's photograph leads, their 400 years stated as theirs. One tree, so no place page.
