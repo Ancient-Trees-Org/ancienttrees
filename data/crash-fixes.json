@@ -32,6 +32,24 @@
       "fixed_in": "SpeciesChooser.kt groupedSection count==0 guard"
     },
     {
+      "platform": "android",
+      "signature": "IndexOutOfBoundsException @ Preconditions.outOfBounds:100",
+      "builds": [
+        "5"
+      ],
+      "what": "Photo viewer (PhotoViewer.kt:606 compiled): a tester recorded a sighting on a tree and the photo list shrank while the viewer's page index (and the Crossfade's old page) still pointed past the end: Index 3 for length 3. Fixed 2026-11-25: both reads clamp the index to the list. Needs a device build to ship. No unit test: a composable's cross-fade state, no machine seam; the clamp is two reads. The paired 'no trace (crash)' rows of the same minute are the same event.",
+      "fixed_in": "PhotoViewer.kt index clamp"
+    },
+    {
+      "platform": "android",
+      "signature": "no trace (crash)",
+      "builds": [
+        "5"
+      ],
+      "what": "Same minute and phone as the PhotoViewer IndexOutOfBounds (2026-11-25 02:36): the second exit report of that crash. Fixed with it.",
+      "fixed_in": "PhotoViewer.kt index clamp"
+    },
+    {
       "signature": "AncientTrees+0x35fccc",
       "build": "41",
       "what": "Crash during a pan (iOS 27.2.1, 2026-11-20): MapLibre threw from style.addLayer in MapLayers.addTreeLayers (TreeMap.swift:1749 on build 41), from redraw in regionDidChangeAnimated. Its only throw there is a layer name the style already holds. Layer names were base#generation, and the generation restarts at 0 when a style's StyleState is made again (states holds the style weakly) while the last set is still drawn. Names now carry the state's own seq (MapLayers.layerID) and every tree layer goes through addFresh, which removes a same-named layer first. Test: PinRuleTests.aStateMadeAgainNeverReusesALayerName.",

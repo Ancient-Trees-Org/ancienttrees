@@ -18,6 +18,12 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - Left alone again: lead 3c544597 (Amsterdam) and the older `mine` leads. They are our own account's photographs and their files are not on disk.
 - No open reports, no feedback without a verdict, no tips, no reader words to quote. qa source, preflight (0 problems) and i18ncheck are clean.
 
+## 2026-11-25 night run (07:00 window): Android photo viewer crash fixed, no trees
+
+- **Rung 2, app crash:** Android build 5 crashed on one tester's phone (IndexOutOfBoundsException in PhotoViewer, Index 3 for length 3, plus two paired "no trace" exits) right after recording a sighting on Madison msn_001. The viewer's page index and the cross-fade's old page outlived a shrinking photo list; both reads in PhotoViewer.kt now clamp. No unit test (composable state, no seam); recorded in data/crash-fixes.json, health.py is green on crashes. For Hidde: next Android build carries fix for PhotoViewer IndexOutOfBounds.
+- **Write pass:** the four READY leads (two Leamington Spa, York, Guimarães) came back unwritten: no source or reason to visit, a five-species row, and a cypress that sits in Paços de Ferreira with no life or access check. Nothing published. Own research is paused, so no verify pass.
+- **Left alone on purpose:** the Turin ginkgo photo (tor_003) and one unplaced Amsterdam sighting belong to the reader judge. Web error "t.getExtension is not a function" in maplibre stays orange, not rung-2 sized.
+
 ## 2026-11-25 reader judge: the Madison tupelo now leads in its autumn red
 
 - **Madison, The Carolyn Black Tupelo (msn_001):** the reader who sent yesterday's winter silhouette sent the whole tree in full maroon autumn colour, in daylight, at the Visitor Center as the recognition line describes. It is now the lead photograph and the winter shot moves into the strip. The file has no date, so the photo is filed under autumn (November) by its colour. Their second upload was the same photograph again, so it was rejected as a duplicate. Pin untouched: their coordinate is our own pin. The pin catch-up could not read coordinates (HTTPError), as in the last run.

@@ -138,7 +138,7 @@ fun PhotoViewer(
             wantsOriginal = false
             at = ((at + by) % photos.size + photos.size) % photos.size
         }
-        val shown = photos[at]
+        val shown = photos[at.coerceIn(0, photos.size - 1)]
         BoxWithConstraints(
             Modifier
                 .fillMaxSize()
@@ -205,7 +205,9 @@ fun PhotoViewer(
                     animationSpec = tween(180, easing = Motion.EaseInOut),
                     label = "photo-page",
                 ) { i ->
-                    val p = photos[i]
+                    // The list can shrink while the fade still holds the old page
+                    // (crash 2026-11-25: Index 3 out of bounds for length 3).
+                    val p = photos[i.coerceIn(0, photos.size - 1)]
                     Box(Modifier.fillMaxSize()) {
                         // Until it lands: the white spinner on black (TreePhoto's ProgressView().tint(.white)).
                         RemoteImage(p.full, null, layer, fit = true, fallback = {
