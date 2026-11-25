@@ -73,7 +73,7 @@ def check_current():
     return head
 
 
-IOS_RUNS = ("https://api.github.com/repos/hidde-ancient-trees/ancienttrees/"
+IOS_RUNS = ("https://api.github.com/repos/Ancient-Trees-Org/ancienttrees/"
             "actions/workflows/ios.yml/runs?branch=main&status=completed&per_page=20")
 
 

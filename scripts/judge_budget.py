@@ -15,7 +15,7 @@ import json
 import subprocess
 import sys
 
-REPO = "hidde-ancient-trees/ancienttrees"
+REPO = "Ancient-Trees-Org/ancienttrees"
 
 
 def _api(path):

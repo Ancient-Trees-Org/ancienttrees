@@ -6,7 +6,7 @@ the same haversine formula was pasted independently six times in scripts/
 (with three drifted call signatures and two drifted units), plus four more
 times on the TypeScript side (see site/src/lib/walks.ts::haversineKm for that
 counterpart). Deepening candidate #1 from the 2026-08-13 architecture review:
-https://github.com/hidde-ancient-trees/ancienttrees/issues/1
+https://github.com/Ancient-Trees-Org/ancienttrees/issues/1
 """
 import math
 
