@@ -159,6 +159,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/ams_003-the-vondelpark-poplar-720f86c7.jpg": {
+   "base": "ams_003-the-vondelpark-poplar-720f86c7",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/d/d3/2022_Wertheimpark%2C_Asd-Gewone_vleugelnoot_%281%29.jpg": {
    "base": "ams_004-the-wertheimpark-wingnut",
    "widths": [
@@ -2104,6 +2110,18 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/cah_001-broken-oak-of-the-castle-howard-car-park.jpg": {
+   "base": "cah_001-broken-oak-of-the-castle-howard-car-park",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cah_002-twisting-oak-of-the-castle-howard-car-park.jpg": {
+   "base": "cah_002-twisting-oak-of-the-castle-howard-car-park",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/cbo_001-bench-redwood-of-castleboro.jpg": {
    "base": "cbo_001-bench-redwood-of-castleboro",
    "widths": [
@@ -2781,6 +2799,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/e/e9/Olive_tree_of_Vouves.jpg": {
    "base": "crt_001-the-olive-tree-of-vouves",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/crt_002-the-olive-tree-of-azoria-kavousi-e5c72d4f.jpg": {
+   "base": "crt_002-the-olive-tree-of-azoria-kavousi-e5c72d4f",
    "widths": [
     500
    ]
@@ -5805,6 +5829,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/lds_003-kirkstall-abbey-ginkgo.jpg": {
+   "base": "lds_003-kirkstall-abbey-ginkgo",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/2/20/CarRedwoodLeggett01-05.jpg": {
    "base": "lgt_001-chandelier-tree",
    "widths": [
@@ -6941,6 +6971,18 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/msn_001-the-carolyn-black-tupelo-dc24cfa4.jpg": {
+   "base": "msn_001-the-carolyn-black-tupelo-dc24cfa4",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/msn_001-the-carolyn-black-tupelo.jpg": {
+   "base": "msn_001-the-carolyn-black-tupelo",
+   "widths": [
+    500
+   ]
+  },
   "https://inaturalist-open-data.s3.amazonaws.com/photos/352213109/original.jpg": {
    "base": "msn_005-the-oakland-avenue-hackberry",
    "widths": [
@@ -7575,6 +7617,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/3/37/Mitsue-no-Okeyaki_Zelkova_serrata_A.JPG": {
    "base": "mna_002-the-great-zelkova-of-mitsue",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/mir_001-magnolia-of-villa-belvedere.jpg": {
+   "base": "mir_001-magnolia-of-villa-belvedere",
    "widths": [
     500
    ]
@@ -8826,6 +8874,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/e/ef/Leccio_Palazzolo_Acreide.jpg": {
    "base": "pzl_003-holm-oak-of-the-villa-comunale",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/pal_001-the-ficus-of-piazza-marina-d9c64779.jpg": {
+   "base": "pal_001-the-ficus-of-piazza-marina-d9c64779",
    "widths": [
     500
    ]
@@ -10314,6 +10368,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/tul_001-el-rbol-del-tule-942a8cb1.jpg": {
+   "base": "tul_001-el-rbol-del-tule-942a8cb1",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/tul_001-el-rbol-del-tule-664dff11.jpg": {
    "base": "tul_001-el-rbol-del-tule-664dff11",
    "widths": [
@@ -11359,6 +11419,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/tbl_001-tall-larch-of-the-landro-valley.jpg": {
+   "base": "tbl_001-tall-larch-of-the-landro-valley",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/2/2c/Wakidani_no_Tochinoki_06.jpg": {
    "base": "tga_001-wakidani-no-tochinoki",
    "widths": [
@@ -11397,6 +11463,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/7/73/Shiba_Toshogu_03.jpg": {
    "base": "tok_005-the-shiba-toshogu-ginkgo",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/tok_006-the-three-hundred-year-pine-884271d6.jpg": {
+   "base": "tok_006-the-three-hundred-year-pine-884271d6",
    "widths": [
     500
    ]
@@ -12071,6 +12143,12 @@
   },
   "https://ancienttrees.app/photos/ver_011-silk-mulberry-field.jpg": {
    "base": "ver_011-silk-mulberry-field",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ver_011-the-silk-mulberry-of-ca-di-david-421f46f9.jpg": {
+   "base": "ver_011-the-silk-mulberry-of-ca-di-david-421f46f9",
    "widths": [
     500
    ]
