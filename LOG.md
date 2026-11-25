@@ -13,6 +13,17 @@
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
 
+## 2026-11-25 session: readers' trees waited five hours; the judge now runs on its own
+
+**What happened.** The repo moved to Ancient-Trees-Org at 13:50 without the Claude GitHub app, so the reader judge's agent died in 16 seconds on every run while the run said success. The intake still wrote readers' trees and photos into the data unjudged, and preflight then refused every deploy from 15:55 to 19:00 (nine red). On top, GitHub delivered the judge's 15-minute cron about once an hour and not at all from 18:26 to 21:46 CET, and the poll looked back only 25 minutes, so what readers sent in the gaps was never seen. The Supabase trigger has not fired since 13:31.
+
+**Fixed.** Hidde installed the app on the organisation; a hand-started judge published Big Belly Oak, Brudenell Oak, the Kingley Vale yews and the Ames sycamore. QA then caught "we will add it with your name" in the Brudenell story; cut. Deploy green, all four pages 200. Now:
+- reader-judge.yml ends red when the agent step fails, and its poll looks back to the last green run (25 minutes to a day) instead of a fixed 25 minutes.
+- knock.yml and uptime.yml each run `scripts/judge_knock.sh`: no judge run for 20 minutes and none in flight dispatches one with poll=yes (a dispatch is never dropped; the poll still decides whether an agent starts).
+- health.py watches reader-judge.yml: red, or no run for two hours, rings.
+
+For Hidde: the Supabase trigger (the instant path) is still dead after the move; the watchdogs cover it at roughly 20-minute pace.
+
 ## 2026-11-25 session: the test chain before iPhone build 42 (Hidde: "Ja, start hem")
 
 - **Fixed in the app, from the release walk** (iPhone 16 Pro Max iOS 18.6, SE at XXL text, test account; walk notes in out/tmp/walk-ios.md):

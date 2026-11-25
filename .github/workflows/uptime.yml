@@ -19,6 +19,7 @@ on:
 
 permissions:
   contents: read
+  actions: write
 
 concurrency:
   group: uptime
@@ -43,3 +44,16 @@ jobs:
         run: curl -fsS -m 20 --retry 2 --retry-delay 5 https://ancienttrees.app/api/pins.json -o pins.json
       - name: The pins carry a known tree
         run: grep -q "lon_001" pins.json
+      # A second watchdog for the reader judge's dropped cron (2026-11-25),
+      # beside knock.yml. Runs even when a check above failed.
+      - uses: actions/checkout@v4
+        if: always()
+        continue-on-error: true
+        with:
+          sparse-checkout: scripts/judge_knock.sh
+      - name: Start the reader judge when its cron was dropped
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/judge_knock.sh

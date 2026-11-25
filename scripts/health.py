@@ -72,6 +72,15 @@ WATCHED = {
     # without asking.
     "livecheck.yml": ("Live sign-in check", datetime.timedelta(hours=26),
                       "gh workflow run livecheck.yml"),
+    # THE READER JUDGE, watched from 2026-11-25. The repo moved to the
+    # Ancient-Trees-Org organisation without the Claude app, so its agent step
+    # died in 16 seconds on every run for five hours while the run itself said
+    # success (continue-on-error); readers' trees sat unjudged and blocked every
+    # deploy at preflight. The run now ends red when the agent fails, and two
+    # hours without a run is stale (GitHub drops its cron; the knock and Site
+    # up dispatch it).
+    "reader-judge.yml": ("Reader judge", datetime.timedelta(hours=2),
+                         "gh workflow run reader-judge.yml"),
 }
 
 

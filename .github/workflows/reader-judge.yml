@@ -21,7 +21,15 @@ on:
     - cron: "7,22,37,52 * * * *"
   repository_dispatch:
     types: [reader-tree]
-  workflow_dispatch: {}
+  # A watchdog (knock.yml, uptime.yml) dispatches with poll=yes when GitHub
+  # dropped the cron: it polls first, like the cron. A dispatch by hand skips
+  # the poll and always looks.
+  workflow_dispatch:
+    inputs:
+      poll:
+        description: "Poll first, as the cron does"
+        required: false
+        default: "no"
 
 permissions:
   contents: write
@@ -121,12 +129,28 @@ jobs:
           path: out/mailslot
           key: ${{ steps.mailslot.outputs.key }}
 
+      # The poll looks back to the start of the last green run (a red one
+      # judged nothing), not a fixed 25
+      # minutes (2026-11-25): GitHub delivered this cron about once an hour
+      # that day and dropped it for three hours at a stretch, so a fixed window
+      # never saw what readers sent in the gap. 25 minutes at least, a day at
+      # most.
       - name: Did a reader send anything new
         id: poll
         env:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GH_TOKEN: ${{ github.token }}
         run: |
-          if [ "${{ github.event_name }}" != "schedule" ] || python3 scripts/reader_poll.py; then
+          prev=$(gh api "repos/${{ github.repository }}/actions/workflows/reader-judge.yml/runs?per_page=30" --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }} and .conclusion == \"success\")][0].created_at // empty" 2>/dev/null || true)
+          mins=25
+          if [ -n "$prev" ]; then
+            mins=$(( ( $(date -u +%s) - $(date -u -d "$prev" +%s) ) / 60 + 10 ))
+          fi
+          [ "$mins" -lt 25 ] && mins=25
+          [ "$mins" -gt 1440 ] && mins=1440
+          polled=no
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.poll }}" = "yes" ]; then polled=yes; fi
+          if [ "$polled" = "no" ] || python3 scripts/reader_poll.py --minutes "$mins"; then
             echo "new=yes" >> "$GITHUB_OUTPUT"
           else
             echo "new=no" >> "$GITHUB_OUTPUT"
@@ -223,6 +247,7 @@ jobs:
           fi
 
       - name: Judge and publish
+        id: judge
         if: steps.work.outputs.go == 'yes'
         continue-on-error: true
         uses: anthropics/claude-code-action@v1
@@ -299,3 +324,13 @@ jobs:
           else
             echo "Nothing of this run's to deploy."
           fi
+
+      # The agent step keeps continue-on-error so the cache and the deploy
+      # above still happen, but a judge that could not judge must not look
+      # green (2026-11-25: "Claude Code is not installed on this repository"
+      # for five hours, every run success). health.py watches this run.
+      - name: The run is red when the judge could not judge
+        if: steps.judge.outcome == 'failure'
+        run: |
+          echo "::error::The judge agent failed; readers' trees wait unjudged and block the deploy at preflight. Read this run's Judge and publish step."
+          exit 1
