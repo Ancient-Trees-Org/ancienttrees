@@ -148,13 +148,17 @@
       "access": "Free, public garden, open at all hours",
       "transport": "About 10 min walk north from Porta Nuova station along Via Lagrange",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/ID_01L21904L219TO01_Ginkgo_di_piazza_Cavour_05_Giardini_Cavour_Torino.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Matthewlunas, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/tor_003-the-ginkgo-of-the-giardini-cavour-75e408b1.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2553,
-        "height": 3888,
-        "taken_month": 9
+        "width": 900,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_8debc1a01e9228232e31dc0d",
+        "sighting_id": "75e408b1-04bb-4837-92c8-8a9e0ac8dd46",
+        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-25: The Giardini Cavour ginkgo in full November gold, in daylight: one shot up the straight trunk into the tiered limbs, one across the square with the whole crown blazing yellow on the lawn beside the palazzi. Species seen: fan-shaped leaves in flat sprays, clear yellow autumn colour, dark furrowed straight trunk, limbs in level tiers. Fits the description: a tall single trunk going up hard and straight, limbs coming off in tiers, hard yellow November leaves, in the park lawn by the street, at our pin. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Regional register card 004/L219/TO/01: 370 cm girth, 27 m, crown 22 m, age band 100-200, publicly owned. Second source for existence, species, place and height is Turismo Torino's route plus both press lists. The designation reason, particular vegetative architecture, is published by Mole24's table rather than by the register layer itself. Photo file is named for this exact register card number and shows the whole tree in daylight with the trunk readable. Sex not recorded anywhere, so the story makes no fruit claim.",
@@ -176,18 +180,13 @@
       },
       "photos": [
         {
-          "url": "https://ancienttrees.app/photos/tor_003-the-ginkgo-of-the-giardini-cavour-75e408b1.jpg",
-          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-          "attribution": null,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/ID_01L21904L219TO01_Ginkgo_di_piazza_Cavour_05_Giardini_Cavour_Torino.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Matthewlunas, via Wikimedia Commons",
           "status": "approved",
-          "width": 900,
-          "height": 1600,
-          "taken_month": 11,
-          "source": "contributor",
-          "contributor_user_id": "p_8debc1a01e9228232e31dc0d",
-          "sighting_id": "75e408b1-04bb-4837-92c8-8a9e0ac8dd46",
-          "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-25, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
-          "live_first_on": "2026-11-25"
+          "width": 2553,
+          "height": 3888,
+          "taken_month": 9
         }
       ]
     },

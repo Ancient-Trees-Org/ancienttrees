@@ -7762,6 +7762,17 @@
    "date": "2026-11-25",
    "tree_id": "msn_001",
    "reason": "duplicate: the same photograph, pixel for pixel, as sighting dc24cfa4 sent by the same reader for the same tree, which goes live"
+  },
+  "75e408b1-04bb-4837-92c8-8a9e0ac8dd46": {
+   "outcome": "added",
+   "date": "2026-11-25",
+   "tree_id": "tor_003",
+   "city_slug": "turin",
+   "file": "tor_003-the-ginkgo-of-the-giardini-cavour-75e408b1.jpg",
+   "reason": "The Giardini Cavour ginkgo in full November gold, in daylight: one shot up the straight trunk into the tiered limbs, one across the square with the whole crown blazing yellow on the lawn beside the palazzi. Species seen: fan-shaped leaves in flat sprays, clear yellow autumn colour, dark furrowed str",
+   "lat": 45.06329,
+   "lon": 7.69029,
+   "pin_checked": "2026-11-25"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

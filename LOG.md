@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-25 reader judge: the Turin ginkgo now leads in its November gold
+
+- **Turin, The Ginkgo of the Giardini Cavour (tor_003):** a reader sent two photographs dated 2026-11-16. One looks up the straight trunk into the tiered limbs and the other shows the whole crown yellow on the lawn. Both match the species and the recognition line. The trunk shot is now the lead photograph (filed under November by its own date) and the old lead moves into the strip. The knock had already put it in the strip live-first. This run promoted it to lead, and the rebase kept that. The "it is on the page" mail is queued in data/photo-live-mailed.json for the next flush. The pin catch-up still could not read coordinates (HTTPError).
+- Left alone again: lead 3c544597 (Amsterdam) and the older `mine` leads. They are our own account's photographs and their files are not on disk.
+- No open reports, no feedback without a verdict, no tips, no reader words to quote. qa source, preflight (0 problems) and i18ncheck are clean.
+
 ## 2026-11-25 reader judge: the Madison tupelo now leads in its autumn red
 
 - **Madison, The Carolyn Black Tupelo (msn_001):** the reader who sent yesterday's winter silhouette sent the whole tree in full maroon autumn colour, in daylight, at the Visitor Center as the recognition line describes. It is now the lead photograph and the winter shot moves into the strip. The file has no date, so the photo is filed under autumn (November) by its colour. Their second upload was the same photograph again, so it was rejected as a duplicate. Pin untouched: their coordinate is our own pin. The pin catch-up could not read coordinates (HTTPError), as in the last run.
