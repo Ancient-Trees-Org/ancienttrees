@@ -22,6 +22,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
   - My trees at large text: "0 followers" wrapped and sat over the name; the counts stay on one line. "1 followers" is "1 follower" (My trees, a person's profile).
 - **Data**: the Pekingtuin oak's story said 5.52 m around; the national register (2024) and the facts box say 5.9 m. Story follows the register.
 - **Machines**: appsweep 160 screens, the ones looked at clean. Android: unit tests and Play build ok, the Play apk by finger ok; the instrumented run on the minified build hung past its 30 minutes on this Mac (CI's own walk is green, its spacing job red since 11-25 08:30).
+- **Owed by Android before its next release**: "1 follower" in the singular (mt_followers and the profile's followers string, eight languages, as a plurals resource); the spacing run's 71 differences (tab bar Discover position, sheet grabber, contribute and feedback sheet tops; out/parity/spacing.json); the instrumented run on the minified build that hung locally.
 - **Not fixed, nits from the walk** (should-fix list for a later build): the country list in Edit profile has no search and opens at the top; "A visitor" for your own heart on a private account; Want to visit keeps the card of a tree the filter hides; the review sheet came twice in minutes; searching "oak" misses Pedunculate Oak; offline nothing says so.
 
 ## 2026-11-25 session: a reader who reports a bug now hears when it is fixed
