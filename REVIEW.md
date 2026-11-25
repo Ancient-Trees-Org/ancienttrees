@@ -6,6 +6,10 @@ corpus, and writes findings here, newest first. It never fixes anything.
 
 Severities: **BLOCKER** (the site is wrong or broken; runs treat as rung 2),
 **WARN** (drift or risk; rung 3), **NOTE** (worth knowing, no action forced).
+
+## 2026-11-25 code (full)
+
+Nothing new in the code. Coverage was partial: pattern sweeps (force unwraps, `!!`, `[0]`/`first()`, `uniqueKeysWithValues`, GlobalScope, scroll/input listeners) over the iPhone app, Android app and site scripts, then reading each hit (SuggestedPeople.build, People.swift, CatalogueStore.kt, TreeDetail.kt YourPhotos, MapSearch.kt SearchIndex, map-filters-js, people-js). Every hit was guarded. Not read line by line: the largest Screens and Compose files. The next full sweep should not rely on this one.
 "FOR HIDDE" appears only on judgment calls no run may make alone.
 
 An empty day says "Nothing found." A reviewer that never finds anything is
