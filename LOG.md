@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-25 session: US round 3 ready, on hold
+
+- drafts/batches/press-us-local-round3.json (private, `on_hold`): 8 more US addresses on the approved text ("Recently" for "Earlier this month"): Charleston City Paper, South Carolina Wildlife, Big Island Now, Delaware County Daily Times, Audubon magazine, Friends of the Parks Chicago, Chicagology, Bronx.com. mailcheck clean, every address on the organisation's own page. Waits for Hidde after the answers to rounds 1 and 2 (about 12-02). That empties the useful US pool; a round 4 means new searching.
+
 ## 2026-11-25 reader judge: two Scarborough tips asked where they stand
 
 - **Nothing went live this run.** A reader sent two trees in Raincliffe Woods near Scarborough as words only, with no photograph: a beech about 400 cm round, and a chestnut about 420 cm round that they say is believed to be the second oldest in the country. Raincliffe Woods is a large wood and neither tip names a spot. A quick search found no register entry or source for either tree, so there is no honest pin yet. Both are now leads in data/leads/scarborough.json. The reader gets the standard "where exactly does it stand?" mail (`hold_reply.py ... no_location`), which goes at the next knock. Verdicts tip:1654 and tip:1655 are `lead`.
