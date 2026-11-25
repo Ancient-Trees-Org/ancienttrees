@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-25 session: Android test invitation for the new Play app goes out
+
+- **Google approved build 6** on 11-24, and the closed test "Alpha" is active. The opt-in link https://play.google.com/apps/testing/app.ancienttrees.map works: Hidde joined with his Workspace address, which was added to the "Android testers" list (now 773).
+- **The invitation** (drafts/android-test-invite-new-app-2026-11-25.md; batch drafts/batches/android-test-invite-newapp-2026-11-25.json; Hidde: "verstuur maar eerst de eerste 100") goes to the wave 3 addresses that never had an Android invite: 88 never mailed, and 11 who had only other mail (marked with resend_reason). 677 of wave 3 already got the old-app invite on 11-20; they are skipped, as are the old Play list's 171, per Hidde. One address waits for its week's rest.
+- **Route: Resend only, no Google contact at all.** out/tmp/send_resend_only.py runs the batch without Workspace credentials, so mailer.keep_copy() files no copy in Sent. 25 went at once, all via `resend`. The brake is blind (no RESEND_READ_KEY), so it allows 25 per run; the other 74 follow in three runs half an hour apart (out/tmp/newapp_rest.py).
+- **Next, after Hidde's word**: the waitlist has 2,292 unique addresses, and 1,149 of them already had an Android invite. 168 Gmail addresses were never invited (out/play/wave4.csv); they first need adding to the Play list (out/play/newapp-list.csv = wave 3 + wave 4 + Hidde, one CSV upload). The 874 non-Gmail addresses can only join through a Google Group as tester list.
+
 ## 2026-11-25 session: inbox read, Il Dolomiti interview proposed
 
 - Mattia Sartori (Il Dolomiti, L'altramontagna) asked for an interview. Sent on Hidde's "Verstuur" (Resend, in his thread): a video call proposed for Thursday 26 November at 14:00 CET. His answer will land in hidde@ancienttrees.app.
