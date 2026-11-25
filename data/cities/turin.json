@@ -173,7 +173,23 @@
       "official_register": {
         "name": "Alberi monumentali del Piemonte (Regione Piemonte), no. 004/L219/TO/01",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/tor_003-the-ginkgo-of-the-giardini-cavour-75e408b1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_8debc1a01e9228232e31dc0d",
+          "sighting_id": "75e408b1-04bb-4837-92c8-8a9e0ac8dd46",
+          "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-25, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-25"
+        }
+      ]
     },
     {
       "id": "tor_004",
