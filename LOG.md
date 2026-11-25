@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-25 night window 00:51: checked, shipped nothing
+
+- Rung 1: three new tree notes read, none on the closed list, marked seen. No reader backlog over 24h. The one unmapped reader photo (3c544597, Amsterdam) belongs to the reader judge.
+- Rung 2: the only red was the iOS app, and both failed runs (45469395864, 45465810275) never got a macOS runner (GitHub capacity), so no test ran. Answered in health.py. Web errors orange: a maplibre `getExtension` TypeError and an "Error: Na", one page each, under the red threshold.
+- Rungs 5 to 9: own research paused; 4 READY leads and 1 Taiwan entry sit under the six-candidate floor; no photo-less city has queued candidates; recognise has nothing stuck; the only page gaps are noindexed species pages (36) and 2 parks, left alone under the trim. No tree work available.
+- 7-day visits line from prepare.py: not printed this run.
+
 ## 2026-11-24 reader judge: a tall golden larch in the Dolomites, a first photo for the Madison tupelo
 
 - **New place, Toblach (Dobbiaco), South Tyrol:** a reader's very tall European larch beside a forest path south of the village. Its golden crown rises far above the spruces, a column above the pines. Live as toblach/tbl_001. The reader placed the pin by hand, so it is approximate and the story says it marks the stretch of path. Their age (70 to 100) and girth (170 cm) are stated as theirs. Photo filed in November, from the photograph's own date. (`tob` belongs to Toba, so the id is `tbl`.)
