@@ -24,6 +24,21 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-25
+
+Web half: the last 24 hours were reader-judge photograph batches (Turin ginkgo, Madison tupelo, Tokyo pine), vendored photos, a leads hand-back and an Android crash fix. Turin, Madison and Tokyo pages hold no em dashes. Four earlier WARNs still stand in site/dist (grep today), replacements as in the 2026-11-21 entry:
+
+- WARN site/dist/miami/baobabs-of-collins-park.html, key-west/strangler-figs-of-the-key-west-cemetery.html still carry "writer must not invent any" (ninth review; public copy never narrates process).
+- WARN site/dist/explore.html "Each pin opens a tree with its age, its species, why it is worth the walk..." (nineteenth review).
+- WARN site/dist/contribute.html "verified against independent sources" (thirtieth review; false since 2026-10-12).
+- WARN site/dist/collections/ancient-oaks-of-europe.html and collections/europes-most-remarkable-yews.html "every coordinate verified" (tenth review; hard rule 2; the yews page is new to this list). The sentence also reaches the app, so fix the feed text.
+
+App half (iPhone SE: directions, early-adopter-sheet, early-adopter, explore, feedback, map-bar): looked at all six.
+
+- NOTE APP explore.png (Discover): the hero says "Autumn is here" and "538 trees at their best this month", but the "At their best now" cards below show full summer-green crowns (Baarn, Leiden). The claim and the pictures disagree; check the best_time photos are in season.
+- NOTE APP feedback.png: behind the sign-in sheet, a screen titled Feedback says "You need an account to send a tree", a promise about another flow.
+- NOTE APP directions, early-adopter, early-adopter-sheet and map-bar read honestly; no findings.
+
 ## 2026-11-24 compliance
 
 - privacy-date-stale: the privacy page's "Last updated: 10 November 2026" did not move though the page changed on 11-18, 11-20 and 11-22, and it promises the date changes with it.
