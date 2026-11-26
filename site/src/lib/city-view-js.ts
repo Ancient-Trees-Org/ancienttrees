@@ -89,13 +89,14 @@ function _viewFilter() {
   if (!DATA) { return; }
   SHOWN = filtersOn() ? DATA.features.filter(function(f) { return keepsTree(f.properties); }) : DATA.features;
 }
-// Every child of the sheet's body steps aside for the list, the foot stays.
+// Every child of the sheet's body steps aside for the list, the city's foot
+// too (its "Know one in Tokyo we missed?" and Plus row are the city's).
 function _viewHide(on) {
   if (!_sheetBody || !_viewBody) { return; }
   if (on) {
     _hiddenByView = [];
     Array.prototype.forEach.call(_sheetBody.children, function(el) {
-      if (el === _viewBody || el.hidden || el.classList.contains('panel-foot')) { return; }
+      if (el === _viewBody || el.hidden) { return; }
       el.hidden = true;
       _hiddenByView.push(el);
     });

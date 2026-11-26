@@ -86,9 +86,12 @@ function _cardModel(f, variant) {
     // is no link and the card says where its story is, as its pin's card does.
     appHtml: p.url ? '' : '<p class="tree-meta tree-app-only"><a href="/app" data-app-download>' + _esc(WORDS.app) + '</a></p>' };
 }
-var _CARD_WORDS = { save: WORDS.save, saved: WORDS.saved, noPhoto: WORDS.noPhoto, seen: WORDS.seen };
-function _hlHtml(f) { return atTreeCard(_cardModel(f, 'highlight'), _CARD_WORDS); }
-function _rowHtml(f) { return atTreeCard(_cardModel(f, 'row'), _CARD_WORDS); }
+// Read when a card is drawn, not when this loads: on a city page WORDS only
+// arrives once you leave the city (city-view-js.ts, 2026-11-26: Tokyo's map
+// stopped on a WORDS read at load).
+function _cardWords() { return { save: WORDS.save, saved: WORDS.saved, noPhoto: WORDS.noPhoto, seen: WORDS.seen }; }
+function _hlHtml(f) { return atTreeCard(_cardModel(f, 'highlight'), _cardWords()); }
+function _rowHtml(f) { return atTreeCard(_cardModel(f, 'row'), _cardWords()); }
 function renderPanel() {
   // A hidden panel draws nothing: on a city page the list waits until you
   // leave the city (window.atViewListShow, below).
