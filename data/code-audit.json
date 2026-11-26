@@ -759,7 +759,7 @@
    "found_by": "reader",
    "reader_line": "adding a tree from the app now works",
    "test": "android/app/src/test/java/app/ancienttrees/account/ShotRescueTest.kt",
-   "fixed_in": "8dc807670"
+   "fixed_in": "5ae461a40"
   }
  ]
 }

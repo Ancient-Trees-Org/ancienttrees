@@ -16,7 +16,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 **What happened.** PostHog put the reader on Android 17, Play build 5, signed in. Twice that phone logged `app_exit_abnormal` reason `memory` right before the reader came back and searched Discover, My trees and Map without ever reaching the add flow. The system camera is another app, and on a phone short of memory Android ends ours behind it. The photograph landed in the cache, but nothing read it after the restart, so the reader met an app that had forgotten their tree. iOS keeps its camera in-process and does not have this.
 
-**Fixed (8dc807670).**
+**Fixed (5ae461a40).**
 - A recent shot left in the cache now opens the add flow at the next start, once signed in and located (`Collector.rescueShot`, ShotRescueTest).
 - Reproduced on the emulator: with a shot in the cache, force-stop then start opens "Which one is it?" with the photograph.
 - The map's empty-place "Add a tree" opens the flow, as EmptyPlace.swift's does. Before, it only cleared the map.
