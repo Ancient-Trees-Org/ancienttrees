@@ -169,7 +169,7 @@ const robotsName = noindexScope(Astro.url.pathname) === "google" ? "googlebot" :
     city (lib/fly-to-city-js.ts sets atFlyFade), so the map seems to stay and
     the panel changes. Browsers without view transitions never fire it. */}
 <script is:inline>addEventListener('pageswap', function(e) { if (e.viewTransition && !window.atFlyFade) { e.viewTransition.skipTransition(); } });
-addEventListener('pagereveal', function(e) { if (e.viewTransition) { document.documentElement.classList.add('at-fly'); e.viewTransition.finished.then(function() { document.documentElement.classList.remove('at-fly'); }); } });
+addEventListener('pagereveal', function(e) { var v = e.viewTransition; if (!v) { return; } document.documentElement.classList.add('at-fly'); var off = function() { document.documentElement.classList.remove('at-fly'); }; v.ready.catch(off); v.updateCallbackDone.catch(function() {}); v.finished.then(off, off); });
 addEventListener('pageshow', function(e) { if (e.persisted) { window.atFlyFade = false; document.documentElement.classList.remove('at-fly'); } });</script>
 <Fragment set:html={headExtra} />
 {/* WHO YOU ARE, ANSWERED BEFORE ANY PAGE SCRIPT ASKS (2026-09-18). It is in
