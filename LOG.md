@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 session: ages cut inside a number, fixed on the website
+
+- Hidde saw an age like "200 -2" on the site. Cause: the tree page, the translated tree page and the card cut age_estimate at its first comma, including the comma in "2,000". Kingley Vale's yews ("500 to 2,000 years") read "500 to 2", and 26 more tree pages read "about 1" / "roughly 2" for trees of 1,000 to 2,600 years (Dujiangyan, Kvam, Llanerfyl, Yakushima, Omishima, Logan Canyon, Osaka and others); 8 cards did the same. The apps had this fixed on 11-24 (report 1000138), the website never got it.
+- Live with the next deploy: firstAgeClause() in site/src/lib/age-short.ts, used by all three; qa `check_an_age_is_never_cut_inside_a_number()` runs it over every tree and refuses a hand-written comma cut. Escaped bug recorded and closed with b24814e56.
+- The data itself was checked too: no negative bounds, no max below min, no card range running backwards across 5,151 trees.
+
 ## 2026-11-26 reader judge: a tall araucaria at Palheiro Gardens, Madeira, live
 
 - Live: madeira/mdr_013, The Tall Araucaria of Palheiro Gardens, from a reader's website tip with a photograph (viewed: a Norfolk Island pine standing alone on a lawn, tier on tier, daylight). It came with no GPS, so the pin is approximate on the garden's point (the same as the pohutukawa, mdr_010). Paid entry. The page gives the reader's 48 m, their survey citation (Árvores Monumentais e Emblemáticas da Madeira, 2008) and their account of the garden as their own words. Photo filed in November, the photo's own month. Madeira now has 13 trees; its intro, meta and question texts (EN and the kept PT overlay) give the new count, and the PT overlay has the tree.
