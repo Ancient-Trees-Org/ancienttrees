@@ -303,9 +303,17 @@ fun TreeMapView(
             val path = m.photo ?: continue
             val bytes = runCatching { minePhoto(path) }.getOrNull() ?: continue
             val bmp = android.graphics.BitmapFactory.decodeByteArray(bytes, 0, bytes.size) ?: continue
-            style.addImage(mineIconFor(m.id), photoPinBitmap(context, bmp))
-            drawn.add(m.id)
-            style.getSourceAs<GeoJsonSource>(SOURCE_MINE)?.setGeoJson(mineCollection(mine, drawn))
+            val pin = photoPinBitmap(context, bmp)
+            // THE MAP ONLY ON THE MAIN THREAD (MapLibre throws CalledFromWorkerThread
+            // otherwise): after the download this coroutine may come back on another
+            // thread (the signed-in round trip did, 2026-11-26, once the test account
+            // had trees of its own with photographs). A style gone meanwhile is skipped.
+            kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Main.immediate) {
+                if (!style.isFullyLoaded) return@withContext
+                style.addImage(mineIconFor(m.id), pin)
+                drawn.add(m.id)
+                style.getSourceAs<GeoJsonSource>(SOURCE_MINE)?.setGeoJson(mineCollection(mine, drawn))
+            }
         }
     }
 
