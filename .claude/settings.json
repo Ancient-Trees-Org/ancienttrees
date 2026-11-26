@@ -104,6 +104,12 @@
             "command": "python3 scripts/brief.py 2>/dev/null || true",
             "timeout": 20,
             "statusMessage": "Reading project state"
+          },
+          {
+            "type": "command",
+            "command": "python3 scripts/devices_tidy.py --if-low 40 2>/dev/null || true",
+            "timeout": 90,
+            "statusMessage": "Checking disk space"
           }
         ]
       }

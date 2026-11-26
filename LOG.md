@@ -5,6 +5,12 @@
 - Nothing changed on the site. The Varese reader wrote back to say thanks and that more trees from the area will come over the next few days. There was nothing to act on, so feedback 1711 is closed as handled, and its reader_words row is done (thanks, nothing to quote).
 - Nothing else was waiting: 0 queue photographs, 0 open reports, 0 tips. Lead 3c544597 (Amsterdam) is from our own account (`mine`) and still has no photo on disk.
 
+## 2026-11-26 session: a full Mac, and the tidy that keeps it from filling again
+
+- The Mac had 248 MB free. Freed by hand: the user caches, iOS DeviceSupport, the Gradle cache, five reset simulators, five clean merged worktrees, out/ingar/ingar.zip (the photos stay in out/ingar/raw), and the Bin, which the Storage pane of System Settings was holding open. Now about 55 GB free.
+- Why it fills: each test phone grows 2 to 5 GB from builds, sessions made their own simulators ("AT dark hertz", "AT edit-design") and second copies of fixed ones, and worktrees outlive their sessions. New `scripts/devices_tidy.py` (test `scripts/test_devices_tidy.py`) runs at every session start, only when under 40 GB is free. It deletes idle simulators outside the fixed set and second copies, erases fixed ones past 1.5 GB, clears idle Android snapshots and removes clean merged worktrees. Nothing running is touched. Android app data past 6 GB is only reported, with the wipe command.
+- Left as they were: four worktrees with uncommitted work (address-dark, android-walk-1125, confident-hertz-623564, visitors-see-all-app-0d6e90) and chain-42, which was touched in the last hours. The two Android emulators were not touched (Small Phone is running, Medium Phone was used today).
+
 ## 2026-11-26 reader judge: Bella di Ceciliano's photograph back up
 
 - Changed on the site: the reader's photograph leads Bella di Ceciliano (arezzo/arz_001) again. It was held this morning as a screenshot. The reader wrote back that they took it themselves, on a photography commission for the property. That is the yes the hold asked for (feedback 1710, handled). The Arezzo intro says again that the reader sent its photograph.
