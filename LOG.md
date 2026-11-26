@@ -12,6 +12,16 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 session: the Feed is a tab of its own, on both phones, and the web row reads the server (Hidde: the feed "een eigen tab", design "niet slecht")
+
+**What changed in the product (not in a store build yet; Hidde releases):**
+- **iPhone and Android: a Feed tab**, third in the bar (Map, Discover, Feed, My trees; the camera stays apart). One post per thing a reader put live, newest first: face and name (a public profile's, else "A visitor"), "added a new tree" or "photographed a tree" and when; the whole photograph at 4:5 with the place on it and "New on the map" on a tree somebody added; the tree's name and its story's first sentence; heart (a visitor's photograph only), save, share. Chips Everyone, Following, Near you (100 km). Endless, pull to refresh. iOS Screens/Feed.swift + Kit/FeedPosts.swift, Android ui/Feed.kt + account/FeedPosts.kt, strings in all eight Android languages. Tab tag 4 on both phones so My trees stays 2 and the camera 3.
+- **Every post comes from the server's feed() only**, never the catalogue: a tree the judge put live a minute ago shows and opens from the post itself (name, place, picture, pin) until the next catalogue knows it.
+- **Discover's "New from visitors" row stays**; its See all now opens the Feed tab.
+- **Website: the home row and /visitors read feed()**, so a tile needs nothing from the build (the baked #nfv-data and #vp-data are gone from those pages). Only a visitor's photograph carries the heart.
+- Side by side at 375: drafts/design-2026-11-26-feed/built-ios-android.png (real rows, simulator and emulator). CONVENTIONS.md "A feed tab"; data/android-parity.json `feed`; ButtonWalk and SweepFrames list the screen (`-tab=4`, and `-feedto=N` scrolls to a post for the sweep).
+
+**Not verified here:** the website change has no local build (no Node on this Mac); CI's build and the deploy's pagecheck are the check. The ButtonWalk and SweepFrames runs for the new screen happen in ios.yml / buttonwalk.yml, not here.
 ## 2026-11-26 reader judge: the Verona silk mulberry gets its autumn photograph
 
 **The Silk Mulberry of Ca' di David in Verona (ver_011) now leads with an autumn photograph.** The reader who added the tree on 11-24 sent it: the whole tree in yellow leaf, the low split trunk with its hollow, the fence and the road behind. Their summer photograph moved into the strip, and the new one is filed under November. The pin stays where it was, because the photograph's coordinate was our own hand-placed pin and not a GPS fix. The reader was mailed by `sightings_publish.py --send`. The pin catch-up got an HTTPError from the server again.

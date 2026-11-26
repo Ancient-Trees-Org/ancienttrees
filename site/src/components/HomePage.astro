@@ -46,7 +46,6 @@ import { placeHasPage, exploreAt } from "../lib/place-page";
 import { visitorsRowJs } from "../lib/visitors-row-js";
 import PhotoLikers from "./PhotoLikers.astro";
 import { TREE_ACTIONS_JS } from "../lib/tree-actions-js";
-import { visitorCards, cardsJson } from "../lib/visitor-cards";
 import { speciesCommon, COUNTRY_MIN_CITIES } from "../lib/species";
 import { belongsInCityIndex } from "../lib/city-index";
 import { groupTreesByPark, parkGroupKey, parkPageIsAllowed, parkTitle } from "../lib/parks";
@@ -372,10 +371,9 @@ const favShelf =
     : "";
 
 // --- New from visitors (Hidde, 2026-11-06), the app's Discover row ---
-// The row itself is filled in the browser from the server (lib/visitors-row-js.ts);
-// what each tree looks like comes from lib/visitor-cards.ts, shared with the
-// See all page (/visitors) so the two cannot drift.
-const visitorsData = cardsJson(await visitorCards(lang));
+// The row is filled in the browser from the server's feed() (lib/visitors-row-js.ts),
+// which carries each tree's name, place and picture: nothing from the build
+// (2026-11-26), the same tile as the See all page (/visitors).
 
 // --- Countries, species and parks shelves ---
 // Hidde, 2026-08-21: the favourites shelf (five across, scrolling) reads
@@ -551,7 +549,6 @@ const scripts = TREE_ACTIONS_JS + searchWidgetJs(lang) + visitorsRowJs(u.noteVis
   <div class="shelf-head"><h2>{u.homeVisitorsH}</h2><Fragment set:html={seeAllLink(L("/visitors"), u.homeVisitorsH)} /></div>
   <div class="shelf-row shelf-row-wide"></div>
 </section>
-<script type="application/json" id="nfv-data" set:html={visitorsData}></script>
 <Fragment set:html={favShelf} />
 <section class="home-acts">
   <div class="home-act">
