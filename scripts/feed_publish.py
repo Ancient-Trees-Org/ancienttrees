@@ -44,6 +44,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SUPA = "https://caimvxiyrtifilimlkqw.supabase.co"
 BUCKET = "feed"
 WIDTH = 800
+UUID = __import__("re").compile(r"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
 JUDGED = ("published", "added", "approve", "add", "lead")
 
 
@@ -146,7 +147,7 @@ def _req(path, key, method="GET", body=None, headers=None, raw=None):
 def existing(key):
     out, start = {}, 0
     while True:
-        page = _req(f"/rest/v1/feed?select=key,photo_url,hidden&order=key&offset={start}&limit=1000", key)
+        page = _req(f"/rest/v1/feed?select=key,photo_url,hidden,published_at&order=key&offset={start}&limit=1000", key)
         for r in page or []:
             out[r["key"]] = r
         if not page or len(page) < 1000:
@@ -211,15 +212,23 @@ def main():
         uid = people.uid(r["_photo"].get("contributor_user_id"))
         row = {c: r[c] for c in ("key", "kind", "tree_id", "sighting_id", "tree_name", "place",
                                  "url", "latitude", "longitude")}
+        # A tip's id ("tip-908") is no sighting: the key keeps it, the uuid column not.
+        if not UUID.match(str(row["sighting_id"] or "")):
+            row["sighting_id"] = None
         row.update(photo_url=url, photo_w=w, photo_h=h, user_id=uid, hidden=False)
-        if not old:
-            # A backfilled row keeps the day it went live; a row new today is now.
-            day = r.get("_day")
-            row["published_at"] = now if (not day or day >= now[:10]) else at_noon(day) or now
+        # A backfilled row keeps the day it went live; a row new today is now.
+        # Every row carries the same keys, or PostgREST refuses the batch.
+        day = r.get("_day")
+        row["published_at"] = (old or {}).get("published_at") or (
+            now if (not day or day >= now[:10]) else at_noon(day) or now)
         new.append(row)
     for i in range(0, len(new), 200):
-        _req("/rest/v1/feed?on_conflict=key", key, method="POST", body=new[i:i + 200],
-             headers={"Prefer": "resolution=merge-duplicates,return=minimal"})
+        try:
+            _req("/rest/v1/feed?on_conflict=key", key, method="POST", body=new[i:i + 200],
+                 headers={"Prefer": "resolution=merge-duplicates,return=minimal"})
+        except urllib.error.HTTPError as e:
+            print(f"feed: batch {i // 200} refused ({e.code}): {e.read()[:300]!r}")
+            return 1
     gone = [k for k, r in have.items() if k not in rows and not r.get("hidden")]
     for k in gone:
         _req(f"/rest/v1/feed?key=eq.{urllib.parse.quote(k)}", key, method="PATCH",
