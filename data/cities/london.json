@@ -95,6 +95,42 @@
           "contributor_user_id": "p_d7ff9c940715c607d7c78cc7",
           "sighting_id": "bb69be6b-1be3-4e93-8adb-0477f0ce1745",
           "note": "Photographed by a reader and sent through the app (2026-11-17); a viewing pass approved it on 2026-11-17: The yew's pollarded crown from below, many twisting stems out of a broad old bole, daylight; a good second view, but a child peers out of the branches, so it stays behind the lead. Species seen: yew: flat dark needles in two rows, flaking red-brown bark, many-stemmed crown. Fits the description: an ancient, hard-pollarded yew with a broad hollowing bole, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_001-the-totteridge-yew-bb69be6b-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_d7ff9c940715c607d7c78cc7",
+          "sighting_id": "bb69be6b-1be3-4e93-8adb-0477f0ce1745-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_001-the-totteridge-yew-bb69be6b-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_d7ff9c940715c607d7c78cc7",
+          "sighting_id": "bb69be6b-1be3-4e93-8adb-0477f0ce1745-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_001-the-totteridge-yew-bb69be6b-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_d7ff9c940715c607d7c78cc7",
+          "sighting_id": "bb69be6b-1be3-4e93-8adb-0477f0ce1745-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },
@@ -1649,6 +1685,18 @@
           "width": 3648,
           "height": 1870,
           "taken_month": 4
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_036-the-chiswick-house-cedars-0313e5e3-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_c893a1a90f2b6f2c2e29bbd9",
+          "sighting_id": "0313e5e3-b4ab-4d1c-b4a8-2273023f2a3e-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ],
       "pin_source": {
@@ -1981,6 +2029,30 @@
           "contributor_user_id": "p_36f0881f0396f9c47693d500",
           "sighting_id": "1acc3d6c-5ca2-447b-a23f-4921d1841992",
           "note": "Photographed by a reader and sent through the app (2026-11-25); a viewing pass approved it on 2026-11-25: One of the George Green chestnuts alone, full crown in autumn gold, low sun; a good second picture behind the group shot. Species seen: chestnut crown of long serrated leaves in yellow, broad dark trunk. Fits the description: a big domed old chestnut on the open green, shopfronts and houses behind, a young staked tree beside it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_043-the-george-green-sweet-chestnuts-ade4fd8a-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_36f0881f0396f9c47693d500",
+          "sighting_id": "ade4fd8a-9d64-4fad-8ad3-b4bd7304ceb2-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_043-the-george-green-sweet-chestnuts-ade4fd8a-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_36f0881f0396f9c47693d500",
+          "sighting_id": "ade4fd8a-9d64-4fad-8ad3-b4bd7304ceb2-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ],
       "pin_source": {
@@ -2531,6 +2603,18 @@
           "contributor_user_id": "p_8b86d4aa9a803a2e23ac0f7a",
           "sighting_id": "24c1e280-6404-4056-af86-c3ac625d6e16",
           "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Whole twisted chestnut in autumn colour, backlit but clear, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_053-the-twisted-sweet-chestnut-of-greenwich-park-ca9231c6-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1274,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_8b86d4aa9a803a2e23ac0f7a",
+          "sighting_id": "ca9231c6-da07-4271-9f9d-6d2f68cf6304-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },

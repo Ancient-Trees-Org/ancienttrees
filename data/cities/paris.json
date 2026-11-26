@@ -159,6 +159,18 @@
           "contributor_user_id": "p_81c58c51dd7f98c91361dc6c",
           "sighting_id": "a56bc4d5-e195-4279-8549-d512ec7db388",
           "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-22: Looked at the pixels: a big cedar on the labyrinth slope of the Jardin des Plantes, its single dark trunk and long arching side limb under a flat tiered crown, the ginkgo lawn gold below; the second frame shows the trunk with its stone bench. Overcast and partly screened by shrubs, so it goes in the gallery behind the reader's lead photograph. Taken 30 m from our pin, matching the earlier reader view from the south. Species seen: flat layered blue-green needle crown, dark scaly trunk, horizontal tiered limbs: a cedar. Fits the description: a single great cedar with a spreading flat crown on the slope of the labyrinth, the ginkgo beside it, as the recognition line and the earlier reader photo show.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/par_002-the-cedar-of-jussieu-a56bc4d5-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_81c58c51dd7f98c91361dc6c",
+          "sighting_id": "a56bc4d5-e195-4279-8549-d512ec7db388-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },

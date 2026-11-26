@@ -180,7 +180,21 @@
         "moved_m": 139,
         "date": "2026-11-16",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bil_003-the-centenary-trees-of-parque-de-la-misericordia-6cd4a6e3-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_c35c044ba2fb9ea5470abeae",
+          "sighting_id": "6cd4a6e3-4bfb-45c6-bf74-9d45ce0ff69c-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "bil_004",

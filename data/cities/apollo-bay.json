@@ -75,7 +75,45 @@
         "contributor_user_id": "p_55b71f863ab5453c822af0ed",
         "sighting_id": "7bf536d3-50d1-49f7-8ded-90a84364ac92",
         "note": "Photographed by a reader and sent through the app (2026-11-19); viewed and approved on 2026-11-19: the great reddish, furrowed trunk of a myrtle beech rising out of a bed of ferns, a mossy limb carrying epiphytic ferns, a second trunk beside it, tree ferns behind, daylight, colour; further frames show two or three fused trunks and the green Heritage Tree disc at the boardwalk ('over 200 years old', 'listed on the Register of Significant Trees with the National Trust of Australia'). Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/apb_001-the-myrtle-beech-of-maits-rest-7bf536d3-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_55b71f863ab5453c822af0ed",
+          "sighting_id": "7bf536d3-50d1-49f7-8ded-90a84364ac92-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/apb_001-the-myrtle-beech-of-maits-rest-7bf536d3-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_55b71f863ab5453c822af0ed",
+          "sighting_id": "7bf536d3-50d1-49f7-8ded-90a84364ac92-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/apb_001-the-myrtle-beech-of-maits-rest-7bf536d3-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_55b71f863ab5453c822af0ed",
+          "sighting_id": "7bf536d3-50d1-49f7-8ded-90a84364ac92-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

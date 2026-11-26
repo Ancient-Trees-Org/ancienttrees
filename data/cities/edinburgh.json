@@ -899,7 +899,21 @@
         "moved_m": 12,
         "date": "2026-11-15",
         "note": "A reader dragged the pin to where the tree stands (app correction). Earlier: reader GPS fix."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/edi_021-the-redford-wood-redwood-84cc8759-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_185d898c7855df9e68eaf269",
+          "sighting_id": "84cc8759-8c64-45eb-9dc6-3d0d02dae8ba-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "edi_022",

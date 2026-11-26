@@ -883,6 +883,17 @@
    "found_by": "hidde",
    "test": "scripts/qa.py check_an_age_is_never_cut_inside_a_number",
    "fixed_in": "b24814e56"
+  },
+  {
+   "id": "ESC-2026-11-26-a-reader-s-tree-sent-with-several-photog",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "scripts/reader_extras.py",
+   "summary": "A reader's tree sent with several photographs went live with one; the further photographs were never published and nobody was told (84 trees)",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "scripts/test_reader_extras.py"
   }
  ]
 }

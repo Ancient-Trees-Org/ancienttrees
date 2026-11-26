@@ -136,6 +136,18 @@
           "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the same bristlecone closer, bare orange wood and green tops against the sky. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
           "taken_month": 8,
           "taken_month_basis": "the photograph's own date"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/abp_002-the-twisted-bristlecone-by-the-rocky-trail-f7766292-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a675b175e9164f884aa9e3c8",
+          "sighting_id": "f7766292-5fa0-4270-967c-f350519f351c-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

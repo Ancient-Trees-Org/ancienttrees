@@ -138,6 +138,18 @@
           "contributor_user_id": "p_02edf756ac8c1a596232f1a1",
           "sighting_id": "1eefef4c-ae9c-4f79-ac36-91fb08061476",
           "note": "Photographed by a reader and sent through the app (2026-05-19); a viewing pass approved it on 2026-11-22: The same fig from a wider angle, looking up: the mossy limbs, curtains of aerial roots and the low wall at right. A second view beside the lead (same reader); its extra frames repeat the lead. Species seen: small leathery fig leaves, mossy grey stems, hanging aerial roots. Fits the description: limbs from a knot of mossy stems, aerial roots hanging to the ground beside a low wall.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/fln_002-the-fig-of-the-hanging-roots-in-coqueiros-1eefef4c-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_02edf756ac8c1a596232f1a1",
+          "sighting_id": "1eefef4c-ae9c-4f79-ac36-91fb08061476-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },
@@ -182,7 +194,45 @@
         "sighting_id": "81bfa129-ea0e-4f2a-82cd-4625248520d2",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-14, through the app); viewed and approved on 2026-11-24: looking up a tall fan palm from the foot of its rough red-brown trunk, its crown of wide fans standing above the forest canopy, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 11
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/fln_003-the-fan-palm-above-the-horto-trail-81bfa129-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_02edf756ac8c1a596232f1a1",
+          "sighting_id": "81bfa129-ea0e-4f2a-82cd-4625248520d2-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/fln_003-the-fan-palm-above-the-horto-trail-81bfa129-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_02edf756ac8c1a596232f1a1",
+          "sighting_id": "81bfa129-ea0e-4f2a-82cd-4625248520d2-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/fln_003-the-fan-palm-above-the-horto-trail-81bfa129-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_02edf756ac8c1a596232f1a1",
+          "sighting_id": "81bfa129-ea0e-4f2a-82cd-4625248520d2-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

@@ -395,8 +395,8 @@ def fetch_extras(row):
     """Download the FURTHER photographs (up to three, 2026-09-26), for a judge.
 
     Evidence like the sign, and often the sign itself: the separate sign
-    button became a "+ Add photo" tile. Never published by sightings_publish.py,
-    which publishes `photo` and nothing else. Returns repo-relative paths.
+    button became a "+ Add photo" tile. Published since 2026-11-26 by
+    reader_extras.py, each with a verdict of its own. Returns repo-relative paths.
     """
     out = []
     for n, path in enumerate((row.get("extra_photos") or [])[:3], 1):
@@ -1025,6 +1025,8 @@ def main():
             # page: sightings_publish.py publishes photo_path and nothing else.
             "sign_path": coded_path(row.get("sign_photo")), "sign_file": fetch_sign(row),
             "extra_files": fetch_extras(row),
+            # Their months, so reader_extras.py files each extra by season.
+            "extra_months": row.get("extra_photo_months"),
             # The row's coordinate (2026-09-11), kept for a tree picked from the
             # list too, not only for a lead. CAUTION: until the app records the
             # phone's own fix on that path, CollectSheet writes OUR pin here

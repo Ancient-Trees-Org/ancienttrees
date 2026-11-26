@@ -2427,7 +2427,21 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: a big old oak beside a footpath between hedges and a brick house, its thick crooked trunk and wide crown lit gold by low autumn sun, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cop_051-the-oak-on-the-footpath-in-birker-d-af63c929-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+          "sighting_id": "af63c929-b2a5-443b-a829-bc13a86ada8e-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "cop_052",
@@ -2470,7 +2484,21 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the whole lower half of a big oak, its broad fissured trunk opening into thick limbs, standing on a wide plate of roots worn bare by feet, wood and fields behind, spring daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 4,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cop_052-the-oak-on-its-roots-in-birker-d-7c8a8735-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+          "sighting_id": "7c8a8735-4486-4b48-a5ea-5ac657f58122-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "cop_053",

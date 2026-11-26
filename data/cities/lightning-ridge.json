@@ -51,7 +51,21 @@
         "contributor_user_id": "p_217a4b842ca351e72ce0b8d7",
         "sighting_id": "9620278d-6885-4b27-b86b-e5211e651a36",
         "note": "Photographed by a reader and sent through the app (2026-11-17); viewed and approved on 2026-11-17: a whole old coolibah in open bush, a short massive trunk with a dark hollow opening into great low-swept limbs, a man standing at its foot for scale, prickly pear in front; a second view of the burred trunk and crown; daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lri_001-the-coolibah-south-of-lightning-ridge-9620278d-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_217a4b842ca351e72ce0b8d7",
+          "sighting_id": "9620278d-6885-4b27-b86b-e5211e651a36-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "An old coolibah in the bush south of Lightning Ridge, New South Wales, which a reader puts at 500 years: where it stands and what we know.",

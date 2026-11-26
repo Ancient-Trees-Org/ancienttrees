@@ -1,0 +1,3270 @@
+{
+ "_note": "One verdict per further photograph of a reader's tree (scripts/reader_extras.py). Keys are sighting ids, then the photo's number (1 to 3).",
+ "sightings": {
+  "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "screenshot",
+     "verdict": "left_out",
+     "what": "blurred colour bars top and bottom, a shared export"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "reason": "screenshot",
+     "verdict": "left_out",
+     "what": "blurred colour bars top and bottom, a shared export"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "tlr_001-the-elephant-trunk-fig-of-tilar-n-00fd8d2f-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "tilaran/tlr_001"
+  },
+  "023bf7b4-8706-4819-ba17-6bc7fb6dc744": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cuw_002-the-fig-of-kandela-023bf7b4-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "curacao/cuw_002"
+  },
+  "023ed607-1e16-4502-a16c-ba7b77888f82": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "der_001-boab-prison-tree-023ed607-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "der_001-boab-prison-tree-023ed607-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "der_001-boab-prison-tree-023ed607-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "derby/der_001"
+  },
+  "0313e5e3-b4ab-4d1c-b4a8-2273023f2a3e": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lon_036-the-chiswick-house-cedars-0313e5e3-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "london/lon_036"
+  },
+  "04cf3b8e-6eef-4ed2-a40a-d4443f49dd23": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lwr_001-the-macedon-oak-of-cruden-farm-extra2.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "lwr_001-the-macedon-oak-of-cruden-farm-extra1.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "langwarrin/lwr_001"
+  },
+  "04fd1169-96a7-42e1-9679-3f639c82dc35": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "screenshot",
+     "verdict": "left_out",
+     "what": "a Google Lens screen of the sign"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "sha_001-great-plane-of-zhongshan-park.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "shanghai/sha_001"
+  },
+  "05617476-9451-4e3b-964a-30cd0a06e17f": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ehp_006-the-zelkova-by-the-car-park-05617476-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "ehp_006-zelkova-by-the-car-park.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "ehp_006-the-zelkova-by-the-car-park-05617476-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "east-hampton/ehp_006"
+  },
+  "081afcee-57a6-4622-8de5-607f1c1a328c": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "no longer on the server"
+    }
+   },
+   "tree": "hasselt/has_001"
+  },
+  "094b9a62-a6ef-4dac-aa96-6626c74a32a2": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tok_003-the-ueno-toshogu-camphor-094b9a62.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "tokyo/tok_003"
+  },
+  "0a67c35e-13cb-4e2c-a88b-230cd2b15034": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "kyo_014-the-grand-ginkgo-of-goo-shrine-cc33c8aa.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "kyoto/kyo_014"
+  },
+  "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "obc_001-the-fairchild-oak-0adac3f1-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "obc_001-the-fairchild-oak-limbs.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "ormond-beach/obc_001"
+  },
+  "0b0d29fa-bc94-48a7-8014-4d103452c16d": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "mdb_001-the-baobab-plane-of-penenden-heath-0b0d29fa-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "mdb_001-the-baobab-plane-of-penenden-heath-0b0d29fa-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "mdb_001-the-baobab-plane-of-penenden-heath-0b0d29fa-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "maidstone/mdb_001"
+  },
+  "0bf2f2d8-020e-4258-a925-8b90c6d45d8f": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "hat_001-the-bone-tree-of-hatley-0bf2f2d8-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "hat_001-the-bone-tree-of-hatley-0bf2f2d8-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "hatley/hat_001"
+  },
+  "0dc02495-3796-430f-a137-473641f7b6a7": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "stw_001-the-north-door-yews-of-st-edward-s-stow-on-the-wold-0dc02495.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "stow-on-the-wold/stw_001"
+  },
+  "0ddad207-52ba-4a72-8f76-64b3a09f2721": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "knx_001-the-hollow-boab-of-rowing-club-road-0ddad207-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "kununurra/knx_001"
+  },
+  "1087f3e1-a05d-4055-a4b1-f87b31408478": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "vld_001-elku-linden-of-valdem-rpils-linden-of-sacrifice-70750b4c.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "vld_001-elku-linden-of-valdem-rpils-linden-of-sacrifice-288a3a8f.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "valdemarpils/vld_001"
+  },
+  "1215c9ad-3b03-438c-a3c4-74f631633f9a": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cnk_004-the-plaited-birch-of-brocton-1215c9ad-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "cnk_004-the-plaited-birch-of-brocton-1215c9ad-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "cnk_004-the-plaited-birch-of-brocton-1215c9ad-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "cannock-chase/cnk_004"
+  },
+  "121e99a2-68a9-4499-8fb9-0f3c32d0f672": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "der_001-boab-prison-tree-121e99a2-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "der_001-boab-prison-tree-121e99a2-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "derby/der_001"
+  },
+  "12a88725-88e2-4a96-85f6-0966bb59db6b": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "syd_008-moreton-bay-fig-of-rushcutters-bay-park-trunk.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "sydney/syd_008"
+  },
+  "137b17f1-9f95-420c-a56a-47dc3894ad22": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "sal_001-the-hundred-horse-chestnut-137b17f1-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "reason": "duplicate",
+     "verdict": "left_out",
+     "what": "the same frame as photo 1"
+    }
+   },
+   "tree": "santalfio/sal_001"
+  },
+  "13cd8329-6443-4201-9f70-3476e77735db": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lon_002-the-royal-oak-13cd8329.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "london/lon_002"
+  },
+  "13cfb80c-819a-4875-a382-2d95f3156bd8": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "atl_012-adair-park-ginkgo-extra1.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "atlanta/atl_012"
+  },
+  "14402db3-8eb4-4a0e-b2b5-4d2f49ea6a65": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "fsh_001-pando-14402db3-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "fsh_001-pando-14402db3-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "fsh_001-pando-14402db3-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "fish-lake-utah/fsh_001"
+  },
+  "15a3b6f1-3dd9-4ac2-bec5-bbd1c47d7613": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "no_tree",
+     "verdict": "left_out",
+     "what": "a general board about trees and health"
+    }
+   },
+   "tree": "la-tene/prf_001"
+  },
+  "16e3ea1f-de46-43eb-b9da-8741d5212cd6": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "mtn_001-stara-maslina-old-olive-tree-of-mirovica-16e3ea1f-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "mtn_001-stara-maslina-old-olive-tree-of-mirovica-16e3ea1f-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "mtn_001-stara-maslina-old-olive-tree-of-mirovica-16e3ea1f-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "bar/mtn_001"
+  },
+  "1ac97a72-073b-45cb-9bbf-b889c07bb49d": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tul_001-el-rbol-del-tule-1ac97a72-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "tul_001-el-rbol-del-tule-1ac97a72-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "santa-maria-del-tule/tul_001"
+  },
+  "1eefef4c-ae9c-4f79-ac36-91fb08061476": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "fln_002-the-fig-of-the-hanging-roots-in-coqueiros-1eefef4c-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "fln_002-fig-of-the-hanging-roots-in-coqueiros.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "florianopolis/fln_002"
+  },
+  "216338b4-a159-48ae-a60a-676e2a9122fb": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "their main photograph is not on the page"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "their main photograph is not on the page"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "their main photograph is not on the page"
+    }
+   },
+   "tree": "fortingall/for_001"
+  },
+  "216f76c5-a63d-49dd-a65f-c844261a125e": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "oxf_004-the-pococke-plane-ca81ce44.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "oxford/oxf_004"
+  },
+  "2186bb95-6054-4154-b6d9-c75cb1fca187": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "prf_002-the-tall-cedar-of-pr-fargier-2186bb95-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "la-tene/prf_002"
+  },
+  "27e529b6-7e49-4fd7-853e-6acc23a947e9": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "no_tree",
+     "verdict": "left_out",
+     "what": "a general board on valuing trees, letterboxed"
+    }
+   },
+   "tree": "oakville/okv_001"
+  },
+  "28ece313-a518-403a-a24c-c960b32ccfe5": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "no longer on the server"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "no longer on the server"
+    }
+   },
+   "tree": "paris/par_077"
+  },
+  "2b13f306-caea-438e-906d-a1ceae4d9891": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ehp_005-the-old-sourwood-of-the-dayton-arboretum-2b13f306-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "east-hampton/ehp_005"
+  },
+  "2beaef82-d143-42ab-96f8-0da147aa5ffa": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "screenshot",
+     "verdict": "left_out",
+     "what": "a Google Lens screen of the plaque"
+    }
+   },
+   "tree": "shanghai/sha_002"
+  },
+  "2cbeafcc-400d-4069-a050-cee475026121": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ver_011-silk-mulberry-trunk.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "ver_011-the-silk-mulberry-of-ca-di-david-2cbeafcc-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "ver_011-silk-mulberry-field.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "verona/ver_011"
+  },
+  "2d01c8dc-05b6-421a-b6aa-6e113740a1cf": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "dtg_001-yew-by-dartingtons-old-church-tower.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "dartington/dtg_001"
+  },
+  "2dbab77d-6bcf-46e9-aa36-00369790ac15": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "bms_001-the-thousand-year-oak-of-barmstedt-2dbab77d-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "bms_001-the-thousand-year-oak-of-barmstedt-2dbab77d-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "bms_001-the-thousand-year-oak-of-barmstedt-2dbab77d-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "barmstedt/bms_001"
+  },
+  "2ec0418a-ac10-4c61-9daf-a287193ae994": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "wdd_001-the-methuselah-tree-2ec0418a-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "wdd_001-the-methuselah-tree-2ec0418a-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "wdd_001-the-methuselah-tree-2ec0418a-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "woodside/wdd_001"
+  },
+  "2ff9e6a6-f9c3-4800-b312-549f353c53ad": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "no longer on the server"
+    }
+   },
+   "tree": "rungis/rng_001"
+  },
+  "310205a9-4579-44a8-b087-6b4e64e54d70": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "phl_007-the-laurel-hill-cutleaf-linden-trunk.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "phl_007-the-laurel-hill-cutleaf-linden-crown.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "philadelphia/phl_007"
+  },
+  "327c2230-b107-4210-b34f-3238035d1efd": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "for_001-the-fortingall-yew-327c2230-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "for_001-the-fortingall-yew-327c2230-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "for_001-the-fortingall-yew-327c2230-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "fortingall/for_001"
+  },
+  "32b40a81-9200-47fd-b160-edb577c30e79": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "pem_004-the-twin-karri-of-anzac-road-32b40a81-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "pem_004-the-twin-karri-of-anzac-road-32b40a81-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "pem_004-the-twin-karri-of-anzac-road-32b40a81-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "pemberton/pem_004"
+  },
+  "340d13e5-d031-448e-9595-daff201bbb9e": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "bne_022-the-fig-of-neal-macrossan-park-340d13e5-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "brisbane/bne_022"
+  },
+  "3cf4d1ae-05de-4dff-b168-0c0815960fd3": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "bwd_001-the-borrowdale-yews-the-fraternal-four-3cf4d1ae-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "bwd_001-the-borrowdale-yews-the-fraternal-four-3cf4d1ae-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "borrowdale/bwd_001"
+  },
+  "3dfeef4f-6a2a-474a-abaa-b0594c741084": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "llp_001-the-hollow-yew-of-la-lande-patry-3dfeef4f-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "llp_001-the-hollow-yew-of-la-lande-patry-3dfeef4f-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "llp_001-the-hollow-yew-of-la-lande-patry-3dfeef4f-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "la-lande-patry/llp_001"
+  },
+  "3fb92f89-3fec-4c52-bf64-9d8dfdcc08cf": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "nfk_001-fig-of-st-barnabas-chapel-3fb92f89.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "norfolk-island/nfk_001"
+  },
+  "405d389a-e777-4df3-a844-31fee2556e58": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "rkm_001-rumskullaeken-the-kvill-oak.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "rkm_001-rumskullaeken-the-kvill-oak.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "rkm_001-rumskullaeken-the-kvill-oak-405d389a-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "rumskulla/rkm_001"
+  },
+  "417749a0-3387-4bd0-853a-ce00cd4dad90": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "nol_001-the-mcdonogh-oak-417749a0-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "new-orleans/nol_001"
+  },
+  "42b23058-5ddc-4386-b371-992865e29867": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "gen_006-the-place-du-cirque-plane-42b23058-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "geneva/gen_006"
+  },
+  "42f66634-36d7-46df-8a02-739114680321": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tok_024-the-great-zelkova-of-the-kunitama-approach-42f66634-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "tok_024-the-great-zelkova-of-the-kunitama-approach-42f66634-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "tok_024-the-great-zelkova-of-the-kunitama-approach-42f66634-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "tokyo/tok_024"
+  },
+  "4338584e-8437-4d91-bc51-82756fc43138": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "for_001-the-fortingall-yew-4338584e-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "fortingall/for_001"
+  },
+  "446cfadf-3ffe-4a88-bb64-ef1404f11d10": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lyo_013-the-plane-tree-of-place-antoine-rivoire-34765498.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "lyon/lyo_013"
+  },
+  "4504258b-6e45-4eac-8a8f-f4d3fdfc951a": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ttw_001-the-tortworth-chestnut-4504258b-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "tortworth/ttw_001"
+  },
+  "45373393-9b42-4b86-904f-cb9fc689d00f": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "hum_001-the-giant-tree-45373393-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "hum_001-the-giant-tree-45373393-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "humboldt-redwoods-state-park/hum_001"
+  },
+  "455f464a-464b-476c-b634-b9bdc511f84c": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "vfg_001-the-sprawling-sycamore-of-pawling-farm-455f464a-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "vfg_001-the-sprawling-sycamore-of-pawling-farm-455f464a-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "valley-forge/vfg_001"
+  },
+  "48dc4e46-0f57-4c74-96b8-ecbbaa5ddb1d": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "wfl_001-the-twisted-cedar-of-the-swamp-boardwalk-48dc4e46-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "wfl_001-the-twisted-cedar-of-the-swamp-boardwalk-48dc4e46-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "wellfleet/wfl_001"
+  },
+  "4be001d1-ee21-48f8-81df-67bf1bb02d41": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "syd_006-the-wishing-tree-4be001d1-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "syd_006-the-wishing-tree-4be001d1-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "sydney/syd_006"
+  },
+  "4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lis_039-the-portuguese-oak-of-the-agronomy-cloister-4cec5259-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "lisbon/lis_039"
+  },
+  "4dff68aa-5e39-4db5-be9e-d2cdf8c261d8": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cmn_002-forked-stone-pine-of-castlemaine.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "cmn_002-the-forked-stone-pine-of-castlemaine-4dff68aa-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "castlemaine/cmn_002"
+  },
+  "4fa5c2bb-2a1f-4c07-9e87-d7fd9b008800": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lon_046-the-bromley-oak-cc260294.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "london/lon_046"
+  },
+  "4fe1cb00-e56f-42e1-8c89-ec11bc883f73": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "dtr_001-the-strangler-fig-of-the-daintree-discovery-centre-4fe1cb00-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "daintree/dtr_001"
+  },
+  "50567b0d-1b7c-437c-afea-03cbaf003531": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "bng_001-the-rhodes-bald-cypress-017db4cf.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "richard-bong-state-recreation-area/bng_001"
+  },
+  "513c935b-b7e0-4b76-93c2-6a8223d8274b": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "plm_001-s-olivera-de-cort-513c935b-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "plm_001-s-olivera-de-cort-513c935b-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "palma-de-mallorca/plm_001"
+  },
+  "51d98942-7dba-4d70-9ddd-17263958dd5d": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tua_001-the-big-totara-of-lillburn-monowai-road-0b414558.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "tuatapere/tua_001"
+  },
+  "54dc7d2a-aaf6-4158-8784-3f3c256942a3": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "trs_001-trolleken-the-troll-oak-of-trollskogen-df61ce54.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "trs_001-trolleken-the-troll-oak-of-trollskogen-ef187fe2.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "trollskogen/trs_001"
+  },
+  "5784282e-f1a8-4516-ab2e-cce4d2f0f3be": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ess_001-the-ombu-of-the-essaouira-medina-5784282e-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "reason": "duplicate",
+     "verdict": "left_out",
+     "what": "the same sign as photo 1"
+    }
+   },
+   "tree": "essaouira/ess_001"
+  },
+  "57a1afed-1a15-4782-b4a1-4aeaf08a9f04": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "vie_007-the-sisi-platane-of-volksgarten-57a1afed-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "vienna/vie_007"
+  },
+  "59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tew_001-the-great-beech-of-tewkesbury-abbey-59a9bf8f-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "reason": "person",
+     "verdict": "left_out",
+     "what": "a visitor posing in front of the trunk"
+    }
+   },
+   "tree": "tewkesbury/tew_001"
+  },
+  "59e87943-2f6c-4f17-b6c3-7a40b354062e": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "xal_001-mexican-sycamore-of-rio-sedeno.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "xalapa/xal_001"
+  },
+  "5b3f2cb0-14f6-4477-b221-56b2911f76b2": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "rgs_001-moreton-bay-figs-of-donnafugata-castle-park-5b3f2cb0-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "rgs_001-moreton-bay-figs-of-donnafugata-castle-park-5b3f2cb0-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "ragusa/rgs_001"
+  },
+  "5c0b2a94-6258-4c62-a700-27e3c9f08fa7": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "vir_001-ch-ne-de-la-vierge-viroflay-b5e84e25.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "viroflay/vir_001"
+  },
+  "5e09bb82-34d7-4622-b626-8251836f6eb4": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "agm_001-the-whistler-cork-oak-sobreiro-assobiador-5e09bb82-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "agm_001-the-whistler-cork-oak-sobreiro-assobiador-5e09bb82-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "agm_001-the-whistler-cork-oak-sobreiro-assobiador-5e09bb82-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "aguas-de-moura/agm_001"
+  },
+  "5ecc82c8-870b-4961-9a0f-b4fb6bf2e1b6": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "agm_001-the-whistler-cork-oak-sobreiro-assobiador-5ecc82c8-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "agm_001-the-whistler-cork-oak-sobreiro-assobiador-5ecc82c8-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "reason": "duplicate",
+     "verdict": "left_out",
+     "what": "the same frame as another reader photo of agm_001"
+    }
+   },
+   "tree": "aguas-de-moura/agm_001"
+  },
+  "612dba2e-2227-4ca5-87fd-41f581f70f79": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "esr_001-the-burred-oak-of-esb-nderup-kohave-612dba2e-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "esr_001-the-burred-oak-of-esb-nderup-kohave-612dba2e-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "esr_001-the-burred-oak-of-esb-nderup-kohave-612dba2e-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "esrum/esr_001"
+  },
+  "61bfdbeb-40d4-4654-b2f6-377c44997bf5": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "pem_003-the-karri-that-swallowed-a-tree-61bfdbeb-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "pem_003-the-karri-that-swallowed-a-tree-61bfdbeb-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "pem_003-the-karri-that-swallowed-a-tree-61bfdbeb-x2.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "pemberton/pem_003"
+  },
+  "62a9482b-a105-4572-b6ca-15df5c73924d": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ely_001-the-airport-oak-of-earlysville-62a9482b-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "ely_001-the-airport-oak-of-earlysville-62a9482b-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "earlysville/ely_001"
+  },
+  "62c4bb28-b3f8-46f6-8d7a-c88755acce7b": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "agm_001-the-whistler-cork-oak-sobreiro-assobiador-62c4bb28-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "agm_001-the-whistler-cork-oak-sobreiro-assobiador-62c4bb28-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "agm_001-the-whistler-cork-oak-sobreiro-assobiador-5e09bb82-x2.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "aguas-de-moura/agm_001"
+  },
+  "6315b918-2200-4671-8eab-e0771a6065a5": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "bhg_007-tall-oak-in-the-taunus-beeches.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "bad-homburg/bhg_007"
+  },
+  "657dd07e-f174-4cd5-8b89-cb0a88cd8eaa": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "mbr_001-the-blackbutt-of-bird-tree-road-657dd07e-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "mbr_001-the-blackbutt-of-bird-tree-road-657dd07e-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "middle-brother-national-park/mbr_001"
+  },
+  "664dff11-706d-432f-9f80-08a751b4f55c": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tul_001-el-rbol-del-tule-664dff11-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "tul_001-el-rbol-del-tule-664dff11-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "santa-maria-del-tule/tul_001"
+  },
+  "66e7f16a-6521-4ff5-8303-57501db2cfc5": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "mil_014-il-platano-del-giardino-bazlen-fc36a7af.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "milan/mil_014"
+  },
+  "67933e44-d017-44fd-9497-68b5a39e964f": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "hum_002-the-tall-tree-67933e44-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "hum_002-the-tall-tree-67933e44-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "hum_002-the-tall-tree-67933e44-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "humboldt-redwoods-state-park/hum_002"
+  },
+  "68515bbd-0bdc-475a-bb16-5e8e324db9c9": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "jls_001-the-open-grown-oak-of-jela-nica-68515bbd-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "jls_001-the-open-grown-oak-of-jela-nica-68515bbd-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "jls_001-the-open-grown-oak-of-jela-nica-68515bbd-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "jelasnica/jls_001"
+  },
+  "685b7bb6-a189-4c1e-a74e-701215bb89c7": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tgg_001-the-ghost-gum-of-trephina-gorge-trunk.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "tgg_001-the-ghost-gum-of-trephina-gorge-sign.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "trephina-gorge/tgg_001"
+  },
+  "691e83b3-fa05-4961-a56f-9912db89c1ac": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "person",
+     "verdict": "left_out",
+     "what": "two visitors posing at the trunk"
+    }
+   },
+   "tree": "reelig-glen/rlg_001"
+  },
+  "69be172d-cd73-4193-a6b9-d12df857d756": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "kyw_008-white-street-kapoks-extra1.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "key-west/kyw_008"
+  },
+  "69cf3021-612b-4af4-a051-e91406fac8ca": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "wtn_002-the-white-oak-of-bryan-avenue-limbs.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "wtn_002-the-white-oak-of-bryan-avenue-trunk.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "willistown/wtn_002"
+  },
+  "6a9217d8-8466-480f-9831-3b3255721cce": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "hrn_002-the-old-oak-by-the-focke-museum-6a9217d8-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "hrn_002-the-old-oak-by-the-focke-museum-6a9217d8-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "horn-bremen/hrn_002"
+  },
+  "6bb3d492-ea79-4b08-8f63-a66610632b47": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "djy_001-the-temple-ginkgo-of-dujiangyan-6bb3d492-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "djy_001-the-temple-ginkgo-of-dujiangyan-6bb3d492-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "dujiangyan/djy_001"
+  },
+  "6cd4a6e3-4bfb-45c6-bf74-9d45ce0ff69c": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "bil_003-the-centenary-trees-of-parque-de-la-misericordia-6cd4a6e3-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "bilbao/bil_003"
+  },
+  "6d6d0f62-5fa6-47eb-b618-614103ad8ff0": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "akw_001-ardkinglas-grand-fir-6d6d0f62-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "akw_001-ardkinglas-grand-fir-6d6d0f62-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "ardkinglas/akw_001"
+  },
+  "6f2cee0c-369d-4da5-a2e3-6e08f138a29f": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "person",
+     "verdict": "left_out",
+     "what": "a selfie"
+    }
+   },
+   "tree": "london/lon_008"
+  },
+  "6fb2ee82-0df9-4f02-8885-66f4d018275b": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ehp_004-sawara-cypress-by-the-bench-label.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "east-hampton/ehp_004"
+  },
+  "72bb031f-c5bd-4bc8-977e-4420760280c5": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "spl_006-the-cypress-of-imun-tudor-72bb031f-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "split/spl_006"
+  },
+  "745e0fd4-abaf-413b-a870-67eb466731e0": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "frm_001-the-golden-ginkgos-of-villa-gandini-crown.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "frm_001-the-golden-ginkgos-of-villa-gandini-leaves.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "frm_001-the-golden-ginkgos-of-villa-gandini-whole.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "formigine/frm_001"
+  },
+  "75e408b1-04bb-4837-92c8-8a9e0ac8dd46": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tor_003-the-ginkgo-of-the-giardini-cavour-75e408b1-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "turin/tor_003"
+  },
+  "78b88780-f090-4c13-8360-95570ebe3113": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "chs_001-the-angel-oak-78b88780-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "chs_001-the-angel-oak-78b88780-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "charleston/chs_001"
+  },
+  "792fd983-0f7d-4818-9112-8fbdf8e8c409": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "fkt_001-the-married-couple-cherry-trees-of-miyajidake-shrine-792fd983-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "fkt_001-the-married-couple-cherry-trees-of-miyajidake-shrine-792fd983-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "fukutsu/fkt_001"
+  },
+  "7a13092f-31be-4a43-8aa7-0f12693c611a": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ank_001-the-ankerwycke-yew-218adf66.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "runnymede/ank_001"
+  },
+  "7bf536d3-50d1-49f7-8ded-90a84364ac92": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "apb_001-the-myrtle-beech-of-maits-rest-7bf536d3-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "apb_001-the-myrtle-beech-of-maits-rest-7bf536d3-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "apb_001-the-myrtle-beech-of-maits-rest-7bf536d3-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "apollo-bay/apb_001"
+  },
+  "7c8a8735-4486-4b48-a5ea-5ac657f58122": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cop_052-oak-on-its-roots-in-birkerod.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "cop_052-the-oak-on-its-roots-in-birker-d-7c8a8735-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "copenhagen/cop_052"
+  },
+  "7ff97b69-76b5-4905-80c2-7c7e901c31c0": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "crh_001-the-crowhurst-yew-7ff97b69-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "crh_001-the-crowhurst-yew-7ff97b69-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "crh_001-the-crowhurst-yew-7ff97b69-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "crowhurst/crh_001"
+  },
+  "803eb2f3-6367-4d67-befe-146a0b5d262d": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lsp_002-redwood-at-the-gate-of-victoria-park-from-the-path.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "leamington-spa/lsp_002"
+  },
+  "8088d133-b9fe-4ab2-9f16-9c673c126535": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "pbh_001-the-royal-poinciana-chapel-kapok-extra2.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "pbh_001-the-royal-poinciana-chapel-kapok-extra1.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "pbh_001-the-royal-poinciana-chapel-kapok.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "palm-beach/pbh_001"
+  },
+  "808db90d-fc21-4413-a407-fc01effd1aff": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ams_032-the-last-elm-of-stationsplein-808db90d-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "amsterdam/ams_032"
+  },
+  "81bfa129-ea0e-4f2a-82cd-4625248520d2": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "fln_003-the-fan-palm-above-the-horto-trail-81bfa129-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "fln_003-the-fan-palm-above-the-horto-trail-81bfa129-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "fln_003-the-fan-palm-above-the-horto-trail-81bfa129-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "florianopolis/fln_003"
+  },
+  "83bb9866-51c0-4012-b95f-a83ec51ea108": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "srb_001-grandfather-pine-at-serenbe-83bb9866-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "serenbe/srb_001"
+  },
+  "83d58764-b0b1-44a2-800a-74f016802b7e": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lsp_001-oak-at-the-gate-of-elizabeth-park-from-the-left.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "leamington-spa/lsp_001"
+  },
+  "84541e96-06d1-42e2-bec6-1c2cd9dfb5d7": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "hrn_003-the-nationalerbe-sequoia-of-riensberg-cemetery-84541e96-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "hrn_003-the-nationalerbe-sequoia-of-riensberg-cemetery-84541e96-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "hrn_003-the-nationalerbe-sequoia-of-riensberg-cemetery-84541e96-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "horn-bremen/hrn_003"
+  },
+  "84cc8759-8c64-45eb-9dc6-3d0d02dae8ba": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "edi_021-the-redford-wood-redwood-84cc8759-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "edinburgh/edi_021"
+  },
+  "853a4b12-0595-4189-8e63-1771c3b8caab": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ben_001-the-rain-tree-of-the-national-gallery-of-modern-art-853a4b12-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "ben_001-the-rain-tree-of-the-national-gallery-of-modern-art-853a4b12-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "bengaluru/ben_001"
+  },
+  "861d7cdb-6e15-4015-8e3c-e2b0607ca814": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cgo_001-the-great-beech-of-casargo-861d7cdb-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "cgo_001-the-great-beech-of-casargo-861d7cdb-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "casargo/cgo_001"
+  },
+  "86a25f84-ea89-44ef-bc1c-08815d28a3a4": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "var_003-the-cedar-of-the-university-campus-86a25f84-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "var_003-the-cedar-of-the-university-campus-86a25f84-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "var_003-the-cedar-of-the-university-campus-86a25f84-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "varese/var_003"
+  },
+  "8dfcc988-999d-4d68-967f-0cb0f120f8bb": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "nwf_002-the-giant-sequoias-of-the-tall-trees-trail-8dfcc988-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "new-forest/nwf_002"
+  },
+  "8fcb5cde-944b-4d35-a9bd-79412712a8db": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lax_031-library-park-fig-8fcb5cde-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "los-angeles/lax_031"
+  },
+  "90aa5d92-64b3-439f-b2b3-a56cc8b41136": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "dre_005-the-kaditzer-linde-90aa5d92-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "dresden/dre_005"
+  },
+  "90cb7c6f-5086-4111-aaa1-3ffaf5816746": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "their main photograph is not on the page"
+    }
+   },
+   "tree": "ashbrittle/asb_001"
+  },
+  "94be5b76-fd13-46b8-965d-0486dd325d63": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "aih_001-the-galaganatha-temple-fig-94be5b76-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "aih_001-the-galaganatha-temple-fig-94be5b76-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "aih_001-the-galaganatha-temple-fig-94be5b76-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "aihole/aih_001"
+  },
+  "9620278d-6885-4b27-b86b-e5211e651a36": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lri_001-the-coolibah-south-of-lightning-ridge-9620278d-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "lightning-ridge/lri_001"
+  },
+  "9689a5aa-c566-41e5-a674-f26dd189e7cc": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "snd_001-the-sunderland-buttonball-tree-9689a5aa-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "snd_001-the-sunderland-buttonball-tree-9689a5aa-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "snd_001-the-sunderland-buttonball-tree-9689a5aa-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "sunderland-massachusetts/snd_001"
+  },
+  "968c829e-effd-4454-8b9c-271da4d79854": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "person",
+     "verdict": "left_out",
+     "what": "a visitor posing against the trunk"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "nwf_002-the-giant-sequoias-of-the-tall-trees-trail-968c829e-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "nwf_002-the-giant-sequoias-of-the-tall-trees-trail-968c829e-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "new-forest/nwf_002"
+  },
+  "96cc87f7-0bb3-4a2f-b500-a7d2392cd595": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "hok_001-jindai-zakura-yamataka-jindai-zakura-96cc87f7-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "hok_001-jindai-zakura-yamataka-jindai-zakura-96cc87f7-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "hok_001-jindai-zakura-yamataka-jindai-zakura-96cc87f7-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "hokuto/hok_001"
+  },
+  "97153cbf-443d-4b42-9801-7463164ed709": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "how_001-the-great-banyan-extra2.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "how_001-the-great-banyan-97153cbf-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "how_001-the-great-banyan-extra1.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "howrah/how_001"
+  },
+  "9c8d024b-96ba-4a22-abea-504a5d5e4a34": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "kmm_001-the-great-ginkgo-of-kumamoto-castle-9c8d024b-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "kmm_001-the-great-ginkgo-of-kumamoto-castle-9c8d024b-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "kumamoto/kmm_001"
+  },
+  "9c93b205-3812-4c19-9040-a4efe3511170": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lon_008-barney-the-plane-9c93b205.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "london/lon_008"
+  },
+  "9cf2daf3-8781-4169-882b-efd6b6352ede": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "nyc_024-the-ginkgo-of-the-united-order-of-tents.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "nyc_024-the-ginkgo-of-the-united-order-of-tents-9cf2daf3-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "new-york/nyc_024"
+  },
+  "9ddf843f-f9a1-4926-b112-74f4a904f502": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "dmr_001-wistman-s-wood-9ddf843f-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "dmr_001-wistman-s-wood-9ddf843f-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "dartmoor/dmr_001"
+  },
+  "9e9c5f14-9e15-4617-905b-61d19e0ee349": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "kis_001-the-kapok-of-the-kisantu-botanic-garden-9e9c5f14-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "kisantu/kis_001"
+  },
+  "9f5e1316-edcc-411d-96b7-6009ed8872c1": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "no longer on the server"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "no longer on the server"
+    }
+   },
+   "tree": "colchester/cls_002"
+  },
+  "a104b938-9cfc-492e-bb48-0babab021f3b": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "wdc_016-travilah-oak-a104b938-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "wdc_016-travilah-oak-a104b938-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "wdc_016-travilah-oak-a104b938-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "washington-dc/wdc_016"
+  },
+  "a1f47e20-f01a-4035-986e-1b25814dee8d": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lgy_001-the-llangernyw-yew-a1f47e20-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "lgy_001-the-llangernyw-yew-a1f47e20-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "llangernyw/lgy_001"
+  },
+  "a2b98e69-d805-4827-acee-a5da974e83a9": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ams_032-the-last-elm-of-stationsplein-a2b98e69-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "reason": "duplicate",
+     "verdict": "left_out",
+     "what": "nearly the same frame as photo 1"
+    }
+   },
+   "tree": "amsterdam/ams_032"
+  },
+  "a51429ec-837e-4506-bd3b-c369efa44428": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "yak_003-hahakosugi-the-mother-and-child-cedar-a51429ec-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "yak_003-hahakosugi-the-mother-and-child-cedar-a51429ec-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "yak_003-hahakosugi-the-mother-and-child-cedar-a51429ec-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "yakushima/yak_003"
+  },
+  "a56bc4d5-e195-4279-8549-d512ec7db388": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "par_002-the-cedar-of-jussieu-a56bc4d5-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "paris/par_002"
+  },
+  "a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "slq_001-the-queen-olive-of-siliqua-a57aae3b-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "slq_001-the-queen-olive-of-siliqua-a57aae3b-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "slq_001-the-queen-olive-of-siliqua-a57aae3b-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "siliqua/slq_001"
+  },
+  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "bow_001-the-bowthorpe-oak-a7751610-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "bow_001-the-bowthorpe-oak-a7751610-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "bow_001-the-bowthorpe-oak-a7751610-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "bowthorpe/bow_001"
+  },
+  "a79615a3-47bc-4c00-a0bf-8bad7b370bfb": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cma_003-elephant-foot-tulip-tree-of-the-vall-e-aux-loups-label.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "chatenay-malabry/cma_003"
+  },
+  "aba8f604-0c2b-4ae7-adab-a5e40bc28f57": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "mel_020-the-whomping-willow-coral-tree-aba8f604-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "melbourne/mel_020"
+  },
+  "ade4fd8a-9d64-4fad-8ad3-b4bd7304ceb2": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lon_043-the-george-green-sweet-chestnuts-1acc3d6c.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "lon_043-the-george-green-sweet-chestnuts-ade4fd8a-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "lon_043-the-george-green-sweet-chestnuts-ade4fd8a-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "london/lon_043"
+  },
+  "ade84360-ee78-453e-b6f1-36db50f6bc90": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "kdy_002-the-bodhi-tree-in-the-hillside-shrine-ade84360-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "kandy/kdy_002"
+  },
+  "ae132f45-019f-4e63-9723-98dd6e815807": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "gnp_001-the-gennett-poplar-ae132f45-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "chattahoochee-national-forest/gnp_001"
+  },
+  "af63c929-b2a5-443b-a829-bc13a86ada8e": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cop_051-the-oak-on-the-footpath-in-birker-d-af63c929-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "copenhagen/cop_051"
+  },
+  "b0e1710a-8883-4f30-8d9e-a080d25e8d21": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ctn_001-the-giant-tung-of-cat-tien-b0e1710a-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "ctn_001-the-giant-tung-of-cat-tien-b0e1710a-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "cat-tien-national-park/ctn_001"
+  },
+  "b19ea802-78de-410b-9b8d-2367eb9b8e59": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cma_002-cedar-of-lebanon-of-the-vall-e-aux-loups-label.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "chatenay-malabry/cma_002"
+  },
+  "b24f5c1e-b9c6-4f5a-af2e-c761fa60e614": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "bwd_001-the-borrowdale-yews-the-fraternal-four-b24f5c1e-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "bwd_001-the-borrowdale-yews-the-fraternal-four-3cf4d1ae.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "bwd_001-the-borrowdale-yews-the-fraternal-four-3cf4d1ae-x1.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "borrowdale/bwd_001"
+  },
+  "b2b14047-08e5-447f-a435-3a4f137809b0": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "elh_001-elleholmseken-the-oak-of-elleholm-a04e6933.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "elleholm/elh_001"
+  },
+  "b3d97fd9-33cf-40bc-a557-1c8dccbfec24": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "not_theirs",
+     "verdict": "left_out",
+     "what": "a board showing a printed photograph of the tree"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "nwf_001-the-knightwood-oak-b3d97fd9-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "nwf_001-the-knightwood-oak-b3d97fd9-x2.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "new-forest/nwf_001"
+  },
+  "b41e05ce-7f7e-4aeb-a19e-e1c252662378": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "person",
+     "verdict": "left_out",
+     "what": "a visitor posing beside the trunk"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "mrs_001-a-cedar-of-the-meares-island-big-tree-trail-b41e05ce-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "mrs_001-a-cedar-of-the-meares-island-big-tree-trail-b41e05ce-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "meares-island/mrs_001"
+  },
+  "b4225b8f-1324-4d9f-9a9d-22c9a4f9a84e": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "emm_003-the-oak-at-the-long-grave-b4225b8f-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "emmen/emm_003"
+  },
+  "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cam_011-the-great-oriental-plane-of-emmanuel-college-b43d0c0b-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "cam_011-the-great-oriental-plane-of-emmanuel-college-b43d0c0b-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "cam_011-the-great-oriental-plane-of-emmanuel-college-b43d0c0b-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "cambridge/cam_011"
+  },
+  "b478e704-f01d-442f-a8de-1407aa063a0b": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "their main photograph is not on the page"
+    }
+   },
+   "tree": "ragusa/rgs_001"
+  },
+  "b57c3977-d5d3-4a97-a199-76433a04d573": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "pbo_001-the-giant-sequoia-of-the-orton-hall-avenue-b57c3977-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "pbo_001-the-giant-sequoia-of-the-orton-hall-avenue-b57c3977-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "pbo_001-the-giant-sequoia-of-the-orton-hall-avenue-b57c3977-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "peterborough/pbo_001"
+  },
+  "b724f1db-2429-4905-a291-fa1bf50132cd": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "bos_013-endicott-pear-tree-b724f1db-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "bos_013-endicott-pear-tree-b724f1db-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "boston/bos_013"
+  },
+  "b730acca-9b47-4ce7-9ebc-5ca8499ac7ac": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ads_003-the-red-gum-of-overbury-drive-b730acca-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "adelaide/ads_003"
+  },
+  "b894c217-92b1-4bdd-9353-6e36ef8f210f": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "yak_004-nakama-banyan-gate.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "yakushima/yak_004"
+  },
+  "b92312a8-2d7f-43f8-90ee-5a1d2021bf87": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "gwy_001-gwytherin-yews-trunk.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "gwy_001-gwytherin-yews-limbs.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "gwy_001-the-gwytherin-yews-b92312a8-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "gwytherin/gwy_001"
+  },
+  "b9cab82b-f47c-4dc3-bb04-b96abd73163c": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "gro_014-the-green-beeches-of-the-nieuwe-kerkhof-b9cab82b-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "groningen/gro_014"
+  },
+  "ba2053f1-d621-43fb-a205-06ddae5fc806": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "wai_002-te-matua-ngahere-98edec0c.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "wai_002-te-matua-ngahere-403b354b.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "waipoua-forest/wai_002"
+  },
+  "ba5e165e-4669-4825-b637-62b75c608652": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "svk_001-the-big-belly-oak-ba5e165e-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "svk_001-big-belly-oak.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "savernake-forest/svk_001"
+  },
+  "bb454493-9642-49f0-b41b-8b3e7a67d026": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "mdr_005-the-witch-tree-of-fanal-bb454493-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "mdr_005-the-witch-tree-of-fanal-bb454493-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "mdr_005-the-witch-tree-of-fanal-bb454493-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "madeira/mdr_005"
+  },
+  "bb69be6b-1be3-4e93-8adb-0477f0ce1745": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lon_001-the-totteridge-yew-bb69be6b-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "lon_001-the-totteridge-yew-bb69be6b-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "lon_001-the-totteridge-yew-bb69be6b-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "london/lon_001"
+  },
+  "bcde1019-cccf-445a-a2ab-81b2bdbb8809": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "mob_003-jackson-s-oak-bcde1019-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "mob_003-jackson-s-oak-bcde1019.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "mob_003-jackson-s-oak-bcde1019-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "mobile/mob_003"
+  },
+  "be5a23fb-6bae-44ee-9726-aa1cf1d76cc5": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lsa_001-bearded-larch-of-the-col-du-bard-path-from-the-path.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "lsa_001-bearded-larch-of-the-col-du-bard-path-from-the-path.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "lsa_001-bearded-larch-of-the-col-du-bard-path.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "la-salle/lsa_001"
+  },
+  "bee9e113-6234-4bac-b308-d14ef4e3fa45": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "mum_001-fig-that-swallowed-its-railings.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "mumbai/mum_001"
+  },
+  "c07c7ae8-48d1-4406-9571-1d8e4a7ed0da": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "dmr_001-wistman-s-wood-9ddf843f-x1.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "dmr_001-wistman-s-wood-9ddf843f-x2.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "dartmoor/dmr_001"
+  },
+  "c0841407-ba01-4abc-8f2b-30306e6989e5": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cdf_001-the-brandywine-sycamore-lafayette-sycamore-c0841407-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "cdf_001-the-brandywine-sycamore-lafayette-sycamore-c0841407-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "chadds-ford/cdf_001"
+  },
+  "c3ef540c-ec5e-417e-bdc0-56886dab62d4": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cls_002-the-cedar-near-clingoe-hill-c3ef540c-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "colchester/cls_002"
+  },
+  "c476f81b-3871-4273-9e0a-f4f21ae2b5e1": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "dvr_001-the-doveridge-yew-c476f81b-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "dvr_001-the-doveridge-yew-c476f81b-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "dvr_001-the-doveridge-yew-c476f81b-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "doveridge/dvr_001"
+  },
+  "c4a7a901-5433-4336-8cd7-e4317741aa2e": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "uio_001-many-stemmed-pine-of-la-pradera-stems.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "quito/uio_001"
+  },
+  "c4b5f1b1-ce96-469b-805d-cf75390b7917": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "vfg_001-the-sprawling-sycamore-of-pawling-farm-c4b5f1b1-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "no longer on the server"
+    }
+   },
+   "tree": "valley-forge/vfg_001"
+  },
+  "c4c911de-781d-4234-998d-c5c657a9c223": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "knt_001-the-mahakali-vad-of-kantharpura-c4c911de-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "kantharpura/knt_001"
+  },
+  "c50bb407-3ade-4813-b8d8-9c3a9256b713": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tsg_001-the-plane-of-agia-paraskevi.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "tsg_001-the-plane-of-agia-paraskevi-extra1.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "tsg_001-the-plane-of-agia-paraskevi-extra2.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "tsagarada/tsg_001"
+  },
+  "c59bfd73-d95b-4cda-9ae3-5f75cf6f9754": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "seq_003-chief-sequoyah-tree-c59bfd73-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "reason": "person",
+     "verdict": "left_out",
+     "what": "a selfie"
+    }
+   },
+   "tree": "sequoia-national-park/seq_003"
+  },
+  "c5a932e5-ab17-4e42-aa7b-e9367c26cb4f": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lon_055-golden-ginkgo-of-greenwich-railings.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "london/lon_055"
+  },
+  "c64b5650-6946-456a-b0d4-8af4fd95bacd": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "thv_001-the-big-oak-aa636a2c.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "thv_001-the-big-oak-c64b5650-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "thv_001-the-big-oak-c64b5650-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "thomasville/thv_001"
+  },
+  "c8d04675-2b33-4799-8579-159c24813e0b": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "akw_002-ardkinglas-silver-fir-the-mightiest-conifer-c8d04675-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "ardkinglas/akw_002"
+  },
+  "ca6ba683-9ff8-4de1-adf3-d8f2055e898d": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "no_tree",
+     "verdict": "left_out",
+     "what": "a stack of sawn planks"
+    }
+   },
+   "tree": "willistown/wtn_004"
+  },
+  "ca9231c6-da07-4271-9f9d-6d2f68cf6304": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lon_053-the-twisted-sweet-chestnut-of-greenwich-park-ca9231c6-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "london/lon_053"
+  },
+  "cc260294-0437-4efb-8c0f-5bf73fb0adf3": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lon_046-the-bromley-oak-4fa5c2bb.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "london/lon_046"
+  },
+  "cc4293ff-8120-4c19-a667-25947845b4ff": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "bgy_002-forked-beech-of-st-ives-the-fork.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "bingley/bgy_002"
+  },
+  "cc8a74d4-d8a7-42fa-865c-f5a12e490f7f": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "brn_002-the-cantonspark-giant-sequoia-cc8a74d4-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "baarn/brn_002"
+  },
+  "cfcad2b9-4ce3-49f8-bf53-a03f156c8794": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "dre_019-the-weeping-beech-of-helfenberg-park-cfcad2b9-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "dresden/dre_019"
+  },
+  "d0a46fec-6bdf-4c48-b343-214b305c2814": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "sal_001-the-hundred-horse-chestnut-d0a46fec-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "sal_001-the-hundred-horse-chestnut-d0a46fec-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "sal_001-the-hundred-horse-chestnut-d0a46fec-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "santalfio/sal_001"
+  },
+  "d2b837b4-3747-420b-82ca-eb1fe69bd65c": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ehp_003-southern-magnolia-by-the-ball-fields-leaves.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "east-hampton/ehp_003"
+  },
+  "d419093c-142b-4fb7-9a9d-962863c404a1": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "dvn_001-the-giant-chestnut-of-mont-mourex-d419093c-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "divonne-les-bains/dvn_001"
+  },
+  "d6e19c81-357b-4bb8-a5a1-c3c3af4931f8": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "dlh_001-peepal-on-the-plinth-trunk.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "delhi/dlh_001"
+  },
+  "d73aaf2c-6f0c-4822-8e89-2989f918c04c": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "eke_001-ekebyhovseken-d73aaf2c-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "eke_001-ekebyhovseken-d73aaf2c-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "eke_001-ekebyhovseken-d73aaf2c-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "ekero/eke_001"
+  },
+  "d88315af-8100-48c3-8152-db0d21001544": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "sal_001-the-hundred-horse-chestnut-d88315af-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "reason": "no_tree",
+     "verdict": "left_out",
+     "what": "a mountain view through leaves"
+    }
+   },
+   "tree": "santalfio/sal_001"
+  },
+  "d8edd734-1e64-45cb-afe4-47a85a4d804a": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cls_001-the-oak-of-clingoe-hill-d8edd734-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "cls_001-the-oak-of-clingoe-hill-d8edd734-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "colchester/cls_001"
+  },
+  "d97cc4c1-c95a-4ff8-b540-a3c20a542182": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "wee_001-the-fern-lined-myrtle-beech-of-the-otways-d97cc4c1-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "wee_001-the-fern-lined-myrtle-beech-of-the-otways-d97cc4c1-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "wee_001-the-fern-lined-myrtle-beech-of-the-otways-d97cc4c1-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "weeaproinah/wee_001"
+  },
+  "da72a5be-2e9a-402c-a662-4a7aeb496549": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "sth_001-the-looped-oak-of-stanton-upon-hine-heath-da72a5be-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "sth_001-the-looped-oak-of-stanton-upon-hine-heath-da72a5be-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "sth_001-the-looped-oak-of-stanton-upon-hine-heath-da72a5be-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "stanton-upon-hine-heath/sth_001"
+  },
+  "dadb2ea4-792f-460d-b66d-d46f064f0a8a": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "lax_033-the-moreton-bay-fig-by-the-white-mansion-dadb2ea4-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "los-angeles/lax_033"
+  },
+  "dd9b94e4-2439-4129-9b72-3c8c1796dc1b": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "fon_001-the-sequoia-of-the-ch-teau-lawn-dd9b94e4-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "fontainebleau/fon_001"
+  },
+  "de314993-8df5-496c-897d-b262d6f0d3cd": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cmn_001-the-royal-oak-of-castlemaine-de314993-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "cmn_001-the-royal-oak-of-castlemaine-de314993-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "castlemaine/cmn_001"
+  },
+  "de83aef2-d85e-4d38-b4ef-73e6365d2557": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "drw_001-the-cavenagh-street-boab-de83aef2-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "drw_001-the-cavenagh-street-boab-de83aef2-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "reason": "not_theirs",
+     "verdict": "left_out",
+     "what": "looks like a copy of an old print"
+    }
+   },
+   "tree": "darwin/drw_001"
+  },
+  "df0d3965-9232-4870-95fe-5ec6d504830f": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "gro_018-the-anwb-linden-of-wilhelminakade-df0d3965-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "gro_018-the-anwb-linden-of-wilhelminakade-df0d3965-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "groningen/gro_018"
+  },
+  "e2a41777-04a8-4864-aad1-99a9a84bb622": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tok_023-ginkgo-of-kuhonbutsu-crown.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "tok_023-ginkgo-of-kuhonbutsu-stone-post.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "tok_023-the-ginkgo-of-kuhonbutsu-e2a41777-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "tokyo/tok_023"
+  },
+  "e3020f6d-ff65-4bc6-b609-48ed5ec5df78": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "crd_012-roath-park-lake-pedunculate-oak-e3020f6d-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "cardiff/crd_012"
+  },
+  "e4c07e02-2e9d-4391-8581-47e61bab1fc6": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "bgy_001-old-beech-of-st-ives-estate-fallen-limb.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "bingley/bgy_001"
+  },
+  "e4e4d964-c61c-484f-9994-cfd5fe96d5e6": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "mum_002-the-rain-trees-of-govt-gate-road-e4e4d964-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "mum_002-the-rain-trees-of-govt-gate-road-e4e4d964-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "mum_002-rain-trees-of-govt-gate-road.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "mumbai/mum_002"
+  },
+  "e604000d-20cf-4082-885d-3e34c988c961": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "arz_001-bella-di-ceciliano-e604000d-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "arz_001-bella-di-ceciliano-e604000d-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "arz_001-bella-di-ceciliano-e604000d-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "arezzo/arz_001"
+  },
+  "e6cdb912-6896-4dbb-b9c2-47113b0aa590": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "gol_001-the-chinkapin-oak-of-goll-woods-e6cdb912-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "gol_001-chinkapin-oak-of-goll-woods.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "goll-woods/gol_001"
+  },
+  "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "mdb_001-the-baobab-plane-of-penenden-heath-e7bef8af.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "mdb_001-the-baobab-plane-of-penenden-heath-e7bef8af-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "mdb_001-the-baobab-plane-of-penenden-heath-0b0d29fa-x1.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "maidstone/mdb_001"
+  },
+  "e7f5f503-48a4-457e-bd7d-1cedae177b2d": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "rkm_001-rumskullaeken-the-kvill-oak-e7f5f503-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "rkm_001-rumskullaeken-the-kvill-oak-e7f5f503-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "rkm_001-rumskullaeken-the-kvill-oak-e7f5f503-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "rumskulla/rkm_001"
+  },
+  "e843e619-7414-4576-aca6-58a3dc6f5668": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ank_001-the-ankerwycke-yew-e843e619-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "ank_001-the-ankerwycke-yew-218adf66.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "runnymede/ank_001"
+  },
+  "ecbeb1a2-03b5-4ec4-b19c-4772926d63eb": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "var_001-the-great-cedar-of-varese-ecbeb1a2-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "var_001-great-cedar-of-varese.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "var_001-the-great-cedar-of-varese-ecbeb1a2-x1.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "varese/var_001"
+  },
+  "ed5bd210-4a52-4fe2-90a8-f121559ef711": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "hum_001-the-giant-tree-ed5bd210-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "humboldt-redwoods-state-park/hum_001"
+  },
+  "f05d3a86-b304-47ac-bf24-2e0f88ad99a1": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "their main photograph is not on the page"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "their main photograph is not on the page"
+    }
+   },
+   "tree": "sydney/syd_006"
+  },
+  "f1faa5f9-5750-4863-8920-2ce31bf5d01a": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "thl_001-the-twisted-beech-of-the-trollskogen-f1faa5f9-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "thl_001-the-twisted-beech-of-the-trollskogen-f1faa5f9-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "thl_001-the-twisted-beech-of-the-trollskogen-f1faa5f9-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "torna-hallestad/thl_001"
+  },
+  "f249d2ac-4e34-4bdf-9919-626a212de102": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "person",
+     "verdict": "left_out",
+     "what": "a visitor seated in front of the tree"
+    }
+   },
+   "tree": "lumbini/lmb_001"
+  },
+  "f7766292-5fa0-4270-967c-f350519f351c": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "abp_002-the-twisted-bristlecone-by-the-rocky-trail-f7766292-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "abp_002-twisted-bristlecone-by-the-rocky-trail-trail.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "abp_002-twisted-bristlecone-by-the-rocky-trail-bank.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "ancient-bristlecone-pine-forest/abp_002"
+  },
+  "f7d1128b-0fa1-443a-84eb-6d78c0625404": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cah_001-broken-oak-of-the-castle-howard-car-park.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "cah_001-the-broken-oak-of-the-castle-howard-car-park-f7d1128b-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "cah_001-the-broken-oak-of-the-castle-howard-car-park-f7d1128b-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "castle-howard/cah_001"
+  },
+  "f91bd966-db25-4276-91ce-9fb1c5806347": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "person",
+     "verdict": "left_out",
+     "what": "a visitor in a meadow, the tree behind"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "bbl_001-the-champion-lodgepole-pine-f91bd966.jpg",
+     "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "bbl_001-the-champion-lodgepole-pine.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "big-bear-lake/bbl_001"
+  },
+  "f973faab-f5c6-4c6e-a229-cafab41e9cdb": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ehp_002-royal-paulownia-of-east-hampton-label.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "east-hampton/ehp_002"
+  },
+  "fe8fc7e4-9e16-48b5-96c0-e8c2af7a020b": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tro_007-the-dawn-redwood-of-kew-gardens-fe8fc7e4-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "tro_007-the-dawn-redwood-of-kew-gardens-fe8fc7e4-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "file": "tro_007-the-dawn-redwood-of-kew-gardens-fe8fc7e4-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "toronto/tro_007"
+  },
+  "ff8f7eac-05bb-4474-a1bf-b44629a370cd": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ybr_001-the-curtain-fig-tree-ff8f7eac-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "yungaburra/ybr_001"
+  },
+  "tip-1340": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "nce_011-great-cedar-of-parc-chambrun.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "nice/nce_011"
+  },
+  "tip-1490": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ver_010-cedar-of-piazza-indipendenza.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "verona/ver_010"
+  },
+  "tip-668": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "reason": "not_theirs",
+     "verdict": "left_out",
+     "what": "an old engraving"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "reason": "no_tree",
+     "verdict": "left_out",
+     "what": "a painted ceiling"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "reason": "no_tree",
+     "verdict": "left_out",
+     "what": "a gate pillar and statue"
+    }
+   },
+   "tree": "bologna/bol_013"
+  },
+  "tip-748": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cam_011-the-great-oriental-plane-of-emmanuel-college-tip-748-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "cam_011-the-great-oriental-plane-of-emmanuel-college-tip-748-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "cambridge/cam_011"
+  },
+  "tip-875": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "pgr_001-the-oak-of-molinazzo-c42df403.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "pgr_001-the-oak-of-molinazzo-tip-875-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "poggio-renatico/pgr_001"
+  },
+  "tip-928": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "cdl_003-mastrinka-the-olive-of-ka-tel-tafili-tip-928-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "kastela/cdl_003"
+  },
+  "tip-947": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "djn_001-the-tassili-cypress-tip-947-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "djanet/djn_001"
+  },
+  "tip-951": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "verdict": "skipped",
+     "why": "their main photograph is not on the page"
+    }
+   },
+   "tree": "kvam/kvm_001"
+  },
+  "tip-993": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "blm_001-the-balmerino-abbey-chestnut-tip-993-x1.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "balmerino/blm_001"
+  }
+ }
+}

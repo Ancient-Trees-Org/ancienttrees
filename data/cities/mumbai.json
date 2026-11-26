@@ -108,7 +108,33 @@
         "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
         "sighting_id": "e4e4d964-c61c-484f-9994-cfd5fe96d5e6",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: a road under a tunnel of huge rain trees, the nearest on the right a thick dark trunk throwing long crooked limbs right across the street, a BMC road sign and a taxi below, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mum_002-the-rain-trees-of-govt-gate-road-e4e4d964-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+          "sighting_id": "e4e4d964-c61c-484f-9994-cfd5fe96d5e6-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mum_002-the-rain-trees-of-govt-gate-road-e4e4d964-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+          "sighting_id": "e4e4d964-c61c-484f-9994-cfd5fe96d5e6-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

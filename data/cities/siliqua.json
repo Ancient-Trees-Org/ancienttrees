@@ -66,7 +66,45 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-23: the vast twisted base of an ancient olive, its trunk a mass of ribbed, hollowed and knotted wood, silver leaves overhead, a wooden fence behind, bright summer daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 8,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/slq_001-the-queen-olive-of-siliqua-a57aae3b-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1067,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_08d632aed8d74c97ce2aafdc",
+          "sighting_id": "a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/slq_001-the-queen-olive-of-siliqua-a57aae3b-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1067,
+          "source": "contributor",
+          "contributor_user_id": "p_08d632aed8d74c97ce2aafdc",
+          "sighting_id": "a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/slq_001-the-queen-olive-of-siliqua-a57aae3b-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1067,
+          "source": "contributor",
+          "contributor_user_id": "p_08d632aed8d74c97ce2aafdc",
+          "sighting_id": "a57aae3b-b4f6-4cb6-ba60-eb4c2c5deb6c-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

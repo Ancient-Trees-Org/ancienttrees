@@ -49,7 +49,33 @@
         "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: the whole base of a giant buttressed tree in forest, a person standing between two buttresses for scale, the pale trunk rising out of frame, daylight, colour; two more views show the trunk's height and the trail past it. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ctn_001-the-giant-tung-of-cat-tien-b0e1710a-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_474ac6c9446d8b3d5076a2e9",
+          "sighting_id": "b0e1710a-8883-4f30-8d9e-a080d25e8d21-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/ctn_001-the-giant-tung-of-cat-tien-b0e1710a-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_474ac6c9446d8b3d5076a2e9",
+          "sighting_id": "b0e1710a-8883-4f30-8d9e-a080d25e8d21-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "A giant buttressed tung tree in Cat Tien National Park, Vietnam, sent by a reader: what it looks like and how to find it on the trail.",

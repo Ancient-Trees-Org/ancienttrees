@@ -270,6 +270,42 @@
           "contributor_user_id": "p_3e4c652ec8f264c3b887587f",
           "sighting_id": "9f5df706-e6bc-45a6-a8e3-05da298af38f",
           "note": "Photographed by a reader and sent through the app (2026-07-17); a viewing pass approved it on 2026-11-22: A single twisted til in thick fog on the Fanal pasture, limbs flung out like arms. Fanal's grove beyond doubt; which trunk is the Witch Tree the photo cannot settle, so the strip, as with this reader's earlier photo. Species seen: dense evergreen laurel-forest crown, twisted mossy trunk: til. Fits the description: a hard-twisted trunk with outstretched limbs in the Fanal grove.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mdr_005-the-witch-tree-of-fanal-bb454493-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3e4c652ec8f264c3b887587f",
+          "sighting_id": "bb454493-9642-49f0-b41b-8b3e7a67d026-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mdr_005-the-witch-tree-of-fanal-bb454493-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_3e4c652ec8f264c3b887587f",
+          "sighting_id": "bb454493-9642-49f0-b41b-8b3e7a67d026-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mdr_005-the-witch-tree-of-fanal-bb454493-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_3e4c652ec8f264c3b887587f",
+          "sighting_id": "bb454493-9642-49f0-b41b-8b3e7a67d026-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },

@@ -278,7 +278,21 @@
         "contributor_user_id": "p_da3da5a4ed100473ae2ad2cf",
         "sighting_id": "72bb031f-c5bd-4bc8-977e-4420760280c5",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-23, through the app); viewed and approved on 2026-11-24: the whole tall column of the cypress above a stone plinth whose plaque reads 'Čempres Dra Šimuna Tudora, prvog predsjednika društva Marjan, MCMXXX', on a stepped path among pines, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/spl_006-the-cypress-of-imun-tudor-72bb031f-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1209,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_da3da5a4ed100473ae2ad2cf",
+          "sighting_id": "72bb031f-c5bd-4bc8-977e-4420760280c5-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

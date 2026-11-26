@@ -369,6 +369,18 @@
           "sighting_id": "161c7f67-f76d-4527-84b1-d24ab59c798f",
           "note": "Photographed by a reader and sent through the app (2026-11-16); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-17"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/vie_007-the-sisi-platane-of-volksgarten-57a1afed-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3c788cea8bd6bb5caafb5b4d",
+          "sighting_id": "57a1afed-1a15-4782-b4a1-4aeaf08a9f04-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },

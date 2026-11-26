@@ -56,7 +56,33 @@
         "contributor_user_id": "p_ce572bcf48df4b25bb131b55",
         "sighting_id": "657dd07e-f174-4cd5-8b89-cb0a88cd8eaa",
         "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-16: the whole trunk from its foot up into the crown, boardwalk for scale, daylight, colour, GPS fix. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mbr_001-the-blackbutt-of-bird-tree-road-657dd07e-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 850,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_ce572bcf48df4b25bb131b55",
+          "sighting_id": "657dd07e-f174-4cd5-8b89-cb0a88cd8eaa-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mbr_001-the-blackbutt-of-bird-tree-road-657dd07e-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 740,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_ce572bcf48df4b25bb131b55",
+          "sighting_id": "657dd07e-f174-4cd5-8b89-cb0a88cd8eaa-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "A giant blackbutt by Bird Tree Road in Middle Brother National Park, NSW: a reader's photograph, where it stands and what is known about it.",

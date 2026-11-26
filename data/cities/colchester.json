@@ -68,6 +68,30 @@
           "contributor_user_id": "p_48178e92fdea8f66a594fb70",
           "sighting_id": "d8edd734-1e64-45cb-afe4-47a85a4d804a",
           "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: a huge domed oak alone in open grass, daylight and colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cls_001-the-oak-of-clingoe-hill-d8edd734-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
+          "sighting_id": "d8edd734-1e64-45cb-afe4-47a85a4d804a-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cls_001-the-oak-of-clingoe-hill-d8edd734-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
+          "sighting_id": "d8edd734-1e64-45cb-afe4-47a85a4d804a-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ],
       "official_register": {
@@ -131,6 +155,18 @@
           "contributor_user_id": "p_f0928aeb25ec62a35e302db8",
           "sighting_id": "9f5e1316-edcc-411d-96b7-6009ed8872c1",
           "note": "Photographed by a reader and sent through the app (2026-11-24); viewed and approved on 2026-11-24: the whole cedar on mown parkland, its trunk splitting low into great curving limbs in tiers, the lowest branches lying along the ground in a wide skirt, a path and bollards behind, overcast daylight, colour; a second picture shows blue-green needle tufts and upright pale green cones. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cls_002-the-cedar-near-clingoe-hill-c3ef540c-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_f0928aeb25ec62a35e302db8",
+          "sighting_id": "c3ef540c-ec5e-417e-bdc0-56886dab62d4-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ],
       "age_estimate": "about 155 years, by a reader's estimate"

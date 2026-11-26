@@ -50,7 +50,21 @@
         "contributor_user_id": "p_56b3c957f392ac896d07c586",
         "sighting_id": "tip-947",
         "note": "Photographed by a reader and sent through the website with an account; viewed 2026-11-18: the whole tree in a sandy wadi, daylight, colour. Not an open licence: ask before reuse elsewhere."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/djn_001-the-tassili-cypress-tip-947-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 901,
+          "source": "contributor",
+          "contributor_user_id": "p_56b3c957f392ac896d07c586",
+          "sighting_id": "tip-947-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "A Saharan cypress on the Tassili n'Ajjer above Djanet, one of fewer than 250 left: what it is and how to see one.",

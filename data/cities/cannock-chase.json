@@ -170,7 +170,45 @@
         "contributor_user_id": "p_e4cf35da312b73472f8b6291",
         "sighting_id": "1215c9ad-3b03-438c-a3c4-74f631633f9a",
         "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-16: Whole lower trunk and first limbs of a gnarled birch, daylight, colour, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cnk_004-the-plaited-birch-of-brocton-1215c9ad-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_e4cf35da312b73472f8b6291",
+          "sighting_id": "1215c9ad-3b03-438c-a3c4-74f631633f9a-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cnk_004-the-plaited-birch-of-brocton-1215c9ad-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_e4cf35da312b73472f8b6291",
+          "sighting_id": "1215c9ad-3b03-438c-a3c4-74f631633f9a-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cnk_004-the-plaited-birch-of-brocton-1215c9ad-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_e4cf35da312b73472f8b6291",
+          "sighting_id": "1215c9ad-3b03-438c-a3c4-74f631633f9a-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

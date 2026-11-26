@@ -793,7 +793,21 @@
         "contributor_user_id": "p_149c896aeb5cc567f28e02af",
         "sighting_id": "340d13e5-d031-448e-9595-daff201bbb9e",
         "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-16: Whole trunk, roots and the base of the crown of a big fig, daylight, colour, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bne_022-the-fig-of-neal-macrossan-park-340d13e5-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_149c896aeb5cc567f28e02af",
+          "sighting_id": "340d13e5-d031-448e-9595-daff201bbb9e-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

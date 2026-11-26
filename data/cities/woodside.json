@@ -56,7 +56,45 @@
         "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994",
         "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Base of a huge redwood trunk, daylight, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "girth_cm": 1340
+      "girth_cm": 1340,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/wdd_001-the-methuselah-tree-2ec0418a-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_9cc31350702533ff4614483d",
+          "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/wdd_001-the-methuselah-tree-2ec0418a-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_9cc31350702533ff4614483d",
+          "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/wdd_001-the-methuselah-tree-2ec0418a-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_9cc31350702533ff4614483d",
+          "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The Methuselah Tree: where it stands and what is known about it.",

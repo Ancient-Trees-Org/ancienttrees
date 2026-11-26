@@ -466,6 +466,18 @@
           "contributor_user_id": "p_c7a4ca5cb6b3ec857ef912cc",
           "sighting_id": "11cb5879-efd5-4575-b18b-9e3b967fd9dc",
           "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: A big beech on the church lawn in autumn daylight; closes a gap. Species seen: Smooth grey trunk, broad domed crown of oval leaves turning yellow-brown: European beech.. Fits the description: Single large beech on a lawn ringed by townhouses, as on the Nieuwe Kerkhof; GPS 18 m from the pin. The scars are not visible from this side... Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/gro_014-the-green-beeches-of-the-nieuwe-kerkhof-b9cab82b-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c7a4ca5cb6b3ec857ef912cc",
+          "sighting_id": "b9cab82b-f47c-4dc3-bb04-b96abd73163c-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },
@@ -652,7 +664,33 @@
         "name": "Landelijk Register Monumentale Bomen (Bomenstichting), no. 1683807",
         "url": null
       },
-      "height_m": 16
+      "height_m": 16,
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/gro_018-the-anwb-linden-of-wilhelminakade-df0d3965-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_c7a4ca5cb6b3ec857ef912cc",
+          "sighting_id": "df0d3965-9232-4870-95fe-5ec6d504830f-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/gro_018-the-anwb-linden-of-wilhelminakade-df0d3965-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_c7a4ca5cb6b3ec857ef912cc",
+          "sighting_id": "df0d3965-9232-4870-95fe-5ec6d504830f-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "gro_019",

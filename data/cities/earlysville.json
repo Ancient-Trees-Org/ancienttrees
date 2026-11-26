@@ -52,7 +52,33 @@
         "contributor_user_id": "p_e7d96418675238ae7921276f",
         "sighting_id": "62a9482b-a105-4572-b6ca-15df5c73924d",
         "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-16: The whole tree from across a field, crown and trunk both readable, people at its foot for scale, daylight, colour, GPS fix.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ely_001-the-airport-oak-of-earlysville-62a9482b-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_e7d96418675238ae7921276f",
+          "sighting_id": "62a9482b-a105-4572-b6ca-15df5c73924d-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/ely_001-the-airport-oak-of-earlysville-62a9482b-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_e7d96418675238ae7921276f",
+          "sighting_id": "62a9482b-a105-4572-b6ca-15df5c73924d-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The Airport Oak by Earlysville Road, Virginia: a reader's photograph, where it stands and what is known about it.",

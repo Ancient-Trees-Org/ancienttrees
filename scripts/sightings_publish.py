@@ -1147,7 +1147,10 @@ def main():
         dropped = drop_vendored(old_url) if old_url and old_url != block["url"] else 0
         done[sid] = {"outcome": "added" if extra else "published", "date": today,
                      "tree_id": entry["tree_id"], "city_slug": entry["city_slug"], "file": fname, "reason": reason[:300],
-                     "lat": entry.get("latitude"), "lon": entry.get("longitude")}
+                     "lat": entry.get("latitude"), "lon": entry.get("longitude"),
+                     # How many further photographs came with it: each needs a
+                     # verdict of its own (reader_extras.py, preflight).
+                     "extras": len(entry.get("extra_files") or [])}
         pin = pin_from_reader(entry["city_slug"], entry["tree_id"], entry.get("latitude"),
                               entry.get("longitude"), sid, entry.get("taken_at"), today)
         done[sid]["pin_checked"] = today
@@ -1174,6 +1177,11 @@ def main():
           f"{counts['reject']} rejected, {counts['other_tree']} another tree (now leads), "
           f"{counts['strip']} into the gallery behind the lead, "
           f"{len(qdoc['queue'])} still waiting")
+    with_extras = [e["sighting_id"][:8] for e in published if e.get("extra_files")]
+    if with_extras:
+        print("Further photographs came with %s: python3 scripts/reader_extras.py --sheet out/tmp/x, "
+              "look, --leave what stays off, then --apply (preflight refuses a push until each has a "
+              "verdict)." % ", ".join(with_extras))
     if published:
         print("Now: python3 scripts/preflight.py, then commit data/cities, site/public/photos, "
               "data/photo-manifest.json, data/sighting-queue.json and data/sightings-processed.json together.")

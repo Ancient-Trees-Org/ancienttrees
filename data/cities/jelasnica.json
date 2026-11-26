@@ -52,7 +52,45 @@
         "contributor_user_id": "p_a319dde81175eb8e4af7318f",
         "sighting_id": "68515bbd-0bdc-475a-bb16-5e8e324db9c9",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-16, through the app); viewed and approved on 2026-11-17: the whole open-grown oak from its foot, a thick plated trunk and long level limbs in leaf, a second old oak behind it on a grassy slope, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/jls_001-the-open-grown-oak-of-jela-nica-68515bbd-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a319dde81175eb8e4af7318f",
+          "sighting_id": "68515bbd-0bdc-475a-bb16-5e8e324db9c9-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/jls_001-the-open-grown-oak-of-jela-nica-68515bbd-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 900,
+          "source": "contributor",
+          "contributor_user_id": "p_a319dde81175eb8e4af7318f",
+          "sighting_id": "68515bbd-0bdc-475a-bb16-5e8e324db9c9-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/jls_001-the-open-grown-oak-of-jela-nica-68515bbd-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 900,
+          "source": "contributor",
+          "contributor_user_id": "p_a319dde81175eb8e4af7318f",
+          "sighting_id": "68515bbd-0bdc-475a-bb16-5e8e324db9c9-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "An open-grown pedunculate oak near Jelašnica, east of Niš in Serbia, sent by a reader: where it stands and what we know so far.",

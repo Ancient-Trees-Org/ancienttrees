@@ -51,7 +51,21 @@
         "contributor_user_id": "p_85c2d43904a9511a0351ab47",
         "sighting_id": "5784282e-f1a8-4516-ab2e-cce4d2f0f3be",
         "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-16: the whole ombu from its domed foot into the crown, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ess_001-the-ombu-of-the-essaouira-medina-5784282e-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_85c2d43904a9511a0351ab47",
+          "sighting_id": "5784282e-f1a8-4516-ab2e-cce4d2f0f3be-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The ombu in a café courtyard in Essaouira's medina, which a reader calls the oldest tree in Morocco: where it grows and what we know about it.",

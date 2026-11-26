@@ -105,6 +105,30 @@
           "sighting_id": "3c756f92-fc89-4a76-a714-06e8a6361b0f",
           "note": "Photographed by a reader and sent through the app (2024-11-08); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-17"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/plm_001-s-olivera-de-cort-513c935b-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_d0011595a0e9b807c2d7281e",
+          "sighting_id": "513c935b-b7e0-4b76-93c2-6a8223d8274b-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/plm_001-s-olivera-de-cort-513c935b-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_d0011595a0e9b807c2d7281e",
+          "sighting_id": "513c935b-b7e0-4b76-93c2-6a8223d8274b-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },

@@ -178,6 +178,18 @@
           "sighting_id": "c59bfd73-d95b-4cda-9ae3-5f75cf6f9754",
           "note": "Photographed by a reader and sent through the app (2024-10-16); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-17"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/seq_003-chief-sequoyah-tree-c59bfd73-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_2aec9ae3482922af1a203967",
+          "sighting_id": "c59bfd73-d95b-4cda-9ae3-5f75cf6f9754-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },

@@ -65,7 +65,21 @@
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-17 session: sent by a reader (0ddad207-52ba-4a72-8f76-64b3a09f2721, through the app). Photograph viewed: the whole boab from its hollow, split base up into a wide crown in fresh leaf, on bare red earth with eucalypts behind, a second frame from further back; evening daylight, colour. The GPS fix falls on open ground off Rowing Club Access Road (OpenStreetMap tags it a camp site). Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own words: name 'Boab', note 'Hollow trunk and height of the tree'; no age or girth given."
+      "verify_notes": "2026-11-17 session: sent by a reader (0ddad207-52ba-4a72-8f76-64b3a09f2721, through the app). Photograph viewed: the whole boab from its hollow, split base up into a wide crown in fresh leaf, on bare red earth with eucalypts behind, a second frame from further back; evening daylight, colour. The GPS fix falls on open ground off Rowing Club Access Road (OpenStreetMap tags it a camp site). Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own words: name 'Boab', note 'Hollow trunk and height of the tree'; no age or girth given.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/knx_001-the-hollow-boab-of-rowing-club-road-0ddad207-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_f54f27c5e506b597912db3c6",
+          "sighting_id": "0ddad207-52ba-4a72-8f76-64b3a09f2721-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

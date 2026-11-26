@@ -105,6 +105,66 @@
           "contributor_user_id": "p_9ec0328688bf2cc97f49a822",
           "sighting_id": "d88315af-8100-48c3-8152-db0d21001544",
           "note": "Photographed by a reader and sent through the app (2025-06-14); a viewing pass approved it on 2026-11-22: Looking up into the crown in June: chestnut leaves and the long pale catkins in flower on dark spreading limbs. A detail of the tree in flower, behind the lead in the strip. Species seen: Sweet chestnut: long lanceolate serrated leaves, upright cream flowering catkins, dark ridged limbs. Fits the description: The crown of a great chestnut seen from beneath, taken 20 m from our pin at Sant'Alfio.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/sal_001-the-hundred-horse-chestnut-137b17f1-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_e3c1300149c1256c54642733",
+          "sighting_id": "137b17f1-9f95-420c-a56a-47dc3894ad22-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/sal_001-the-hundred-horse-chestnut-d0a46fec-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 488,
+          "source": "contributor",
+          "contributor_user_id": "p_9ec0328688bf2cc97f49a822",
+          "sighting_id": "d0a46fec-6bdf-4c48-b343-214b305c2814-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/sal_001-the-hundred-horse-chestnut-d0a46fec-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 744,
+          "source": "contributor",
+          "contributor_user_id": "p_9ec0328688bf2cc97f49a822",
+          "sighting_id": "d0a46fec-6bdf-4c48-b343-214b305c2814-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/sal_001-the-hundred-horse-chestnut-d0a46fec-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_9ec0328688bf2cc97f49a822",
+          "sighting_id": "d0a46fec-6bdf-4c48-b343-214b305c2814-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/sal_001-the-hundred-horse-chestnut-d88315af-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_9ec0328688bf2cc97f49a822",
+          "sighting_id": "d88315af-8100-48c3-8152-db0d21001544-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },

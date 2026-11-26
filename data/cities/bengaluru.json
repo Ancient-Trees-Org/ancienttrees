@@ -51,7 +51,33 @@
         "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
         "sighting_id": "853a4b12-0595-4189-8e63-1771c3b8caab",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-18, through the app); viewed and approved on 2026-11-18: the whole rain tree from its thick base up into a wide fan of long limbs, lawn and a paved path in front, cloud-soft daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ben_001-the-rain-tree-of-the-national-gallery-of-modern-art-853a4b12-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+          "sighting_id": "853a4b12-0595-4189-8e63-1771c3b8caab-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/ben_001-the-rain-tree-of-the-national-gallery-of-modern-art-853a4b12-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+          "sighting_id": "853a4b12-0595-4189-8e63-1771c3b8caab-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The rain tree in the grounds of the National Gallery of Modern Art, Bengaluru, sent by a reader: where it stands and what we know.",

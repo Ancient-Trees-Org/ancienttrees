@@ -106,7 +106,21 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-21, through the app); viewed and approved on 2026-11-21: the whole fig from inside a walled courtyard, a trunk of many fused pale roots inside a rope ring, a wooden deck with tables round it, the crown spreading far over the walls, daylight, colour; a second photograph from the street shows the crown rising over the wall and parked cars, wider than the building beside it, the name KANDELA on the wall. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cuw_002-the-fig-of-kandela-023bf7b4-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_12951aff1d07de7480564b95",
+          "sighting_id": "023bf7b4-8706-4819-ba17-6bc7fb6dc744-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

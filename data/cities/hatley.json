@@ -65,7 +65,33 @@
         "contributor_user_id": "p_c877c10459fc020d2f62f752",
         "sighting_id": "0bf2f2d8-020e-4258-a925-8b90c6d45d8f",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the whole tree at a junction of a muddy farm track, a wooden footpath fingerpost at its foot, its pale furrowed trunk splitting into two stems that rejoin, a bare wide crown against the sky, a second big trunk beside it; two further photographs show a torn split in the upper trunk and a pale bone wedged in a crack of the bark. Overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/hat_001-the-bone-tree-of-hatley-0bf2f2d8-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c877c10459fc020d2f62f752",
+          "sighting_id": "0bf2f2d8-020e-4258-a925-8b90c6d45d8f-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/hat_001-the-bone-tree-of-hatley-0bf2f2d8-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c877c10459fc020d2f62f752",
+          "sighting_id": "0bf2f2d8-020e-4258-a925-8b90c6d45d8f-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

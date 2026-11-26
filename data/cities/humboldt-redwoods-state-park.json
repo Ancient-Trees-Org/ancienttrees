@@ -69,6 +69,42 @@
           "sighting_id": "45373393-9b42-4b86-904f-cb9fc689d00f",
           "note": "Photographed by a reader and sent through the app (2026-11-24); in the strip since 2026-11-25, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-25"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/hum_001-the-giant-tree-45373393-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_69e1f1cf04e80010dc3bd761",
+          "sighting_id": "45373393-9b42-4b86-904f-cb9fc689d00f-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/hum_001-the-giant-tree-45373393-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_69e1f1cf04e80010dc3bd761",
+          "sighting_id": "45373393-9b42-4b86-904f-cb9fc689d00f-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/hum_001-the-giant-tree-ed5bd210-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 320,
+          "height": 480,
+          "source": "contributor",
+          "contributor_user_id": "p_492afbdde23d69af867aff0f",
+          "sighting_id": "ed5bd210-4a52-4fe2-90a8-f121559ef711-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },
@@ -146,6 +182,42 @@
           "sighting_id": "67933e44-d017-44fd-9497-68b5a39e964f",
           "note": "Photographed by a reader and sent through the app (2026-11-24); in the strip since 2026-11-25, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-25"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/hum_002-the-tall-tree-67933e44-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_69e1f1cf04e80010dc3bd761",
+          "sighting_id": "67933e44-d017-44fd-9497-68b5a39e964f-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/hum_002-the-tall-tree-67933e44-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_69e1f1cf04e80010dc3bd761",
+          "sighting_id": "67933e44-d017-44fd-9497-68b5a39e964f-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/hum_002-the-tall-tree-67933e44-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_69e1f1cf04e80010dc3bd761",
+          "sighting_id": "67933e44-d017-44fd-9497-68b5a39e964f-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

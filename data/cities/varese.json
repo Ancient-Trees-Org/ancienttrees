@@ -87,6 +87,18 @@
           "sighting_id": "bddcda78-ceef-4f9d-bfd3-40836fc3667d",
           "note": "Photographed by a reader and sent through the app (2026-11-23); in the strip since 2026-11-25, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-25"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/var_001-the-great-cedar-of-varese-ecbeb1a2-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_2d57f02847d77aa9cc40c5a1",
+          "sighting_id": "ecbeb1a2-03b5-4ec4-b19c-4772926d63eb-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },
@@ -186,7 +198,45 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-26, through the app); viewed and approved on 2026-11-26: the whole cedar on a campus lawn, a single dark trunk opening into upswept limbs and a broad blue-grey crown, a pale green building and parked cars behind, overcast daylight, colour; the three extras show its trunk over a carpet of copper beech leaves and the neighbouring cedars above picnic tables. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/var_003-the-cedar-of-the-university-campus-86a25f84-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_df9da2fa289e6fdaa8b541de",
+          "sighting_id": "86a25f84-ea89-44ef-bc1c-08815d28a3a4-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/var_003-the-cedar-of-the-university-campus-86a25f84-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_df9da2fa289e6fdaa8b541de",
+          "sighting_id": "86a25f84-ea89-44ef-bc1c-08815d28a3a4-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/var_003-the-cedar-of-the-university-campus-86a25f84-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_df9da2fa289e6fdaa8b541de",
+          "sighting_id": "86a25f84-ea89-44ef-bc1c-08815d28a3a4-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "var_004",

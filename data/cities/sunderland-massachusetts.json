@@ -90,6 +90,42 @@
           "sighting_id": "9689a5aa-c566-41e5-a674-f26dd189e7cc",
           "note": "Photographed by a reader and sent through the app (2018-03-06); in the strip since 2026-11-15, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-15"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/snd_001-the-sunderland-buttonball-tree-9689a5aa-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_d0011595a0e9b807c2d7281e",
+          "sighting_id": "9689a5aa-c566-41e5-a674-f26dd189e7cc-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/snd_001-the-sunderland-buttonball-tree-9689a5aa-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_d0011595a0e9b807c2d7281e",
+          "sighting_id": "9689a5aa-c566-41e5-a674-f26dd189e7cc-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/snd_001-the-sunderland-buttonball-tree-9689a5aa-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 790,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_d0011595a0e9b807c2d7281e",
+          "sighting_id": "9689a5aa-c566-41e5-a674-f26dd189e7cc-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

@@ -58,7 +58,45 @@
         "taken_month": 7,
         "taken_month_basis": "full summer leaf in the photograph; the file carries no date of its own",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-25: a broad multi-stemmed downy oak in full summer leaf, sun through the crown, a pair of yellow gateposts with iron gates behind it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Held 2026-11-26: a cropped screenshot with no camera data, so we cannot tell who took it; it goes back up when the reader says it is their own (Hidde: \"screenshot zijn wel gevaarlijk toch\"). Asked with hold_reply.py doubt_photo_live."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/arz_001-bella-di-ceciliano-e604000d-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb792528c3370538a708e62",
+          "sighting_id": "e604000d-20cf-4082-885d-3e34c988c961-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/arz_001-bella-di-ceciliano-e604000d-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb792528c3370538a708e62",
+          "sighting_id": "e604000d-20cf-4082-885d-3e34c988c961-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/arz_001-bella-di-ceciliano-e604000d-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 994,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb792528c3370538a708e62",
+          "sighting_id": "e604000d-20cf-4082-885d-3e34c988c961-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "Bella di Ceciliano, a monumental downy oak outside Arezzo in Tuscany: 570 cm round, 24 m tall, and where to find it.",

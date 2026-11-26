@@ -314,7 +314,21 @@
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent through the app (2026-11-23); viewed and approved on 2026-11-23: looking straight up a thick, deeply furrowed trunk that forks into twisting limbs against a blue sky, dark conifers around; a second photo shows the arboretum label, Sourwood, Oxydendrum arboreum, on the blocky ridged bark; sunny daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       },
-      "location_site": "Douglas E. Dayton Arboretum, East Hampton"
+      "location_site": "Douglas E. Dayton Arboretum, East Hampton",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ehp_005-the-old-sourwood-of-the-dayton-arboretum-2b13f306-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a94e34ccafeeffaec7bf9e05",
+          "sighting_id": "2b13f306-caea-438e-906d-a1ceae4d9891-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "ehp_006",
@@ -359,7 +373,33 @@
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent through the app (2026-11-23); viewed and approved on 2026-11-23: the whole broad zelkova in full orange-red autumn colour behind a row of parked cars, its short dark trunk on a carpet of fallen leaves; further photos show the arboretum label, Japanese Zelkova, Zelkova serrata, on the mottled trunk, and the crown from below; sunny daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       },
-      "location_site": "Douglas E. Dayton Arboretum, East Hampton"
+      "location_site": "Douglas E. Dayton Arboretum, East Hampton",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ehp_006-the-zelkova-by-the-car-park-05617476-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a94e34ccafeeffaec7bf9e05",
+          "sighting_id": "05617476-9451-4e3b-964a-30cd0a06e17f-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/ehp_006-the-zelkova-by-the-car-park-05617476-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a94e34ccafeeffaec7bf9e05",
+          "sighting_id": "05617476-9451-4e3b-964a-30cd0a06e17f-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

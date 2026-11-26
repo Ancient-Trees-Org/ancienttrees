@@ -2288,6 +2288,12 @@ Read 2026-09-03:
 - https://tiles.openfreemap.org/styles/dark
 - https://developer.apple.com/design/human-interface-guidelines/dark-mode
 
+## Light, dark or the phone's setting (2026-11-26)
+
+A tester: "The night (dark) mode is very dark, and there's no way to turn it off." The apps only followed the phone. **Android's own dark-theme guidance** (developer.android.com, Dark theme) asks every app for an in-app choice of exactly three: Light, Dark, System default, with System as the default. **Google Maps** keeps the same three in its settings (Dark mode: on, off, same as device). Apple's Display & Brightness offers Light, Dark and Automatic for the whole phone and leaves the per-app row to the app.
+
+**Ours, iPhone and Android:** an Appearance row under Preferences in Settings, beside Distances and in the same row shape (a menu with a tick), System, Light, Dark, System by default. It follows the account like Distances (profiles.appearance, supabase/profile-appearance.sql), and changes every window at once (iPhone: the windows' overrideUserInterfaceStyle, so an open sheet and the map turn too; Android: the theme reads it, and the bar icons follow). Files: Kit/Appearance.swift, Screens/Profile.swift, ui/Settings.kt, ui/Theme.kt. The dark ground went one step lighter the same day (#121410 to #1A1D18, the Android theme's background already), every text pair measured by scripts/darkcheck.py.
+
 ## Sending a mobile visitor to the app (2026-09-03)
 
 Hidde, on the AllTrails sheet that had just interrupted him on his own phone:

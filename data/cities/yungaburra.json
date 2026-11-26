@@ -60,7 +60,21 @@
       "official_register": {
         "name": "Queensland Heritage Register",
         "url": "https://en.wikipedia.org/wiki/Curtain_Fig_Tree"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ybr_001-the-curtain-fig-tree-ff8f7eac-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_24edc9a8bd5f07a00e0b3133",
+          "sighting_id": "ff8f7eac-05bb-4474-a1bf-b44629a370cd-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The Curtain Fig Tree near Yungaburra, Queensland: where it stands, how old it is and how it grew its curtain of roots.",

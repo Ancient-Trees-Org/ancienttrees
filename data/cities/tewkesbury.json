@@ -69,7 +69,21 @@
         "contributor_user_id": "p_b940ea18aaf6152172df1c2f",
         "sighting_id": "59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole beech from the open lawn, a vast fluted grey trunk with roots flaring over the grass and great limbs spreading low in every direction, a visitor standing at its foot for scale, autumn leaves turning, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/tew_001-the-great-beech-of-tewkesbury-abbey-59a9bf8f-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_b940ea18aaf6152172df1c2f",
+          "sighting_id": "59a9bf8f-4d59-4c58-b206-3ecc2a7f7ea8-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

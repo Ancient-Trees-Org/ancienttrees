@@ -70,7 +70,21 @@
         "license": "CC BY-SA",
         "attribution": "Tres Fisher, via iNaturalist",
         "status": "held"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nol_001-the-mcdonogh-oak-417749a0-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+          "sighting_id": "417749a0-3387-4bd0-853a-ce00cd4dad90-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "nol_002",

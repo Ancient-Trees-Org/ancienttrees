@@ -52,7 +52,45 @@
         "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
         "sighting_id": "94be5b76-fd13-46b8-965d-0486dd325d63",
         "note": "Photographed by a reader and sent through the app (2026-11-18); viewed and approved on 2026-11-18: the whole tree from across bare ground, a low wide dome of crown far broader than it is tall over a short fluted trunk, a brick wall and temple ruins behind; three more frames show the trunk, its many limbs, thin aerial roots and a stone Nandi on a plinth beside it; daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/aih_001-the-galaganatha-temple-fig-94be5b76-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+          "sighting_id": "94be5b76-fd13-46b8-965d-0486dd325d63-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/aih_001-the-galaganatha-temple-fig-94be5b76-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+          "sighting_id": "94be5b76-fd13-46b8-965d-0486dd325d63-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/aih_001-the-galaganatha-temple-fig-94be5b76-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+          "sighting_id": "94be5b76-fd13-46b8-965d-0486dd325d63-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "A wide old fig on the ground of the Galaganatha temples at Aihole, Karnataka, sent by a reader: where it grows and what we know about it.",

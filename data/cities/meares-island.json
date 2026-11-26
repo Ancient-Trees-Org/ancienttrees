@@ -53,7 +53,33 @@
         "source": "a reader's app photograph",
         "date": "2026-11-17",
         "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mrs_001-a-cedar-of-the-meares-island-big-tree-trail-b41e05ce-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 720,
+          "height": 431,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "b41e05ce-7f7e-4aeb-a19e-e1c252662378-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mrs_001-a-cedar-of-the-meares-island-big-tree-trail-b41e05ce-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 431,
+          "height": 720,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "b41e05ce-7f7e-4aeb-a19e-e1c252662378-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The Big Tree Trail on Meares Island near Tofino: a boardwalk among old-growth redcedars said to be up to 1,500 years old.",

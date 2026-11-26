@@ -85,6 +85,30 @@
           "status": "approved",
           "width": 640,
           "height": 427
+        },
+        {
+          "url": "https://ancienttrees.app/photos/dmr_001-wistman-s-wood-9ddf843f-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_071683a079961a9398789c42",
+          "sighting_id": "9ddf843f-f9a1-4926-b112-74f4a904f502-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/dmr_001-wistman-s-wood-9ddf843f-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_071683a079961a9398789c42",
+          "sighting_id": "9ddf843f-f9a1-4926-b112-74f4a904f502-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ],
       "pin_source": {

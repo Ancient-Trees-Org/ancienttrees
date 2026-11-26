@@ -60,7 +60,33 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent through the app (2026-11-21); viewed and approved by the reader judge on 2026-11-21. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cmn_001-the-royal-oak-of-castlemaine-de314993-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5ad3b6676edab0c30c98329c",
+          "sighting_id": "de314993-8df5-496c-897d-b262d6f0d3cd-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cmn_001-the-royal-oak-of-castlemaine-de314993-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5ad3b6676edab0c30c98329c",
+          "sighting_id": "de314993-8df5-496c-897d-b262d6f0d3cd-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "cmn_002",
@@ -107,7 +133,21 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent through the app (2026-11-21); viewed and approved by the reader judge on 2026-11-21: looking up a forked stone pine with deeply plated red-brown bark and a small label on its trunk, its umbrella crown high against blue sky, another forked pine beside it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cmn_002-the-forked-stone-pine-of-castlemaine-4dff68aa-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5ad3b6676edab0c30c98329c",
+          "sighting_id": "4dff68aa-5e39-4db5-be9e-d2cdf8c261d8-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The oldest tree in Castlemaine Botanical Gardens: an English oak planted in 1863 for a royal wedding, Victorian Tree of the Year 2021.",

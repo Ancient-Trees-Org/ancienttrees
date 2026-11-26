@@ -145,7 +145,21 @@
         "source": "a reader's app photograph",
         "date": "2026-11-17",
         "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ads_003-the-red-gum-of-overbury-drive-b730acca-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 445,
+          "height": 297,
+          "source": "contributor",
+          "contributor_user_id": "p_9707e15060547d5c0035ab20",
+          "sighting_id": "b730acca-9b47-4ce7-9ebc-5ca8499ac7ac-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "A River Red Gum in Rostrevor, Adelaide, about 200 years old by a reader's estimate. Where it stands and how to see it.",

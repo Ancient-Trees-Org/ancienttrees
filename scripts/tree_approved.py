@@ -194,7 +194,44 @@ def note_invited(uid, slug, place, tree_name):
     save(AMBASSADORS, doc, indent=2)
 
 
-def mail_for(name, tree, city_name, page, gave=None, seat=False, web=False):
+def what_we_did(sid, tree_name=None):
+    """What happened to what they sent, said plainly (2026-11-26, a tester:
+    three photographs sent, one shown, the description rewritten, and "I
+    wasn't told about either change"). Which photographs stayed off and why,
+    from data/reader-extras.json, and that the story is ours, written from
+    what they told us. Returns lines for the mail, maybe none."""
+    import reader_extras
+    rec = reader_extras.ledger()["sightings"].get(sid, {}).get("extras", {})
+    lines = []
+    if rec:
+        total = 1 + len(rec)
+        off = [(int(n), v) for n, v in rec.items() if v.get("verdict") == "left_out"]
+        about = f" of {tree_name}" if tree_name else ""
+        if not off:
+            lines.append(f"All {total} of your photographs{about} are on the page.")
+        else:
+            groups = {}
+            for n, v in sorted(off):
+                groups.setdefault(v.get("reason"), []).append(n + 1)
+            parts = []
+            for reason, nums in groups.items():
+                text = reader_extras.LEAVE_REASONS.get(reason, "we could not use it")
+                if len(nums) == 1:
+                    parts.append(f"photo {nums[0]} because {text}")
+                else:
+                    text = text.replace(" in it", " in them").replace("it shows", "they show").replace(
+                        "it looks", "they look").replace("it was", "they were")
+                    parts.append("photos " + ", ".join(map(str, nums[:-1])) + f" and {nums[-1]} because {text}")
+            kept = total - len(off)
+            lines.append(f"{kept} of your {total} photographs{about} {'is' if kept == 1 else 'are'} on the page. "
+                         f"We left out {'; '.join(parts)}.")
+    if not tree_name:
+        lines.append("We wrote the story on the page ourselves, from what you sent and what we "
+                     "could check. If anything in it is wrong, tell us and we put it right.")
+    return lines
+
+
+def mail_for(name, tree, city_name, page, gave=None, seat=False, web=False, did=None):
     """THE ASK FOLLOWS WHAT THEY GAVE (Hidde, 2026-10-20, on the Freiburg beech,
     which arrived as a photograph and a pin and nothing else: "ask if they have
     more info on the tree (age, girth, story etc) ... make that standard unless
@@ -225,7 +262,8 @@ def mail_for(name, tree, city_name, page, gave=None, seat=False, web=False):
         f"approved and is now on Ancient Trees for everybody to find:\n"
         f"{page}\n\n"
         f"You stood in front of it and sent it to us, and now other people can go and see it too.\n\n"
-        f"{ask}\n\n"
+        + "".join(f"{line}\n\n" for line in (did or []))
+        + f"{ask}\n\n"
         f"Ancient Trees\n{BASE_URL}\n"
     )
     # THE AMBASSADOR ASK RIDES ALONG, SMALL (Hidde, 2026-10-21: "is het niet
@@ -239,7 +277,7 @@ def mail_for(name, tree, city_name, page, gave=None, seat=False, web=False):
     return subject, body
 
 
-def bundle_for(name, items):
+def bundle_for(name, items, did=None):
     """ONE MAIL PER PERSON (2026-11-15, the Guardian day: one reader added three
     trees and got three congratulations within the hour, another got two). Every
     tree with its link, one ask for all of them, and the P.S. for the first place
@@ -252,7 +290,8 @@ def bundle_for(name, items):
         f"Congratulations: {count} you added have been approved and are now "
         f"on Ancient Trees for everybody to find:\n\n{lines}\n\n"
         f"You stood in front of them and sent them to us, and now other people can go and see them too.\n\n"
-        f"If you know more about any of them, just reply to this mail and it goes on the page.\n\n"
+        + "".join(f"{line}\n\n" for line in (did or []))
+        + f"If you know more about any of them, just reply to this mail and it goes on the page.\n\n"
         f"Ancient Trees\n{BASE_URL}\n"
     )
     return subject, body
@@ -351,9 +390,11 @@ def main(argv):
         if len(items) == 1:
             sid, _, tree, city_name, city_slug, page = items[0]
             subject, body = mail_for(name, tree, city_name, page, what_they_gave(sid),
-                                     seat=bool(seat_at), web=sid.startswith("tip-"))
+                                     seat=bool(seat_at), web=sid.startswith("tip-"), did=what_we_did(sid))
         else:
-            subject, body = bundle_for(name, items)
+            did = [l for it in items for l in what_we_did(it[0], it[2]["name"])]
+            did.append(what_we_did("")[-1])
+            subject, body = bundle_for(name, items, did=did)
             if seat_at:
                 body += (f"\nP.S. {seat_at[3]} is still looking for an ambassador, somebody who adds "
                          f"photos and keeps an eye on the list. Let us know if you're interested.\n")
