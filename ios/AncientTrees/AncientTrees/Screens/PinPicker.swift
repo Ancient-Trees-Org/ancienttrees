@@ -157,6 +157,7 @@ struct PinPicker: View {
 /// type Apple Maps' own search field runs on). Nothing is stored.
 @Observable
 final class AddressSearch: NSObject, MKLocalSearchCompleterDelegate {
+    nonisolated deinit {}
     var query = ""
     var results: [MKLocalSearchCompletion] = []
     @ObservationIgnored let completer = MKLocalSearchCompleter()
