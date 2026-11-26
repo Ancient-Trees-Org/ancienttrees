@@ -745,13 +745,21 @@ def under_tab_bar(els):
             and e["y"] < bottom and e["w"] < 400 and not any(e is t for t in tabs)}
 
 
+def loose(what):
+    """An element's label without the count it reads: a species row says how many
+    trees it has ("Oriental Plane, Platanus orientalis, 70"), and that number grows
+    with the catalogue, so a reason written for 70 stopped covering the same gap at
+    75 and the job went red with no change to either app (2026-11-26)."""
+    return re.sub(r", \d[\d,]*(?=$| ->| \||,| height| left| right| centre)", ", #", what)
+
+
 def judge(screen, ios, xml_pages, density, safe_and, screen_h_dp, allowed, h_pending=True):
-    allowed_what = {a["what"]: a.get("why", "") for a in allowed}
+    allowed_what = {loose(a["what"]): a.get("why", "") for a in allowed}
     # A reason covers the difference it explains, not any size: one written for a
     # 28 dp foot hid a 107 dp one after a later change (2026-11-12). "within" sets
     # the largest difference it covers; a reason without one covers any size, so
     # give one wherever the size is what the reason is about.
-    allowed_within = {a["what"]: a.get("within") for a in allowed}
+    allowed_within = {loose(a["what"]): a.get("within") for a in allowed}
     k = sheet_scale(ios)
     gaps, heights, insets_, seen_gap, across = {}, {}, {}, {}, {}
     sheet_pairs, sheet_nodes, all_nodes = [], [], []
@@ -893,7 +901,7 @@ def judge(screen, ios, xml_pages, density, safe_and, screen_h_dp, allowed, h_pen
             # element shorter than the iPhone's is the cut, not a spacing.
             insets_[f"sheet top first {name_of(fi)} height"] = (round(fi["h"] * k, 1), round(fa["h"], 1))
     rows = [{"kind": "missing", "what": m, "ios": 1, "android": 0, "diff": -1,
-             "fails": m not in allowed_what, "allowed": allowed_what.get(m)} for m in missing]
+             "fails": loose(m) not in allowed_what, "allowed": allowed_what.get(loose(m))} for m in missing]
     for kind, table, suffix in (("inset", insets_, ""), ("gap", gaps, ""), ("height", heights, " height"),
                                 ("across", across, "")):
         for what, (vi, va) in table.items():
@@ -902,11 +910,11 @@ def judge(screen, ios, xml_pages, density, safe_and, screen_h_dp, allowed, h_pen
                 continue
             what_s = what + suffix
             rows.append({"kind": kind, "what": what_s, "ios": vi, "android": va, "diff": d,
-                         "fails": abs(d) > FAIL and (what_s not in allowed_what
-                                                     or (allowed_within.get(what_s) is not None
-                                                         and abs(d) > allowed_within[what_s]))
+                         "fails": abs(d) > FAIL and (loose(what_s) not in allowed_what
+                                                     or (allowed_within.get(loose(what_s)) is not None
+                                                         and abs(d) > allowed_within[loose(what_s)]))
                          and not (kind == "across" and h_pending),
-                         "allowed": allowed_what.get(what_s)})
+                         "allowed": allowed_what.get(loose(what_s))})
     rows.sort(key=lambda r: -abs(r["diff"]))
     return {"ios_scale": round(k, 4), "matched": matched,
             "measured": len(gaps) + len(heights) + len(insets_) + len(across), "across": len(across),

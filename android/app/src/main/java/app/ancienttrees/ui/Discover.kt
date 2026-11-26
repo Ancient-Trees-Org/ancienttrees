@@ -12,6 +12,7 @@
 
 package app.ancienttrees.ui
 
+import androidx.compose.ui.platform.testTag
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
@@ -867,7 +868,7 @@ internal fun VisitorLine(r: NewFromVisitors.Row, width: Dp, openVisitor: (NewFro
     if (real != null) {
         m = m.clickable(interactionSource = remember { MutableInteractionSource() }, indication = androidx.compose.foundation.LocalIndication.current) {
             openVisitor(r)
-        }.semantics { contentDescription = "visitor-name" }
+        }.semantics { contentDescription = "visitor-name" }.testTag("visitor-name")
     }
     // The heart at the line's end, beside the name and never inside its tap
     // (VisitorPhotos.swift VisitorLine, 2026-11-20).

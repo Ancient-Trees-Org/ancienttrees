@@ -1129,6 +1129,11 @@
       {
         "what": "BackButton right",
         "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "top safe area -> Photographs people took at the trees,...",
+        "why": "Android's top app bar, 64 tall with the title beside the back arrow, where the iPhone's bar is 44 with the title centred: the line under it starts 10 lower, 10 less than the bar's own difference (measured 2026-11-26, once the tiles paired by identifier).",
+        "within": 12
       }
     ]
   }

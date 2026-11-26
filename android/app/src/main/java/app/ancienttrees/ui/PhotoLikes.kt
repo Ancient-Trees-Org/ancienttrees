@@ -6,6 +6,7 @@
 
 package app.ancienttrees.ui
 
+import androidx.compose.ui.platform.testTag
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -187,7 +188,8 @@ fun PhotoHeart(photoId: String, onDark: Boolean = false) {
                         marks.signIn()
                     }
                 }
-                .semantics { contentDescription = "photo-like" },
+                .semantics { contentDescription = "photo-like" }
+                .testTag("photo-like"),
         ) {
             Icon(if (s.mine) Sym.HeartFill else Sym.Heart, null, tint = tint, modifier = Modifier.size(15.dp))
         }
