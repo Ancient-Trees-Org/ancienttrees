@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-26 night run (sixth attempt): nothing to ship
+
+Pulled, no claims standing. 3 READY leads (york, guimaraes, leamington-spa) still unwritable. `passcheck.py --pending` shows only stale files, duplicates of live trees under other ids, and id clashes with live trees (alpujarras, cardiff, coimbra, croatia, cyprus and others), so no write pass is safe. Own research is paused. reader_words has 0 waiting, 4 mail sentences await the sender's yes. The Amsterdam sighting 3c544597 belongs to the reader judge. Nothing shipped.
+
 ## 2026-11-26 night run (fifth attempt): nothing to ship
 
 Same walk again: no claims, 3 READY leads still unwritable, `enrich.py --next` and `recognise.py --stuck` empty, reader_words 0 waiting, the 382 "awaiting a writer" files are stale or duplicates. Health red only on open app BUG rows (iOS fixes needing the Mac build). No tree added, nothing claimed.
