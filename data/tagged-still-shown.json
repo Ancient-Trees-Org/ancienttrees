@@ -1,9 +1,9 @@
 {
  "generated": "scripts/tagged_shown.py",
  "since": "2026-11-01",
- "google_data_through": "2026-11-24",
- "tagged_pages_shown": 1015,
- "impressions": 4343,
+ "google_data_through": "2026-11-25",
+ "tagged_pages_shown": 1016,
+ "impressions": 4353,
  "clicks": 83,
  "pages": [
   {
@@ -221,6 +221,22 @@
    "last_day": "2026-11-10"
   },
   {
+   "path": "/seoul/banghak-dong-ginkgo",
+   "impressions": 13,
+   "clicks": 1,
+   "days": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-06",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-22",
+    "2026-11-24"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-24"
+  },
+  {
    "path": "/coimbra",
    "impressions": 12,
    "clicks": 1,
@@ -276,6 +292,21 @@
    "last_day": "2026-11-09"
   },
   {
+   "path": "/tokyo/zenpukuji-ginkgo",
+   "impressions": 11,
+   "clicks": 1,
+   "days": [
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-08",
+    "2026-11-09",
+    "2026-11-24"
+   ],
+   "first_day": "2026-11-01",
+   "last_day": "2026-11-24"
+  },
+  {
    "path": "/kyoto/reclining-dragon-pine",
    "impressions": 10,
    "clicks": 1,
@@ -289,35 +320,6 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-20"
-  },
-  {
-   "path": "/seoul/banghak-dong-ginkgo",
-   "impressions": 10,
-   "clicks": 1,
-   "days": [
-    "2026-11-02",
-    "2026-11-03",
-    "2026-11-06",
-    "2026-11-08",
-    "2026-11-09",
-    "2026-11-22"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-22"
-  },
-  {
-   "path": "/tokyo/zenpukuji-ginkgo",
-   "impressions": 10,
-   "clicks": 1,
-   "days": [
-    "2026-11-01",
-    "2026-11-02",
-    "2026-11-03",
-    "2026-11-08",
-    "2026-11-09"
-   ],
-   "first_day": "2026-11-01",
-   "last_day": "2026-11-09"
   },
   {
    "path": "/es/alicante",
@@ -1532,7 +1534,7 @@
   },
   {
    "path": "/de/vienna/giant-sequoias-of-potzleinsdorfer-schlosspark",
-   "impressions": 15,
+   "impressions": 16,
    "clicks": 0,
    "days": [
     "2026-11-02",
@@ -1540,10 +1542,11 @@
     "2026-11-04",
     "2026-11-08",
     "2026-11-09",
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-24"
    ],
    "first_day": "2026-11-02",
-   "last_day": "2026-11-13"
+   "last_day": "2026-11-24"
   },
   {
    "path": "/de/vienna/ginkgo-of-schonbrunn",
@@ -3296,6 +3299,18 @@
    "last_day": "2026-11-08"
   },
   {
+   "path": "/cadiz/pohutukawa-of-parque-genoves",
+   "impressions": 5,
+   "clicks": 0,
+   "days": [
+    "2026-11-02",
+    "2026-11-08",
+    "2026-11-24"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-24"
+  },
+  {
    "path": "/coimbra/karri-knight",
    "impressions": 5,
    "clicks": 0,
@@ -4644,6 +4659,17 @@
    "last_day": "2026-11-09"
   },
   {
+   "path": "/beijing/nine-dragon-cypress",
+   "impressions": 3,
+   "clicks": 0,
+   "days": [
+    "2026-11-02",
+    "2026-11-25"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-25"
+  },
+  {
    "path": "/belgrade/plane-of-vracar",
    "impressions": 3,
    "clicks": 0,
@@ -5798,16 +5824,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/beijing/nine-dragon-cypress",
-   "impressions": 2,
-   "clicks": 0,
-   "days": [
-    "2026-11-02"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-02"
-  },
-  {
    "path": "/belgrade",
    "impressions": 2,
    "clicks": 0,
@@ -5861,17 +5877,6 @@
   },
   {
    "path": "/bojnice/linden-of-king-matthias",
-   "impressions": 2,
-   "clicks": 0,
-   "days": [
-    "2026-11-08",
-    "2026-11-09"
-   ],
-   "first_day": "2026-11-08",
-   "last_day": "2026-11-09"
-  },
-  {
-   "path": "/bologna/sequoia-of-the-giardini-margherita",
    "impressions": 2,
    "clicks": 0,
    "days": [
@@ -5973,17 +5978,6 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-04"
-  },
-  {
-   "path": "/cadiz/pohutukawa-of-parque-genoves",
-   "impressions": 2,
-   "clicks": 0,
-   "days": [
-    "2026-11-02",
-    "2026-11-08"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-08"
   },
   {
    "path": "/cagliari/argan-of-the-orto-botanico",
@@ -7489,6 +7483,17 @@
    ],
    "first_day": "2026-11-04",
    "last_day": "2026-11-08"
+  },
+  {
+   "path": "/singapore/cannon-ball-tree-of-the-ginger-garden",
+   "impressions": 2,
+   "clicks": 0,
+   "days": [
+    "2026-11-02",
+    "2026-11-25"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-25"
   },
   {
    "path": "/singapore/fort-canning-madras-thorn",
@@ -9075,16 +9080,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/geneva/place-du-cirque-plane",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-09"
-   ],
-   "first_day": "2026-11-09",
-   "last_day": "2026-11-09"
-  },
-  {
    "path": "/giessen/lindengruppe-an-der-lindbachquelle",
    "impressions": 1,
    "clicks": 0,
@@ -9955,6 +9950,16 @@
    "last_day": "2026-11-02"
   },
   {
+   "path": "/malaga/fig-of-the-picasso-gardens",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-25"
+   ],
+   "first_day": "2026-11-25",
+   "last_day": "2026-11-25"
+  },
+  {
    "path": "/malaga/rare-cassia-of-malaga-park",
    "impressions": 1,
    "clicks": 0,
@@ -10203,6 +10208,16 @@
    ],
    "first_day": "2026-11-08",
    "last_day": "2026-11-08"
+  },
+  {
+   "path": "/nijmegen/mariaboom-of-marienbosch",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-25"
+   ],
+   "first_day": "2026-11-25",
+   "last_day": "2026-11-25"
   },
   {
    "path": "/nijmegen/mother-ginkgo-of-kronenburgerpark",
@@ -10865,16 +10880,6 @@
    "last_day": "2026-11-02"
   },
   {
-   "path": "/singapore/cannon-ball-tree-of-the-ginger-garden",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-02"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-02"
-  },
-  {
    "path": "/singapore/mangrove-apples-of-chek-jawa",
    "impressions": 1,
    "clicks": 0,
@@ -11003,6 +11008,16 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-02"
+  },
+  {
+   "path": "/species/fern-leaved-beech",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-24"
+   ],
+   "first_day": "2026-11-24",
+   "last_day": "2026-11-24"
   },
   {
    "path": "/species/hungarian-oak",

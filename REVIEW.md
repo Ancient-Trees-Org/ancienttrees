@@ -7,16 +7,6 @@ corpus, and writes findings here, newest first. It never fixes anything.
 Severities: **BLOCKER** (the site is wrong or broken; runs treat as rung 2),
 **WARN** (drift or risk; rung 3), **NOTE** (worth knowing, no action forced).
 
-## 2026-11-25 code (full)
-
-Nothing new in the code. Coverage was partial: pattern sweeps (force unwraps, `!!`, `[0]`/`first()`, `uniqueKeysWithValues`, GlobalScope, scroll/input listeners) over the iPhone app, Android app and site scripts, then reading each hit (SuggestedPeople.build, People.swift, CatalogueStore.kt, TreeDetail.kt YourPhotos, MapSearch.kt SearchIndex, map-filters-js, people-js). Every hit was guarded. Not read line by line: the largest Screens and Compose files. The next full sweep should not rely on this one.
-"FOR HIDDE" appears only on judgment calls no run may make alone.
-
-An empty day says "Nothing found." A reviewer that never finds anything is
-suspect; a reviewer that finds fifteen nitpicks a day is worse.
-
----
-
 <!-- archive-index -->
 
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
@@ -28,6 +18,16 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-25 code (full)
+
+Nothing new in the code. Coverage was partial: pattern sweeps (force unwraps, `!!`, `[0]`/`first()`, `uniqueKeysWithValues`, GlobalScope, scroll/input listeners) over the iPhone app, Android app and site scripts, then reading each hit (SuggestedPeople.build, People.swift, CatalogueStore.kt, TreeDetail.kt YourPhotos, MapSearch.kt SearchIndex, map-filters-js, people-js). Every hit was guarded. Not read line by line: the largest Screens and Compose files. The next full sweep should not rely on this one.
+"FOR HIDDE" appears only on judgment calls no run may make alone.
+
+An empty day says "Nothing found." A reviewer that never finds anything is
+suspect; a reviewer that finds fifteen nitpicks a day is worse.
+
+---
+
 ## 2026-11-25
 
 Web half: the last 24 hours were reader-judge photograph batches (Turin ginkgo, Madison tupelo, Tokyo pine), vendored photos, a leads hand-back and an Android crash fix. Turin, Madison and Tokyo pages hold no em dashes. Four earlier WARNs still stand in site/dist (grep today), replacements as in the 2026-11-21 entry:
@@ -230,22 +230,4 @@ App half (iPhone SE: people, photo-viewer, place-pin, profile-edit, profile-sign
 ## 2026-11-18 code
 
 - WEB-BUG-refresh-blip-signs-out, site/src/lib/signin-js.ts:254: a 429 or 5xx from the token refresh clears the stored session and signs the visitor out; only 400/401/403 mean the refresh token is spent.
-
-## 2026-11-11 code (full)
-
-- APP-BUG-shared-photo-url-force-unwrap, ios/AncientTrees/AncientTrees/Screens/SharedTreeView.swift:108: shared tree photo URL from a server file name is force-unwrapped.
-
-## 2026-11-11
-
-Web half: the last 24 hours were Android parity work, one maps fix (atCanMap() asks for maplibregl, qa holds it) and data. No em dashes in site/dist HTML. Standing findings are unchanged.
-
-- WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are" while app-only pins open a card with no story. Fifth review. Hard rule 2 and "a decision that changes what the product does also changes what the product says". Replacement: "Each pin opens a tree; some stories are in the app." Translations too.
-- WARN site/src/pages/contribute.astro:17 and :401 (built into contribute.html) still say "verified against independent sources" / "check every tip against independent sources". False since "Good reader input IS the source" (2026-10-12). Sixteenth review in a row. Replacement: "We read every submission before it is kept."
-- NOTE the 11-07 question stands: data/walk-routes.json routing through app-only trees that have no page is unchecked.
-
-App half (iPhone SE: feedback, map-bar, map-full, map-pin, map, own-tree; map-full and map read like map-bar):
-
-- NOTE APP feedback.png: "We check every vote, correction and tip" again (third review). Live-first (2026-10-24) means photos and notes are public before a check. "We read every vote, correction and tip" holds for all. For a session.
-- NOTE APP map-pin.png: standing since 11-09. The map is on Amsterdam while the open card is "Dąb Fabrykant (the Factory Owner's Oak, als…", a Polish tree not in view. New this time: the card title is cut mid-word at two lines ("als…"), so the name a person reads is a fragment; a short display name or a third line would hold it. Also the locate button sits over a pin at the right edge and the pin shows through it.
-- NOTE APP own-tree.png: "Amsterdam" under the title is underlined like a link while nothing around it is; the hero is a flat illustrated placeholder for a tree with no photo. Probably the designed empty state; flagging only the underline.
 

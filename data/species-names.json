@@ -13827,6 +13827,27 @@
    }
   },
   {
+   "common": "Snow Gum",
+   "latin": "Eucalyptus pauciflora",
+   "names": {
+    "en": [
+     "cabbage gum",
+     "white sally"
+    ],
+    "de": [
+     "Schnee-Eucalyptus",
+     "Schnee-Eukalyptus"
+    ],
+    "es": [
+     "Eucalipto de nieve",
+     "Eucalipto nival"
+    ],
+    "fr": [
+     "Gommier des neiges"
+    ]
+   }
+  },
+  {
    "common": "Sourwood",
    "latin": "Oxydendrum arboreum",
    "names": {
@@ -14874,6 +14895,10 @@
      "トクノウコウ"
     ]
    }
+  },
+  {
+   "common": "Tetrameles",
+   "latin": "Tetrameles nudiflora"
   },
   {
    "common": "Texas Ash",
@@ -18503,28 +18528,6 @@
     "en": [
      "Messmate Stringybark",
      "brown top"
-    ]
-   }
-  },
-  {
-   "common": "Snow Gum",
-   "latin": "Eucalyptus pauciflora",
-   "mapped": false,
-   "names": {
-    "en": [
-     "cabbage gum",
-     "white sally"
-    ],
-    "de": [
-     "Schnee-Eucalyptus",
-     "Schnee-Eukalyptus"
-    ],
-    "es": [
-     "Eucalipto de nieve",
-     "Eucalipto nival"
-    ],
-    "fr": [
-     "Gommier des neiges"
     ]
    }
   },
