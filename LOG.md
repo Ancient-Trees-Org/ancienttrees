@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 reader judge: a reader's Brockwell Oak leads its page, and the council's new fence is on it
+
+- **Live: london/lon_026, The Brockwell Oak** now leads with a reader's own photograph. It shows the whole oak in late autumn leaf: the squat, burred trunk alone in open grass inside a new chestnut-paling fence. The Commons photo moved to the strip. All three further photographs went up: the crown from the other side, the trunk behind the rails, and Lambeth's sign on the fence. The photo is filed under November. The pin did not move, because the app sent our own pin, not a GPS fix. The reader was mailed.
+- **Corrected from the reader's photograph of the sign**: Lambeth has fenced off the root area after the oak lost three large branches in recent years, and the sign gives its age as around 600 years (inside our 500 to 700 band). The story no longer says people picnic in its shade. The access line says the tree is seen from outside the fence, and the recognition line names the fence and sign. The sign is listed as a source. The page has no translations to follow.
+- No reports, tips or feedback waiting. The 37 open leads in _sightings.json are still our own accounts' (`mine` and the retired Nara tests), with no files on disk, so none were judged.
+
 ## 2026-11-26 reader judge: the Kvam oak's pin follows a reader
 
 - Kvam (kvm_001, the Old Oak at Tolo): a reader moved its pin 68 m west (report 1000156). Our pin there was itself placed by hand, not a GPS fix, so their spot stands, still approximate. They got the standard pin thank-you.

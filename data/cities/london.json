@@ -1242,24 +1242,77 @@
         "https://lambethnews.wordpress.com/2008/11/19/wood-you-believe-it-two-lambeth-trees-in-londons-top-20/",
         "https://en.wikipedia.org/wiki/Great_Trees_of_London",
         "https://commons.wikimedia.org/wiki/File:Brockwell_Oak_(1).jpg",
-        "https://lambethnews.wordpress.com/2008/11/19/wood-you-believe-it-two-lambeth-trees-in-londons-top-20/ (girth 'of over six metres'; 600 is a floor, not a measured figure)"
+        "https://lambethnews.wordpress.com/2008/11/19/wood-you-believe-it-two-lambeth-trees-in-londons-top-20/ (girth 'of over six metres'; 600 is a floor, not a measured figure)",
+        "Lambeth Council Tree Service sign on the fence at the tree, photographed by a reader on 2026-11-20 (sighting ad2b3c75): around 600 years old, three large branches lost in recent years, fence round the rooting area"
       ],
-      "access": "Free; Brockwell Park is a public park, open daily",
+      "access": "Free; Brockwell Park is a public park, open daily. A fence keeps walkers off the root area; the tree is seen from outside it",
       "transport": "Herne Hill station about 10 minutes' walk; Brixton about 20",
       "location_precision": "approximate",
       "curation_status": "flagged",
       "girth_cm": 600,
-      "story": "The Brockwell Oak was old before Brockwell Park existed, and old before the country estate the park was made from. Lambeth Council, which owns the ground, said so in 2008 when the tree was counted among London's Great Trees, and put its age at probably well over 700 years. The Great Trees of London list is more cautious: 500 to 700 years as of 2010. Read together, they put the acorn in the ground no later than the early 1500s, and around 1300 or before if the council is right. That band is the honest answer.\n\nEven at the cautious end it was more than a century and a half old when the Great Fire burned the City in 1666, a few miles to the north. The public, by contrast, are newcomers. The park only opened in 1892, when this oak was already several centuries into its life.\n\nLambeth gives its girth as over six metres. That is the council's figure rather than a published measurement, and it is a floor, not a ceiling. Photographs from May 2023 show it in full leaf, broad and heavy in open grass, with people picnicking in its shade.\n\nThe pin comes from the Great Trees map, not a survey of the trunk, so expect to look. You want an oak with a trunk over six metres round, standing in the open. It is not a subtle tree.",
-      "how_to_recognise": "You can recognise it by the trunk, which Lambeth Council puts at over six metres round, on a broad oak standing in open grass. It stands in Brockwell Park, ten minutes from Herne Hill station.",
+      "story": "The Brockwell Oak was old before Brockwell Park existed, and old before the country estate the park was made from. Lambeth Council, which owns the ground, said so in 2008 when the tree was counted among London's Great Trees, and put its age at probably well over 700 years. The Great Trees of London list is more cautious: 500 to 700 years as of 2010. Read together, they put the acorn in the ground no later than the early 1500s, and around 1300 or before if the council is right. That band is the honest answer.\n\nEven at the cautious end it was more than a century and a half old when the Great Fire burned the City in 1666, a few miles to the north. The public, by contrast, are newcomers. The park only opened in 1892, when this oak was already several centuries into its life.\n\nLambeth gives its girth as over six metres. That is the council's figure rather than a published measurement, and it is a floor, not a ceiling.\n\nSince then Lambeth has put a low wooden fence round its roots. The council's sign on it says the oak has lost three large branches over the last several years, and puts its age at around 600 years. The pin comes from the Great Trees map, not a survey of the trunk, but you will not miss a squat, burred trunk over six metres round, alone in open grass inside the rails.",
+      "how_to_recognise": "You can recognise it by the trunk, over six metres round by Lambeth Council's figure, on a broad oak alone in open grass inside a low wooden fence with the council's sign on it, in Brockwell Park.",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Brockwell_Oak_%2810%29.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Hopefully Acceptable Username, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/lon_026-the-brockwell-oak-ad2b3c75.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 4032,
-        "height": 3024,
-        "taken_month": 5
-      }
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_e03b678c7ff95e57e31ad99c",
+        "sighting_id": "ad2b3c75-3e16-463b-8c24-6067e42f14ed",
+        "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-26: The Brockwell Oak itself, whole tree in frame in daylight: the squat burred trunk with the split stub, the broad crown in late autumn leaf, the new chestnut-paling fence and gate Lambeth put round its root area. A reader's own photograph, so it leads; the Commons one moves to the strip. Species seen: oak: rugged dark bark, lobed brown autumn leaves on the grass, broad spreading oak crown. Fits the description: a huge squat oak trunk standing alone in open grass in Brockwell Park; the reader's third picture is Lambeth's own sign on the fence naming it Brockwell Park's ancient oak.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Brockwell_Oak_%2810%29.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Hopefully Acceptable Username, via Wikimedia Commons",
+          "status": "approved",
+          "width": 4032,
+          "height": 3024,
+          "taken_month": 5
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_026-the-brockwell-oak-ad2b3c75-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_e03b678c7ff95e57e31ad99c",
+          "sighting_id": "ad2b3c75-3e16-463b-8c24-6067e42f14ed-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_026-the-brockwell-oak-ad2b3c75-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_e03b678c7ff95e57e31ad99c",
+          "sighting_id": "ad2b3c75-3e16-463b-8c24-6067e42f14ed-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_026-the-brockwell-oak-ad2b3c75-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_e03b678c7ff95e57e31ad99c",
+          "sighting_id": "ad2b3c75-3e16-463b-8c24-6067e42f14ed-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ],
+      "verify_notes": "2026-11-26 reader judge: a reader's photographs show the council's new fence and sign; story, access and recognition line updated from the sign."
     },
     {
       "id": "lon_027",

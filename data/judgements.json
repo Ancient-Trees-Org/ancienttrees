@@ -619,6 +619,67 @@
    "agreed": null
   },
   {
+   "id": "sight:ad2b3c75-3e16-463b-8c24-6067e42f14ed",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Brockwell Oak",
+   "city": "London",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/ad2b3c75-3e16-463b-8c24-6067e42f14ed.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole Brockwell Oak in late autumn leaf, squat burred trunk, inside Lambeth's new fence. Now the lead of london/lon_026; the Commons photo moved to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ad2b3c75-3e16-463b-8c24-6067e42f14ed-extra-1",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Brockwell Oak",
+   "city": "London",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/ad2b3c75-3e16-463b-8c24-6067e42f14ed-extra-1.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Further photograph 1 viewed: the Brockwell Oak from the other side, whole crown against cloud; in the gallery of lon_026."
+  },
+  {
+   "id": "sight:ad2b3c75-3e16-463b-8c24-6067e42f14ed-extra-2",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Brockwell Oak",
+   "city": "London",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/ad2b3c75-3e16-463b-8c24-6067e42f14ed-extra-2.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Further photograph 2 viewed: the trunk and lower crown behind the fence rails; in the gallery of lon_026."
+  },
+  {
+   "id": "sight:ad2b3c75-3e16-463b-8c24-6067e42f14ed-extra-3",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Brockwell Oak",
+   "city": "London",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/ad2b3c75-3e16-463b-8c24-6067e42f14ed-extra-3.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Further photograph 3 viewed: Lambeth Council's sign on the tree's fence (about 600 years, three large branches lost, root area fenced); the tree's own sign, in the gallery of lon_026, its facts now in the story and access line."
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",
