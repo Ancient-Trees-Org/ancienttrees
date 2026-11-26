@@ -139,6 +139,21 @@ final class SignedOutWalk: XCTestCase {
         tap(app, "visitor-name"); expectSignIn(app, after: "visitor-name")
     }
 
+    func testFeedFollowingAsks() {
+        // The Feed tab (Screens/Feed.swift, 2026-11-26): Following is your
+        // follows, so signed out the chip asks for a sign-in first.
+        let app = launch(["-tab=4"])
+        tap(app, "feed-filter-following"); expectSignIn(app, after: "feed-filter-following")
+    }
+
+    func testFeedNameAsks() {
+        // A public name on a post, tapped signed out, asks for a sign-in
+        // first, as the row's and the See all page's do. From the server.
+        let app = launch(["-tab=4"])
+        _ = app.descendants(matching: .any)["feed-photo"].firstMatch.waitForExistence(timeout: 30)
+        tap(app, "feed-author"); expectSignIn(app, after: "feed-author")
+    }
+
     func testPhotoHeartAsks() {
         // The heart on a visitor's photograph (Kit/PhotoLikes.swift,
         // 2026-11-20): signed out it asks for a sign-in and gives nothing.

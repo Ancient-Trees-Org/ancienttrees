@@ -301,6 +301,8 @@ def screens(sub):
         ("collection",    ["-tab=0", f'-open=collection:{sub["collection"]}'], 5),
         # Every photograph visitors sent, Discover's See all (2026-11-18).
         ("visitors",      ["-tab=1", "-open=visitors:all"], 6),
+        # The Feed tab (2026-11-26), every post from the server's feed().
+        ("feed",          ["-tab=4"], 6),
         ("place-pin",     ["-tab=0", f'-open=tree:{sub["tree"]}', "-placepin"], 8),
         # A TREE YOU ADDED YOURSELF, added 2026-09-01. The end of the add
         # flow, and until now the one page in the app that no argument here
