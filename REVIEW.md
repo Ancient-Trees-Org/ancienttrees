@@ -38,6 +38,11 @@ Web half: the last 24 hours were reader-judge fixes (Ames, Woolland, Goll Woods)
 - WARN site/dist/collections/ancient-oaks-of-europe.html and collections/europes-most-remarkable-yews.html "every coordinate verified" (eleventh review; hard rule 2). Also in api/browse.json, so fix the feed text.
 - NOTE session start reports the newest Build and deploy site run as FAILED (2026-11-26) and the night run's deploy dispatch was refused (403); not investigated here, rung 2 for a run.
 
+App half (iPhone SE: map-full, map-pin, map, own-tree, people, photo-viewer): looked at all six.
+
+- NOTE APP map-pin.png: the Amsterdam map is open but the card on it is "Dąb Fabrykant", a Polish oak, with the map not centred on it. If the sweep's fixture only picked the first feed tree this is a test artefact; if a pin tap can open a tree far from the visible map, a visitor sees a card that contradicts the map (a session to check, not a run).
+- NOTE APP map-full.png: the floating "Map" pill sits over the third list row and cuts "Copper Beech, 130 years" in half; it reads as a stray control with no obvious purpose next to the tab bar's own Map tab.
+
 ---
 
 ## 2026-11-25
