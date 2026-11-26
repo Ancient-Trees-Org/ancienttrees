@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-26 night run (20:50 window): nothing to ship
+
+Rung 1: no reader backlog; one new tree note (North Berwick Law beeches, a visitor's own observation) read and left up, marked seen. The Amsterdam sighting 3c544597 is the reader judge's. Rung 2: health red only on open app BUG rows (9, 8 found by people); they are iOS fixes from Hidde's session awaiting build and CI, the Android draft row needs an account-side table (his yes), the Tortworth edit row is a feature. None is a Linux runner's. Own research paused; the 3 READY leads (york, guimaraes, leamington-spa) are the ones earlier attempts today found unwritable; reader_words has nothing waiting. Stopped without committing trees.
+
 ## 2026-11-26 night run (fourth attempt): nothing to ship
 
 - Re-checked in order: no claims, READY 3 (unwritable, as judged), own research paused, reader photo 3c544597 not on disk so cannot be judged blind. Open app BUG rows are Swift/Android fixes already carrying tests, needing the Mac build; the Linux runner cannot verify them. Web errors orange only (1 page each). Nothing started, nothing claimed.
