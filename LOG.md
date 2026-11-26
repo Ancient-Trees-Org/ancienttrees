@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 reader judge: a campus cedar in Varese live
+
+- Live: varese/var_003, The Cedar of the University Campus, from a reader's app photograph (four frames viewed; photo GPS at the tree, dated November). A broad blue-grey cedar alone on a campus lawn. Species left at Cedrus sp.: the reader says Lebanon, the crown reads Atlas, and the page asks. Varese now has three trees; its intro, meta, question texts and FAQ say so. No kept translation of Varese.
+- Reader words: the Cat Tien tung note closed as pasted text (summary prose with an em dash, not the reader's own account).
+- Nothing else waited: 0 open reports, 0 open feedback. Lead 3c544597 (Amsterdam, 2026-11-18) is our own account's and its photo is not on disk, so it was left alone.
+
 ## 2026-11-26 session: US round 3 sent, round 4 (empty cities) ready
 
 - Round 3 sent through Resend on Hidde's "Verstuur ze": 8 (Charleston City Paper, South Carolina Wildlife, Big Island Now, Delaware County Daily Times, Audubon, Friends of the Parks, Chicagology, Bronx.com). 58 US local mails out since 11-25; one answer so far (The East Hampton Star).

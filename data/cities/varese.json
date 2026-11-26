@@ -2,17 +2,17 @@
   "city": "Varese",
   "country": "Italy",
   "status": "needs_curation",
-  "intro": "Varese is the garden city of Lombardy, at the foot of the Alps between Lake Maggiore and Lake Como, its villas and parks full of trees planted in the nineteenth century. A reader sent us two that Italy's national register of monumental trees also lists: a vast Lebanon cedar 34 metres tall and a ginkgo 365 centimetres round that turns gold in November.",
-  "meta_description": "Varese's monumental trees: a vast cedar of Lebanon and a ginkgo that turns gold in November, both on Italy's national register.",
-  "question_meta": "Varese's monumental trees: a vast cedar of Lebanon and a ginkgo that turns gold in November, both on Italy's national register.",
-  "question_answer": "The cedar and the ginkgo stand a few dozen metres apart in a public garden off Viale Sant'Antonio in Varese. Both are free to see.",
-  "question_context": "Varese calls itself the garden city, and its villas and public parks hold some of the finest planted trees in Lombardy, many of them set out in the nineteenth century when exotic conifers and Asian trees were the fashion. Italy's national register of monumental trees, kept by the agriculture ministry, lists a number of them. A reader sent us two that stand a few dozen metres apart in a public garden off Viale Sant'Antonio, and both match register entries. The first is a cedar of Lebanon, recorded at 34 metres tall, whose several trunks carry a dark, tiered crown so broad it fills the photograph, with benches and information boards set out in front of it like seats before a stage. The second is a ginkgo, recorded at 365 centimetres round and 28 metres tall, which the reader photographed from below in November with every leaf turned butter yellow. Ginkgo is a living fossil, almost unchanged for some two hundred million years, and reached Europe from Asian temple gardens in the eighteenth century. We do not know when either tree was planted. The garden's boards may say, and if they do, tell us on the trees' pages.",
+  "intro": "Varese is the garden city of Lombardy, at the foot of the Alps between Lake Maggiore and Lake Como, its villas and parks full of trees planted in the nineteenth century. Readers have sent us three: a vast Lebanon cedar 34 metres tall and a ginkgo 365 centimetres round that turns gold in November, both on Italy's national register of monumental trees, and a broad blue-grey cedar on a university campus.",
+  "meta_description": "Varese's great trees: a vast cedar of Lebanon and a gold November ginkgo on Italy's national register, and a broad cedar on a university campus.",
+  "question_meta": "Varese's great trees: a vast cedar of Lebanon and a gold November ginkgo on Italy's national register, and a broad cedar on a university campus.",
+  "question_answer": "The register cedar and the ginkgo stand a few dozen metres apart in a public garden off Viale Sant'Antonio, and a third tree, a broad cedar, grows on a university campus in south-east Varese. All three are free to see.",
+  "question_context": "Varese calls itself the garden city, and its villas and public parks hold some of the finest planted trees in Lombardy, many of them set out in the nineteenth century when exotic conifers and Asian trees were the fashion. A reader sent us two that stand a few dozen metres apart in a public garden off Viale Sant'Antonio, and both match entries on Italy's national register; another reader added a third, a broad blue-grey cedar on a university campus. The first is a cedar of Lebanon, recorded at 34 metres tall, whose several trunks carry a dark, tiered crown so broad it fills the photograph. The second is a ginkgo, recorded at 365 centimetres round and 28 metres tall, which the reader photographed from below in November with every leaf turned butter yellow. Ginkgo is a living fossil, almost unchanged for some two hundred million years. We do not know when either tree was planted. The garden's boards may say, and if they do, tell us on the trees' pages.",
   "hero_tree_id": "var_001",
   "oldest_tree_id": "var_001",
   "faq": [
     {
       "q": "What are the monumental trees of Varese?",
-      "a": "A cedar of Lebanon 34 metres tall and a ginkgo 365 centimetres round, both listed on Italy's national register of monumental trees, standing in the same garden."
+      "a": "A cedar of Lebanon 34 metres tall and a ginkgo 365 centimetres round, both listed on Italy's national register of monumental trees and standing in the same garden, and a broad cedar on a university campus that a reader sent us."
     },
     {
       "q": "When is the ginkgo at its best?",
@@ -20,7 +20,7 @@
     },
     {
       "q": "Are they free to visit?",
-      "a": "Yes, they stand in a public garden."
+      "a": "Yes. Two stand in a public garden; the campus cedar is best seen in campus hours."
     }
   ],
   "trees": [
@@ -144,6 +144,49 @@
       "age_min": 161,
       "age_max": 161,
       "age_basis": "source"
+    },
+    {
+      "id": "var_003",
+      "name": "The Cedar of the University Campus",
+      "species": "Cedar (Cedrus sp.)",
+      "location": {
+        "address": "University campus grounds, south-east Varese",
+        "latitude": 45.798705,
+        "longitude": 8.848975,
+        "neighbourhood": "University campus"
+      },
+      "how_to_recognise": "A lone cedar on a lawn edged by a low kerb, in front of a pale green building with white window frames: one dark, mossy trunk splitting into upswept limbs under a broad blue-grey crown.",
+      "access": "On a university campus; the reader walked up to it on the lawn. Visit in campus hours.",
+      "verified_sources": [],
+      "story": "On a university campus in Varese, a reader stopped under this cedar on a grey November day and sent us four photographs of it.\n\nIt stands alone on a lawn beside a pale green building, and it has had room to grow the way cedars do when nothing crowds them. A single dark trunk, mossy on its north side, climbs a few metres and then breaks into long limbs that sweep upward and outward, carrying a crown so broad it fills the frame. The needles have the blue-grey cast that shows best on a wet day. Around it the campus is generous with old trees: copper beeches drop a carpet of orange leaves on the grass in autumn, and a few steps away more cedars rise over a row of picnic tables.\n\nThe reader knows it as a cedar of Lebanon. The blue tint and the upswept limbs make us wonder whether it is an Atlas cedar, its close cousin from North Africa, so tell us which you think it is. We do not know when it was planted or how big it is around; if you have measured it, or the university keeps a record of its trees, tell us here and we will add it.\n\nWalk all the way round it, and look up from under the lowest limbs.",
+      "found_by_reader": {
+        "sighting_id": "86a25f84-ea89-44ef-bc1c-08815d28a3a4",
+        "date": "2026-11-26"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "86a25f84-ea89-44ef-bc1c-08815d28a3a4",
+        "moved_m": 0,
+        "date": "2026-11-26",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-26 reader judge: sent by a reader (86a25f84-ea89-44ef-bc1c-08815d28a3a4, through the app). Photograph viewed: the whole cedar on a campus lawn, a single dark trunk opening into upswept limbs and a broad blue-grey crown, a pale green building and parked cars behind, overcast daylight, colour; the three extras show its trunk over a carpet of copper beech leaves and the neighbouring cedars above picnic tables. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Cedar of Lebanon in Varese', species 'Cedar of Lebanon', note 'University Campus'. Species left at genus: the glaucous foliage and ascending limbs suggest Cedrus atlantica, the reader says Cedrus libani; the page asks. No register entry within 100 m.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/var_003-cedar-of-the-university-campus.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_df9da2fa289e6fdaa8b541de",
+        "sighting_id": "86a25f84-ea89-44ef-bc1c-08815d28a3a4",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-26, through the app); viewed and approved on 2026-11-26: the whole cedar on a campus lawn, a single dark trunk opening into upswept limbs and a broad blue-grey crown, a pale green building and parked cars behind, overcast daylight, colour; the three extras show its trunk over a carpet of copper beech leaves and the neighbouring cedars above picnic tables. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

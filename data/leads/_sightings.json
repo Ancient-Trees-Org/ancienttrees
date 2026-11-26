@@ -12832,6 +12832,43 @@
    "seen": "2026-11-26",
    "judged": "2026-11-26",
    "published_as": "st-peter-port/stp_001"
+  },
+  {
+   "sighting_id": "86a25f84-ea89-44ef-bc1c-08815d28a3a4",
+   "user_id": "p_df9da2fa289e6fdaa8b541de",
+   "mine": false,
+   "name": "Cedar of Lebanon in Varese",
+   "unsure_among": null,
+   "species": "Cedar of Lebanon",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "University Campus",
+   "latitude": 45.798705,
+   "longitude": 8.848975,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_df9da2fa289e6fdaa8b541de/86A25F84-EA89-44EF-BC1C-08815D28A3A4.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/86a25f84-ea89-44ef-bc1c-08815d28a3a4-extra-1.jpg",
+    "out/sightings/86a25f84-ea89-44ef-bc1c-08815d28a3a4-extra-2.jpg",
+    "out/sightings/86a25f84-ea89-44ef-bc1c-08815d28a3a4-extra-3.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-26: the whole cedar on a campus lawn, a single dark trunk opening into upswept limbs and a broad blue-grey crown, a pale green building and parked cars behind, overcast daylight, colour; the three extras show its trunk over a carpet of copper beech leaves and the neighbouring cedars above picnic tables. Live as varese/var_003 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-26",
+   "judged": "2026-11-26",
+   "published_as": "varese/var_003"
   }
  ]
 }

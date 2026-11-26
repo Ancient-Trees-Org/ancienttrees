@@ -131,6 +131,53 @@
    "agreed": null
   },
   {
+   "id": "lead:86a25f84-ea89-44ef-bc1c-08815d28a3a4",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "Cedar of Lebanon in Varese",
+   "city": null,
+   "species": "Cedar of Lebanon",
+   "photo": "p_df9da2fa289e6fdaa8b541de/86A25F84-EA89-44EF-BC1C-08815D28A3A4.jpg",
+   "reader_note": "University Campus",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad, mature cedar alone on a university campus lawn in Varese, photo GPS at the tree, real camera file dated November. Somewhat special, live as varese/var_003; species left at Cedrus sp. (the blue-grey upswept crown reads Atlas cedar, the reader says Lebanon), the page asks.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:86a25f84-ea89-44ef-bc1c-08815d28a3a4",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Cedar of the University Campus",
+   "city": "Varese",
+   "species": "Cedar (Cedrus sp.)",
+   "photo": "out/sightings/86a25f84-ea89-44ef-bc1c-08815d28a3a4.jpg",
+   "reader_note": "University Campus",
+   "reader_girth_cm": null,
+   "match": "new tree",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad blue-grey cedar alone on a university campus lawn, one mossy trunk into upswept limbs. Lead photograph of varese/var_003.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",
