@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-26 session: a tester's three points (photos, dark mode, pin search)
+
+- **Photos**: no script ever published the further photographs a reader sends with a tree, so 84 live trees showed fewer than were sent. scripts/reader_extras.py gives each one a verdict (data/reader-extras.json); 311 looked at on contact sheets, 278 now in their trees' galleries, 25 left out (selfies and posed visitors, Google Lens screenshots, an engraving, planks, near-duplicates). preflight refuses a published tree whose extra has no verdict; the reader judge's brief has the step. The congratulation mail now says which photos stayed off and why, and that we wrote the story from what they sent. Escaped bug closed with scripts/test_reader_extras.py.
+- **Dark mode**: Settings has Appearance (System, Light, Dark) on iPhone and Android, kept on the account like Distances. The dark ground is one step lighter (#1A1D18), all text AA. Next builds.
+- **Pin step**: the address field (this morning) now says when nothing is found and takes typed coordinates; the locate arrow was already there. Next builds.
+- Not done: the story edit before publishing. That belongs with the "edit your tree" design of 2026-11-25; the mail tells them what we did meanwhile.
+- For Hidde: paste supabase/profile-appearance.sql in the Supabase SQL editor (https://supabase.com/dashboard/project/caimvxiyrtifilimlkqw/sql/new). Until then the choice holds on the phone and is not yet on the account.
 ## 2026-11-26 reader judge: the Palheiro araucaria gets its planting date
 
 - Changed on the site: Palheiro Gardens' Tall Araucaria (mdr_013, Madeira) now says it is about 215 years old, by a reader's estimate. The reader who added it wrote back that the garden believes it was planted around 1810 by the first Count of Carvalhal. The age is on the page in our own words, in English and in the Portuguese overlay. It is not quoted, since a mail needs their yes first.
