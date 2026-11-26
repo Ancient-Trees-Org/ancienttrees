@@ -7975,6 +7975,24 @@
   "tip-1700": {
    "outcome": "published",
    "date": "2026-11-26"
+  },
+  "892f8835-dd62-4bdf-8707-7a87cd59bfde": {
+   "outcome": "published",
+   "date": "2026-11-26"
+  },
+  "6eccacce-ef19-4567-ba8e-a5d8248f36ba": {
+   "outcome": "published",
+   "date": "2026-11-26"
+  },
+  "abe80a15-cbfe-42c9-9b7c-93736d2539e3": {
+   "outcome": "published",
+   "date": "2026-11-26"
+  },
+  "e3899250-73bf-40d6-ab9b-e3d07056a397": {
+   "outcome": "rejected",
+   "date": "2026-11-26",
+   "tree_id": "var_003",
+   "reason": "duplicate: the lead photograph is the same picture of the two cedars over the picnic tables that the reader also sent as a tree of its own (6eccacce), now live as varese/var_004; its extras show var_003's trunk (it already carries this reader's photograph) and the beech sent as abe80a15, now var_005"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

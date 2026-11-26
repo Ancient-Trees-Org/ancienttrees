@@ -1,5 +1,13 @@
 # LOG
 
+## 2026-11-26 reader judge: two campus trees in Varese and a fox-red conifer in Glasgow, live
+
+- Live: varese/var_004, The Picnic-Table Cedars (two big cedars over the picnic tables on the university campus, a few dozen metres from var_003), and varese/var_005, The Autumn Beech of the Campus (a broad beech in full copper on its leaf carpet, framed by a cedar). Both are from the reader who sent var_003 this morning, and both have the photo's own location. Varese now has 5 trees. Its intro, meta, question texts and FAQ give the new count. It has no kept translation.
+- Live: glasgow/gla_012, The Red Conifer by the Pond (West End, a tall feathery conifer blazing fox-red beside an iced pond, with sandstone tenements behind). The reader calls it a European larch. Its narrow shape, fox-red colour and place at the water's edge look like a bald cypress, so the species reads Bald Cypress and the page asks readers to confirm. We did not name the garden; the page asks for that too. Glasgow's meta now says 11 trees. All three photos are filed in November, the photos' own month.
+- Rejected as a duplicate: sighting e3899250, sent for var_003. Its main picture is the same picnic-table cedar photo that is now var_004. Its extras show var_003's trunk (which already has this reader's photo) and the beech (now var_005).
+- Report 1000152 (pin moved, same reader): the pin was dragged 188 m south while the picnic-table cedar was being added. The photo's own location is from under the tree, so the pin stays there (GPS beats a pin moved by hand). Closed holds with no mail, because the move was part of adding the tree. Noted in var_004's verify_notes.
+- Nothing else waited: 0 tips without a verdict, 0 reader notes to quote. Lead 3c544597 (Amsterdam) still has no photo on disk, so it was left alone again.
+
 ## 2026-11-26 session: /explore now reads as the city page
 
 - Hidde: the map page still looked "veel lelijker dan een stadspagina", though on 11-22 he had ruled it should look the same ("gebruik dit design als basis ... maak er 1 component van"). That session built it and never committed it; the work sat in the checkout for four days.

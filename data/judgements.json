@@ -211,6 +211,148 @@
    "agreed": null
   },
   {
+   "id": "sight:892f8835-dd62-4bdf-8707-7a87cd59bfde",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Red Conifer by the Pond",
+   "photo": "p_0ddef0e98eb66d46e84f8d2c/892F8835-DD62-4BDF-8707-7A87CD59BFDE.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-26: the whole fox-red conifer by an iced pond, tenements behind, blue sky, colour. Lead photograph of glasgow/gla_012.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:abe80a15-cbfe-42c9-9b7c-93736d2539e3",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Autumn Beech of the Campus",
+   "photo": "p_df9da2fa289e6fdaa8b541de/ABE80A15-CBFE-42C9-9B7C-93736D2539E3.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-26: a beech in autumn copper on its leaf carpet, framed by a cedar, overcast daylight, colour. Lead photograph of varese/var_005.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:6eccacce-ef19-4567-ba8e-a5d8248f36ba",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Picnic-Table Cedars",
+   "photo": "p_df9da2fa289e6fdaa8b541de/6ECCACCE-EF19-4567-BA8E-A5D8248F36BA.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-26: two cedars over picnic tables, furrowed trunk, drooping sprays, overcast daylight, colour. Lead photograph of varese/var_004.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e3899250-73bf-40d6-ab9b-e3d07056a397",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Cedar of the University Campus",
+   "city": "Varese",
+   "species": "Cedar (Cedrus sp.)",
+   "photo": "out/sightings/e3899250-73bf-40d6-ab9b-e3d07056a397.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 63,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar (Cedrus sp.)"
+   },
+   "verdict": "reject",
+   "reason": "Duplicate: sent for var_003, but its lead picture is the two picnic-table cedars the reader also sent as their own tree (now var_004); the extras show var_003's trunk, which already carries this reader's photo, and the beech now var_005.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:892f8835-dd62-4bdf-8707-7a87cd59bfde",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "European Larch in Glasgow",
+   "city": null,
+   "species": "European Larch",
+   "photo": "p_0ddef0e98eb66d46e84f8d2c/892F8835-DD62-4BDF-8707-7A87CD59BFDE.jpg",
+   "reader_note": "The change of the colour during autumn and the image of the tree in the water pond closed by.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Larch"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall feathery deciduous conifer blazing fox-red beside an iced pond in Glasgow's West End, tenements behind; striking in its setting. Photo GPS fix. Reader says larch; it looks like a bald cypress, the page asks. Live as glasgow/gla_012.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:6eccacce-ef19-4567-ba8e-a5d8248f36ba",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "Cedar in Varese",
+   "city": null,
+   "species": "Cedar",
+   "photo": "p_df9da2fa289e6fdaa8b541de/6ECCACCE-EF19-4567-BA8E-A5D8248F36BA.jpg",
+   "reader_note": "University Varese Campus",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: two big cedars over picnic tables on the Varese university campus, the nearer trunk thick and furrowed, a crown of long drooping sprays; somewhat special. Photo GPS fix. Live as varese/var_004. The reader's pin moved 188 m while adding it (report 1000152) was not taken: the photo's own fix is from under the tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:abe80a15-cbfe-42c9-9b7c-93736d2539e3",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "European Beech in Varese",
+   "city": null,
+   "species": "European Beech",
+   "photo": "p_df9da2fa289e6fdaa8b541de/ABE80A15-CBFE-42C9-9B7C-93736D2539E3.jpg",
+   "reader_note": "In the University campus among other beautiful Beech Trees , Cedars and Magnolias",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad beech in full autumn copper on a carpet of its own leaves, framed by a tall cedar, campus lawn; a tree blazing in autumn colour stands out in its setting. Photo GPS fix. Live as varese/var_005.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",

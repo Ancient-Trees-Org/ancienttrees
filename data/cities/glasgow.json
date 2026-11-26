@@ -3,7 +3,7 @@
   "country": "United Kingdom",
   "status": "needs_curation",
   "intro": "Glasgow's remarkable trees are civic rather than wild. A 450-year-old sycamore survived a 2025 hurricane, an oak was planted in 1918 as a suffrage protest turned permanent, and an ash on Argyle Street arrived as a seed in holiday primroses. A short trip out, the Wallace Yew stands in Elderslie, the pollarded oaks of Chatelherault's medieval hunting park include one dated to around 1440, and two yews at Motherwell's Dalzell Estate have been measured at nearly 30 metres. Most are free to see; Finlaystone, home of a yew tied to John Knox, charges admission.",
-  "meta_description": "Glasgow's remarkable trees: the Darnley Sycamore, the Suffragette Oak, Chatelherault's medieval oaks and the Dalzell yews. 10 trees, how to reach each.",
+  "meta_description": "Glasgow's remarkable trees: the Darnley Sycamore, the Suffragette Oak, Chatelherault's medieval oaks and the Dalzell yews. 11 trees, how to reach each.",
   "question_meta": "The Darnley Sycamore, 450 to 500 years old and linked to Mary Queen of Scots, is Glasgow's oldest tree, its trunk still standing after 2025 storm damage.",
   "question_answer": "Glasgow's oldest tree is the Darnley Sycamore, estimated at 450 to 500 years old, standing on the southern edge of the city near Darnley Primary School. Storm Eowyn tore away roughly half its crown in January 2025, but council inspectors found the trunk sound and expect it to survive for decades yet.",
   "question_context": "Darnley takes its name from the personal name behind the district, which pre-dates the sycamore by centuries, but by the time Mary Stuart is said to have sat beneath it in 1565, both name and tree were already established features of the countryside south of Glasgow. The city grew out to meet the tree rather than the other way round; postwar housing now surrounds it on every side, with a fence and small plaque the only markers separating it from ordinary suburban Darnley. It has needed defending twice before: once in the early 1900s, when a resident's complaint kept a new tramline from running through it, and again in 1969, when a Barrhead schoolteacher marched primary pupils out with placards to stop a dual carriageway doing the same. Its most serious threat came from weather rather than planners: Storm Eowyn's 100mph gusts in January 2025 tore away roughly half its crown. Council arborists inspected it by hoist rather than write it off from the ground, found the trunk sound, and expect it to stand for decades yet, its recovery now as much a part of the story as its age.",
@@ -430,6 +430,49 @@
         "status": "missing"
       },
       "paid_entry": true
+    },
+    {
+      "id": "gla_012",
+      "name": "The Red Conifer by the Pond",
+      "species": "Bald Cypress (Taxodium distichum)",
+      "location": {
+        "address": "Pond garden in the West End, Glasgow G12",
+        "latitude": 55.878455,
+        "longitude": -4.28874166666667,
+        "neighbourhood": "West End"
+      },
+      "how_to_recognise": "A tall, narrow conifer of soft, feathery foliage at the edge of a reedy pond, fox-red in autumn and bare in winter, sandstone tenements behind the black railings beyond it.",
+      "access": "The reader photographed it from the edge of the pond. We have not confirmed the garden's opening hours.",
+      "story": "Every November, for a couple of weeks, this tree at the edge of a pond in Glasgow's West End turns the colour of a fox, and a reader stopped on a frosty morning to send it to us.\n\nIt is a conifer that drops its needles. Through spring and summer it is a soft green column of feathery sprays; in autumn the whole tree goes orange and rust, and the reader caught it with low sun on the top half and ice skinning the pond in front. \"The change of the colour during autumn and the image of the tree in the water pond closed by,\" they wrote, and the reflection is in the picture, a dark red smear across the ice. Behind it rise the bay windows of four-storey sandstone tenements.\n\nThe reader knows it as a larch. Its dense, narrow shape, its fox-red colour and its place at the water's edge look to us more like a bald cypress, the swamp tree of the American south, which grows happiest with its roots near water. Tell us which you think it is, and if you know the garden's name or the tree's age, tell us that too.\n\nCome in early November, on a still morning, for the reflection.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "892f8835-dd62-4bdf-8707-7a87cd59bfde",
+        "date": "2026-11-26"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "892f8835-dd62-4bdf-8707-7a87cd59bfde",
+        "moved_m": 0,
+        "date": "2026-11-26",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-26 reader judge: sent by a reader (892f8835-dd62-4bdf-8707-7a87cd59bfde, through the app). Photograph viewed: a tall, feathery deciduous conifer blazing fox-red and orange beside a pond with ice on it, reeds and a young birch in yellow at its side, sandstone tenements behind black railings, blue sky, low sun, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'European Larch in Glasgow', species 'European Larch', note 'The change of the colour during autumn and the image of the tree in the water pond closed by.'. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/gla_012-red-conifer-by-the-pond.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1502,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_0ddef0e98eb66d46e84f8d2c",
+        "sighting_id": "892f8835-dd62-4bdf-8707-7a87cd59bfde",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-26, through the app); viewed and approved on 2026-11-26: a tall, feathery deciduous conifer blazing fox-red and orange beside a pond with ice on it, reeds and a young birch in yellow at its side, sandstone tenements behind black railings, blue sky, low sun, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
     }
   ]
 }
