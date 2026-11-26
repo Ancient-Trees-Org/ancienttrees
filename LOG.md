@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-26 session: /explore now reads as the city page
+
+- Hidde: the map page still looked "veel lelijker dan een stadspagina", though on 11-22 he had ruled it should look the same ("gebruik dit design als basis ... maak er 1 component van"). That session built it and never committed it; the work sat in the checkout for four days.
+- Now on main: one place head (PlaceHead.astro: crumbs, title, share circle) and one intro (PlaceIntro.astro: the intro with Read more, the ambassador box above Highlights) on the city page in every language, the country page and /explore. On a desktop the loose "343 trees" line is gone. A searched country retitles the head to "Ancient Trees in <em>Country</em>" with its own intro (map.ts `_headFor`). qa `check_one_place_head()` refuses a head or intro written by hand. map-parity row: web only, the phones already draw one header.
+
 ## 2026-11-26 session: a just-shared tile on /visitors gave a 404
 
 - Cause: feed() linked a not-yet-checked share to /t/?id=, and the live site only answers /t?id= (no slash). The web tile now corrects it (live with deploy 45824261606), and supabase/feed-live.sql hands out /t?id= itself.
