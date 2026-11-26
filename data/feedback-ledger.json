@@ -389,6 +389,11 @@
    "status": "bug",
    "what": "Recorded as an open app bug; platform unknown, the account had sent nothing yet, so the add flow needs a reproduction on both apps."
   },
+  "1690": {
+   "date": "2026-11-26",
+   "status": "handled",
+   "what": "Mail reply on the Ames sycamore: its street corner and an age estimate added to the page as the reader's"
+  },
   "405": {
    "date": "2026-11-17",
    "status": "handled",

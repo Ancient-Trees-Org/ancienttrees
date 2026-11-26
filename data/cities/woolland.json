@@ -31,8 +31,8 @@
       "girth_cm": 947,
       "location": {
         "address": "Woolland churchyard (church of 1855), Woolland, Dorset",
-        "latitude": 50.86182,
-        "longitude": -2.31938,
+        "latitude": 50.861761,
+        "longitude": -2.319361,
         "neighbourhood": "Woolland"
       },
       "location_site": {
@@ -62,7 +62,8 @@
       },
       "location_precision": "approximate",
       "curation_status": "flagged",
-      "verify_notes": "Girth 947cm at 30cm (Norton 2012); matches 1944 figure of 31ft 4in published in Vaughan Cornish, The Churchyard Yew and Immortality (so little change in 70 years). Photographed 2026 (Peter Norton). Church built 1855 on an early Saxon site. Baxter, The Eternal Yew (quoted by AYG, unverified) calls it possibly the only yew to have sheltered three or four churches. Flagged: one source family (AYG plus its quoted books). Pin: AYG grid ref ST7761806972 converted to WGS84, approximate (church-yard level). Age: AYG girth class, not a dating; AYG class Ancient 7m+; girths 31ft 4in (1944, Gardner for Cornish) and 31ft at 1ft (1998), 947cm at 30cm (2012 Norton, 31ft 1in). Writing pass 2026-11-04: lead photo Geograph 4532427 (Maurice D Budden, 'Ancient yew tree in Woolland churchyard', 2015) approved."
+      "verify_notes": "Girth 947cm at 30cm (Norton 2012); matches 1944 figure of 31ft 4in published in Vaughan Cornish, The Churchyard Yew and Immortality (so little change in 70 years). Photographed 2026 (Peter Norton). Church built 1855 on an early Saxon site. Baxter, The Eternal Yew (quoted by AYG, unverified) calls it possibly the only yew to have sheltered three or four churches. Flagged: one source family (AYG plus its quoted books). Pin: AYG grid ref ST7761806972 converted to WGS84, approximate (church-yard level). Age: AYG girth class, not a dating; AYG class Ancient 7m+; girths 31ft 4in (1944, Gardner for Cornish) and 31ft at 1ft (1998), 947cm at 30cm (2012 Norton, 31ft 1in). Writing pass 2026-11-04: lead photo Geograph 4532427 (Maurice D Budden, 'Ancient yew tree in Woolland churchyard', 2015) approved. 2026-11-26 reader judge: a reader moved the pin 6 m (report 1000150); taken, still approximate (hand-placed).",
+      "pin_source": "reader report 1000150, pin moved on the map 6 m from ours (hand-placed)"
     }
   ]
 }

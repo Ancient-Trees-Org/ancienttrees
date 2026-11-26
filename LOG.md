@@ -13,6 +13,14 @@
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
 
+## 2026-11-26 reader judge: Ames sycamore gets its corner and age, Woolland Yew pin moved
+
+- **Ames** (amw_001): the reader's mail reply (feedback 1690) gave the spot, the northeast corner of Lincoln Way and University Boulevard (fits the GPS pin), and an age of about 200 years. Now on the page as theirs ("by a reader's estimate"), along with the storms it has come through, in our own words (no quote without their yes). Address, access, FAQ and question texts follow. Closed `handled`.
+- **Woolland Yew** (wol_001): a reader moved our approximate grid-reference pin 6 m (report 1000150). We took the move, the pin stays approximate, and they got the standard pin thank-you.
+- **Tips 1673 and 1675**: these are app tree rows in Goll Woods whose sightings no longer exist in Supabase. There is no photograph and there are no words, so both are held with that reason. They stand 90 to 150 m from the two Goll Woods oaks that went live yesterday.
+- No reader photographs waiting. The open leads in _sightings.json are all our own (`mine`) photos, never auto-published. The newest, 3c544597 (Amsterdam, Stationsplein), has no photo on disk.
+- No tree notes, and no readers' words waiting to be quoted.
+
 ## 2026-11-25 reader judge: seven readers' trees live, six new places
 
 **Live** (every photograph viewed; all under the closed list, none held):

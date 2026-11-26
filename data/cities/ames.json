@@ -13,20 +13,20 @@
       "name": "The White Sycamore of Ames",
       "species": "American Sycamore (Platanus occidentalis)",
       "location": {
-        "address": "Grassy bank beside the road, Ames, Iowa",
+        "address": "Northeast corner of Lincoln Way and University Boulevard, Ames, Iowa",
         "neighbourhood": "Ames",
         "latitude": 42.0231028333333,
         "longitude": -93.6334083333333
       },
-      "story": "In winter, when every other tree on the bank behind it is a grey smudge, this one looks as if it had been painted white. A reader in Ames, Iowa, sent us the photograph from the sidewalk across the road, and it is easy to see why they stopped.\n\nIt is an American sycamore, the great tree of Midwestern creek bottoms, and the colour is its own doing. As a sycamore grows, its brown outer bark flakes away from the upper trunk and limbs in patches, leaving the pale inner bark bare, so an old tree turns whiter the higher you look. Here the lower trunk is still mottled brown and cream, and above it the limbs reach out sideways in long, crooked arms, bone-white against the dark woods, the lowest almost sweeping the grass.\n\nThis one has the bank to itself, which is why its crown has spread so wide and even. We do not know its age, girth or who planted it, if anyone did; sycamores often seed themselves along streams. If you know the tree, tell us here and we will put your words on the page.\n\nCome in winter, on a grey day, when the white is brightest.",
+      "story": "In winter, when every other tree on the bank behind it is a grey smudge, this one looks as if it had been painted white. A reader in Ames, Iowa, sent us the photograph from the sidewalk across the road, and it is easy to see why they stopped.\n\nIt is an American sycamore, the great tree of Midwestern creek bottoms, and the colour is its own doing. As a sycamore grows, its brown outer bark flakes away from the upper trunk and limbs in patches, leaving the pale inner bark bare, so an old tree turns whiter the higher you look. Here the lower trunk is still mottled brown and cream, and above it the limbs reach out sideways in long, crooked arms, bone-white against the dark woods, the lowest almost sweeping the grass.\n\nThis one has the bank to itself, which is why its crown has spread so wide and even. The reader who sent it later wrote to tell us where it stands, on the northeast corner of Lincoln Way and University Boulevard, and that it is thought to be around 200 years old, by their estimate. They add that it has come through floods, tornadoes, blizzards and droughts in that time. We do not know its girth or who planted it, if anyone did; sycamores often seed themselves along streams.\n\nCome in winter, on a grey day, when the white is brightest.",
       "how_to_recognise": "A lone broad sycamore on a mown bank by the road, its trunk mottled brown below and its spreading upper limbs startlingly white, with dark bare woods behind it and a pedestrian signal nearby.",
       "verified_sources": [],
       "found_by_reader": {
         "sighting_id": "8ae07f75-f6ba-4055-a274-fb7f03b4f380",
         "date": "2026-11-25"
       },
-      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting 8ae07f75-f6ba-4055-a274-fb7f03b4f380), their name 'American Sycamore', species 'American Sycamore', age 'None', girth None cm. Photograph viewed: the whole lone sycamore on a mown bank by the road, its upper limbs bone-white against bare dark woods, a crossing signal at the right edge, overcast winter daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's.",
-      "access": "Seen from the sidewalk; it stands on an open grassy bank beside the road.",
+      "verify_notes": "2026-11-25 reader judge: sent by a reader through the app (sighting 8ae07f75-f6ba-4055-a274-fb7f03b4f380), their name 'American Sycamore', species 'American Sycamore', age 'None', girth None cm. Photograph viewed: the whole lone sycamore on a mown bank by the road, its upper limbs bone-white against bare dark woods, a crossing signal at the right edge, overcast winter daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Every figure not in verified_sources is stated as the reader's. 2026-11-26 reader judge: the reader's mail reply (feedback 1690) gives the spot as the northeast corner of Lincoln Way and University Ave (University Boulevard), which fits the GPS pin, and an age of about 200 years; added as theirs, paraphrased (no quote without their yes).",
+      "access": "Seen from the sidewalk at the corner of Lincoln Way and University Boulevard; it stands on an open grassy bank.",
       "curation_status": "flagged",
       "location_precision": "confirmed",
       "pin_source": {
@@ -49,16 +49,20 @@
         "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: the whole lone sycamore on a mown bank by the road, its upper limbs bone-white against bare dark woods, a crossing signal at the right edge, overcast winter daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
         "taken_month": 1,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "age_estimate": "about 200 years, by a reader's estimate",
+      "age_min": 200,
+      "age_max": 200,
+      "age_basis": "source"
     }
   ],
   "question_meta": "A white-limbed American sycamore in Ames, Iowa, sent by a reader: what makes it stand out and how to find it.",
-  "question_answer": "A reader sent us this American sycamore in Ames, Iowa: a lone tree on a grassy bank by the road, its upper limbs white against the woods behind.",
-  "question_context": "A reader in Ames, Iowa, sent us this American sycamore, photographed in winter from the sidewalk across the road. It stands alone on a mown bank with bare dark woods behind it, and what makes it stop people is its colour. As a sycamore grows, its brown outer bark flakes away from the upper trunk and limbs in patches and leaves the pale inner bark bare, so an old tree turns whiter the higher you look. This one is mottled brown and cream low down, and above that its limbs reach out sideways, long and crooked and bone-white, the lowest almost to the grass. Standing alone, it has grown a wide, even crown. American sycamores are trees of Midwestern creek bottoms and often seed themselves along streams. We do not know this tree's age or girth, or whether anyone planted it, and we would welcome what a local reader knows. It can be seen from the sidewalk, and the best time is a grey winter day, when the white limbs are brightest.",
+  "question_answer": "A reader sent us this American sycamore in Ames, Iowa: a lone tree on a grassy bank at Lincoln Way and University Boulevard, its upper limbs white against the woods behind, about 200 years old by the reader's estimate.",
+  "question_context": "A reader in Ames, Iowa, sent us this American sycamore, photographed in winter from the sidewalk across the road. It stands alone on a mown bank with bare dark woods behind it, and what makes it stop people is its colour. As a sycamore grows, its brown outer bark flakes away from the upper trunk and limbs in patches and leaves the pale inner bark bare, so an old tree turns whiter the higher you look. This one is mottled brown and cream low down, and above that its limbs reach out sideways, long and crooked and bone-white, the lowest almost to the grass. Standing alone, it has grown a wide, even crown. American sycamores are trees of Midwestern creek bottoms and often seed themselves along streams. The reader puts its age at around 200 years; we do not know its girth, or whether anyone planted it. It can be seen from the sidewalk, and the best time is a grey winter day, when the white limbs are brightest.",
   "faq": [
     {
       "q": "Where is the white sycamore in Ames?",
-      "a": "On an open grassy bank beside the road in Ames, Iowa, at our pin, with dark woods behind it."
+      "a": "On an open grassy bank at the northeast corner of Lincoln Way and University Boulevard in Ames, Iowa, with dark woods behind it."
     },
     {
       "q": "Why is the sycamore white?",
