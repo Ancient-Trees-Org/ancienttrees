@@ -5,6 +5,13 @@
 - Live: madeira/mdr_013, The Tall Araucaria of Palheiro Gardens, from a reader's website tip with a photograph (viewed: a Norfolk Island pine standing alone on a lawn, tier on tier, daylight). It came with no GPS, so the pin is approximate on the garden's point (the same as the pohutukawa, mdr_010). Paid entry. The page gives the reader's 48 m, their survey citation (Árvores Monumentais e Emblemáticas da Madeira, 2008) and their account of the garden as their own words. Photo filed in November, the photo's own month. Madeira now has 13 trees; its intro, meta and question texts (EN and the kept PT overlay) give the new count, and the PT overlay has the tree.
 - Nothing else waited: 0 open reports, 0 open feedback, 0 reader notes to quote. Lead 3c544597 (Amsterdam) is still our own account's and its photo is still not on disk, so it was left alone.
 
+## 2026-11-26 night run: nothing useful to ship
+
+- Nothing published. Own research is paused and the shelf holds one unwritten tree (taiwan) plus 3 READY leads, under the six-candidate floor for a write pass. The "382 awaiting a writer" figure is almost all stale files of trees already live.
+- Rung 1: the reader judge owns the 2 unmapped reader photographs (3c544597, tip-1700). Nothing a reader sent has waited over 24h. One new note on mdr_013 (Madeira, 48 m Norfolk Island pine, factual) read and left visible.
+- Rung 2, left for a Mac session: iOS run 45810490360 is red on `CountryStaysWalk.testAPickedCountryStaysOnTheRow` ("the list did not go back to the editor", "the row does not start on the saved country"). It is the Edit profile Country work of commit 60a0c41ad; the UI test cannot run on this Linux runner. Web errors orange: new type `undefined has no property 'init_ts'` in a promise. Open BUG row ESC-2026-11-25 (edit a tree you added) is a feature, his call.
+- Rung 4 sourcing stays paused while mail batches are open. reader_words, recognise --stuck and enrich --next: nothing to do. pagegaps: only species and park intros, whose pages are in the strict cut, so skipped.
+
 ## 2026-11-26 reader judge: a campus cedar in Varese live
 
 - Live: varese/var_003, The Cedar of the University Campus, from a reader's app photograph (four frames viewed; photo GPS at the tree, dated November). A broad blue-grey cedar alone on a campus lawn. Species left at Cedrus sp.: the reader says Lebanon, the crown reads Atlas, and the page asks. Varese now has three trees; its intro, meta, question texts and FAQ say so. No kept translation of Varese.
