@@ -1,6 +1,9 @@
 {
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
+    "2026-11-26": [
+      {"date": "2026-11-26", "kind": "write", "target": "pending shelf (US/UK verified files + 3 READY leads)", "tokens": 0, "trees": 0, "note": "nothing to write: every US/UK verified file is stale; the 10 id-collision entries (bri_017, car_001, nyc_027, nyc_031, wol_001, cdl_003, lar_001, tro_001-003, sct_001) are live already under the same or another id; READY leads york plane (no source, no photo), guimaraes cypress (other concelho, alive and access unchecked), leamington lime (no pin, no size) not writable; tokens unknown"}
+    ],
     "2026-11-24": [
       {"date": "2026-11-24", "kind": "session", "target": "reader judge: tsagarada/tsg_001", "tokens": 0, "trees": 1, "note": "session work, no agent: submission 1414 (main photo empty, three further photos) never reached a lead; Tsagarada plane live as a one-tree place; sightings_inbox fixed to read such rows"},
       {"date": "2026-11-24", "kind": "verify", "target": "san-francisco", "tokens": 45000, "trees": 0, "note": "13th pass, register exhausted; Presidio and Golden Gate Park planted-forest angle found no individual specimen; claim released with --force, wall set; estimate"},
