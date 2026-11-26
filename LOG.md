@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-26 session: Palheiro Gardens on the Android test
+
+- Play Console (new account, app 4975394642791101357): Palheiro Gardens' Play address added to the closed test Alpha's "Android testers" email list (955 to 956), through Hidde's Chrome. Reply sent in their thread on his yes: they're in, with the opt-in link.
+- Bella di Ceciliano's maker's yes (her mail of 14:53) was already handled by the reader judge (78fec2f25): photograph back as lead.
+
 ## 2026-11-26 reader judge: a reader's eucalyptus in the Retiro goes live
 
 - Live: The White-Trunked Eucalyptus of the Retiro (madrid/mad_019). A stranger sent it through the app with the note "Ancient and fragrant Eucalyptus in a quiet area". The photograph shows a tall, pale, smooth trunk rising well above the dark cedars in the Retiro's southwest corner. The photograph's GPS puts the pin at the tree, so the pin is confirmed. No register entry stands within 100 m, and it is a different tree from our catalogued blue gum (mad_017, 981 m away). The species is left as Eucalyptus sp. and the page asks readers for it. The story quotes the reader and claims no age. A Spanish overlay entry was added. Madrid's counts now read 19 trees and the Retiro's 10, in English and Spanish. The "catalogued and protected" lines were softened because this tree is in no catalogue. The photo is filed under November from its own date. There were no further photos to add.
