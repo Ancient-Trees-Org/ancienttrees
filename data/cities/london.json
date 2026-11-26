@@ -306,18 +306,33 @@
         "label": "October, when its spiny nut cases carpet the ground beneath it"
       },
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Greenwich_Park_Sweet_Chestnut_%281%29.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Hopefully Acceptable Username, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/lon_005-the-sweet-chestnut-of-greenwich-park-9a624f9b.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 4032,
-        "height": 3024,
-        "taken_month": 8
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_f51564d3707ccacb1bface30",
+        "sighting_id": "9a624f9b-b890-4c08-866a-207e040a20fd",
+        "note": "Photographed by a reader and sent through the app (2026-11-26); a viewing pass approved it on 2026-11-26: The whole Greenwich chestnut in late-autumn gold on a grey-blue day: the squat, massive trunk under a wide, twisting crown, its leaves spread over the Flower Garden lawn and path. This trunk, daylight, colour; a reader's own photograph, so it leads. Species seen: long toothed lance-shaped leaves turning gold-brown, heavy twisting limbs, fallen chestnut leaves carpeting the grass. Fits the description: a thickened, low trunk carrying a broad crown of contorted limbs, alone on the lawn of a formal garden with a path behind and a cedar's edge at left, as in the Flower Garden of Greenwich Park.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Replaces the dead/fallen Queen Elizabeth's Oak on 2026-07-27 per Hidde's living-trees rule. Coordinates upgraded 2026-07-28 to Woodland Trust ATI open-data record Id 2919 (girth 7.26m, Ancient, alive, verified 2021), the only ancient chestnut in that corner of the Flower Garden and ~30m from the approved photo's EXIF point, so precision is confirmed. Great-Tree identification is convergent (Wikipedia lists the Great Tree chestnut in the Flower Garden; this is the garden's largest ancient chestnut) and phrased as attributed. Deliberately NOT claiming Tree of the Year 2023: that shortlisted chestnut stands in the avenue near the Roman Temple, ~350m away. Age derives from the documented 1660-64 planting, not a ring count.",
       "location_precision": "confirmed",
-      "how_to_recognise": "You can recognise it by the thickened, part hollow trunk of a sweet chestnut, pollarded more than once, and by the spiny green cases it drops across the grass every October. It stands in the Flower Garden of Greenwich Park."
+      "how_to_recognise": "You can recognise it by the thickened, part hollow trunk of a sweet chestnut, pollarded more than once, and by the spiny green cases it drops across the grass every October. It stands in the Flower Garden of Greenwich Park.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Greenwich_Park_Sweet_Chestnut_%281%29.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Hopefully Acceptable Username, via Wikimedia Commons",
+          "status": "approved",
+          "width": 4032,
+          "height": 3024,
+          "taken_month": 8
+        }
+      ]
     },
     {
       "id": "lon_006",

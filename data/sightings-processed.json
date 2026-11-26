@@ -8044,6 +8044,30 @@
    "date": "2026-11-26",
    "tree_id": "nbw_001",
    "reason": "duplicate: the same reader's frame of the two tall beech trunks on the Law slope is already in the tree's gallery as their further photograph 2 (sighting ae685cbf extra-2), sent earlier the same day"
+  },
+  "9a624f9b-b890-4c08-866a-207e040a20fd": {
+   "outcome": "added",
+   "date": "2026-11-26",
+   "tree_id": "lon_005",
+   "city_slug": "london",
+   "file": "lon_005-the-sweet-chestnut-of-greenwich-park-9a624f9b.jpg",
+   "reason": "The whole Greenwich chestnut in late-autumn gold on a grey-blue day: the squat, massive trunk under a wide, twisting crown, its leaves spread over the Flower Garden lawn and path. This trunk, daylight, colour; a reader's own photograph, so it leads. Species seen: long toothed lance-shaped leaves tur",
+   "lat": 51.476645367268,
+   "lon": 0.00716049224138927,
+   "extras": 0,
+   "pin_checked": "2026-11-26"
+  },
+  "8c2f3642-8774-498f-9e53-de421aba50c3": {
+   "outcome": "rejected",
+   "date": "2026-11-26",
+   "tree_id": "lon_005",
+   "reason": "duplicate: the same reader's second frame of the same chestnut a step closer, seconds apart; the other frame (9a624f9b) carries the whole crown and goes up."
+  },
+  "fe75421a-c2ab-470d-ad74-f92168b79eee": {
+   "outcome": "held",
+   "date": "2026-11-26",
+   "tree_id": "gnv_012",
+   "reason": "doubt_photo: a cedar with a tall clear trunk among pines and broadleaves on a grassy wooded slope in full summer green, a 2:3 camera frame with no camera data, sent in November with our pin as its spot (no fix of its own). It looks like a register or stock photograph rather than the sender's, and th"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

@@ -553,6 +553,72 @@
    "reason": "Further photograph 2 viewed: looking up from inside the hollow shell to the living crown; in the gallery of ldw_001."
   },
   {
+   "id": "sight:fe75421a-c2ab-470d-ad74-f92168b79eee",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Cedar of Lebanon of Acquasanta",
+   "city": "Genoa",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/fe75421a-c2ab-470d-ad74-f92168b79eee.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
+   },
+   "verdict": "hold",
+   "reason": "doubt_photo: a summer camera frame of a cedar on a wooded slope, no camera data, our pin as its spot, sent in November; looks like a register or stock photograph and the setting does not match the open church square. Collection-only sighting, so no submissions row to ask through; waits for the maker's yes.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:8c2f3642-8774-498f-9e53-de421aba50c3",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Sweet Chestnut of Greenwich Park",
+   "city": "London",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "photo": "out/sightings/8c2f3642-8774-498f-9e53-de421aba50c3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 30,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut (Castanea sativa)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same reader's second frame of the Greenwich chestnut seconds apart; the other frame went up.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:9a624f9b-b890-4c08-866a-207e040a20fd",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Sweet Chestnut of Greenwich Park",
+   "city": "London",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "photo": "out/sightings/9a624f9b-b890-4c08-866a-207e040a20fd.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 30,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut (Castanea sativa)"
+   },
+   "verdict": "publish",
+   "reason": "The Greenwich Park sweet chestnut in late-autumn gold, whole crown, this trunk; now the tree's lead photograph, the Commons one moved to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",

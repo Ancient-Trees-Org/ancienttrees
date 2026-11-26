@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-26 reader judge: a reader's autumn photograph now leads the Greenwich sweet chestnut
+
+- London (lon_005, the Sweet Chestnut of Greenwich Park): a reader sent the whole tree in late-autumn gold from the Flower Garden lawn (9a624f9b). It is now the lead photograph, filed under November, and the Commons photograph moves to the strip. The reader was mailed. Their second frame, taken seconds later a step closer (8c2f3642), was rejected as a duplicate.
+- Genoa (gnv_012, the Cedar of Lebanon of Acquasanta): photograph fe75421a is held as `doubt_photo`. It is a summer camera frame of a cedar on a wooded slope, with no camera data, sent in November, and its coordinate is our own pin. It looks like a register or stock photograph, and the setting does not match the open church square our recognition line describes. It was only kept in the sender's own collection, so there is no submissions row and hold_reply could send no mail. The tree still has no photograph.
+- Not judged: lead 3c544597 (Amsterdam, near the Last Elm of Stationsplein). It came from one of our own accounts (`mine`) and its file is not on disk.
+- No open reports, tips, feedback, readers' notes or further photographs.
+
 ## 2026-11-26 reader judge: the Queen Elizabeth Oak of Cowdray Park goes live
 
 - New place Lodsworth (ldw_001, the Queen Elizabeth Oak): a reader sent it through the app as "Pedunculate Oak in Stedham". Their photographs show a huge hollow oak behind a wooden fence, with its Tree Council plaque ("one of fifty Great British Trees, June 2002"). Wikidata Q2702029 stands 30 m from their pin. Wikipedia gives the species as sessile, not pedunculate, a girth of 12.5 to 12.8 m and an age of about 800 to 1,000 years. The pin stays approximate because the app did not record how it was set. The plaque and the shot from inside the hollow went into the gallery. Their fourth image, a phone screenshot of a sauna booking page, was left out (`screenshot`). A one-tree place, so it gets a tree page and no place page.
