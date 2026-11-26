@@ -34,13 +34,14 @@ struct FeedView: View {
     static let tag = 4
 
     @State private var filter: FeedPosts.Filter = .everyone
-    /// THREE ACROSS OR ONE BIG (Hidde, 2026-11-26: "wat kleinere card view en
-    /// deze grote card view ... drie naast elkaar", "heel weinig boom per
-    /// pixel"). Instagram's profile grid: three columns of 4:5 pictures, 2
-    /// points apart, edge to edge; a tap opens that post in the big view, as
-    /// Instagram's grid opens the post in its feed. In memory only (hard rule
-    /// 11): every opening starts big.
-    @State private var grid = ProcessInfo.processInfo.arguments.contains("-feedgrid")
+    /// ZOOMED OUT OR ONE BIG (Hidde, 2026-11-26: "heel weinig boom per pixel",
+    /// then "de boomfeed sws standaard juist op de uitgezoomde versie", "zoals
+    /// bij de feed op web nu met de verschillende grote plaatjes"): the
+    /// website's /visitors masonry, two columns of whole photographs each at
+    /// its own shape (Pinterest's and Unsplash's, CONVENTIONS.md "A feed of
+    /// visitors' photographs"), is where the tab opens; one big post at a time
+    /// is the other half of the switch. In memory only (hard rule 11).
+    @State private var grid = !ProcessInfo.processInfo.arguments.contains("-feedbig")
     /// The post the big view scrolls to after a tile was tapped.
     @State private var jumpTo: String?
     @Namespace private var layoutLine
@@ -73,13 +74,24 @@ struct FeedView: View {
                         header.id("feed-top").padding(.bottom, -12)
                         let list = shown
                         if grid {
+                            // People you may know above the photographs,
+                            // where Polarsteps puts its row on Activity.
+                            if account.isSignedIn && filter == .everyone {
+                                FeedPeopleRow(following: following)
+                            }
                             tiles(list, width: geo.size.width)
                                 .padding(.horizontal, -Self.edge)
+                                .padding(.top, 4)
                         } else {
                             ForEach(Array(list.enumerated()), id: \.element.post.key) { i, it in
                                 post(it.post, prev: it.prev, width: width)
                                     .id("feed-\(i)")
                                     .onAppear { if i >= list.count - 6 { Task { await more() } } }
+                                // People you may know after the second post,
+                                // where Instagram's "Suggested for you" sits.
+                                if i == 1 && account.isSignedIn && filter == .everyone {
+                                    FeedPeopleRow(following: following).id("feed-people")
+                                }
                             }
                         }
                         footer(list.isEmpty)
@@ -123,9 +135,27 @@ struct FeedView: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Feed")
-                .font(.screenTitle)
-                .foregroundStyle(Brand.ink)
+            HStack(alignment: .firstTextBaseline) {
+                Text("Feed")
+                    .font(.screenTitle)
+                    .foregroundStyle(Brand.ink)
+                Spacer(minLength: 8)
+                // ADD FRIENDS, Polarsteps' person with a plus top right of
+                // Activity: Find people, which asks a signed-out person to
+                // sign in (People.swift).
+                Button { navigator.push = .findPeople } label: {
+                    Image(systemName: "person.badge.plus")
+                        .font(.system(size: 19, weight: .medium))
+                        .foregroundStyle(Brand.ink)
+                        .frame(width: 44, height: 44)
+                        .background(Brand.surface, in: .circle)
+                        .overlay { Circle().strokeBorder(Brand.hairline, lineWidth: 1) }
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("Find people")
+                .accessibilityIdentifier("feed-find-people")
+                .alignmentGuide(.firstTextBaseline) { d in d[VerticalAlignment.center] + 12 }
+            }
             HStack(spacing: 8) {
                 ForEach(FeedPosts.Filter.allCases, id: \.self) { f in
                     FilterChip(label: f.label, icon: nil, on: filter == f) { choose(f) }
@@ -145,12 +175,12 @@ struct FeedView: View {
     /// view's is two stacked cards, a feed of posts.
     private var layoutToggle: some View {
         HStack(spacing: 0) {
-            ForEach([false, true], id: \.self) { g in
+            ForEach([true, false], id: \.self) { g in
                 Button {
                     withAnimation(.snappy(duration: 0.2)) { grid = g }
                     Measure.event("feed_layout", ["layout": g ? "grid" : "big"])
                 } label: {
-                    Image(systemName: g ? "squareshape.split.3x3" : "rectangle.grid.1x2")
+                    Image(systemName: g ? "square.grid.2x2" : "rectangle.grid.1x2")
                         .font(.system(size: 20, weight: .regular))
                         .foregroundStyle(grid == g ? Brand.ink : Brand.inkSoft.opacity(0.6))
                         .frame(maxWidth: .infinity, minHeight: 44)
@@ -171,28 +201,73 @@ struct FeedView: View {
         .overlay(alignment: .bottom) { Rectangle().fill(Brand.hairline).frame(height: 0.5) }
     }
 
-    /// The grid: three across, 4:5, 2 apart, edge to edge. A tile is the
-    /// photograph alone; a tap opens that post in the big view.
+    /// The masonry: two columns 12 apart, each tile into the shorter column
+    /// so the order reads across, the photograph whole at its own shape (4:5
+    /// when the server has no size), the place on it, the tree's name and who
+    /// under it, the website's tile (VisitorPhotos.swift's numbers). A tap
+    /// opens the tree, as a tile on the website does.
     private func tiles(_ list: [(post: FeedPosts.Post, prev: FeedPosts.Post?)], width: CGFloat) -> some View {
-        let gap: CGFloat = 2
-        let side = (width - gap * 2) / 3
-        let cols = Array(repeating: GridItem(.fixed(side), spacing: gap), count: 3)
-        return LazyVGrid(columns: cols, spacing: gap) {
-            ForEach(Array(list.enumerated()), id: \.element.post.key) { i, it in
-                Button {
-                    withAnimation(.snappy(duration: 0.2)) { grid = false }
-                    jumpTo = "feed-\(i)"
-                } label: {
-                    TreePhoto(url: it.post.photo) { Brand.surfaceMuted }
-                        .frame(width: side, height: side * 5 / 4)
-                        .clipped()
-                        .contentShape(.rect)
+        let gap: CGFloat = 12
+        let colWidth = (width - Self.edge * 2 - gap) / 2
+        func ratio(_ p: FeedPosts.Post) -> CGFloat {
+            guard let w = p.photo_w, let h = p.photo_h, w > 0, h > 0 else { return 5.0 / 4.0 }
+            return min(CGFloat(h) / CGFloat(w), 1.6)
+        }
+        var cols: [[(Int, FeedPosts.Post, FeedPosts.Post?)]] = [[], []]
+        var heights: [CGFloat] = [0, 0]
+        for (i, it) in list.enumerated() {
+            let c = heights[1] < heights[0] ? 1 : 0
+            cols[c].append((i, it.post, it.prev))
+            heights[c] += colWidth * ratio(it.post) + 70
+        }
+        return HStack(alignment: .top, spacing: gap) {
+            ForEach(0..<2, id: \.self) { c in
+                LazyVStack(alignment: .leading, spacing: 16) {
+                    ForEach(cols[c], id: \.1.key) { entry in
+                        tile(entry.1, prev: entry.2, width: colWidth, ratio: ratio(entry.1))
+                            .onAppear { if entry.0 >= list.count - 8 { Task { await more() } } }
+                    }
                 }
-                .buttonStyle(.plain)
-                .accessibilityLabel(it.post.place.isEmpty ? it.post.tree_name : "\(it.post.tree_name), \(it.post.place)")
-                .accessibilityIdentifier("feed-tile")
-                .onAppear { if i >= list.count - 9 { Task { await more() } } }
+                .frame(width: colWidth, alignment: .top)
             }
+        }
+        .padding(.horizontal, Self.edge)
+    }
+
+    private func tile(_ p: FeedPosts.Post, prev: FeedPosts.Post?, width: CGFloat, ratio: CGFloat) -> some View {
+        let known = p.tree_id.flatMap { catalogue.tree($0) }
+        let route: Route = if let shared = p.sharedId { .shared(shared) }
+            else if let k = known { .tree(k.id) } else { .feedPost(p) }
+        let name = p.author_name ?? "A visitor"
+        return VStack(alignment: .leading, spacing: 6) {
+            NavigationLink(value: route) {
+                TreePhoto(url: p.photo) { Brand.surfaceMuted }
+                    .frame(width: width, height: width * ratio)
+                    .overlay(alignment: .bottomLeading) {
+                        if !p.place.isEmpty { TagPill(text: p.place).padding(6) }
+                    }
+                    .clipShape(.rect(cornerRadius: 12, style: .continuous))
+                    .contentShape(.rect)
+            }
+            .buttonStyle(.plain)
+            .modifier(DoubleTapLike(id: p.likeId))
+            .accessibilityLabel(p.place.isEmpty ? p.tree_name : "\(p.tree_name), \(p.place)")
+            .accessibilityIdentifier("feed-tile")
+            Text(p.tree_name)
+                .font(.brand(14, .bold, relativeTo: .subheadline))
+                .foregroundStyle(Brand.ink)
+                .lineLimit(2)
+                .fixedSize(horizontal: false, vertical: true)
+            HStack(spacing: 5) {
+                VisitorFace(name: name, avatar: p.author_avatar)
+                Text(name).font(.system(size: 12, weight: .medium)).foregroundStyle(Brand.inkSoft).lineLimit(1)
+                if let when = SentAgo.short(p.published_at) {
+                    Text("· \(when)").font(.system(size: 12)).foregroundStyle(Brand.inkSoft.opacity(0.75))
+                        .lineLimit(1).fixedSize()
+                }
+            }
+            .contentShape(.rect)
+            .onTapGesture { if p.author_name != nil { openAuthor(p, prev: prev) } }
         }
     }
 

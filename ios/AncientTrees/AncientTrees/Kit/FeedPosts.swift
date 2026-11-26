@@ -90,7 +90,13 @@ public enum FeedPosts {
         }
         let r = Supa.request("/rest/v1/rpc/feed", token: token, body: body)
         guard let (data, resp) = try? await Net.data(for: r),
-              let http = resp as? HTTPURLResponse, (200..<300).contains(http.statusCode),
+              let http = resp as? HTTPURLResponse else { return nil }
+        // A session the server no longer accepts still gets the public feed
+        // (names come without account ids, as signed out), never an empty tab.
+        if (http.statusCode == 401 || http.statusCode == 403), token != nil {
+            return await page(after: after, n: n, token: nil)
+        }
+        guard (200..<300).contains(http.statusCode),
               let rows = try? JSONDecoder().decode([Post].self, from: data) else { return nil }
         return rows
     }
