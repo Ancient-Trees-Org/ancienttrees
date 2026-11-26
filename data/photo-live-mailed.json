@@ -3424,19 +3424,15 @@
    ]
   },
   "p_f51564d3707ccacb1bface30": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-26",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "9a624f9b-b890-4c08-866a-207e040a20fd",
      "tree_id": "lon_005",
-     "tree_name": "The Sweet Chestnut of Greenwich Park",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-26"
+     "mailed": "2026-11-26"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
