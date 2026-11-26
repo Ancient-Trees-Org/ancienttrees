@@ -86,8 +86,13 @@ def main(argv):
     if not KEY:
         print(f"sightings_link (dry, no SUPABASE_SERVICE_KEY): {len(want)} photograph(s) would be checked")
         return 0
-    ids = ",".join(want)
-    rows = _req(f"/rest/v1/sightings?select=id,tree_id,status&id=in.({ids})") or []
+    # In batches: 720 ids in one id=in.() made the request too long and
+    # Supabase answered 400, so from 2026-11 no reader's new tree reached New
+    # from visitors (found 2026-11-26, the seven trees of 11-25).
+    keys, rows = list(want), []
+    for i in range(0, len(keys), 100):
+        ids = ",".join(keys[i:i + 100])
+        rows += _req(f"/rest/v1/sightings?select=id,tree_id,status&id=in.({ids})") or []
     fixed = 0
     for r in rows:
         tree = want.get(r["id"])
