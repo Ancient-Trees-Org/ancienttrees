@@ -12,6 +12,18 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 session: "Not able to add trees" (report 1686) fixed on Android
+
+**What happened.** PostHog put the reader on Android 17, Play build 5, signed in. Twice that phone logged `app_exit_abnormal` reason `memory` right before the reader came back and searched Discover, My trees and Map without ever reaching the add flow. The system camera is another app, and on a phone short of memory Android ends ours behind it. The photograph landed in the cache, but nothing read it after the restart, so the reader met an app that had forgotten their tree. iOS keeps its camera in-process and does not have this.
+
+**Fixed (8dc807670).**
+- A recent shot left in the cache now opens the add flow at the next start, once signed in and located (`Collector.rescueShot`, ShotRescueTest).
+- Reproduced on the emulator: with a shot in the cache, force-stop then start opens "Which one is it?" with the photograph.
+- The map's empty-place "Add a tree" opens the flow, as EmptyPlace.swift's does. Before, it only cleared the map.
+- The bug row is fixed, and the reader gets the standard "fixed" mail once a Play build carries it (bug_fixed_mail.py).
+
+**Not this change:** `feed.SnapshotTest` fails in the Android unit suite. It compares the bundled catalogue, which this change does not touch.
+
 ## 2026-11-26 night run (01:27 window): nothing shipped, short orientation only
 - Rung 1: no new tree notes; one reader photograph of an unmapped tree (3c544597, Amsterdam area) is the reader judge's, left to it. Rung 2: health.py red on (a) the live site behind main, where `gh workflow run deploy.yml` was refused with HTTP 403 (this runner's token cannot dispatch), so the deploy waits for the schedule or a session; (b) three open APP bug rows from readers. I fixed none: the "no distance limit" in the Tortworth row is wrong for iOS (`Catalogue.nearest` defaults to 50 km, `Collect.swift:200`), the real complaint is a labelling and edit-your-own-tree product choice, and a Linux runner cannot build or test the iOS app. The report-1686 "not able to add trees" row needs a reproduction on a device.
 - Own research is paused; 3 READY leads (york, guimaraes, leamington-spa) were not written this window.

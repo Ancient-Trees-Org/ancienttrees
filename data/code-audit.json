@@ -755,9 +755,11 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/Contribute.swift",
    "summary": "A reader wrote from the app's profile feedback form (2026-11-25, report 1686): 'Not able to add trees'. Platform and build unknown (both apps send page app-profile); the account has never sent a tree or sighting, so the add flow failed before anything reached the server or the reader could not find it. Reproduce the Add a tree flow signed in on iOS and Android.",
    "first_seen": "2026-11-25",
-   "status": "open",
+   "status": "fixed",
    "found_by": "reader",
-   "reader_line": "adding a tree from the app now works"
+   "reader_line": "adding a tree from the app now works",
+   "test": "android/app/src/test/java/app/ancienttrees/account/ShotRescueTest.kt",
+   "fixed_in": "8dc807670"
   }
  ]
 }
