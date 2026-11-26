@@ -15,6 +15,7 @@
     "like-counts.sql": {"exempt": "one public number per tree, how many people saved it; names nobody"},
     "new-from-visitors.sql": {"phrase": "new photographs from visitors"},
     "visitor-photos.sql": {"phrase": "new photographs from visitors"},
+    "feed.sql": {"phrase": "new photographs from visitors"},
     "reader-names.sql": {"phrase": "leads to your profile"},
     "photo-authors-time.sql": {"phrase": "new photographs from visitors"},
     "photo-likes.sql": {"phrase": "give a visitor's photograph a heart"},

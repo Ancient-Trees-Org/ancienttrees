@@ -293,6 +293,20 @@ jobs:
             git push -q || true
           fi
 
+      # THE FEED NEVER WAITS ON A DEPLOY (Hidde, 2026-11-26). What the judge
+      # just put live goes into the server's feed table with its picture,
+      # seconds after the commit; the web pages follow with the deploy.
+      # Writes nothing to the repository. supabase/feed.sql.
+      - name: What went live goes into the feed
+        if: steps.work.outputs.go == 'yes'
+        continue-on-error: true
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          git pull -q --rebase --autostash origin main || true
+          pip install --quiet pillow || true
+          python3 scripts/feed_publish.py
+
       # Saved only when the set of files changed, so a run that fetched
       # nothing new uploads nothing. Files untouched for 30 days drop out;
       # one still needed is fetched once more.
