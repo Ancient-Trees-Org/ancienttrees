@@ -92,6 +92,11 @@ as $$
       from public.sightings s
       left join storage.objects o on o.bucket_id = 'sightings' and o.name = s.photo
      where s.shared and s.photo is not null
+       -- Only a share whose public copy exists: a row whose file is missing
+       -- showed an empty tile (2026-11-26, a photo sent from a tree page,
+       -- which until then made no public copy).
+       and exists (select 1 from storage.objects so
+                     where so.bucket_id = 'shared-sightings' and so.name = s.photo)
        and s.status in ('mine', 'sent', 'published')
        and coalesce(o.created_at, s.taken_at) > now() - interval '14 days'
        and not exists (select 1 from public.feed f2 where f2.key = lower(s.id::text))
