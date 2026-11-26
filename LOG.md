@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 session: the feed comes from the server, live first (Hidde: "yes letsgo")
+
+**What changed for readers.** What a reader shares is in the feed at once, straight from Supabase (`feed()`, supabase/feed-live.sql), with their own name for the tree and their photo but no place or pin until the judge has looked; the judge's hold or reject takes it out, its approval turns it into the full post (name, place, pin) at the same spot in the feed (trigger supabase/feed-sent-time.sql). The checked posts live in a `feed` table with their own photo copies (supabase/feed.sql), written by `scripts/feed_publish.py` right after each judgement. One post per send now (second frames were separate posts). The apps' handling of a live post was handed to the Feed tab session.
+
+**Why New from visitors showed no new trees for days.** `scripts/sightings_link.py` asked for 720 ids in one request, Supabase answered 400, and nothing was linked; it also only ran from the knock, which GitHub stopped delivering. Batched, and the reader judge runs it after every judgement; 21 trees linked at once.
+
+**The clocks moved to Supabase.** GitHub dropped every frequent cron from 02:22 UTC (judge, knock, Site up). pg_cron now starts the judge every 10 minutes (supabase/judge-clock.sql) and the knock watchdog three times an hour (supabase/knock-clock.sql), with a new GitHub token Hidde made; the instant trigger works again with it (the old token had 403'd since the repo move). The California map walk that kept every deploy red from 03:38 to 08:48 UTC: the card now moves the pin aside when no side has room (map-card-js.ts).
+
 ## 2026-11-26 session: readers hear "fixed, comes with the next update" before the build lands
 
 - **The order** (Hidde: "dit kan heel lang duren dus ik zou m alvast mailen", "onthou die volgorde"): `scripts/bug_fixed_mail.py` now mails an app fix twice, the day it is on main ("We fixed it ... The fix comes with the next app update") and again when the build is in their store ("The fix is in the app now"); a website fix once. Where a fix lives is read from the files its commit changed.
