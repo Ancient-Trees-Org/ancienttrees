@@ -82,6 +82,8 @@ class FeedHost(
     /** A tree the catalogue knows (Route.tree) or the post itself (Route.feedPost). */
     val openTree: (Tree) -> Unit,
     val openPost: (FeedPosts.Post) -> Unit,
+    /** A post not checked yet: the share page (SharedTree.kt), never a tree page. */
+    val openShared: (String) -> Unit,
     val share: (Tree) -> Unit,
     val askLocation: () -> Unit,
 )
@@ -233,7 +235,7 @@ fun FeedScreen(
             itemsIndexed(shown, key = { _, it -> it.first.key }) { i, (p, prev) ->
                 // 16 from the chips to the first post (the design), 28 between posts.
                 Box(if (i == 0) Modifier.offsetTop(-12) else Modifier) {
-                    FeedPost(p, catalogue.tree(p.treeId), host, onAuthor = { openAuthor(p, prev) })
+                    FeedPost(p, p.treeId?.let { catalogue.tree(it) }, host, onAuthor = { openAuthor(p, prev) })
                 }
             }
             item(key = "end") {
@@ -267,11 +269,24 @@ private fun Modifier.offsetTop(dp: Int): Modifier = this.layout { m, c ->
 private fun FeedPost(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: () -> Unit) {
     val brand = Brand.colors
     val tree = known ?: FeedPosts.stub(p)
-    val open = { if (known != null) host.openTree(known) else host.openPost(p) }
+    val open = {
+        val shared = p.sharedId
+        when {
+            shared != null -> host.openShared(shared)
+            known != null -> host.openTree(known)
+            else -> host.openPost(p)
+        }
+    }
     Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
         // Who, what and when (FeedView.byline): a public profile's name opens it, "A visitor" nothing.
         val name = p.authorName ?: stringResource(R.string.discover_a_visitor)
-        val deed = stringResource(if (p.isNewTree) R.string.feed_added else R.string.feed_photographed)
+        val deed = stringResource(
+            when {
+                !p.checked -> R.string.feed_just_shared
+                p.isNewTree -> R.string.feed_added
+                else -> R.string.feed_photographed
+            },
+        )
         val whenText = SentAgo.short(p.publishedAt)
         Row(
             verticalAlignment = Alignment.CenterVertically,
@@ -294,7 +309,7 @@ private fun FeedPost(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: 
             .aspectRatio(4f / 5f)
             .clip(POST_SHAPE)
             .background(brand.surfaceMuted)
-            .semantics { contentDescription = "${p.treeName}, ${p.place}" }
+            .semantics { contentDescription = if (p.place.isEmpty()) p.treeName else "${p.treeName}, ${p.place}" }
             .testTag("feed-photo")
         Box(if (p.likeId != null) photoMod.doubleTapHeart(p.likeId!!) { open() } else photoMod.clickable(role = Role.Button) { open() }) {
             p.photoUrl?.let { RemoteImage(it, null, Modifier.fillMaxSize()) }
@@ -321,7 +336,8 @@ private fun FeedPost(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: 
                 PhotoHeart(it, size = 25.dp)
                 Spacer(Modifier.width(6.dp))
             }
-            SaveMark(tree, onPhoto = false)
+            // Nothing to save before the check: no tree of ours exists yet.
+            if (p.checked) SaveMark(tree, onPhoto = false)
             val shareLabel = stringResource(R.string.share_tree)
             Box(
                 contentAlignment = Alignment.Center,

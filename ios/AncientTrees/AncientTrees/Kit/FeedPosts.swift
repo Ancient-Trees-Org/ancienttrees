@@ -15,7 +15,8 @@ public enum FeedPosts {
     public struct Post: Decodable, Identifiable, Hashable {
         let key: String
         let kind: String
-        let tree_id: String
+        /// Nil on a post that is not checked yet: no tree of ours exists.
+        let tree_id: String?
         let tree_name: String
         let place: String
         let url: String
@@ -28,16 +29,30 @@ public enum FeedPosts {
         let author_name: String?
         let author_avatar: String?
         let author_id: String?
+        /// LIVE FIRST, THEN CHECKED (Hidde, 2026-11-26, supabase/feed-live.sql):
+        /// false on a post a reader shared that the judge has not looked at
+        /// yet. Its name is the reader's own, it has no place and no position
+        /// (hard rule 10), its link is the share page (/t/?id=), and there is
+        /// no tree to save or published photograph to like. When the judge
+        /// approves, the same key comes back checked at the same time; a hold
+        /// or a reject takes it away. Nil in an older answer means checked.
+        let checked: Bool?
         public var id: String { key }
 
-        /// A tree somebody added, against a photograph on one of ours.
-        var isNewTree: Bool { kind == "tree" }
+        var isChecked: Bool { checked ?? true }
+
+        /// The shared sighting behind an unchecked post (its key).
+        var sharedId: UUID? { isChecked ? nil : UUID(uuidString: key) }
+
+        /// A tree somebody added, against a photograph on one of ours. Only
+        /// once checked: before that nobody has said where it stands.
+        var isNewTree: Bool { kind == "tree" && isChecked }
 
         /// The heart is the like on a visitor's photograph (PhotoLikes), keyed
         /// by its sightings uuid; only a photo post carries one (a tip's key is
         /// "tree:<id>" and has no photograph row to like).
         var likeId: String? {
-            guard kind == "photo", UUID(uuidString: key) != nil else { return nil }
+            guard isChecked, kind == "photo", UUID(uuidString: key) != nil else { return nil }
             return key.lowercased()
         }
 
@@ -86,8 +101,12 @@ public enum FeedPosts {
         await page(after: prev, n: 1, token: token)?.first { $0.key == post.key }?.author_id
     }
 
-    /// "added a new tree" or "photographed a tree".
-    static func deed(_ p: Post) -> String { p.isNewTree ? "added a new tree" : "photographed a tree" }
+    /// "added a new tree", "photographed a tree", or "just shared a tree"
+    /// before the check (no claim yet that it is new or which tree it is).
+    static func deed(_ p: Post) -> String {
+        if !p.isChecked { return "just shared a tree" }
+        return p.isNewTree ? "added a new tree" : "photographed a tree"
+    }
 
     /// The story's first sentence, for the two lines under the name. Cut at the
     /// first full stop that ends a sentence (followed by a space and a
@@ -145,6 +164,7 @@ public enum FeedPosts {
     /// itself, the name, place, picture and pin. The full page comes with the
     /// next catalogue.
     static func stub(_ p: Post) -> Tree {
+        let treeId = p.tree_id ?? "shared:" + p.key
         let slug = p.url.split(separator: "/").first.map(String.init) ?? ""
         let photo = p.photo_url.map {
             Photo(url: $0, license: nil, attribution: nil, width: p.photo_w, height: p.photo_h,
@@ -152,7 +172,7 @@ public enum FeedPosts {
                   creditLine: nil, creditURL: nil, frameRaw: nil, takenMonth: nil, season: nil,
                   sighting: nil, by: nil)
         }
-        return Tree(id: p.tree_id, name: p.tree_name, species: "", age: nil, ageMin: nil, ageMax: nil,
+        return Tree(id: treeId, name: p.tree_name, species: "", age: nil, ageMin: nil, ageMax: nil,
                     lat: p.latitude ?? 0, lng: p.longitude ?? 0,
                     city: p.place, citySlug: slug, country: "", neighbourhoodRaw: nil,
                     access: "", paidEntryRaw: nil, transportRaw: nil, story: "",

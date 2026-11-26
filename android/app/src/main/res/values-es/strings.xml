@@ -75,6 +75,7 @@
     <string name="feed_near">Cerca de ti</string>
     <string name="feed_added">añadió un árbol nuevo</string>
     <string name="feed_photographed">fotografió un árbol</string>
+    <string name="feed_just_shared">acaba de compartir un árbol</string>
     <string name="feed_new_on_map">Nuevo en el mapa</string>
     <string name="feed_end">Ya lo has visto todo por ahora.</string>
     <string name="feed_empty">Aún no hay nada nuevo.</string>

@@ -896,7 +896,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
             when (p) {
                 is app.ancienttrees.ui.Page.TreePage -> cat.tree(p.id)?.let { tree -> TreePage(tree) }
                 // Known by now (a newer catalogue): the full page; else the post's own.
-                is app.ancienttrees.ui.Page.FeedTree -> TreePage(cat.tree(p.post.treeId) ?: app.ancienttrees.account.FeedPosts.stub(p.post))
+                is app.ancienttrees.ui.Page.FeedTree -> TreePage(p.post.treeId?.let { cat.tree(it) } ?: app.ancienttrees.account.FeedPosts.stub(p.post))
                 is app.ancienttrees.ui.Page.Mine -> app.ancienttrees.ui.OwnTree(
                     id = p.id,
                     mine = myTrees,
@@ -1210,6 +1210,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                                     openPerson = { routes.openPerson(it) },
                                     openTree = { openTree(it) },
                                     openPost = { nav.push(app.ancienttrees.ui.Page.FeedTree(it)) },
+                                    openShared = { nav.push(app.ancienttrees.ui.Page.Shared(it)) },
                                     share = { t -> share(context, t, from = "feed") },
                                     askLocation = { if (refused) recovering = true else askLocation() },
                                 ),

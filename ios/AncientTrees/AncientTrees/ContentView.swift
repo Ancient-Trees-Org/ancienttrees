@@ -502,8 +502,10 @@ struct ContentView: View {
             VisitorPhotosView(catalogue: cat)
         case .feedPost(let p):
             // Known by now (a newer catalogue arrived): the full page.
-            if let t = cat.tree(p.tree_id) {
+            if let id = p.tree_id, let t = cat.tree(id) {
                 TreeDetail(tree: t, catalogue: cat, origin: origin)
+            } else if let shared = p.sharedId {
+                SharedTreeView(id: shared)
             } else {
                 TreeDetail(tree: FeedPosts.stub(p), catalogue: cat, origin: origin)
             }

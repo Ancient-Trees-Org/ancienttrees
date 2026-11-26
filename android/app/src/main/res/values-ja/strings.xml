@@ -74,6 +74,7 @@
     <string name="feed_near">近く</string>
     <string name="feed_added">新しい木を追加しました</string>
     <string name="feed_photographed">木を撮影しました</string>
+    <string name="feed_just_shared">木をシェアしました</string>
     <string name="feed_new_on_map">地図に新登場</string>
     <string name="feed_end">今のところ、すべて見ました。</string>
     <string name="feed_empty">まだ新しい投稿はありません。</string>

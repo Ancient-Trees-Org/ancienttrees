@@ -75,6 +75,7 @@
     <string name="feed_near">In de buurt</string>
     <string name="feed_added">heeft een nieuwe boom toegevoegd</string>
     <string name="feed_photographed">heeft een boom gefotografeerd</string>
+    <string name="feed_just_shared">heeft net een boom gedeeld</string>
     <string name="feed_new_on_map">Nieuw op de kaart</string>
     <string name="feed_end">Je hebt alles gezien wat er nu is.</string>
     <string name="feed_empty">Nog niets nieuws.</string>

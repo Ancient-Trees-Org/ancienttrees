@@ -126,9 +126,11 @@ struct FeedView: View {
     // MARK: - a post
 
     private func post(_ p: FeedPosts.Post, prev: FeedPosts.Post?, width: CGFloat) -> some View {
-        let known = catalogue.tree(p.tree_id)
+        let known = p.tree_id.flatMap { catalogue.tree($0) }
         let tree = known ?? FeedPosts.stub(p)
-        let route: Route = known != nil ? .tree(p.tree_id) : .feedPost(p)
+        // Not checked yet: the share page (SharedTreeView), never a tree page.
+        let route: Route = if let shared = p.sharedId { .shared(shared) }
+            else if let k = known { .tree(k.id) } else { .feedPost(p) }
         return VStack(alignment: .leading, spacing: 10) {
             byline(p, prev: prev)
             NavigationLink(value: route) {
@@ -143,7 +145,7 @@ struct FeedView: View {
                     .clipShape(.rect(cornerRadius: 14, style: .continuous))
                     .contentShape(.rect)
                     .accessibilityElement(children: .ignore)
-                    .accessibilityLabel("\(p.tree_name), \(p.place)")
+                    .accessibilityLabel(p.place.isEmpty ? p.tree_name : "\(p.tree_name), \(p.place)")
             }
             .buttonStyle(.plain)
             .accessibilityIdentifier("feed-photo")
@@ -213,10 +215,11 @@ struct FeedView: View {
                 PhotoHeart(photoId: like, size: 19)
                     .padding(.trailing, 6)
             }
-            SaveHeart(tree: tree, look: .plain)
+            // Nothing to save before the check: no tree of ours exists yet.
+            if p.isChecked { SaveHeart(tree: tree, look: .plain) }
             if let url = Shared.page(p.url, from: "feed") {
                 ShareLink(item: url, subject: Text(p.tree_name),
-                          message: Text("\(p.tree_name), \(p.place).")) {
+                          message: Text(p.place.isEmpty ? "\(p.tree_name)." : "\(p.tree_name), \(p.place).")) {
                     Image(systemName: "square.and.arrow.up")
                         .font(.system(size: 17, weight: .medium))
                         .foregroundStyle(Brand.inkSoft)

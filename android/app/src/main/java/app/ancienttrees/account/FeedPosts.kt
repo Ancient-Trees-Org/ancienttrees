@@ -16,7 +16,8 @@ object FeedPosts {
     data class Post(
         val key: String,
         val kind: String,
-        val treeId: String,
+        /** Null on a post not checked yet: no tree of ours exists. */
+        val treeId: String?,
         val treeName: String,
         val place: String,
         val url: String,
@@ -30,13 +31,23 @@ object FeedPosts {
         val authorAvatar: String?,
         /** Only to a signed-in caller, only for a public profile. */
         val authorId: String?,
+        /**
+         * LIVE FIRST, THEN CHECKED (supabase/feed-live.sql, 2026-11-26): false on a post a
+         * reader shared that the judge has not looked at yet. The reader's own name, no place,
+         * no position (hard rule 10), the share page as link, nothing to save or like. Missing
+         * in an older answer means checked. FeedPosts.Post.checked in ios.
+         */
+        val checked: Boolean = true,
     ) {
-        /** A tree somebody added, against a photograph on one of ours. */
-        val isNewTree: Boolean get() = kind == "tree"
+        /** A tree somebody added, against a photograph on one of ours; only once checked. */
+        val isNewTree: Boolean get() = kind == "tree" && checked
 
-        /** The like on a visitor's photograph, keyed by its sightings uuid; only a photo post has one. */
+        /** The like on a visitor's photograph, keyed by its sightings uuid; only a checked photo post has one. */
         val likeId: String?
-            get() = if (kind == "photo" && UUID_RE.matches(key)) key.lowercase() else null
+            get() = if (checked && kind == "photo" && UUID_RE.matches(key)) key.lowercase() else null
+
+        /** The shared sighting behind an unchecked post (its key). */
+        val sharedId: String? get() = if (!checked && UUID_RE.matches(key)) key.lowercase() else null
     }
 
     enum class Filter { EVERYONE, FOLLOWING, NEAR }
@@ -57,7 +68,7 @@ object FeedPosts {
             Post(
                 key = o.text("key") ?: return@mapNotNull null,
                 kind = o.text("kind") ?: "photo",
-                treeId = o.text("tree_id") ?: return@mapNotNull null,
+                treeId = o.text("tree_id"),
                 treeName = o.text("tree_name").orEmpty(),
                 place = o.text("place").orEmpty(),
                 url = o.text("url").orEmpty(),
@@ -70,6 +81,7 @@ object FeedPosts {
                 authorName = o.text("author_name"),
                 authorAvatar = o.text("author_avatar"),
                 authorId = o.text("author_id"),
+                checked = if (o.has("checked") && !o.isNull("checked")) o.optBoolean("checked", true) else true,
             )
         }
     }.getOrNull()
@@ -132,7 +144,7 @@ object FeedPosts {
                 width = p.photoW, height = p.photoH)
         }
         return Tree(
-            id = p.treeId, name = p.treeName, species = "", age = null, ageShort = null,
+            id = p.treeId ?: "shared:${p.key}", name = p.treeName, species = "", age = null, ageShort = null,
             lat = p.latitude ?: 0.0, lng = p.longitude ?: 0.0, city = p.place, citySlug = slug, country = "",
             neighbourhood = "", access = "", paidEntry = false, transport = "", story = "", storyLatin = emptyList(),
             howToRecognise = "", url = p.url, precision = Precision.APPROXIMATE, photo = photo, saves = 0, mini = false,

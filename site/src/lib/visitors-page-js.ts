@@ -52,11 +52,16 @@ export function visitorTileFn(): string {
   // row's key), c the tree (name, link, picture, place), the apps' FeedPosts.
   // Only a visitor's photograph on one of ours carries a heart: a tree they
   // added from a tip has no photograph row to like.
+  // LIVE FIRST, THEN CHECKED (supabase/feed-live.sql, 2026-11-26): a row with
+  // checked false is a reader's share the judge has not looked at yet: their
+  // own name for it, no place and no position (hard rule 10), the share page
+  // as link, and nothing to save or like until it is a tree of ours.
   function nfvFrom(f) {
-    var like = f.kind === 'photo' && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(f.key);
+    var checked = f.checked !== false;
+    var like = checked && f.kind === 'photo' && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(f.key);
     return {
-      r: { sighting_id: f.key, tree_id: f.tree_id, published_at: f.published_at, author_name: f.author_name,
-           author_avatar: f.author_avatar, author_id: f.author_id, like: like },
+      r: { sighting_id: f.key, tree_id: f.tree_id || ('shared:' + f.key), published_at: f.published_at, author_name: f.author_name,
+           author_avatar: f.author_avatar, author_id: f.author_id, like: like, checked: checked },
       c: { n: f.tree_name, u: f.url, p: f.photo_url, c: f.place, w: f.photo_w, h: f.photo_h }
     };
   }
@@ -79,8 +84,8 @@ export function visitorTileFn(): string {
     var pid = esc(String(r.sighting_id).toLowerCase());
     var like = r.like === false ? '' : '<span class="nfv-like" data-photo-like="' + pid + '"></span>';
     return '<a class="nfv-tree" href="' + esc(c.u) + '" data-ev="' + ev + '" data-detail="' + esc(r.tree_id) + '">' +
-      '<span class="shelf-ph"' + (r.like === false ? '' : ' data-dbl-heart="' + pid + '"') + '>' + img + '<span class="nfv-tag">' + esc(c.c) + '</span></span>' +
-      '<b>' + esc(c.n) + '</b></a>' + nfvSave(r.tree_id, c, esc) + '<div class="nfv-by">' + who + like + '</div>';
+      '<span class="shelf-ph"' + (r.like === false ? '' : ' data-dbl-heart="' + pid + '"') + '>' + img + (c.c ? '<span class="nfv-tag">' + esc(c.c) + '</span>' : '') + '</span>' +
+      '<b>' + esc(c.n) + '</b></a>' + (r.checked === false ? '' : nfvSave(r.tree_id, c, esc)) + '<div class="nfv-by">' + who + like + '</div>';
   }`;
 }
 

@@ -17,6 +17,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 session: the Feed shows a reader's share before the judge looked (feed-live.sql), and its icon is Polarsteps' Activity
+
+- **Unchecked posts** (`checked = false` from feed()) on iPhone, Android and the web row and /visitors: the reader's own name for the tree, "just shared a tree" in the byline (eight languages on Android), no place, no "New on the map", no heart, no save; a tap opens the share page (/t/?id=). When the judge approves, the same post comes back checked in the same spot. Decoder tests with checked true, false and missing: iOS FeedPostsTests, Android FeedPostsTest, both green.
+- **Fixed before it reached anybody:** the iOS Feed failed to load any page holding such a row (its tree id is null, the decoder wanted text). No build carried it.
+- **The Feed tab's icon** is one person in front of a smaller one on both phones (Hidde: "laten we het activiteit logo van polarsteps overnemen", "die gespiegelde"): Material's `group`, on iOS as a template asset because SF has no such symbol (ICONS-LICENSE-APACHE.txt beside the app).
+
 ## 2026-11-26 session: a screenshot waits for its maker's yes; Bella's photo off
 
 - **Rule reversed** (Hidde: "screenshot zijn wel gevaarlijk toch", "Ja, doe het"): the 2026-11-25 line that let a screenshot through unless plainly someone else's is gone from BRIEF_READER_JUDGE.md. A screenshot (no camera data, social crop, letterbox bars, filter) is held as doubt_photo and the reader is asked "Did you take it yourself?"; their yes puts it up.
