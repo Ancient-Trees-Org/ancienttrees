@@ -713,23 +713,6 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     // add flow opens with it, as if the app had never gone. It waits for the
     // server's sign-in (the camera was only open signed in) and briefly for a
     // fix, so the tree is filed where the phone stands rather than asked for.
-    // THE DRAFT ANDROID KILLED US OVER (DraftStore): a tree only you have, open
-    // when the app went, comes back as it was, with a further photograph the
-    // camera left behind (DraftTree's draft-extra.jpg) added to it.
-    LaunchedEffect(Unit) {
-        val kept = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) {
-            app.ancienttrees.account.DraftStore.load(context.filesDir)?.let { d ->
-                val extra = java.io.File(java.io.File(context.cacheDir, "photos"), "draft-extra.jpg")
-                val raw = Collector.rescueShot(extra)
-                val jpeg = raw?.let { Collector.downsized(it) }
-                if (jpeg != null && d.extras.size < Collector.MAX_EXTRAS) {
-                    raw.let { r -> app.ancienttrees.account.CameraRoll.keep(context, r) }
-                    d.copy(extras = d.extras + jpeg, extraMonths = d.extraMonths + Collector.month(java.util.Date()))
-                } else d
-            }
-        }
-        if (kept != null && draft == null) draft = kept
-    }
     LaunchedEffect(Unit) {
         kotlinx.coroutines.delay(1500)
         if (!shot.exists()) return@LaunchedEffect
@@ -1398,17 +1381,14 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                     catalogue = cat,
                     onSave = { saved, city ->
                         draft = null
-                        app.ancienttrees.account.DraftStore.clear(context.filesDir)
                         scope.launch { if (!Collector.saveDraft(account, saved, city)) collectFailed = true else myTrees.load(force = true) }
                     },
-                    onDiscard = { draft = null; app.ancienttrees.account.DraftStore.clear(context.filesDir) },
-                    keep = { d -> if (d == null) app.ancienttrees.account.DraftStore.clear(context.filesDir) else app.ancienttrees.account.DraftStore.save(context.filesDir, d) },
+                    onDiscard = { draft = null },
                     // Saved here, then the page stays as your tree with Share (TreeDetail.swift, mine).
                     account = account,
                     mine = myTrees,
                     onMerged = { t ->
                         draft = null
-                        app.ancienttrees.account.DraftStore.clear(context.filesDir)
                         if (t.id !in saves.collected) app.ancienttrees.ui.Haptics.success(view)
                         saves.noteCollected(t.id)
                         snack = app.ancienttrees.ui.Snack(mergedText, icon = Sym.Verified)
@@ -1417,7 +1397,6 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                     onCity = { slug, name ->
                         val t = cat.trees(slug).firstOrNull()
                         draft = null
-                        app.ancienttrees.account.DraftStore.clear(context.filesDir)
                         goOnMap(SearchHit.City(slug, name, t?.lat ?: 0.0, t?.lng ?: 0.0))
                     },
                 )

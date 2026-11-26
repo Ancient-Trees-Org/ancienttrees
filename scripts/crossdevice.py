@@ -68,6 +68,36 @@ FILE_STORE = re.compile(r'\.(?:documentDirectory|applicationSupportDirectory)\b'
 
 WEB_PATTERN = re.compile(r'(?:localStorage|sessionStorage)\.\w+Item\(\s*[\'"]([^\'"]+)[\'"]')
 
+# ANDROID TOO (2026-11-26): until then this script read only Swift and the web,
+# so a session built account/DraftStore.kt, a tree being added kept in the app's
+# files, and nothing stopped it. Every Kotlin file that writes to the app's own
+# storage registers as "android-file:<Name>.kt".
+ANDROID = os.path.join(ROOT, "android", "app", "src", "main", "java")
+ANDROID_STORE = re.compile(r'\b(?:filesDir|noBackupFilesDir|getSharedPreferences\(|openFileOutput\(|dataStore\b)')
+
+# NOTHING A PERSON DOES STAYS ON THE PHONE (Hidde, 2026-11-26: "NOOIT IETS
+# LOKAALS OPSLAAN ALTIJD AAN ACCOUNT", after a session kept a tree being added
+# on an Android phone; hard rule 11). The device stores below are the closed
+# list as it stood that day. A new one, on any surface, needs his yes: add it
+# here only with his words in its "why".
+DEVICE_CLOSED = {
+    "ancienttrees_session", "ancienttrees.last_fix", "directions.app", "at_maps_app",
+    "at_contribute_draft", "ancienttrees_pending", "at_notrack", "hero.index.v1",
+    "measure.install.v1", "measure.queue.v1", "nudge.fired.v1", "nudge.last.v1",
+    "reviewPrompt.fired.v2", "reviewPrompt.last.v2", "reviewPrompt.seen.v1",
+    "reviewPrompt.yes.v1", "saved.saves_are_hearts_v1", "saved.collected_leaves_want_v1",
+    "file:CatalogueStore.swift", "at_consent", "exit.foreground.v1", "plus.answered.v1",
+    "at_plus_answered", "android:auth/session.refresh", "android:device/directions.app",
+    "android:device/reviewPrompt", "android:device/plus.answered.v1",
+    "android:device/exit.reported.at", "android:device/exit.crash.note",
+    "android:device/location_asked", "android:device/photo_place_asked",
+    "android-file:MainActivity.kt", "android-file:Settings.kt", "android-file:PlaceBox.kt",
+    "android-file:ReviewAsk.kt", "android-file:HeroCover.kt", "android-file:Directions.kt",
+    "android-file:GalleryPick.kt", "android-file:TreeMapView.kt",
+    "android-file:CatalogueStore.kt", "android-file:Account.kt", "android-file:Measure.kt",
+    "android-file:ExitWatch.kt",
+}
+
 
 def walk(root, suffixes):
     for base, dirs, files in os.walk(root):
@@ -97,7 +127,18 @@ def found():
         text = open(path, encoding="utf-8", errors="ignore").read()
         for key in WEB_PATTERN.findall(text):
             out.setdefault(key, set()).add(os.path.relpath(path, ROOT))
+    for path in walk(ANDROID, (".kt",)):
+        text = open(path, encoding="utf-8", errors="ignore").read()
+        if ANDROID_STORE.search(text):
+            out.setdefault("android-file:" + os.path.basename(path), set()).add(
+                os.path.relpath(path, ROOT))
     return out
+
+
+def unasked_device_stores(known):
+    """Device verdicts outside the closed list: each needs Hidde's yes."""
+    return sorted(k for k, v in known.items()
+                  if v.get("verdict") == "device" and k not in DEVICE_CLOSED)
 
 
 def main():
@@ -136,7 +177,14 @@ def main():
               "Say what takes it off a phone nobody is signed in to, or say "
               "\"nothing, because ...\".")
 
-    if missing or unswept:
+    unasked = unasked_device_stores(known)
+    for key in unasked:
+        print(f"FAIL  {key}  ruled 'device' and not on the closed list.")
+        print("      Nothing a person does stays on the phone (Hidde, 2026-11-26: "
+              "\"NOOIT IETS LOKAALS OPSLAAN ALTIJD AAN ACCOUNT\"). Put it on the "
+              "account, or ask him and add it to DEVICE_CLOSED with his words.")
+
+    if missing or unswept or unasked:
         print(f"\n{len(missing)} unregistered store(s), {len(unswept)} "
               "account store(s) nothing is named to clear. A store nobody has "
               "ruled on is a store that does not travel; an account store "

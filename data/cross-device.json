@@ -158,6 +158,66 @@
       "verdict": "device",
       "why": "The Android twin of reviewPrompt.fired.v2, .last.v2, .seen.v1 and .yes.v1 (android/.../ui/ReviewAsk.kt): which review milestones this install asked, when, which trees it has seen (at most 25 ids) and the version it said yes on. Per install, like the store's own rule.",
       "off": "Nothing: a flag on this install, gone with the app; -reset-collection clears it for the sweep."
+    },
+    "android-file:MainActivity.kt": {
+      "verdict": "device",
+      "why": "Whether this install asked for location once (location_asked, see android:device/location_asked). The app's bookkeeping, not something a person did.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:Settings.kt": {
+      "verdict": "device",
+      "why": "km or miles, a display setting of this phone (units).",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:PlaceBox.kt": {
+      "verdict": "device",
+      "why": "Whether this install answered the Plus question (android:device/plus.answered.v1), so the row goes away.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:ReviewAsk.kt": {
+      "verdict": "device",
+      "why": "Which review milestones this install asked (android:device/reviewPrompt); Google's own rule is per install.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:HeroCover.kt": {
+      "verdict": "device",
+      "why": "Which hero picture showed last (hero.index.v1), so the next start shows another.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:Directions.kt": {
+      "verdict": "device",
+      "why": "Which maps app Take me there opens (android:device/directions.app): what is installed on this phone.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:GalleryPick.kt": {
+      "verdict": "device",
+      "why": "Whether this install asked once for the place in photographs (android:device/photo_place_asked).",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:TreeMapView.kt": {
+      "verdict": "device",
+      "why": "The last downloaded map style (map-style/), our own map's look, so the map draws offline. Nobody's data.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:CatalogueStore.kt": {
+      "verdict": "device",
+      "why": "The last downloaded copy of OUR catalogue and its snapshot, so the app opens offline (file:CatalogueStore.swift's twin). Nobody's data.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:Account.kt": {
+      "verdict": "device",
+      "why": "The session's refresh token (android:auth/session.refresh): identifies this device, never travels.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:Measure.kt": {
+      "verdict": "device",
+      "why": "The analytics install id and events waiting for a network (measure.install.v1, measure.queue.v1).",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:ExitWatch.kt": {
+      "verdict": "device",
+      "why": "The newest process exit already reported, and one crash line until it is sent (android:device/exit.*).",
+      "off": "Nothing: gone with the app."
     }
   },
   "android:device/plus.answered.v1": {
@@ -184,10 +244,5 @@
     "verdict": "device",
     "why": "Whether this install has asked once for the place stored in photographs (ui/GalleryPick.kt, 2026-11-18), right after the first photo chosen from the gallery. The app's own bookkeeping, not something a person did.",
     "off": "Nothing: a flag on this install, gone with the app."
-  },
-  "android:files/draft-tree": {
-    "verdict": "device",
-    "why": "A tree only you have, still being added (account/DraftStore.kt): its name, story and photographs, kept on this phone only while it is unsent, so Android ending the app behind the camera does not lose it (2026-11-26, after report 1686). An unsent draft, the category hard rule 11 lets the device hold.",
-    "off": "Itself: removed on Save, Discard or merge, and thrown away when more than a day old."
   }
 }

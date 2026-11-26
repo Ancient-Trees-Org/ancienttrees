@@ -1008,13 +1008,12 @@
    "id": "ESC-2026-11-26-android-a-tree-being-added-lived-in-memo",
    "surface": "APP",
    "kind": "BUG",
-   "file": "android/app/src/main/java/app/ancienttrees/account/DraftStore.kt",
+   "file": "android/app/src/main/java/app/ancienttrees/ui/DraftTree.kt",
    "summary": "Android: a tree being added lived in memory only, so Android ending the app behind the camera lost its name, story and photographs",
    "first_seen": "2026-11-26",
-   "status": "fixed",
+   "status": "open",
    "found_by": "review",
-   "test": "android/app/src/test/java/app/ancienttrees/account/DraftStoreTest.kt aDraftSurvivesTheApp",
-   "fixed_in": "d0826adc0"
+   "note": "Reopened 2026-11-26: the fix kept the draft on the phone (DraftStore.kt) and was undone. Hidde: \"NOOIT IETS LOKAALS OPSLAAN ALTIJD AAN ACCOUNT\". The way is the draft on the account (a server row per unsent tree), never the device; crossdevice.py refuses a new device store."
   },
   {
    "id": "ESC-2026-11-26-android-the-snapshot-dropped-photo-by-so",
