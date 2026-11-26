@@ -505,6 +505,14 @@ struct MapTab: View {
         return sightings.all.first { $0.id == id && sightings.asTree($0).id == t.id }
     }
 
+    private func closeCardIfFiltered(_ new: MapFilters) {
+        guard let t = selected else { return }
+        if !new.keepsCard(t, month: month, collected: collectedIds, favourites: favouriteIds,
+                          distanceKm: t.distanceKm(from: focus.lat, focus.lng)) {
+            selected = nil
+        }
+    }
+
     var body: some View {
         // THE SHARED COMPONENT (Hidde, 2026-08-26: "je wilt deze interactie als
         // component hebben en overal hetzelfde hebben"). This screen is where
@@ -830,13 +838,9 @@ struct MapTab: View {
         // tree that was not saved). Google Maps and Airbnb drop a card whose
         // result a filter removes. MapFilters.keepsCard is the same question
         // the pins answer.
-        .onChange(of: filters) { _, new in
-            guard let t = selected else { return }
-            if !new.keepsCard(t, month: month, collected: collectedIds, favourites: favouriteIds,
-                              distanceKm: t.distanceKm(from: focus.lat, focus.lng)) {
-                selected = nil
-            }
-        }
+        // A method, not an inline closure: inline, this tipped body past what
+        // the compiler type-checks in time (CI run 45787662446, 2026-11-26).
+        .onChange(of: filters) { _, new in closeCardIfFiltered(new) }
         // A tree chosen lets the pin go; lowering the sheet to its foot does too.
         .onChange(of: selected) { _, new in if new != nil, dropped != nil { dropped = nil; beforeDrop = nil } }
         .onChange(of: sheetHeight) { _, new in if (new == .peek || new == .bar), dropped != nil { dropped = nil; beforeDrop = nil } }
