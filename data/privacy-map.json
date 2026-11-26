@@ -5,6 +5,7 @@
     "reader-judge-trigger.sql": {"exempt": "stores nothing; on a new tree or shared photo it asks GitHub to start a workflow, and the call carries only the words reader-tree, never an id, a name or a place"},
     "judge-clock.sql": {"exempt": "stores nothing about anyone; every ten minutes it asks GitHub to start the reader judge, and the call carries only main and poll=yes"},
     "knock-clock.sql": {"exempt": "stores nothing about anyone; three times an hour it asks GitHub to start the knock watchdog, and the call carries only main"},
+    "trending-trees.sql": {"exempt": "stores nothing; a read-only function that counts, per tree, how many different people photographed, hearted, voted for or saved it in the last 30 days, and returns tree ids and counts only, never an account, a name or a date"},
     "PENDING.sql": {"exempt":"a copy kept on hold, never pasted; the live file it copies is mapped"},
     "suggested-more.sql": {"exempt": "stores nothing; a read-only function that lists more public profiles with published photographs under Find people, the same fields suggested-people.sql already shows"},
     "follow-activity.sql": {"exempt": "stores nothing; a read-only function that shows you your own hearts and who follows you, from tables already mapped (profiles.sql, photo-hearts-who.sql)"},
