@@ -18,6 +18,7 @@
 import Breadcrumbs from "./Breadcrumbs.astro";
 import PlaceRow from "./PlaceRow.astro";
 import ShareButton from "./ShareButton.astro";
+import { icon } from "../lib/icons";
 
 interface Props {
   crumbs: [string, string | null][];
@@ -32,8 +33,11 @@ interface Props {
   placeRow?: { share: string; copied: string; close: string };
   /** /explore only: hooks for retitling (ex-*) in the browser. */
   live?: boolean;
+  /** One map (lib/one-map.ts): the cross beside share that closes the
+   *  place's panel and leaves the map's trees in view (Google Maps' way). */
+  close?: string;
 }
-const { crumbs, eyebrow, lead, name, share, placeRow, live } = Astro.props as Props;
+const { crumbs, eyebrow, lead, name, share, placeRow, live, close } = Astro.props as Props;
 const [before, after] = name ? (lead.includes("{c}") ? lead.split("{c}") : [lead, ""]) : [lead, ""];
 ---
 <div class="panel-head place-head">
@@ -44,7 +48,12 @@ const [before, after] = name ? (lead.includes("{c}") ? lead.split("{c}") : [lead
     <h1 id={live ? "ex-h1" : undefined} data-world={live ? lead : undefined}>{name
       ? <Fragment>{before && <span class="h1-lead">{before}</span>}<em>{name}</em>{after && <span class="h1-lead">{after}</span>}</Fragment>
       : before}</h1>
-    {(share || live) && <ShareButton url={share?.url ?? ""} title={share?.title ?? ""} label={share?.label} copied={share?.copied} />}
+    {close
+      ? <div class="place-head-acts">
+          <ShareButton url={share?.url ?? ""} title={share?.title ?? ""} label={share?.label} copied={share?.copied} />
+          <button type="button" class="share-btn place-close" aria-label={close} title={close}><Fragment set:html={icon("x")} /></button>
+        </div>
+      : (share || live) && <ShareButton url={share?.url ?? ""} title={share?.title ?? ""} label={share?.label} copied={share?.copied} />}
   </div>
   <slot />
 </div>

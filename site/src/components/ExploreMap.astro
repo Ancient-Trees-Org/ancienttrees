@@ -20,7 +20,8 @@ import { speciesCommon, COUNTRY_MIN_CITIES } from "../lib/species";
 import { mapSpecies } from "../lib/map-species";
 import MapFilters from "./MapFilters.astro";
 import { cityFace, cityFaceSrcset, usablePhoto } from "../lib/images";
-import { mapHead, exploreMapScript, miniPin, pinPriority, type ExploreTreeFeature, type ExploreCityRow, type ExploreListData } from "../lib/map";
+import { mapHead, exploreMapScript } from "../lib/map";
+import { viewListData } from "../lib/view-list-data";
 import { savesOf } from "../lib/saves";
 import { haversineKm } from "../lib/walks";
 import { searchForm, searchWidgetJs } from "../lib/search-form";
@@ -59,67 +60,9 @@ function esc(s: string): string {
 // `renderable` in that order first (build_site.py:5721-5726).
 const allCities = byCityListOrderEntry((await getCollection("cities")).filter(cityIsRenderable));
 
-const month = new Date().getMonth() + 1;
-const features: ExploreTreeFeature[] = [];
-// The species chip's list, the same on every map (lib/map-species.ts).
-const { list: speciesList, index: speciesIndex, latinHtml: speciesLatinHtml } = await mapSpecies();
-
-// Every pin, app-only trees included (lib/app-first.ts APP_ONLY_PINS,
-// 2026-11-06): an app-only tree gets no url, so its card opens no page.
-const mapCities = byCityListOrderEntry((await getCollection("cities")).filter(cityIsOnMap));
-// The list under the map (direction B, 2026-11-06): each tree's place in its
-// city's Highlights, the same ranks the app's feed sends (lib/app-feed.ts).
-for (const entry of mapCities) {
-  const cslug = entry.id;
-  const hlRanks = highlightRanks(cslug, feedTreesOf(entry) as any);
-  for (const t of mapTrees(entry)) {
-    const short = ageShort(t, U, lang);
-    const loc = t.location;
-    const sp = speciesIndex.get(speciesCommon(t));
-    features.push({
-      type: "Feature",
-      geometry: { type: "Point", coordinates: [loc.longitude ?? null, loc.latitude ?? null] },
-      properties: {
-        id: t.id,
-        name: t.name,
-        url: treeHasPage(t) ? `${cslug}/${slugify(t.name)}` : "",
-        cs: cslug,
-        city: entry.data.city,
-        age: t.age_estimate ?? "",
-        now: 0 as 0 | 1,
-        pr: pinPriority(Boolean(usablePhoto(t)), savesOf(t.id)),
-        mn: (miniPin(t.id, Boolean(usablePhoto(t))) ? 1 : 0) as 0 | 1,
-        ...(t.paid_entry ? { paid: 1 as 1 } : {}),
-        ...(sp === undefined ? {} : { sp }),
-        ...(hlRanks.has(t.id) ? { hl: hlRanks.get(t.id)! } : {}),
-        ...(short ? { as: short } : {}),
-      },
-    });
-  }
-}
-
-// The panel's city cards need a face and a rank: hero photo per the Cadiz
-// standard where set, favourites first (the homepage list), then tree
-// count. No counts in the page copy itself (Hidde, 2026-07-29): "je moet
-// nadenken dat alles wat je maakt ooit gaat bestaan uit miljoenen bomen."
-const FAVES = ["lisbon", "cadiz", "porto", "amsterdam", "kyoto", "rome", "palermo", "paris", "london", "barcelona"];
-const cityRows: ExploreCityRow[] = allCities
-  .filter((e) => renderableTrees(e).length > 0)
-  .map((e) => {
-    const trees = renderableTrees(e);
-    return {
-      city: e.data.city,
-      url: e.id,
-      country: e.data.country,
-      n: trees.length,
-      lat: trees.reduce((s, t) => s + (t.location.latitude ?? 0), 0) / trees.length,
-      lng: trees.reduce((s, t) => s + (t.location.longitude ?? 0), 0) / trees.length,
-      ph: cityFace(e.data, 172),
-      ph2: cityFaceSrcset(e.data, 86)?.srcset ?? null,
-      rank: FAVES.includes(e.id) ? FAVES.indexOf(e.id) : 99,
-    };
-  })
-  .sort((a, b) => a.rank - b.rank || b.n - a.n);
+// The trees, places and species the list under the map knows, built once
+// for /explore and the city map's /api/map-view (lib/view-list-data.ts).
+const { features, cityRows, speciesList, speciesLatinHtml, listData } = await viewListData(lang);
 
 // Islands, added 2026-08-17 with Tenerife, the first one (Hidde: "lijkt me ook
 // wel leuk om een eiland sectie in explore te hebben"). They are ordinary
@@ -191,32 +134,6 @@ const title = U.exploreTitle;
 const description = U.exploreDescription;
 const exploreVariants: Record<string, string> = { en: "/explore" };
 for (const l of translatedLanguages()) exploreVariants[l] = `/${l}/explore`;
-
-// The list's places: every city on the map with its name in this language,
-// its country, and its page where it has one (a place with one tree on the web
-// has none, lib/place-page.ts); every country with a page (Contract G, the
-// rule [country].astro builds by). Country pages are English only.
-const listData: ExploreListData = { places: {}, countries: {}, icons: SPECIES_ICONS,
-  speciesIcon: speciesList.map((s) => speciesIconKey(s)) };
-for (const e of mapCities) {
-  const web = cityIsRenderable(e) ? renderableTrees(e).length : 0;
-  listData.places[e.id] = {
-    n: cityLabel({ city: e.data.city, slug: e.id }),
-    k: e.data.country,
-    h: web > 0 && placeHasPage(e.id, web) ? cityHref(e.id) : "",
-    ...(placeHasAmbassador(e.id) ? { a: 1 } : {}),
-  };
-}
-const citiesPerCountry = new Map<string, number>();
-for (const e of allCities) citiesPerCountry.set(e.data.country, (citiesPerCountry.get(e.data.country) ?? 0) + 1);
-for (const intro of await getCollection("countries")) {
-  if ((citiesPerCountry.get(intro.data.country) ?? 0) >= COUNTRY_MIN_CITIES) {
-    listData.countries[intro.data.country] = `/${intro.data.slug}`;
-  }
-  // The place head's intro for a searched country: the country page's own
-  // words, on the English map only (the overlays carry no country intros).
-  if (lang === "en" && intro.data.intro) (listData.intros ??= {})[intro.data.country] = intro.data.intro;
-}
 
 const searchFormHtml = searchForm("explore", "ex-q", "ex-search");
 const mapScript = exploreMapScript(features, cityRows, speciesList, lang, speciesLatinHtml, listData);

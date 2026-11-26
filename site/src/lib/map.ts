@@ -11,7 +11,7 @@ import { treePinsJs } from "./tree-pins-js";
 import { treeMapJs } from "./tree-map-js";
 import { treeCardJs } from "./tree-card";
 import { placeCardJs } from "./browse-card";
-import { viewListJs } from "./view-list-js";
+import { viewListJs, viewListWords } from "./view-list-js";
 
 /** MapLibre, loaded without blocking the page.
  *
@@ -543,18 +543,8 @@ export function exploreMapScript(features: ExploreTreeFeature[], cities: Explore
                                  species: string[] = [], lang = "en", speciesLatin: string[] = [],
                                  list: ExploreListData = { places: {}, countries: {}, icons: {}, speciesIcon: [] }): string {
   const geojson = JSON.stringify({ type: "FeatureCollection", features });
-  // A counted string travels as its one-tree form and a template with {n},
-  // so the browser fills the number without a rule of its own.
-  const U = ui(lang);
-  const counted = (fn: (n: number) => string) => ({ one: fn(1), many: fn(98765).replace("98765", "{n}") });
-  const words = {
-    inView: counted(U.treesInView), all: counted(U.allTrees), highlights: U.highlights,
-    more: U.zoomForMore, app: U.readInApp, save: U.cardSave, saved: U.cardSaved,
-    credit: U.photoCredit("{c}"),
-    collected: U.mapFilterMine, seen: U.seenChip, noPhoto: U.noPhotoYet,
-    ambThe: U.ambassadorBecomeThe("{p}"), ambA: U.ambassadorBecomeA("{p}"), plus: U.plusRow,
-    headIn: U.heading("{c}"),
-  };
+  // The list's words and drawings, shared with the city map (view-list-js.ts).
+  const V = viewListWords(lang);
   const citiesJson = JSON.stringify(cities);
   const speciesJson = JSON.stringify(species);
   const speciesLatinJson = JSON.stringify(speciesLatin);
@@ -563,11 +553,8 @@ export function exploreMapScript(features: ExploreTreeFeature[], cities: Explore
     `${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${treeMapJs()}${treeCardJs()}${placeCardJs()}${mapFiltersJs()}
 var DATA = ${geojson};
 var CITIES = ${citiesJson};
-// The empty map's ask (Hidde, 2026-10-25): the grey card of an empty notes
-// section, then the nearest tree. Words in the page's language.
-var EMPTY = ${JSON.stringify({ title: ui(lang).emptyPlaceTitle, here: ui(lang).emptyHereTitle,
-  ask: ui(lang).emptyPlaceAsk, add: ui(lang).addTree, nearest: ui(lang).nearestTree,
-  ic: icon("tree", "regular"), plus: icon("plus", "bold") })};
+// The empty map's ask (Hidde, 2026-10-25), in the page's language.
+var EMPTY = ${JSON.stringify(V.empty)};
 var SPECIES = ${speciesJson};
 var SPECIES_L = ${speciesLatinJson};
 // The list under the map (renderPanel, below).
@@ -576,9 +563,9 @@ var COUNTRIES = ${JSON.stringify(list.countries)};
 var INTROS = ${JSON.stringify(list.intros || {})};
 var SP_ICONS = ${JSON.stringify(list.icons)};
 var SP_IC = ${JSON.stringify(list.speciesIcon)};
-var WORDS = ${JSON.stringify(words)};
-var CHEVRON = ${JSON.stringify(icon("caret-right", "bold", "ic city-box-chev"))};
-var BOX_IC = ${JSON.stringify({ amb: icon("seal-check", "bold", "ic city-box-ic"), plus: icon("sparkle", "fill", "ic city-box-ic") })};
+var WORDS = ${JSON.stringify(V.words)};
+var CHEVRON = ${JSON.stringify(V.chevron)};
+var BOX_IC = ${JSON.stringify(V.boxIc)};
 // The trees the filter row keeps; the list counts only those.
 var SHOWN = DATA.features;
 // THE FILTER ROW is lib/map-filters-js.ts, shared with the city map; it is

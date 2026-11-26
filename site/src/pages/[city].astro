@@ -39,6 +39,8 @@ import { SHEET_JS } from "../lib/sheet-js";
 import { otherCitiesFor, nearbyCitiesFor, cityCentre } from "../lib/other-cities";
 import { publishedStatePages, usStateOf } from "../lib/us-states";
 import { hreflangForCity, ui } from "../lib/i18n";
+import { oneMapOn } from "../lib/one-map";
+import { chrome } from "../lib/ui-strings";
 import { placeHasPage } from "../lib/place-page";
 import LanguagePicker from "../components/LanguagePicker.astro";
 
@@ -98,6 +100,12 @@ const { city, allCities, countryPages, speciesPages, collections, statePages } =
 const cityName = city.data.city;
 const country = city.data.country;
 const cslug = city.id;
+// ONE MAP (lib/one-map.ts): this page is the map opened on its city; leave
+// the city, or press the cross, and the panel is the map's trees in view.
+const oneMap = oneMapOn(cslug, "en")
+  ? { explorePath: "/explore", words: { title: ui("en").exploreHeading, note: ui("en").exploreNote,
+      map: chrome("en").map, docTitle: ui("en").exploreTitle } }
+  : undefined;
 const trees = renderableTrees(city);
 const withWalks = hasWalksPage(city);
 // The city's own trees first, then "A day trip away" (lib/day-trips.ts).
@@ -295,7 +303,8 @@ const avgLng = markers.reduce((s, m) => s + m.lng, 0) / markers.length;
       <div class="sheet-grab">
         <PlaceHead crumbs={crumbItems} eyebrow={country} lead={ui("en").heading("{c}")} name={cityName}
                    share={{ url: canonical, title: ui("en").heading(cityName) }}
-                   placeRow={{ share: ui("en").share, copied: ui("en").shareCopied, close: ui("en").photoClose }} />
+                   placeRow={{ share: ui("en").share, copied: ui("en").shareCopied, close: ui("en").photoClose }}
+                   close={oneMap ? ui("en").photoClose : undefined} />
       </div>
       <div class="sheet-body">
       <PlaceIntro text={intro} readMore={ui("en").readMore}>
@@ -441,5 +450,5 @@ const avgLng = markers.reduce((s, m) => s + m.lng, 0) / markers.length;
       </div>
     </div>
   </div>
-  <Fragment slot="scripts" set:html={TREE_ACTIONS_JS + VISITED_SYNC_JS + cityMapScript(markers, [avgLat, avgLng], null, otherCities, [], split.inTown.map((t: any) => ({ lat: t.location.latitude, lng: t.location.longitude }))) + SHEET_JS + SHARE_JS} />
+  <Fragment slot="scripts" set:html={TREE_ACTIONS_JS + VISITED_SYNC_JS + cityMapScript(markers, [avgLat, avgLng], null, otherCities, [], split.inTown.map((t: any) => ({ lat: t.location.latitude, lng: t.location.longitude })), "en", oneMap) + SHEET_JS + SHARE_JS} />
 </Base>

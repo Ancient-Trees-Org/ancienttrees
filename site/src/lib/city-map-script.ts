@@ -24,6 +24,9 @@ import { distSpan } from "./trees";
 import type { WalkMarker, Walk } from "./walks";
 import { mapCardJs } from "./map-card-js";
 import { mapFiltersJs } from "./map-filters-js";
+import { treeCardJs } from "./tree-card";
+import { placeCardJs } from "./browse-card";
+import { cityViewJs, type CityViewWords } from "./city-view-js";
 
 export interface OtherCity {
   slug: string;
@@ -87,7 +90,10 @@ export function cityMapScript(
    *  opening frame is drawn round these, so Copenhagen opens on Copenhagen
    *  and not on Dyrehaven as well (Hidde, 2026-10-06). */
   inTown?: { lat: number; lng: number }[],
-  lang = "en"
+  lang = "en",
+  /** One map (lib/one-map.ts): leaving the city turns the panel into the
+   *  map's trees in view (city-view-js.ts). */
+  oneMap?: { explorePath: string; words: CityViewWords }
 ): string {
   const data = JSON.stringify(markers);
   // TREES ON ONE SPOT (Hidde, 2026-10-15, the Ajuda dragon tree hidden under
@@ -118,7 +124,7 @@ export function cityMapScript(
 
   const home = homeBounds(inTown && inTown.length >= 2 ? inTown : markers);
 
-  return mapScript(`${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${treeMapJs()}${mapFiltersJs()}
+  return mapScript(`${PILES_JS}${mapCardJs(lang)}${treePinsJs()}${treeMapJs()}${mapFiltersJs()}${oneMap ? treeCardJs() + placeCardJs() : ""}
 var markers = ${data};
 // THE FILTER ROW (lib/map-filters-js.ts), the explore map's, wired here before
 // the map for the reason given there (Hidde, 2026-11-01: "put the filters also
@@ -126,6 +132,8 @@ var markers = ${data};
 // card in the list; the other places' trees go the same way. The species list
 // comes from /api/map-species.json when the chip is first opened.
 var SPECIES = null, SPECIES_L = null;
+// One map: true while the panel is the map's trees in view (city-view-js.ts).
+function _inView() { return typeof VIEW !== 'undefined' && VIEW === true; }
 var OFF = markers.map(function() { return false; });
 var NEARBY = [];
 // The species' pin drawings for the other places' trees, by the index
@@ -160,6 +168,7 @@ function applyCityFilters() {
     var card = document.getElementById('tree-' + (i + 1));
     if (card) { card.style.display = keep ? '' : 'none'; }
   });
+  if (_inView()) { _viewFilter(); renderPanel(); }
   if (!pins) { atFilterCount(n); return; }
   pins.setData(allFeatures());
   if (pins.selected() === null && typeof mapCard !== 'undefined' && mapCard && mapCard.isOpen()) { mapCard.close(); }
@@ -196,15 +205,16 @@ var T = atTreeMap({
   },
   seen: function(p) { return readSeen().indexOf(p.id) !== -1; },
   // This city's own tree selects its row first; a neighbour gets the card.
-  open: function(p) { if (p.home) { selectTree(p.ix); return true; } return false; },
+  open: function(p) { if (p.home && !_inView()) { selectTree(p.ix); return true; } return false; },
   cardFor: function(p) {
-    if (!p.home) { return null; }
+    if (!p.home || _inView()) { return null; }
     var card = cardOf(p.ix);
     return card ? { el: card, href: hrefOf(card) } : null;
   },
   ready: function(p, c) { initPins(p, c); }
 });
 var map = T.map;
+${oneMap ? cityViewJs(lang, oneMap.explorePath, oneMap.words) : ""}
 // EVERY TREE IN VIEW, the explore map's way (Hidde, 2026-11-01, zooming out
 // from Amsterdam: the neighbours' trees were missing, then every dot was a
 // whole city that opened another page). The city map is the explore map

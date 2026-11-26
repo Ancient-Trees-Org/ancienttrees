@@ -196,6 +196,15 @@
       "android": "nothing to change: the map tab is already one map with one list",
       "status": "one-sided",
       "why": "the website catching up with the phones, which already have one map"
+    },
+    {
+      "what": "One map on the website, step 2 (Hidde, 2026-11-26), Tokyo first (lib/one-map.ts ONE_MAP_CITIES): a city page's cross beside share, or moving the map off the city, turns the panel into the map's trees in view and the address into /explore#map=...; Back brings the city's panel back",
+      "since": "2026-11-26",
+      "web": "city-view-js.ts in cityMapScript, the list from view-list-js.ts, its data from /api/map-view/<lang>.json; PlaceHead's close",
+      "ios": "the map tab already shows a place's header and list and drops them when you move the map yourself (MapTab onUserMove); nothing to change",
+      "android": "the map tab does the same as iOS; nothing to change",
+      "status": "one-sided",
+      "why": "the website catching up with the phones, which already have one map"
     }
   ]
 }
