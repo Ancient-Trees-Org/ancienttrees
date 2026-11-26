@@ -99,6 +99,19 @@
           "contributor_user_id": "p_2d57f02847d77aa9cc40c5a1",
           "sighting_id": "ecbeb1a2-03b5-4ec4-b19c-4772926d63eb-extra-1",
           "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/var_001-the-great-cedar-of-varese-23ce27a5.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_8e81b8648dbc14a87b1c569f",
+          "sighting_id": "23ce27a5-b254-49a5-8753-5efb5a8e8e7d",
+          "note": "Photographed by a reader and sent through the app (2026-11-26); a viewing pass approved it on 2026-11-26: The Great Cedar of Varese from across the lawn, whole crown in frame; a further view beside the lead from the same reader. Species seen: cedar: dark blue-green tiered sprays on several trunks, broad flat-topped crown. Fits the description: several trunks inside a low fence, information boards and the white bench with a red heart in front on the lawn.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
         }
       ]
     },
@@ -155,7 +168,22 @@
       "age_estimate": "about 161 years (planted in 1865, by a reader's account)",
       "age_min": 161,
       "age_max": 161,
-      "age_basis": "source"
+      "age_basis": "source",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/var_002-the-ginkgo-of-varese-d231f7ce.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_8e81b8648dbc14a87b1c569f",
+          "sighting_id": "d231f7ce-25a9-4ad1-a162-a1ba237cdba4",
+          "note": "Photographed by a reader and sent through the app (2026-11-26); a viewing pass approved it on 2026-11-26: The Varese ginkgo, bare after leaf fall, the yellow leaves on the path below; a second view of the tree, the lead in leaf stays. Species seen: ginkgo: bare winter crown of long rising limbs from a dark ridged trunk, its fan leaves fallen yellow on the gravel. Fits the description: a tall single trunk opening into long limbs, by a garden path with an information board, 23 m from our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        }
+      ]
     },
     {
       "id": "var_003",

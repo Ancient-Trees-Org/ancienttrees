@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 reader judge: two more Varese photographs, and a night shot of the Tsagarada plane
+
+- Live: the Varese reader sent two more photographs. The ginkgo (var_002) is shown bare after leaf fall, with its yellow leaves on the path. The Great Cedar (var_001) is shown whole from across the lawn, with the heart bench in front. Both are clearly our trees (23 m and 13 m from our pins, species and setting match), so both went into the gallery. The reader's earlier photographs stay as the leads: the ginkgo's lead shows it in leaf.
+- Live: a further photograph of the Plane of Agia Paraskevi (tsg_001). It is a night shot looking up into the lit crown, published through reader_extras.
+- Nothing else was waiting: 0 open reports, 0 feedback, 0 tips, nothing late in reader_backlog. Lead 3c544597 (Amsterdam) is from our own account (`mine`) and still has no photo on disk.
+
 ## 2026-11-26 reader judge: readers' mail replies filed
 
 - Nothing changed on the site. The Varese reader wrote back to say thanks and that more trees from the area will come over the next few days. There was nothing to act on, so feedback 1711 is closed as handled, and its reader_words row is done (thanks, nothing to quote).

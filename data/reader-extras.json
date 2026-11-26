@@ -361,6 +361,21 @@
    },
    "tree": "bar/mtn_001"
   },
+  "17ff735e-17dc-4bb7-96b3-e2323b355f4c": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "tsg_001-the-plane-of-agia-paraskevi-17ff735e-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "tsg_001-the-plane-of-agia-paraskevi-03cf52a9.jpg",
+     "verdict": "already_live"
+    }
+   },
+   "tree": "tsagarada/tsg_001"
+  },
   "1ac97a72-073b-45cb-9bbf-b889c07bb49d": {
    "extras": {
     "1": {

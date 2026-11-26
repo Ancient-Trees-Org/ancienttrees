@@ -110,6 +110,18 @@
           "contributor_user_id": "p_f0c4b3c42fa99912d3ce18aa",
           "sighting_id": "03cf52a9-7db9-4487-a240-be778790a315",
           "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-24: A second reader's view of the Agia Paraskevi plane at night from a balcony above the square: the whole lit crown in autumn gold over the cafe tables, the bell tower beside it, a flag pole in front. Roughly this tree and a good view of where it stands, but further off than the current lead, so it joins the strip behind it. Species seen: broad plane crown with palmate leaves turning gold, pale patched trunk lit from below. Fits the description: a vast plane in the middle of the village square over the cafe tables, the paving and lamps around it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/tsg_001-the-plane-of-agia-paraskevi-17ff735e-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_f0c4b3c42fa99912d3ce18aa",
+          "sighting_id": "17ff735e-17dc-4bb7-96b3-e2323b355f4c-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

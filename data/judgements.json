@@ -353,6 +353,50 @@
    "agreed": null
   },
   {
+   "id": "sight:d231f7ce-25a9-4ad1-a162-a1ba237cdba4",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Ginkgo of Varese",
+   "city": "Varese",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/d231f7ce-25a9-4ad1-a162-a1ba237cdba4.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 23,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "publish",
+   "reason": "The Varese ginkgo bare after leaf fall, yellow leaves on the path; in the gallery behind the lead in leaf.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:23ce27a5-b254-49a5-8753-5efb5a8e8e7d",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Great Cedar of Varese",
+   "city": "Varese",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/23ce27a5-b254-49a5-8753-5efb5a8e8e7d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 13,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
+   },
+   "verdict": "publish",
+   "reason": "The Great Cedar of Varese from across the lawn, fence, boards and the heart bench in front; in the gallery behind the lead.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",

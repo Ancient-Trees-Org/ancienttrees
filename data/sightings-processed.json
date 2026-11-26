@@ -7993,6 +7993,30 @@
    "date": "2026-11-26",
    "tree_id": "var_003",
    "reason": "duplicate: the lead photograph is the same picture of the two cedars over the picnic tables that the reader also sent as a tree of its own (6eccacce), now live as varese/var_004; its extras show var_003's trunk (it already carries this reader's photograph) and the beech sent as abe80a15, now var_005"
+  },
+  "d231f7ce-25a9-4ad1-a162-a1ba237cdba4": {
+   "outcome": "added",
+   "date": "2026-11-26",
+   "tree_id": "var_002",
+   "city_slug": "varese",
+   "file": "var_002-the-ginkgo-of-varese-d231f7ce.jpg",
+   "reason": "The Varese ginkgo, bare after leaf fall, the yellow leaves on the path below; a second view of the tree, the lead in leaf stays. Species seen: ginkgo: bare winter crown of long rising limbs from a dark ridged trunk, its fan leaves fallen yellow on the gravel. Fits the description: a tall single trun",
+   "lat": 45.8152116666667,
+   "lon": 8.82316333333333,
+   "extras": 0,
+   "pin_checked": "2026-11-26"
+  },
+  "23ce27a5-b254-49a5-8753-5efb5a8e8e7d": {
+   "outcome": "added",
+   "date": "2026-11-26",
+   "tree_id": "var_001",
+   "city_slug": "varese",
+   "file": "var_001-the-great-cedar-of-varese-23ce27a5.jpg",
+   "reason": "The Great Cedar of Varese from across the lawn, whole crown in frame; a further view beside the lead from the same reader. Species seen: cedar: dark blue-green tiered sprays on several trunks, broad flat-topped crown. Fits the description: several trunks inside a low fence, information boards and th",
+   "lat": 45.8153883333333,
+   "lon": 8.82279666666667,
+   "extras": 0,
+   "pin_checked": "2026-11-26"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
