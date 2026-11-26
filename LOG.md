@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-26 night run (seventh attempt): nothing to ship
+
+Pulled, no claims standing. The READY leads are still the same 3 (york, guimaraes, leamington-spa), already judged unwritable. The 382 "awaiting a writer" are stale files or duplicates of live trees, and own research is paused. Nothing claimed or shipped.
+
 ## 2026-11-26 night run (sixth attempt): nothing to ship
 
 Pulled, no claims standing. 3 READY leads (york, guimaraes, leamington-spa) still unwritable. `passcheck.py --pending` shows only stale files, duplicates of live trees under other ids, and id clashes with live trees (alpujarras, cardiff, coimbra, croatia, cyprus and others), so no write pass is safe. Own research is paused. reader_words has 0 waiting, 4 mail sentences await the sender's yes. The Amsterdam sighting 3c544597 belongs to the reader judge. Nothing shipped.
