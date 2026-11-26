@@ -174,8 +174,15 @@ struct TabBar: View {
                         // pill is what makes it readable without looking.
                         .background {
                             if i == selected {
+                                // WIDER THAN ITS SLOT (Hidde, 2026-11-26, Polarsteps'
+                                // bar: "het cirkeltje achter het icoon wat groter ...
+                                // daardoor valt de tekst er goed onder"): measured on
+                                // his screenshot, their pill is 79 points on a 71
+                                // point slot, so the word sits well inside it. Ours
+                                // reaches 4 into the bar's own padding each side.
                                 Capsule()
                                     .fill(Brand.ground.opacity(0.92))
+                                    .padding(.horizontal, -4)
                                     .shadow(color: .black.opacity(0.06), radius: 3, y: 1)
                                     .matchedGeometryEffect(id: "tab-pill", in: pill)
                             }

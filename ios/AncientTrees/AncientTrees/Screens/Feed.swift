@@ -43,6 +43,7 @@ struct FeedView: View {
     @State private var grid = ProcessInfo.processInfo.arguments.contains("-feedgrid")
     /// The post the big view scrolls to after a tile was tapped.
     @State private var jumpTo: String?
+    @Namespace private var layoutLine
     /// Every post the server sent, each with the one before it (the cursor
     /// that returns exactly this post, for the name after a sign-in).
     @State private var posts: [(post: FeedPosts.Post, prev: FeedPosts.Post?)] = []
@@ -122,27 +123,26 @@ struct FeedView: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 12) {
-            HStack(alignment: .firstTextBaseline) {
-                Text("Feed")
-                    .font(.screenTitle)
-                    .foregroundStyle(Brand.ink)
-                Spacer(minLength: 8)
-                layoutToggle
-                    // On the title's cap height, as Discover's bell is.
-                    .alignmentGuide(.firstTextBaseline) { d in d[VerticalAlignment.center] + 12 }
-            }
+            Text("Feed")
+                .font(.screenTitle)
+                .foregroundStyle(Brand.ink)
             HStack(spacing: 8) {
                 ForEach(FeedPosts.Filter.allCases, id: \.self) { f in
                     FilterChip(label: f.label, icon: nil, on: filter == f) { choose(f) }
                         .accessibilityIdentifier("feed-filter-\(f.rawValue)")
                 }
             }
+            layoutToggle
+                .padding(.horizontal, -Self.edge)
         }
     }
 
-    /// Big or three across: the two glyphs side by side, the one on screen in
-    /// ink, the other soft (Instagram's profile tabs, iNaturalist's view
-    /// switch), each a 44 point target.
+    /// Big or three across: Instagram's profile tabs, read off its page on
+    /// 2026-11-26 (CONVENTIONS.md "A feed shown big or as a grid"): a row
+    /// across the full width, one glyph per half, the one on screen in ink
+    /// with a line under its half, the other soft, a hairline under the row.
+    /// The grid glyph is Instagram's, a square split three by three; the big
+    /// view's is two stacked cards, a feed of posts.
     private var layoutToggle: some View {
         HStack(spacing: 0) {
             ForEach([false, true], id: \.self) { g in
@@ -150,10 +150,16 @@ struct FeedView: View {
                     withAnimation(.snappy(duration: 0.2)) { grid = g }
                     Measure.event("feed_layout", ["layout": g ? "grid" : "big"])
                 } label: {
-                    Image(systemName: g ? "square.grid.3x3" : "rectangle.portrait")
-                        .font(.system(size: 18, weight: grid == g ? .semibold : .regular))
-                        .foregroundStyle(grid == g ? Brand.ink : Brand.inkSoft.opacity(0.7))
-                        .frame(width: 44, height: 44)
+                    Image(systemName: g ? "squareshape.split.3x3" : "rectangle.grid.1x2")
+                        .font(.system(size: 20, weight: .regular))
+                        .foregroundStyle(grid == g ? Brand.ink : Brand.inkSoft.opacity(0.6))
+                        .frame(maxWidth: .infinity, minHeight: 44)
+                        .overlay(alignment: .bottom) {
+                            if grid == g {
+                                Rectangle().fill(Brand.ink).frame(height: 1.5)
+                                    .matchedGeometryEffect(id: "feed-layout-line", in: layoutLine)
+                            }
+                        }
                         .contentShape(.rect)
                 }
                 .buttonStyle(.plain)
@@ -162,7 +168,7 @@ struct FeedView: View {
                 .accessibilityIdentifier(g ? "feed-layout-grid" : "feed-layout-big")
             }
         }
-        .padding(.trailing, -10)
+        .overlay(alignment: .bottom) { Rectangle().fill(Brand.hairline).frame(height: 0.5) }
     }
 
     /// The grid: three across, 4:5, 2 apart, edge to edge. A tile is the
