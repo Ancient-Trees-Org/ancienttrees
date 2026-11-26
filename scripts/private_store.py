@@ -93,6 +93,8 @@ MOVED = [
     "drafts/reply-sjaan-openbomenkaart-2026-10-31.md",
     "drafts/reply-tatiana-verona-ferrara-2026-11-03.md",
     "drafts/reply-veronika-willhalm-*2026-11-0*.md",
+    # 2026-11-26: the Varese ambassador reply carried her address (qa, at a push)
+    "drafts/reply-andrea-varese-ambassador-2026-11-26.md",
 ]
 
 
