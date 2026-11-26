@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-26 night run (17:08 window): iOS red fixed, nothing else to take
+
+- Rung 1: only lead 3c544597 (our own account, file not on disk), already noted by the reader judge; left alone. Rung 2: ios.yml's last failure on main was appfit SMALL on Explore, the Trending row's "More for <tree>" button at 24 by 44 (Home.swift). Widened to 44 by 44 with a -20 trailing padding so the layout stays; not run here (no Xcode on this runner), the next ios.yml run is the proof. Open BUG rows in data/code-audit.json (7, 6 found by people) and the web error `null has no property 'save'` were not touched this window.
+- Own research is paused and the shelf has 3 READY leads, none written.
+
 ## 2026-11-26 reader judge: a reader's autumn photograph now leads the Greenwich sweet chestnut
 
 - London (lon_005, the Sweet Chestnut of Greenwich Park): a reader sent the whole tree in late-autumn gold from the Flower Garden lawn (9a624f9b). It is now the lead photograph, filed under November, and the Commons photograph moves to the strip. The reader was mailed. Their second frame, taken seconds later a step closer (8c2f3642), was rejected as a duplicate.
