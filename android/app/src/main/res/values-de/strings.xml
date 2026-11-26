@@ -97,6 +97,9 @@
     <string name="discover_hero_2">wo immer du bist.</string>
     <string name="discover_best">Jetzt in Bestform</string>
     <string name="discover_visitors">Neu von Besuchern</string>
+    <string name="discover_trending">Diesen Monat im Trend</string>
+    <string name="trending_remove_want">Aus Will ich besuchen entfernen</string>
+    <string name="trending_more">Mehr zu %1$s</string>
     <string name="discover_a_visitor">Ein Besucher</string>
     <string name="visitors_intro">Fotos, die Menschen an den Bäumen gemacht haben, die neuesten zuerst.</string>
     <string name="visitors_end">Du hast bisher alle Fotos gesehen.</string>

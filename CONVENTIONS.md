@@ -4347,7 +4347,7 @@ Hidde, after /explore got the city page's head: "Ancient Trees Worldwide, Map, o
 
 What they share: one map, whose address follows the view without a reload, and which never names a place it was not asked for. Airbnb and AllTrails keep a separate page for Google without a big map; Google Maps puts the place on the map itself. Ours is Google Maps' shape: the city page is both Google's page and the map, the form Hidde called good ("the design of the city map is good", 2026-11-22). Proposal in the session of 2026-11-26.
 
-## Trending this month (2026-11-26, from Hidde's Polarsteps screenshot; design, not built)
+## Trending this month (2026-11-26, from Hidde's Polarsteps screenshot; built on iOS and Android)
 
 **Polarsteps' Verkennen tab** (Hidde's screenshot, 2026-11-26): "Trending deze maand" right after the first shelf, a numbered list three rows deep that pages sideways a column at a time, the next column peeking in at the right edge. A row is a rounded square photograph (about 60 points), a big rank number, the place in bold with its country under it in grey, and an ellipsis menu at the right.
 

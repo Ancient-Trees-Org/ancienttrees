@@ -78,7 +78,7 @@ struct HomeView: View {
     @State private var deck = Shelves()
     /// Discover's "New from visitors" row, from the server (NewFromVisitors).
     @State private var visitorRows: [NewFromVisitors.Row] = []
-    /// Discover's "Trending this month" shelf (Kit/Trending.swift, a design).
+    /// Discover's "Trending this month" shelf (Kit/Trending.swift).
     @State private var trending: [Tree] = []
     @State private var trendColumn: Int?
 
@@ -409,7 +409,7 @@ struct HomeView: View {
         .task(id: catalogue.version) { trending = await Trending.load(token: nil) { catalogue.tree($0) } }
     }
 
-    // MARK: - Trending this month (DESIGN 2026-11-26, Polarsteps' Verkennen)
+    // MARK: - Trending this month (Hidde, 2026-11-26: "bouw maar gewoon"; Polarsteps' Verkennen)
     //
     // Polarsteps' "Trending deze maand": a numbered list three rows deep
     // that pages sideways a column at a time, the next column peeking in at

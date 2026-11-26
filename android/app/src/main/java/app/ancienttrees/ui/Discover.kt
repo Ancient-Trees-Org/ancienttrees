@@ -25,6 +25,10 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.snapping.rememberSnapFlingBehavior
+import androidx.compose.ui.semantics.Role
+import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.foundation.gestures.snapping.SnapPosition
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
@@ -102,6 +106,7 @@ import androidx.compose.ui.unit.sp
 import app.ancienttrees.R
 import app.ancienttrees.account.AmbassadorAsk
 import app.ancienttrees.account.NewFromVisitors
+import app.ancienttrees.account.Trending
 import app.ancienttrees.feed.Catalogue
 import app.ancienttrees.feed.Geo
 import app.ancienttrees.feed.Here
@@ -195,6 +200,9 @@ fun DiscoverScreen(
     }
     var visitorRows by remember { mutableStateOf<List<NewFromVisitors.Row>>(emptyList()) }
     LaunchedEffect(signedIn) { visitorRows = NewFromVisitors.load(token()) { NewFromVisitors.known(it) { id -> catalogue.tree(id) } } }
+    // Trending this month, from the server (account/Trending.kt).
+    var trending by remember { mutableStateOf<List<Tree>>(emptyList()) }
+    LaunchedEffect(catalogue.version) { trending = Trending.load(null) { catalogue.tree(it) } }
     LaunchedEffect(openCollection) { openCollection?.let { act.openPage(DiscoverPage.Collection(it.second)) } }
     var searching by remember { mutableStateOf(false) }
     LaunchedEffect(searching) { act.searching(searching) }
@@ -264,7 +272,7 @@ fun DiscoverScreen(
     LaunchedEffect(discoverTo, deck) {
         val to = discoverTo ?: return@LaunchedEffect
         delay(1500)
-        runCatching { list.scrollToItem(keyIndex(deck, visitorRows, catalogue, to)) }
+        runCatching { list.scrollToItem(keyIndex(deck, visitorRows, catalogue, to, trending.size)) }
     }
 
     var refreshing by remember { mutableStateOf(false) }
@@ -281,6 +289,7 @@ fun DiscoverScreen(
             ) {
                 discoverContent(
                     deck, catalogue, origin, located, signedIn, wantToVisit, visitorRows, email, token, act, myPlaces,
+                    trending = trending,
                     open = act.openPage,
                     openVisitor = openVisitor,
                 )
@@ -347,10 +356,11 @@ fun DiscoverScreen(
 }
 
 /** The LazyColumn index of a section, for -discoverto (counted the way discoverContent emits). */
-private fun keyIndex(deck: Shelves, rows: List<NewFromVisitors.Row>, c: Catalogue, to: String): Int {
+private fun keyIndex(deck: Shelves, rows: List<NewFromVisitors.Row>, c: Catalogue, to: String, trending: Int = 0): Int {
     val keys = ArrayList<String>()
     keys += "discover-top"
     if (deck.best.size >= 3) keys += "best"
+    if (trending >= 3) keys += "discover-trending"
     if (NewFromVisitors.tiles(rows) { c.tree(it) }.size >= NewFromVisitors.MINIMUM) keys += "visitors"
     keys += "cities"
     deck.here?.let { (slug, _) -> if (c.ambassadors(slug).isEmpty() && !c.seated(slug)) keys += "ambassador" }
@@ -413,6 +423,7 @@ private fun LazyListScope.discoverContent(
     token: suspend () -> String?,
     act: DiscoverActions,
     myPlaces: List<String>,
+    trending: List<Tree>,
     open: (DiscoverPage) -> Unit,
     openVisitor: (NewFromVisitors.Row) -> Unit,
 ) {
@@ -423,6 +434,13 @@ private fun LazyListScope.discoverContent(
     if (deck.best.size >= 3) {
         block("best") {
             Section(stringResource(R.string.discover_best)) { TileShelf(deck.best, ::tag, act.openTree) }
+        }
+    }
+
+    // TRENDING THIS MONTH after the first shelf, where Polarsteps puts it (2026-11-26).
+    if (trending.size >= 3) {
+        block("discover-trending") {
+            Section(stringResource(R.string.discover_trending)) { TrendingShelf(trending, act.openTree) }
         }
     }
 
@@ -558,6 +576,98 @@ private fun LazyListScope.discoverContent(
             ) {
                 for (t in rows[i]) Tile(t, tag(t), Modifier.weight(1f).semantics { contentDescription = "tree-card" }, saveable = true) { act.openTree(t) }
                 repeat(3 - rows[i].size) { Spacer(Modifier.weight(1f)) }
+            }
+        }
+    }
+}
+
+/**
+ * TRENDING THIS MONTH (Home.swift trendingShelf, CONVENTIONS.md "Trending this
+ * month"): a numbered list three rows deep that pages sideways a column at a
+ * time, the next column peeking in at the right edge, Polarsteps' Verkennen
+ * shelf. A row: a 60 rounded square photograph, the rank in the name's own
+ * type, the tree's name with its place under it, and the row's menu (⋮, the
+ * system's overflow sign on Android, Airbnb's line).
+ */
+@Composable
+private fun TrendingShelf(trees: List<Tree>, onOpen: (Tree) -> Unit) {
+    val columns = trees.withIndex().chunked(3)
+    val state = rememberLazyListState()
+    val conf = androidx.compose.ui.platform.LocalConfiguration.current
+    // One column is the screen less the margin and the next column's peek.
+    val colWidth = (conf.screenWidthDp - 16 - 16 - 44).dp
+    LazyRow(
+        state = state,
+        contentPadding = PaddingValues(horizontal = 16.dp),
+        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        flingBehavior = rememberSnapFlingBehavior(state, SnapPosition.Start),
+        modifier = Modifier.semantics { contentDescription = "discover-trending" },
+    ) {
+        items(columns.size, key = { "trend-$it" }) { c ->
+            Column(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.width(colWidth)) {
+                for ((i, t) in columns[c]) TrendRow(i + 1, t) { onOpen(t) }
+            }
+        }
+    }
+}
+
+@Composable
+private fun TrendRow(rank: Int, t: Tree, onOpen: () -> Unit) {
+    val brand = Brand.colors
+    val marks = LocalTreeMarks.current
+    val context = LocalContext.current
+    var menu by remember { mutableStateOf(false) }
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            modifier = Modifier.weight(1f).clickable(onClick = onOpen),
+        ) {
+            Box(Modifier.size(60.dp).clip(RoundedCornerShape(12.dp)).background(brand.surfaceMuted)) {
+                t.photo?.let { RemoteImage(it.card, null, Modifier.fillMaxSize()) }
+            }
+            // THE NUMBER IN THE NAME'S OWN TYPE (Hidde, 2026-11-26: "de getallen
+            // zijn belachelijk groot").
+            Text("$rank", fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 16.sp, color = brand.ink)
+            Column(verticalArrangement = Arrangement.spacedBy(2.dp), modifier = Modifier.weight(1f)) {
+                Text(t.name, fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 16.sp, color = brand.ink,
+                    maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(t.city, fontSize = 15.sp, color = brand.inkSoft, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
+        }
+        Box {
+            val more = stringResource(R.string.trending_more, t.name)
+            Box(
+                contentAlignment = Alignment.Center,
+                modifier = Modifier.size(width = 32.dp, height = 44.dp)
+                    .clickable(role = Role.Button) { menu = true }
+                    .semantics { contentDescription = more },
+            ) { Icon(Sym.MoreVert, null, tint = brand.inkSoft, modifier = Modifier.size(20.dp)) }
+            DropdownMenu(expanded = menu, onDismissRequest = { menu = false }, containerColor = brand.surface) {
+                val saved = t.id in marks.saved
+                DropdownMenuItem(
+                    text = { MenuText(stringResource(if (saved) R.string.trending_remove_want else R.string.want_to_visit)) },
+                    leadingIcon = { Icon(if (saved) Sym.BookmarkFill else Sym.Bookmark, null, tint = brand.ink) },
+                    onClick = { menu = false; marks.onSave(t) },
+                )
+                DropdownMenuItem(
+                    text = { MenuText(stringResource(R.string.share_tree)) },
+                    leadingIcon = { Icon(Sym.Share, null, tint = brand.ink) },
+                    onClick = {
+                        menu = false
+                        if (t.url.isNotEmpty()) {
+                            app.ancienttrees.account.Measure.event("share_tapped", mapOf("where" to "trending"))
+                            val link = "https://ancienttrees.app" + t.url + (if ('?' in t.url) "&" else "?") +
+                                "utm_source=share&utm_medium=app&utm_campaign=trending"
+                            val send = Intent(Intent.ACTION_SEND).apply {
+                                type = "text/plain"
+                                putExtra(Intent.EXTRA_SUBJECT, t.name)
+                                putExtra(Intent.EXTRA_TEXT, link)
+                            }
+                            context.startActivity(Intent.createChooser(send, null))
+                        }
+                    },
+                )
             }
         }
     }

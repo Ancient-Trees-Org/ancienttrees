@@ -1,9 +1,10 @@
--- TRENDING THIS MONTH, Discover's numbered shelf (DESIGN 2026-11-26, after
+-- TRENDING THIS MONTH, Discover's numbered shelf (2026-11-26, after
 -- Hidde's look at Polarsteps' Verkennen tab; his note on the first design:
 -- "is het niet veel logischer om bomen trending te maken: bomen die veel
 -- worden gefotografeerd, geliked, worth a visit").
 --
--- Paste once into the Supabase SQL editor and run it; idempotent. Nothing
+-- Paste once into the Supabase SQL editor and run it; idempotent. Pasted by
+-- Hidde 2026-11-26. Nothing
 -- new is stored: it reads four tables that already exist.
 --
 -- trending_trees(days, n): the trees the most DIFFERENT people did something

@@ -1,5 +1,5 @@
-// TRENDING THIS MONTH, Discover's numbered shelf (DESIGN, 2026-11-26, after
-// Hidde's look at Polarsteps' Verkennen tab: "Trending deze maand").
+// TRENDING THIS MONTH, Discover's numbered shelf (2026-11-26, after Hidde's
+// look at Polarsteps' Verkennen tab; built on his "bouw maar gewoon").
 //
 // TREES, not places (Hidde, on the first design: "is het niet veel logischer
 // om bomen trending te maken: bomen die veel worden gefotografeerd, geliked,
@@ -18,8 +18,8 @@ enum Trending {
     static let days = 30
 
     static func load(token: String?, tree: (String) -> Tree?) async -> [Tree] {
-        // Design scaffolding: -trendingids=a,b,c stands in for the server
-        // until trending-trees.sql is pasted (the sweep's screenshots).
+        // -trendingids=a,b,c stands in for the server, for a sweep's
+        // screenshot with a fixed list.
         if let a = ProcessInfo.processInfo.arguments.first(where: { $0.hasPrefix("-trendingids=") }) {
             return pick(a.dropFirst(13).split(separator: ",").map(String.init), tree: tree)
         }

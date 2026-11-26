@@ -96,6 +96,9 @@
     <string name="discover_hero_2">どこにいても。</string>
     <string name="discover_best">今が見頃</string>
     <string name="discover_visitors">訪問者からの新着</string>
+    <string name="discover_trending">今月の注目</string>
+    <string name="trending_remove_want">行きたい木から外す</string>
+    <string name="trending_more">%1$sのその他</string>
     <string name="discover_a_visitor">訪問者</string>
     <string name="visitors_intro">訪れた人が木のそばで撮った写真です。新しい順に並んでいます。</string>
     <string name="visitors_end">今のところ、すべての写真を見ました。</string>

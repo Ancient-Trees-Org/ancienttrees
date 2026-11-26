@@ -97,6 +97,9 @@
     <string name="discover_hero_2">waar je ook bent.</string>
     <string name="discover_best">Nu op hun mooist</string>
     <string name="discover_visitors">Nieuw van bezoekers</string>
+    <string name="discover_trending">Trending deze maand</string>
+    <string name="trending_remove_want">Verwijderen uit Wil ik bezoeken</string>
+    <string name="trending_more">Meer voor %1$s</string>
     <string name="discover_a_visitor">Een bezoeker</string>
     <string name="visitors_intro">Foto\'s die mensen bij de bomen maakten, de nieuwste eerst.</string>
     <string name="visitors_end">Je hebt alle foto\'s tot nu toe gezien.</string>

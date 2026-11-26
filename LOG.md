@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-26 session: Trending this month on Discover, iPhone and Android
+
+- In the apps, next build: Discover has a new shelf, "Trending this month", after "At their best now". Hidde asked for it after looking at Polarsteps' Verkennen tab; he approved the design from simulator screenshots ("bouw maar gewoon"). It holds nine trees as numbered rows, three to a column, and pages sideways. A row shows the photo, the rank, the tree's name and its place. A tap opens the tree; the menu offers Want to visit and Share.
+- What trends: the trees the most different people photographed, hearted, voted Worth the visit or saved in the last 30 days. Each person counts once per tree, and our own accounts are left out. The count is `trending_trees` (supabase/trending-trees.sql). Hidde pasted it today, and anon gets ids and counts only. Today's top three: the Totteridge Yew (11 people), Ankerwycke and Llangernyw. Saves carry most of the ranking; photographs alone are flat.
+- Hidde's corrections on the first design are recorded in CONVENTIONS.md "Trending this month": trees, not cities, and a rank number in the name's own type rather than Polarsteps' big numeral.
+- Not on the website. The shelf is an app pattern, and the website home has no shelf like it yet.
+
 ## 2026-11-26 reader judge: two more Varese photographs, and a night shot of the Tsagarada plane
 
 - Live: the Varese reader sent two more photographs. The ginkgo (var_002) is shown bare after leaf fall, with its yellow leaves on the path. The Great Cedar (var_001) is shown whole from across the lawn, with the heart bench in front. Both are clearly our trees (23 m and 13 m from our pins, species and setting match), so both went into the gallery. The reader's earlier photographs stay as the leads: the ginkgo's lead shows it in leaf.
