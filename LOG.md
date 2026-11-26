@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 reader judge: the Palheiro araucaria gets its planting date
+
+- Changed on the site: Palheiro Gardens' Tall Araucaria (mdr_013, Madeira) now says it is about 215 years old, by a reader's estimate. The reader who added it wrote back that the garden believes it was planted around 1810 by the first Count of Carvalhal. The age is on the page in our own words, in English and in the Portuguese overlay. It is not quoted, since a mail needs their yes first.
+- For Hidde: the same reader asks when the Android app comes out, because they want to add more of the garden's trees on site. A reply offering them the Android test group is in drafts/reply-reader-1708-2026-11-26.md (mailcheck is clean). Feedback 1708 is closed as needs_hidde.
+- No readers' trees, photographs or reports were waiting. The one queue item (3c544597) is from our own account (`mine`) and its photo is not on disk, so it stays.
+
 ## 2026-11-26 reader judge: the Varese campus gets its history from a reader
 
 - Changed on the site: the reader who sent the Varese campus beech wrote back that the campus began as a psychiatric hospital in the early 1900s. That fact is now in the stories of var_003, var_004 and var_005, stated as theirs and in our words. It is not quoted, since a mail needs their yes before we quote it. Feedback 1707 is closed as handled, and its reader_words row is done.

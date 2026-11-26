@@ -544,13 +544,17 @@
       "id": "mdr_013",
       "name": "The Tall Araucaria of Palheiro Gardens",
       "species": "Norfolk Island Pine (Araucaria heterophylla)",
+      "age_estimate": "about 215 years by a reader's estimate (the garden believes it was planted around 1810)",
+      "age_min": 200,
+      "age_max": 230,
+      "age_basis": "source",
       "location": {
         "address": "Quinta do Palheiro Ferreiro (Palheiro Gardens), Caminho do Palheiro 32, Sao Goncalo, Funchal",
         "latitude": 32.6593,
         "longitude": -16.86698,
         "neighbourhood": "Sao Goncalo, Funchal"
       },
-      "story": "\"At 48 m, this is one of the tallest trees recorded in Madeira,\" wrote the reader who sent us this araucaria from Palheiro Gardens, in the hills east of Funchal. They found it listed in the island's 2008 survey of monumental trees, Árvores Monumentais e Emblemáticas da Madeira, and say three more araucarias in the same garden pass 40 metres.\n\nThe height is their figure; we have not seen the survey page ourselves. The photograph makes it easy to believe. The tree stands alone on an open lawn and climbs in tiers, each whorl of branches held out flat and tipped with upturned tufts, the trunk a straight dark line all the way to the top. At the foot it flares into a low skirt of roots on the grass, and the trees behind it reach less than half its height.\n\nThe reader knows it as a Norfolk Island pine, a tree from a small island in the South Pacific that warm gardens plant for exactly this geometry. Palheiro was first planted as woodland by the first Count of Carvalhal early in the nineteenth century, they write, and has more monumental trees than anywhere else on Madeira.\n\nEntry to the gardens is paid. Walk back across the lawn to fit the whole tree in.",
+      "story": "\"At 48 m, this is one of the tallest trees recorded in Madeira,\" wrote the reader who sent us this araucaria from Palheiro Gardens, in the hills east of Funchal. They found it listed in the island's 2008 survey of monumental trees, Árvores Monumentais e Emblemáticas da Madeira, and say three more araucarias in the same garden pass 40 metres.\n\nThe height is their figure; we have not seen the survey page ourselves. The photograph makes it easy to believe. The tree stands alone on an open lawn and climbs in tiers, each whorl of branches held out flat and tipped with upturned tufts, the trunk a straight dark line all the way to the top. At the foot it flares into a low skirt of roots on the grass, and the trees behind it reach less than half its height.\n\nThe reader knows it as a Norfolk Island pine, a tree from a small island in the South Pacific that warm gardens plant for exactly this geometry. The garden believes it was planted around 1810 by the property's first owner, the first Count of Carvalhal, who laid Palheiro out as woodland, they write; that makes it about 215 years old by a reader's estimate. Palheiro has more monumental trees than anywhere else on Madeira, they add.\n\nEntry to the gardens is paid. Walk back across the lawn to fit the whole tree in.",
       "verified_sources": [
         "Árvores Monumentais e Emblemáticas da Madeira (Direção Regional de Florestas, 2008), cited by the reader: a Norfolk Island pine of 48 m in Palheiro Gardens",
         "https://www.madeira-web.com/en/places/funchal/gardens-parks/quinta-palheiro-ferreiro.html"
@@ -578,7 +582,7 @@
         "sighting_id": "tip-1700",
         "date": "2026-11-26"
       },
-      "verify_notes": "2026-11-26 reader judge: sent by a reader (tip-1700, through the website tip form, which downsizes the photo and drops its camera data, so no EXIF is expected; a real photograph, no screenshot bars or overlays). Photograph viewed: the whole araucaria alone on a lawn, tier on tier of flat branches up a straight trunk, roots flaring at its foot, another araucaria at the right edge, overcast daylight, colour. Published under the closed list for a reader's tree. No GPS: pinned approximately on the Palheiro Gardens point already used for mdr_010. The reader's own figures: name 'Norfolk Island pine (Araucaria heterophylla), Palheiro Gardens', height 48 m and listing in the 2008 DRF survey (not seen by us), girth 572 cm (kept in their note, not in girth_cm). Funchal's PDM Quadro 5 lists an 'araucaria da Queenslandia' at Palheiro; we do not claim this is that entry."
+      "verify_notes": "2026-11-26 reader judge: sent by a reader (tip-1700, through the website tip form, which downsizes the photo and drops its camera data, so no EXIF is expected; a real photograph, no screenshot bars or overlays). Photograph viewed: the whole araucaria alone on a lawn, tier on tier of flat branches up a straight trunk, roots flaring at its foot, another araucaria at the right edge, overcast daylight, colour. Published under the closed list for a reader's tree. No GPS: pinned approximately on the Palheiro Gardens point already used for mdr_010. The reader's own figures: name 'Norfolk Island pine (Araucaria heterophylla), Palheiro Gardens', height 48 m and listing in the 2008 DRF survey (not seen by us), girth 572 cm (kept in their note, not in girth_cm). Funchal's PDM Quadro 5 lists an 'araucaria da Queenslandia' at Palheiro; we do not claim this is that entry. 2026-11-26 reader judge: the reader's mail reply (feedback 1708) says the garden believes it was planted around 1810 by the first Count of Carvalhal; on the page as a reader's estimate, paraphrased (no quote yes asked)."
     }
   ]
 }
