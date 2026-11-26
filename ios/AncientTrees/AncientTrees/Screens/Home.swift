@@ -78,6 +78,9 @@ struct HomeView: View {
     @State private var deck = Shelves()
     /// Discover's "New from visitors" row, from the server (NewFromVisitors).
     @State private var visitorRows: [NewFromVisitors.Row] = []
+    /// Discover's "Trending this month" shelf (Kit/Trending.swift, a design).
+    @State private var trending: [Trending.Place] = []
+    @State private var trendColumn: Int?
 
     struct Shelves {
         /// The season where you stand: its word, the photographed tree at its
@@ -281,6 +284,10 @@ struct HomeView: View {
         .task {
             if let a = ProcessInfo.processInfo.arguments.first(where: { $0.hasPrefix("-discoverto=") }) {
                 try? await Task.sleep(for: .seconds(1.5))
+                // The trending shelf arrives from the server, later.
+                for _ in 0..<40 where a.hasSuffix("trending") && trending.isEmpty {
+                    try? await Task.sleep(for: .seconds(0.5))
+                }
                 proxy.scrollTo("discover-" + a.dropFirst(12), anchor: .top)
             }
         }
@@ -399,6 +406,103 @@ struct HomeView: View {
         // Asked again on a sign-in or out: the account id comes only to a
         // signed-in caller, so the names turn into links without a relaunch.
         .task(id: account.isSignedIn) { visitorRows = await NewFromVisitors.load(token: await account.freshToken(), known: { NewFromVisitors.known($0) { catalogue.tree($0) } }) }
+        .task(id: catalogue.version) { trending = await Trending.load(token: nil) { catalogue.tree($0) } }
+    }
+
+    // MARK: - Trending this month (DESIGN 2026-11-26, Polarsteps' Verkennen)
+    //
+    // Polarsteps' "Trending deze maand": a numbered list three rows deep
+    // that pages sideways a column at a time, the next column peeking in at
+    // the right edge (CONVENTIONS.md "Trending this month"). Each row is a
+    // rounded square photograph, a big rank number, the place in bold with
+    // its country under it in grey, and the row's menu. A row opens the place
+    // on the map, as every place card on Discover does.
+    private static let trendThumb: CGFloat = 60
+
+    @ViewBuilder private var trendingShelf: some View {
+        if trending.count >= 3 {
+            let columns = stride(from: 0, to: trending.count, by: 3).map {
+                Array(trending.enumerated())[$0..<min($0 + 3, trending.count)]
+            }
+            section("Trending this month") {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    LazyHStack(alignment: .top, spacing: 16) {
+                        ForEach(columns.indices, id: \.self) { c in
+                            VStack(alignment: .leading, spacing: 12) {
+                                ForEach(columns[c], id: \.element.slug) { trendRow($0.offset + 1, $0.element) }
+                            }
+                            // One column is the screen less the margin and
+                            // the next column's peek, as in the reference.
+                            .containerRelativeFrame(.horizontal) { w, _ in w - 16 - 16 - 44 }
+                            .id(c)
+                        }
+                    }
+                    .scrollTargetLayout()
+                }
+                // -trendingcolumn=N opens the shelf on column N, for the
+                // sweep's screenshot of a swiped shelf (simctl cannot swipe).
+                .scrollPosition(id: $trendColumn, anchor: .leading)
+                .task {
+                    if let a = ProcessInfo.processInfo.arguments.first(where: { $0.hasPrefix("-trendingcolumn=") }),
+                       let n = Int(a.dropFirst(16)) {
+                        try? await Task.sleep(for: .seconds(0.5))
+                        trendColumn = n
+                    }
+                }
+                .contentMargins(.horizontal, 16, for: .scrollContent)
+                .scrollTargetBehavior(.viewAligned)
+                .accessibilityIdentifier("discover-trending")
+            }
+            .id("discover-trending")
+        }
+    }
+
+    private func trendRow(_ rank: Int, _ p: Trending.Place) -> some View {
+        HStack(spacing: 4) {
+            PlaceLink(route: .city(p.slug)) {
+                HStack(spacing: 12) {
+                    Color.clear.frame(width: Self.trendThumb, height: Self.trendThumb)
+                        .overlay {
+                            TreePhoto(url: p.shot?.card ?? p.tree.photo?.card) { Brand.surfaceMuted }
+                        }
+                        .clipShape(.rect(cornerRadius: 12, style: .continuous))
+                    Text("\(rank)")
+                        .font(.brand(30, .black, relativeTo: .title))
+                        .foregroundStyle(Brand.ink)
+                        .monospacedDigit()
+                        .frame(width: 22, alignment: .center)
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text(p.name)
+                            .font(.brand(16, .bold, relativeTo: .headline))
+                            .foregroundStyle(Brand.ink).lineLimit(1)
+                        Text(p.country)
+                            .font(.subheadline).foregroundStyle(Brand.inkSoft).lineLimit(1)
+                    }
+                    .layoutPriority(1)
+                    Spacer(minLength: 0)
+                }
+                .contentShape(.rect)
+            }
+            .accessibilityElement(children: .combine)
+            .accessibilityLabel("\(rank). \(p.name), \(p.country)")
+            Menu {
+                Button { navigator.push = .city(p.slug) } label: {
+                    Label("Show on the map", systemImage: "map")
+                }
+                if let url = Shared.page("/\(p.slug)", from: "trending") {
+                    ShareLink(item: url, subject: Text(p.name)) {
+                        Label("Share", systemImage: "square.and.arrow.up")
+                    }
+                }
+            } label: {
+                Image(systemName: "ellipsis")
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundStyle(Brand.inkSoft)
+                    .frame(width: 24, height: 44)
+                    .contentShape(.rect)
+            }
+            .accessibilityLabel("More for \(p.name)")
+        }
     }
 
     /// The website leads with one tree rather than with a grid, and so does
@@ -843,6 +947,9 @@ struct HomeView: View {
         if deck.best.count >= 3 {
             section("At their best now") { tileShelf(deck.best) }
         }
+
+        // TRENDING THIS MONTH after the first shelf, where Polarsteps puts it.
+        trendingShelf
 
         // NEW FROM VISITORS (Hidde, 2026-11-06, approved in the simulator):
         // the newest photographs visitors sent that went live, one tile per

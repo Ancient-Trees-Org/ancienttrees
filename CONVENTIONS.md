@@ -4346,3 +4346,9 @@ Hidde, after /explore got the city page's head: "Ancient Trees Worldwide, Map, o
 **Google Maps** (from use, not re-read): one map, a place is `/maps/place/<name>/@lat,lng,zoom` and its panel; zooming out keeps the place's panel until you close it.
 
 What they share: one map, whose address follows the view without a reload, and which never names a place it was not asked for. Airbnb and AllTrails keep a separate page for Google without a big map; Google Maps puts the place on the map itself. Ours is Google Maps' shape: the city page is both Google's page and the map, the form Hidde called good ("the design of the city map is good", 2026-11-22). Proposal in the session of 2026-11-26.
+
+## Trending this month (2026-11-26, from Hidde's Polarsteps screenshot; design, not built)
+
+**Polarsteps' Verkennen tab** (Hidde's screenshot, 2026-11-26): "Trending deze maand" right after the first shelf, a numbered list three rows deep that pages sideways a column at a time, the next column peeking in at the right edge. A row is a rounded square photograph (about 60 points), a big rank number, the place in bold with its country under it in grey, and an ellipsis menu at the right.
+
+**What we take:** the same shelf after "At their best now", built from our parts (ShelfHeader, Gabarito Black for the number, Brand colours, TreePhoto, Discover's 16 point margin, the shelf's view-aligned snap). A row is a PLACE and opens it on the map, as every place card on Discover does; the menu has Show on the map and Share. What trends: the places where the most different visitors shared a photograph of one of our trees in the last 30 days (photographs break a tie), from the public visitor_photos list, so one keen visitor cannot carry a city. Saves were the other candidate but count every save ever, not this month. Kit/Trending.swift; nine places, three columns.
