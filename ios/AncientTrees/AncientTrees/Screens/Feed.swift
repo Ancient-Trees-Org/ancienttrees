@@ -34,6 +34,15 @@ struct FeedView: View {
     static let tag = 4
 
     @State private var filter: FeedPosts.Filter = .everyone
+    /// THREE ACROSS OR ONE BIG (Hidde, 2026-11-26: "wat kleinere card view en
+    /// deze grote card view ... drie naast elkaar", "heel weinig boom per
+    /// pixel"). Instagram's profile grid: three columns of 4:5 pictures, 2
+    /// points apart, edge to edge; a tap opens that post in the big view, as
+    /// Instagram's grid opens the post in its feed. In memory only (hard rule
+    /// 11): every opening starts big.
+    @State private var grid = ProcessInfo.processInfo.arguments.contains("-feedgrid")
+    /// The post the big view scrolls to after a tile was tapped.
+    @State private var jumpTo: String?
     /// Every post the server sent, each with the one before it (the cursor
     /// that returns exactly this post, for the name after a sign-in).
     @State private var posts: [(post: FeedPosts.Post, prev: FeedPosts.Post?)] = []
@@ -62,10 +71,15 @@ struct FeedView: View {
                         // gap, not the 28 between posts.
                         header.id("feed-top").padding(.bottom, -12)
                         let list = shown
-                        ForEach(Array(list.enumerated()), id: \.element.post.key) { i, it in
-                            post(it.post, prev: it.prev, width: width)
-                                .id("feed-\(i)")
-                                .onAppear { if i >= list.count - 6 { Task { await more() } } }
+                        if grid {
+                            tiles(list, width: geo.size.width)
+                                .padding(.horizontal, -Self.edge)
+                        } else {
+                            ForEach(Array(list.enumerated()), id: \.element.post.key) { i, it in
+                                post(it.post, prev: it.prev, width: width)
+                                    .id("feed-\(i)")
+                                    .onAppear { if i >= list.count - 6 { Task { await more() } } }
+                            }
                         }
                         footer(list.isEmpty)
                     }
@@ -74,6 +88,14 @@ struct FeedView: View {
                     .padding(.bottom, 100)        // clear of the floating tab bar
                 }
                 .refreshable { await restart() }
+                .onChange(of: jumpTo) { _, id in
+                    guard let id else { return }
+                    Task { @MainActor in
+                        try? await Task.sleep(for: .milliseconds(50))
+                        proxy.scrollTo(id, anchor: .top)
+                        jumpTo = nil
+                    }
+                }
                 .onChange(of: navigator.scrollToTop?.token) { _, _ in
                     guard navigator.scrollToTop?.tab == Self.tag else { return }
                     withAnimation(.snappy) { proxy.scrollTo("feed-top", anchor: .top) }
@@ -100,14 +122,70 @@ struct FeedView: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Feed")
-                .font(.screenTitle)
-                .foregroundStyle(Brand.ink)
+            HStack(alignment: .firstTextBaseline) {
+                Text("Feed")
+                    .font(.screenTitle)
+                    .foregroundStyle(Brand.ink)
+                Spacer(minLength: 8)
+                layoutToggle
+                    // On the title's cap height, as Discover's bell is.
+                    .alignmentGuide(.firstTextBaseline) { d in d[VerticalAlignment.center] + 12 }
+            }
             HStack(spacing: 8) {
                 ForEach(FeedPosts.Filter.allCases, id: \.self) { f in
                     FilterChip(label: f.label, icon: nil, on: filter == f) { choose(f) }
                         .accessibilityIdentifier("feed-filter-\(f.rawValue)")
                 }
+            }
+        }
+    }
+
+    /// Big or three across: the two glyphs side by side, the one on screen in
+    /// ink, the other soft (Instagram's profile tabs, iNaturalist's view
+    /// switch), each a 44 point target.
+    private var layoutToggle: some View {
+        HStack(spacing: 0) {
+            ForEach([false, true], id: \.self) { g in
+                Button {
+                    withAnimation(.snappy(duration: 0.2)) { grid = g }
+                    Measure.event("feed_layout", ["layout": g ? "grid" : "big"])
+                } label: {
+                    Image(systemName: g ? "square.grid.3x3" : "rectangle.portrait")
+                        .font(.system(size: 18, weight: grid == g ? .semibold : .regular))
+                        .foregroundStyle(grid == g ? Brand.ink : Brand.inkSoft.opacity(0.7))
+                        .frame(width: 44, height: 44)
+                        .contentShape(.rect)
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel(g ? "Show as a grid" : "Show one by one")
+                .accessibilityAddTraits(grid == g ? .isSelected : [])
+                .accessibilityIdentifier(g ? "feed-layout-grid" : "feed-layout-big")
+            }
+        }
+        .padding(.trailing, -10)
+    }
+
+    /// The grid: three across, 4:5, 2 apart, edge to edge. A tile is the
+    /// photograph alone; a tap opens that post in the big view.
+    private func tiles(_ list: [(post: FeedPosts.Post, prev: FeedPosts.Post?)], width: CGFloat) -> some View {
+        let gap: CGFloat = 2
+        let side = (width - gap * 2) / 3
+        let cols = Array(repeating: GridItem(.fixed(side), spacing: gap), count: 3)
+        return LazyVGrid(columns: cols, spacing: gap) {
+            ForEach(Array(list.enumerated()), id: \.element.post.key) { i, it in
+                Button {
+                    withAnimation(.snappy(duration: 0.2)) { grid = false }
+                    jumpTo = "feed-\(i)"
+                } label: {
+                    TreePhoto(url: it.post.photo) { Brand.surfaceMuted }
+                        .frame(width: side, height: side * 5 / 4)
+                        .clipped()
+                        .contentShape(.rect)
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel(it.post.place.isEmpty ? it.post.tree_name : "\(it.post.tree_name), \(it.post.place)")
+                .accessibilityIdentifier("feed-tile")
+                .onAppear { if i >= list.count - 9 { Task { await more() } } }
             }
         }
     }
