@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 session: a screenshot waits for its maker's yes; Bella's photo off
+
+- **Rule reversed** (Hidde: "screenshot zijn wel gevaarlijk toch", "Ja, doe het"): the 2026-11-25 line that let a screenshot through unless plainly someone else's is gone from BRIEF_READER_JUDGE.md. A screenshot (no camera data, social crop, letterbox bars, filter) is held as doubt_photo and the reader is asked "Did you take it yourself?"; their yes puts it up.
+- hold_reply.py: `doubt_photo` and `doubt_photo_live` (the tree is live without the photo), `--again` for a row we already answered.
+- **Bella di Ceciliano** (arezzo/arz_001) stays live on the register; its screenshot photo is held and the texts no longer point at it. Its reader and the Tsagarada plane's reader (submission 1433) are asked, mail at the next knock.
+- Settled with Hidde: Raincliffe beech and chestnut stay leads, the two Goll Woods rows stay held, the Tsagarada screenshot stays held.
+- Confirmed sent (tell-readers run 45799891977): the "fixed, comes with the next update" mails to #1488, #1491, #1686.
+
 ## 2026-11-26 session: the feed comes from the server, live first (Hidde: "yes letsgo")
 
 **What changed for readers.** What a reader shares is in the feed at once, straight from Supabase (`feed()`, supabase/feed-live.sql), with their own name for the tree and their photo but no place or pin until the judge has looked; the judge's hold or reject takes it out, its approval turns it into the full post (name, place, pin) at the same spot in the feed (trigger supabase/feed-sent-time.sql). The checked posts live in a `feed` table with their own photo copies (supabase/feed.sql), written by `scripts/feed_publish.py` right after each judgement. One post per send now (second frames were separate posts). The apps' handling of a live post was handed to the Feed tab session.

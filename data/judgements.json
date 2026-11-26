@@ -345,8 +345,8 @@
    "reader_girth_cm": 400,
    "verdict": "lead",
    "reason": "Beech in Raincliffe Woods, about 400 cm round by the reader's measure; no spot in a large wood and no source yet, so a lead in data/leads/scarborough.json and the reader asked where exactly.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "de rest is prima",
+   "agreed": true,
    "shown": [
     "2026-11-25",
     "2026-11-26"
@@ -364,8 +364,8 @@
    "reader_girth_cm": 420,
    "verdict": "lead",
    "reason": "Chestnut in Raincliffe Woods said to be the country's second oldest, about 420 cm round by the reader's measure; no spot and no source found, so a lead in data/leads/scarborough.json and the reader asked where exactly.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "de rest is prima",
+   "agreed": true,
    "shown": [
     "2026-11-25",
     "2026-11-26"
@@ -968,8 +968,8 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "App tree row in Goll Woods whose sighting no longer exists (taken back by the reader); no photograph or words left to judge. Their two Goll Woods oaks from the same walk are live.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "de rest is prima",
+   "agreed": true,
    "shown": [
     "2026-11-26"
    ]
@@ -986,8 +986,8 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "App tree row in Goll Woods whose sighting no longer exists (taken back by the reader); no photograph or words left to judge. Their two Goll Woods oaks from the same walk are live.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "de rest is prima",
+   "agreed": true,
    "shown": [
     "2026-11-26"
    ]
@@ -2598,10 +2598,10 @@
     "score": null,
     "note": "nothing measurable about Roverella"
    },
-   "verdict": "publish",
-   "reason": "Live as arezzo/arz_001 on Hidde's word (2026-11-25, \"Ja, zet ze live\"): the reader's photograph of the registered Roverella at Ceciliano (570 cm, 24 m) leads; the screenshot doubt overruled.",
-   "hidde": "Ja, zet ze live: a screenshot of a registered monumental tree is no reason to hold",
-   "agreed": false,
+   "verdict": "hold",
+   "reason": "Photo held 2026-11-26 on Hidde's word ('screenshot zijn wel gevaarlijk toch'): a screenshot, so we cannot tell who took it; the tree stays live as arezzo/arz_001 on the register, the reader asked whether the photo is theirs (hold_reply doubt_photo_live).",
+   "hidde": "screenshot zijn wel gevaarlijk toch; Ja, doe het (photo off until the reader says it is theirs)",
+   "agreed": true,
    "shown": [
     "2026-11-25"
    ]
@@ -5628,7 +5628,7 @@
    "measure": null,
    "verdict": "hold",
    "reason": "doubt_photo: the Tsagarada plane at night in snow, framed by letterbox bars like a screenshot of a shared picture. The tree is the famous Greek lead awaiting a verify pass.",
-   "hidde": "doorgestuurde foto, boom staat al live, lezer al gemaild; niet opnieuw tonen",
+   "hidde": "screenshot zijn wel gevaarlijk toch",
    "agreed": true,
    "shown": [
     "2026-11-25",
