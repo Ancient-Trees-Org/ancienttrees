@@ -21,8 +21,12 @@ final class CountryStaysWalk: XCTestCase {
         XCTAssertTrue(Self.says(row, "Netherlands"), "the row does not start on the saved country")
         row.tapWhenSettled()
 
+        // The list opens on the chosen country (2026-11-26, iOS Settings'
+        // Region list), so "Don't show" at its top is a scroll away.
+        XCTAssertTrue(app.searchFields["Search countries"].waitForExistence(timeout: 10), "the country list did not open")
         let none = app.buttons.containing(NSPredicate(format: "label CONTAINS %@", "Don't show")).firstMatch
-        XCTAssertTrue(none.waitForExistence(timeout: 10), "the country list did not open")
+        for _ in 0..<12 where !none.exists { app.swipeDown() }
+        XCTAssertTrue(none.waitForExistence(timeout: 5), "the list has no Don't show at its top")
         none.tap()
 
         XCTAssertTrue(row.waitForExistence(timeout: 10), "the list did not go back to the editor")
