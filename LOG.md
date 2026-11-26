@@ -13,6 +13,10 @@
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
 
+## 2026-11-26 night run (01:27 window): nothing shipped, short orientation only
+- Rung 1: no new tree notes; one reader photograph of an unmapped tree (3c544597, Amsterdam area) is the reader judge's, left to it. Rung 2: health.py red on (a) the live site behind main, where `gh workflow run deploy.yml` was refused with HTTP 403 (this runner's token cannot dispatch), so the deploy waits for the schedule or a session; (b) three open APP bug rows from readers. I fixed none: the "no distance limit" in the Tortworth row is wrong for iOS (`Catalogue.nearest` defaults to 50 km, `Collect.swift:200`), the real complaint is a labelling and edit-your-own-tree product choice, and a Linux runner cannot build or test the iOS app. The report-1686 "not able to add trees" row needs a reproduction on a device.
+- Own research is paused; 3 READY leads (york, guimaraes, leamington-spa) were not written this window.
+
 ## 2026-11-26 reader judge: Ames sycamore gets its corner and age, Woolland Yew pin moved
 
 - **Ames** (amw_001): the reader's mail reply (feedback 1690) gave the spot, the northeast corner of Lincoln Way and University Boulevard (fits the GPS pin), and an age of about 200 years. Now on the page as theirs ("by a reader's estimate"), along with the storms it has come through, in our own words (no quote without their yes). Address, access, FAQ and question texts follow. Closed `handled`.
