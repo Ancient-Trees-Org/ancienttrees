@@ -69,6 +69,20 @@
     <string name="tab_map">Mapa</string>
     <string name="tab_discover">Descobrir</string>
     <string name="tab_my_trees">As minhas árvores</string>
+    <string name="tab_feed">Novidades</string>
+    <string name="feed_everyone">Todos</string>
+    <string name="feed_following">A seguir</string>
+    <string name="feed_near">Perto de si</string>
+    <string name="feed_added">adicionou uma árvore nova</string>
+    <string name="feed_photographed">fotografou uma árvore</string>
+    <string name="feed_new_on_map">Novo no mapa</string>
+    <string name="feed_end">Por agora já viu tudo.</string>
+    <string name="feed_empty">Ainda nada de novo.</string>
+    <string name="feed_empty_following_none">Siga pessoas para ver aqui as árvores que adicionam.</string>
+    <string name="feed_empty_following">Ninguém que segue adicionou algo ainda.</string>
+    <string name="feed_empty_near">Ainda nada de novo a menos de 100 km de si.</string>
+    <string name="feed_empty_near_off">Ative a localização para ver as novidades perto de si.</string>
+    <string name="feed_failed">Não foi possível carregar. Puxe para baixo para tentar de novo.</string>
     <string name="collect_a_tree">Colecionar uma árvore</string>
     <string name="tab_collect">Colecionar</string>
     <!-- discover -->

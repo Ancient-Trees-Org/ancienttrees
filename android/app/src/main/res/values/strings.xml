@@ -70,6 +70,20 @@
     <string name="tab_map">Map</string>
     <string name="tab_discover">Discover</string>
     <string name="tab_my_trees">My trees</string>
+    <string name="tab_feed">Feed</string>
+    <string name="feed_everyone">Everyone</string>
+    <string name="feed_following">Following</string>
+    <string name="feed_near">Near you</string>
+    <string name="feed_added">added a new tree</string>
+    <string name="feed_photographed">photographed a tree</string>
+    <string name="feed_new_on_map">New on the map</string>
+    <string name="feed_end">You have seen everything so far.</string>
+    <string name="feed_empty">Nothing new yet.</string>
+    <string name="feed_empty_following_none">Follow people to see the trees they add here.</string>
+    <string name="feed_empty_following">Nobody you follow has added anything yet.</string>
+    <string name="feed_empty_near">Nothing new within 100 km of you yet.</string>
+    <string name="feed_empty_near_off">Turn on your location to see what is new near you.</string>
+    <string name="feed_failed">The feed did not load. Pull down to try again.</string>
     <string name="collect_a_tree">Collect a tree</string>
     <string name="tab_collect">Collect</string>
     <!-- discover -->

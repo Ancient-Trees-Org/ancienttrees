@@ -163,7 +163,7 @@ private fun Modifier.wrapHeart(scale: Float, alpha: Float): Modifier {
 }
 
 @Composable
-fun PhotoHeart(photoId: String, onDark: Boolean = false) {
+fun PhotoHeart(photoId: String, onDark: Boolean = false, size: androidx.compose.ui.unit.Dp = 15.dp) {
     val marks = LocalTreeMarks.current
     val brand = Brand.colors
     val scope = rememberCoroutineScope()
@@ -189,7 +189,7 @@ fun PhotoHeart(photoId: String, onDark: Boolean = false) {
                 }
                 .semantics { contentDescription = "photo-like" },
         ) {
-            Icon(if (s.mine) Sym.HeartFill else Sym.Heart, null, tint = tint, modifier = Modifier.size(15.dp))
+            Icon(if (s.mine) Sym.HeartFill else Sym.Heart, null, tint = tint, modifier = Modifier.size(size))
         }
         if (s.count > 0) {
             Box(

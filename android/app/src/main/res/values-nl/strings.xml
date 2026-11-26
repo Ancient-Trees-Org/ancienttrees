@@ -69,6 +69,20 @@
     <string name="tab_map">Kaart</string>
     <string name="tab_discover">Ontdek</string>
     <string name="tab_my_trees">Mijn bomen</string>
+    <string name="tab_feed">Feed</string>
+    <string name="feed_everyone">Iedereen</string>
+    <string name="feed_following">Volgend</string>
+    <string name="feed_near">In de buurt</string>
+    <string name="feed_added">heeft een nieuwe boom toegevoegd</string>
+    <string name="feed_photographed">heeft een boom gefotografeerd</string>
+    <string name="feed_new_on_map">Nieuw op de kaart</string>
+    <string name="feed_end">Je hebt alles gezien wat er nu is.</string>
+    <string name="feed_empty">Nog niets nieuws.</string>
+    <string name="feed_empty_following_none">Volg mensen om hier de bomen te zien die zij toevoegen.</string>
+    <string name="feed_empty_following">Niemand die je volgt heeft al iets toegevoegd.</string>
+    <string name="feed_empty_near">Nog niets nieuws binnen 100 km van je.</string>
+    <string name="feed_empty_near_off">Zet je locatie aan om te zien wat er nieuw is in de buurt.</string>
+    <string name="feed_failed">De feed laadde niet. Trek omlaag om het opnieuw te proberen.</string>
     <string name="collect_a_tree">Een boom verzamelen</string>
     <string name="tab_collect">Verzamelen</string>
     <!-- discover -->

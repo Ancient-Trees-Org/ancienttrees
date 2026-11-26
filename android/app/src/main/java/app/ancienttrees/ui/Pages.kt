@@ -53,6 +53,8 @@ import kotlinx.coroutines.launch
 /** Where a tap goes (Route.swift), as a value. Trees by id, looked up at drawing time. */
 sealed class Page {
     data class TreePage(val id: String) : Page()
+    /** A tree from the Feed the catalogue does not know yet, from the server's post (Route.feedPost). */
+    data class FeedTree(val post: app.ancienttrees.account.FeedPosts.Post) : Page()
     /** One of yours (Route.mine). */
     data class Mine(val id: String) : Page()
     /** Somebody else's tree from its unlisted link (SharedTreeView.swift), read only. */
@@ -76,7 +78,8 @@ class Entry internal constructor(val page: Page, val key: Long)
 /** The three stacks and which tab is showing (ContentView.tab, mapPath, explorePath, collectPath). */
 class Nav(initialTab: Int) {
     var tab by mutableIntStateOf(initialTab)
-    val stacks = List(3) { mutableStateListOf<Entry>() }
+    // Five, so the Feed's tab 4 has its own (3 is the camera, never a tab).
+    val stacks = List(5) { mutableStateListOf<Entry>() }
     private var next = 0L
 
     val stack: List<Entry> get() = stacks[tab]

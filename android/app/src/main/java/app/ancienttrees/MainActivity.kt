@@ -204,7 +204,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     // A place, species or tree a tree page sends to the map.
     var go by remember { mutableStateOf<Pair<Long, SearchHit>?>(null) }
     // THE TABS AND THEIR STACKS (Pages.kt, ContentView.swift's three paths).
-    val nav = remember { app.ancienttrees.ui.Nav(if (launch.tab == 1 || launch.tab == 2) launch.tab!! else 0) }
+    val nav = remember { app.ancienttrees.ui.Nav(if (launch.tab == 1 || launch.tab == 2 || launch.tab == app.ancienttrees.ui.Feed.TAB) launch.tab!! else 0) }
     fun openTree(t: Tree) = nav.push(app.ancienttrees.ui.Page.TreePage(t.id))
     /** A place on the map: the map's stack empties and the map tab shows (navigator.searchOnMap). */
     // A PLACE LINK ON A PAGE IN ANOTHER TAB goes to the map, and back comes home to
@@ -747,6 +747,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     // And Map back to where you are, My trees back up (2026-11-22, "3 makes sense").
     var mapTop by remember { mutableIntStateOf(0) }
     var mineTop by remember { mutableIntStateOf(0) }
+    var feedTop by remember { mutableIntStateOf(0) }
     var discoverSearching by remember { mutableStateOf(false) }
     // Android's back on another tab's root goes to the map (a forced difference: the iPhone has no back there).
     BackHandler(enabled = nav.tab != 0 && nav.stack.isEmpty()) { nav.tab = 0 }
@@ -758,6 +759,8 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
             openSpecies = { name -> openSpecies(name) },
             openPerson = { id -> routes.openPerson(id) },
             showMap = { nav.tab = 0 },
+            // New from visitors' See all is the Feed tab's root (2026-11-26).
+            openFeed = { nav.clear(app.ancienttrees.ui.Feed.TAB); nav.tab = app.ancienttrees.ui.Feed.TAB },
             openWantToVisit = {
                 nav.clear(2)
                 myLane = app.ancienttrees.ui.TreesLane.WANT
@@ -892,6 +895,8 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         ) {
             when (p) {
                 is app.ancienttrees.ui.Page.TreePage -> cat.tree(p.id)?.let { tree -> TreePage(tree) }
+                // Known by now (a newer catalogue): the full page; else the post's own.
+                is app.ancienttrees.ui.Page.FeedTree -> TreePage(cat.tree(p.post.treeId) ?: app.ancienttrees.account.FeedPosts.stub(p.post))
                 is app.ancienttrees.ui.Page.Mine -> app.ancienttrees.ui.OwnTree(
                     id = p.id,
                     mine = myTrees,
@@ -963,13 +968,13 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                     TabBar(
                         selected = nav.tab,
                         select = { i ->
-                            if (i in 0..2) {
+                            if (i in 0..2 || i == app.ancienttrees.ui.Feed.TAB) {
                                 // ONLY A REAL SWITCH: tapping the tab you are on is another action (ContentView).
-                                if (i != nav.tab) Measure.event("tab", mapOf("tab" to listOf("Map", "Discover", "My trees")[i]))
+                                if (i != nav.tab) Measure.event("tab", mapOf("tab" to (mapOf(0 to "Map", 1 to "Discover", 2 to "My trees", app.ancienttrees.ui.Feed.TAB to "Feed")[i] ?: "$i")))
                                 if (i == nav.tab) {
                                     // The tab you are on: back to its root, and on the root, to the
                                     // top (ContentView.tabSelection).
-                                    if (nav.stack.isNotEmpty()) nav.clear(i) else if (i == 1) discoverTop++ else if (i == 0) mapTop++ else if (i == 2) mineTop++
+                                    if (nav.stack.isNotEmpty()) nav.clear(i) else if (i == 1) discoverTop++ else if (i == 0) mapTop++ else if (i == 2) mineTop++ else if (i == app.ancienttrees.ui.Feed.TAB) feedTop++
                                 } else {
                                     nav.tab = i
                                 }
@@ -1166,6 +1171,52 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                         }
                         }
                         if (nav.tab == 2) Bar()
+                    },
+                )
+            }
+        }
+        // THE FEED (Feed.swift, 2026-11-26): every post from the server's feed().
+        if (app.ancienttrees.ui.Feed.TAB in visited && cat != null) {
+            val feedTab = app.ancienttrees.ui.Feed.TAB
+            app.ancienttrees.ui.BackOnlyWhen(nav.tab == feedTab) {
+                app.ancienttrees.ui.PageStack(
+                    entries = nav.stacks[feedTab],
+                    active = nav.tab == feedTab,
+                    onPop = { nav.pop() },
+                    page = { PageFor(it) },
+                    root = {
+                        Box(Modifier.fillMaxSize().glassSource(barGlass)) {
+                        CompositionLocalProvider(
+                            LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
+                                signedIn = signedIn, token = { account.fresh()?.accessToken },
+                                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }),
+                        ) {
+                            app.ancienttrees.ui.FeedScreen(
+                                catalogue = cat,
+                                origin = origin.lat to origin.lng,
+                                located = located,
+                                signedIn = signedIn,
+                                scrollTop = feedTop,
+                                feedTo = launch.args.firstOrNull { it.startsWith("-feedto=") }?.removePrefix("-feedto=")?.toIntOrNull(),
+                                host = app.ancienttrees.ui.FeedHost(
+                                    signedIn = { account.state is SignIn.SignedIn },
+                                    token = { account.fresh()?.accessToken },
+                                    myId = { account.session?.userId },
+                                    followingIds = { me, t -> profiles.followingIds(me, t) },
+                                    signIn = { then ->
+                                        pendingAfterSignIn = then
+                                        asking = true
+                                    },
+                                    openPerson = { routes.openPerson(it) },
+                                    openTree = { openTree(it) },
+                                    openPost = { nav.push(app.ancienttrees.ui.Page.FeedTree(it)) },
+                                    share = { t -> share(context, t, from = "feed") },
+                                    askLocation = { if (refused) recovering = true else askLocation() },
+                                ),
+                            )
+                        }
+                        }
+                        if (nav.tab == feedTab) Bar()
                     },
                 )
             }

@@ -126,6 +126,8 @@ class DiscoverActions(
     /** Somebody's public profile, signed in (Route.person). */
     val openPerson: (String) -> Unit,
     val showMap: () -> Unit,
+    /** The Feed tab, New from visitors' See all (2026-11-26). */
+    val openFeed: () -> Unit = {},
     /** Your Want to visit list (My trees). */
     val openWantToVisit: () -> Unit,
     /** The camera, as every other entry to it does (navigator.collectNearby). */
@@ -408,7 +410,7 @@ private fun LazyListScope.discoverContent(
     val fresh = NewFromVisitors.tiles(visitorRows) { c.tree(it) }
     if (fresh.size >= NewFromVisitors.MINIMUM) {
         block("visitors") {
-            Section(stringResource(R.string.discover_visitors), seeAll = { open(DiscoverPage.Visitors) }) {
+            Section(stringResource(R.string.discover_visitors), seeAll = { act.openFeed() }) {
                 Shelf(Modifier.trimBottom(VISITOR_LINE_ROOM)) {
                     items(fresh, key = { it.first.sightingId }) { (row, tree, shot) ->
                         Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
