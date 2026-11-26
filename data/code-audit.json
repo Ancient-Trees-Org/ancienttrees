@@ -871,6 +871,17 @@
    "found_by": "test",
    "no_test_reason": "layout at accessibility text sizes; no large-text layout check exists (appfit runs default text)",
    "fixed_in": "5fec572af"
+  },
+  {
+   "id": "ESC-2026-11-26-tree-pages-and-cards-cut-the-age-at-the-",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "site/src/lib/age-short.ts",
+   "summary": "Tree pages and cards cut the age at the comma in 2,000: 'Kingley Vale 500 to 2', 'about 1' on 27 pages, 8 cards",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "scripts/qa.py check_an_age_is_never_cut_inside_a_number"
   }
  ]
 }

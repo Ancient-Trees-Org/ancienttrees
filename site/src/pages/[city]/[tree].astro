@@ -11,6 +11,7 @@ import { usablePhotos, metaImageUrls, ogImageUrl } from "../../lib/images";
 import { breadcrumbSchema, ldScript, SITE_SCHEMA, BASE_URL } from "../../lib/schema";
 import { fitTitle } from "../../lib/title";
 import { ageToken, metaForTree, girthLabel } from "../../lib/tree-copy";
+import { firstAgeClause } from "../../lib/age-short";
 import { SHARE_JS } from "../../lib/share-js";
 import { WORTHIT_JS } from "../../lib/worthit-js";
 import { DOWNSIZE_JS } from "../../lib/image-downsize-js";
@@ -228,7 +229,7 @@ const ageLabel = ageNumber ? "Years old" : "Age";
 // around 1889-1890" wrapped over five lines and pushed its own label down. The
 // first clause is the age; everything after the comma is provenance, and
 // provenance belongs in the story where the sentence has room.
-const ageText = (tree.age_estimate || "").split(/[,;(]/)[0].trim();
+const ageText = firstAgeClause(tree.age_estimate || "");
 const ageValue = ageNumber ?? (ageText.length > 24 ? "see the story" : (ageText || "not recorded"));
 // The three nearest, as the cards the component draws: a picture where the
 // tree has one, the distance, and a link. Contract A's 2-3 nearby links.

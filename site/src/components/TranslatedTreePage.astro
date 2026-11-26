@@ -17,6 +17,7 @@ import { usablePhotos, thumbUrl } from "../lib/images";
 import { ADD_PHOTO_JS } from "../lib/add-photo-js";
 import { breadcrumbSchema, ldScript, SITE_SCHEMA, BASE_URL } from "../lib/schema";
 import { metaForTree, girthLabel } from "../lib/tree-copy";
+import { firstAgeClause } from "../lib/age-short";
 import { mapHead } from "../lib/map";
 import { treePageScript } from "../lib/tree-page-js";
 import { DOWNSIZE_JS } from "../lib/image-downsize-js";
@@ -137,7 +138,7 @@ const ageLo = typeof tree.age_min === "number" && tree.age_min > 0 ? tree.age_mi
 const ageHi = typeof tree.age_max === "number" && ageLo && tree.age_max > ageLo ? tree.age_max : null;
 const ageNumber = ageLo ? (ageHi ? `${ageLo}-${ageHi}` : `${ageLo}`) : null;
 const ageLabel = ageNumber ? U.factYearsOld : U.factAge;
-const ageText = (x.age_estimate || "").split(/[,;(]/)[0].trim();
+const ageText = firstAgeClause(x.age_estimate || "");
 const ageValue = ageNumber ?? (ageText.length > 24 ? "" : ageText) || U.unknownAge;
 
 ---

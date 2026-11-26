@@ -4021,6 +4021,49 @@ def check_one_tree_card_on_every_map():
     return problems
 
 
+def check_an_age_is_never_cut_inside_a_number():
+    """The age a tree page and a card print is the first clause of
+    age_estimate, and the comma in "2,000" is not a clause break. Cutting at
+    every comma showed "500 to 2" for Kingley Vale's yews ("500 to 2,000
+    years") and "about 1" on 26 more tree pages and 8 cards, live until Hidde
+    saw it on 2026-11-26; the apps had the same cut fixed on 2026-11-24.
+
+    This reads firstAgeClause()'s pattern from site/src/lib/age-short.ts, runs
+    it over every published age_estimate and refuses a clause that stops
+    inside a number, and refuses any other file cutting age_estimate at a
+    comma by hand.
+
+    Removing this needs Hidde."""
+    problems = []
+    src = ROOT / "site" / "src"
+    one = src / "lib" / "age-short.ts"
+    text = one.read_text(encoding="utf-8") if one.exists() else ""
+    m = re.search(r"export function firstAgeClause\(.*?\.match\(/(.+?)/\)", text, re.S)
+    if not m:
+        return ["site/src/lib/age-short.ts no longer defines firstAgeClause() with a .match(/.../) pattern"]
+    pat = re.compile(m.group(1))
+    for path in sorted((ROOT / "data" / "cities").glob("*.json")):
+        try:
+            trees = json.loads(path.read_text(encoding="utf-8")).get("trees", [])
+        except Exception:
+            continue
+        for t in trees:
+            est = str(t.get("age_estimate") or "")
+            hit = pat.match(est)
+            raw = hit.group(0) if hit else ""
+            if raw[-1:].isdigit() and re.match(r",\d", est[len(raw):]):
+                problems.append("%s/%s: the age clause stops inside a number: %r from %r"
+                                % (path.stem, t.get("id"), raw.strip(), est))
+    for f in sorted(list(src.rglob("*.ts")) + list(src.rglob("*.astro"))):
+        if f == one:
+            continue
+        for i, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            if "age_estimate" in line and re.search(r"split\(/\[[^\]]*,|indexOf\(\",\"\)", line):
+                problems.append("%s:%d cuts age_estimate at a comma by hand; use firstAgeClause()"
+                                % (f.relative_to(ROOT), i))
+    return problems
+
+
 def check_one_save_button():
     """The save button is one function, saveButtonHtml() in
     site/src/lib/save-button.ts: SaveHeart.astro renders through it and every
@@ -5079,6 +5122,7 @@ def main():
         check_a_map_is_only_built_when_it_can_be,
         check_one_tree_card_on_every_map,
         check_one_save_button,
+        check_an_age_is_never_cut_inside_a_number,
         check_one_tree_card,
         check_map_parity_ledger,
         check_one_place_card,
