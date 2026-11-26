@@ -513,12 +513,9 @@ struct MapTab: View {
         }
     }
 
-    var body: some View {
-        // THE SHARED COMPONENT (Hidde, 2026-08-26: "je wilt deze interactie als
-        // component hebben en overal hetzelfde hebben"). This screen is where
-        // the arrangement was argued out; My trees now uses the same one, and
-        // it only stays the same if there is one of it.
-        MapWithSheet(height: $sheetHeight, topItem: $topCard) {
+    /// The map itself, out of `body` so the type-checker on CI finishes (it gave
+    /// up on body as one expression on 2026-11-26, MapTab.swift:516).
+    @ViewBuilder private var mapLayer: some View {
             TreeMap(trees: mapTrees,
                     mine: mineShown.map { (id: $0.id, lat: $0.lat, lng: $0.lng, name: $0.name,
                                            photo: sightings.thumbnail($0, maxPixel: 160)) },
@@ -586,7 +583,10 @@ struct MapTab: View {
                 .overlay {
                     if !searching { RidesTheSheet { whereChip } }
                 }
-        } header: {
+    }
+
+    /// The sheet's header, out of `body` for the type-checker (2026-11-26).
+    @ViewBuilder private var sheetHeader: some View {
                 // No count while a tree is selected: its card is the sheet.
                 // Otherwise the count, outside the scroll view: it
                 // stays visible while the list scrolls and it is the handle
@@ -606,7 +606,10 @@ struct MapTab: View {
                 if mapIdle {
                     Color.clear.frame(width: 1, height: 1).accessibilityIdentifier("map-idle")
                 }
-        } content: {
+    }
+
+    /// The sheet's content, out of `body` for the type-checker (2026-11-26).
+    @ViewBuilder private var sheetContent: some View {
                 // The arbitration between dragging the sheet and scrolling what
                 // is inside it, which is the whole interaction and was wrong.
                 //
@@ -636,6 +639,21 @@ struct MapTab: View {
                 } else {
                     sheet
                 }
+    }
+
+    /// The map, its sheet and what floats over them, out of `body` so the
+    /// type-checker on CI finishes (2026-11-26, MapTab.swift:516).
+    private var screen: some View {
+        // THE SHARED COMPONENT (Hidde, 2026-08-26: "je wilt deze interactie als
+        // component hebben en overal hetzelfde hebben"). This screen is where
+        // the arrangement was argued out; My trees now uses the same one, and
+        // it only stays the same if there is one of it.
+        MapWithSheet(height: $sheetHeight, topItem: $topCard) {
+            mapLayer
+        } header: {
+            sheetHeader
+        } content: {
+            sheetContent
         }
         // The title used to float over the map as bare text with nothing behind
         // it, and worse, "Near Amsterdam" was a statement of a problem with no
@@ -752,6 +770,10 @@ struct MapTab: View {
         // The snackbar stands where the pill stood, 70 up (RootSnackLift).
         .preference(key: RootSnackLift.self, value: sheetHeight == .full ? 70 : nil)
         .animation(.easeOut(duration: 0.2), value: navigator.snack == nil)
+    }
+
+    var body: some View {
+        screen
         .task {
             if let id = debugSelect, let t = catalogue.tree(id) {
                 selected = t

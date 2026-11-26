@@ -160,6 +160,15 @@
       "android": "nothing to change: same bottom card as iOS",
       "status": "one-sided",
       "why": "only a desktop web map puts the card beside the pin; the phones already move the map to keep the pin clear"
+    },
+    {
+      "what": "MapTab.body split into screen, mapLayer, sheetHeader and sheetContent so CI's type-checker finishes (2026-11-26); nothing a person sees changes",
+      "since": "2026-11-26",
+      "web": "nothing to change: no web code involved",
+      "ios": "MapTab.swift: the same views and modifiers, moved into four properties",
+      "android": "nothing to change: Compose has no such limit and the map behaves the same",
+      "status": "one-sided",
+      "why": "a Swift compiler limit, not map behaviour"
     }
   ]
 }
