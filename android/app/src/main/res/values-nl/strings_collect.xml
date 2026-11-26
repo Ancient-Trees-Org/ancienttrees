@@ -90,5 +90,7 @@
     <string name="cf_your_tree_at">Je boom · %1$s</string>
     <string name="cf_added_title">Toegevoegd aan je bomen</string>
     <string name="pin_address_search">Zoek een adres</string>
+    <string name="pin_address_none">Geen adres gevonden. Schuif de kaart naar de plek.</string>
+    <string name="pin_address_coords">Coördinaten</string>
     <string name="pin_address_clear">Wissen</string>
 </resources>

@@ -104,6 +104,8 @@ class MainActivity : ComponentActivity() {
         // Kilometres or miles, for every distance on screen (Units.now), after the
         // launch's locale so the parity frames read km as the iPhone's do.
         app.ancienttrees.ui.Units.load(applicationContext)
+        // Light, dark or the phone's, before the first frame (Settings.kt Appearance).
+        app.ancienttrees.ui.Appearance.load(applicationContext)
         setContent {
             // A new set of launch arguments starts the screen afresh (debug builds only).
             androidx.compose.runtime.key(launch) {

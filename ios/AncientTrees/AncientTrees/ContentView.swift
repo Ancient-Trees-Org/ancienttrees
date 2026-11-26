@@ -47,6 +47,7 @@ struct ContentView: View {
     @State fileprivate var reviewPrompt = ReviewPrompt()
     @State fileprivate var navigator = Navigator()
     @State fileprivate var units = Units()
+    @State fileprivate var appearance = Appearance()
     @State fileprivate var sightings = Sightings.app
     /// How many people saved each tree, counted by the server because a client
     /// can only see its own rows. Empty until Hidde runs supabase/like-counts.sql.
@@ -1243,6 +1244,15 @@ struct ContentView: View {
                                              userId: uid, token: t)
                 }
             }
+            // Light or dark follows the account the same way.
+            Appearance.sync = { [account, profiles] a in
+                Task {
+                    guard let t = await account.freshToken(),
+                          let uid = account.session?.userId else { return }
+                    await profiles.saveAppearance(a.rawValue, userId: uid, token: t)
+                }
+            }
+            appearance.apply()
             // And the votes and reports this account has already made. They go
             // nowhere near the device: every control that draws one reads
             // MyVotes directly (2026-09-18, Hidde: "stop saving stuff locally
@@ -1259,6 +1269,7 @@ struct ContentView: View {
                 if let remote = profiles.me?.units {
                     units.unit = remote == "mi" ? .imperial : .metric
                 }
+                appearance.adopt(profiles.myAppearance)
             }
         }
     }
@@ -1369,6 +1380,7 @@ extension View {
             .environment(root.reviewPrompt)
             .environment(root.navigator)
             .environment(root.units)
+            .environment(root.appearance)
             .environment(root.sightings)
             .environment(root.voteCounts)
             .environment(root.myVotes)

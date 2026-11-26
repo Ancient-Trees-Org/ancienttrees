@@ -39,16 +39,22 @@ public enum Brand {
     /// stands on white, and transplanting the web ground here read as dirty
     /// rather than warm. The identity lives in moss, gold, ink and Gabarito,
     /// not in tinting the page.
-    public static let ground = Color(light: 0xFFFFFF, dark: 0x121410)
+    /// ONE STEP LIGHTER IN THE DARK (2026-11-26, a tester: "the night mode is
+    /// very dark"). #121410 was nearly black, darker than Material's #121212
+    /// baseline once the green is counted, and Apple's grouped dark ground is
+    /// #1C1C1E. #1A1D18 is the Android theme's own background already, so the
+    /// two apps now stand on one ground; every step above it moved with it and
+    /// scripts/darkcheck.py measures every text pair against AA.
+    public static let ground = Color(light: 0xFFFFFF, dark: 0x1A1D18)
     /// A card, a sheet, anything sitting on the ground; on the white ground
     /// the card shadow does the separating, the AllTrails way.
-    public static let surface = Color(light: 0xFFFFFF, dark: 0x1D211B)
+    public static let surface = Color(light: 0xFFFFFF, dark: 0x252922)
     /// A quieter surface, for a row inside a card. Neutral grey, not cream,
     /// same ruling as the ground.
-    public static let surfaceMuted = Color(light: 0xF2F2F2, dark: 0x262A24)
+    public static let surfaceMuted = Color(light: 0xF2F2F2, dark: 0x30352D)
     /// The website's --cream-dark: the quiet pill on the sign-in sheet
     /// (More options, Continue with email) and the close cross's disc.
-    public static let creamDark = Color(light: 0xECEAE3, dark: 0x262A24)
+    public static let creamDark = Color(light: 0xECEAE3, dark: 0x30352D)
     public static let ink = Color(light: 0x26301E, dark: 0xECEFE4)
     public static let inkSoft = Color(light: 0x5C6350, dark: 0xA7AE9E)
     /// The one colour that means "press this".
@@ -76,7 +82,7 @@ public enum Brand {
     /// text needs. In the dark the ordinary gold is already 8.5:1 on a card, so
     /// only the light value moves and the badge keeps the colour it has.
     public static let goldInk = Color(light: 0x8F6210, dark: 0xE0B463)
-    public static let hairline = Color(light: 0xE6E6E6, dark: 0x363B31)
+    public static let hairline = Color(light: 0xE6E6E6, dark: 0x434939)
     /// What is WRITTEN on a filled moss control, which is not white in the dark.
     ///
     /// This is the other half of the rule above and the two only work together.
@@ -89,7 +95,7 @@ public enum Brand {
     public static let onMoss = Color(light: 0xFFFFFF, dark: 0x10160A)
     /// The pale green behind a sheet's icon tile and a collected seal: the
     /// website's --moss-light.
-    public static let mossTint = Color(light: 0xEDF3E3, dark: 0x26301E)
+    public static let mossTint = Color(light: 0xEDF3E3, dark: 0x2E3925)
     /// THE ONE RED (2026-10-10). The overlay audit found three: #B22222 on the
     /// collect sheet, #9c3f2f on the website's delete button, and the system's
     /// on every alert. A filled red carries white in both appearances.

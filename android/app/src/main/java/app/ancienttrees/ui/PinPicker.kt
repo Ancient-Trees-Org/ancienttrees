@@ -135,10 +135,14 @@ private fun AddressBox(onPick: (Double, Double) -> Unit, modifier: Modifier = Mo
     var typing by remember { mutableStateOf(false) }
     var results by remember { mutableStateOf(emptyList<Found>()) }
     var picked by remember { mutableStateOf("") }
+    // The geocoder answered for the query as it stands (PinPicker.swift answered).
+    var answered by remember { mutableStateOf(false) }
+    val coordinate = typedCoordinate(query)
 
     LaunchedEffect(query) {
         val q = query.trim()
-        if (q.length < 3 || q == picked) { results = emptyList(); return@LaunchedEffect }
+        answered = false
+        if (q.length < 3 || q == picked || typedCoordinate(q) != null) { results = emptyList(); return@LaunchedEffect }
         delay(350)
         results = withContext(Dispatchers.IO) {
             runCatching {
@@ -151,6 +155,7 @@ private fun AddressBox(onPick: (Double, Double) -> Unit, modifier: Modifier = Mo
                 }
             }.getOrDefault(emptyList())
         }
+        answered = true
     }
 
     fun pick(f: Found) {
@@ -182,7 +187,10 @@ private fun AddressBox(onPick: (Double, Double) -> Unit, modifier: Modifier = Mo
                     textStyle = sfStyle(fontSize = 16.sp, color = brand.ink),
                     cursorBrush = SolidColor(brand.moss),
                     keyboardOptions = KeyboardOptions(autoCorrectEnabled = false, imeAction = ImeAction.Search),
-                    keyboardActions = KeyboardActions(onSearch = { results.firstOrNull()?.let { pick(it) } }),
+                    keyboardActions = KeyboardActions(onSearch = {
+                        coordinate?.let { (la, lo) -> pick(Found(query.trim(), "", la, lo)) }
+                            ?: results.firstOrNull()?.let { pick(it) }
+                    }),
                     modifier = Modifier.fillMaxWidth().onFocusChanged { typing = it.isFocused }.testTag("pin-address"),
                 )
                 if (query.isEmpty()) Text(stringResource(R.string.pin_address_search), fontSize = 16.sp, color = brand.inkSoft)
@@ -195,6 +203,34 @@ private fun AddressBox(onPick: (Double, Double) -> Unit, modifier: Modifier = Mo
                         .clickable(role = Role.Button, onClickLabel = clear) { query = ""; picked = ""; results = emptyList() },
                 ) { Icon(Sym.Close, clear, tint = brand.inkSoft, modifier = Modifier.size(18.dp)) }
             }
+        }
+        // Typed coordinates, one row straight there (PinPicker.swift, Google Maps' field).
+        if (typing && coordinate != null) {
+            HorizontalDivider(color = brand.hairline)
+            val (la, lo) = coordinate
+            val label = String.format(java.util.Locale.ROOT, "%.5f, %.5f", la, lo)
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp)
+                    .clickable(role = Role.Button) { pick(Found(label, "", la, lo)) }
+                    .padding(horizontal = 12.dp)
+                    .testTag("pin-address-coordinates"),
+            ) {
+                Icon(Sym.MapPin, null, tint = brand.moss, modifier = Modifier.size(22.dp))
+                Spacer(Modifier.width(14.dp))
+                Column(Modifier.weight(1f)) {
+                    Text(label, style = sfStyle(fontSize = 16.sp, color = brand.ink), maxLines = 1)
+                    Text(stringResource(R.string.pin_address_coords), fontSize = 12.sp, color = brand.inkSoft, maxLines = 1)
+                }
+            }
+        } else if (typing && answered && results.isEmpty()) {
+            // Nothing found says so, and what still works (PinPicker.swift pin-address-none).
+            HorizontalDivider(color = brand.hairline)
+            Text(
+                stringResource(R.string.pin_address_none), fontSize = 15.sp, color = brand.inkSoft,
+                modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp).padding(horizontal = 12.dp, vertical = 18.dp)
+                    .testTag("pin-address-none"),
+            )
         }
         if (typing && results.isNotEmpty()) {
             HorizontalDivider(color = brand.hairline)
@@ -216,4 +252,13 @@ private fun AddressBox(onPick: (Double, Double) -> Unit, modifier: Modifier = Mo
             }
         }
     }
+}
+
+/** "52.2101, 5.2902", with a space or a semicolon too; null for anything else or out of range. */
+internal fun typedCoordinate(text: String): Pair<Double, Double>? {
+    val parts = text.trim().split(',', ';', ' ').filter { it.isNotEmpty() }
+    if (parts.size != 2 || parts.any { '.' !in it }) return null
+    val la = parts[0].toDoubleOrNull() ?: return null
+    val lo = parts[1].toDoubleOrNull() ?: return null
+    return if (la in -90.0..90.0 && lo in -180.0..180.0) la to lo else null
 }

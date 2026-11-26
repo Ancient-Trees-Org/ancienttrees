@@ -31,6 +31,7 @@ struct ProfileView: View {
     @Environment(Account.self) private var account
     @Environment(Navigator.self) private var navigator
     @Environment(Units.self) private var units
+    @Environment(Appearance.self) private var appearance
     @Environment(Moderation.self) private var moderation
     @Environment(Sightings.self) private var sightings
     @Environment(Profiles.self) private var profiles
@@ -255,6 +256,28 @@ struct ProfileView: View {
                         Text("Distances").font(.callout).foregroundStyle(Brand.ink)
                         Spacer()
                         Text(units.unit.label).font(.callout).foregroundStyle(Brand.inkSoft)
+                        Image(systemName: "chevron.up.chevron.down")
+                            .font(.caption2).foregroundStyle(Brand.inkSoft)
+                    }
+                    .padding(.horizontal, 16).frame(height: 48)
+                    .contentShape(.rect)
+                }
+                .buttonStyle(.plain)
+                Divider().padding(.leading, 48)
+                // LIGHT OR DARK (2026-11-26, a tester: the dark mode "is very
+                // dark, and there's no way to turn it off"). Same row shape as
+                // Distances; Google Maps keeps the same three answers.
+                Menu {
+                    Picker("", selection: Binding(get: { appearance.theme },
+                                                  set: { appearance.theme = $0 })) {
+                        ForEach(AppTheme.allCases) { t in Text(t.label).tag(t) }
+                    }
+                } label: {
+                    HStack(spacing: 12) {
+                        Image(systemName: "circle.lefthalf.filled").frame(width: 20).foregroundStyle(Brand.moss)
+                        Text("Appearance").font(.callout).foregroundStyle(Brand.ink)
+                        Spacer()
+                        Text(appearance.theme.label).font(.callout).foregroundStyle(Brand.inkSoft)
                         Image(systemName: "chevron.up.chevron.down")
                             .font(.caption2).foregroundStyle(Brand.inkSoft)
                     }

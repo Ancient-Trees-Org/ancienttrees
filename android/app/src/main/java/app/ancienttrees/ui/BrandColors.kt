@@ -44,19 +44,19 @@ val LightBrand = BrandColors(
 )
 
 val DarkBrand = BrandColors(
-    ground = Color(0xFF121410),
-    surface = Color(0xFF1D211B),
-    surfaceMuted = Color(0xFF262A24),
-    creamDark = Color(0xFF262A24),
+    ground = Color(0xFF1A1D18),
+    surface = Color(0xFF252922),
+    surfaceMuted = Color(0xFF30352D),
+    creamDark = Color(0xFF30352D),
     ink = Color(0xFFECEFE4),
     inkSoft = Color(0xFFA7AE9E),
     moss = Color(0xFF96B863),
     canopy = Color(0xFF33491F),
     gold = Color(0xFFE0B463),
     goldInk = Color(0xFFE0B463),
-    hairline = Color(0xFF363B31),
+    hairline = Color(0xFF434939),
     onMoss = Color(0xFF10160A),
-    mossTint = Color(0xFF26301E),
+    mossTint = Color(0xFF2E3925),
     danger = Color(0xFFC0392B),
     dangerText = Color(0xFFFF7B72),
 )

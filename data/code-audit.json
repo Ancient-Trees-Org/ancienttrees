@@ -891,9 +891,10 @@
    "file": "scripts/reader_extras.py",
    "summary": "A reader's tree sent with several photographs went live with one; the further photographs were never published and nobody was told (84 trees)",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "scripts/test_reader_extras.py"
+   "test": "scripts/test_reader_extras.py",
+   "fixed_in": "20d936885"
   }
  ]
 }

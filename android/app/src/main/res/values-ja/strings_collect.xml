@@ -90,5 +90,7 @@
     <string name="cf_your_tree_at">あなたの木 · %1$s</string>
     <string name="cf_added_title">あなたの木に追加しました</string>
     <string name="pin_address_search">住所を検索</string>
+    <string name="pin_address_none">住所が見つかりません。地図を動かして場所に合わせてください。</string>
+    <string name="pin_address_coords">座標</string>
     <string name="pin_address_clear">消去</string>
 </resources>

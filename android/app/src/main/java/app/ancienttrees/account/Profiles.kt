@@ -95,6 +95,10 @@ class Profiles(private val args: List<String> = emptyList()) {
         private set
     var myFlagHidden by mutableStateOf(false)
         private set
+    /** Light, dark or system (profiles.appearance, 2026-11-26); read on its own, so a database
+     *  without the column costs this setting and never the name. */
+    var myAppearance by mutableStateOf<String?>(null)
+        private set
     /** Nil until the server answers, so the Privacy settings row never shows a guess. */
     var myPublic by mutableStateOf<Boolean?>(null)
         private set
@@ -153,6 +157,10 @@ class Profiles(private val args: List<String> = emptyList()) {
         } else {
             get("profiles?select=country&user_id=eq.$userId", token)?.let { myCountry = it.firstOrNull()?.str("country") }
         }
+        get("profiles?select=appearance&user_id=eq.$userId", token)?.let { rows ->
+            myAppearance = rows.firstOrNull()?.str("appearance")
+            app.ancienttrees.ui.Appearance.adopt(myAppearance)
+        }
         get("profiles?select=public&user_id=eq.$userId", token)?.let {
             myPublic = it.firstOrNull()?.optBoolean("public", false) ?: false
         }
@@ -206,6 +214,17 @@ class Profiles(private val args: List<String> = emptyList()) {
             ).ok
         }
         if (ok) { myCountry = code; myFlagHidden = code == null }
+        return ok
+    }
+
+    /** Light, dark or system, on the profile like the iPhone's saveAppearance. */
+    suspend fun saveAppearance(value: String, userId: String, token: String): Boolean {
+        val ok = Supa.send(
+            "/rest/v1/profiles?on_conflict=user_id", token = token,
+            body = JSONArray().put(JSONObject().put("user_id", userId).put("appearance", value)).toString(),
+            prefer = "resolution=merge-duplicates,return=minimal",
+        ).ok
+        if (ok) myAppearance = value
         return ok
     }
 

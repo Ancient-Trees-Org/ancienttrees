@@ -28,6 +28,10 @@
     <string name="settings_sign_in">Inloggen</string>
     <string name="settings_preferences">Voorkeuren</string>
     <string name="settings_distances">Afstanden</string>
+    <string name="settings_appearance">Weergave</string>
+    <string name="appearance_system">Systeem</string>
+    <string name="appearance_light">Licht</string>
+    <string name="appearance_dark">Donker</string>
     <string name="units_km">Kilometers</string>
     <string name="units_miles">Mijlen</string>
     <string name="settings_location">Locatie</string>

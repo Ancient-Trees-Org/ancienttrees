@@ -84,7 +84,10 @@ struct PinPicker: View {
                     .textContentType(.fullStreetAddress)
                     .submitLabel(.search)
                     .focused($typing)
-                    .onSubmit { if let first = search.results.first { pick(first) } }
+                    .onSubmit {
+                        if let c = AddressSearch.coordinate(search.query) { go(to: c) }
+                        else if let first = search.results.first { pick(first) }
+                    }
                     .accessibilityIdentifier("pin-address")
                 if !search.query.isEmpty {
                     Button { search.query = ""; search.results = [] } label: {
@@ -102,6 +105,26 @@ struct PinPicker: View {
             .padding(.trailing, 4)
             .frame(minHeight: 44)
 
+            // Typed coordinates ("52.21, 5.29"), the way Google Maps takes them
+            // in its own search field: one row that goes straight there.
+            if typing, let c = AddressSearch.coordinate(search.query) {
+                Divider().overlay(Brand.hairline)
+                Button { go(to: c) } label: {
+                    EmptyPlaceRow(name: String(format: "%.5f, %.5f", c.latitude, c.longitude),
+                                  sub: "Coordinates", icon: "scope", inset: 12)
+                }
+                .buttonStyle(.plain)
+                .accessibilityIdentifier("pin-address-coordinates")
+            } else if typing && search.answered && search.results.isEmpty {
+                // Nothing found says so (the tester's "handle no results
+                // gracefully"), and says what still works.
+                Divider().overlay(Brand.hairline)
+                Text("No address found. Move the map to the spot instead.")
+                    .font(.callout).foregroundStyle(Brand.inkSoft)
+                    .frame(maxWidth: .infinity, minHeight: 56, alignment: .leading)
+                    .padding(.horizontal, 12)
+                    .accessibilityIdentifier("pin-address-none")
+            }
             if typing && !search.results.isEmpty {
                 Divider().overlay(Brand.hairline)
                 ForEach(Array(search.results.prefix(5).enumerated()), id: \.offset) { i, r in
@@ -139,6 +162,14 @@ struct PinPicker: View {
         }
     }
 
+    private func go(to c: CLLocationCoordinate2D) {
+        typing = false
+        search.results = []
+        moveTo = (UUID(), MKCoordinateRegion(center: c, latitudinalMeters: spanMeters,
+                                             longitudinalMeters: spanMeters))
+        coordinate = c
+    }
+
     /// Dead centre, hanging from its point like a map pin rather than sitting
     /// on it, so the tip marks the spot and not the middle of a circle.
     private var crosshair: some View {
@@ -165,7 +196,20 @@ final class AddressSearch: NSObject, MKLocalSearchCompleterDelegate {
     nonisolated deinit {}
     var query = ""
     var results: [MKLocalSearchCompletion] = []
+    /// Apple answered for the query as it stands, so an empty list means
+    /// nothing was found rather than nothing asked yet.
+    var answered = false
     @ObservationIgnored let completer = MKLocalSearchCompleter()
+
+    /// "52.2101, 5.2902", "52.2101 5.2902" or with a semicolon; nil for
+    /// anything else or out of range.
+    static func coordinate(_ text: String) -> CLLocationCoordinate2D? {
+        let parts = text.split(whereSeparator: { $0 == "," || $0 == ";" || $0 == " " })
+        guard parts.count == 2, let la = Double(parts[0]), let lo = Double(parts[1]),
+              (-90...90).contains(la), (-180...180).contains(lo),
+              parts[0].contains("."), parts[1].contains(".") else { return nil }
+        return CLLocationCoordinate2D(latitude: la, longitude: lo)
+    }
 
     override init() {
         super.init()
@@ -175,15 +219,18 @@ final class AddressSearch: NSObject, MKLocalSearchCompleterDelegate {
 
     func update() {
         let q = query.trimmingCharacters(in: .whitespaces)
-        guard q.count >= 3 else { results = []; return }
+        answered = false
+        guard q.count >= 3, Self.coordinate(q) == nil else { results = []; return }
         completer.queryFragment = q
     }
 
     func completerDidUpdateResults(_ completer: MKLocalSearchCompleter) {
         results = completer.results
+        answered = true
     }
 
     func completer(_ completer: MKLocalSearchCompleter, didFailWithError error: Error) {
         results = []
+        answered = true
     }
 }

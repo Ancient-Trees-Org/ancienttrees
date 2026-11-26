@@ -90,5 +90,7 @@
     <string name="cf_your_tree_at">A tua árvore · %1$s</string>
     <string name="cf_added_title">Adicionada às tuas árvores</string>
     <string name="pin_address_search">Procurar uma morada</string>
+    <string name="pin_address_none">Nenhuma morada encontrada. Mova o mapa até ao local.</string>
+    <string name="pin_address_coords">Coordenadas</string>
     <string name="pin_address_clear">Limpar</string>
 </resources>

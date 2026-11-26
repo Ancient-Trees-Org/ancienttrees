@@ -100,6 +100,7 @@ GLYPHS = {
     "Settings": ("settings", False, 400, False),  # gearshape
     "SettingsFill": ("settings", True, 400, False),  # gearshape.fill
     "Straighten": ("straighten", False, 400, False),  # ruler
+    "Contrast": ("contrast", False, 400, False),  # circle.lefthalf.filled, Appearance
     "Lock": ("lock", False, 400, False),  # lock
     "ThumbUp": ("thumb_up", False, 400, False),
     "ThumbUpFill": ("thumb_up", True, 400, False),

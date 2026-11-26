@@ -93,7 +93,24 @@ object Brand {
 
 @Composable
 fun AncientTreesTheme(content: @Composable () -> Unit) {
-    val dark = isSystemInDarkTheme()
+    // The Appearance row in Settings (2026-11-26); System follows the phone.
+    val dark = when (Appearance.now) {
+        Appearance.LIGHT -> false
+        Appearance.DARK -> true
+        else -> isSystemInDarkTheme()
+    }
+    // The status and navigation bar icons follow the app's choice, not only the phone's.
+    val view = androidx.compose.ui.platform.LocalView.current
+    if (!view.isInEditMode) {
+        androidx.compose.runtime.SideEffect {
+            (view.context as? android.app.Activity)?.window?.let { w ->
+                androidx.core.view.WindowCompat.getInsetsController(w, view).apply {
+                    isAppearanceLightStatusBars = !dark
+                    isAppearanceLightNavigationBars = !dark
+                }
+            }
+        }
+    }
     CompositionLocalProvider(LocalBrand provides if (dark) DarkBrand else LightBrand) {
         MaterialTheme(colorScheme = if (dark) Dark else Light, typography = Type, content = content)
     }

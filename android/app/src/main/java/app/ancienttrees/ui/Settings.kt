@@ -119,6 +119,43 @@ object Units {
     }
 }
 
+/**
+ * Light, dark or the phone's setting (the iPhone's Kit/Appearance.swift, 2026-11-26: a
+ * tester found the dark mode "very dark, and there's no way to turn it off"). It follows
+ * the account (profiles.appearance, Profiles.saveAppearance); the copy here is the
+ * account's, read back by Profiles.load, so the theme is right before the network answers.
+ */
+object Appearance {
+    const val SYSTEM = "system"
+    const val LIGHT = "light"
+    const val DARK = "dark"
+    val all = listOf(SYSTEM, LIGHT, DARK)
+    private var app: Context? = null
+    private fun prefs(c: Context) = c.applicationContext.getSharedPreferences("settings", Context.MODE_PRIVATE)
+
+    /** What AncientTreesTheme reads; observed, so a change repaints every screen at once. */
+    var now by androidx.compose.runtime.mutableStateOf(SYSTEM)
+    fun load(c: Context) {
+        app = c.applicationContext
+        now = prefs(c).getString("appearance", null)?.takeIf { it in all } ?: SYSTEM
+    }
+    fun set(c: Context, value: String) {
+        if (value !in all) return
+        prefs(c).edit().putString("appearance", value).apply()
+        now = value
+    }
+    /** The account's answer, at sign-in and launch. */
+    fun adopt(value: String?) {
+        val c = app ?: return
+        if (value != null && value != now) set(c, value)
+    }
+    fun labelRes(value: String) = when (value) {
+        LIGHT -> R.string.appearance_light
+        DARK -> R.string.appearance_dark
+        else -> R.string.appearance_system
+    }
+}
+
 /** What Settings needs from the app around it. */
 class SettingsHost(
     val account: Account,
@@ -191,6 +228,33 @@ private fun SettingsInner(host: SettingsHost, onBack: () -> Unit, askSignOut: Bo
                                     // A Picker in a Menu ticks the current value (Profile.swift:243).
                                     leadingIcon = { MenuTick(m == miles) },
                                     onClick = { Units.set(context, m); miles = m; menu = false },
+                                )
+                            }
+                        }
+                    }
+                }
+                RowDivider(48.dp)
+                // APPEARANCE: light, dark or the phone's (Profile.swift, 2026-11-26).
+                var themeMenu by remember { mutableStateOf(false) }
+                Box {
+                    SettingsRow(Sym.Contrast, stringResource(R.string.settings_appearance),
+                        value = stringResource(Appearance.labelRes(Appearance.now)),
+                        trailing = Sym.UnfoldMore, tag = "profile-appearance") { themeMenu = true }
+                    Box(Modifier.align(Alignment.BottomEnd)) {
+                        DropdownMenu(expanded = themeMenu, onDismissRequest = { themeMenu = false }, modifier = Modifier.background(brand.surface)) {
+                            for (v in Appearance.all) {
+                                DropdownMenuItem(
+                                    text = { MenuText(stringResource(Appearance.labelRes(v))) },
+                                    leadingIcon = { MenuTick(v == Appearance.now) },
+                                    onClick = {
+                                        Appearance.set(context, v)
+                                        themeMenu = false
+                                        if (host.signedIn) scope.launch {
+                                            val t = host.account.fresh()?.accessToken
+                                            val uid = host.account.session?.userId
+                                            if (t != null && uid != null) host.profiles.saveAppearance(v, uid, t)
+                                        }
+                                    },
                                 )
                             }
                         }

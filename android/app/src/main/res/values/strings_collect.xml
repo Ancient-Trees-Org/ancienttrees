@@ -100,5 +100,7 @@
     <string name="cf_your_tree_at">Your tree · %1$s</string>
     <string name="cf_added_title">Added to your trees</string>
     <string name="pin_address_search">Search an address</string>
+    <string name="pin_address_none">No address found. Move the map to the spot instead.</string>
+    <string name="pin_address_coords">Coordinates</string>
     <string name="pin_address_clear">Clear</string>
 </resources>
