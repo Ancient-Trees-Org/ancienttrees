@@ -205,6 +205,15 @@
       "android": "the map tab does the same as iOS; nothing to change",
       "status": "one-sided",
       "why": "the website catching up with the phones, which already have one map"
+    },
+    {
+      "what": "One map on the website, step 3 (Hidde, 2026-11-26: \"A, fly and fade\"): a city picked in the search on /explore or on a one-map city page flies the map there, then opens the city's page at that view behind the browser's cross-page fade",
+      "since": "2026-11-26",
+      "web": "fly-to-city-js.ts atFlyToCity from map.ts atMapPlace and city-view-js.ts atMapPlace; Base.astro pageswap/pagereveal and style.css @view-transition",
+      "ios": "MapSearch already frames a picked city on the same map with no new screen; nothing to change",
+      "android": "the map search does the same as iOS; nothing to change",
+      "status": "one-sided",
+      "why": "the website catching up with the phones, which already stay on one map"
     }
   ]
 }

@@ -163,6 +163,14 @@ const robotsName = noindexScope(Astro.url.pathname) === "google" ? "googlebot" :
 <link rel="alternate icon" type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href={STYLE_HREF}>
+{/* THE MAP'S FADE, AND ONLY THE MAP'S (2026-11-26, Hidde: "A, fly and fade").
+    style.css opts every page into the browser's cross-page fade; this skips it
+    for every navigation but the one a map's search starts after flying to a
+    city (lib/fly-to-city-js.ts sets atFlyFade), so the map seems to stay and
+    the panel changes. Browsers without view transitions never fire it. */}
+<script is:inline>addEventListener('pageswap', function(e) { if (e.viewTransition && !window.atFlyFade) { e.viewTransition.skipTransition(); } });
+addEventListener('pagereveal', function(e) { if (e.viewTransition) { document.documentElement.classList.add('at-fly'); e.viewTransition.finished.then(function() { document.documentElement.classList.remove('at-fly'); }); } });
+addEventListener('pageshow', function(e) { if (e.persisted) { window.atFlyFade = false; document.documentElement.classList.remove('at-fly'); } });</script>
 <Fragment set:html={headExtra} />
 {/* WHO YOU ARE, ANSWERED BEFORE ANY PAGE SCRIPT ASKS (2026-09-18). It is in
     the head rather than beside the sheet at the foot of the body because a

@@ -12,6 +12,7 @@ import { treeMapJs } from "./tree-map-js";
 import { treeCardJs } from "./tree-card";
 import { placeCardJs } from "./browse-card";
 import { viewListJs, viewListWords } from "./view-list-js";
+import { flyToCityJs } from "./fly-to-city-js";
 
 /** MapLibre, loaded without blocking the page.
  *
@@ -722,8 +723,9 @@ window.atMapPlace = function(kind, key) {
   // field: one Zurich, never a second version of it on /explore (Hidde,
   // 2026-11-22: "waarom zijn dit twee verschillende zurich pagina ... er
   // moeten niet meerdere kaarten bestaan. the design of the city map is
-  // good"). false makes the search follow the row's link.
-  if (kind === 'city') { return false; }
+  // good"). Since 2026-11-26 the map flies there first and the city's page
+  // opens at the view it landed on (fly-to-city-js.ts, "A, fly and fade").
+  if (kind === 'city') { atFlyToCity(map, key); return true; }
   _headFor(kind === 'country' ? key : null);
   // The place searched for leads the list under the map until the search
   // field changes (Hidde, 2026-11-06: searching United Kingdom fitted the
@@ -822,6 +824,7 @@ function initTreeLayers(p) {
 }
 
 ${viewListJs(EXPLORE_LIST_MAX)}
+${flyToCityJs()}
 // THE SEARCH HOLDS UNTIL YOU MOVE THE MAP (Airbnb's map, Hidde 2026-11-06:
 // "alleen degene in frankrijk tellen tot kruisje of scrollen"): a drag or a
 // zoom by the visitor, or typing in or clearing the field, ends it, and the

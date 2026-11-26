@@ -19,6 +19,7 @@
 // the list, its note and its head are made here, in the browser.
 import { viewListJs } from "./view-list-js";
 import { EXPLORE_LIST_MAX } from "./map";
+import { flyToCityJs } from "./fly-to-city-js";
 
 export interface CityViewWords {
   /** The map's own title ("The ancient tree map"). */
@@ -68,6 +69,21 @@ if (_sheetBody) {
   _sheetBody.insertBefore(_viewBody, _sheetBody.firstChild);
 }
 ${viewListJs(EXPLORE_LIST_MAX)}
+${flyToCityJs()}
+// A city picked in the search (search-form.ts go()): another city is flown to
+// and opened there (fly-to-city-js.ts); this city brings its own panel back
+// and frames its trees, with Back returning to the list. A country still
+// opens /explore on it.
+window.atMapPlace = function(kind, key) {
+  if (kind !== 'city') { return false; }
+  if ('/' + key !== PLACE_PATH) { atFlyToCity(map, key); return true; }
+  if (VIEW) {
+    toPlace();
+    try { history.pushState(null, '', PLACE_PATH + _viewHash()); } catch (e) {}
+  }
+  if (HOME) { map.fitBounds(HOME, { padding: 70, maxZoom: 13, duration: 900 }); }
+  return true;
+};
 function _viewData(cb) {
   if (DATA) { cb(); return; }
   _viewWaiting.push(cb);
