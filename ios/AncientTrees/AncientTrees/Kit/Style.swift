@@ -364,3 +364,33 @@ func scientificNameText(_ sci: String) -> Text {
     }
     return Text(out)
 }
+
+
+/// ONE ROUND BUTTON FOR EVERY TAB'S HEADER (Hidde, 2026-11-26: the bell on
+/// Discover had no circle, Feed's plus a ring, My trees' gear a plain disc;
+/// "kun je daar eens over nadenken, hoe we dat consistenter kunnen maken").
+/// A 44 point white disc with a hairline and a soft shadow, so it reads on a
+/// white page and on the map alike, an 18 point medium glyph in ink, and the
+/// red dot for something new (Instagram's and Strava's bell).
+struct HeaderDisc: View {
+    let symbol: String
+    var dot = false
+    var body: some View {
+        Image(systemName: symbol)
+            .font(.system(size: 18, weight: .medium))
+            .foregroundStyle(Brand.ink)
+            .frame(width: 44, height: 44)
+            .background(Brand.surface, in: .circle)
+            .overlay { Circle().strokeBorder(Brand.hairline, lineWidth: 1) }
+            .shadow(color: .black.opacity(0.06), radius: 3, y: 1)
+            .overlay(alignment: .topTrailing) {
+                if dot {
+                    Circle().fill(Color(red: 0.85, green: 0.34, blue: 0.25))
+                        .frame(width: 10, height: 10)
+                        .overlay(Circle().strokeBorder(Brand.surface, lineWidth: 2))
+                        .offset(x: -6, y: 6)
+                }
+            }
+            .contentShape(.circle)
+    }
+}

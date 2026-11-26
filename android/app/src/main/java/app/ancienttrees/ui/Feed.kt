@@ -236,7 +236,10 @@ fun FeedScreen(
                         .clip(CircleShape)
                         .background(brand.surface)
                         .border(1.dp, brand.hairline, CircleShape)
-                        .clickable(role = Role.Button) { host.findPeople() }
+                        .clickable(role = Role.Button) {
+                            // Signed out: sign in first, then Find people (FeedView, 2026-11-26).
+                            if (host.signedIn()) host.findPeople() else host.signIn { host.findPeople() }
+                        }
                         .semantics { contentDescription = findLabel }
                         .testTag("feed-find-people"),
                 ) { Icon(Sym.PersonAdd, null, tint = brand.ink, modifier = Modifier.size(24.dp)) }
@@ -366,20 +369,24 @@ private fun FeedPost(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: 
             },
         )
         val whenText = SentAgo.short(p.publishedAt)
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(10.dp),
-            modifier = Modifier
-                .fillMaxWidth()
-                .heightIn(min = 44.dp)
-                .then(if (p.authorName != null) Modifier.clickable(role = Role.Button, onClick = onAuthor).testTag("feed-author") else Modifier),
-        ) {
-            if (p.authorName != null) Avatar(p.authorAvatar, name, 36, 15)
-            else Box(Modifier.size(36.dp).clip(CircleShape).background(brand.surfaceMuted))
-            Column(verticalArrangement = Arrangement.spacedBy(1.dp)) {
-                Text(name, fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = brand.ink, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                Text(listOfNotNull(deed, whenText).joinToString(" · "), fontSize = 13.sp, color = brand.inkSoft, maxLines = 1)
+        Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(10.dp),
+                modifier = Modifier
+                    .weight(1f)
+                    .heightIn(min = 44.dp)
+                    .then(if (p.authorName != null) Modifier.clickable(role = Role.Button, onClick = onAuthor).testTag("feed-author") else Modifier),
+            ) {
+                if (p.authorName != null) Avatar(p.authorAvatar, name, 36, 15)
+                else Box(Modifier.size(36.dp).clip(CircleShape).background(brand.surfaceMuted))
+                Column(verticalArrangement = Arrangement.spacedBy(1.dp)) {
+                    Text(name, fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = brand.ink, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    Text(listOfNotNull(deed, whenText).joinToString(" · "), fontSize = 13.sp, color = brand.inkSoft, maxLines = 1)
+                }
             }
+            // The heart at the end of the person's line, as on the tiles (FeedView.byline).
+            p.likeId?.let { PhotoHeart(it, size = 22.dp) }
         }
         // The whole photograph at 4:5, the place on it, "New on the map" on a tree somebody added.
         val photoMod = Modifier
@@ -393,6 +400,8 @@ private fun FeedPost(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: 
             p.photoUrl?.let { RemoteImage(it, null, Modifier.fillMaxSize()) }
             if (p.isNewTree) FeedPill(stringResource(R.string.feed_new_on_map), Modifier.align(Alignment.TopStart).padding(10.dp))
             if (p.place.isNotEmpty()) FeedPill(p.place, Modifier.align(Alignment.BottomStart).padding(10.dp))
+            // One card in two sizes (2026-11-26): the save top right on the photograph, as on every tree card.
+            if (p.checked) Box(Modifier.align(Alignment.TopEnd).padding(6.dp)) { SaveMark(tree, onPhoto = true) }
         }
         Column(
             verticalArrangement = Arrangement.spacedBy(4.dp),
@@ -402,30 +411,6 @@ private fun FeedPost(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: 
             val story = known?.story.orEmpty()
             if (story.isNotEmpty()) {
                 Text(FeedPosts.firstSentence(story), fontSize = 15.sp, color = brand.inkSoft, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            }
-        }
-        // Heart (a visitor's photograph only), save, share; the glyphs line up with the text.
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(4.dp),
-            modifier = Modifier.offsetTop(-6).offsetStart(if (p.likeId == null) -11 else 0),
-        ) {
-            p.likeId?.let {
-                PhotoHeart(it, size = 25.dp)
-                Spacer(Modifier.width(6.dp))
-            }
-            // Nothing to save before the check: no tree of ours exists yet.
-            if (p.checked) SaveMark(tree, onPhoto = false)
-            val shareLabel = stringResource(R.string.share_tree)
-            Box(
-                contentAlignment = Alignment.Center,
-                modifier = Modifier
-                    .size(44.dp)
-                    .clickable(role = Role.Button) { host.share(tree) }
-                    .semantics { contentDescription = shareLabel }
-                    .testTag("feed-share"),
-            ) {
-                Icon(Sym.Share, null, tint = brand.inkSoft, modifier = Modifier.size(22.dp))
             }
         }
     }

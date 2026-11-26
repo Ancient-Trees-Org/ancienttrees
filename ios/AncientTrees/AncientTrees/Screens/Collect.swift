@@ -1120,11 +1120,7 @@ struct CollectView: View {
                 // page margin so its circle stands on the gear's 16 point
                 // edge, one column under it. A tap, not a Button: the
                 // header is the sheet's handle (sheetTap, 2026-11-05).
-                Image(systemName: "person.badge.plus")
-                    .font(.system(size: 18, weight: .medium))
-                    .foregroundStyle(Brand.ink)
-                    .frame(width: 44, height: 44)
-                    .background(Brand.surface, in: .circle)
+                HeaderDisc(symbol: "person.badge.plus")
                     .sheetTap { navigator.push = .findPeople }
                 .padding(.trailing, -4)
                 .accessibilityLabel("Find people")

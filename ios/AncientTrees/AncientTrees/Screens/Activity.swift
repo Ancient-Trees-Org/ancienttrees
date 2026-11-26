@@ -73,7 +73,9 @@ final class ActivityStore {
     }
 }
 
-/// The bell top right of Discover: signed in only, a dot while something is new.
+/// The bell top right of the Feed (moved from Discover 2026-11-26, Instagram's
+/// and Strava's place for it: the social tab), signed in only, a dot while
+/// something is new.
 struct ActivityBell: View {
     @Environment(Account.self) private var account
     @Environment(Navigator.self) private var navigator
@@ -82,21 +84,7 @@ struct ActivityBell: View {
     var body: some View {
         if account.isSignedIn {
             Button { navigator.push = .activity } label: {
-                Image(systemName: "bell")
-                    .font(.system(size: 17, weight: .semibold))
-                    .foregroundStyle(Brand.ink)
-                    .frame(width: 40, height: 40)
-                    .background(Brand.surface, in: .circle)
-                    .overlay(alignment: .topTrailing) {
-                        if store.fresh {
-                            Circle().fill(Color(red: 0.85, green: 0.34, blue: 0.25))
-                                .frame(width: 9, height: 9)
-                                .overlay(Circle().strokeBorder(Brand.ground, lineWidth: 2))
-                                .offset(x: -7, y: 7)
-                        }
-                    }
-                    .frame(minWidth: 44, minHeight: 44)
-                    .contentShape(.rect)
+                HeaderDisc(symbol: "bell", dot: store.fresh)
             }
             .buttonStyle(.plain)
             .accessibilityLabel(store.fresh ? "Activity, new" : "Activity")
@@ -152,7 +140,9 @@ struct ActivityView: View {
     }
 
     @ViewBuilder private func section(_ title: String, _ rows: [ActivityStore.Row]) -> some View {
-        Text(title).font(.brand(15, .black, relativeTo: .headline))
+        // Instagram's notification headings ("New", "This week"): plain
+        // 17 semibold, never the brand's black (Hidde, 2026-11-26: "heel dik").
+        Text(title).font(.system(size: 17, weight: .semibold)).foregroundStyle(Brand.ink)
             .padding(.horizontal, 16).padding(.top, 14).padding(.bottom, 4)
         ForEach(rows) { row($0) }
     }

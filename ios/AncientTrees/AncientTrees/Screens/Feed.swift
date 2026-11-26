@@ -145,16 +145,20 @@ struct FeedView: View {
                     .font(.screenTitle)
                     .foregroundStyle(Brand.ink)
                 Spacer(minLength: 8)
+                ActivityBell()
+                    .alignmentGuide(.firstTextBaseline) { d in d[VerticalAlignment.center] + 12 }
+                    .padding(.trailing, 4)
                 // ADD FRIENDS, Polarsteps' person with a plus top right of
                 // Activity: Find people, which asks a signed-out person to
                 // sign in (People.swift).
-                Button { navigator.push = .findPeople } label: {
-                    Image(systemName: "person.badge.plus")
-                        .font(.system(size: 19, weight: .medium))
-                        .foregroundStyle(Brand.ink)
-                        .frame(width: 44, height: 44)
-                        .background(Brand.surface, in: .circle)
-                        .overlay { Circle().strokeBorder(Brand.hairline, lineWidth: 1) }
+                // Signed out it asks for a sign-in first, then goes on to
+                // Find people (Hidde, 2026-11-26: "uitgelogd ... gewoon naar
+                // een loginscherm"), as every account control does.
+                Button {
+                    if account.isSignedIn { navigator.push = .findPeople }
+                    else { nudge.require(.general) { navigator.push = .findPeople } }
+                } label: {
+                    HeaderDisc(symbol: "person.badge.plus")
                 }
                 .buttonStyle(.plain)
                 .accessibilityLabel("Find people")
@@ -341,6 +345,16 @@ struct FeedView: View {
             .buttonStyle(.plain)
             .accessibilityIdentifier("feed-photo")
             .modifier(DoubleTapLike(id: p.likeId))
+            // ONE CARD IN TWO SIZES (Hidde, 2026-11-26: "de bookmark ... rechtsboven
+            // ... laten staan", "nu lijkt het overal maar een beetje random
+            // geplaatst"): the save top right on the photograph as on every
+            // tree card and on the grid's tiles, over the link and not in it;
+            // the heart at the end of the person's line; share on the tree's
+            // own page, top right, as everywhere (Airbnb's listing card: save
+            // on the card, share on the page).
+            .overlay(alignment: .topTrailing) {
+                if p.isChecked { SaveHeart(tree: tree, look: .onPhoto).padding(6) }
+            }
             NavigationLink(value: route) {
                 VStack(alignment: .leading, spacing: 4) {
                     Text(p.tree_name)
@@ -367,7 +381,6 @@ struct FeedView: View {
             .buttonStyle(.plain)
             .padding(.vertical, -10)
             .accessibilityIdentifier("feed-name")
-            actions(p, tree: tree)
         }
     }
 
@@ -393,7 +406,7 @@ struct FeedView: View {
         }
         .frame(minHeight: 44)
         .contentShape(.rect)
-        return Group {
+        return HStack(spacing: 4) {
             if p.author_name == nil {
                 line.accessibilityElement(children: .combine)
             } else {
@@ -402,36 +415,10 @@ struct FeedView: View {
                     .accessibilityLabel("\(name), open profile")
                     .accessibilityIdentifier("feed-author")
             }
+            // The heart, the person's photograph, at the end of their line as
+            // on the grid's tiles and the website's (beside the name, never in it).
+            if let like = p.likeId { PhotoHeart(photoId: like, size: 17) }
         }
-    }
-
-    private func actions(_ p: FeedPosts.Post, tree: Tree) -> some View {
-        HStack(spacing: 4) {
-            if let like = p.likeId {
-                PhotoHeart(photoId: like, size: 19)
-                    .padding(.trailing, 6)
-            }
-            // Nothing to save before the check: no tree of ours exists yet.
-            if p.isChecked { SaveHeart(tree: tree, look: .plain) }
-            if let url = Shared.page(p.url, from: "feed") {
-                ShareLink(item: url, subject: Text(p.tree_name),
-                          message: Text(p.place.isEmpty ? "\(p.tree_name)." : "\(p.tree_name), \(p.place).")) {
-                    Image(systemName: "square.and.arrow.up")
-                        .font(.system(size: 17, weight: .medium))
-                        .foregroundStyle(Brand.inkSoft)
-                        .frame(width: 44, height: 44)
-                        .contentShape(.rect)
-                }
-                .countsShare("feed")
-                .accessibilityLabel("Share \(p.tree_name)")
-                .accessibilityIdentifier("feed-share")
-            }
-            Spacer(minLength: 0)
-        }
-        // The glyphs line up with the text above, not their 44 point boxes
-        // (PhotoHeart already reaches 9 points out of its own).
-        .padding(.leading, p.likeId == nil ? -12 : -3)
-        .padding(.top, -6)
     }
 
     @ViewBuilder private func footer(_ empty: Bool) -> some View {
