@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-26 session (19:30): iOS red, second cause fixed
+
+- The 17:15 ios.yml run on main passed every screen (0 layout findings on 82 screens, both phones) but appfit's source check failed: FeedPeople.swift padded the "People you may know" header twice (ShelfHeader pads itself, then -16). The block now runs edge to edge as a whole, same pixels (7f2d53174). The double-padding check passes locally; the next ios.yml run is the proof.
+
 ## 2026-11-26 night run (second attempt, 17:30): nothing to ship, checked and left
 
 - Claims: none standing. READY leads: 3 (York, Guimaraes, Leamington Spa), under the six-candidate floor for a pass, and the other verified files are stale or duplicates of live trees. Own research is paused, so nothing was dispatched.
