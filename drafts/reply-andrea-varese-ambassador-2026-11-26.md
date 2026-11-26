@@ -3,7 +3,6 @@ Their mail (English), 2026-11-26 16:03: "What is the role of the ambassador and 
 Answer: his standard ambassador answer (drafts/HIS_VOICE.md, 2026-11-24, Jakob). Varese has a place page (5 trees).
 Note: the earlier draft of today (reply-andrea-varese-2026-11-26.md, campus history is on the page) is not logged as sent; if it has not gone, its line can join this one.
 audience: reader
-To: corsino.andrea@icloud.com
 mailcheck-ok: asking-twice - Andrea asked what the role involves; describing it answers that question, it is not a new ask
 
 ---

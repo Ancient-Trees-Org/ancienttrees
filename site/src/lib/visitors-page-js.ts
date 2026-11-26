@@ -50,15 +50,17 @@ export function visitorTileFn(): string {
   return `${AGO_FN}
   // A feed() row as the tile reads it: r the who and when (sighting_id is the
   // row's key), c the tree (name, link, picture, place), the apps' FeedPosts.
-  // Only a visitor's photograph on one of ours carries a heart: a tree they
-  // added from a tip has no photograph row to like.
+  // A visitor's photograph carries a heart, on one of ours or on a tree they
+  // added themselves (key = its sightings uuid; Hidde, 2026-11-26: the reader
+  // who brings a whole tree deserves one most). Only a tip without a
+  // photograph ("tree:<id>") has none.
   // LIVE FIRST, THEN CHECKED (supabase/feed-live.sql, 2026-11-26): a row with
   // checked false is a reader's share the judge has not looked at yet: their
   // own name for it, no place and no position (hard rule 10), the share page
   // as link, and nothing to save or like until it is a tree of ours.
   function nfvFrom(f) {
     var checked = f.checked !== false;
-    var like = checked && f.kind === 'photo' && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(f.key);
+    var like = checked && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(f.key);
     return {
       r: { sighting_id: f.key, tree_id: f.tree_id || ('shared:' + f.key), published_at: f.published_at, author_name: f.author_name,
            author_avatar: f.author_avatar, author_id: f.author_id, like: like, checked: checked },

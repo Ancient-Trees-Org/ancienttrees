@@ -42,9 +42,9 @@ object FeedPosts {
         /** A tree somebody added, against a photograph on one of ours; only once checked. */
         val isNewTree: Boolean get() = kind == "tree" && checked
 
-        /** The like on a visitor's photograph, keyed by its sightings uuid; only a checked photo post has one. */
+        /** The like on a visitor's photograph, keyed by its sightings uuid: a checked photo post and a reader's own new tree (Hidde, 2026-11-26); a tip ("tree:<id>") has none. */
         val likeId: String?
-            get() = if (checked && kind == "photo" && UUID_RE.matches(key)) key.lowercase() else null
+            get() = if (checked && UUID_RE.matches(key)) key.lowercase() else null
 
         /** The shared sighting behind an unchecked post (its key). */
         val sharedId: String? get() = if (!checked && UUID_RE.matches(key)) key.lowercase() else null

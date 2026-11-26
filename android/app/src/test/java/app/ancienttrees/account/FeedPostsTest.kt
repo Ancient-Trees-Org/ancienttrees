@@ -54,4 +54,18 @@ class FeedPostsTest {
         assertTrue(p.isNewTree)
         assertNull(p.likeId)
     }
+
+    /** Andrea's Varese trees, 2026-11-26: a reader's own new tree, checked, carries a heart. */
+    @Test fun aReadersOwnNewTreeCarriesAHeart() {
+        val one = """
+        [{"key":"5B0E2C1A-7D7E-4F7A-9C1E-2D3B4A5C6D7E","kind":"tree","tree_id":"vrs_009",
+          "tree_name":"The Picnic-Table Cedars","place":"Varese","url":"/varese/picnic-table-cedars",
+          "latitude":45.8,"longitude":8.8,"photo_url":"https://x/feed/d.jpg","photo_w":800,"photo_h":600,
+          "published_at":"2026-11-26T08:00:00Z","author_name":"Andrea C.","author_avatar":null,
+          "author_id":null,"checked":true}]
+        """
+        val p = FeedPosts.parse(one)!![0]
+        assertTrue(p.isNewTree)
+        assertEquals("5b0e2c1a-7d7e-4f7a-9c1e-2d3b4a5c6d7e", p.likeId)
+    }
 }

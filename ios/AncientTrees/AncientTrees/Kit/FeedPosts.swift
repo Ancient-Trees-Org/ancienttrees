@@ -49,10 +49,11 @@ public enum FeedPosts {
         var isNewTree: Bool { kind == "tree" && isChecked }
 
         /// The heart is the like on a visitor's photograph (PhotoLikes), keyed
-        /// by its sightings uuid; only a photo post carries one (a tip's key is
-        /// "tree:<id>" and has no photograph row to like).
+        /// by its sightings uuid: a photo post and a reader's own new tree both
+        /// carry one (Hidde, 2026-11-26); only a tip's key is "tree:<id>" and
+        /// has no photograph row to like.
         var likeId: String? {
-            guard isChecked, kind == "photo", UUID(uuidString: key) != nil else { return nil }
+            guard isChecked, UUID(uuidString: key) != nil else { return nil }
             return key.lowercased()
         }
 
