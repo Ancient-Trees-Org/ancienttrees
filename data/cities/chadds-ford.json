@@ -88,6 +88,30 @@
           "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
           "sighting_id": "8587a0c8-80d2-4576-9e46-25d9cd95be6a",
           "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-20: This sycamore's huge pale trunk with five children (faces blurred by the sender) holding hands round it, the red barn and the stone outbuildings of the Gilpin homestead behind, autumn leaves, bright daylight, colour. A hug measure of the trunk; goes in the strip behind the lead, which shows the whole tree without people. Species seen: Mottled pale flaking bark, white upper limbs, fallen plane-type leaves: American sycamore. Fits the description: A trunk about five people round beside the Gilpin farm's stone buildings, as the story and recognition line say.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cdf_001-the-brandywine-sycamore-lafayette-sycamore-c0841407-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "c0841407-ba01-4abc-8f2b-30306e6989e5-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cdf_001-the-brandywine-sycamore-lafayette-sycamore-c0841407-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "c0841407-ba01-4abc-8f2b-30306e6989e5-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

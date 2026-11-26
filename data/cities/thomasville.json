@@ -86,6 +86,30 @@
           "sighting_id": "c64b5650-6946-456a-b0d4-8af4fd95bacd",
           "note": "Photographed by a reader and sent through the app (2026-05-10); in the strip since 2026-11-17, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
           "live_first_on": "2026-11-17"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/thv_001-the-big-oak-c64b5650-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "c64b5650-6946-456a-b0d4-8af4fd95bacd-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/thv_001-the-big-oak-c64b5650-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "c64b5650-6946-456a-b0d4-8af4fd95bacd-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ],
       "pin_source": {

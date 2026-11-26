@@ -1706,7 +1706,21 @@
         "contributor_user_id": "p_c516cec5b9e607f5340d3a45",
         "sighting_id": "4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: the whole oak and its broad round crown in the arcaded courtyard of a yellow building, hedge in front, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lis_039-the-portuguese-oak-of-the-agronomy-cloister-4cec5259-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1170,
+          "height": 1371,
+          "source": "contributor",
+          "contributor_user_id": "p_c516cec5b9e607f5340d3a45",
+          "sighting_id": "4cec5259-ac92-4a7a-9c4c-9f6ddd1acd1a-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "hero_tree_id": "lis_017"

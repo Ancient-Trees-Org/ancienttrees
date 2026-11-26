@@ -1,5 +1,71 @@
 # LOG
 
+## 2026-11-26 session: a tester's three points (photos, dark mode, pin search)
+
+- **Photos**: no script ever published the further photographs a reader sends with a tree, so 84 live trees showed fewer than were sent. scripts/reader_extras.py gives each one a verdict (data/reader-extras.json); 311 looked at on contact sheets, 278 now in their trees' galleries, 25 left out (selfies and posed visitors, Google Lens screenshots, an engraving, planks, near-duplicates). preflight refuses a published tree whose extra has no verdict; the reader judge's brief has the step. The congratulation mail now says which photos stayed off and why, and that we wrote the story from what they sent. Escaped bug closed with scripts/test_reader_extras.py.
+- **Dark mode**: Settings has Appearance (System, Light, Dark) on iPhone and Android, kept on the account like Distances. The dark ground is one step lighter (#1A1D18), all text AA. Next builds.
+- **Pin step**: the address field (this morning) now says when nothing is found and takes typed coordinates; the locate arrow was already there. Next builds.
+- Not done: the story edit before publishing. That belongs with the "edit your tree" design of 2026-11-25; the mail tells them what we did meanwhile.
+- For Hidde: paste supabase/profile-appearance.sql in the Supabase SQL editor (https://supabase.com/dashboard/project/caimvxiyrtifilimlkqw/sql/new). Until then the choice holds on the phone and is not yet on the account.
+## 2026-11-26 reader judge: the Palheiro araucaria gets its planting date
+
+- Changed on the site: Palheiro Gardens' Tall Araucaria (mdr_013, Madeira) now says it is about 215 years old, by a reader's estimate. The reader who added it wrote back that the garden believes it was planted around 1810 by the first Count of Carvalhal. The age is on the page in our own words, in English and in the Portuguese overlay. It is not quoted, since a mail needs their yes first.
+- For Hidde: the same reader asks when the Android app comes out, because they want to add more of the garden's trees on site. A reply offering them the Android test group is in drafts/reply-reader-1708-2026-11-26.md (mailcheck is clean). Feedback 1708 is closed as needs_hidde.
+- No readers' trees, photographs or reports were waiting. The one queue item (3c544597) is from our own account (`mine`) and its photo is not on disk, so it stays.
+
+## 2026-11-26 reader judge: the Varese campus gets its history from a reader
+
+- Changed on the site: the reader who sent the Varese campus beech wrote back that the campus began as a psychiatric hospital in the early 1900s. That fact is now in the stories of var_003, var_004 and var_005, stated as theirs and in our words. It is not quoted, since a mail needs their yes before we quote it. Feedback 1707 is closed as handled, and its reader_words row is done.
+- No readers' trees or photographs were waiting, and no reports were open. The one queue item (3c544597, Amsterdam Stationsplein) and the other waiting leads in _sightings.json are all from our own account (`mine`), which never auto-publishes. The Amsterdam photo is also not on disk.
+
+## 2026-11-26 reader judge: two campus trees in Varese and a fox-red conifer in Glasgow, live
+
+- Live: varese/var_004, The Picnic-Table Cedars (two big cedars over the picnic tables on the university campus, a few dozen metres from var_003), and varese/var_005, The Autumn Beech of the Campus (a broad beech in full copper on its leaf carpet, framed by a cedar). Both are from the reader who sent var_003 this morning, and both have the photo's own location. Varese now has 5 trees. Its intro, meta, question texts and FAQ give the new count. It has no kept translation.
+- Live: glasgow/gla_012, The Red Conifer by the Pond (West End, a tall feathery conifer blazing fox-red beside an iced pond, with sandstone tenements behind). The reader calls it a European larch. Its narrow shape, fox-red colour and place at the water's edge look like a bald cypress, so the species reads Bald Cypress and the page asks readers to confirm. We did not name the garden; the page asks for that too. Glasgow's meta now says 11 trees. All three photos are filed in November, the photos' own month.
+- Rejected as a duplicate: sighting e3899250, sent for var_003. Its main picture is the same picnic-table cedar photo that is now var_004. Its extras show var_003's trunk (which already has this reader's photo) and the beech (now var_005).
+- Report 1000152 (pin moved, same reader): the pin was dragged 188 m south while the picnic-table cedar was being added. The photo's own location is from under the tree, so the pin stays there (GPS beats a pin moved by hand). Closed holds with no mail, because the move was part of adding the tree. Noted in var_004's verify_notes.
+- Nothing else waited: 0 tips without a verdict, 0 reader notes to quote. Lead 3c544597 (Amsterdam) still has no photo on disk, so it was left alone again.
+
+## 2026-11-26 session: /explore now reads as the city page
+
+- Hidde: the map page still looked "veel lelijker dan een stadspagina", though on 11-22 he had ruled it should look the same ("gebruik dit design als basis ... maak er 1 component van"). That session built it and never committed it; the work sat in the checkout for four days.
+- Now on main: one place head (PlaceHead.astro: crumbs, title, share circle) and one intro (PlaceIntro.astro: the intro with Read more, the ambassador box above Highlights) on the city page in every language, the country page and /explore. On a desktop the loose "343 trees" line is gone. A searched country retitles the head to "Ancient Trees in <em>Country</em>" with its own intro (map.ts `_headFor`). qa `check_one_place_head()` refuses a head or intro written by hand. map-parity row: web only, the phones already draw one header.
+
+## 2026-11-26 session: a just-shared tile on /visitors gave a 404
+
+- Cause: feed() linked a not-yet-checked share to /t/?id=, and the live site only answers /t?id= (no slash). The web tile now corrects it (live with deploy 45824261606), and supabase/feed-live.sql hands out /t?id= itself.
+- Also: a just-shared photograph of a tree we already have now opens that tree's own page under its name, instead of the bare share page. Web through a new public table feed_trees (id, name, place, link; filled by feed_publish.py), iOS and Android by trying the known tree before the share page (next builds).
+- For Hidde: paste supabase/feed-live.sql in the Supabase SQL editor. Until then the web fix covers the 404; the tree-page link for photos waits for the paste and the next feed_publish run.
+
+## 2026-11-26 session: ages cut inside a number, fixed on the website
+
+- Hidde saw an age like "200 -2" on the site. Cause: the tree page, the translated tree page and the card cut age_estimate at its first comma, including the comma in "2,000". Kingley Vale's yews ("500 to 2,000 years") read "500 to 2", and 26 more tree pages read "about 1" / "roughly 2" for trees of 1,000 to 2,600 years (Dujiangyan, Kvam, Llanerfyl, Yakushima, Omishima, Logan Canyon, Osaka and others); 8 cards did the same. The apps had this fixed on 11-24 (report 1000138), the website never got it.
+- Live with the next deploy: firstAgeClause() in site/src/lib/age-short.ts, used by all three; qa `check_an_age_is_never_cut_inside_a_number()` runs it over every tree and refuses a hand-written comma cut. Escaped bug recorded and closed with b24814e56.
+- The data itself was checked too: no negative bounds, no max below min, no card range running backwards across 5,151 trees.
+
+## 2026-11-26 reader judge: a tall araucaria at Palheiro Gardens, Madeira, live
+
+- Live: madeira/mdr_013, The Tall Araucaria of Palheiro Gardens, from a reader's website tip with a photograph (viewed: a Norfolk Island pine standing alone on a lawn, tier on tier, daylight). It came with no GPS, so the pin is approximate on the garden's point (the same as the pohutukawa, mdr_010). Paid entry. The page gives the reader's 48 m, their survey citation (Árvores Monumentais e Emblemáticas da Madeira, 2008) and their account of the garden as their own words. Photo filed in November, the photo's own month. Madeira now has 13 trees; its intro, meta and question texts (EN and the kept PT overlay) give the new count, and the PT overlay has the tree.
+- Nothing else waited: 0 open reports, 0 open feedback, 0 reader notes to quote. Lead 3c544597 (Amsterdam) is still our own account's and its photo is still not on disk, so it was left alone.
+
+## 2026-11-26 night run: nothing useful to ship
+
+- Nothing published. Own research is paused and the shelf holds one unwritten tree (taiwan) plus 3 READY leads, under the six-candidate floor for a write pass. The "382 awaiting a writer" figure is almost all stale files of trees already live.
+- Rung 1: the reader judge owns the 2 unmapped reader photographs (3c544597, tip-1700). Nothing a reader sent has waited over 24h. One new note on mdr_013 (Madeira, 48 m Norfolk Island pine, factual) read and left visible.
+- Rung 2, left for a Mac session: iOS run 45810490360 is red on `CountryStaysWalk.testAPickedCountryStaysOnTheRow` ("the list did not go back to the editor", "the row does not start on the saved country"). It is the Edit profile Country work of commit 60a0c41ad; the UI test cannot run on this Linux runner. Web errors orange: new type `undefined has no property 'init_ts'` in a promise. Open BUG row ESC-2026-11-25 (edit a tree you added) is a feature, his call.
+- Rung 4 sourcing stays paused while mail batches are open. reader_words, recognise --stuck and enrich --next: nothing to do. pagegaps: only species and park intros, whose pages are in the strict cut, so skipped.
+
+## 2026-11-26 reader judge: a campus cedar in Varese live
+
+- Live: varese/var_003, The Cedar of the University Campus, from a reader's app photograph (four frames viewed; photo GPS at the tree, dated November). A broad blue-grey cedar alone on a campus lawn. Species left at Cedrus sp.: the reader says Lebanon, the crown reads Atlas, and the page asks. Varese now has three trees; its intro, meta, question texts and FAQ say so. No kept translation of Varese.
+- Reader words: the Cat Tien tung note closed as pasted text (summary prose with an em dash, not the reader's own account).
+- Nothing else waited: 0 open reports, 0 open feedback. Lead 3c544597 (Amsterdam, 2026-11-18) is our own account's and its photo is not on disk, so it was left alone.
+
+## 2026-11-26 session: US round 3 sent, round 4 (empty cities) ready
+
+- Round 3 sent through Resend on Hidde's "Verstuur ze": 8 (Charleston City Paper, South Carolina Wildlife, Big Island Now, Delaware County Daily Times, Audubon, Friends of the Parks, Chicagology, Bronx.com). 58 US local mails out since 11-25; one answer so far (The East Hampton Star).
+- Round 4 on hold, drafts/batches/press-us-empty-cities-round4.json (private): 14 desks in big US cities with no or hardly any trees (Phoenix, Denver, Detroit, Charlotte, Memphis, Louisville, Sacramento, Nashville, Milwaukee, Indianapolis, Cincinnati, Raleigh, Tampa, Albuquerque). The P.S. asks which tree their readers would put on the map first ("still empty" only where none of ours stands within 30 km). No desk address found for Columbus, Jacksonville, Omaha, Orlando or Tucson. mailcheck clean.
+
 <!-- archive-index -->
 
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
@@ -12,13 +78,63 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
-## 2026-11-26 session: the walk's bugs fixed on Android too, a tree being added no longer lost when Android ends the app (for build 7)
+## 2026-11-26 session: the walk's bugs fixed on Android too, memory given back out of sight (for build 7)
 
 - **Product (Android, ships with build 7)**: every walk finding that was in Android is fixed the iPhone's way: oak search, Back to the results, "You" for your own heart, one avatar letter, a filter closes a hidden tree's card, a My trees lane frames its trees, the viewer returns to its picture, a searchable country list (eight languages) opening on your country, the location chip at large text, "1 follower" in eight languages, no empty photo credit. Bug 11 (Tortworth) was already in from the iPhone session (3 km). The rating question twice was two simulators, not a bug.
-- **Memory** (Hidde: "hoe voorkomen we die geheugen crashes"): all four build 6 exits were Android ending the app in the background. A tree being added lived in memory only, so a further photograph with the camera could lose the whole tree; it is now kept on the phone until Save or Discard (a day at most). The app gives its decoded photographs and map tiles back when out of sight (onTrimMemory). Emulator, 20 trees opened: 403 to 361 MB once home; most of the rest is the map's drawing, which only a real phone measures honestly.
+- **Memory** (Hidde: "hoe voorkomen we die geheugen crashes"): all four build 6 exits were Android ending the app in the background. A tree being added lives in memory only, so a further photograph with the camera can still lose the whole tree. Keeping it on the phone was built and taken out the same day (Hidde: "NOOIT IETS LOKAALS OPSLAAN ALTIJD AAN ACCOUNT"); the way is a draft on the account, and crossdevice.py now reads Android and refuses any new device store without his yes. The app gives its decoded photographs and map tiles back when out of sight (onTrimMemory). Emulator, 20 trees opened: 403 to 361 MB once home; most of the rest is the map's drawing, which only a real phone measures honestly.
 - **Found on the way**: Android's unit tests had been red on main since 11-25 (the snapshot dropped whose photograph a visitor's is), so no spacing or walk run happened since. Fixed (snapshot ATS5).
 - **Open, not built**: a tree you added cannot be edited afterwards (ESC-2026-11-25, report 1488): a new flow, on both phones, needs design first.
 - **For Hidde**: your own heart says "You" only once the `photo_likers` function from supabase/photo-hearts-who.sql is pasted (the iPhone needs the same paste).
+
+## 2026-11-26 session: the Feed shows a reader's share before the judge looked (feed-live.sql), and its icon is Polarsteps' Activity
+
+- **Unchecked posts** (`checked = false` from feed()) on iPhone, Android and the web row and /visitors: the reader's own name for the tree, "just shared a tree" in the byline (eight languages on Android), no place, no "New on the map", no heart, no save; a tap opens the share page (/t/?id=). When the judge approves, the same post comes back checked in the same spot. Decoder tests with checked true, false and missing: iOS FeedPostsTests, Android FeedPostsTest, both green.
+- **Fixed before it reached anybody:** the iOS Feed failed to load any page holding such a row (its tree id is null, the decoder wanted text). No build carried it.
+- **The Feed tab's icon** is one person in front of a smaller one on both phones (Hidde: "laten we het activiteit logo van polarsteps overnemen", "die gespiegelde"): Material's `group`, on iOS as a template asset because SF has no such symbol (ICONS-LICENSE-APACHE.txt beside the app).
+
+## 2026-11-26 session: a screenshot waits for its maker's yes; Bella's photo off
+
+- **Rule reversed** (Hidde: "screenshot zijn wel gevaarlijk toch", "Ja, doe het"): the 2026-11-25 line that let a screenshot through unless plainly someone else's is gone from BRIEF_READER_JUDGE.md. A screenshot (no camera data, social crop, letterbox bars, filter) is held as doubt_photo and the reader is asked "Did you take it yourself?"; their yes puts it up.
+- hold_reply.py: `doubt_photo` and `doubt_photo_live` (the tree is live without the photo), `--again` for a row we already answered.
+- **Bella di Ceciliano** (arezzo/arz_001) stays live on the register; its screenshot photo is held and the texts no longer point at it. Its reader and the Tsagarada plane's reader (submission 1433) are asked, mail at the next knock.
+- Settled with Hidde: Raincliffe beech and chestnut stay leads, the two Goll Woods rows stay held, the Tsagarada screenshot stays held.
+- Confirmed sent (tell-readers run 45799891977): the "fixed, comes with the next update" mails to #1488, #1491, #1686.
+
+## 2026-11-26 session: the feed comes from the server, live first (Hidde: "yes letsgo")
+
+**What changed for readers.** What a reader shares is in the feed at once, straight from Supabase (`feed()`, supabase/feed-live.sql), with their own name for the tree and their photo but no place or pin until the judge has looked; the judge's hold or reject takes it out, its approval turns it into the full post (name, place, pin) at the same spot in the feed (trigger supabase/feed-sent-time.sql). The checked posts live in a `feed` table with their own photo copies (supabase/feed.sql), written by `scripts/feed_publish.py` right after each judgement. One post per send now (second frames were separate posts). The apps' handling of a live post was handed to the Feed tab session.
+
+**Why New from visitors showed no new trees for days.** `scripts/sightings_link.py` asked for 720 ids in one request, Supabase answered 400, and nothing was linked; it also only ran from the knock, which GitHub stopped delivering. Batched, and the reader judge runs it after every judgement; 21 trees linked at once.
+
+**The clocks moved to Supabase.** GitHub dropped every frequent cron from 02:22 UTC (judge, knock, Site up). pg_cron now starts the judge every 10 minutes (supabase/judge-clock.sql) and the knock watchdog three times an hour (supabase/knock-clock.sql), with a new GitHub token Hidde made; the instant trigger works again with it (the old token had 403'd since the repo move). The California map walk that kept every deploy red from 03:38 to 08:48 UTC: the card now moves the pin aside when no side has room (map-card-js.ts).
+
+## 2026-11-26 session: readers hear "fixed, comes with the next update" before the build lands
+
+- **The order** (Hidde: "dit kan heel lang duren dus ik zou m alvast mailen", "onthou die volgorde"): `scripts/bug_fixed_mail.py` now mails an app fix twice, the day it is on main ("We fixed it ... The fix comes with the next app update") and again when the build is in their store ("The fix is in the app now"); a website fix once. Where a fix lives is read from the files its commit changed.
+- Android counts as out only once its versionCode is in the new data/android-releases.json (Play uploads are by hand; android_release.py prints the reminder). 6 is listed.
+- Sent now through tell-readers.yml: the first mail to #1488 (Tortworth under Westonbirt), #1491 (country that would not stay, iPhone build 42) and #1686 (could not add trees, Android build 7).
+
+## 2026-11-26 session: the Feed is a tab of its own, on both phones, and the web row reads the server (Hidde: the feed "een eigen tab", design "niet slecht")
+
+**What changed in the product (not in a store build yet; Hidde releases):**
+- **iPhone and Android: a Feed tab**, third in the bar (Map, Discover, Feed, My trees; the camera stays apart). One post per thing a reader put live, newest first: face and name (a public profile's, else "A visitor"), "added a new tree" or "photographed a tree" and when; the whole photograph at 4:5 with the place on it and "New on the map" on a tree somebody added; the tree's name and its story's first sentence; heart (a visitor's photograph only), save, share. Chips Everyone, Following, Near you (100 km). Endless, pull to refresh. iOS Screens/Feed.swift + Kit/FeedPosts.swift, Android ui/Feed.kt + account/FeedPosts.kt, strings in all eight Android languages. Tab tag 4 on both phones so My trees stays 2 and the camera 3.
+- **Every post comes from the server's feed() only**, never the catalogue: a tree the judge put live a minute ago shows and opens from the post itself (name, place, picture, pin) until the next catalogue knows it.
+- **Discover's "New from visitors" row stays**; its See all now opens the Feed tab.
+- **Website: the home row and /visitors read feed()**, so a tile needs nothing from the build (the baked #nfv-data and #vp-data are gone from those pages). Only a visitor's photograph carries the heart.
+- Side by side at 375: drafts/design-2026-11-26-feed/built-ios-android.png (real rows, simulator and emulator). CONVENTIONS.md "A feed tab"; data/android-parity.json `feed`; ButtonWalk and SweepFrames list the screen (`-tab=4`, and `-feedto=N` scrolls to a post for the sweep).
+
+**Not verified here:** the website change has no local build (no Node on this Mac); CI's build and the deploy's pagecheck are the check. The ButtonWalk and SweepFrames runs for the new screen happen in ios.yml / buttonwalk.yml, not here.
+## 2026-11-26 reader judge: the Verona silk mulberry gets its autumn photograph
+
+**The Silk Mulberry of Ca' di David in Verona (ver_011) now leads with an autumn photograph.** The reader who added the tree on 11-24 sent it: the whole tree in yellow leaf, the low split trunk with its hollow, the fence and the road behind. Their summer photograph moved into the strip, and the new one is filed under November. The pin stays where it was, because the photograph's coordinate was our own hand-placed pin and not a GPS fix. The reader was mailed by `sightings_publish.py --send`. The pin catch-up got an HTTPError from the server again.
+
+Left waiting: lead 3c544597 (Amsterdam, near the Last Elm of Stationsplein) has no file on disk. It is marked `mine` (one of our own accounts), so it is never auto-published anyway. There were no open reports, feedback or tips.
+
+## 2026-11-26 reader judge: a reader's autumn photograph now leads the Preston Twin
+
+**The Preston Twin in Brighton (bhm_001) has a reader's photograph as its lead.** It shows the whole elm in autumn yellow in front of the walled garden's wall: a burred trunk forking into two great limbs, small rounded toothed leaves on the lawn. The same trunk as the old Commons close-up, which moves to the strip. The photo is filed under November. The tree's approximate pin moved 98 m to the reader's fix and is now confirmed. The same photograph arrived twice, so the second copy (25947861) was rejected as a duplicate. The reader was mailed by `sightings_publish.py --send`. The script could not read pin coordinates from the server (HTTPError) during its pin catch-up. The move itself is in data/cities/brighton.json.
+
+**Nothing else waiting.** There were no open reports, no feedback without a verdict, no unjudged tips and no reader notes left unquoted. The 38 leads still marked `lead` with no hold all come from our own account (`mine`), so they are not reader work.
 
 ## 2026-11-26 session: every bug the build 42 walk found, fixed on the iPhone (Hidde: "ik wil vooral dat je alle bugs gaat fixen de build komt later")
 

@@ -1044,6 +1044,18 @@
           "source": "contributor",
           "contributor_user_id": "p_697eb4a0c77311e0508c5fb0",
           "sighting_id": "e2a41777-04a8-4864-aad1-99a9a84bb622"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/tok_023-the-ginkgo-of-kuhonbutsu-e2a41777-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_697eb4a0c77311e0508c5fb0",
+          "sighting_id": "e2a41777-04a8-4864-aad1-99a9a84bb622-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },
@@ -1090,7 +1102,45 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-20, through the app); viewed and approved on 2026-11-20: a huge swollen zelkova trunk wrapped in a straw rope with white paper zigzags, inside a low red fence on a city pavement, more roped zelkovas behind and the Okunitama Jinja-mae crossing sign beyond, autumn leaves, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/tok_024-the-great-zelkova-of-the-kunitama-approach-42f66634-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_697eb4a0c77311e0508c5fb0",
+          "sighting_id": "42f66634-36d7-46df-8a02-739114680321-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/tok_024-the-great-zelkova-of-the-kunitama-approach-42f66634-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_697eb4a0c77311e0508c5fb0",
+          "sighting_id": "42f66634-36d7-46df-8a02-739114680321-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/tok_024-the-great-zelkova-of-the-kunitama-approach-42f66634-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_697eb4a0c77311e0508c5fb0",
+          "sighting_id": "42f66634-36d7-46df-8a02-739114680321-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "oldest_tree_id": "tok_001"

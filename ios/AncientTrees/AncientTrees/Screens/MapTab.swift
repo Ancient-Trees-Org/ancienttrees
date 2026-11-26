@@ -505,12 +505,17 @@ struct MapTab: View {
         return sightings.all.first { $0.id == id && sightings.asTree($0).id == t.id }
     }
 
-    var body: some View {
-        // THE SHARED COMPONENT (Hidde, 2026-08-26: "je wilt deze interactie als
-        // component hebben en overal hetzelfde hebben"). This screen is where
-        // the arrangement was argued out; My trees now uses the same one, and
-        // it only stays the same if there is one of it.
-        MapWithSheet(height: $sheetHeight, topItem: $topCard) {
+    private func closeCardIfFiltered(_ new: MapFilters) {
+        guard let t = selected else { return }
+        if !new.keepsCard(t, month: month, collected: collectedIds, favourites: favouriteIds,
+                          distanceKm: t.distanceKm(from: focus.lat, focus.lng)) {
+            selected = nil
+        }
+    }
+
+    /// The map itself, out of `body` so the type-checker on CI finishes (it gave
+    /// up on body as one expression on 2026-11-26, MapTab.swift:516).
+    @ViewBuilder private var mapLayer: some View {
             TreeMap(trees: mapTrees,
                     mine: mineShown.map { (id: $0.id, lat: $0.lat, lng: $0.lng, name: $0.name,
                                            photo: sightings.thumbnail($0, maxPixel: 160)) },
@@ -578,7 +583,10 @@ struct MapTab: View {
                 .overlay {
                     if !searching { RidesTheSheet { whereChip } }
                 }
-        } header: {
+    }
+
+    /// The sheet's header, out of `body` for the type-checker (2026-11-26).
+    @ViewBuilder private var sheetHeader: some View {
                 // No count while a tree is selected: its card is the sheet.
                 // Otherwise the count, outside the scroll view: it
                 // stays visible while the list scrolls and it is the handle
@@ -598,7 +606,10 @@ struct MapTab: View {
                 if mapIdle {
                     Color.clear.frame(width: 1, height: 1).accessibilityIdentifier("map-idle")
                 }
-        } content: {
+    }
+
+    /// The sheet's content, out of `body` for the type-checker (2026-11-26).
+    @ViewBuilder private var sheetContent: some View {
                 // The arbitration between dragging the sheet and scrolling what
                 // is inside it, which is the whole interaction and was wrong.
                 //
@@ -628,6 +639,21 @@ struct MapTab: View {
                 } else {
                     sheet
                 }
+    }
+
+    /// The map, its sheet and what floats over them, out of `body` so the
+    /// type-checker on CI finishes (2026-11-26, MapTab.swift:516).
+    private var screen: some View {
+        // THE SHARED COMPONENT (Hidde, 2026-08-26: "je wilt deze interactie als
+        // component hebben en overal hetzelfde hebben"). This screen is where
+        // the arrangement was argued out; My trees now uses the same one, and
+        // it only stays the same if there is one of it.
+        MapWithSheet(height: $sheetHeight, topItem: $topCard) {
+            mapLayer
+        } header: {
+            sheetHeader
+        } content: {
+            sheetContent
         }
         // The title used to float over the map as bare text with nothing behind
         // it, and worse, "Near Amsterdam" was a statement of a problem with no
@@ -744,6 +770,10 @@ struct MapTab: View {
         // The snackbar stands where the pill stood, 70 up (RootSnackLift).
         .preference(key: RootSnackLift.self, value: sheetHeight == .full ? 70 : nil)
         .animation(.easeOut(duration: 0.2), value: navigator.snack == nil)
+    }
+
+    var body: some View {
+        screen
         .task {
             if let id = debugSelect, let t = catalogue.tree(id) {
                 selected = t
@@ -823,18 +853,6 @@ struct MapTab: View {
                     dropped = .init(latitude: n[0], longitude: n[1])
                     sheetHeight = .card
                 }
-            }
-        }
-        // A FILTER THAT HIDES THE CHOSEN TREE CLOSES ITS CARD (release walk,
-        // 2026-11-25: Want to visit took the pin away and left the card of a
-        // tree that was not saved). Google Maps and Airbnb drop a card whose
-        // result a filter removes. MapFilters.keepsCard is the same question
-        // the pins answer.
-        .onChange(of: filters) { _, new in
-            guard let t = selected else { return }
-            if !new.keepsCard(t, month: month, collected: collectedIds, favourites: favouriteIds,
-                              distanceKm: t.distanceKm(from: focus.lat, focus.lng)) {
-                selected = nil
             }
         }
         // A tree chosen lets the pin go; lowering the sheet to its foot does too.
@@ -1388,7 +1406,18 @@ struct MapTab: View {
     /// (the editorial order already leads with pictures) and within 2 km (the
     /// list is distance-ordered anyway). Restoring one is a single line, so
     /// the cost of being wrong here is nothing.
+    /// A FILTER THAT HIDES THE CHOSEN TREE CLOSES ITS CARD (release walk,
+    /// 2026-11-25: Want to visit took the pin away and left the card of a
+    /// tree that was not saved). Google Maps and Airbnb drop a card whose
+    /// result a filter removes. Watched here, on the chips that change the
+    /// filters, and NOT in body: one more modifier there put body past CI's
+    /// type-checker twice on 2026-11-26 (runs 45787662446, 45795061639),
+    /// as a closure and as a method call alike.
     private var filterRow: some View {
+        filterChips.onChange(of: filters) { (_: MapFilters, new: MapFilters) in closeCardIfFiltered(new) }
+    }
+
+    private var filterChips: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
                 // ONE chip. Collected and Yours stood next to each other here

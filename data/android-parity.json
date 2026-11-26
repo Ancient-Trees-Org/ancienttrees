@@ -1141,5 +1141,13 @@
         "within": 12
       }
     ]
+  },
+  "feed": {
+    "status": "parity",
+    "differences": [
+      "2026-11-26, side by side at 375 (drafts/design-2026-11-26-feed/built-ios-android.png): the same posts from feed(), the same title, chips, byline, 4:5 photograph with its pills, name, first sentence and actions. The tab bar is Android's own docked bar with a word under the camera (CONVENTIONS.md 'A tab bar on Android'), the Feed fourth of five there; its glyph is Material's group for SF's person.2, two people as Polarsteps' Activity tab (Hidde, 2026-11-26).",
+      "The Feed is tab 4 on both phones, so My trees stays 2 and the camera 3 for every caller and launch argument (TabBar.Item.tag, ui/TabBar.kt TabItem.tab).",
+      "The words are translated on Android (Novedades, Novità, Feed, Fil, フィード); the iPhone app is English only, as everywhere."
+    ]
   }
 }

@@ -28,6 +28,10 @@
     <string name="settings_sign_in">Anmelden</string>
     <string name="settings_preferences">Einstellungen</string>
     <string name="settings_distances">Entfernungen</string>
+    <string name="settings_appearance">Darstellung</string>
+    <string name="appearance_system">System</string>
+    <string name="appearance_light">Hell</string>
+    <string name="appearance_dark">Dunkel</string>
     <string name="units_km">Kilometer</string>
     <string name="units_miles">Meilen</string>
     <string name="settings_location">Standort</string>

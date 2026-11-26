@@ -47,7 +47,45 @@
         "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: the oak's trunk and limbs in autumn woodland, one limb looping out and growing back into the trunk to close a ring, overcast daylight, colour; three more views show the loop from other sides. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/sth_001-the-looped-oak-of-stanton-upon-hine-heath-da72a5be-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_4384c988562d2ece5e457be4",
+          "sighting_id": "da72a5be-2e9a-402c-a662-4a7aeb496549-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/sth_001-the-looped-oak-of-stanton-upon-hine-heath-da72a5be-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_4384c988562d2ece5e457be4",
+          "sighting_id": "da72a5be-2e9a-402c-a662-4a7aeb496549-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/sth_001-the-looped-oak-of-stanton-upon-hine-heath-da72a5be-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_4384c988562d2ece5e457be4",
+          "sighting_id": "da72a5be-2e9a-402c-a662-4a7aeb496549-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "An oak with a limb that loops back into its own trunk, near Stanton upon Hine Heath in Shropshire, sent by a reader: what it is and where.",

@@ -1038,6 +1038,30 @@
    "found_by": "test",
    "test": "android/app/src/androidTest/java/app/ancienttrees/SignedInRoundTrip.kt aSaveReachesTheServerAndComesBack",
    "fixed_in": "a07162f9b"
+  },
+  {
+   "id": "ESC-2026-11-26-tree-pages-and-cards-cut-the-age-at-the-",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "site/src/lib/age-short.ts",
+   "summary": "Tree pages and cards cut the age at the comma in 2,000: 'Kingley Vale 500 to 2', 'about 1' on 27 pages, 8 cards",
+   "first_seen": "2026-11-26",
+   "status": "fixed",
+   "found_by": "hidde",
+   "test": "scripts/qa.py check_an_age_is_never_cut_inside_a_number",
+   "fixed_in": "b24814e56"
+  },
+  {
+   "id": "ESC-2026-11-26-a-reader-s-tree-sent-with-several-photog",
+   "surface": "WEB",
+   "kind": "BUG",
+   "file": "scripts/reader_extras.py",
+   "summary": "A reader's tree sent with several photographs went live with one; the further photographs were never published and nobody was told (84 trees)",
+   "first_seen": "2026-11-26",
+   "status": "fixed",
+   "found_by": "hidde",
+   "test": "scripts/test_reader_extras.py",
+   "fixed_in": "20d936885"
   }
  ]
 }

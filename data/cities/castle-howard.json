@@ -65,7 +65,33 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent through the app (2026-11-24); viewed and approved on 2026-11-24: the whole oak beside a path at the edge of the car park: a broad fluted trunk whose top has broken off, one great limb carrying a wide new crown with the last brown leaves, a wooden rail and parked cars behind, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cah_001-the-broken-oak-of-the-castle-howard-car-park-f7d1128b-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a46a552e6ad9aa21ccff4426",
+          "sighting_id": "f7d1128b-0fa1-443a-84eb-6d78c0625404-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cah_001-the-broken-oak-of-the-castle-howard-car-park-f7d1128b-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a46a552e6ad9aa21ccff4426",
+          "sighting_id": "f7d1128b-0fa1-443a-84eb-6d78c0625404-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "cah_002",

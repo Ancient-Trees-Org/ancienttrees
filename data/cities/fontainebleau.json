@@ -48,7 +48,21 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: a tall, narrow giant sequoia standing alone at the back of a wide lawn beside the palace wing, bare broadleaf trees round it, a bronze figure on a pedestal and rockwork in front, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/fon_001-the-sequoia-of-the-ch-teau-lawn-dd9b94e4-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_81c58c51dd7f98c91361dc6c",
+          "sighting_id": "dd9b94e4-2439-4129-9b72-3c8c1796dc1b-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The giant sequoia in the gardens of the Château de Fontainebleau: where it stands, how to find it, and what we still want to know.",

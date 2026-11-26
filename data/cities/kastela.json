@@ -143,6 +143,18 @@
           "contributor_user_id": "p_da3da5a4ed100473ae2ad2cf",
           "sighting_id": "1e28fed5-dc3f-43f0-ac7c-db9df877e6e8",
           "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-23: Two visitors sitting inside Mastrinka's split trunk: shows its scale; weaker light and people in it, so never the lead. Species seen: olive leaves, deeply fluted olive trunk split into columns. Fits the description: the same hollow multi-column trunk and propped limb as the lead.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cdl_003-mastrinka-the-olive-of-ka-tel-tafili-tip-928-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_4cefec9f5644f57abdf55de5",
+          "sighting_id": "tip-928-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

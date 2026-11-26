@@ -70,7 +70,33 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent through the app (2026-11-22); viewed and approved on 2026-11-22: the whole ginkgo from the ramp below the castle walls, its crown turning from green to yellow against a blue sky, dark stone walls and a railing in front, daylight, colour; a second picture shows the double trunk inside a low black fence beside the stone marked 'keep entrance'; a third shows Kumamoto City's sign, 'The Great Gingko Tree'. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/kmm_001-the-great-ginkgo-of-kumamoto-castle-9c8d024b-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c19d55d83dfa148535100e72",
+          "sighting_id": "9c8d024b-96ba-4a22-abea-504a5d5e4a34-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/kmm_001-the-great-ginkgo-of-kumamoto-castle-9c8d024b-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c19d55d83dfa148535100e72",
+          "sighting_id": "9c8d024b-96ba-4a22-abea-504a5d5e4a34-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

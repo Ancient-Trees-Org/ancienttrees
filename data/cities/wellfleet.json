@@ -66,7 +66,33 @@
         "note": "Photographed by a reader and sent through the app (2026-11-23, through the app); viewed and approved on 2026-11-23: a gnarled dark cedar beside a curving wooden boardwalk in a swamp forest, its trunk twisted and studded with broken branch stubs, a man seen from behind reaching up to touch it, a tall straight cedar in the foreground; further photos show the boardwalk among red-barked cedars and a knotted trunk from below; sunny daylight, colour. Not an open licence: ask before reuse elsewhere.",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/wfl_001-the-twisted-cedar-of-the-swamp-boardwalk-48dc4e46-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_40d48e30460963925dc95fa5",
+          "sighting_id": "48dc4e46-0f57-4c74-96b8-ecbbaa5ddb1d-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/wfl_001-the-twisted-cedar-of-the-swamp-boardwalk-48dc4e46-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_40d48e30460963925dc95fa5",
+          "sighting_id": "48dc4e46-0f57-4c74-96b8-ecbbaa5ddb1d-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

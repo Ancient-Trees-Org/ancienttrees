@@ -28,13 +28,14 @@ Hidde, 2026-11-19: "geef me ook een visualisatie van alle het mailverkeer waar e
 | Account | The same sign-in mail again, when an email sign-up never got in | An hour later; signed-only addresses once more after midnight UTC; never a third time | automatic | scripts/signin_watch.py (knock) |
 | New tree | Your tree is on Ancient Trees | Tree goes live; asks for what is missing (age, trunk, story); P.S. ambassador when the place has none | automatic | scripts/tree_approved.py |
 | New tree | Your trees are on Ancient Trees | Several of their trees go live close together: one bundled mail with every link (since 2026-11-15) | automatic | scripts/tree_approved.py |
-| New tree | About what you sent us: ... (hold mail) | Held for a fixable reason: says what would put it live; a bad photo asks about the tree (2026-11-18) | reader judge | scripts/hold_reply.py, sent by contributor_reply.py |
+| New tree | About what you sent us: ... (hold mail) | Held for a fixable reason: says what would put it live; a bad photo asks about the tree (2026-11-18); a screenshot asks "did you take it yourself?", also when the tree went live without it (doubt_photo, doubt_photo_live, 2026-11-26) | reader judge | scripts/hold_reply.py, sent by contributor_reply.py |
 | New tree | About what you sent us: ... (question) | A tip without a photo, when one fact would settle it | reader judge | contributor_reply.py |
 | Photo on our tree | Your photo is on the page of ... | Their first photo goes live: at once | automatic | scripts/sightings_publish.py |
 | Photo on our tree | Your photos are on the trees' pages | Later photos: bundled, at most once a week | automatic | scripts/sightings_publish.py |
 | Report | About what you sent us: ... (thank-you) | A report with no words of their own (dead tree, pin moved) | reader judge | tree_reports.py --thank |
 | Feedback | A reply in Hidde's words | Feedback form, or a report with their own words: only on his yes | Hidde | a session, contributor_reply.py |
-| Feedback | Fixed, thanks to you (Opgelost, dankzij jou) | A bug they reported is fixed where they use it: the site live, the App Store build, an Android build; once per report, our words only (since 2026-11-25) | automatic | scripts/bug_fixed_mail.py (tell-readers.yml, knock) |
+| Feedback | Fixed, thanks to you (Opgelost, dankzij jou) | A bug they reported is fixed: an app fix the day it is on main ("comes with the next app update"), a website fix once it is live; our words only (since 2026-11-25, the order since 2026-11-26) | automatic | scripts/bug_fixed_mail.py (tell-readers.yml, knock) |
+| Feedback | The fix is in the app now (De oplossing staat nu in de app) | The app update carrying that fix is in their store: App Store build, or an Android build in data/android-releases.json | automatic | scripts/bug_fixed_mail.py |
 | Ambassador | Your {place} trees (invitation) | Photos of two trees in one place; once per person and place; badge with it | automatic | scripts/ambassador.py |
 | Ambassador | Looking after {place} | They ask to become ambassador: questions and badge within about 15 minutes | automatic | scripts/ambassador.py --requests |
 | Ambassador | New on the {place} list | Ambassadors only: new trees in their place | automatic | scripts/ambassador.py --heads-up |

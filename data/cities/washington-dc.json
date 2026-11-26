@@ -660,6 +660,42 @@
           "width": 4032,
           "height": 3024,
           "taken_month": 3
+        },
+        {
+          "url": "https://ancienttrees.app/photos/wdc_016-travilah-oak-a104b938-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_7000e289bb3522744b204b19",
+          "sighting_id": "a104b938-9cfc-492e-bb48-0babab021f3b-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/wdc_016-travilah-oak-a104b938-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_7000e289bb3522744b204b19",
+          "sighting_id": "a104b938-9cfc-492e-bb48-0babab021f3b-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/wdc_016-travilah-oak-a104b938-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_7000e289bb3522744b204b19",
+          "sighting_id": "a104b938-9cfc-492e-bb48-0babab021f3b-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },

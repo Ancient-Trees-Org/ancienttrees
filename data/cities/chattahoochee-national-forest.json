@@ -70,6 +70,18 @@
           "contributor_user_id": "p_f127bf781505453e3305184d",
           "sighting_id": "ae132f45-019f-4e63-9723-98dd6e815807",
           "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: The great trunk of the Gennett Poplar with two visitors for scale, daylight. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/gnp_001-the-gennett-poplar-ae132f45-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "ae132f45-019f-4e63-9723-98dd6e815807-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

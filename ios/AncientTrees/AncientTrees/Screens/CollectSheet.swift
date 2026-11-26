@@ -769,8 +769,8 @@ struct CollectSheet: View {
     /// testable on a machine with no photo library to refuse.
     static func placeReason(libraryRefused: Bool) -> String {
         libraryRefused
-            ? "We cannot read where your photograph was taken, so drag the map until the pin sits on the tree. If you allow access to your photos, we can place it for you."
-            : "Your photograph does not say where it was taken, so drag the map until the pin sits on the tree."
+            ? "We cannot read where your photograph was taken, so search an address or drag the map until the pin sits on the tree. If you allow access to your photos, we can place it for you."
+            : "Your photograph does not say where it was taken, so search an address or drag the map until the pin sits on the tree."
     }
 
     private func openCamera(forSign: Bool = false) {
@@ -905,7 +905,7 @@ struct CollectSheet: View {
                         .font(.brand(16, .bold))
                         .frame(maxWidth: .infinity).frame(height: 48)
                         .background(Brand.moss, in: .capsule)
-                        .foregroundStyle(.white)
+                        .foregroundStyle(Brand.onMoss)
                 }
                 .buttonStyle(.plain)
                 .padding(.horizontal, 20)

@@ -3,12 +3,12 @@
   "country": "Portugal",
   "status": "needs_curation",
   "kind": "island",
-  "intro": "Four of these trees make a walk in central Funchal: an araucaria at Quinta Vigia, the president's official residence, open on weekdays, an ombu and a camphor tree in the Jardim Municipal, and a lone dragon tree in the Campo da Barca garden a kilometre east. Five more are spread around the city, from the botanical garden to the dragon trees at Neves and the estate at Palheiro. Only two are real drives, Queimadas above Santana and the til grove at Fanal, an hour or more in opposite directions. Nine of the twelve carry no recorded age at all.",
-  "meta_description": "Madeira's twelve remarkable trees: four a short walk apart in central Funchal, a witch-shaped til in the Fanal laurel forest and a dragon tree grove.",
+  "intro": "Four of these trees make a walk in central Funchal: an araucaria at Quinta Vigia, the president's official residence, open on weekdays, an ombu and a camphor tree in the Jardim Municipal, and a lone dragon tree in the Campo da Barca garden a kilometre east. Six more are spread around the city, from the botanical garden to the dragon trees at Neves and the estate at Palheiro. Only two are real drives, Queimadas above Santana and the til grove at Fanal, an hour or more in opposite directions. Ten of the thirteen carry no recorded age at all.",
+  "meta_description": "Madeira's thirteen remarkable trees: four a short walk apart in central Funchal, a witch-shaped til in the Fanal laurel forest and a dragon tree grove.",
   "question_meta": "Madeira's oldest listed tree is the Witch Tree in the til grove at Fanal, several hundred years old. The Funchal giants carry no recorded age.",
   "oldest_tree_id": "mdr_005",
-  "question_answer": "The oldest tree on this list is the Witch Tree at Fanal, a til (Ocotea foetens) in the protected grove on the Paul da Serra plateau above Porto Moniz. Estimates for it run from several hundred years to 500 or 600, and Madeira's own register dates the grove around it only as centenas de anos, hundreds of years, describing a stand referenced as predating the Portuguese settlement of the island in 1419. That is the loosest kind of answer and it is the best one available, because the other nine trees on this list carry no recorded age at all.",
-  "question_context": "Madeira barely records ages for its monumental trees. Nine of the eleven here have none, from two different lists. The island's own inventory gives the ginkgo, the cypress at Quinta Magnolia, the copper beech at Monte, the Douglas fir at Queimadas and the Campo da Barca dragon tree a height and a trunk perimeter, then writes sem referencia, no reference, in the age column. Funchal's municipal list is thinner still: the araucaria at Quinta Vigia, the ombu and camphor tree in the Jardim Municipal and the pohutukawa at Palheiro appear as a code and a name, from a 2008 regional survey, with no measurement at all. That leaves the two native stands. The dragon trees at Neves are centenarios, over a century, and no more precisely. The til grove at Fanal is dated only as centenas de anos, hundreds of years, and referenced as predating the Portuguese arrival in 1419; tourism sources put the Witch Tree at 500 or 600 years with nothing published behind the number. So the honest ranking is Fanal first, Neves second, nine undated trees after them. The Douglas fir is the trap: tallest here at 39 metres, and Douglas firs grow fast.",
+  "question_answer": "The oldest tree on this list is the Witch Tree at Fanal, a til (Ocotea foetens) in the protected grove on the Paul da Serra plateau above Porto Moniz. Estimates for it run from several hundred years to 500 or 600, and Madeira's own register dates the grove around it only as centenas de anos, hundreds of years, describing a stand referenced as predating the Portuguese settlement of the island in 1419. That is the loosest kind of answer and it is the best one available, because ten of the other trees on this list carry no recorded age at all.",
+  "question_context": "Madeira barely records ages for its monumental trees. Ten of the thirteen here have none. The island's own inventory gives the ginkgo, the cypress at Quinta Magnolia, the copper beech at Monte, the Douglas fir at Queimadas and the Campo da Barca dragon tree a height and a trunk perimeter, then writes sem referencia, no reference, in the age column. Funchal's municipal list is thinner still: the araucaria at Quinta Vigia, the ombu and camphor tree in the Jardim Municipal and the pohutukawa at Palheiro appear as a code and a name, from a 2008 regional survey, with no measurement at all. That leaves the two native stands. The dragon trees at Neves are centenarios, over a century, and no more precisely. The til grove at Fanal is dated only as centenas de anos, hundreds of years, and referenced as predating the Portuguese arrival in 1419; tourism sources put the Witch Tree at 500 or 600 years with nothing published behind the number. So the honest ranking is Fanal first, Neves second, the Palheiro pines third by their sign, then ten undated trees. The Douglas fir is the trap: tallest here at 39 metres, and Douglas firs grow fast.",
   "faq": [
     {
       "q": "What is the oldest tree in Madeira?",
@@ -270,6 +270,42 @@
           "contributor_user_id": "p_3e4c652ec8f264c3b887587f",
           "sighting_id": "9f5df706-e6bc-45a6-a8e3-05da298af38f",
           "note": "Photographed by a reader and sent through the app (2026-07-17); a viewing pass approved it on 2026-11-22: A single twisted til in thick fog on the Fanal pasture, limbs flung out like arms. Fanal's grove beyond doubt; which trunk is the Witch Tree the photo cannot settle, so the strip, as with this reader's earlier photo. Species seen: dense evergreen laurel-forest crown, twisted mossy trunk: til. Fits the description: a hard-twisted trunk with outstretched limbs in the Fanal grove.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mdr_005-the-witch-tree-of-fanal-bb454493-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3e4c652ec8f264c3b887587f",
+          "sighting_id": "bb454493-9642-49f0-b41b-8b3e7a67d026-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mdr_005-the-witch-tree-of-fanal-bb454493-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_3e4c652ec8f264c3b887587f",
+          "sighting_id": "bb454493-9642-49f0-b41b-8b3e7a67d026-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mdr_005-the-witch-tree-of-fanal-bb454493-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_3e4c652ec8f264c3b887587f",
+          "sighting_id": "bb454493-9642-49f0-b41b-8b3e7a67d026-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },
@@ -539,6 +575,50 @@
       },
       "how_to_recognise": "A cluster of tall, leaning grey-brown trunks opening into flat umbrella crowns over the gravel path beside the golf clubhouse, a log bench at their foot.",
       "verify_notes": "2026-11-19 session: sent by a reader (f8d4d7f9-5ca6-429d-8016-d34ff35182f8, 2026-11-19 through the app). Photograph viewed: stone pines in umbrella form over a path, daylight, colour. Published under the closed list for a reader's tree. The age (planted 1837, the year of the Count of Carvalhal's death) is the reader's copy of the estate's own sign, stated on the page as the sign's claim; no register or second source found."
+    },
+    {
+      "id": "mdr_013",
+      "name": "The Tall Araucaria of Palheiro Gardens",
+      "species": "Norfolk Island Pine (Araucaria heterophylla)",
+      "age_estimate": "about 215 years by a reader's estimate (the garden believes it was planted around 1810)",
+      "age_min": 200,
+      "age_max": 230,
+      "age_basis": "source",
+      "location": {
+        "address": "Quinta do Palheiro Ferreiro (Palheiro Gardens), Caminho do Palheiro 32, Sao Goncalo, Funchal",
+        "latitude": 32.6593,
+        "longitude": -16.86698,
+        "neighbourhood": "Sao Goncalo, Funchal"
+      },
+      "story": "\"At 48 m, this is one of the tallest trees recorded in Madeira,\" wrote the reader who sent us this araucaria from Palheiro Gardens, in the hills east of Funchal. They found it listed in the island's 2008 survey of monumental trees, Árvores Monumentais e Emblemáticas da Madeira, and say three more araucarias in the same garden pass 40 metres.\n\nThe height is their figure; we have not seen the survey page ourselves. The photograph makes it easy to believe. The tree stands alone on an open lawn and climbs in tiers, each whorl of branches held out flat and tipped with upturned tufts, the trunk a straight dark line all the way to the top. At the foot it flares into a low skirt of roots on the grass, and the trees behind it reach less than half its height.\n\nThe reader knows it as a Norfolk Island pine, a tree from a small island in the South Pacific that warm gardens plant for exactly this geometry. The garden believes it was planted around 1810 by the property's first owner, the first Count of Carvalhal, who laid Palheiro out as woodland, they write; that makes it about 215 years old by a reader's estimate. Palheiro has more monumental trees than anywhere else on Madeira, they add.\n\nEntry to the gardens is paid. Walk back across the lawn to fit the whole tree in.",
+      "verified_sources": [
+        "Árvores Monumentais e Emblemáticas da Madeira (Direção Regional de Florestas, 2008), cited by the reader: a Norfolk Island pine of 48 m in Palheiro Gardens",
+        "https://www.madeira-web.com/en/places/funchal/gardens-parks/quinta-palheiro-ferreiro.html"
+      ],
+      "access": "Paid entry (Palheiro Gardens): adults EUR 11, ages 15-17 EUR 6, children free, Madeira residents EUR 6 with proof of residence; open daily 09:00-17:00, every day of the year except Christmas Day.",
+      "paid_entry": true,
+      "how_to_recognise": "Alone on an open lawn: a tall, straight column of flat tiered branches with upturned tufts, far above the trees behind it, its trunk flaring into roots on the grass; a second araucaria with long drooping tufted limbs stands to its right.",
+      "location_precision": "approximate",
+      "curation_status": "flagged",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mdr_013-tall-araucaria-of-palheiro-gardens.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 901,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_e49177ca7e67fe2b96fe2900",
+        "sighting_id": "tip-1700",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-26, through the website); viewed and approved on 2026-11-26: the whole araucaria alone on a lawn, tier on tier of flat branches up a straight trunk, roots flaring at its foot, another araucaria at the right edge, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "found_by_reader": {
+        "sighting_id": "tip-1700",
+        "date": "2026-11-26"
+      },
+      "verify_notes": "2026-11-26 reader judge: sent by a reader (tip-1700, through the website tip form, which downsizes the photo and drops its camera data, so no EXIF is expected; a real photograph, no screenshot bars or overlays). Photograph viewed: the whole araucaria alone on a lawn, tier on tier of flat branches up a straight trunk, roots flaring at its foot, another araucaria at the right edge, overcast daylight, colour. Published under the closed list for a reader's tree. No GPS: pinned approximately on the Palheiro Gardens point already used for mdr_010. The reader's own figures: name 'Norfolk Island pine (Araucaria heterophylla), Palheiro Gardens', height 48 m and listing in the 2008 DRF survey (not seen by us), girth 572 cm (kept in their note, not in girth_cm). Funchal's PDM Quadro 5 lists an 'araucaria da Queenslandia' at Palheiro; we do not claim this is that entry. 2026-11-26 reader judge: the reader's mail reply (feedback 1708) says the garden believes it was planted around 1810 by the first Count of Carvalhal; on the page as a reader's estimate, paraphrased (no quote yes asked)."
     }
   ]
 }

@@ -169,6 +169,24 @@
       "android": "TreeMapView.kt: style.addImage for your photo pins in Dispatchers.Main.immediate (SignedInRoundTrip)",
       "status": "one-sided",
       "why": "A thread rule of MapLibre Native on Android; the other platforms have no worker thread on this path."
+    },
+    {
+      "what": "MapTab.body split into screen, mapLayer, sheetHeader and sheetContent so CI's type-checker finishes (2026-11-26); nothing a person sees changes",
+      "since": "2026-11-26",
+      "web": "nothing to change: no web code involved",
+      "ios": "MapTab.swift: the same views and modifiers, moved into four properties",
+      "android": "nothing to change: Compose has no such limit and the map behaves the same",
+      "status": "one-sided",
+      "why": "a Swift compiler limit, not map behaviour"
+    },
+    {
+      "what": "The website's map panels share one place head and intro (PlaceHead.astro, PlaceIntro.astro): /explore gets the city page's crumbs, title, share circle, intro with Read more and the ambassador box above Highlights; a searched country retitles the head (2026-11-26)",
+      "since": "2026-11-26",
+      "web": "ExploreMap.astro, [city].astro, [country].astro, TranslatedCityPage.astro through PlaceHead and PlaceIntro; map.ts _headFor",
+      "ios": "nothing to change: the map tab's sheet already draws one place header for every place (MapTab.swift sheetHeader)",
+      "android": "nothing to change: the map tab's TreePlaceHeader is already one header",
+      "status": "one-sided",
+      "why": "it brings the website's panels together; the phones already draw one header"
     }
   ]
 }

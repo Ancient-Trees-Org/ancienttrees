@@ -85,11 +85,14 @@ struct ProfileEditor: View {
                     NavigationLink {
                         CountryList(country: $country)
                     } label: {
-                        LabeledContent("Country") {
-                            Text(country.flatMap { code in Self.countries.first { $0.code == code } }
-                                    .map(Self.row) ?? "Don't show")
-                        }
+                        LabeledContent("Country") { Text(countryShown) }
                     }
+                    // Said as one control, "Country, Netherlands", as the
+                    // Picker it replaced was (CountryStaysWalk reads it).
+                    .accessibilityElement(children: .ignore)
+                    .accessibilityLabel("Country")
+                    .accessibilityValue(countryShown)
+                    .accessibilityAddTraits(.isButton)
                     .accessibilityIdentifier("profile-country")
                 }
                 if failed {
@@ -179,6 +182,11 @@ struct ProfileEditor: View {
                 failed = true
             }
         }
+    }
+
+    /// What the Country row shows: the flag and name, or "Don't show".
+    private var countryShown: String {
+        country.flatMap { code in Self.countries.first { $0.code == code } }.map(Self.row) ?? "Don't show"
     }
 
     /// A picker row: the flag, then the country's name.

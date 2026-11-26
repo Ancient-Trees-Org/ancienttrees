@@ -306,6 +306,12 @@ jobs:
           git pull -q --rebase --autostash origin main || true
           pip install --quiet pillow || true
           python3 scripts/feed_publish.py
+          # Link each sighting to the tree it became, which is what puts a
+          # reader's new tree in New from visitors (new_from_visitors() reads
+          # status published + tree_id). Only the knock ran this, and GitHub
+          # dropped the knock: on 2026-11-26 21 readers' trees were live but
+          # missing from the row.
+          python3 scripts/sightings_link.py
 
       # Saved only when the set of files changed, so a run that fetched
       # nothing new uploads nothing. Files untouched for 30 days drop out;

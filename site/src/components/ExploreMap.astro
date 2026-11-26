@@ -28,6 +28,9 @@ import { BASE_URL } from "../lib/schema";
 import { icon } from "../lib/icons";
 import { placeHasAmbassador } from "../lib/ambassadors";
 import PlusAsk from "./PlusAsk.astro";
+import PlaceHead from "./PlaceHead.astro";
+import { chrome } from "../lib/ui-strings";
+import PlaceIntro from "./PlaceIntro.astro";
 import { byCityListOrderEntry } from "../lib/city-order";
 import { ui, translatedCities, cityTranslation, hreflangSet, translatedLanguages } from "../lib/i18n";
 import LanguagePicker from "./LanguagePicker.astro";
@@ -210,6 +213,9 @@ for (const intro of await getCollection("countries")) {
   if ((citiesPerCountry.get(intro.data.country) ?? 0) >= COUNTRY_MIN_CITIES) {
     listData.countries[intro.data.country] = `/${intro.data.slug}`;
   }
+  // The place head's intro for a searched country: the country page's own
+  // words, on the English map only (the overlays carry no country intros).
+  if (lang === "en" && intro.data.intro) (listData.intros ??= {})[intro.data.country] = intro.data.intro;
 }
 
 const searchFormHtml = searchForm("explore", "ex-q", "ex-search");
@@ -228,13 +234,19 @@ const scripts = mapScript + searchWidgetJs(lang);
         is the way back down. */}
     <aside class="panel" id="sheet" data-results data-peek-row=".tree-hl, .tree-card-row, .exc-card">
       <div class="sheet-grab">
-        <div class="panel-head">
-          <h1>{U.exploreHeading}</h1>
-          <p class="sheet-note">{U.exploreNote}</p>
+        {/* THE PLACE HEAD (PlaceHead.astro), the city page's, Hidde
+            2026-11-22: "gebruik dit design als basis ... maak er 1 component
+            van". The world's title here; a searched country retitles it in
+            the browser (map.ts _headFor). The search field is the phone's:
+            on a desktop the bar's field searches this map. */}
+        <PlaceHead live crumbs={[[U.home, lang === "en" ? BASE_URL : `/${lang}`], [chrome(lang).map, null]]}
+                   lead={U.exploreHeading} name=""
+                   share={{ url: canonical, title: U.exploreHeading, label: U.share, copied: U.shareCopied }}>
           <Fragment set:html={searchFormHtml} />
-        </div>
+        </PlaceHead>
       </div>
       <div class="sheet-body">
+        <PlaceIntro live text={U.exploreNote} readMore={U.readMore} />
         <div id="ex-panel" aria-live="polite"></div>
         {/* The Plus sheet for the box a searched city draws (map.ts _boxHtml). */}
         <PlusAsk lang={lang} city="" row={false} />

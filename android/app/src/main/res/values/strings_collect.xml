@@ -16,7 +16,7 @@
     <string name="cf_keep_editing">Keep editing</string>
 
     <string name="cf_where">Where does it stand?</string>
-    <string name="cf_place_reason">Your photograph does not say where it was taken, so drag the map until the pin sits on the tree.</string>
+    <string name="cf_place_reason">Your photograph does not say where it was taken, so search an address or drag the map until the pin sits on the tree.</string>
     <string name="cf_tree_is_here">The tree is here</string>
 
     <string name="cf_which">Which one is it?</string>
@@ -99,4 +99,8 @@
     <string name="cf_close">Close</string>
     <string name="cf_your_tree_at">Your tree · %1$s</string>
     <string name="cf_added_title">Added to your trees</string>
+    <string name="pin_address_search">Search an address</string>
+    <string name="pin_address_none">No address found. Move the map to the spot instead.</string>
+    <string name="pin_address_coords">Coordinates</string>
+    <string name="pin_address_clear">Clear</string>
 </resources>

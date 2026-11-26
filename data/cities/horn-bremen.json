@@ -126,7 +126,33 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole oak from the path, a tall straight trunk rising into a broad crown of yellow autumn leaves, an old white house with dark shutters behind, a bench at its foot, sunny daylight, colour; a second frame looks up the furrowed trunk, a third shows the steel plaque at its foot: 'Stiel-Eiche, Quercus robur. Mit rund 350 Jahren eine der ältesten Eichen in Bremen', number 138. Not an open licence: ask before reuse elsewhere.",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/hrn_002-the-old-oak-by-the-focke-museum-6a9217d8-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_8ee7625f534ac175ae1c0c68",
+          "sighting_id": "6a9217d8-8466-480f-9831-3b3255721cce-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/hrn_002-the-old-oak-by-the-focke-museum-6a9217d8-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_8ee7625f534ac175ae1c0c68",
+          "sighting_id": "6a9217d8-8466-480f-9831-3b3255721cce-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "hrn_003",
@@ -175,7 +201,45 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: looking up the whole giant sequoia from beside its railed grave plot, a straight reddish fluted trunk under tiers of drooping, curling limbs, autumn oaks around it, blue sky, daylight, colour; a second frame shows the steel sign in front of it ('Nationalerbe Baum, Riesenmammutbaum': Sequoiadendron giganteum, declared a Nationalerbe-Baum of Germany by the Kuratorium on 10 February 2022, one of the 100 most significant trees in Germany, an initiative of the Deutsche Dendrologische Gesellschaft with Umweltbetrieb Bremen); a third looks straight up the soft, ridged trunk; a fourth shows the dark green spire standing above the cemetery's oaks and gravestones. Not an open licence: ask before reuse elsewhere.",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/hrn_003-the-nationalerbe-sequoia-of-riensberg-cemetery-84541e96-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_8ee7625f534ac175ae1c0c68",
+          "sighting_id": "84541e96-06d1-42e2-bec6-1c2cd9dfb5d7-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/hrn_003-the-nationalerbe-sequoia-of-riensberg-cemetery-84541e96-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_8ee7625f534ac175ae1c0c68",
+          "sighting_id": "84541e96-06d1-42e2-bec6-1c2cd9dfb5d7-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/hrn_003-the-nationalerbe-sequoia-of-riensberg-cemetery-84541e96-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_8ee7625f534ac175ae1c0c68",
+          "sighting_id": "84541e96-06d1-42e2-bec6-1c2cd9dfb5d7-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

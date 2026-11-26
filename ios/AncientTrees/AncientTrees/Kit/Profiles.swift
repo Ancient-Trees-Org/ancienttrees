@@ -54,6 +54,10 @@ public final class Profiles {
     /// its own rather than in the profile select, so a database without the
     /// column yet costs the flag and never the name.
     public private(set) var myCountry: String?
+    /// Light, dark or the phone's setting (profiles.appearance, 2026-11-26,
+    /// Appearance.swift). Read on its own, like the country, so a database
+    /// without the column yet costs the setting and never the name.
+    public private(set) var myAppearance: String?
     /// You chose "Don't show" (profiles.flag_hidden, 2026-10-20), so the
     /// default flag never comes back. False until the server says otherwise.
     public private(set) var myFlagHidden = false
@@ -250,6 +254,12 @@ public final class Profiles {
            let rows = try? JSONDecoder().decode([CountryRow].self, from: data) {
             myCountry = rows.first?.country
         }
+        struct AppearanceRow: Decodable { let appearance: String? }
+        if let data = try? await send(request(
+            "profiles?select=appearance&user_id=eq.\(userId)", "GET", token: token)),
+           let rows = try? JSONDecoder().decode([AppearanceRow].self, from: data) {
+            myAppearance = rows.first?.appearance
+        }
         struct PublicRow: Decodable { let `public`: Bool }
         if let data = try? await send(request(
             "profiles?select=public&user_id=eq.\(userId)", "GET", token: token)),
@@ -441,6 +451,15 @@ public final class Profiles {
         _ = try? await send(request("profiles?on_conflict=user_id", "POST", token: token,
                                     body: body, prefer: "resolution=merge-duplicates"))
         me?.units = units
+    }
+
+    /// Light, dark or system, on the profile like units (Appearance.swift).
+    public func saveAppearance(_ value: String, userId: String, token: String) async {
+        struct Row: Encodable { let user_id: String; let appearance: String }
+        let body = try? JSONEncoder().encode([Row(user_id: userId, appearance: value)])
+        _ = try? await send(request("profiles?on_conflict=user_id", "POST", token: token,
+                                    body: body, prefer: "resolution=merge-duplicates"))
+        myAppearance = value
     }
 
     /// Your country, or nil for "Don't show", which is remembered so the

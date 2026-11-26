@@ -65,6 +65,294 @@
    "agreed": null
   },
   {
+   "id": "sight:a4d1c500-1664-48c1-bc8e-7d9d6ee2ad3f",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Preston Twin",
+   "city": "Brighton",
+   "species": "English Elm (Ulmus procera)",
+   "photo": "out/sightings/a4d1c500-1664-48c1-bc8e-7d9d6ee2ad3f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 98,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about English Elm (Ulmus procera)"
+   },
+   "verdict": "publish",
+   "reason": "Whole Preston Twin in autumn yellow by the walled garden wall; reader's photograph now leads, Commons close-up moved to the strip, pin moved to the reader's fix",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:25947861-5581-41bb-a431-8687a6f86b06",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Preston Twin",
+   "city": "Brighton",
+   "species": "English Elm (Ulmus procera)",
+   "photo": "out/sightings/25947861-5581-41bb-a431-8687a6f86b06.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 67,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about English Elm (Ulmus procera)"
+   },
+   "verdict": "reject",
+   "reason": "Duplicate of a4d1c500, the same photograph sent twice",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a072a9b8-cc9a-4c72-995f-b9d2bb875526",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Silk Mulberry of Ca' di David",
+   "city": "Verona",
+   "species": "White Mulberry (Morus alba)",
+   "photo": "out/sightings/a072a9b8-cc9a-4c72-995f-b9d2bb875526.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Mulberry (Morus alba)"
+   },
+   "verdict": "publish",
+   "reason": "The same reader's autumn photograph of the mulberry: whole tree in yellow leaf, the low split trunk and hollow by the fence. Now the lead, the summer one moved into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:86a25f84-ea89-44ef-bc1c-08815d28a3a4",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "Cedar of Lebanon in Varese",
+   "city": null,
+   "species": "Cedar of Lebanon",
+   "photo": "p_df9da2fa289e6fdaa8b541de/86A25F84-EA89-44EF-BC1C-08815D28A3A4.jpg",
+   "reader_note": "University Campus",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad, mature cedar alone on a university campus lawn in Varese, photo GPS at the tree, real camera file dated November. Somewhat special, live as varese/var_003; species left at Cedrus sp. (the blue-grey upswept crown reads Atlas cedar, the reader says Lebanon), the page asks.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:86a25f84-ea89-44ef-bc1c-08815d28a3a4",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Cedar of the University Campus",
+   "city": "Varese",
+   "species": "Cedar (Cedrus sp.)",
+   "photo": "out/sightings/86a25f84-ea89-44ef-bc1c-08815d28a3a4.jpg",
+   "reader_note": "University Campus",
+   "reader_girth_cm": null,
+   "match": "new tree",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad blue-grey cedar alone on a university campus lawn, one mossy trunk into upswept limbs. Lead photograph of varese/var_003.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:tip-1700",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "Norfolk Island pine (Araucaria heterophylla), Palheiro Gardens",
+   "city": "Funchal, Madeira, Portugal",
+   "species": null,
+   "photo": "p_e49177ca7e67fe2b96fe2900/d298e478-605c-4496-b236-dbe8d3fdbea9.jpg",
+   "reader_note": "At 48 m, this is one of the tallest trees recorded in Madeira. It is listed as a monumental tree in Árvores Monumentais e Emblemáticas da Madeira (Regional Forestry Directorate, 2008). Palheiro Gardens, first planted as woodland by the 1st Count of Carvalhal in the early 19th century, has the highest density of monumental trees on the island. Three more araucarias in the garden also exceed 40 m.",
+   "reader_girth_cm": 572,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall tiered araucaria alone on a lawn at Palheiro Gardens, a real photo in daylight; somewhat special by any walker's eye. No GPS, so pinned approximately on the garden (paid entry). Live as madeira/mdr_013; the reader's 48 m and survey listing stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-1700",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Tall Araucaria of Palheiro Gardens",
+   "photo": "p_e49177ca7e67fe2b96fe2900/d298e478-605c-4496-b236-dbe8d3fdbea9.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-26: the whole araucaria alone on a lawn, tiered flat branches up a straight trunk, overcast daylight, colour. Lead photograph of madeira/mdr_013.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:892f8835-dd62-4bdf-8707-7a87cd59bfde",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Red Conifer by the Pond",
+   "photo": "p_0ddef0e98eb66d46e84f8d2c/892F8835-DD62-4BDF-8707-7A87CD59BFDE.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-26: the whole fox-red conifer by an iced pond, tenements behind, blue sky, colour. Lead photograph of glasgow/gla_012.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:abe80a15-cbfe-42c9-9b7c-93736d2539e3",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Autumn Beech of the Campus",
+   "photo": "p_df9da2fa289e6fdaa8b541de/ABE80A15-CBFE-42C9-9B7C-93736D2539E3.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-26: a beech in autumn copper on its leaf carpet, framed by a cedar, overcast daylight, colour. Lead photograph of varese/var_005.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:6eccacce-ef19-4567-ba8e-a5d8248f36ba",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Picnic-Table Cedars",
+   "photo": "p_df9da2fa289e6fdaa8b541de/6ECCACCE-EF19-4567-BA8E-A5D8248F36BA.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-26: two cedars over picnic tables, furrowed trunk, drooping sprays, overcast daylight, colour. Lead photograph of varese/var_004.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:e3899250-73bf-40d6-ab9b-e3d07056a397",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Cedar of the University Campus",
+   "city": "Varese",
+   "species": "Cedar (Cedrus sp.)",
+   "photo": "out/sightings/e3899250-73bf-40d6-ab9b-e3d07056a397.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 63,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar (Cedrus sp.)"
+   },
+   "verdict": "reject",
+   "reason": "Duplicate: sent for var_003, but its lead picture is the two picnic-table cedars the reader also sent as their own tree (now var_004); the extras show var_003's trunk, which already carries this reader's photo, and the beech now var_005.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:892f8835-dd62-4bdf-8707-7a87cd59bfde",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "European Larch in Glasgow",
+   "city": null,
+   "species": "European Larch",
+   "photo": "p_0ddef0e98eb66d46e84f8d2c/892F8835-DD62-4BDF-8707-7A87CD59BFDE.jpg",
+   "reader_note": "The change of the colour during autumn and the image of the tree in the water pond closed by.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Larch"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall feathery deciduous conifer blazing fox-red beside an iced pond in Glasgow's West End, tenements behind; striking in its setting. Photo GPS fix. Reader says larch; it looks like a bald cypress, the page asks. Live as glasgow/gla_012.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:6eccacce-ef19-4567-ba8e-a5d8248f36ba",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "Cedar in Varese",
+   "city": null,
+   "species": "Cedar",
+   "photo": "p_df9da2fa289e6fdaa8b541de/6ECCACCE-EF19-4567-BA8E-A5D8248F36BA.jpg",
+   "reader_note": "University Varese Campus",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: two big cedars over picnic tables on the Varese university campus, the nearer trunk thick and furrowed, a crown of long drooping sprays; somewhat special. Photo GPS fix. Live as varese/var_004. The reader's pin moved 188 m while adding it (report 1000152) was not taken: the photo's own fix is from under the tree.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:abe80a15-cbfe-42c9-9b7c-93736d2539e3",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "European Beech in Varese",
+   "city": null,
+   "species": "European Beech",
+   "photo": "p_df9da2fa289e6fdaa8b541de/ABE80A15-CBFE-42C9-9B7C-93736D2539E3.jpg",
+   "reader_note": "In the University campus among other beautiful Beech Trees , Cedars and Magnolias",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad beech in full autumn copper on a carpet of its own leaves, framed by a tall cedar, campus lawn; a tree blazing in autumn colour stands out in its setting. Photo GPS fix. Live as varese/var_005.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",
@@ -279,10 +567,11 @@
    "reader_girth_cm": 400,
    "verdict": "lead",
    "reason": "Beech in Raincliffe Woods, about 400 cm round by the reader's measure; no spot in a large wood and no source yet, so a lead in data/leads/scarborough.json and the reader asked where exactly.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "de rest is prima",
+   "agreed": true,
    "shown": [
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
    ]
   },
   {
@@ -297,10 +586,11 @@
    "reader_girth_cm": 420,
    "verdict": "lead",
    "reason": "Chestnut in Raincliffe Woods said to be the country's second oldest, about 420 cm round by the reader's measure; no spot and no source found, so a lead in data/leads/scarborough.json and the reader asked where exactly.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "de rest is prima",
+   "agreed": true,
    "shown": [
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
    ]
   },
   {
@@ -900,8 +1190,11 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "App tree row in Goll Woods whose sighting no longer exists (taken back by the reader); no photograph or words left to judge. Their two Goll Woods oaks from the same walk are live.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "de rest is prima",
+   "agreed": true,
+   "shown": [
+    "2026-11-26"
+   ]
   },
   {
    "id": "tip:1675",
@@ -915,8 +1208,11 @@
    "reader_girth_cm": null,
    "verdict": "hold",
    "reason": "App tree row in Goll Woods whose sighting no longer exists (taken back by the reader); no photograph or words left to judge. Their two Goll Woods oaks from the same walk are live.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "de rest is prima",
+   "agreed": true,
+   "shown": [
+    "2026-11-26"
+   ]
   },
   {
    "id": "sight:861d7cdb-6e15-4015-8e3c-e2b0607ca814",
@@ -2524,10 +2820,10 @@
     "score": null,
     "note": "nothing measurable about Roverella"
    },
-   "verdict": "publish",
-   "reason": "Live as arezzo/arz_001 on Hidde's word (2026-11-25, \"Ja, zet ze live\"): the reader's photograph of the registered Roverella at Ceciliano (570 cm, 24 m) leads; the screenshot doubt overruled.",
-   "hidde": "Ja, zet ze live: a screenshot of a registered monumental tree is no reason to hold",
-   "agreed": false,
+   "verdict": "hold",
+   "reason": "Photo held 2026-11-26 on Hidde's word ('screenshot zijn wel gevaarlijk toch'): a screenshot, so we cannot tell who took it; the tree stays live as arezzo/arz_001 on the register, the reader asked whether the photo is theirs (hold_reply doubt_photo_live).",
+   "hidde": "screenshot zijn wel gevaarlijk toch; Ja, doe het (photo off until the reader says it is theirs)",
+   "agreed": true,
    "shown": [
     "2026-11-25"
    ]
@@ -5554,10 +5850,11 @@
    "measure": null,
    "verdict": "hold",
    "reason": "doubt_photo: the Tsagarada plane at night in snow, framed by letterbox bars like a screenshot of a shared picture. The tree is the famous Greek lead awaiting a verify pass.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "screenshot zijn wel gevaarlijk toch",
+   "agreed": true,
    "shown": [
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
    ]
   },
   {

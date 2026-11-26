@@ -108,13 +108,13 @@ struct PlacePin: View {
                         send()
                     } label: {
                         HStack {
-                            if sending { ProgressView().tint(.white).padding(.trailing, 6) }
+                            if sending { ProgressView().tint(Brand.onMoss).padding(.trailing, 6) }
                             Text(sending ? "Sending" : "The tree is here")
                         }
                         .font(.brand(16, .bold))
                         .frame(maxWidth: .infinity).frame(height: 48)
                         .background(Brand.moss, in: .capsule)
-                        .foregroundStyle(.white)
+                        .foregroundStyle(Brand.onMoss)
                     }
                     .buttonStyle(.plain)
                     .disabled(sending || movedMetres < 5)

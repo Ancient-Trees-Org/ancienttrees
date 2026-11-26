@@ -128,6 +128,9 @@ extension View {
 struct PhotoHeart: View {
     let photoId: String
     var onDark = false
+    /// The glyph's size: 14 in a byline, 19 in the Feed's actions row beside
+    /// the save and share glyphs (2026-11-26).
+    var size: CGFloat = 14
     @Environment(Account.self) private var account
     @Environment(Nudge.self) private var nudge
     @State private var showingLikers = false
@@ -145,7 +148,7 @@ struct PhotoHeart: View {
                 }
             } label: {
                 Image(systemName: s.mine ? "heart.fill" : "heart")
-                    .font(.system(size: 14, weight: .semibold))
+                    .font(.system(size: size, weight: .semibold))
                     .foregroundStyle(tint)
                     .frame(minWidth: 44, minHeight: 44)
                     .contentShape(Rectangle())

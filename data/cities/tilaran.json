@@ -50,7 +50,21 @@
         "contributor_user_id": "p_e6628375ba1aea1573317fad",
         "sighting_id": "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-16, through the app); viewed and approved on 2026-11-17: the whole lower trunk from below, a lattice of roots and an arch at the left, forest around it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/tlr_001-the-elephant-trunk-fig-of-tilar-n-00fd8d2f-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_e6628375ba1aea1573317fad",
+          "sighting_id": "00fd8d2f-72a7-44c8-9d4a-7f1eb5380462-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "tlr_002",

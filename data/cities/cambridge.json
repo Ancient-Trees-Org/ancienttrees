@@ -484,6 +484,66 @@
           "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-18: the plane's low golden dome at left, limbs reaching the lawn, a ginkgo beside it at right, blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
           "taken_month": 11,
           "taken_month_basis": "autumn colour, sent 2026-11-17"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cam_011-the-great-oriental-plane-of-emmanuel-college-b43d0c0b-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+          "sighting_id": "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cam_011-the-great-oriental-plane-of-emmanuel-college-b43d0c0b-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+          "sighting_id": "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cam_011-the-great-oriental-plane-of-emmanuel-college-b43d0c0b-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5c22c3030ca37ddafb789ab6",
+          "sighting_id": "b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cam_011-the-great-oriental-plane-of-emmanuel-college-tip-748-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 768,
+          "height": 1024,
+          "source": "contributor",
+          "contributor_user_id": "p_91f2bfb867b1664b26521ade",
+          "sighting_id": "tip-748-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cam_011-the-great-oriental-plane-of-emmanuel-college-tip-748-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1024,
+          "height": 768,
+          "source": "contributor",
+          "contributor_user_id": "p_91f2bfb867b1664b26521ade",
+          "sighting_id": "tip-748-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ],
       "verify_notes": "2026-11-18 session: two readers. tip-748 (website, 2026-11-15, girth 478 cm and the college booklet) and b43d0c0b-469b-44ef-ab4b-bba2c7b8f7dc (app, 2026-11-17, pin moved twice to Emmanuel). Held 2026-11-15/17 as not_public (the college calls the Fellows' Garden private). 2026-11-18 the app reader wrote by mail that he first saw it from the street beyond the wall, then was let in at the main gate and walked the grounds up to the tree, 'not private, at least during certain hours'. Released under the closed list (visible and reachable). Facts from the college booklet (PDF, fetched 2026-11-18); the Cernuda poem in it is named nowhere on the page. Lead photo is tip-748's (shows the weeping limbs); the app photo also shows a ginkgo beside the plane. Our earlier lead data/leads/cambridge.json had 52.2012, 0.1233 (college grounds, rough); the reader's pin is used."

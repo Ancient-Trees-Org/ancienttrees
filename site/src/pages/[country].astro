@@ -7,7 +7,6 @@ import { nTrees } from "../lib/tree-count";
 import { ageShort } from "../lib/age-short";
 import Base from "../layouts/Base.astro";
 import TreeCard from "../components/TreeCard.astro";
-import Breadcrumbs from "../components/Breadcrumbs.astro";
 import { cityIsRenderable, renderableTrees, treeSlugsForCity, type CityEntry } from "../lib/trees";
 import { collectionEntries, MODES } from "../lib/collection-rank";
 import { COUNTRY_MIN_CITIES, GROUP_ORDER, speciesGroup, speciesCommon, speciesScientific, speciesPageSlugs } from "../lib/species";
@@ -28,8 +27,8 @@ import { publishedStatePages, usStateOf } from "../lib/us-states";
 import { mapSpecies } from "../lib/map-species";
 import { speciesIconKey } from "../lib/species-icons";
 import MapFilters from "../components/MapFilters.astro";
-import ShareButton from "../components/ShareButton.astro";
-import PlaceRow from "../components/PlaceRow.astro";
+import PlaceHead from "../components/PlaceHead.astro";
+import PlaceIntro from "../components/PlaceIntro.astro";
 import { SHEET_JS } from "../lib/sheet-js";
 import { SHARE_JS } from "../lib/share-js";
 import { VISITED_SYNC_JS } from "../lib/visited-sync-js";
@@ -307,23 +306,16 @@ const mapScript = countryMapScript(
   <div class="split">
     <aside class="panel" id="sheet">
       <div class="sheet-grab">
-        <div class="panel-head">
-          <Breadcrumbs items={crumbItems} />
-          <PlaceRow shareLabel={ui("en").share} copiedLabel={ui("en").shareCopied} closeLabel={ui("en").photoClose} />
-          {/* The count line, where the city page names its country: the app's
-              place header says the same ("N trees"). */}
-          <p class="eyebrow">{nTrees(total)} · {countryCities.length} places</p>
-          <div class="page-head">
-            <h1><span class="h1-lead">Ancient trees in </span><em>{disp}</em></h1>
-            <ShareButton url={canonical} title={`Ancient trees in ${disp}`} />
-          </div>
-        </div>
+        {/* The count line stands where the city page names its country: the
+            app's place header says the same ("N trees"). */}
+        <PlaceHead crumbs={crumbItems} eyebrow={`${nTrees(total)} · ${countryCities.length} places`}
+                   lead={ui("en").heading("{c}")} name={disp}
+                   share={{ url: canonical, title: ui("en").heading(disp) }}
+                   placeRow={{ share: ui("en").share, copied: ui("en").shareCopied, close: ui("en").photoClose }} />
       </div>
       <div class="sheet-body">
-        <div class="city-intro">
-          <p class="lede">{firstSentence} We map {total} trees in {countryCities.length} cities here.{oldestLine} {introRest}</p>
-          <button type="button" class="city-intro-more">{ui("en").readMore}</button>
-        </div>
+        <PlaceIntro text={`${firstSentence} We map ${total} trees in ${countryCities.length} cities here.${oldestLine} ${introRest}`}
+                    readMore={ui("en").readMore} />
         <div class="ctry-sheet">
           {stateRows.length > 0 && (
             <Fragment>

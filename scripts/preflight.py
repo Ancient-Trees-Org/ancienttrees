@@ -1811,6 +1811,22 @@ READER_HOLD_REASONS = ("bad_frame", "wrong_tree", "wrong_subject", "not_special"
 READER_HOLD_SINCE = "2026-11-17"
 
 
+def check_every_further_photo_has_a_verdict():
+    """Every photograph a reader sent with a tree that went live is on the page,
+    or says why not (scripts/reader_extras.py, data/reader-extras.json).
+
+    2026-11-26: 84 readers' trees showed fewer photographs than were sent, most
+    of them one, because no script published the further ones and nobody was
+    told (a tester: "I uploaded a tree with three photos, the approved version
+    shows only one"). Run `reader_extras.py --sheet`, look, `--leave` what
+    stays off with a closed reason, then `--apply`.
+    """
+    import reader_extras
+    return ["%s: further photo %d of %s has no verdict. Run python3 scripts/reader_extras.py "
+            "--apply --only %s (look first: --sheet)." % (tree, n, sid[:8], sid[:8])
+            for sid, n, tree in reader_extras.check()]
+
+
 def check_a_reader_lead_names_a_closed_reason():
     """A stranger's tree that stays a lead names why, from a closed list.
 
@@ -2393,7 +2409,11 @@ def check_every_submission_got_a_verdict():
                 sid = p.get("sighting_id")
                 if not sid:
                     continue
-                j = judged.get("sight:" + str(sid))
+                # A further photograph ("<sighting>-extra-<n>", reader_extras.py)
+                # came with its sighting and is judged with it; its own look is
+                # in data/reader-extras.json (check_every_further_photo_has_a_verdict).
+                base = re.sub(r"-extra-\d+$", "", str(sid))
+                j = judged.get("sight:" + str(sid)) or judged.get("sight:" + base)
                 if not j or not j.get("verdict"):
                     out.append("%s/%s carries a contributor photograph (sighting %s) with no "
                                "written verdict. Run scripts/judgement.py --scan, look at it, then "
@@ -4064,6 +4084,7 @@ def main():
                 + check_a_new_tree_is_rich_or_a_readers()
                 + check_a_new_tree_has_a_photograph()
                 + check_a_reader_lead_names_a_closed_reason()
+                + check_every_further_photo_has_a_verdict()
                 + check_own_supply_is_paused()
                 + check_story_length()
                 + check_one_common_name_per_species()

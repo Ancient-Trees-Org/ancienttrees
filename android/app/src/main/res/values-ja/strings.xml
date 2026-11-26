@@ -68,6 +68,21 @@
     <string name="tab_map">地図</string>
     <string name="tab_discover">見つける</string>
     <string name="tab_my_trees">私の木</string>
+    <string name="tab_feed">フィード</string>
+    <string name="feed_everyone">すべて</string>
+    <string name="feed_following">フォロー中</string>
+    <string name="feed_near">近く</string>
+    <string name="feed_added">新しい木を追加しました</string>
+    <string name="feed_photographed">木を撮影しました</string>
+    <string name="feed_just_shared">木をシェアしました</string>
+    <string name="feed_new_on_map">地図に新登場</string>
+    <string name="feed_end">今のところ、すべて見ました。</string>
+    <string name="feed_empty">まだ新しい投稿はありません。</string>
+    <string name="feed_empty_following_none">人をフォローすると、その人が追加した木がここに表示されます。</string>
+    <string name="feed_empty_following">フォロー中の人はまだ何も追加していません。</string>
+    <string name="feed_empty_near">100 km以内にはまだ新しい投稿はありません。</string>
+    <string name="feed_empty_near_off">位置情報をオンにすると、近くの新着が表示されます。</string>
+    <string name="feed_failed">読み込めませんでした。下に引いてもう一度お試しください。</string>
     <string name="collect_a_tree">木を集める</string>
     <string name="tab_collect">集める</string>
     <!-- discover -->

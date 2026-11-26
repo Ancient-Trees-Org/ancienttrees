@@ -128,7 +128,7 @@ struct ApprovedPill: View {
             Image(systemName: "checkmark.seal.fill").font(.system(size: 11))
             Text("Approved").font(.system(size: 10, weight: .semibold))
         }
-        .foregroundStyle(.white)
+        .foregroundStyle(Brand.onMoss)
         .padding(.leading, 5).padding(.trailing, 7).padding(.vertical, 3)
         .background(Brand.moss, in: .capsule)
         .accessibilityHidden(true)

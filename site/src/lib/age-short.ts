@@ -18,6 +18,17 @@ import type { UIStrings } from "./i18n";
 const NO_INFO = /^(age )?(undocumented|not |undated|unknown|uncertain|long-established|mature specimen|disputed)/i;
 const HEDGES = ["estimated ", "roughly ", "approximately ", "around ", "about ", "over ", "at least ", "likely "];
 
+/** The first clause of an age sentence: up to the first ";", "(" or a comma
+ * that is not a thousands separator. Cutting at every comma printed "about 1"
+ * for "about 1,000 years" and "500 to 2" for Kingley Vale's "500 to 2,000
+ * years" on 27 tree pages and 8 cards (Hidde saw it, 2026-11-26). The apps
+ * fixed the same cut on 2026-11-24 (Models.swift / Models.kt firstAgeClause,
+ * report 1000138); this is that rule for the website and the feed. */
+export function firstAgeClause(raw: string): string {
+  const m = String(raw ?? "").match(/^(?:[^,;(]|(?<=\d),(?=\d))*/);
+  return (m ? m[0] : "").trim();
+}
+
 export function ageShort(tree: any, U?: Pick<UIStrings, "ageYears">, lang = "en"): string | null {
   const years = (n: string) => (U ? U.ageYears(n) : `${n} years`);
   const lo = Number(tree?.age_min) || 0;
@@ -40,10 +51,7 @@ export function ageShort(tree: any, U?: Pick<UIStrings, "ageYears">, lang = "en"
   }
 
   // 3. No number anywhere: the sentence's first clause, if it says something.
-  const p = t.indexOf(" ("); if (p > 0) t = t.slice(0, p);
-  const c = t.indexOf(","); if (c > 0) t = t.slice(0, c);
-  const s = t.indexOf(";"); if (s > 0) t = t.slice(0, s);
-  t = t.trim();
+  t = firstAgeClause(t);
   // A clause with no number says nothing on a card ("planting date never
   // recorded" sat in Barcelona's list; Hidde, 2026-11-05): the age is a number
   // or it is left out, and the tree page keeps the sentence.

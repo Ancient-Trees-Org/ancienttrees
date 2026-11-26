@@ -67,7 +67,21 @@
         "contributor_user_id": "p_2e3d33f1ea27214456be529d",
         "sighting_id": "9e9c5f14-9e15-4617-905b-61d19e0ee349",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-18, through the app); viewed and approved on 2026-11-18: a huge pale grey kapok trunk splaying into tall plank buttresses, a garden label reading Ceiba pentandra at its foot, daylight, colour. The lower part, with people seated in front, is cropped off so no one is recognisable. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/kis_001-the-kapok-of-the-kisantu-botanic-garden-9e9c5f14-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_2e3d33f1ea27214456be529d",
+          "sighting_id": "9e9c5f14-9e15-4617-905b-61d19e0ee349-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

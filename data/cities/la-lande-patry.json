@@ -52,7 +52,45 @@
         "contributor_user_id": "p_c7db806e95409673b62f1922",
         "sighting_id": "3dfeef4f-6a2a-474a-abaa-b0594c741084",
         "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-16: Hollow yew trunk and first limbs filling the frame, daylight, colour, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/llp_001-the-hollow-yew-of-la-lande-patry-3dfeef4f-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c7db806e95409673b62f1922",
+          "sighting_id": "3dfeef4f-6a2a-474a-abaa-b0594c741084-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/llp_001-the-hollow-yew-of-la-lande-patry-3dfeef4f-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c7db806e95409673b62f1922",
+          "sighting_id": "3dfeef4f-6a2a-474a-abaa-b0594c741084-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/llp_001-the-hollow-yew-of-la-lande-patry-3dfeef4f-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c7db806e95409673b62f1922",
+          "sighting_id": "3dfeef4f-6a2a-474a-abaa-b0594c741084-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The hollow yew of La Lande-Patry, Orne: a reader's photograph, where it stands and what is known about it.",

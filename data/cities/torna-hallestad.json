@@ -50,7 +50,45 @@
         "contributor_user_id": "p_fa491d448dbf3f24e47cfa8b",
         "sighting_id": "f1faa5f9-5750-4863-8920-2ce31bf5d01a",
         "note": "Photographed by a reader and sent through the app (taken 2022-06, shared 2026-11-15); viewed and approved on 2026-11-18: looking straight up into a contorted beech in full summer leaf, its dark limbs writhing and looping across a bright green canopy, the base of the trunk at the bottom of the frame, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/thl_001-the-twisted-beech-of-the-trollskogen-f1faa5f9-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_fa491d448dbf3f24e47cfa8b",
+          "sighting_id": "f1faa5f9-5750-4863-8920-2ce31bf5d01a-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/thl_001-the-twisted-beech-of-the-trollskogen-f1faa5f9-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_fa491d448dbf3f24e47cfa8b",
+          "sighting_id": "f1faa5f9-5750-4863-8920-2ce31bf5d01a-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/thl_001-the-twisted-beech-of-the-trollskogen-f1faa5f9-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_fa491d448dbf3f24e47cfa8b",
+          "sighting_id": "f1faa5f9-5750-4863-8920-2ce31bf5d01a-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "A twisted beech in the Trollskogen at Torna Hällestad near Lund, sent by a reader: where it stands and how to find it.",

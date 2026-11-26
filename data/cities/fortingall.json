@@ -133,6 +133,54 @@
           "contributor_user_id": "p_e0e73e0270033f449047144b",
           "sighting_id": "4338584e-8437-4d91-bc51-82756fc43138",
           "note": "Photographed by a reader and sent through the app (2021-07-17); a viewing pass approved it on 2026-11-21: The Fortingall Yew in daylight: the yew towering over its 1785 walled enclosure with the 'THE YEW' plaque and gate, a view the page lacked; the current lead (a reader's trunk portrait) stays. The reader's second frame, of the stems inside the wall, nearly repeats that lead and was not added. Species seen: Yew: flat dark-green needles in sprays, fluted red-brown stems. Fits the description: Several separate gnarled stems inside a low stone wall in the churchyard, the wall's gate signed THE YEW.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/for_001-the-fortingall-yew-327c2230-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_492afbdde23d69af867aff0f",
+          "sighting_id": "327c2230-b107-4210-b34f-3238035d1efd-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/for_001-the-fortingall-yew-327c2230-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_492afbdde23d69af867aff0f",
+          "sighting_id": "327c2230-b107-4210-b34f-3238035d1efd-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/for_001-the-fortingall-yew-327c2230-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_492afbdde23d69af867aff0f",
+          "sighting_id": "327c2230-b107-4210-b34f-3238035d1efd-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/for_001-the-fortingall-yew-4338584e-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_e0e73e0270033f449047144b",
+          "sighting_id": "4338584e-8437-4d91-bc51-82756fc43138-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

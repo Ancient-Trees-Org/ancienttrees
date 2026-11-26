@@ -69,6 +69,21 @@
     <string name="tab_map">Karte</string>
     <string name="tab_discover">Entdecken</string>
     <string name="tab_my_trees">Meine Bäume</string>
+    <string name="tab_feed">Feed</string>
+    <string name="feed_everyone">Alle</string>
+    <string name="feed_following">Gefolgt</string>
+    <string name="feed_near">In der Nähe</string>
+    <string name="feed_added">hat einen neuen Baum hinzugefügt</string>
+    <string name="feed_photographed">hat einen Baum fotografiert</string>
+    <string name="feed_just_shared">hat gerade einen Baum geteilt</string>
+    <string name="feed_new_on_map">Neu auf der Karte</string>
+    <string name="feed_end">Du hast vorerst alles gesehen.</string>
+    <string name="feed_empty">Noch nichts Neues.</string>
+    <string name="feed_empty_following_none">Folge Leuten, um hier die Bäume zu sehen, die sie hinzufügen.</string>
+    <string name="feed_empty_following">Niemand, dem du folgst, hat bisher etwas hinzugefügt.</string>
+    <string name="feed_empty_near">Noch nichts Neues im Umkreis von 100 km.</string>
+    <string name="feed_empty_near_off">Schalte deinen Standort ein, um Neues in deiner Nähe zu sehen.</string>
+    <string name="feed_failed">Der Feed wurde nicht geladen. Zum erneuten Versuch nach unten ziehen.</string>
     <string name="collect_a_tree">Einen Baum sammeln</string>
     <string name="tab_collect">Sammeln</string>
     <!-- discover -->

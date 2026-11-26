@@ -48,7 +48,7 @@ struct MineCard: View {
                         // competitors do"). CONVENTIONS.md 2026-10-09.
                         Label("Approved", systemImage: "checkmark.seal.fill")
                             .font(.caption2.weight(.semibold))
-                            .foregroundStyle(.white)
+                            .foregroundStyle(Brand.onMoss)
                             .padding(.horizontal, 8).padding(.vertical, 4)
                             .background(Brand.moss, in: .capsule)
                     } else {

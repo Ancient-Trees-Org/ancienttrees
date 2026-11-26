@@ -2,7 +2,7 @@
   "city": "Arezzo",
   "country": "Italy",
   "status": "needs_curation",
-  "intro": "Arezzo is a hill town in eastern Tuscany, known for its sloping Piazza Grande and its frescoes. In the countryside at Ceciliano, just outside the town, grows a downy oak that the national register counts among Italy's monumental trees: 570 centimetres round and 24 metres tall, its trunk splitting low into five or six great stems under one dense crown. A reader sent us its photograph and its name, Bella, and puts it at 400 years old.",
+  "intro": "Arezzo is a hill town in eastern Tuscany, known for its sloping Piazza Grande and its frescoes. In the countryside at Ceciliano, just outside the town, grows a downy oak that the national register counts among Italy's monumental trees: 570 centimetres round and 24 metres tall, its trunk splitting low into five or six great stems under one dense crown. A reader sent us its name, Bella, and puts it at 400 years old.",
   "meta_description": "Bella di Ceciliano, a monumental downy oak outside Arezzo in Tuscany: 570 cm round, 24 m tall, and where to find it.",
   "hero_tree_id": "arz_001",
   "oldest_tree_id": "arz_001",
@@ -38,7 +38,7 @@
       "verified_sources": [
         "italy-masaf.json, no. 01/A390/AR/09 (Albero monumentale d'Italia: Roverella, Quercus pubescens, circumference 570 cm, height 24 m, Casa Fredda, Loc. Ceciliano, Arezzo)"
       ],
-      "story": "\"The tree named 'Bella' is perfectly harmonious and reminiscent of the fractals,\" wrote the reader who sent us this oak from Ceciliano, in the hills just outside Arezzo.\n\nLook at the photograph and you see what they mean. A short, massive trunk splits low into five or six stems, each dividing again and again into smaller limbs, until the crown closes into one dense green dome, the same branching repeated at every scale. Behind it stand the yellow gateposts and iron gates of a country house.\n\nItaly counts it among its monumental trees. The national register lists this roverella, the downy oak Quercus pubescens, at Ceciliano, with a trunk 570 centimetres round and a height of 24 metres. In summer, when the crown is full, the reader's photograph can hardly hold it.\n\nThe reader puts it at 400 years old. That figure is theirs; the register gives no age.\n\nThe grounds behind the gates are private. If you go, tell us where you stood to see it best, and send us your own photograph.",
+      "story": "\"The tree named 'Bella' is perfectly harmonious and reminiscent of the fractals,\" wrote the reader who sent us this oak from Ceciliano, in the hills just outside Arezzo.\n\nStand in front of it and you see what they mean. A short, massive trunk splits low into five or six stems, each dividing again and again into smaller limbs, until the crown closes into one dense green dome, the same branching repeated at every scale. Behind it stand the yellow gateposts and iron gates of a country house.\n\nItaly counts it among its monumental trees. The national register lists this roverella, the downy oak Quercus pubescens, at Ceciliano, with a trunk 570 centimetres round and a height of 24 metres. In summer, when the crown is full, it is hard to fit into one photograph.\n\nThe reader puts it at 400 years old. That figure is theirs; the register gives no age.\n\nThe grounds behind the gates are private. If you go, tell us where you stood to see it best, and send us your own photograph.",
       "curation_status": "flagged",
       "found_by_reader": {
         "sighting_id": "e604000d-20cf-4082-885d-3e34c988c961",
@@ -49,7 +49,7 @@
         "url": "https://ancienttrees.app/photos/arz_001-bella-di-ceciliano.jpg",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
-        "status": "approved",
+        "status": "held",
         "width": 1206,
         "height": 1499,
         "source": "contributor",
@@ -57,13 +57,51 @@
         "sighting_id": "e604000d-20cf-4082-885d-3e34c988c961",
         "taken_month": 7,
         "taken_month_basis": "full summer leaf in the photograph; the file carries no date of its own",
-        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-25: a broad multi-stemmed downy oak in full summer leaf, sun through the crown, a pair of yellow gateposts with iron gates behind it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-25: a broad multi-stemmed downy oak in full summer leaf, sun through the crown, a pair of yellow gateposts with iron gates behind it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Held 2026-11-26: a cropped screenshot with no camera data, so we cannot tell who took it; it goes back up when the reader says it is their own (Hidde: \"screenshot zijn wel gevaarlijk toch\"). Asked with hold_reply.py doubt_photo_live."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/arz_001-bella-di-ceciliano-e604000d-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb792528c3370538a708e62",
+          "sighting_id": "e604000d-20cf-4082-885d-3e34c988c961-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/arz_001-bella-di-ceciliano-e604000d-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb792528c3370538a708e62",
+          "sighting_id": "e604000d-20cf-4082-885d-3e34c988c961-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/arz_001-bella-di-ceciliano-e604000d-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 994,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb792528c3370538a708e62",
+          "sighting_id": "e604000d-20cf-4082-885d-3e34c988c961-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "Bella di Ceciliano, a monumental downy oak outside Arezzo in Tuscany: 570 cm round, 24 m tall, and where to find it.",
   "question_answer": "Bella di Ceciliano is a monumental downy oak at Ceciliano, just outside Arezzo. It stands in front of the gates of a private house; the grounds behind them are private.",
-  "question_context": "Bella di Ceciliano is a roverella, the downy oak Quercus pubescens, growing at Ceciliano in the countryside just outside Arezzo. Italy's national register of monumental trees lists it as number 01/A390/AR/09, with a trunk 570 centimetres round and a height of 24 metres. A reader sent us its photograph and gave us its name. \"The tree named 'Bella' is perfectly harmonious and reminiscent of the fractals,\" they wrote, and the picture shows why. A short, massive trunk splits low into five or six stems, each of them dividing again and again into smaller limbs, until the crown closes into one dense green dome, the same branching repeated at every scale. Behind it stand the yellow gateposts and iron gates of a country house. The reader puts the oak at 400 years old. That figure is theirs, because the register records its size and not its age. The grounds behind the gates are private, and we have not yet confirmed how close the road comes to the tree, so check before you go and tell us where you stood to see it best.",
+  "question_context": "Bella di Ceciliano is a roverella, the downy oak Quercus pubescens, growing at Ceciliano in the countryside just outside Arezzo. Italy's national register of monumental trees lists it as number 01/A390/AR/09, with a trunk 570 centimetres round and a height of 24 metres. A reader gave us its name. \"The tree named 'Bella' is perfectly harmonious and reminiscent of the fractals,\" they wrote, and the tree shows why. A short, massive trunk splits low into five or six stems, each of them dividing again and again into smaller limbs, until the crown closes into one dense green dome, the same branching repeated at every scale. Behind it stand the yellow gateposts and iron gates of a country house. The reader puts the oak at 400 years old. That figure is theirs, because the register records its size and not its age. The grounds behind the gates are private, and we have not yet confirmed how close the road comes to the tree, so check before you go and tell us where you stood to see it best.",
   "faq": [
     {
       "q": "Can I visit Bella di Ceciliano?",

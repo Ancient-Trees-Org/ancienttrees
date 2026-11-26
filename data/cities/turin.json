@@ -187,6 +187,18 @@
           "width": 2553,
           "height": 3888,
           "taken_month": 9
+        },
+        {
+          "url": "https://ancienttrees.app/photos/tor_003-the-ginkgo-of-the-giardini-cavour-75e408b1-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_8debc1a01e9228232e31dc0d",
+          "sighting_id": "75e408b1-04bb-4837-92c8-8a9e0ac8dd46-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },

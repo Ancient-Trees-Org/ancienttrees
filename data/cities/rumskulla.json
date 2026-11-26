@@ -100,6 +100,54 @@
           "contributor_user_id": "p_856cd2e3820af4b001f6554a",
           "sighting_id": "405d389a-e777-4df3-a844-31fee2556e58",
           "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: The huge hollow veteran oak behind its fence in warm light. Species seen: Oak: ancient hollow trunk, gnarled bare limbs. Fits the description: enormous broken veteran oak in a fenced meadow.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/rkm_001-rumskullaeken-the-kvill-oak-405d389a-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_856cd2e3820af4b001f6554a",
+          "sighting_id": "405d389a-e777-4df3-a844-31fee2556e58-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/rkm_001-rumskullaeken-the-kvill-oak-e7f5f503-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_ff99d0483a2b527b15837a19",
+          "sighting_id": "e7f5f503-48a4-457e-bd7d-1cedae177b2d-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/rkm_001-rumskullaeken-the-kvill-oak-e7f5f503-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_ff99d0483a2b527b15837a19",
+          "sighting_id": "e7f5f503-48a4-457e-bd7d-1cedae177b2d-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/rkm_001-rumskullaeken-the-kvill-oak-e7f5f503-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1080,
+          "height": 1080,
+          "source": "contributor",
+          "contributor_user_id": "p_ff99d0483a2b527b15837a19",
+          "sighting_id": "e7f5f503-48a4-457e-bd7d-1cedae177b2d-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

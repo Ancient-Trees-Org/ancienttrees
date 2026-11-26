@@ -12,7 +12,7 @@
     <string name="cf_discard">Weggooien</string>
     <string name="cf_keep_editing">Verder bewerken</string>
     <string name="cf_where">Waar staat hij?</string>
-    <string name="cf_place_reason">Je foto zegt niet waar hij is gemaakt, dus sleep de kaart tot de speld op de boom staat.</string>
+    <string name="cf_place_reason">Je foto zegt niet waar hij is gemaakt, dus zoek een adres of sleep de kaart tot de speld op de boom staat.</string>
     <string name="cf_tree_is_here">De boom staat hier</string>
     <string name="cf_which">Welke is het?</string>
     <string name="cf_tap_to_compare">Weet je niet welke? Tik op %1$s om te vergelijken.</string>
@@ -89,4 +89,8 @@
     </string-array>
     <string name="cf_your_tree_at">Je boom · %1$s</string>
     <string name="cf_added_title">Toegevoegd aan je bomen</string>
+    <string name="pin_address_search">Zoek een adres</string>
+    <string name="pin_address_none">Geen adres gevonden. Schuif de kaart naar de plek.</string>
+    <string name="pin_address_coords">Coördinaten</string>
+    <string name="pin_address_clear">Wissen</string>
 </resources>

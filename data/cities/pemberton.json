@@ -152,7 +152,33 @@
         "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
         "sighting_id": "61bfdbeb-40d4-4654-b2f6-377c44997bf5",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: the whole karri on a grassy verge beside a red gravel road, a massive dark trunk with a second, paler stem rising inside it, a wide crown over a fenced paddock and forest beyond, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/pem_003-the-karri-that-swallowed-a-tree-61bfdbeb-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+          "sighting_id": "61bfdbeb-40d4-4654-b2f6-377c44997bf5-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/pem_003-the-karri-that-swallowed-a-tree-61bfdbeb-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+          "sighting_id": "61bfdbeb-40d4-4654-b2f6-377c44997bf5-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "pem_004",
@@ -195,7 +221,45 @@
         "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
         "sighting_id": "32b40a81-9200-47fd-b160-edb577c30e79",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-19, through the app); viewed and approved on 2026-11-19: looking straight up two pale, smooth karri stems fused at the base into one trunk, patched grey, cream and brown, their limbs fanning into the crown against blue sky, forest around, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/pem_004-the-twin-karri-of-anzac-road-32b40a81-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+          "sighting_id": "32b40a81-9200-47fd-b160-edb577c30e79-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/pem_004-the-twin-karri-of-anzac-road-32b40a81-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+          "sighting_id": "32b40a81-9200-47fd-b160-edb577c30e79-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/pem_004-the-twin-karri-of-anzac-road-32b40a81-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3187c89ebb9a049f017c6aa5",
+          "sighting_id": "32b40a81-9200-47fd-b160-edb577c30e79-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

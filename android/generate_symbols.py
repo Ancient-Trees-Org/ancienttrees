@@ -69,6 +69,8 @@ GLYPHS = {
     "SearchSemibold": ("search", False, 600, False),
     "Map": ("map", False, 400, False),  # map
     "MapFill": ("map", True, 400, False),  # map.fill
+    "Group": ("group", False, 400, False),  # person.2, the Feed tab (2026-11-26, Polarsteps' Activity)
+    "GroupFill": ("group", True, 400, False),  # person.2.fill
     "Eco": ("eco", False, 400, False),  # leaf
     "EcoFill": ("eco", True, 400, False),  # leaf.fill
     "Park": ("park", False, 400, False),  # tree
@@ -98,6 +100,7 @@ GLYPHS = {
     "Settings": ("settings", False, 400, False),  # gearshape
     "SettingsFill": ("settings", True, 400, False),  # gearshape.fill
     "Straighten": ("straighten", False, 400, False),  # ruler
+    "Contrast": ("contrast", False, 400, False),  # circle.lefthalf.filled, Appearance
     "Lock": ("lock", False, 400, False),  # lock
     "ThumbUp": ("thumb_up", False, 400, False),
     "ThumbUpFill": ("thumb_up", True, 400, False),

@@ -72,7 +72,21 @@
         "taken_month": 9,
         "taken_month_basis": "the photograph's own date",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-20, through the app); viewed and approved on 2026-11-20: a panorama of the whole banyan inside its fence: a low maze of grey limbs and trunks, hanging aerial roots, a ringed concrete planter at the left, fallen and broken limbs lying across the ground, green crown above, clear morning sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/knt_001-the-mahakali-vad-of-kantharpura-c4c911de-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1115,
+          "source": "contributor",
+          "contributor_user_id": "p_993f7951067197e004db82b1",
+          "sighting_id": "c4c911de-781d-4234-998d-c5c657a9c223-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

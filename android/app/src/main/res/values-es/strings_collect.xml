@@ -12,7 +12,7 @@
     <string name="cf_discard">Descartar</string>
     <string name="cf_keep_editing">Seguir editando</string>
     <string name="cf_where">¿Dónde está?</string>
-    <string name="cf_place_reason">Tu foto no dice dónde se hizo, así que arrastra el mapa hasta que el pin quede sobre el árbol.</string>
+    <string name="cf_place_reason">Tu foto no dice dónde se hizo, así que busca una dirección o arrastra el mapa hasta que el pin quede sobre el árbol.</string>
     <string name="cf_tree_is_here">El árbol está aquí</string>
     <string name="cf_which">¿Cuál es?</string>
     <string name="cf_tap_to_compare">¿No sabes cuál? Toca %1$s para comparar.</string>
@@ -89,4 +89,8 @@
     </string-array>
     <string name="cf_your_tree_at">Tu árbol · %1$s</string>
     <string name="cf_added_title">Añadido a tus árboles</string>
+    <string name="pin_address_search">Busca una dirección</string>
+    <string name="pin_address_none">No se encontró ninguna dirección. Mueve el mapa hasta el lugar.</string>
+    <string name="pin_address_coords">Coordenadas</string>
+    <string name="pin_address_clear">Borrar</string>
 </resources>

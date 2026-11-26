@@ -49,7 +49,21 @@
         "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: looking up the whole tall straight trunk from its buttressed foot to the bare crown, the preserve's sign post beside it, clear November daylight, colour; a second photograph shows the Ohio Department of Natural Resources sign naming it a chinkapin oak. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/gol_001-the-chinkapin-oak-of-goll-woods-e6cdb912-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_ed3ce913cbfa6c389149b684",
+          "sighting_id": "e6cdb912-6896-4dbb-b9c2-47113b0aa590-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "gol_002",

@@ -96,6 +96,42 @@
           "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
           "sighting_id": "79399d95-56b8-4b54-9f84-0af78aaa3973",
           "note": "Photographed by a reader and sent through the app (2026-11-18); a viewing pass approved it on 2026-11-18: The sycamore's huge burred trunk base in daylight, with its white and grey mottled limbs above and a person (back turned) beside it for scale; a trunk close-up that shows its size, so it goes in the strip behind the wide lead. Species seen: plane bark flaking white and grey on the upper limbs, scaly lower trunk, a yellow plane leaf at the top. Fits the description: same contributor's tree at the same pin; white mottled limbs and a massive old trunk on a lawn by stone edging.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/vfg_001-the-sprawling-sycamore-of-pawling-farm-455f464a-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "455f464a-464b-476c-b634-b9bdc511f84c-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/vfg_001-the-sprawling-sycamore-of-pawling-farm-455f464a-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "455f464a-464b-476c-b634-b9bdc511f84c-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/vfg_001-the-sprawling-sycamore-of-pawling-farm-c4b5f1b1-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_3bb2d9b77f839015a3f92de9",
+          "sighting_id": "c4b5f1b1-ce96-469b-805d-cf75390b7917-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

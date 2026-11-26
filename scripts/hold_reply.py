@@ -11,6 +11,7 @@ written once here, never by a run.
 
     python3 scripts/hold_reply.py <submission id> not_theirs ["tree name"] [--dry]
     python3 scripts/hold_reply.py <sighting id or lead:<id>> not_public ["tree name"]
+    python3 scripts/hold_reply.py <id> doubt_photo_live ["tree name"] [--again]
 
 It writes the text as the row's reply_text with outcome `open_question`;
 contributor_reply.py mails it at the knock after mailcheck, like any answer.
@@ -36,7 +37,8 @@ REPLIES = {
     # mail ("for all the rightly held ... an automated system"); wording from
     # the bad-frame reply he approved that day (submission 858) and his line on
     # private property. Holds a reader cannot change (not_special, dead,
-    # wrong_subject, inappropriate, doubt_info, doubt_photo) get no mail.
+    # wrong_subject, inappropriate, doubt_info) get no mail; doubt_photo is a
+    # question they can answer (below, since 2026-11-26).
     "bad_frame": (
         # Hidde, 2026-11-18, on the flower close-up: never comment on what the
         # photo shows; say we know little about the tree from it and ask about it.
@@ -61,6 +63,23 @@ REPLIES = {
     "wrong_tree": (
         "Thanks for your photo of {name}! We couldn't tell which tree it shows.\n\n"
         "Could you tell us which one it is, or where you stood when you took it?\n\n"
+        "Thanks again,\nAncient Trees\n"),
+    # A SCREENSHOT IS ASKED ABOUT (Hidde, 2026-11-26: "screenshot zijn wel
+    # gevaarlijk toch"): no camera data, so we cannot tell who took it, and a
+    # photo goes up only with its maker's yes. Asked kindly, never accused.
+    "doubt_photo": (
+        "Thanks for your photo of {name}! It looks like a screenshot, so we can't tell "
+        "who took it, and we only put a photo on the map with the photographer's "
+        "permission.\n\n"
+        "Did you take it yourself? Just reply to this mail and let us know. And if you're "
+        "ever passing by, a photo of your own with the camera button in the app works too.\n\n"
+        "Thanks again,\nAncient Trees\n"),
+    # The tree went live on other sources and only the photo waits for the answer.
+    "doubt_photo_live": (
+        "Thanks for {name}! It's on the map now. We left your photo off for the moment: "
+        "it looks like a screenshot, so we can't tell who took it, and we only put a photo "
+        "on the map with the photographer's permission.\n\n"
+        "Did you take it yourself? Just reply to this mail and let us know, and we'll add it.\n\n"
         "Thanks again,\nAncient Trees\n"),
 }
 REPLIES["doubt_location"] = REPLIES["no_location"]
@@ -98,11 +117,18 @@ def main(argv):
     if "--dry" in argv:
         print(body)
         return 0
+    patch = {"reply_text": body, "outcome": "open_question"}
     if row.get("replied_at"):
-        print("hold_reply: %s already answered, nothing written" % sid)
-        return 0
+        # --again: a later question on a row we already answered (2026-11-26,
+        # the Tsagarada plane: told "on the map", then asked about its photo).
+        # The earlier text was a standard template; the new one replaces it
+        # and goes at the next knock.
+        if "--again" not in argv:
+            print("hold_reply: %s already answered, nothing written (--again asks a new question)" % sid)
+            return 0
+        patch["replied_at"] = None
     req = urllib.request.Request(SUPA + "/rest/v1/submissions?id=eq.%d" % int(sid), method="PATCH",
-                                 data=json.dumps({"reply_text": body, "outcome": "open_question"}).encode(),
+                                 data=json.dumps(patch).encode(),
                                  headers={"apikey": key, "Authorization": "Bearer " + key,
                                           "Content-Type": "application/json", "Prefer": "return=minimal"})
     urllib.request.urlopen(req, timeout=30).read()

@@ -62,15 +62,15 @@ object TabBar {
     const val COLLECT = 3
 }
 
-private data class TabItem(val title: Int, val outline: ImageVector, val filled: ImageVector)
-
-/** The iPhone's accessibility identifiers, so the walk names the same controls. */
-private val TAB_TAGS = listOf("tab-map", "tab-discover", "tab-my-trees")
+/** [tab] is the tab it selects, not its place: the Feed came in third with tab 4 (2026-11-26, TabBar.Item.tag on the iPhone). */
+private data class TabItem(val title: Int, val outline: ImageVector, val filled: ImageVector, val tab: Int, val tag: String)
 
 private val ITEMS = listOf(
-    TabItem(R.string.tab_map, Sym.Map, Sym.MapFill),
-    TabItem(R.string.tab_discover, Sym.Search, Sym.Search),
-    TabItem(R.string.tab_my_trees, Sym.Leaf, Sym.LeafFill),
+    TabItem(R.string.tab_map, Sym.Map, Sym.MapFill, 0, "tab-map"),
+    TabItem(R.string.tab_discover, Sym.Search, Sym.Search, 1, "tab-discover"),
+    // THE FEED (Hidde, 2026-11-26): two people, Polarsteps' Activity tab; person.2 on the iPhone, Material's group here.
+    TabItem(R.string.tab_feed, Sym.Group, Sym.GroupFill, Feed.TAB, "tab-feed"),
+    TabItem(R.string.tab_my_trees, Sym.Leaf, Sym.LeafFill, 2, "tab-my-trees"),
 )
 
 @Composable
@@ -85,14 +85,15 @@ fun TabBar(selected: Int, select: (Int) -> Unit, collect: () -> Unit, modifier: 
             .background(brand.ground),
     ) {
         Row(Modifier.fillMaxWidth().height(TabBar.HEIGHT), verticalAlignment = Alignment.CenterVertically) {
-            ITEMS.forEachIndexed { i, item ->
+            ITEMS.forEach { item ->
+                val i = item.tab
                 val on = i == selected
                 BarItem(
                     title = stringResource(item.title),
                     glyph = if (on) item.filled else item.outline,
                     on = on,
                     role = Role.Tab,
-                    modifier = Modifier.semantics { this.selected = on }.testTag(TAB_TAGS[i]),
+                    modifier = Modifier.semantics { this.selected = on }.testTag(item.tag),
                 ) { select(i) }
             }
             BarItem(

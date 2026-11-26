@@ -67,6 +67,54 @@
           "contributor_user_id": "p_48178e92fdea8f66a594fb70",
           "sighting_id": "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8",
           "note": "Photographed by a reader and sent through the app (2024-10-27); a viewing pass approved it on 2026-11-17: Sent for the Ankerwycke Yew but shows a London plane; GPS and frames are the Baobab Plane of Penenden Heath (mdb_001, 0 m), the reader's own tree. Main frame duplicates the lead already on the page, so the new trunk view (extra 1) goes in the strip. Species seen: plane: maple-like leaves, flaking patchwork bark on the limbs, burred swollen base. Fits the description: very thick knobbled plane splitting into stout stems in a raised ivy bed at a gravel car park.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mdb_001-the-baobab-plane-of-penenden-heath-0b0d29fa-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
+          "sighting_id": "0b0d29fa-bc94-48a7-8014-4d103452c16d-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mdb_001-the-baobab-plane-of-penenden-heath-0b0d29fa-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
+          "sighting_id": "0b0d29fa-bc94-48a7-8014-4d103452c16d-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mdb_001-the-baobab-plane-of-penenden-heath-0b0d29fa-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
+          "sighting_id": "0b0d29fa-bc94-48a7-8014-4d103452c16d-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mdb_001-the-baobab-plane-of-penenden-heath-e7bef8af-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_48178e92fdea8f66a594fb70",
+          "sighting_id": "e7bef8af-60a5-46a9-98a5-4f6fdec6f2b8-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

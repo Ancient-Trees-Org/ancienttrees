@@ -44,6 +44,13 @@ struct TabBar: View {
         /// Empty on the action, which carries no word: see `items`.
         let title: String
         let symbol: String
+        /// The TabView tag this item selects. Not its position: the Feed came
+        /// in third on 2026-11-26 with tag 4, so My trees stays 2 and the
+        /// camera 3 for every caller and launch argument that says so.
+        var tag: Int
+        /// An image in the asset catalogue instead of an SF Symbol, with a
+        /// ".fill" twin for the chosen state (the Feed's two people).
+        var asset = false
         /// The one slot that is a DEED rather than a place.
         var action: Bool = false
     }
@@ -80,10 +87,21 @@ struct TabBar: View {
     /// read correctly and its precondition is a bar of five; with three
     /// destinations there is no middle to sit in, and Polarsteps answers the
     /// same problem by taking the button out of the bar entirely.
+    ///
+    /// FOUR SINCE 2026-11-26: the Feed, third (Hidde: the feed "een eigen
+    /// tab", Map · Discover · Feed · My trees, AllTrails' Explore · Community
+    /// · ... · Saved). Its symbol is Polarsteps' Activity tab, one person in
+    /// front of a smaller one (Hidde, 2026-11-26: "laten we het activiteit
+    /// logo van polarsteps overnemen", then "die gespiegelde ... die heeft
+    /// android ook"). SF has no such symbol (person.2 stands two alike side
+    /// by side), so it is Material Symbols' `group`, the glyph Android draws,
+    /// as a template image (Assets.xcassets/Symbols, Apache 2.0,
+    /// ICONS-LICENSE-APACHE.txt): outlined, filled when chosen.
     static let items = [
-        Item(title: "Map", symbol: "map"),
-        Item(title: "Discover", symbol: "magnifyingglass"),
-        Item(title: "My trees", symbol: "leaf"),
+        Item(title: "Map", symbol: "map", tag: 0),
+        Item(title: "Discover", symbol: "magnifyingglass", tag: 1),
+        Item(title: "Feed", symbol: "feed.group", tag: 4, asset: true),
+        Item(title: "My trees", symbol: "leaf", tag: 2),
     ]
 
     /// The tag the camera carries in the TabView, intercepted rather than
@@ -104,20 +122,36 @@ struct TabBar: View {
     /// The deed, handed in rather than assumed, because it is not a tab.
     var collect: () -> Void = {}
 
+    /// An item's glyph: the SF Symbol at 21 points, or the asset drawn at the
+    /// same visual size (Material's 24 grid, 26 points across like Android's 26 dp).
+    @ViewBuilder private func glyph(_ item: Item, on: Bool) -> some View {
+        if item.asset {
+            Image(on ? item.symbol + ".fill" : item.symbol)
+                .renderingMode(.template)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 28, height: 28)
+                .frame(height: 24)
+        } else {
+            Image(systemName: item.symbol)
+                .font(.system(size: 21, weight: .regular))
+                .environment(\.symbolVariants, on ? .fill : .none)
+                .frame(height: 24)
+        }
+    }
+
     var body: some View {
         HStack(spacing: 10) {
             HStack(spacing: 4) {
-                ForEach(Array(Self.items.enumerated()), id: \.offset) { i, item in
+                ForEach(Self.items, id: \.tag) { item in
+                    let i = item.tag
                     Button {
                         // The slide, and nothing else animated: a tab change
                         // itself is instant on iOS and always has been.
                         withAnimation(.snappy(duration: 0.28)) { select(i) }
                     } label: {
                         VStack(spacing: 3) {
-                            Image(systemName: item.symbol)
-                                .font(.system(size: 21, weight: .regular))
-                                .environment(\.symbolVariants, i == selected ? .fill : .none)
-                                .frame(height: 24)
+                            glyph(item, on: i == selected)
                             Text(item.title)
                                 .font(.system(size: 11,
                                               weight: i == selected ? .semibold : .regular))

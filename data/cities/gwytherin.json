@@ -81,6 +81,18 @@
           "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the other trunk from its base up into the spreading limbs, headstones behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
           "taken_month": 11,
           "taken_month_basis": "the photograph's own date"
+        },
+        {
+          "url": "https://ancienttrees.app/photos/gwy_001-the-gwytherin-yews-b92312a8-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_618de01d056ef7fe726027bb",
+          "sighting_id": "b92312a8-2d7f-43f8-90ee-5a1d2021bf87-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

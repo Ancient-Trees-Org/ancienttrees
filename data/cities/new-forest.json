@@ -56,7 +56,21 @@
         "source": "a reader's app photograph",
         "date": "2026-11-17",
         "note": "GPS fix at the tree."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nwf_001-the-knightwood-oak-b3d97fd9-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "b3d97fd9-33cf-40bc-a557-1c8dccbfec24-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "nwf_002",
@@ -120,6 +134,42 @@
           "contributor_user_id": "p_f127bf781505453e3305184d",
           "sighting_id": "968c829e-effd-4454-8b9c-271da4d79854",
           "note": "Photographed by a reader and sent through the app; looked at 2026-11-17: Two giant sequoias flanking the track, whole trees in frame. Not an open licence: ask before reuse elsewhere. No name is printed beside it. Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/nwf_002-the-giant-sequoias-of-the-tall-trees-trail-8dfcc988-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_9cbe8e962df4d0438129668a",
+          "sighting_id": "8dfcc988-999d-4d68-967f-0cb0f120f8bb-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/nwf_002-the-giant-sequoias-of-the-tall-trees-trail-968c829e-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "968c829e-effd-4454-8b9c-271da4d79854-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/nwf_002-the-giant-sequoias-of-the-tall-trees-trail-968c829e-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_f127bf781505453e3305184d",
+          "sighting_id": "968c829e-effd-4454-8b9c-271da4d79854-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

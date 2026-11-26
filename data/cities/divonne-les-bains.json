@@ -56,7 +56,21 @@
         "contributor_user_id": "p_5c8e9d1d8f7f093ab8e85de4",
         "sighting_id": "d419093c-142b-4fb7-9a9d-962863c404a1",
         "note": "Photographed by a reader and sent through the app (2026-11-18); viewed and approved on 2026-11-18: the whole chestnut in autumn leaf from its foot, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/dvn_001-the-giant-chestnut-of-mont-mourex-d419093c-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_5c8e9d1d8f7f093ab8e85de4",
+          "sighting_id": "d419093c-142b-4fb7-9a9d-962863c404a1-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The oldest tree near Divonne-les-Bains is the giant sweet chestnut on Mont Mourex, about 400 years old by its plaque: where it grows and how to visit.",

@@ -28,6 +28,10 @@
     <string name="settings_sign_in">ログイン</string>
     <string name="settings_preferences">環境設定</string>
     <string name="settings_distances">距離</string>
+    <string name="settings_appearance">外観</string>
+    <string name="appearance_system">システム</string>
+    <string name="appearance_light">ライト</string>
+    <string name="appearance_dark">ダーク</string>
     <string name="units_km">キロメートル</string>
     <string name="units_miles">マイル</string>
     <string name="settings_location">位置情報</string>

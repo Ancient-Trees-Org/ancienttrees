@@ -101,6 +101,9 @@ def main():
     dest = OUT / f"ancient-trees-{name}-{code}.aab"
     shutil.copy2(aab, dest)
     print(f"bundle: {dest.relative_to(ROOT)} ({dest.stat().st_size // 1024} KB), signed with the upload key")
+    # Readers waiting on a fix hear it is out only once this build is listed
+    # as released (scripts/bug_fixed_mail.py, Hidde 2026-11-26).
+    print(f"once Play has released it to testers: add {code} to \"released\" in data/android-releases.json")
     if apk:
         built = ANDROID / "app" / "build" / "outputs" / "apk" / "release" / "app-release.apk"
         dest_apk = OUT / f"ancient-trees-{name}-{code}.apk"

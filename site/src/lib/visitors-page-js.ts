@@ -10,12 +10,13 @@
 // reuses its classes), and a name behaves as it does in the row: a public
 // profile's name opens it, signed out it asks for a sign-in first.
 //
-// The server pages by the last row seen (supabase/visitor-photos.sql), so a
-// photograph that goes live while somebody scrolls never repeats a tile.
-// Until that function exists it shows the home row's 24 and stops. What each
-// tree looks like is baked into the page (#vp-data, lib/visitor-cards.ts),
-// with each photograph's size, so a tile takes its place before it loads.
-// Nothing is kept on the device.
+// FROM THE SERVER ONLY since 2026-11-26 (Hidde: "hoe gaan we zorgen dat die
+// feed niet elke keer afhankelijk is van zon lange deploy"): public.feed()
+// (supabase/feed.sql) hands each row whole, the tree's name, place, link and a
+// picture in the public feed bucket with its size, so a tile needs nothing
+// from the build and a tree the judge put live a minute ago shows at once.
+// The server pages by the last row seen, so a row that goes live while
+// somebody scrolls never repeats a tile. Nothing is kept on the device.
 import { SUPABASE_URL, SUPABASE_KEY } from "./site-config";
 import { saveButtonJs } from "./save-button";
 import { AGO_FN } from "./time-ago-js";
@@ -47,6 +48,25 @@ export function visitorSaveFn(saveWord: string, savedWord: string): string {
 // signed-out name carries (each script answers its own), `extra` its data.
 export function visitorTileFn(): string {
   return `${AGO_FN}
+  // A feed() row as the tile reads it: r the who and when (sighting_id is the
+  // row's key), c the tree (name, link, picture, place), the apps' FeedPosts.
+  // Only a visitor's photograph on one of ours carries a heart: a tree they
+  // added from a tip has no photograph row to like.
+  // LIVE FIRST, THEN CHECKED (supabase/feed-live.sql, 2026-11-26): a row with
+  // checked false is a reader's share the judge has not looked at yet: their
+  // own name for it, no place and no position (hard rule 10), the share page
+  // as link, and nothing to save or like until it is a tree of ours.
+  function nfvFrom(f) {
+    var checked = f.checked !== false;
+    var like = checked && f.kind === 'photo' && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(f.key);
+    return {
+      r: { sighting_id: f.key, tree_id: f.tree_id || ('shared:' + f.key), published_at: f.published_at, author_name: f.author_name,
+           author_avatar: f.author_avatar, author_id: f.author_id, like: like, checked: checked },
+      // The share page is /t, never /t/ (a 404 on the live site); an older
+      // feed() still hands out the slash (2026-11-26, the first tile on /visitors).
+      c: { n: f.tree_name, u: String(f.url || '').replace(/^\\/t\\/\\?/, '/t?'), p: f.photo_url, c: f.place, w: f.photo_w, h: f.photo_h }
+    };
+  }
   function nfvTile(r, c, img, ev, ask, extra) {
     var real = r.author_name || null;
     var name = real || A_VISITOR;
@@ -54,6 +74,8 @@ export function visitorTileFn(): string {
       ? '<img src="' + esc(r.author_avatar) + '" alt="" loading="lazy">'
       : '<span>' + esc(name.charAt(0)) + '</span>';
     var when = atAgo(r.published_at, false);
+    // A share the judge has not looked at yet says so (the apps' "just shared a tree").
+    if (r.checked === false && typeof JUST_SHARED !== 'undefined') when = JUST_SHARED + (when ? ' · ' + when : '');
     var line = '<span class="nfv-av" aria-hidden="true">' + av + '</span><span class="nfv-name">' + esc(name) + '</span>' +
       (when ? '<span class="nfv-when">' + esc(when) + '</span>' : '');
     var who = real
@@ -63,26 +85,28 @@ export function visitorTileFn(): string {
       : '<span class="nfv-who">' + line + '</span>';
     // The heart at the line's end, beside the name and never inside its link
     // (lib/photo-likes-js.ts fills the slot; Hidde, 2026-11-20).
-    var like = '<span class="nfv-like" data-photo-like="' + esc(String(r.sighting_id).toLowerCase()) + '"></span>';
+    var pid = esc(String(r.sighting_id).toLowerCase());
+    var like = r.like === false ? '' : '<span class="nfv-like" data-photo-like="' + pid + '"></span>';
     return '<a class="nfv-tree" href="' + esc(c.u) + '" data-ev="' + ev + '" data-detail="' + esc(r.tree_id) + '">' +
-      '<span class="shelf-ph" data-dbl-heart="' + esc(String(r.sighting_id).toLowerCase()) + '">' + img + '<span class="nfv-tag">' + esc(c.c) + '</span></span>' +
-      '<b>' + esc(c.n) + '</b></a>' + nfvSave(r.tree_id, c, esc) + '<div class="nfv-by">' + who + like + '</div>';
+      '<span class="shelf-ph"' + (r.like === false ? '' : ' data-dbl-heart="' + pid + '"') + '>' + img + (c.c ? '<span class="nfv-tag">' + esc(c.c) + '</span>' : '') + '</span>' +
+      '<b>' + esc(c.n) + '</b></a>' + (r.checked === false ? '' : nfvSave(r.tree_id, c, esc)) + '<div class="nfv-by">' + who + like + '</div>';
   }`;
 }
 
 /** Tiles per request: two screens on a laptop, four on a phone. */
 export const VISITORS_PAGE = 24;
 
-export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord: string): string {
+export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord: string, justShared: string): string {
   return `
 <script>
 (function () {
   var SB = ${JSON.stringify(SUPABASE_URL)}, KEY = ${JSON.stringify(SUPABASE_KEY)};
   var A_VISITOR = ${JSON.stringify(visitorWord)};
+  var JUST_SHARED = ${JSON.stringify(justShared)};
   ${visitorSaveFn(saveWord, savedWord)}
   ${visitorTileFn()}
   var N = ${VISITORS_PAGE};
-  var cards = {}, rows = [], cursor = null, done = false, busy = false, token = null, paged = true;
+  var cards = {}, rows = [], cursor = null, done = false, busy = false, token = null;
   var grid, more, end, cols = [], ncols = 0;
   function esc(t) { return String(t == null ? '' : t)
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
@@ -93,29 +117,21 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
       body: JSON.stringify(body)
     }).then(function (r) { if (!r.ok) throw r.status; return r.json(); });
   }
-  // One page after the cursor; the home row's 24 while visitor_photos is not
-  // there yet (and then nothing more).
+  // One page after the cursor (feed(), keyset by published_at and key).
   function page(tok) {
-    if (!paged) return Promise.resolve([]);
     var body = { n: N };
-    if (cursor) { body.before_at = cursor.at; body.before_id = cursor.id; }
-    return rpc('visitor_photos', body, tok).catch(function (e) {
-      if (cursor) throw e;
-      paged = false;
-      return rpc('new_from_visitors', { n: 24 }, tok);
-    });
+    if (cursor) { body.before_at = cursor.at; body.before_key = cursor.id; }
+    return rpc('feed', body, tok);
   }
   function columns() {
     var w = grid.clientWidth;
     return w >= 1100 ? 5 : w >= 860 ? 4 : w >= 560 ? 3 : 2;
   }
   function tile(r, prev) {
-    var c = cards[r.tree_id];
-    var src = c.s[r.sighting_id];
-    var d = c.d && c.d[r.sighting_id];
-    var img = d
-      ? '<img src="' + esc(src) + '" width="' + d[0] + '" height="' + d[1] + '" alt="" loading="lazy">'
-      : '<img class="vp-noratio" src="' + esc(src) + '" alt="" loading="lazy">';
+    var c = cards[r.sighting_id];
+    var img = c.w && c.h
+      ? '<img src="' + esc(c.p) + '" width="' + c.w + '" height="' + c.h + '" alt="" loading="lazy">'
+      : '<img class="vp-noratio" src="' + esc(c.p) + '" alt="" loading="lazy">';
     var extra = prev ? ' data-prev-at="' + esc(prev.published_at) + '" data-prev-id="' + esc(prev.sighting_id) + '"' : '';
     var el = document.createElement('div');
     el.className = 'shelf-card nfv-card';
@@ -145,15 +161,13 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
   var prevRaw = null;
   function add(list) {
     list = Array.isArray(list) ? list : [];
-    list.forEach(function (r) {
+    list.forEach(function (f) {
+      var x = nfvFrom(f), r = x.r;
       r.prev = prevRaw;
       prevRaw = r;
-      // Only a photograph this build carries as THAT visitor's: one that went
-      // live after the build used to show the tree's lead in its place, the
-      // same picture as another tile (Hidde, 2026-11-19: "i see a lot of
-      // duplicates here"). It appears with the next deploy, as in the apps.
-      var c = cards[r.tree_id];
-      if (!c || !(c.s && c.s[r.sighting_id])) return;
+      // Every row carries its own picture (the feed bucket); one without is skipped.
+      if (!x.c.p) return;
+      cards[r.sighting_id] = x.c;
       rows.push(r);
       place(tile(r, r.prev));
     });
@@ -161,7 +175,7 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
     if (last) cursor = { at: last.published_at, id: last.sighting_id };
     if (window.atPaintSaveButtons) window.atPaintSaveButtons();
     if (window.atPhotoLikes) window.atPhotoLikes.load();
-    if (!paged || list.length < N) finish();
+    if (list.length < N) finish();
   }
   function finish() {
     done = true;
@@ -181,9 +195,9 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
   // before it in the feed is the cursor that returns exactly this one.
   function author(b, tok) {
     var body = { n: 1 };
-    if (b.dataset.prevAt) { body.before_at = b.dataset.prevAt; body.before_id = b.dataset.prevId; }
-    var ask = paged ? rpc('visitor_photos', body, tok) : rpc('new_from_visitors', { n: 24 }, tok);
-    return ask.then(function (list) {
+    if (b.dataset.prevAt) { body.before_at = b.dataset.prevAt; body.before_key = b.dataset.prevId; }
+    return rpc('feed', body, tok).then(function (list) {
+      list = (list || []).map(function (f) { return nfvFrom(f).r; });
       var hit = (list || []).filter(function (r) { return r.sighting_id === b.dataset.sighting; })[0];
       return hit && hit.author_id;
     }).catch(function () { return null; });
@@ -214,9 +228,7 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
     grid = document.getElementById('vp-grid');
     more = document.getElementById('vp-more');
     end = document.getElementById('vp-end');
-    var el = document.getElementById('vp-data');
-    if (!grid || !el) return;
-    try { cards = JSON.parse(el.textContent || '{}'); } catch (e) { return; }
+    if (!grid) return;
     layout();
     var resized;
     addEventListener('resize', function () { clearTimeout(resized); resized = setTimeout(layout, 150); });

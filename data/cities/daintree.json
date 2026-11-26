@@ -70,7 +70,21 @@
         "contributor_user_id": "p_216cd518521fbdf73dfba32c",
         "sighting_id": "4fe1cb00-e56f-42e1-8c89-ec11bc883f73",
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-17, through the app); viewed and approved on 2026-11-17: looking up from the boardwalk at a strangler fig whose lattice of fused roots climbs a great leaning column into the canopy, fan palms around it, a visitor at the rail for scale, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/dtr_001-the-strangler-fig-of-the-daintree-discovery-centre-4fe1cb00-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 194,
+          "height": 260,
+          "source": "contributor",
+          "contributor_user_id": "p_216cd518521fbdf73dfba32c",
+          "sighting_id": "4fe1cb00-e56f-42e1-8c89-ec11bc883f73-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

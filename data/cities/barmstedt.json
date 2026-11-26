@@ -71,7 +71,45 @@
         "note": "Photographed by a reader and sent to Ancient Trees (2026-11-22, through the app); viewed and approved on 2026-11-22: the whole oak from across the road, a massive grey trunk with a dark hollow at head height, three great stems and a crown of russet November leaves, a child at its foot for scale, daylight, colour. Not an open licence: ask before reuse elsewhere.",
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bms_001-the-thousand-year-oak-of-barmstedt-2dbab77d-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_949f61179af58ceb312cf9dd",
+          "sighting_id": "2dbab77d-6bcf-46e9-aa36-00369790ac15-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/bms_001-the-thousand-year-oak-of-barmstedt-2dbab77d-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_949f61179af58ceb312cf9dd",
+          "sighting_id": "2dbab77d-6bcf-46e9-aa36-00369790ac15-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/bms_001-the-thousand-year-oak-of-barmstedt-2dbab77d-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_949f61179af58ceb312cf9dd",
+          "sighting_id": "2dbab77d-6bcf-46e9-aa36-00369790ac15-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

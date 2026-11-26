@@ -166,7 +166,7 @@
     },
     "android-file:Settings.kt": {
       "verdict": "device",
-      "why": "km or miles, a display setting of this phone (units).",
+      "why": "km or miles, a display setting of this phone (units); and a copy of the account's appearance (see \"appearance\": profiles.appearance is the truth, the copy only paints the first frame).",
       "off": "Nothing: gone with the app."
     },
     "android-file:PlaceBox.kt": {
@@ -218,6 +218,11 @@
       "verdict": "device",
       "why": "The newest process exit already reported, and one crash line until it is sent (android:device/exit.*).",
       "off": "Nothing: gone with the app."
+    },
+    "appearance": {
+      "verdict": "account",
+      "why": "Light, dark or the phone's setting (Kit/Appearance.swift, Settings.kt Appearance; 2026-11-26, a tester asked for a way out of dark mode). Column appearance on profiles, written when it changes and read back at launch; the phone's copy is the account's, as distanceUnit's is.",
+      "off": "Nothing to clear: a fresh install, or a phone signed out, simply follows the phone's own setting until the account answers. profiles.appearance is the truth."
     }
   },
   "android:device/plus.answered.v1": {

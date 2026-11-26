@@ -8,9 +8,8 @@
 // photographs, newest first, endless scroll; CONVENTIONS.md 2026-10-10,
 // endless similar items) reached by "See all >" on the row's heading
 // (CONVENTIONS.md 2026-10-04). Each tile is the row's card. The page is
-// filled in the browser from the server (lib/visitors-page-js.ts); what each
-// tree looks like is baked in from lib/visitor-cards.ts, the same data the
-// row reads.
+// filled in the browser from the server's feed() (lib/visitors-page-js.ts),
+// which carries each tree's name, place and picture: nothing from the build.
 //
 // Not for Google while recovery mode holds: the tiles arrive by script, so
 // the page has nothing of its own to index, and no new page joins the
@@ -20,7 +19,6 @@ import Base from "../layouts/Base.astro";
 import Breadcrumbs from "./Breadcrumbs.astro";
 import { ui } from "../lib/i18n";
 import { BASE_URL } from "../lib/schema";
-import { visitorCards, cardsJson } from "../lib/visitor-cards";
 import { visitorsPageJs } from "../lib/visitors-page-js";
 import PhotoLikers from "./PhotoLikers.astro";
 import { TREE_ACTIONS_JS } from "../lib/tree-actions-js";
@@ -34,7 +32,6 @@ const path = lang === "en" ? "/visitors" : `/${lang}/visitors`;
 const home = lang === "en" ? BASE_URL : `${BASE_URL}/${lang}`;
 const canonical = `${BASE_URL}${path}`;
 const crumbItems: [string, string | null][] = [[u.home, home], [u.homeVisitorsH, null]];
-const data = cardsJson(await visitorCards(lang));
 ---
 <Base
   title={u.homeVisitorsH}
@@ -51,8 +48,7 @@ const data = cardsJson(await visitorCards(lang));
   <div class="vp-more" id="vp-more"><span class="vp-spin" role="status" aria-label={u.visitorsLoading}></span></div>
   <p class="vp-end" id="vp-end" hidden>{u.visitorsEnd}</p>
 </main>
-<script type="application/json" id="vp-data" set:html={data}></script>
 <Fragment slot="scripts" set:html={TREE_ACTIONS_JS} />
-<Fragment set:html={visitorsPageJs(u.noteVisitor, u.cardSave, u.cardSaved)} />
+<Fragment set:html={visitorsPageJs(u.noteVisitor, u.cardSave, u.cardSaved, u.visitorsJustShared)} />
 <PhotoLikers lang={lang} />
 </Base>

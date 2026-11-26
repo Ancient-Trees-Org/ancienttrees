@@ -49,7 +49,37 @@
         "note": "Photographed by a reader and sent through the app (2026-11-25); viewed and approved by the reader judge on 2026-11-25: the whole beech from below on a steep grassy slope, a broad many-limbed crown under cloud, daylight, colour; a second view shows the huge lichened base among boulders and a dry-stone wall. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
         "taken_month": 9,
         "taken_month_basis": "the photograph's own date"
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cgo_001-the-great-beech-of-casargo-861d7cdb-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "taken_month": 9,
+          "taken_month_basis": "the photograph's own date, kept by the app",
+          "source": "contributor",
+          "contributor_user_id": "p_1342bcb505edaa231f7fcdfc",
+          "sighting_id": "861d7cdb-6e15-4015-8e3c-e2b0607ca814-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cgo_001-the-great-beech-of-casargo-861d7cdb-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "taken_month": 9,
+          "taken_month_basis": "the photograph's own date, kept by the app",
+          "source": "contributor",
+          "contributor_user_id": "p_1342bcb505edaa231f7fcdfc",
+          "sighting_id": "861d7cdb-6e15-4015-8e3c-e2b0607ca814-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "A huge old beech above Casargo in Valsassina, sent by a reader: where it stands on the track to Chiarino and what we know about it.",

@@ -354,6 +354,19 @@ export const ADD_PHOTO_JS = `
         // The FILE first and the row second, so a failed upload never leaves a
         // row pointing at nothing. The avatar upload does the same.
         if (!r.ok) throw new Error('upload');
+        // THE PUBLIC COPY, as the app makes it (SightingSync): the share page
+        // and the live-first feed load shared-sightings/<uid>/<id>.jpg, and a
+        // web photo without it showed an empty tile in the feed (2026-11-26,
+        // the Madison tupelo). atDownsize's re-encode carries no location in
+        // the file. A failed copy never stops the send: feed() shows a share
+        // only once its public file exists.
+        return fetch(SB + '/storage/v1/object/shared-sightings/' + path, {
+          method: 'POST',
+          headers: { 'apikey': KEY, 'Authorization': 'Bearer ' + s.access_token,
+                     'Content-Type': 'image/jpeg', 'x-upsert': 'true' },
+          body: blob
+        }).catch(function() { return null; });
+      }).then(function() {
         return fetch(SB + '/rest/v1/sightings', {
           method: 'POST',
           headers: { 'apikey': KEY, 'Authorization': 'Bearer ' + s.access_token,

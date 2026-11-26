@@ -506,20 +506,33 @@
         "note": "The reader placed this pin on the map in the app and moved it twice more after sending (reports 1000140 and 1000141, same account); their last spot is used. Not a GPS fix."
       },
       "photo": {
-        "url": "https://ancienttrees.app/photos/ver_011-silk-mulberry-of-ca-di-david.jpg",
+        "url": "https://ancienttrees.app/photos/ver_011-the-silk-mulberry-of-ca-di-david-a072a9b8.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 1024,
+        "width": 1067,
         "height": 1600,
+        "taken_month": 11,
         "source": "contributor",
         "contributor_user_id": "p_0a92b73bb85b607e09b323ee",
-        "sighting_id": "2cbeafcc-400d-4069-a050-cee475026121",
-        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-24: the whole lower tree in summer leaf, a short trunk splitting low into two stems around a dark hollow, a wire fence and a road just behind it, daylight, colour; three more frames of the pollarded trunk. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
-        "taken_month": 5,
-        "taken_month_basis": "the photograph's own date"
+        "sighting_id": "a072a9b8-cc9a-4c72-995f-b9d2bb875526",
+        "note": "Photographed by a reader and sent through the app (2026-11-25); a viewing pass approved it on 2026-11-26: The same mulberry in autumn, from the reader who added it: the whole tree in yellow leaf, the short trunk splitting low into two stems around a dark hollow, the wire fence and gate and the road just behind. Daylight, colour; the season the page lacked. Species seen: broad simple leaves turning yellow, rough furrowed bark, low-forking pollarded trunk: a white mulberry. Fits the description: short broad trunk splitting low into two stems with a dark hollow between them, just inside a wire fence beside a quiet road.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ver_011-silk-mulberry-of-ca-di-david.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1024,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_0a92b73bb85b607e09b323ee",
+          "sighting_id": "2cbeafcc-400d-4069-a050-cee475026121",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-24: the whole lower tree in summer leaf, a short trunk splitting low into two stems around a dark hollow, a wire fence and a road just behind it, daylight, colour; three more frames of the pollarded trunk. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+          "taken_month": 5,
+          "taken_month_basis": "the photograph's own date"
+        },
         {
           "url": "https://ancienttrees.app/photos/ver_011-silk-mulberry-trunk.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
@@ -556,6 +569,18 @@
           "contributor_user_id": "p_0a92b73bb85b607e09b323ee",
           "sighting_id": "421f46f9-e2f0-4010-9611-dc19762ef95d",
           "note": "Photographed by a reader and sent through the app (2026-07-02); a viewing pass approved it on 2026-11-24: Same mulberry as the lead, from the field side in July with water standing on the grass: the broad trunk with the pale-rimmed knot hole low on it (matches the reader's earlier frames), wire fence at left, crown of heart-shaped leaves. Good daylight and colour, but a closer trunk-and-crown frame than the whole-tree lead, so it goes in the gallery. Species seen: broad furrowed trunk, big rounded heart-shaped leaves on long whippy shoots from cut knuckles: a pollarded mulberry. Fits the description: short broad trunk, cut knuckles at the top, wire fence just beside it, mown grass: the setting the recognition line names.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/ver_011-the-silk-mulberry-of-ca-di-david-2cbeafcc-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_0a92b73bb85b607e09b323ee",
+          "sighting_id": "2cbeafcc-400d-4069-a050-cee475026121-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     },

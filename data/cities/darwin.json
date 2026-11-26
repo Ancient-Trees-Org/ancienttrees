@@ -50,7 +50,33 @@
         "contributor_user_id": "p_af81b9aa2e88c08d839b36df",
         "sighting_id": "de83aef2-d85e-4d38-b4ef-73e6365d2557",
         "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-16: Whole boab, both trunks and the crown, daylight, colour, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/drw_001-the-cavenagh-street-boab-de83aef2-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1280,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_af81b9aa2e88c08d839b36df",
+          "sighting_id": "de83aef2-d85e-4d38-b4ef-73e6365d2557-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/drw_001-the-cavenagh-street-boab-de83aef2-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1003,
+          "height": 719,
+          "source": "contributor",
+          "contributor_user_id": "p_af81b9aa2e88c08d839b36df",
+          "sighting_id": "de83aef2-d85e-4d38-b4ef-73e6365d2557-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The Cavenagh Street boab in Darwin: a reader's photograph and what they tell us about it.",

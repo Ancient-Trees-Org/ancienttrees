@@ -1,4 +1,17 @@
 {
  "_note": "feedback row -> the bug it reported and the day we told them it is fixed. Ids only. scripts/bug_fixed_mail.py.",
- "mailed": {}
+ "mailed": {
+  "1488": {
+   "bug": "ESC-2026-11-25-my-trees-labels-a-tree-you-added-with-th",
+   "coming": "2026-11-26"
+  },
+  "1491": {
+   "bug": "ESC-2026-11-22-edit-profile-put-the-saved-country-back-",
+   "coming": "2026-11-26"
+  },
+  "1686": {
+   "bug": "ESC-2026-11-25-a-reader-wrote-from-the-app-s-profile-fe",
+   "coming": "2026-11-26"
+  }
+ }
 }

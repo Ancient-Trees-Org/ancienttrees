@@ -28,6 +28,10 @@
     <string name="settings_sign_in">Accedi</string>
     <string name="settings_preferences">Preferenze</string>
     <string name="settings_distances">Distanze</string>
+    <string name="settings_appearance">Aspetto</string>
+    <string name="appearance_system">Sistema</string>
+    <string name="appearance_light">Chiaro</string>
+    <string name="appearance_dark">Scuro</string>
     <string name="units_km">Chilometri</string>
     <string name="units_miles">Miglia</string>
     <string name="settings_location">Posizione</string>
