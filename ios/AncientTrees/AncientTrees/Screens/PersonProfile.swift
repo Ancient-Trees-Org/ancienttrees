@@ -158,6 +158,7 @@ struct PersonProfileView: View {
             VStack(alignment: .leading, spacing: 2) {
                 HStack(alignment: .center, spacing: 8) {
                     Text(profile?.display_name ?? knownName ?? "")
+                        .accessibilityIdentifier("person-name")
                         .font(.brand(22, .bold, relativeTo: .title3))
                         .foregroundStyle(Brand.ink)
                         .lineLimit(2).truncationMode(.tail)

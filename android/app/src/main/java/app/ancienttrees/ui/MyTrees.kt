@@ -117,7 +117,8 @@ enum class TreesLane { SEEN, WANT }
 
 /** CollectView.TimelineItem: My trees as one list over time. */
 private sealed class TimelineItem(val key: String, val date: Long) {
-    class Mine(val s: OwnSighting) : TimelineItem("m:" + s.id, s.date)
+    // Newest UPLOAD first, not the photograph's own date (Collect.swift, 2026-11-26).
+    class Mine(val s: OwnSighting) : TimelineItem("m:" + s.id, s.addedAt ?: s.date)
     class Sent(val t: SentTip) : TimelineItem("s:" + t.id, t.sentAt ?: Long.MIN_VALUE)
     class Ours(val t: Tree, at: Long) : TimelineItem("t:" + t.id, at)
 }

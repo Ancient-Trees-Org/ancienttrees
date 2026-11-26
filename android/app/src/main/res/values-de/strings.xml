@@ -84,6 +84,9 @@
     <string name="feed_empty_near">Noch nichts Neues im Umkreis von 100 km.</string>
     <string name="feed_empty_near_off">Schalte deinen Standort ein, um Neues in deiner Nähe zu sehen.</string>
     <string name="feed_failed">Der Feed wurde nicht geladen. Zum erneuten Versuch nach unten ziehen.</string>
+    <string name="feed_near_title">Sieh, was es in deiner Nähe Neues gibt</string>
+    <string name="feed_near_body">Schalte deinen Standort ein, um die Bäume zu sehen, die andere im Umkreis von 100 km hinzugefügt haben.</string>
+    <string name="feed_near_button">Meinen Standort verwenden</string>
     <string name="feed_layout_grid">Als Raster zeigen</string>
     <string name="feed_layout_big">Einzeln zeigen</string>
     <string name="feed_people_title">Leute, die du vielleicht kennst</string>

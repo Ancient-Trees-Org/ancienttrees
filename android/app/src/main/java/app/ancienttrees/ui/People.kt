@@ -139,6 +139,8 @@ class PeopleHost(
     /** Somebody else's followers (true) or following, from the counts on their profile. */
     val openFollowList: (String, Boolean) -> Unit = { _, _ -> },
     val openTree: (Tree) -> Unit,
+    /** An ambassador's badge opens their place on the map (PersonProfile.swift, 2026-11-26). */
+    val openPlace: (slug: String, name: String) -> Unit = { _, _ -> },
     /** Somebody's own tree: its shared page (SightingSync.url(for:)). */
     val openShared: (String) -> Unit = {},
 )
@@ -773,7 +775,13 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
             if (p != null) {
                 if (p.ambassador.isNotEmpty() || early) {
                     Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
-                        AmbassadorBadge(p.ambassador.map { Profiles.Ambassador(p.userId, it.lowercase(), it, true) }, size = 13)
+                        AmbassadorBadge(p.ambassador.map { Profiles.Ambassador(p.userId, it.lowercase(), it, true) }, size = 13,
+                            open = { a ->
+                                val slug = host.catalogue?.browse?.cities.orEmpty().firstOrNull { it.name == a.placeName }?.slug
+                                    ?: java.text.Normalizer.normalize(a.placeName, java.text.Normalizer.Form.NFD)
+                                        .replace(Regex("\\p{M}+"), "").lowercase().replace(" ", "-")
+                                host.openPlace(slug, a.placeName)
+                            })
                         if (early) EarlyAdopterBadge(13)
                     }
                 }

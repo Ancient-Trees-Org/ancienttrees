@@ -10,6 +10,8 @@ package app.ancienttrees.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.platform.testTag
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -105,25 +107,38 @@ object ActivityStore {
     }
 }
 
-/** The bell top right of Discover (Activity.swift ActivityBell): a dot while something is new. */
+/** The bell top right of the Feed since 2026-11-26 (Activity.swift ActivityBell): a dot while something is new. */
 @Composable
-fun ActivityBell(act: DiscoverActions, open: () -> Unit) {
+fun ActivityBell(token: suspend () -> String?, open: () -> Unit) {
+    LaunchedEffect(Unit) { ActivityStore.load(token(), 5) }
+    HeaderDisc(Sym.Bell, "activity-bell", dot = ActivityStore.fresh, onClick = open)
+}
+
+/**
+ * ONE ROUND BUTTON FOR EVERY TAB'S HEADER (Style.swift HeaderDisc, Hidde 2026-11-26):
+ * a 44 dp white disc with a hairline and a soft shadow, a 24 dp glyph in ink, the
+ * red dot for something new.
+ */
+@Composable
+fun HeaderDisc(glyph: androidx.compose.ui.graphics.vector.ImageVector, tag: String, dot: Boolean = false, label: String = tag, onClick: () -> Unit) {
     val brand = Brand.colors
-    LaunchedEffect(Unit) { ActivityStore.load(act.token(), 5) }
     Box(
-        Modifier
-            .size(44.dp)
-            .clickable(onClick = open)
-            .semantics { contentDescription = "activity-bell" },
         contentAlignment = Alignment.Center,
+        modifier = Modifier
+            .size(44.dp)
+            .shadow(2.dp, CircleShape, ambientColor = Color.Black.copy(alpha = 0.06f), spotColor = Color.Black.copy(alpha = 0.06f))
+            .clip(CircleShape)
+            .background(brand.surface)
+            .border(1.dp, brand.hairline, CircleShape)
+            .clickable(role = androidx.compose.ui.semantics.Role.Button, onClick = onClick)
+            .semantics { contentDescription = label }
+            .testTag(tag),
     ) {
-        Box(Modifier.size(40.dp).background(brand.surface, CircleShape), contentAlignment = Alignment.Center) {
-            Icon(Sym.Bell, null, tint = brand.ink, modifier = Modifier.size(20.dp))
-        }
-        if (ActivityStore.fresh) {
+        Icon(glyph, null, tint = brand.ink, modifier = Modifier.size(24.dp))
+        if (dot) {
             Box(
-                Modifier.align(Alignment.TopEnd).offset(x = (-7).dp, y = 7.dp).size(9.dp)
-                    .background(Color(0xFFD8573F), CircleShape).border(2.dp, brand.ground, CircleShape),
+                Modifier.align(Alignment.TopEnd).offset(x = (-6).dp, y = 6.dp).size(10.dp)
+                    .background(Color(0xFFD8573F), CircleShape).border(2.dp, brand.surface, CircleShape),
             )
         }
     }
@@ -169,7 +184,8 @@ fun ActivityPage(catalogue: Catalogue, act: DiscoverActions, onBack: () -> Unit)
 
 @Composable
 private fun Day(title: String) {
-    Text(title, fontFamily = BrandFace, fontWeight = FontWeight.Black, fontSize = 15.sp, color = Brand.colors.ink,
+    // Instagram's notification headings, plain 17 semibold, never the brand's black (2026-11-26).
+    Text(title, fontWeight = FontWeight.SemiBold, fontSize = 17.sp, color = Brand.colors.ink,
         modifier = Modifier.padding(start = 16.dp, top = 14.dp, bottom = 4.dp))
 }
 

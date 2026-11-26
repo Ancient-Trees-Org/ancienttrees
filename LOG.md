@@ -143,6 +143,21 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 session: Hidde's walk through the new Feed, fixed on both phones and the web
+
+**What changed for people:**
+- **Back lands where you were** (Feed, Find people, profiles, Discover): lists no longer reload when they come back into view. Test BackKeepsPlaceWalk.
+- **Photos load what is on screen first** and drop the ones scrolled past; a fast scroll no longer stalls the Feed and every other page. Test ImageGateTests.
+- **The Feed shows only checked posts** (iPhone, Android, website row and /visitors): a share waits 10 to 30 minutes until it is a tree with its page, save and heart.
+- **Following** with nobody followed leads with People you may know; **Near you** without a location leads with a card to turn it on.
+- **One card in two sizes**: save top right on every photo, heart at the end of the person's line, share on the tree page.
+- **One round header button** on every tab; the bell moved from Discover to the Feed beside Find people, which asks a signed-out person to sign in first. Activity's "New" and "Earlier" in plain type.
+- **Share your profile** works again on the iPhone (ShareProfileWalk); a tap on a person's name no longer opens their followers, and an ambassador's badge opens their place (PersonProfileWalk).
+- **The photo viewer slides sideways** with the finger; bylines under photos are bigger (15 in the viewer, 13 on tiles).
+- **My trees: newest upload first** on both phones. Other people's profiles keep the server's order without dates (the privacy rule): a change there waits for Hidde.
+- **Android: "Appearance" is now "Theme"** in all eight languages, Google's word; the iPhone keeps Apple's "Appearance".
+- Five bugs Hidde found recorded with escaped.py and closed with their tests. Installed on Hidde's iPhone from this branch for his walk.
+
 ## 2026-11-26 session: the Feed's new design on both phones (Hidde approved v4 and menu option 3)
 
 - **The Feed opens zoomed out**, the website's /visitors masonry: whole photographs at their own shape, place on the photo, save top right, name, who and heart under it. One post big is the other half of a tab row under the chips (Instagram's profile tabs).

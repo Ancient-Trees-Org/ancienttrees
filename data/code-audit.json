@@ -1062,6 +1062,61 @@
    "found_by": "hidde",
    "test": "scripts/test_reader_extras.py",
    "fixed_in": "20d936885"
+  },
+  {
+   "id": "ESC-2026-11-26-back-from-a-tree-or-profile-reloaded-the",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Feed.swift",
+   "summary": "Back from a tree or profile reloaded the Feed, Find people and profiles, so the list came back scrolled elsewhere",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "AncientTreesUITests/BackKeepsPlaceWalk"
+  },
+  {
+   "id": "ESC-2026-11-26-share-your-profile-on-find-people-opened",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/People.swift",
+   "summary": "Share your profile on Find people opened nothing (a ShareLink inside the list took the tap)",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "AncientTreesUITests/ShareProfileWalk"
+  },
+  {
+   "id": "ESC-2026-11-26-tapping-a-person-s-name-on-their-profile",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/PersonProfile.swift",
+   "summary": "Tapping a person's name on their profile opened their followers (the count's tap area lay over the name)",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "AncientTreesUITests/PersonProfileWalk/testTheNameOpensNothing"
+  },
+  {
+   "id": "ESC-2026-11-26-an-ambassador-s-badge-on-somebody-s-prof",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/PersonProfile.swift",
+   "summary": "An ambassador's badge on somebody's profile opened nothing instead of their place",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "AncientTreesUITests/PersonProfileWalk/testTheAmbassadorBadgeOpensThePlace"
+  },
+  {
+   "id": "ESC-2026-11-26-a-fast-scroll-down-the-feed-queued-every",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Kit/TreePhoto.swift",
+   "summary": "A fast scroll down the Feed queued every photograph scrolled past ahead of the ones on screen, and other pages loaded nothing",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "AncientTreesTests/ImageGateTests"
   }
  ]
 }

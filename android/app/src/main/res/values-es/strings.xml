@@ -84,6 +84,9 @@
     <string name="feed_empty_near">Aún no hay nada nuevo a menos de 100 km de ti.</string>
     <string name="feed_empty_near_off">Activa tu ubicación para ver qué hay de nuevo cerca de ti.</string>
     <string name="feed_failed">No se ha podido cargar. Desliza hacia abajo para intentarlo de nuevo.</string>
+    <string name="feed_near_title">Mira lo nuevo cerca de ti</string>
+    <string name="feed_near_body">Activa tu ubicación para ver los árboles que otros añadieron a menos de 100 km.</string>
+    <string name="feed_near_button">Usar mi ubicación</string>
     <string name="feed_layout_grid">Ver en cuadrícula</string>
     <string name="feed_layout_big">Ver de uno en uno</string>
     <string name="feed_people_title">Personas que quizá conozcas</string>

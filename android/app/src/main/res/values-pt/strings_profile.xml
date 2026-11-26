@@ -28,7 +28,7 @@
     <string name="settings_sign_in">Iniciar sessão</string>
     <string name="settings_preferences">Preferências</string>
     <string name="settings_distances">Distâncias</string>
-    <string name="settings_appearance">Aspeto</string>
+    <string name="settings_appearance">Tema</string>
     <string name="appearance_system">Sistema</string>
     <string name="appearance_light">Claro</string>
     <string name="appearance_dark">Escuro</string>

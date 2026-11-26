@@ -84,6 +84,9 @@
     <string name="feed_empty_near">Nog niets nieuws binnen 100 km van je.</string>
     <string name="feed_empty_near_off">Zet je locatie aan om te zien wat er nieuw is in de buurt.</string>
     <string name="feed_failed">De feed laadde niet. Trek omlaag om het opnieuw te proberen.</string>
+    <string name="feed_near_title">Bekijk wat er nieuw is in de buurt</string>
+    <string name="feed_near_body">Zet je locatie aan om de bomen te zien die mensen binnen 100 km hebben toegevoegd.</string>
+    <string name="feed_near_button">Gebruik mijn locatie</string>
     <string name="feed_layout_grid">Toon als raster</string>
     <string name="feed_layout_big">Toon één voor één</string>
     <string name="feed_people_title">Mensen die je misschien kent</string>

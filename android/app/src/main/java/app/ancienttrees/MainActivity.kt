@@ -825,6 +825,10 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         openPerson = { routes.openPerson(it) },
         openFollowList = { id, followers -> routes.openPeople(if (followers) app.ancienttrees.ui.PeopleSource.FOLLOWERS else app.ancienttrees.ui.PeopleSource.FOLLOWING, id) },
         openTree = { openTree(it) },
+        openPlace = { slug, name ->
+            val t = catalogue?.trees(slug)?.firstOrNull()
+            goOnMap(SearchHit.City(slug, name, t?.lat ?: 0.0, t?.lng ?: 0.0))
+        },
         // A reader's tree on a profile opens IN THE APP, never the website (Hidde,
         // 2026-11-17: "je moet nooit naar de website sturen"): yours as your tree,
         // anybody else's read only, as a shared link does (SharedTreeView.swift).
@@ -1228,6 +1232,11 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                                     openPost = { nav.push(app.ancienttrees.ui.Page.FeedTree(it)) },
                                     openShared = { nav.push(app.ancienttrees.ui.Page.Shared(it)) },
                                     findPeople = { routes.openPeople(app.ancienttrees.ui.PeopleSource.SEARCH) },
+                                    bell = {
+                                        app.ancienttrees.ui.ActivityBell({ account.fresh()?.accessToken }) {
+                                            nav.push(app.ancienttrees.ui.Page.Discover(app.ancienttrees.ui.DiscoverPage.Activity))
+                                        }
+                                    },
                                     // People you may know (FeedPeople.swift): Find people's own
                                     // suggestions, the most active public photographers, nobody you follow.
                                     suggestions = { following ->

@@ -44,6 +44,8 @@ data class OwnSighting(
     val lng: Double,
     /** taken_at, in milliseconds. */
     val date: Long,
+    /** created_at, when it reached the account: My trees shows newest upload first (Sightings.addedAt, 2026-11-26). */
+    val addedAt: Long? = null,
     /** The path in the private bucket, or null with no photograph. */
     val photo: String? = null,
     /** mine, sent, checking, published, declined. */
@@ -365,6 +367,7 @@ class MyTrees(private val account: Account) {
             lat = o.optDouble("lat"),
             lng = o.optDouble("lng"),
             date = stamp(o.str("taken_at")) ?: 0L,
+            addedAt = stamp(o.str("created_at")),
             photo = o.str("photo"),
             status = o.str("status") ?: "mine",
             extras = o.optJSONArray("extra_photos")?.let { a -> (0 until a.length()).mapNotNull { a.optString(it).ifEmpty { null } } }.orEmpty(),

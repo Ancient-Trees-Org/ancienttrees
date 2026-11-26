@@ -118,6 +118,9 @@ fun PhotoViewer(
         var dragDown by remember { mutableFloatStateOf(0f) }
         var chrome by remember { mutableStateOf(true) }
         var wantsOriginal by remember { mutableStateOf(false) }
+        // How far the row of pictures follows the finger sideways (PhotoViewer.swift
+        // `swipe`, 2026-11-26: "Je verwacht dat het gewoon opzij swipet").
+        var swipe by remember { mutableFloatStateOf(0f) }
         // PhotoViewer.swift's timings: snap back 0.2 s ease-out, double-tap zoom
         // 0.2 s ease-in-out, a page 0.18 s ease-in-out, the chrome 0.15 s.
         fun snapBack() {
@@ -151,6 +154,7 @@ fun PhotoViewer(
                 .graphicsLayer { translationY = (1f - rise.value) * size.height }
                 .background(Color.Black.copy(alpha = 1f - minOf(dragDown / 400f, 0.6f))),
         ) {
+            val viewW = constraints.maxWidth.toFloat()
             Box(
                 Modifier
                     .fillMaxSize()
@@ -179,7 +183,13 @@ fun PhotoViewer(
                                     offset += pan
                                 } else if (!pinched) {
                                     total += pan
-                                    dragDown = if (abs(total.x) > abs(total.y)) 0f else maxOf(0f, total.y)
+                                    if (abs(total.x) > abs(total.y)) {
+                                        dragDown = 0f
+                                        if (photos.size > 1) swipe = total.x
+                                    } else {
+                                        swipe = 0f
+                                        dragDown = maxOf(0f, total.y)
+                                    }
                                 }
                                 if (scale > 1f || pinched) event.changes.forEach { if (it.positionChange() != Offset.Zero) it.consume() }
                             } while (event.changes.any { it.pressed })
@@ -187,10 +197,20 @@ fun PhotoViewer(
                                 if (scale > 1.2f) wantsOriginal = true
                                 if (scale <= 1f) reset()
                             } else if (scale <= 1f) {
+                                val w = size.width.toFloat()
                                 when {
-                                    abs(total.x) > abs(total.y) && abs(total.x) > 60 * density && photos.size > 1 -> {
-                                        snapBack()
-                                        page(if (total.x < 0) 1 else -1)
+                                    abs(total.x) > abs(total.y) && abs(total.x) > w * 0.25f && photos.size > 1 -> {
+                                        // The neighbour slides in, then becomes the picture.
+                                        val by = if (total.x < 0) 1 else -1
+                                        scope.launch {
+                                            androidx.compose.animation.core.animate(swipe, if (by == 1) -w else w,
+                                                animationSpec = tween(220, easing = Motion.EaseOut)) { v, _ -> swipe = v }
+                                            page(by)
+                                            swipe = 0f
+                                        }
+                                    }
+                                    abs(total.x) > abs(total.y) -> scope.launch {
+                                        androidx.compose.animation.core.animate(swipe, 0f, animationSpec = tween(200, easing = Motion.EaseOut)) { v, _ -> swipe = v }
                                     }
                                     // Down far enough: the cover goes down from where the finger left it.
                                     total.y > 90 * density -> close()
@@ -206,15 +226,18 @@ fun PhotoViewer(
                     translationX = offset.x
                     translationY = offset.y + dragDown
                 }
-                androidx.compose.animation.Crossfade(
-                    targetState = at,
-                    animationSpec = tween(180, easing = Motion.EaseInOut),
-                    label = "photo-page",
-                ) { i ->
-                    // The list can shrink while the fade still holds the old page
+                // The neighbours beside the picture, the row following the finger.
+                val wpx = viewW
+                if (photos.size > 1) for (k in listOf(-1, 1)) {
+                    val n = photos[((at + k) % photos.size + photos.size) % photos.size]
+                    RemoteImage(n.full, null, Modifier.fillMaxSize().graphicsLayer { translationX = k * wpx + swipe }, fit = true)
+                }
+                run {
+                    // The list can shrink while a slide still holds the old page
                     // (crash 2026-11-25: Index 3 out of bounds for length 3).
+                    val i = at
                     val p = photos[i.coerceIn(0, photos.size - 1)]
-                    Box(Modifier.fillMaxSize()) {
+                    Box(Modifier.fillMaxSize().graphicsLayer { translationX = swipe }) {
                         // Until it lands: the white spinner on black (TreePhoto's ProgressView().tint(.white)).
                         RemoteImage(p.full, null, layer, fit = true, fallback = {
                             Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
@@ -318,12 +341,13 @@ fun PhotoViewer(
                             verticalAlignment = Alignment.CenterVertically,
                             modifier = Modifier.padding(horizontal = 20.dp),
                         ) {
-                            VisitorFace(author.authorName, author.authorAvatar)
-                            Text(author.authorName, fontSize = 12.sp, fontWeight = FontWeight.Medium, color = Color.White.copy(alpha = 0.9f), maxLines = 1)
+                            // Readable at arm's length (PhotoViewer.swift, Hidde 2026-11-26: "best klein").
+                            VisitorFace(author.authorName, author.authorAvatar, size = 22)
+                            Text(author.authorName, fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = Color.White.copy(alpha = 0.9f), maxLines = 1)
                             SentAgo.long(author.publishedAt)?.let { w ->
-                                Text("· $w", fontSize = 12.sp, color = Color.White.copy(alpha = 0.7f), maxLines = 1, softWrap = false)
+                                Text("· $w", fontSize = 15.sp, color = Color.White.copy(alpha = 0.7f), maxLines = 1, softWrap = false)
                             }
-                            shown.by?.let { PhotoHeart(it.lowercase(), onDark = true) }
+                            shown.by?.let { PhotoHeart(it.lowercase(), onDark = true, size = 24.dp) }
                         }
                     } else if (credit != null) {
                         Text(

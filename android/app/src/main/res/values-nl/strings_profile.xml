@@ -28,7 +28,7 @@
     <string name="settings_sign_in">Inloggen</string>
     <string name="settings_preferences">Voorkeuren</string>
     <string name="settings_distances">Afstanden</string>
-    <string name="settings_appearance">Weergave</string>
+    <string name="settings_appearance">Thema</string>
     <string name="appearance_system">Systeem</string>
     <string name="appearance_light">Licht</string>
     <string name="appearance_dark">Donker</string>

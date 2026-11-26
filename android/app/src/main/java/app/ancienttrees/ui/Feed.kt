@@ -96,6 +96,8 @@ class FeedHost(
     val findPeople: () -> Unit = {},
     /** People you may know, signed in only (FeedPeople.swift): who and one line why. */
     val suggestions: suspend (following: Set<String>) -> List<Pair<app.ancienttrees.account.Profiles.Profile, String>> = { emptyList() },
+    /** The Activity bell (Activity.kt), drawn by the app around the Feed. */
+    val bell: @Composable () -> Unit = {},
     /** Follow (true) or unfollow; true when the account took it. */
     val follow: suspend (userId: String, on: Boolean) -> Boolean = { _, _ -> false },
 )
@@ -135,7 +137,8 @@ fun FeedScreen(
     var grid by remember { mutableStateOf(!startBig) }
     val here by rememberUpdatedState(if (located) origin else null)
     val shown by remember {
-        derivedStateOf { posts.filter { FeedPosts.passes(it.first, filter, following, here) } }
+        // Checked posts only (FeedView.shown, Hidde 2026-11-26): a share waits until it is a tree.
+        derivedStateOf { posts.filter { it.first.checked && FeedPosts.passes(it.first, filter, following, here) } }
     }
 
     suspend fun more() {
@@ -213,7 +216,7 @@ fun FeedScreen(
         filter == FeedPosts.Filter.FOLLOWING ->
             if (following.isEmpty()) stringResource(R.string.feed_empty_following_none) else stringResource(R.string.feed_empty_following)
         located -> stringResource(R.string.feed_empty_near)
-        else -> stringResource(R.string.feed_empty_near_off)
+        else -> ""
     }
 
     val header: @Composable () -> Unit = {
@@ -227,22 +230,17 @@ fun FeedScreen(
                     color = brand.ink,
                     modifier = Modifier.weight(1f).semantics { heading() },
                 )
-                // Polarsteps' person with a plus, top right of Activity: Find people.
+                // The bell (moved from Discover) and Polarsteps' person with a plus,
+                // the same disc on every tab (FeedView, 2026-11-26).
+                if (signedIn) {
+                    host.bell()
+                    Spacer(Modifier.width(8.dp))
+                }
                 val findLabel = stringResource(R.string.people_find)
-                Box(
-                    contentAlignment = Alignment.Center,
-                    modifier = Modifier
-                        .size(44.dp)
-                        .clip(CircleShape)
-                        .background(brand.surface)
-                        .border(1.dp, brand.hairline, CircleShape)
-                        .clickable(role = Role.Button) {
-                            // Signed out: sign in first, then Find people (FeedView, 2026-11-26).
-                            if (host.signedIn()) host.findPeople() else host.signIn { host.findPeople() }
-                        }
-                        .semantics { contentDescription = findLabel }
-                        .testTag("feed-find-people"),
-                ) { Icon(Sym.PersonAdd, null, tint = brand.ink, modifier = Modifier.size(24.dp)) }
+                HeaderDisc(Sym.PersonAdd, "feed-find-people", label = findLabel) {
+                    // Signed out: sign in first, then Find people.
+                    if (host.signedIn()) host.findPeople() else host.signIn { host.findPeople() }
+                }
             }
             Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 FeedPosts.Filter.entries.forEach { f ->
@@ -281,6 +279,10 @@ fun FeedScreen(
         }
     }
     val showPeople = signedIn && filter == FeedPosts.Filter.EVERYONE
+    // What the filter needs, on top (FeedView, 2026-11-26): Following with nobody
+    // followed shows People you may know first; Near you without a location asks for it.
+    val topPeople = signedIn && filter == FeedPosts.Filter.FOLLOWING && following.isEmpty()
+    val nearCard = filter == FeedPosts.Filter.NEAR && !located
 
     if (grid) PullRefresh(onRefresh = { restart() }) {
         // The website's /visitors masonry (ios FeedView.tiles): two columns 12
@@ -303,6 +305,8 @@ fun FeedScreen(
         ) {
             val full = androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridItemSpan.FullLine
             item(key = "head", span = full) { header() }
+            if (topPeople) item(key = "people-top", span = full) { FeedPeopleRow(host, following) }
+            if (nearCard) item(key = "near-card", span = full) { NearYouCard(host) }
             val cut = minOf(6, shown.size)
             items(cut, key = { shown[it].first.key }) { i ->
                 val (p, prev) = shown[i]
@@ -324,6 +328,8 @@ fun FeedScreen(
             modifier = Modifier.fillMaxSize().background(brand.ground).statusBarsPadding().testTag("feed"),
         ) {
             item(key = "head") { header() }
+            if (topPeople) item(key = "people-top") { FeedPeopleRow(host, following) }
+            if (nearCard) item(key = "near-card") { NearYouCard(host) }
             itemsIndexed(shown, key = { _, it -> it.first.key }) { i, (p, prev) ->
                 // 16 from the chips to the first post (the design), 28 between posts.
                 Box(if (i == 0) Modifier.offsetTop(-12) else Modifier) {
@@ -501,16 +507,16 @@ private fun FeedTile(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: 
             maxLines = 2, overflow = TextOverflow.Ellipsis, modifier = Modifier.clickable { open() })
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(5.dp),
             modifier = Modifier.fillMaxWidth().then(if (p.authorName != null) Modifier.clickable(onClick = onAuthor) else Modifier)) {
-            VisitorFace(name, p.authorAvatar)
+            VisitorFace(name, p.authorAvatar, size = 18)
             // The name takes what it needs, the time keeps its room, the heart
             // stays at the end (FeedView.tile): a long name gives way first.
             Row(Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(5.dp)) {
-                Text(name, fontSize = 12.sp, fontWeight = FontWeight.Medium, color = brand.inkSoft, maxLines = 1,
+                Text(name, fontSize = 13.sp, fontWeight = FontWeight.Medium, color = brand.inkSoft, maxLines = 1,
                     overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f, fill = false))
-                SentAgo.short(p.publishedAt)?.let { Text("· $it", fontSize = 12.sp, color = brand.inkSoft.copy(alpha = 0.75f), maxLines = 1, softWrap = false) }
+                SentAgo.short(p.publishedAt)?.let { Text("· $it", fontSize = 13.sp, color = brand.inkSoft.copy(alpha = 0.75f), maxLines = 1, softWrap = false) }
             }
             // The heart, the person's photograph (only one published on a tree of ours).
-            p.likeId?.let { PhotoHeart(it) }
+            p.likeId?.let { PhotoHeart(it, size = 21.dp) }
         }
     }
 }
@@ -602,4 +608,22 @@ private fun Modifier.fullBleed(): Modifier = this.layout { m, c ->
     val extra = 32.dp.roundToPx()
     val pl = m.measure(c.copy(maxWidth = c.maxWidth + extra, minWidth = minOf(c.minWidth + extra, c.maxWidth + extra)))
     layout(c.maxWidth, pl.height) { pl.place(-16.dp.roundToPx(), 0) }
+}
+
+
+/** Near you without a location (FeedView's NearYouCard): EmptyPlaceCard's shape, Use my location. */
+@Composable
+private fun NearYouCard(host: FeedHost) {
+    val brand = Brand.colors
+    Column(
+        verticalArrangement = Arrangement.spacedBy(14.dp),
+        modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(14.dp)).background(brand.surfaceMuted).padding(16.dp).testTag("feed-near-card"),
+    ) {
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Icon(Sym.NearMe, null, tint = brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(26.dp))
+            Text(stringResource(R.string.feed_near_title), fontSize = 16.sp, fontWeight = FontWeight.SemiBold, color = brand.ink)
+            Text(stringResource(R.string.feed_near_body), fontSize = 14.sp, color = brand.inkSoft)
+        }
+        SecondaryButton(stringResource(R.string.feed_near_button), Sym.NearMeSemibold) { host.askLocation() }
+    }
 }

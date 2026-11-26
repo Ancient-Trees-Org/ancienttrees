@@ -167,8 +167,9 @@ export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord:
       var x = nfvFrom(f), r = x.r;
       r.prev = prevRaw;
       prevRaw = r;
-      // Every row carries its own picture (the feed bucket); one without is skipped.
-      if (!x.c.p) return;
+      // Every row carries its own picture (the feed bucket); one without is
+      // skipped, and so is a share not checked yet (2026-11-26).
+      if (!x.c.p || !r.checked) return;
       cards[r.sighting_id] = x.c;
       rows.push(r);
       place(tile(r, r.prev));

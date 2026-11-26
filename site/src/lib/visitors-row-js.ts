@@ -49,7 +49,9 @@ export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: 
   // fell behind (it vanished once when one was eleven hours late).
   function load(token, ask) {
     return (ask || rpc('feed', { n: 24 }, token)).then(function (list) {
-      return (Array.isArray(list) ? list : []).map(nfvFrom);
+      // Checked posts only (Hidde, 2026-11-26): a share waits, 10 to 30
+      // minutes, until it is a tree with its page, save and heart.
+      return (Array.isArray(list) ? list : []).filter(function (f) { return f.checked !== false; }).map(nfvFrom);
     });
   }
   function paint(rows) {

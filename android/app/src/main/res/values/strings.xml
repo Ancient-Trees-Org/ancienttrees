@@ -85,6 +85,9 @@
     <string name="feed_empty_near">Nothing new within 100 km of you yet.</string>
     <string name="feed_empty_near_off">Turn on your location to see what is new near you.</string>
     <string name="feed_failed">The feed did not load. Pull down to try again.</string>
+    <string name="feed_near_title">See what is new near you</string>
+    <string name="feed_near_body">Turn on your location to see the trees people added within 100 km.</string>
+    <string name="feed_near_button">Use my location</string>
     <string name="feed_layout_grid">Show as a grid</string>
     <string name="feed_layout_big">Show one by one</string>
     <string name="feed_people_title">People you may know</string>

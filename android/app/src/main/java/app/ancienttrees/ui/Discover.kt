@@ -317,8 +317,7 @@ fun DiscoverScreen(
                     color = brand.ink,
                     modifier = Modifier.weight(1f).semantics { heading() },
                 )
-                // THE BELL (Home.swift ActivityBell, 2026-11-22): signed in only.
-                if (signedIn) ActivityBell(act) { act.openPage(DiscoverPage.Activity) }
+                // The bell moved to the Feed (2026-11-26, Instagram's and Strava's place).
             }
             SearchField { searching = true }
         }
@@ -1027,11 +1026,11 @@ internal fun VisitorTitle(name: String, width: Dp, modifier: Modifier = Modifier
 
 /** A visitor's face in a byline (VisitorPhotos.swift VisitorFace): picture, else the initial on moss, 16 round. */
 @Composable
-internal fun VisitorFace(name: String, avatar: String?) {
+internal fun VisitorFace(name: String, avatar: String?, size: Int = 16) {
     val brand = Brand.colors
-    Box(Modifier.size(16.dp).clip(CircleShape).background(brand.moss.copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
+    Box(Modifier.size(size.dp).clip(CircleShape).background(brand.moss.copy(alpha = 0.15f)), contentAlignment = Alignment.Center) {
         if (avatar != null) RemoteImage(avatar, null, Modifier.fillMaxSize())
-        else Text(name.take(1), fontSize = 9.sp, fontWeight = FontWeight.Bold, color = brand.moss)
+        else Text(name.take(1), fontSize = (size * 0.56f).sp, fontWeight = FontWeight.Bold, color = brand.moss)
     }
 }
 

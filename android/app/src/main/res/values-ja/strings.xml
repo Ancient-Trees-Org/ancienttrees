@@ -83,6 +83,9 @@
     <string name="feed_empty_near">100 km以内にはまだ新しい投稿はありません。</string>
     <string name="feed_empty_near_off">位置情報をオンにすると、近くの新着が表示されます。</string>
     <string name="feed_failed">読み込めませんでした。下に引いてもう一度お試しください。</string>
+    <string name="feed_near_title">近くの新着を見る</string>
+    <string name="feed_near_body">位置情報をオンにすると、100 km以内に追加された木が表示されます。</string>
+    <string name="feed_near_button">現在地を使う</string>
     <string name="feed_layout_grid">グリッドで表示</string>
     <string name="feed_layout_big">1件ずつ表示</string>
     <string name="feed_people_title">知り合いかも</string>
