@@ -463,6 +463,96 @@
    "agreed": null
   },
   {
+   "id": "sight:2b191dcd-1aef-4ee6-b801-de778e17c30d",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Act of Union Beeches of North Berwick Law",
+   "city": "North Berwick",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/2b191dcd-1aef-4ee6-b801-de778e17c30d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same reader's frame of two tall beech trunks is already in the North Berwick beeches' gallery (sighting ae685cbf extra-2); rejected as a duplicate, nothing lost from the page.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:bd23a801-fe07-44a3-9822-9812b6a5e9ff",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak in Stedham",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_7843d961eb317db3681c9004/BD23A801-FE07-44A3-9822-9812B6A5E9FF.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 1100,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 2.806,
+    "via": "girth",
+    "note": "281% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": "publish",
+   "reason": "The Queen Elizabeth Oak in Cowdray Park: photograph viewed, the whole hollow sessile oak plus the Tree Council plaque naming it; Wikidata Q2702029 30 m from the pin, Wikipedia gives girth 12.5-12.8 m and 800-1,000 years. Live as lodsworth/ldw_001, approximate pin; the screenshot extra left off.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:bd23a801-fe07-44a3-9822-9812b6a5e9ff",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Queen Elizabeth Oak",
+   "city": "Lodsworth",
+   "species": "Sessile Oak (Quercus petraea)",
+   "photo": "p_7843d961eb317db3681c9004/BD23A801-FE07-44A3-9822-9812B6A5E9FF.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the whole hollow Queen Elizabeth Oak in daylight behind its fence; live on lodsworth/ldw_001."
+  },
+  {
+   "id": "sight:bd23a801-fe07-44a3-9822-9812b6a5e9ff-extra-1",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Queen Elizabeth Oak",
+   "city": "Lodsworth",
+   "species": "Sessile Oak (Quercus petraea)",
+   "photo": "p_7843d961eb317db3681c9004/BD23A801-FE07-44A3-9822-9812B6A5E9FF.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Further photograph 1 viewed: the Tree Council plaque naming the Queen Elizabeth I Oak; in the gallery of ldw_001."
+  },
+  {
+   "id": "sight:bd23a801-fe07-44a3-9822-9812b6a5e9ff-extra-2",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Queen Elizabeth Oak",
+   "city": "Lodsworth",
+   "species": "Sessile Oak (Quercus petraea)",
+   "photo": "p_7843d961eb317db3681c9004/BD23A801-FE07-44A3-9822-9812B6A5E9FF.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Further photograph 2 viewed: looking up from inside the hollow shell to the living crown; in the gallery of ldw_001."
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",

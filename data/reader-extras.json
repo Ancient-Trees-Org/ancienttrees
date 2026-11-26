@@ -2392,6 +2392,27 @@
    },
    "tree": "mobile/mob_003"
   },
+  "bd23a801-fe07-44a3-9822-9812b6a5e9ff": {
+   "extras": {
+    "1": {
+     "date": "2026-11-26",
+     "file": "ldw_001-the-queen-elizabeth-oak-bd23a801-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-26",
+     "file": "ldw_001-the-queen-elizabeth-oak-bd23a801-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-26",
+     "reason": "screenshot",
+     "verdict": "left_out",
+     "what": "a phone screenshot of an unrelated booking page, no tree"
+    }
+   },
+   "tree": "lodsworth/ldw_001"
+  },
   "be5a23fb-6bae-44ee-9726-aa1cf1d76cc5": {
    "extras": {
     "1": {

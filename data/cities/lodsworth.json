@@ -1,0 +1,104 @@
+{
+  "city": "Lodsworth",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Lodsworth is a village in the Western Weald of West Sussex, inside the South Downs National Park, on the edge of Cowdray Park east of Midhurst. In the park grows the Queen Elizabeth Oak, a sessile oak of about 800 to 1,000 years whose trunk has split into a hollow shell under a still-living crown. The Tree Council named it one of fifty Great British Trees in 2002, and a reader sent us its photograph.",
+  "meta_description": "The Queen Elizabeth Oak in Cowdray Park near Lodsworth, West Sussex: a hollow sessile oak of 800 to 1,000 years, one of Britain's biggest.",
+  "question_meta": "Lodsworth's oldest tree is the Queen Elizabeth Oak in Cowdray Park, a sessile oak of about 800 to 1,000 years and 12.5 metres round.",
+  "question_answer": "Lodsworth's oldest mapped tree is the Queen Elizabeth Oak, a sessile oak (Quercus petraea) in Cowdray Park. Wikipedia puts it at about 800 to 1,000 years old and 12.5 to 12.8 metres round.",
+  "question_context": "The Queen Elizabeth Oak stands on open parkland in Cowdray Park, near Lodsworth in the South Downs National Park. Wikipedia gives its girth as 12.5 to 12.8 metres and its age as about 800 to 1,000 years, so it may have started growing in the eleventh or twelfth century. In the Woodland Trust's measurements of 2008 only two sessile oaks in the United Kingdom were larger. In June 2002 the Tree Council named it one of fifty Great British Trees for the Golden Jubilee, and its plaque still stands in the grass at the foot of the trunk. Legend says Queen Elizabeth I waited near it with her bow for a stag to be driven past, and missed. A reader's photographs of November 2026 show the trunk split open into a hollow taller than a person, its walls weathered silver, with a wide living crown above. A wooden fence keeps walkers a few steps back from it.",
+  "faq": [
+    {
+      "q": "How old is the Queen Elizabeth Oak?",
+      "a": "About 800 to 1,000 years, by the estimate Wikipedia gives. Nobody has counted its rings: the trunk is hollow."
+    },
+    {
+      "q": "Why is it called the Queen Elizabeth Oak?",
+      "a": "Legend says Queen Elizabeth I stood near it with her bow, waiting for a stag to be driven within range, and missed."
+    },
+    {
+      "q": "Can I visit it?",
+      "a": "It stands on open parkland in Cowdray Park near Lodsworth, inside a wooden fence. Keep to the estate's public paths."
+    }
+  ],
+  "hero_tree_id": "ldw_001",
+  "oldest_tree_id": "ldw_001",
+  "trees": [
+    {
+      "id": "ldw_001",
+      "name": "The Queen Elizabeth Oak",
+      "species": "Sessile Oak (Quercus petraea)",
+      "age_estimate": "about 800 to 1,000 years",
+      "age_min": 800,
+      "age_max": 1000,
+      "age_basis": "source",
+      "location": {
+        "address": "Cowdray Park, near Lodsworth, West Sussex",
+        "latitude": 50.9958415481981,
+        "longitude": -0.700366262045812,
+        "neighbourhood": "Cowdray Park"
+      },
+      "story": "Queen Elizabeth I is said to have stood near this oak with an arrow on her bow, waiting for a stag to be driven within range, and to have missed. The legend gave the tree its name. Its size gave it a place among the fifty Great British Trees the Tree Council named in June 2002 for the Golden Jubilee of Elizabeth II, and a reader sent us a photograph of the green plaque that says so, standing in the leaves at its foot.\n\nIt is a sessile oak in Cowdray Park, near Lodsworth in the South Downs National Park, and one of the biggest in Britain. Wikipedia gives its girth as 12.5 to 12.8 metres and its age as about 800 to 1,000 years, which would put its first growth in the eleventh or twelfth century. In the Woodland Trust's measurements of 2008, only two sessile oaks in the United Kingdom were larger.\n\nThe reader's photographs show what those centuries have done. The trunk has split open into a dark hollow taller than a person, its walls weathered silver and folded like rock, and from that shell a broad crown of living branches still spreads in every direction, holding its last brown leaves in late November.\n\nA wooden fence keeps walkers a few steps back. Walk the line of it slowly to see the hollow from each side.",
+      "how_to_recognise": "On open parkland inside a split-rail wooden fence: a huge, squat oak whose trunk has opened into a dark hollow between two silver-grey walls of wood, a wide low crown above, and a green Tree Council plaque in the grass at its foot.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Queen_Elizabeth_Oak (sessile oak in Cowdray Park near Lodsworth; girth 12.5 to 12.8 m; about 800 to 1,000 years; Tree Council Great British Tree, June 2002; third largest sessile oak recorded in the UK in the Woodland Trust's 2008 measurements)",
+        "https://www.wikidata.org/wiki/Q2702029 (Queen Elizabeth Oak, Quercus petraea, Lodsworth, 50.99611, -0.70065)",
+        "The Tree Council plaque at the tree, photographed by the reader on 2026-11-26: 'has designated The Queen Elizabeth I Oak, one of fifty Great British Trees ... June 2002'"
+      ],
+      "access": "In Cowdray Park, on open parkland near Lodsworth. The reader photographed it from the grass beside the wooden fence that rings it. We have not confirmed which right of way passes closest; keep to the estate's public paths.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "bd23a801-fe07-44a3-9822-9812b6a5e9ff",
+        "date": "2026-11-26",
+        "note": "The reader's pin, sent through the app with no record of how it was set; 30 m from Wikidata's coordinate for the tree."
+      },
+      "found_by_reader": {
+        "sighting_id": "bd23a801-fe07-44a3-9822-9812b6a5e9ff",
+        "date": "2026-11-26"
+      },
+      "verify_notes": "2026-11-26 reader judge: sent by a reader through the app (sighting bd23a801-fe07-44a3-9822-9812b6a5e9ff) as 'Pedunculate Oak in Stedham', girth 1100 cm by their entry, no note. Photographs viewed: the whole oak from the grass in late afternoon daylight: a vast trunk split open into a dark hollow between two silver walls of wood, a wide crown of living branches with its last brown leaves, a split-rail fence round it and parkland beyond; a second photograph shows the Tree Council plaque naming it the Queen Elizabeth I Oak, one of fifty Great British Trees, June 2002; a third looks up from inside the hollow shell. The plaque names the tree; Wikidata Q2702029 stands 30 m from the reader's pin and Wikipedia gives species (sessile, not pedunculate as the reader entered), girth and age. Location kind not recorded, so the pin stays approximate. The reader's third further photograph is a phone screenshot of an unrelated booking page, left off.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ldw_001-queen-elizabeth-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_7843d961eb317db3681c9004",
+        "sighting_id": "bd23a801-fe07-44a3-9822-9812b6a5e9ff",
+        "note": "Photographed by a reader and sent through the app (2026-11-26); viewed and approved on 2026-11-26: the whole oak from the grass in late afternoon daylight: a vast trunk split open into a dark hollow between two silver walls of wood, a wide crown of living branches with its last brown leaves, a split-rail fence round it and parkland beyond; a second photograph shows the Tree Council plaque naming it the Queen Elizabeth I Oak, one of fifty Great British Trees, June 2002; a third looks up from inside the hollow shell. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/ldw_001-the-queen-elizabeth-oak-bd23a801-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_7843d961eb317db3681c9004",
+          "sighting_id": "bd23a801-fe07-44a3-9822-9812b6a5e9ff-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/ldw_001-the-queen-elizabeth-oak-bd23a801-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_7843d961eb317db3681c9004",
+          "sighting_id": "bd23a801-fe07-44a3-9822-9812b6a5e9ff-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
+    }
+  ]
+}

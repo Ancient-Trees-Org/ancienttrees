@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 reader judge: the Queen Elizabeth Oak of Cowdray Park goes live
+
+- New place Lodsworth (ldw_001, the Queen Elizabeth Oak): a reader sent it through the app as "Pedunculate Oak in Stedham". Their photographs show a huge hollow oak behind a wooden fence, with its Tree Council plaque ("one of fifty Great British Trees, June 2002"). Wikidata Q2702029 stands 30 m from their pin. Wikipedia gives the species as sessile, not pedunculate, a girth of 12.5 to 12.8 m and an age of about 800 to 1,000 years. The pin stays approximate because the app did not record how it was set. The plaque and the shot from inside the hollow went into the gallery. Their fourth image, a phone screenshot of a sauna booking page, was left out (`screenshot`). A one-tree place, so it gets a tree page and no place page.
+- North Berwick (nbw_001): photograph 2b191dcd was rejected as a duplicate. It is the same reader's frame of two beech trunks that went into the gallery earlier today as ae685cbf extra 2, so nothing is lost from the page.
+- Nothing else was waiting: no open reports, tips, feedback or readers' notes. The other waiting leads are our own `mine` test sightings from September and October.
+
 ## 2026-11-26 reader judge: a new lead photograph for the Union beeches, a pin moved in Arezzo
 
 - North Berwick (nbw_001, the Act of Union beeches): a stranger sent three photographs through the app. The new lead shows the beeches close up on the slope of the Law, with bare winter crowns in daylight. The earlier reader's wide shot with the ponies moves into the strip. Their other two photographs (the view from the gate, and two trunks on the slope) went into the gallery. The reader was mailed. Their coordinate was our own pin, so the pin did not move.

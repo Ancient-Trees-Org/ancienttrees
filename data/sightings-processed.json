@@ -8033,6 +8033,17 @@
    "lon": -2.71351,
    "extras": 2,
    "pin_checked": "2026-11-26"
+  },
+  "bd23a801-fe07-44a3-9822-9812b6a5e9ff": {
+   "outcome": "published",
+   "date": "2026-11-26",
+   "published_as": "lodsworth/ldw_001"
+  },
+  "2b191dcd-1aef-4ee6-b801-de778e17c30d": {
+   "outcome": "rejected",
+   "date": "2026-11-26",
+   "tree_id": "nbw_001",
+   "reason": "duplicate: the same reader's frame of the two tall beech trunks on the Law slope is already in the tree's gallery as their further photograph 2 (sighting ae685cbf extra-2), sent earlier the same day"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
