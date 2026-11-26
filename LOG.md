@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 reader judge: a reader's autumn photograph now leads the Preston Twin
+
+**The Preston Twin in Brighton (bhm_001) has a reader's photograph as its lead.** It shows the whole elm in autumn yellow in front of the walled garden's wall: a burred trunk forking into two great limbs, small rounded toothed leaves on the lawn. The same trunk as the old Commons close-up, which moves to the strip. The photo is filed under November. The tree's approximate pin moved 98 m to the reader's fix and is now confirmed. The same photograph arrived twice, so the second copy (25947861) was rejected as a duplicate. The reader was mailed by `sightings_publish.py --send`. The script could not read pin coordinates from the server (HTTPError) during its pin catch-up. The move itself is in data/cities/brighton.json.
+
+**Nothing else waiting.** There were no open reports, no feedback without a verdict, no unjudged tips and no reader notes left unquoted. The 38 leads still marked `lead` with no hold all come from our own account (`mine`), so they are not reader work.
+
 ## 2026-11-26 session: every bug the build 42 walk found, fixed on the iPhone (Hidde: "ik wil vooral dat je alle bugs gaat fixen de build komt later")
 
 - **Fixed, each with a test unless said** (WalkFindingsTests, SpeciesSearchTests; looked at in the simulator where marked):

@@ -65,6 +65,50 @@
    "agreed": null
   },
   {
+   "id": "sight:a4d1c500-1664-48c1-bc8e-7d9d6ee2ad3f",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Preston Twin",
+   "city": "Brighton",
+   "species": "English Elm (Ulmus procera)",
+   "photo": "out/sightings/a4d1c500-1664-48c1-bc8e-7d9d6ee2ad3f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 98,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about English Elm (Ulmus procera)"
+   },
+   "verdict": "publish",
+   "reason": "Whole Preston Twin in autumn yellow by the walled garden wall; reader's photograph now leads, Commons close-up moved to the strip, pin moved to the reader's fix",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:25947861-5581-41bb-a431-8687a6f86b06",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Preston Twin",
+   "city": "Brighton",
+   "species": "English Elm (Ulmus procera)",
+   "photo": "out/sightings/25947861-5581-41bb-a431-8687a6f86b06.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 67,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about English Elm (Ulmus procera)"
+   },
+   "verdict": "reject",
+   "reason": "Duplicate of a4d1c500, the same photograph sent twice",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",

@@ -7939,6 +7939,23 @@
   "636ce3a4-b14c-444f-99b2-39e18202be6c": {
    "outcome": "published",
    "date": "2026-11-26"
+  },
+  "a4d1c500-1664-48c1-bc8e-7d9d6ee2ad3f": {
+   "outcome": "added",
+   "date": "2026-11-26",
+   "tree_id": "bhm_001",
+   "city_slug": "brighton",
+   "file": "bhm_001-the-preston-twin-a4d1c500.jpg",
+   "reason": "The whole tree in late-November daylight on the lawn at the north end of Preston Park, the walled garden's stone wall behind on the right: a burred trunk forking into two great limbs, a skirt of sprouts at the base, the crown in autumn yellow. A reader's own photograph of the whole crown, unique to ",
+   "lat": 50.8412634,
+   "lon": -0.1507784,
+   "pin_checked": "2026-11-26"
+  },
+  "25947861-5581-41bb-a431-8687a6f86b06": {
+   "outcome": "rejected",
+   "date": "2026-11-26",
+   "tree_id": "bhm_001",
+   "reason": "duplicate: the same photograph as a4d1c500, sent twice the same day (identical pixels and light scores)"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
