@@ -3386,19 +3386,15 @@
    ]
   },
   "p_a9a84c2d7e882792448dd8c3": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-26",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "a4d1c500-1664-48c1-bc8e-7d9d6ee2ad3f",
      "tree_id": "bhm_001",
-     "tree_name": "The Preston Twin",
-     "city": "Brighton",
-     "city_slug": "brighton",
-     "display_name": null,
-     "live": "2026-11-26"
+     "mailed": "2026-11-26"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
