@@ -355,7 +355,8 @@ fun CollectSheet(
     }
 
     // The system camera writes into our cache; read, downsized, deleted.
-    val file = remember { java.io.File(context.cacheDir, "photos").apply { mkdirs() }.let { java.io.File(it, "collect.jpg") } }
+    // A shot Android killed the app over is handed back at the next start (Collector.rescueShot).
+    val file = remember { Collector.shotFile(context.cacheDir) }
     val fileUri = remember { androidx.core.content.FileProvider.getUriForFile(context, context.packageName + ".photos", file) }
     val camera = rememberLauncherForActivityResult(ActivityResultContracts.TakePicture()) { ok ->
         if (!ok) return@rememberLauncherForActivityResult

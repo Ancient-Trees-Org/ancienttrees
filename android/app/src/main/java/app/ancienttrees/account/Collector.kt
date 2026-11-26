@@ -34,6 +34,37 @@ object Collector {
     /** Sightings.maxExtras: further photographs chosen with the first. */
     const val MAX_EXTRAS = 3
 
+    // A PHOTOGRAPH THE CAMERA TOOK WHILE ANDROID KILLED US (2026-11-25, report
+    // 1686, "Not able to add trees"). The system camera is another app; on a
+    // phone short of memory Android ends ours behind it (that reader's phone
+    // logged app_exit_abnormal "memory" twice, each right before they came back
+    // and searched the tabs). The camera still writes into cacheDir/photos/
+    // collect.jpg, but the flow that waited for it is gone, so the photograph
+    // was never read and the reader met an app that had forgotten their tree.
+    // The callbacks delete the file once read, so a file still there when the
+    // app starts is a photograph nobody took in. [rescueShot] hands it back,
+    // once, and only when it is recent: an old one is thrown away.
+
+    /** How long a left-behind camera shot stays worth handing back. */
+    const val RESCUE_MS = 2 * 60 * 60 * 1000L
+
+    /** The one file both camera launchers write into. */
+    fun shotFile(cacheDir: java.io.File): java.io.File =
+        java.io.File(cacheDir, "photos").apply { mkdirs() }.let { java.io.File(it, "collect.jpg") }
+
+    /** Whether a left-behind shot is one to hand back: written, and recent. */
+    fun rescuable(length: Long, modifiedMs: Long, nowMs: Long): Boolean =
+        length > 0 && modifiedMs <= nowMs + 60_000 && nowMs - modifiedMs < RESCUE_MS
+
+    /** The left-behind shot's bytes, taken out of the cache so it is handed back once; null when none. */
+    fun rescueShot(file: java.io.File, nowMs: Long = System.currentTimeMillis()): ByteArray? {
+        if (!file.exists()) return null
+        val ok = rescuable(file.length(), file.lastModified(), nowMs)
+        val raw = if (ok) runCatching { file.readBytes() }.getOrNull() else null
+        file.delete()
+        return raw?.takeIf { it.isNotEmpty() }
+    }
+
     /** A photograph off the phone: its bytes, and what the file itself says. */
     data class Picked(val raw: ByteArray, val lat: Double?, val lng: Double?, val taken: Date?)
 

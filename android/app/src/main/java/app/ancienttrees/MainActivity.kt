@@ -78,6 +78,7 @@ import app.ancienttrees.ui.TreeMarks
 import app.ancienttrees.ui.TreeDetail
 import app.ancienttrees.ui.TreePageActions
 import app.ancienttrees.account.Measure
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
@@ -268,9 +269,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     // THE COLLECT FLOW (CollectSheet.kt), and a tree only you have being added.
     var collectStart by remember { mutableStateOf<app.ancienttrees.ui.CollectStart?>(null) }
     var draft by remember { mutableStateOf<Collector.Draft?>(null) }
-    val shot = remember {
-        java.io.File(context.cacheDir, "photos").apply { mkdirs() }.let { java.io.File(it, "collect.jpg") }
-    }
+    val shot = remember { Collector.shotFile(context.cacheDir) }
     val shotUri = remember {
         androidx.core.content.FileProvider.getUriForFile(context, context.packageName + ".photos", shot)
     }
@@ -696,6 +695,27 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     }
     val origin = here ?: DAM_SQUARE
     val located = here != null
+    // THE PHOTOGRAPH ANDROID KILLED US OVER (Collector.rescueShot; report 1686,
+    // "Not able to add trees"). Once per start, after the camera's own callback
+    // has had its moment: a shot still in the cache was never taken in, so the
+    // add flow opens with it, as if the app had never gone. It waits for the
+    // server's sign-in (the camera was only open signed in) and briefly for a
+    // fix, so the tree is filed where the phone stands rather than asked for.
+    LaunchedEffect(Unit) {
+        kotlinx.coroutines.delay(1500)
+        if (!shot.exists()) return@LaunchedEffect
+        kotlinx.coroutines.withTimeoutOrNull(20_000) {
+            androidx.compose.runtime.snapshotFlow { signedInNow() }.first { it }
+        } ?: return@LaunchedEffect
+        kotlinx.coroutines.withTimeoutOrNull(8_000) {
+            androidx.compose.runtime.snapshotFlow { here }.first { it != null }
+        }
+        if (collectStart != null || collecting != null || draft != null) return@LaunchedEffect
+        val raw = Collector.rescueShot(shot) ?: return@LaunchedEffect
+        app.ancienttrees.account.CameraRoll.keep(context, raw)
+        val jpeg = Collector.downsized(raw) ?: return@LaunchedEffect
+        collectStart = app.ancienttrees.ui.CollectStart(shotIn = jpeg)
+    }
     // THE NEAR-A-TREE BANNER (NearbyBanner.kt, ContentView.checkNearby): asked about
     // every ten metres or so, never over a sheet, each tree once a session.
     var nearby by remember { mutableStateOf<app.ancienttrees.ui.Nearby?>(null) }
@@ -1028,7 +1048,9 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                             onMine = { id -> nav.push(app.ancienttrees.ui.Page.Mine(id)) },
                             myTrees = myTrees,
                             onCollect = { collect(it) },
-                            onAddTree = { nav.clear(0) },
+                            // The deed itself, as EmptyPlace.swift's card asks for it
+                            // (navigator.collectNearby); it only cleared the map before.
+                            onAddTree = { openCollect() },
                             onAddTreeAt = { lat, lng -> openCollect(app.ancienttrees.feed.Here(lat, lng)) },
                             retap = mapTop,
                             onShare = { t -> share(context, t) },
