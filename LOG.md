@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-26 session: the feed's empty tile and the double cedar
+
+- **Empty tile**: a photo sent from a tree's page on the website made no public copy in shared-sightings (the app does), so the live-first feed showed it as an empty tile (Madison tupelo). The website now uploads that copy too (add-photo-js.ts), and feed() shows a just-shared post only once its public file exists. Pasted by Hidde; live feed checked, every photo loads.
+- **Same photo twice**: a reader who sends one picture twice (same moment, same fix) shows once before the judge looks, the copy on one of our trees first. The Varese case was the reader correcting a wrong tag; the judge made it a new tree (var_004), right call.
+
 ## 2026-11-26 session: a tester's three points (photos, dark mode, pin search)
 
 - **Photos**: no script ever published the further photographs a reader sends with a tree, so 84 live trees showed fewer than were sent. scripts/reader_extras.py gives each one a verdict (data/reader-extras.json); 311 looked at on contact sheets, 278 now in their trees' galleries, 25 left out (selfies and posed visitors, Google Lens screenshots, an engraving, planks, near-duplicates). preflight refuses a published tree whose extra has no verdict; the reader judge's brief has the step. The congratulation mail now says which photos stayed off and why, and that we wrote the story from what they sent. Escaped bug closed with scripts/test_reader_extras.py.
