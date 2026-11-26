@@ -6,9 +6,9 @@
       "since": "2026-11-26",
       "web": "to check: the explore map's filter chips and the profile map's lanes do the same (map-card-js.ts, tree-pins-js.ts)",
       "ios": "MapTab .onChange(of: filters) with MapFilters.keepsCard; CollectView.laneRegion through TreeMap.moveTo; whereChip ViewThatFits (WalkFindingsTests)",
-      "android": "owed: the same three on MapTab.kt and MyTrees.kt before Android's next release (prompt for the Android session, 2026-11-26)",
+      "android": "MapTab.kt LaunchedEffect(filters) closes the card when MapFilters.keeps says no; MyTrees.kt laneBox through moveTo on a lane switch; LocationOffChip FitsOrElse, clear of the locate arrow (WalkFindingsTest, 2026-11-26)",
       "status": "open",
-      "owed": "Android: all three on MapTab.kt and MyTrees.kt; web: check the explore filter chips and profile lanes"
+      "owed": "web: check the explore filter chips and profile lanes"
     },
     {
       "what": "The trees come back on the map after a light/dark switch while it is open",
