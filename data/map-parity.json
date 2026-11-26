@@ -160,6 +160,15 @@
       "android": "nothing to change: same bottom card as iOS",
       "status": "one-sided",
       "why": "only a desktop web map puts the card beside the pin; the phones already move the map to keep the pin clear"
+    },
+    {
+      "what": "Your own trees' photo pins are added to the map on the main thread",
+      "since": "2026-11-26",
+      "web": "nothing to do: MapLibre GL JS runs in the page's one thread",
+      "ios": "nothing to do: MapKit annotations are set from the main actor (TreeMap.swift)",
+      "android": "TreeMapView.kt: style.addImage for your photo pins in Dispatchers.Main.immediate (SignedInRoundTrip)",
+      "status": "one-sided",
+      "why": "A thread rule of MapLibre Native on Android; the other platforms have no worker thread on this path."
     }
   ]
 }
