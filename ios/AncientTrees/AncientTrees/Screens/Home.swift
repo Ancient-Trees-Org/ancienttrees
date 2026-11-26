@@ -498,9 +498,10 @@ struct HomeView: View {
                 Image(systemName: "ellipsis")
                     .font(.system(size: 16, weight: .semibold))
                     .foregroundStyle(Brand.inkSoft)
-                    .frame(width: 24, height: 44)
+                    .frame(width: 44, height: 44)
                     .contentShape(.rect)
             }
+            .padding(.trailing, -20)
             .accessibilityLabel("More for \(t.name)")
         }
     }
