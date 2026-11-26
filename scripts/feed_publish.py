@@ -104,6 +104,19 @@ def cities():
             continue
 
 
+def places():
+    """One row per place: its name and the middle of its trees."""
+    out = []
+    for slug, city in cities():
+        pts = [((t.get("location") or {}).get("latitude"), (t.get("location") or {}).get("longitude"))
+               for t in city.get("trees") or []]
+        pts = [(a, b) for a, b in pts if isinstance(a, (int, float)) and isinstance(b, (int, float))]
+        if pts and city.get("city"):
+            out.append({"slug": slug, "name": city["city"],
+                        "lat": sum(a for a, _ in pts) / len(pts), "lng": sum(b for _, b in pts) / len(pts)})
+    return out
+
+
 def collect(places=None, mine=None, ok=None):
     """{key: row} for everything that belongs in the feed today."""
     mine = ours() if mine is None else mine
@@ -250,6 +263,13 @@ def main():
         except urllib.error.HTTPError as e:
             print(f"feed: batch {i // 200} refused ({e.code}): {e.read()[:300]!r}")
             return 1
+    # Our places, so a post the judge has not looked at yet can say where it is
+    # (supabase/feed-live.sql, feed_places). Public facts, no person in them.
+    try:
+        _req("/rest/v1/feed_places?on_conflict=slug", key, method="POST", body=places(),
+             headers={"Prefer": "resolution=merge-duplicates,return=minimal"})
+    except urllib.error.HTTPError as e:
+        print(f"feed: places not written ({e.code}); is supabase/feed-live.sql pasted?")
     gone = [k for k, r in have.items() if k not in rows and not r.get("hidden")]
     for k in gone:
         _req(f"/rest/v1/feed?key=eq.{urllib.parse.quote(k)}", key, method="PATCH",

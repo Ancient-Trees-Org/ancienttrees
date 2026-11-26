@@ -14,8 +14,13 @@
 --   no feed row yet, straight from `sightings`. The reader's own name for the
 --   tree, their photograph (the public copy the app already made for the share
 --   link, without location data in the file), and the share page as its link.
---   NO position and no place: hard rule 10, as shared-sightings.sql already
---   rules for the share page. Its place and pin come when the judge has looked.
+--   PLACE SHOWN (Hidde, 2026-11-26: "toon plek gewoon, we kunnen er altijd op
+--   terug komen", over the first version that showed none): the nearest of our
+--   own places within about 50 km (feed_places, filled by
+--   scripts/feed_publish.py) and the point rounded to two decimals, about a
+--   kilometre, so the post says where without pointing at a house before the
+--   judge has looked (hard rule 10, shared-sightings.sql). The exact pin comes
+--   with the checked row.
 --
 -- What takes a post down: the judge's hold or reject (status checking or
 -- declined), the reader unsharing it, a hidden feed row (a report, a retire),
@@ -24,6 +29,17 @@
 --
 -- Nothing new is stored. The privacy page's sentence on "the list of new
 -- photographs from visitors" already covers it.
+
+-- Our places, for the name of a post the judge has not looked at yet. Public
+-- facts (a place's name and middle), no person in it.
+create table if not exists public.feed_places (
+  slug text primary key,
+  name text not null,
+  lat double precision not null,
+  lng double precision not null
+);
+alter table public.feed_places enable row level security;
+grant select, insert, update, delete on public.feed_places to service_role;
 
 drop function if exists public.feed(int, timestamptz, text);
 
@@ -63,8 +79,13 @@ as $$
      where not f.hidden
     union all
     select lower(s.id::text), case when s.tree_id is null then 'tree' else 'photo' end,
-           s.tree_id, coalesce(nullif(s.name, ''), 'A tree'), '', '/t/?id=' || lower(s.id::text),
-           null, null,
+           s.tree_id, coalesce(nullif(s.name, ''), 'A tree'),
+           coalesce((select fp.name from public.feed_places fp
+                      where abs(fp.lat - s.lat) < 0.5 and abs(fp.lng - s.lng) < 0.7
+                      order by (fp.lat - s.lat) ^ 2 + ((fp.lng - s.lng) * cos(radians(s.lat))) ^ 2
+                      limit 1), ''),
+           '/t/?id=' || lower(s.id::text),
+           round(s.lat::numeric, 2)::double precision, round(s.lng::numeric, 2)::double precision,
            'https://caimvxiyrtifilimlkqw.supabase.co/storage/v1/object/public/shared-sightings/' || s.photo,
            null, null,
            coalesce(o.created_at, s.taken_at), s.user_id, false
