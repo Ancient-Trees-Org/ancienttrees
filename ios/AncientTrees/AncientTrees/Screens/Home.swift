@@ -852,7 +852,10 @@ struct HomeView: View {
         // four tiles, so it never stands half empty (Kit/NewFromVisitors).
         let fresh = NewFromVisitors.tiles(visitorRows) { catalogue.tree($0) }
         if fresh.count >= NewFromVisitors.minimum {
-            section("New from visitors", more: .visitors) {
+            // See all is the Feed tab (2026-11-26), its root, as the App
+            // Store's links to a tab do: never a second copy pushed here.
+            VStack(alignment: .leading, spacing: 12) {
+                ShelfHeader(title: "New from visitors", seeAll: { navigator.selectTab = FeedView.tag })
                 shelf {
                     ForEach(fresh, id: \.row.id) { f in
                         VStack(alignment: .leading, spacing: 7) {

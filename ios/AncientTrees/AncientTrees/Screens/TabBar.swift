@@ -44,6 +44,10 @@ struct TabBar: View {
         /// Empty on the action, which carries no word: see `items`.
         let title: String
         let symbol: String
+        /// The TabView tag this item selects. Not its position: the Feed came
+        /// in third on 2026-11-26 with tag 4, so My trees stays 2 and the
+        /// camera 3 for every caller and launch argument that says so.
+        var tag: Int
         /// The one slot that is a DEED rather than a place.
         var action: Bool = false
     }
@@ -80,10 +84,16 @@ struct TabBar: View {
     /// read correctly and its precondition is a bar of five; with three
     /// destinations there is no middle to sit in, and Polarsteps answers the
     /// same problem by taking the button out of the bar entirely.
+    ///
+    /// FOUR SINCE 2026-11-26: the Feed, third (Hidde: the feed "een eigen
+    /// tab", Map · Discover · Feed · My trees, AllTrails' Explore · Community
+    /// · ... · Saved), with three people for its symbol, AllTrails' and
+    /// Strava's own for the community.
     static let items = [
-        Item(title: "Map", symbol: "map"),
-        Item(title: "Discover", symbol: "magnifyingglass"),
-        Item(title: "My trees", symbol: "leaf"),
+        Item(title: "Map", symbol: "map", tag: 0),
+        Item(title: "Discover", symbol: "magnifyingglass", tag: 1),
+        Item(title: "Feed", symbol: "person.3", tag: 4),
+        Item(title: "My trees", symbol: "leaf", tag: 2),
     ]
 
     /// The tag the camera carries in the TabView, intercepted rather than
@@ -107,7 +117,8 @@ struct TabBar: View {
     var body: some View {
         HStack(spacing: 10) {
             HStack(spacing: 4) {
-                ForEach(Array(Self.items.enumerated()), id: \.offset) { i, item in
+                ForEach(Self.items, id: \.tag) { item in
+                    let i = item.tag
                     Button {
                         // The slide, and nothing else animated: a tab change
                         // itself is instant on iOS and always has been.

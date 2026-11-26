@@ -75,6 +75,8 @@ final class SweepFrames: XCTestCase {
         ("collection",   ["-tab=0", "-open=collection:ancient-oaks-of-europe"], nil),
         // Every photograph visitors sent, Discover's See all (2026-11-18).
         ("visitors",     ["-tab=1", "-open=visitors:all"], "visitor-photos"),
+        // The Feed tab (2026-11-26), from the server's feed().
+        ("feed",         ["-tab=4"], "feed"),
         ("place-pin",    ["-tab=0", "-open=tree:ath_004", "-placepin"], nil),
         // A TREE YOU ADDED YOURSELF, which no list here had (2026-09-01).
         // It is the same page as the one above with a different half of it

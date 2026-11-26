@@ -49,6 +49,8 @@ final class ButtonWalk: XCTestCase {
         // Discover where a city has an open ambassador seat: Cadiz.
         ("discover-cadiz", ["-tab=1", "-at=36.5297,-6.2925"]),
         ("my-trees",      ["-tab=2"]),
+        // The Feed tab (2026-11-26), tag 4.
+        ("feed",          ["-tab=4"]),
         ("profile",       ["-tab=2", "-settings"]),
         ("tree",          ["-tab=0", "-open=tree:ath_004"]),
         ("tree-nophoto",  ["-tab=0", "-open=tree:vln_010"]),
@@ -81,6 +83,8 @@ final class ButtonWalk: XCTestCase {
         "discover|tab-discover": "already on Discover, at the top",
         "discover-cadiz|tab-discover": "already on Discover, at the top",
         "my-trees|tab-my-trees": "already on My trees",
+        "feed|tab-feed": "already on the Feed, at the top",
+        "feed|feed-filter-everyone": "Everyone is the filter already on",
         // The test pins the location with -at=, and the camera opens on it:
         // re-centring on where it already stands moves nothing.
         "map|map-recentre": "the camera already stands on the test's location",

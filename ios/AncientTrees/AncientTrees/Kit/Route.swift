@@ -73,6 +73,10 @@ public enum Route: Hashable {
     /// from visitors" (Hidde, 2026-11-18), the app's twin of the website's
     /// /visitors: Screens/VisitorPhotos.swift.
     case visitors
+    /// A TREE FROM THE FEED TAB (2026-11-26), carrying the server's post so a
+    /// tree the judge put live after the last catalogue still opens: its name,
+    /// place, picture and pin (FeedPosts.stub). A known tree opens as .tree.
+    case feedPost(FeedPosts.Post)
     /// THE HEARTS OTHER PEOPLE GAVE YOUR PHOTOGRAPHS, behind the bell top
     /// right of Discover (Hidde, 2026-11-22: the bell "voor nu is het ok"; a
     /// real activity feed may take a place in the tab bar later), the app's

@@ -71,6 +71,7 @@ struct ContentView: View {
     @State private var announced: Set<String> = []
     @State private var explorePath: [Route] = []
     @State private var collectPath: [Route] = []
+    @State private var feedPath: [Route] = []
     /// Profile keeps its own stack like the others, or pushing from it would
     /// land in the collection's history and Back would leave the wrong tab.
 
@@ -78,6 +79,7 @@ struct ContentView: View {
         switch id {
         case 0: $mapPath
         case 1: $explorePath
+        case FeedView.tag: $feedPath
         default: $collectPath
         }
     }
@@ -100,6 +102,7 @@ struct ContentView: View {
         switch id {
         case 0: mapPath = []
         case 1: explorePath = []
+        case FeedView.tag: feedPath = []
         default: collectPath = []
         }
     }
@@ -330,8 +333,7 @@ struct ContentView: View {
                     // Hidde's first session read as two Discovers a second
                     // apart (2026-08-30, the first data this app ever produced).
                     if new != tab {
-                        Measure.event("tab", ["tab": TabBar.items.indices.contains(new)
-                            ? TabBar.items[new].title : String(new)])
+                        Measure.event("tab", ["tab": TabBar.items.first { $0.tag == new }?.title ?? String(new)])
                     }
                     tab = new
                 })
@@ -498,6 +500,13 @@ struct ContentView: View {
             PeopleView(source: followers ? .followers : .following, owner: id, catalogue: cat)
         case .visitors:
             VisitorPhotosView(catalogue: cat)
+        case .feedPost(let p):
+            // Known by now (a newer catalogue arrived): the full page.
+            if let t = cat.tree(p.tree_id) {
+                TreeDetail(tree: t, catalogue: cat, origin: origin)
+            } else {
+                TreeDetail(tree: FeedPosts.stub(p), catalogue: cat, origin: origin)
+            }
         case .activity:
             ActivityView(catalogue: cat)
         case .treeMap(let id):
@@ -653,6 +662,16 @@ struct ContentView: View {
             // own. Profile stopped being a tab the same day.
             stack(2, cat) { CollectView(catalogue: cat, origin: origin) }
                 .tag(2)
+
+            // THE FEED (Hidde, 2026-11-26), third in the bar, tag 4 so every
+            // caller that says tab 2 for My trees and 3 for the camera keeps
+            // meaning what it meant (TabBar.Item.tag).
+            stack(FeedView.tag, cat) {
+                FeedView(catalogue: cat, origin: origin,
+                         located: location.coordinate != nil || debugOrigin != nil,
+                         onUseMyLocation: { location.request() })
+            }
+                .tag(FeedView.tag)
         }
         // Whether `origin` is a fix or a fallback, published once for
         // every screen under here. See LocationOff.swift: origin always
@@ -768,7 +787,7 @@ struct ContentView: View {
             // row still asked for tab 3), and the cost of the guard is
             // a comparison.
             if let new {
-                if (0...2).contains(new) {
+                if (0...2).contains(new) || new == FeedView.tag {
                     tab = new
                 } else {
                     // AND IT SAYS SO NOW. Dropping it silently is what
@@ -798,6 +817,7 @@ struct ContentView: View {
         // so every way in is the one map screen (2026-11-04).
         .onChange(of: explorePath) { _, p in redirectPlace(p, 1) }
         .onChange(of: collectPath) { _, p in redirectPlace(p, 2) }
+        .onChange(of: feedPath) { _, p in redirectPlace(p, FeedView.tag) }
         .onChange(of: mapPath) { _, p in redirectPlace(p, 0) }
     }
 
