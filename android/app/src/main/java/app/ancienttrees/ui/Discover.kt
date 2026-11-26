@@ -12,6 +12,7 @@
 
 package app.ancienttrees.ui
 
+import androidx.compose.ui.platform.testTag
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
@@ -182,6 +183,8 @@ fun DiscoverScreen(
     openCollection: Pair<Long, String>? = null,
     /** The places you look after (Profiles.myPlaces): their ambassador row is not yours to see. */
     myPlaces: List<String> = emptyList(),
+    /** A page is pushed over Discover: Back from it may land on the search it came from. */
+    covered: Boolean = false,
 ) {
     val brand = Brand.colors
     val month = remember { Calendar.getInstance().get(Calendar.MONTH) + 1 }
@@ -195,6 +198,20 @@ fun DiscoverScreen(
     LaunchedEffect(openCollection) { openCollection?.let { act.openPage(DiscoverPage.Collection(it.second)) } }
     var searching by remember { mutableStateOf(false) }
     LaunchedEffect(searching) { act.searching(searching) }
+    // BACK FROM A RESULT LANDS ON THE RESULTS (iOS walk 2026-11-25, F9): a species
+    // or a tree picked from the search is a page pushed over Discover; when it goes,
+    // the search comes back with the words as they were, as in Google Maps and AllTrails.
+    var lastQuery by remember { mutableStateOf("") }
+    var resumeQuery by remember { mutableStateOf<String?>(null) }
+    var resumed by remember { mutableStateOf(false) }
+    LaunchedEffect(covered, resumeQuery) {
+        if (!covered && resumeQuery != null) {
+            lastQuery = resumeQuery!!
+            resumeQuery = null
+            resumed = true
+            searching = true
+        }
+    }
 
     val list = rememberLazyListState()
     val scope = rememberCoroutineScope()
@@ -311,17 +328,20 @@ fun DiscoverScreen(
         MapSearch(
             catalogue = catalogue,
             origin = origin,
-            initial = "",
+            initial = if (resumed) lastQuery else "",
             onPick = { hit ->
                 searching = false
+                resumed = false
                 // A PLACE LANDS ON THE MAP, as the map's own search does (2026-11-03).
                 when (hit) {
                     is SearchHit.City, is SearchHit.Country, is SearchHit.Place -> act.openPlace(hit)
-                    is SearchHit.Species -> act.openSpecies(hit.name)
-                    is SearchHit.OneTree -> act.openTree(hit.tree)
+                    is SearchHit.Species -> { resumeQuery = lastQuery; act.openSpecies(hit.name) }
+                    is SearchHit.OneTree -> { resumeQuery = lastQuery; act.openTree(hit.tree) }
                 }
             },
-            onBack = { searching = false },
+            onBack = { searching = false; resumed = false },
+            onQuery = { lastQuery = it },
+            instant = resumed,
         )
     }
 }
@@ -850,7 +870,7 @@ internal fun VisitorLine(r: NewFromVisitors.Row, width: Dp, openVisitor: (NewFro
     if (real != null) {
         m = m.clickable(interactionSource = remember { MutableInteractionSource() }, indication = androidx.compose.foundation.LocalIndication.current) {
             openVisitor(r)
-        }.semantics { contentDescription = "visitor-name" }
+        }.semantics { contentDescription = "visitor-name" }.testTag("visitor-name")
     }
     // The heart at the line's end, beside the name and never inside its tap
     // (VisitorPhotos.swift VisitorLine, 2026-11-20).

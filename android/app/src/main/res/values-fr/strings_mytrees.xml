@@ -8,7 +8,10 @@
     <string name="mt_signin_collect">Connecte-toi pour commencer ta collection d\'arbres.</string>
     <string name="mt_collected_empty">Tu ajoutes un arbre ici en le photographiant avec le bouton appareil photo.</string>
     <string name="mt_all">Tous %1$d</string>
-    <string name="mt_followers">abonnés</string>
+    <plurals name="mt_followers">
+        <item quantity="one">abonné</item>
+        <item quantity="other">abonnés</item>
+    </plurals>
     <string name="mt_following">abonnements</string>
     <string name="mt_settings">Réglages</string>
     <string name="mt_find_people">Trouver des gens</string>

@@ -424,9 +424,14 @@ private fun Identity(host: SettingsHost) {
             .padding(16.dp)
             .testTag("profile-signin"),
     ) {
-        Box(Modifier.size(56.dp).background(brand.surfaceMuted, CircleShape), contentAlignment = Alignment.Center) {
-            if (host.signedIn) {
-                Text((host.email ?: "?").take(1).uppercase(), fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 24.sp, color = brand.moss)
+        Box(Modifier.size(56.dp).clip(CircleShape).background(brand.surfaceMuted, CircleShape), contentAlignment = Alignment.Center) {
+            // Your picture and letter as My trees shows them (iOS walk 2026-11-25: "A" here, "L" there).
+            val avatar = if (host.signedIn) host.profiles.me?.avatarUrl else null
+            if (avatar != null) {
+                RemoteImage(avatar, null, Modifier.fillMaxSize(), placeholder = false)
+            } else if (host.signedIn) {
+                Text(app.ancienttrees.account.Profiles.myInitial(host.profiles.me?.displayName, host.email) ?: "?",
+                    fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 24.sp, color = brand.moss)
             } else {
                 Icon(Sym.Person, null, tint = brand.inkSoft, modifier = Modifier.size(28.dp))
             }

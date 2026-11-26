@@ -274,6 +274,16 @@ private fun MyTreesInner(
         }
         MoveRequest(System.nanoTime(), box)
     }
+    // A LANE SWITCH FRAMES THAT LANE'S TREES (iOS walk 2026-11-25: Collected kept
+    // the map where Want to visit had left it and showed none of the collected
+    // trees). AllTrails' lists reframe their map on each switch; an empty lane
+    // leaves the map where it is. Only on a switch, never on a reload.
+    var laneMove by remember { mutableStateOf<MoveRequest?>(null) }
+    fun frameLane(to: TreesLane) {
+        val pts = if (!shows) emptyList() else if (to == TreesLane.WANT) wishlist.map { it.lat to it.lng }
+            else visited.map { it.lat to it.lng } + ownTrees.map { it.lat to it.lng }
+        laneBox(app.ancienttrees.map.MapFrame.densest(pts))?.let { laneMove = MoveRequest(System.nanoTime(), it) }
+    }
     val ownAsTrees = remember(mine.version, shows) { ownTrees.associate { s -> s.asTree().id to s } }
     val navBottom = WindowInsets.navigationBars.getBottom(density).toFloat()
 
@@ -295,7 +305,7 @@ private fun MyTreesInner(
             dot = granted,
             recentre = recentre,
             onView = {},
-            moveTo = frame,
+            moveTo = laneMove ?: frame,
             bottomCover = with(density) { if (sheet.height == SheetHeight.PEEK) SheetStops.PEEK.toPx() else sheet.halfPx },
             modifier = Modifier.fillMaxSize().graphicsLayer { translationY = sheet.parallax() },
         )
@@ -356,6 +366,7 @@ private fun MyTreesInner(
                     if (shows && nothing) Mission(catalogue, origin, located, wishlist, saves, actions)
                     if (!shows || !nothing) {
                         LanePicker(lane) {
+                            if (it != lane) frameLane(it)
                             lane = it
                             country = null
                         }
@@ -481,11 +492,11 @@ private fun WhoRow(signedIn: Boolean, email: String?, mine: MyTrees, actions: My
                 contentAlignment = Alignment.Center,
             ) {
                 val avatar = if (signedIn) me?.avatarUrl else null
-                val initial = (if (signedIn) (me?.displayName ?: email) else null)?.firstOrNull()
+                val initial = if (signedIn) app.ancienttrees.account.Profiles.myInitial(me?.displayName, email) else null
                 when {
                     avatar != null -> RemoteImage(avatar, null, Modifier.fillMaxSize(), placeholder = false)
                     initial != null -> Text(
-                        initial.uppercase(),
+                        initial,
                         fontFamily = BrandFace,
                         fontWeight = FontWeight.Black,
                         fontSize = 24.sp,
@@ -556,7 +567,7 @@ private fun WhoRow(signedIn: Boolean, email: String?, mine: MyTrees, actions: My
                 }
                 if (signedIn) {
                     Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
-                        Count(me?.followers ?: 0, stringResource(R.string.mt_followers)) { actions.followList(true) }
+                        Count(me?.followers ?: 0, androidx.compose.ui.res.pluralStringResource(R.plurals.mt_followers, me?.followers ?: 0)) { actions.followList(true) }
                         Count(me?.following ?: 0, stringResource(R.string.mt_following)) { actions.followList(false) }
                     }
                 } else {
@@ -1013,4 +1024,19 @@ private fun StandIn(i: Int, modifier: Modifier) {
         drawOval(Color(0.29f, 0.42f, 0.20f), Offset(x(-60f), y(60f)), Size(720f * scale, 520f * scale))
         drawRect(Color(0.36f, 0.27f, 0.19f), Offset(x(265f), y(460f)), Size(70f * scale, 340f * scale))
     }
+}
+
+/**
+ * Collect.swift laneRegion: the box that holds every tree of a lane with a margin,
+ * at least a few streets wide for a single tree; null for an empty lane, which
+ * keeps the map where it is. Pure, for the test.
+ */
+internal fun laneBox(points: List<Pair<Double, Double>>): app.ancienttrees.feed.ViewBox? {
+    if (points.isEmpty()) return null
+    val loLat = points.minOf { it.first }; val hiLat = points.maxOf { it.first }
+    val loLng = points.minOf { it.second }; val hiLng = points.maxOf { it.second }
+    val dLat = maxOf((hiLat - loLat) * 1.4, 0.02) / 2
+    val dLng = maxOf((hiLng - loLng) * 1.4, 0.02) / 2
+    val cLat = (loLat + hiLat) / 2; val cLng = (loLng + hiLng) / 2
+    return app.ancienttrees.feed.ViewBox(cLat - dLat, cLng - dLng, cLat + dLat, cLng + dLng)
 }

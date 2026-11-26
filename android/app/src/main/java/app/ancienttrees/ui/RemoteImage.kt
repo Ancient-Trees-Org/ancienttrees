@@ -44,14 +44,34 @@ import java.net.URL
 
 private const val MAX_SIDE = 1600
 
-private val memory = object : LruCache<String, Bitmap>(64 * 1024 * 1024) {
+/**
+ * The memory budget for decoded pictures: an eighth of what Android gives this app,
+ * at most 64 MB (Android's "Caching bitmaps" guidance). A fixed 64 MB was half the
+ * heap of a small phone (2026-11-26).
+ */
+internal fun memoryBudget(maxHeap: Long): Int = minOf(maxHeap / 8, 64L * 1024 * 1024).toInt().coerceAtLeast(8 * 1024 * 1024)
+
+private val memory = object : LruCache<String, Bitmap>(memoryBudget(Runtime.getRuntime().maxMemory())) {
     override fun sizeOf(key: String, value: Bitmap) = value.byteCount
+}
+
+/** What onTrimMemory leaves of the decoded pictures: none out of sight, half when the phone runs short. */
+internal fun keepAfterTrim(level: Int, size: Int): Int = when {
+    level >= android.content.ComponentCallbacks2.TRIM_MEMORY_UI_HIDDEN -> 0
+    level >= android.content.ComponentCallbacks2.TRIM_MEMORY_RUNNING_LOW -> size / 2
+    else -> size
 }
 
 object ImageStore {
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
     private val inFlight = HashMap<String, Deferred<Bitmap?>>()
     private val gate = Semaphore(8)
+
+    /** Android asks for memory back (MainActivity.onTrimMemory). */
+    fun trim(level: Int) {
+        val keep = keepAfterTrim(level, memory.size())
+        if (keep < memory.size()) memory.trimToSize(keep)
+    }
 
     /** Somewhere for the bytes to live between launches (ImageStore.prepareCache). Once, at launch. */
     fun prepareCache(context: Context) {

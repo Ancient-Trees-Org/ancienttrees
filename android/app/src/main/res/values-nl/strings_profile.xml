@@ -90,6 +90,7 @@
     <string name="people_followers">Volgers</string>
     <string name="people_following">Volgend</string>
     <string name="people_search">Zoek mensen</string>
+    <string name="editor_search_countries">Zoek landen</string>
     <string name="people_share">Deel je profiel</string>
     <string name="people_share_line">Bekijk de bomen die ik op Ancient Trees heb verzameld.</string>
     <string name="people_suggested">Voorgesteld</string>
@@ -122,7 +123,10 @@
     <string name="report_impersonation">Doet zich voor als iemand anders</string>
     <string name="report_spam">Spam of reclame</string>
     <string name="report_other">Iets anders</string>
-    <string name="people_followers_word">volgers</string>
+    <plurals name="people_followers_word">
+        <item quantity="one">volger</item>
+        <item quantity="other">volgers</item>
+    </plurals>
     <string name="people_following_word">volgend</string>
     <string name="person_lane_collected">Verzameld</string>
     <string name="profile_approved">Goedgekeurd</string>

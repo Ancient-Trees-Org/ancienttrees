@@ -214,6 +214,11 @@
       {
         "what": "tab-discover | tab-my-trees",
         "why": "Android's docked tab bar, 56 above the system bar with a word under every item, where the iPhone floats its capsule (_android_forced \"Tab bar\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "place-card -> tab-discover",
+        "why": "The fitted card stands barDepth + 8 above the tab bar on both phones (BottomSheet.swift fitted, MapSheet.kt barPx). Measured to the tab item, Android's docked bar is 56 with the word under the icon where the iPhone's capsule item is 50, so the item's top sits about 4 higher and the gap reads 8 against 12 (_android_forced \"Tab bar\", Hidde 2026-11-17).",
+        "within": 5
       }
     ]
   },
@@ -1129,6 +1134,11 @@
       {
         "what": "BackButton right",
         "why": "Android's top app bar: the back arrow at the start and the title left beside it, where the iPhone centres the title beside a round back button (_android_forced \"Page titles\", Hidde 2026-11-17)."
+      },
+      {
+        "what": "top safe area -> Photographs people took at the trees,...",
+        "why": "Android's top app bar, 64 tall with the title beside the back arrow, where the iPhone's bar is 44 with the title centred: the line under it starts 10 lower, 10 less than the bar's own difference (measured 2026-11-26, once the tiles paired by identifier).",
+        "within": 12
       }
     ]
   },

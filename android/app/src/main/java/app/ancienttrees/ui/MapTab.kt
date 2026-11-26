@@ -243,6 +243,14 @@ fun MapTab(
             selected = null
         }
     }
+    // A FILTER THAT HIDES THE CHOSEN TREE CLOSES ITS CARD (iOS walk 2026-11-25:
+    // Want to visit took the pin away and left the card of a tree that was not
+    // saved). Google Maps and Airbnb drop a card whose result a filter removes;
+    // the same question the pins answer (MapFilters.keeps).
+    LaunchedEffect(filters) {
+        val t = selected ?: return@LaunchedEffect
+        if (!filters.keeps(t, marks.collected, marks.saved)) selected = null
+    }
     // Never while a page covers the map: there back closed the hidden card or cleared
     // the searched place, and the page stayed (the user walk, 2026-11-17).
     BackHandler(enabled = !covered && selected != null) { selected = null }
@@ -462,8 +470,10 @@ fun MapTab(
                     LocationOffChip(
                         refused = locationRefused,
                         onClick = onUseMyLocation,
+                        // Clear of the locate arrow on the right (44 wide, 12 in, 12 between).
                         modifier = Modifier
                             .align(Alignment.BottomStart)
+                            .padding(end = 12.dp + 44.dp + 12.dp + 12.dp)
                             .offset { IntOffset(12.dp.roundToPx(), -place.first.roundToInt()) },
                     )
                 }
@@ -1029,9 +1039,36 @@ private fun LocationOffChip(refused: Boolean, onClick: () -> Unit, modifier: Mod
             .padding(horizontal = 14.dp),
     ) {
         Icon(Sym.LocationOff, null, tint = brand.ink, modifier = Modifier.size(16.dp))
-        Text("Location off", fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = brand.ink)
-        Text("·", fontSize = 15.sp, color = brand.inkSoft)
-        Text(if (refused) "Turn on location" else "Use my location", fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = brand.moss)
+        // The whole sentence when it fits; at large text the action alone, which is the
+        // half worth tapping (MapTab.swift's ViewThatFits; walk 2026-11-25: at XXL the
+        // chip ran into the locate arrow).
+        val action = if (refused) "Turn on location" else "Use my location"
+        FitsOrElse(
+            whole = {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text("Location off", fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = brand.ink, maxLines = 1, softWrap = false)
+                    Text("·", fontSize = 15.sp, color = brand.inkSoft, maxLines = 1)
+                    Text(action, fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = brand.moss, maxLines = 1, softWrap = false)
+                }
+            },
+            short = {
+                Text(action, fontSize = 15.sp, fontWeight = FontWeight.SemiBold, color = brand.moss, maxLines = 1,
+                    overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis)
+            },
+        )
+    }
+}
+
+/** SwiftUI's ViewThatFits for two: [whole] when its natural width fits, else [short]. */
+@Composable
+private fun FitsOrElse(whole: @Composable () -> Unit, short: @Composable () -> Unit) {
+    androidx.compose.ui.layout.SubcomposeLayout { c ->
+        val w = subcompose("whole", whole).map { it.measure(c.copy(minWidth = 0, maxWidth = androidx.compose.ui.unit.Constraints.Infinity)) }
+        val fits = w.maxOfOrNull { it.width }?.let { it <= c.maxWidth } ?: true
+        val ps = if (fits) w else subcompose("short", short).map { it.measure(c.copy(minWidth = 0)) }
+        val width = ps.maxOfOrNull { it.width } ?: 0
+        val height = ps.maxOfOrNull { it.height } ?: 0
+        layout(width, height) { ps.forEach { it.place(0, (height - it.height) / 2) } }
     }
 }
 

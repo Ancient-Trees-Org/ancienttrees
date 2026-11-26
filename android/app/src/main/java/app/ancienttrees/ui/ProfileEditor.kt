@@ -198,17 +198,38 @@ fun ProfileEditorSheet(account: Account, profiles: Profiles, onDismiss: () -> Un
 /** A picker row: the flag, then the country's English name. */
 private fun countryRow(code: String): String = listOfNotNull(flagEmoji(code), countryName(code)).joinToString("  ")
 
-/** iOS Settings' long choice: Don't show, then every country by its English name. */
+/**
+ * The countries whose English name has a word starting with what was typed, or
+ * whose code it is (CountryList.matching on the iPhone). Pure, for the test.
+ */
+internal fun matchingCountries(all: List<Pair<String, String>>, query: String): List<Pair<String, String>> {
+    val q = app.ancienttrees.feed.SpeciesSearch.fold(query)
+    if (q.isEmpty()) return all
+    return all.filter { app.ancienttrees.feed.SpeciesSearch.startsAWord(it.second, q) || it.first.lowercase() == q }
+}
+
+/**
+ * iOS Settings' long choice, SEARCHABLE and opening on your country (CountryList on
+ * the iPhone; walk 2026-11-25: 250 rows from the top, no search, and taps landed on
+ * a neighbour while the list still glided). Don't show, then every country by its
+ * English name; a tap picks and closes.
+ */
 @Composable
 private fun CountryPicker(current: String?, onPick: (String?) -> Unit, onDismiss: () -> Unit) {
-    val brand = Brand.colors
     val all = remember {
         Locale.getISOCountries().map { it to countryName(it) }.filter { it.second.isNotEmpty() }.sortedBy { it.second.lowercase() }
     }
+    var query by remember { mutableStateOf("") }
+    val shown = remember(query) { matchingCountries(all, query) }
+    // Your country in view on opening: Don't show is row 0, so a country is its index + 1.
+    val list = androidx.compose.foundation.lazy.rememberLazyListState(
+        initialFirstVisibleItemIndex = (all.indexOfFirst { it.first == current } + 1 - 4).coerceAtLeast(0),
+    )
     BarSheet(stringResource(R.string.editor_country), onDismiss, trailing = stringResource(R.string.done) to onDismiss) {
-        LazyColumn(Modifier.fillMaxWidth().height(560.dp)) {
-            item { PickRow(stringResource(R.string.editor_dont_show), current == null) { onPick(null) } }
-            items(all, key = { it.first }) { (code, _) -> PickRow(countryRow(code), current == code) { onPick(code) } }
+        PillSearchField(query, { query = it }, stringResource(R.string.editor_search_countries))
+        LazyColumn(Modifier.fillMaxWidth().height(500.dp), state = list) {
+            if (query.isEmpty()) item(key = "none") { PickRow(stringResource(R.string.editor_dont_show), current == null) { onPick(null) } }
+            items(shown, key = { it.first }) { (code, _) -> PickRow(countryRow(code), current == code) { onPick(code) } }
         }
     }
     BackHandler(onBack = onDismiss)

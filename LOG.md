@@ -78,6 +78,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 session: the walk's bugs fixed on Android too, memory given back out of sight (for build 7)
+
+- **Product (Android, ships with build 7)**: every walk finding that was in Android is fixed the iPhone's way: oak search, Back to the results, "You" for your own heart, one avatar letter, a filter closes a hidden tree's card, a My trees lane frames its trees, the viewer returns to its picture, a searchable country list (eight languages) opening on your country, the location chip at large text, "1 follower" in eight languages, no empty photo credit. Bug 11 (Tortworth) was already in from the iPhone session (3 km). The rating question twice was two simulators, not a bug.
+- **Memory** (Hidde: "hoe voorkomen we die geheugen crashes"): all four build 6 exits were Android ending the app in the background. A tree being added lives in memory only, so a further photograph with the camera can still lose the whole tree. Keeping it on the phone was built and taken out the same day (Hidde: "NOOIT IETS LOKAALS OPSLAAN ALTIJD AAN ACCOUNT"); the way is a draft on the account, and crossdevice.py now reads Android and refuses any new device store without his yes. The app gives its decoded photographs and map tiles back when out of sight (onTrimMemory). Emulator, 20 trees opened: 403 to 361 MB once home; most of the rest is the map's drawing, which only a real phone measures honestly.
+- **Found on the way**: Android's unit tests had been red on main since 11-25 (the snapshot dropped whose photograph a visitor's is), so no spacing or walk run happened since. Fixed (snapshot ATS5).
+- **Open, not built**: a tree you added cannot be edited afterwards (ESC-2026-11-25, report 1488): a new flow, on both phones, needs design first.
+- **For Hidde**: your own heart says "You" only once the `photo_likers` function from supabase/photo-hearts-who.sql is pasted (the iPhone needs the same paste).
+
 ## 2026-11-26 session: the Feed shows a reader's share before the judge looked (feed-live.sql), and its icon is Polarsteps' Activity
 
 - **Unchecked posts** (`checked = false` from feed()) on iPhone, Android and the web row and /visitors: the reader's own name for the tree, "just shared a tree" in the byline (eight languages on Android), no place, no "New on the map", no heart, no save; a tap opens the share page (/t/?id=). When the judge approves, the same post comes back checked in the same spot. Decoder tests with checked true, false and missing: iOS FeedPostsTests, Android FeedPostsTest, both green.

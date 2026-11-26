@@ -85,6 +85,18 @@ class MainActivity : ComponentActivity() {
     /** A sign-in callback (ancienttrees://auth-callback) waiting to be read. */
     private var link by mutableStateOf<Uri?>(null)
 
+    // LESS TO LOSE WHEN THE PHONE IS SHORT (2026-11-26, the build 6 exits were all
+    // Android ending the app in the background for memory): the decoded photographs
+    // go the moment the app is out of sight, as Android's "Manage your app's memory"
+    // asks (onTrimMemory), so the system has less reason to pick us. They come back
+    // from the disk cache when looked at again.
+    override fun onTrimMemory(level: Int) {
+        super.onTrimMemory(level)
+        app.ancienttrees.ui.ImageStore.trim(level)
+        // And the maps' tiles, once the app is out of sight or the phone runs short.
+        if (level >= android.content.ComponentCallbacks2.TRIM_MEMORY_RUNNING_LOW) app.ancienttrees.map.LiveMaps.lowMemory()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         // First, so a crash anywhere after this line is caught (account/CrashReporter.kt).
         app.ancienttrees.account.CrashReporter.start(this)
@@ -893,7 +905,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         CompositionLocalProvider(
             LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
                 signedIn = signedIn, token = { account.fresh()?.accessToken },
-                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }),
+                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }, myId = { account.fresh()?.userId }),
         ) {
             when (p) {
                 is app.ancienttrees.ui.Page.TreePage -> cat.tree(p.id)?.let { tree -> TreePage(tree) }
@@ -1012,7 +1024,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                     CompositionLocalProvider(
                         LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
                 signedIn = signedIn, token = { account.fresh()?.accessToken },
-                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }),
+                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }, myId = { account.fresh()?.userId }),
                         app.ancienttrees.ui.LocalSearchAccount provides app.ancienttrees.ui.SearchAccount(
                             signedIn = signedIn,
                             token = { account.fresh()?.accessToken },
@@ -1092,7 +1104,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                         CompositionLocalProvider(
                             LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
                                 signedIn = signedIn, token = { account.fresh()?.accessToken },
-                                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }),
+                                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }, myId = { account.fresh()?.userId }),
                         ) {
                         DiscoverScreen(
                             catalogue = cat,
@@ -1109,6 +1121,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                             openCollection = collectionLink,
                             // No ambassador row for a place you already look after (Home.swift).
                             myPlaces = profiles.myPlaces.map { it.placeName },
+                            covered = nav.stacks[1].isNotEmpty(),
                             act = discoverActions,
                         )
                         }
@@ -1134,7 +1147,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                         CompositionLocalProvider(
                             LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
                 signedIn = signedIn, token = { account.fresh()?.accessToken },
-                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }),
+                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }, myId = { account.fresh()?.userId }),
                             app.ancienttrees.ui.LocalMyHeader provides app.ancienttrees.ui.MyHeader(
                                 profiles = profiles,
                                 earlyAdopter = earlyAdopter,

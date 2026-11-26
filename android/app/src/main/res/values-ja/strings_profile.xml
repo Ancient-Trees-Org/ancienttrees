@@ -90,6 +90,7 @@
     <string name="people_followers">フォロワー</string>
     <string name="people_following">フォロー中</string>
     <string name="people_search">人を検索</string>
+    <string name="editor_search_countries">国を検索</string>
     <string name="people_share">プロフィールを共有</string>
     <string name="people_share_line">Ancient Trees でコレクトした木を見てね。</string>
     <string name="people_suggested">おすすめ</string>
@@ -122,7 +123,9 @@
     <string name="report_impersonation">他人へのなりすまし</string>
     <string name="report_spam">スパムや広告</string>
     <string name="report_other">その他</string>
-    <string name="people_followers_word">フォロワー</string>
+    <plurals name="people_followers_word">
+        <item quantity="other">フォロワー</item>
+    </plurals>
     <string name="people_following_word">フォロー中</string>
     <string name="person_lane_collected">コレクト</string>
     <string name="profile_approved">承認済み</string>

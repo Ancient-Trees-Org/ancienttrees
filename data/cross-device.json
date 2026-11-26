@@ -46,11 +46,11 @@
     },
     "at_contribute_draft": {
       "verdict": "device",
-      "why": "An unsent contribute form, kept so a reload does not lose what somebody typed. It stops existing the moment it is sent."
+      "why": "An unsent contribute form, kept so a reload does not lose what somebody typed. It stops existing the moment it is sent. Kept by Hidde, 2026-11-26 (\"nee daar is het prima\"): signed out there is no account to hang it on yet."
     },
     "ancienttrees_pending": {
       "verdict": "device",
-      "why": "What somebody was doing at the moment they were asked to sign in, so the save survives the round trip through Google or an inbox and is finished when they land back (2026-09-18). The contribute draft's category exactly: an act begun and not finished rather than a thing a person has accumulated. At the moment it is written THERE IS NO ACCOUNT to hang it on, which is the whole situation it exists for; putting it on the server would mean identifying somebody who has not signed in.",
+      "why": "What somebody was doing at the moment they were asked to sign in, so the save survives the round trip through Google or an inbox and is finished when they land back (2026-09-18). The contribute draft's category exactly: an act begun and not finished rather than a thing a person has accumulated. At the moment it is written THERE IS NO ACCOUNT to hang it on, which is the whole situation it exists for; putting it on the server would mean identifying somebody who has not signed in. Kept by Hidde, 2026-11-26 (\"nee daar is het prima\"): signed out there is no account to hang it on yet.",
       "off": "Itself. Read and removed by SIGNIN_CATCH_JS the moment it is used, dropped when the sheet is dismissed without signing in, and ignored after half an hour."
     },
     "at_notrack": {
@@ -158,6 +158,66 @@
       "verdict": "device",
       "why": "The Android twin of reviewPrompt.fired.v2, .last.v2, .seen.v1 and .yes.v1 (android/.../ui/ReviewAsk.kt): which review milestones this install asked, when, which trees it has seen (at most 25 ids) and the version it said yes on. Per install, like the store's own rule.",
       "off": "Nothing: a flag on this install, gone with the app; -reset-collection clears it for the sweep."
+    },
+    "android-file:MainActivity.kt": {
+      "verdict": "device",
+      "why": "Whether this install asked for location once (location_asked, see android:device/location_asked). The app's bookkeeping, not something a person did.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:Settings.kt": {
+      "verdict": "device",
+      "why": "km or miles, a display setting of this phone (units); and a copy of the account's appearance (see \"appearance\": profiles.appearance is the truth, the copy only paints the first frame).",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:PlaceBox.kt": {
+      "verdict": "device",
+      "why": "Whether this install answered the Plus question (android:device/plus.answered.v1), so the row goes away.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:ReviewAsk.kt": {
+      "verdict": "device",
+      "why": "Which review milestones this install asked (android:device/reviewPrompt); Google's own rule is per install.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:HeroCover.kt": {
+      "verdict": "device",
+      "why": "Which hero picture showed last (hero.index.v1), so the next start shows another.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:Directions.kt": {
+      "verdict": "device",
+      "why": "Which maps app Take me there opens (android:device/directions.app): what is installed on this phone.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:GalleryPick.kt": {
+      "verdict": "device",
+      "why": "Whether this install asked once for the place in photographs (android:device/photo_place_asked).",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:TreeMapView.kt": {
+      "verdict": "device",
+      "why": "The last downloaded map style (map-style/), our own map's look, so the map draws offline. Nobody's data.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:CatalogueStore.kt": {
+      "verdict": "device",
+      "why": "The last downloaded copy of OUR catalogue and its snapshot, so the app opens offline (file:CatalogueStore.swift's twin). Nobody's data.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:Account.kt": {
+      "verdict": "device",
+      "why": "The session's refresh token (android:auth/session.refresh): identifies this device, never travels.",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:Measure.kt": {
+      "verdict": "device",
+      "why": "The analytics install id and events waiting for a network (measure.install.v1, measure.queue.v1).",
+      "off": "Nothing: gone with the app."
+    },
+    "android-file:ExitWatch.kt": {
+      "verdict": "device",
+      "why": "The newest process exit already reported, and one crash line until it is sent (android:device/exit.*).",
+      "off": "Nothing: gone with the app."
     },
     "appearance": {
       "verdict": "account",

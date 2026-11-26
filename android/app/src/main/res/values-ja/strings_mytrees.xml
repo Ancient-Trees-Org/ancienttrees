@@ -8,7 +8,9 @@
     <string name="mt_signin_collect">サインインして木のコレクションを始めましょう。</string>
     <string name="mt_collected_empty">カメラボタンで撮影すると、ここに木が追加されます。</string>
     <string name="mt_all">すべて %1$d</string>
-    <string name="mt_followers">フォロワー</string>
+    <plurals name="mt_followers">
+        <item quantity="other">フォロワー</item>
+    </plurals>
     <string name="mt_following">フォロー中</string>
     <string name="mt_settings">設定</string>
     <string name="mt_find_people">人を探す</string>

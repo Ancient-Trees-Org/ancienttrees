@@ -463,7 +463,11 @@ private fun TreeDetailInner(
         )
     }
 
-    if (viewerAt >= 0) PhotoViewer(tree.shots, viewerAt, authors = photoAuthors, onShare = actions.onSharePhoto) { viewerAt = -1 }
+    // Back on the page at the picture you closed on (TreeDetail.swift onPage).
+    val viewerScope = rememberCoroutineScope()
+    if (viewerAt >= 0) PhotoViewer(tree.shots, viewerAt, authors = photoAuthors, onShare = actions.onSharePhoto,
+        onPage = { i -> if (i in tree.shots.indices && i != pager.currentPage) viewerScope.launch { pager.scrollToPage(i) } },
+    ) { viewerAt = -1 }
     if (ownViewerAt >= 0) {
         val shots = actions.ownShots.filter { it.photo != null }
         PhotoViewer(

@@ -8,7 +8,10 @@
     <string name="mt_signin_collect">Log in om je bomenverzameling te beginnen.</string>
     <string name="mt_collected_empty">Je voegt hier een boom toe door hem te fotograferen met de cameraknop.</string>
     <string name="mt_all">Alle %1$d</string>
-    <string name="mt_followers">volgers</string>
+    <plurals name="mt_followers">
+        <item quantity="one">volger</item>
+        <item quantity="other">volgers</item>
+    </plurals>
     <string name="mt_following">volgend</string>
     <string name="mt_settings">Instellingen</string>
     <string name="mt_find_people">Mensen zoeken</string>

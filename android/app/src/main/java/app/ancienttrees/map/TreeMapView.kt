@@ -201,6 +201,7 @@ fun TreeMapView(
         MapLibre.getInstance(context)
         MapView(context).also { view ->
             view.onCreate(null)
+            LiveMaps.add(view)
             view.getMapAsync { map ->
                 map.setMinZoomPreference(PinRules.WORLD_MIN_ZOOM)
                 // A first paint on the origin, so the map never shows the Atlantic.
@@ -302,9 +303,17 @@ fun TreeMapView(
             val path = m.photo ?: continue
             val bytes = runCatching { minePhoto(path) }.getOrNull() ?: continue
             val bmp = android.graphics.BitmapFactory.decodeByteArray(bytes, 0, bytes.size) ?: continue
-            style.addImage(mineIconFor(m.id), photoPinBitmap(context, bmp))
-            drawn.add(m.id)
-            style.getSourceAs<GeoJsonSource>(SOURCE_MINE)?.setGeoJson(mineCollection(mine, drawn))
+            val pin = photoPinBitmap(context, bmp)
+            // THE MAP ONLY ON THE MAIN THREAD (MapLibre throws CalledFromWorkerThread
+            // otherwise): after the download this coroutine may come back on another
+            // thread (the signed-in round trip did, 2026-11-26, once the test account
+            // had trees of its own with photographs). A style gone meanwhile is skipped.
+            kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Main.immediate) {
+                if (!style.isFullyLoaded) return@withContext
+                style.addImage(mineIconFor(m.id), pin)
+                drawn.add(m.id)
+                style.getSourceAs<GeoJsonSource>(SOURCE_MINE)?.setGeoJson(mineCollection(mine, drawn))
+            }
         }
     }
 
@@ -325,6 +334,7 @@ fun TreeMapView(
             // left on screen and destroyed while it was still drawing held the main
             // thread for minutes on a slow phone offline (the small-phone walk, 2026-11-17).
             runCatching { mapView.onPause(); mapView.onStop() }
+            LiveMaps.remove(mapView)
             mapView.onDestroy()
         }
     }
@@ -944,3 +954,16 @@ internal fun styleFromDisk(context: android.content.Context, url: String): Style
     return if (kept != null) Style.Builder().fromJson(kept) else Style.Builder().fromUri(url)
 }
 
+
+
+/**
+ * The maps on screen now, so the app can hand their tile memory back when Android
+ * asks (MainActivity.onTrimMemory; MapLibre's MapView.onLowMemory, as its docs
+ * ask from the activity's own callback). Main thread only.
+ */
+object LiveMaps {
+    private val views = java.util.Collections.newSetFromMap(java.util.WeakHashMap<MapView, Boolean>())
+    fun add(v: MapView) { views.add(v) }
+    fun remove(v: MapView) { views.remove(v) }
+    fun lowMemory() { views.toList().forEach { runCatching { it.onLowMemory() } } }
+}

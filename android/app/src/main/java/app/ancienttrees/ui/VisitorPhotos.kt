@@ -16,6 +16,7 @@
 
 package app.ancienttrees.ui
 
+import androidx.compose.ui.platform.testTag
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -181,7 +182,10 @@ fun VisitorPhotosPage(catalogue: Catalogue, act: DiscoverActions, onBack: () -> 
                             .clip(VP_SHAPE)
                             .background(brand.surfaceMuted)
                             .doubleTapHeart(it.row.sightingId.lowercase()) { act.openTree(it.tree) }
-                            .semantics { contentDescription = "visitor-tile" },
+                            .semantics { contentDescription = "visitor-tile" }
+                            // The iPhone's identifier as a resource id too, so the spacing run pairs
+                            // tiles by kind, not by the day's tree names (2026-11-26).
+                            .testTag("visitor-tile"),
                     ) {
                         RemoteImage(it.shot.card, null, Modifier.fillMaxSize())
                         TagPill(it.tree.city, Modifier.align(Alignment.BottomStart).padding(6.dp))

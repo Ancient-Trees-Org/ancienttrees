@@ -8,7 +8,10 @@
     <string name="mt_signin_collect">Melde dich an, um deine Baumsammlung zu beginnen.</string>
     <string name="mt_collected_empty">Du fügst hier einen Baum hinzu, indem du ihn mit der Kamerataste fotografierst.</string>
     <string name="mt_all">Alle %1$d</string>
-    <string name="mt_followers">Follower</string>
+    <plurals name="mt_followers">
+        <item quantity="one">Follower</item>
+        <item quantity="other">Follower</item>
+    </plurals>
     <string name="mt_following">folge ich</string>
     <string name="mt_settings">Einstellungen</string>
     <string name="mt_find_people">Leute finden</string>

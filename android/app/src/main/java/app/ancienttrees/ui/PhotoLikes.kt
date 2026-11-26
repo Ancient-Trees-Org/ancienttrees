@@ -6,6 +6,7 @@
 
 package app.ancienttrees.ui
 
+import androidx.compose.ui.platform.testTag
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -187,7 +188,8 @@ fun PhotoHeart(photoId: String, onDark: Boolean = false, size: androidx.compose.
                         marks.signIn()
                     }
                 }
-                .semantics { contentDescription = "photo-like" },
+                .semantics { contentDescription = "photo-like" }
+                .testTag("photo-like"),
         ) {
             Icon(if (s.mine) Sym.HeartFill else Sym.Heart, null, tint = tint, modifier = Modifier.size(size))
         }
@@ -209,13 +211,26 @@ fun PhotoHeart(photoId: String, onDark: Boolean = false, size: androidx.compose.
     if (likers) PhotoLikersSheet(photoId) { likers = false }
 }
 
+/** One row of photo_likers: the account only for a public profile or your own. */
+data class Liker(val userId: String?, val name: String?, val avatar: String?)
+
+/**
+ * The name on a row (PhotoLikersList.label): "You" for your own heart (the server
+ * sends your own account back even when your profile is private), the public name
+ * for anyone else, else "A visitor". The iOS walk of 2026-11-25 saw a private test
+ * account as "A visitor" in its own list; Instagram's likers list says "You".
+ */
+fun likerLabel(r: Liker, me: String?): String =
+    if (r.userId != null && me != null && r.userId.equals(me, ignoreCase = true)) "You" else r.name ?: "A visitor"
+
 /** Kit/PhotoLikes.swift PhotoLikersSheet: who gave one, oldest first; a private profile is "A visitor". */
 @Composable
 fun PhotoLikersSheet(photoId: String, onDismiss: () -> Unit) {
     val marks = LocalTreeMarks.current
     val brand = Brand.colors
-    data class Liker(val userId: String?, val name: String?, val avatar: String?)
     val rows = remember { mutableStateListOf<Liker>() }
+    var me by remember { mutableStateOf<String?>(null) }
+    LaunchedEffect(Unit) { me = marks.myId() }
     LaunchedEffect(photoId) {
         val r = Supa.send("/rest/v1/rpc/photo_likers", token = marks.token(), body = JSONObject().put("photo", photoId).toString())
         if (r.ok) runCatching {
@@ -236,7 +251,7 @@ fun PhotoLikersSheet(photoId: String, onDismiss: () -> Unit) {
         buttons = emptyList(),
     ) {
         rows.forEach { p ->
-            val name = p.name ?: "A visitor"
+            val name = likerLabel(p, me)
             Row(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(12.dp),
@@ -250,10 +265,10 @@ fun PhotoLikersSheet(photoId: String, onDismiss: () -> Unit) {
                     contentAlignment = Alignment.Center,
                 ) {
                     if (p.avatar != null) RemoteImage(p.avatar, null, Modifier.fillMaxSize())
-                    else Text(name.take(1).uppercase(), fontSize = 16.sp, fontWeight = FontWeight.Black, color = brand.moss)
+                    else Text((p.name ?: name).take(1).uppercase(), fontSize = 16.sp, fontWeight = FontWeight.Black, color = brand.moss)
                 }
-                Text(name, fontSize = 16.sp, fontWeight = if (p.name == null) FontWeight.Normal else FontWeight.SemiBold,
-                    color = if (p.name == null) brand.inkSoft else brand.ink)
+                Text(name, fontSize = 16.sp, fontWeight = if (p.userId == null) FontWeight.Normal else FontWeight.SemiBold,
+                    color = if (p.userId == null) brand.inkSoft else brand.ink)
             }
         }
     }
