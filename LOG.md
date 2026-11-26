@@ -43,7 +43,8 @@ Rung 1: no reader backlog; one new tree note (North Berwick Law beeches, a visit
 - **Tokyo's page is the map opened on Tokyo.** The cross beside share, or dragging the map off Tokyo, turns the panel into the map's trees in view and the address into /explore#map=..., with no page load; Back brings Tokyo back. Only Tokyo so far (`ONE_MAP_CITIES` in site/src/lib/one-map.ts); every other city page is unchanged.
 - **A city picked in the search on /explore or Tokyo's map flies there**, then opens that city's page at the view it landed on, behind the browser's own cross-page fade (Hidde: "A, fly and fade"; site/src/lib/fly-to-city-js.ts). Swapping the panel in place would have meant rewriting a dozen page scripts on Google's landing pages; he chose this over that.
 - Breakage on the way: Tokyo's map drew no trees for one deploy (the list read its words at load); fixed and checked live.
-- Next: step 4 (every link to the map, from the feed, tree page and search, lands on the tree with its card open), then more cities.
+- **Step 4: a link to a tree on the map opens its card**, on every city page and on /explore (not only Tokyo): the tree page's bigger-map button, a visitor card's app-only tree, and a tree picked in the search on a map now fly to the tree with its card open, as Google Maps opens a shared place. Before, the city map only lit the pin. A tree picked in the search anywhere else still opens its page.
+- Next: more cities on the one map (`ONE_MAP_CITIES`), then translated, country and state pages.
 
 ## 2026-11-26 night run (19:08 window): nothing to ship
 
