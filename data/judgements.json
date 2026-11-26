@@ -109,6 +109,28 @@
    "agreed": null
   },
   {
+   "id": "sight:a072a9b8-cc9a-4c72-995f-b9d2bb875526",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Silk Mulberry of Ca' di David",
+   "city": "Verona",
+   "species": "White Mulberry (Morus alba)",
+   "photo": "out/sightings/a072a9b8-cc9a-4c72-995f-b9d2bb875526.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Mulberry (Morus alba)"
+   },
+   "verdict": "publish",
+   "reason": "The same reader's autumn photograph of the mulberry: whole tree in yellow leaf, the low split trunk and hollow by the fence. Now the lead, the summer one moved into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",

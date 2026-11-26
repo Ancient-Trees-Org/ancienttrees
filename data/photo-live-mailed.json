@@ -3225,7 +3225,17 @@
   },
   "p_0a92b73bb85b607e09b323ee": {
    "last": "2026-11-25",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "a072a9b8-cc9a-4c72-995f-b9d2bb875526",
+     "tree_id": "ver_011",
+     "tree_name": "The Silk Mulberry of Ca' di David",
+     "city": "Verona",
+     "city_slug": "verona",
+     "display_name": null,
+     "live": "2026-11-26"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "421f46f9-e2f0-4010-9611-dc19762ef95d",

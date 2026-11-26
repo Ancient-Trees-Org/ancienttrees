@@ -7956,6 +7956,17 @@
    "date": "2026-11-26",
    "tree_id": "bhm_001",
    "reason": "duplicate: the same photograph as a4d1c500, sent twice the same day (identical pixels and light scores)"
+  },
+  "a072a9b8-cc9a-4c72-995f-b9d2bb875526": {
+   "outcome": "added",
+   "date": "2026-11-26",
+   "tree_id": "ver_011",
+   "city_slug": "verona",
+   "file": "ver_011-the-silk-mulberry-of-ca-di-david-a072a9b8.jpg",
+   "reason": "The same mulberry in autumn, from the reader who added it: the whole tree in yellow leaf, the short trunk splitting low into two stems around a dark hollow, the wire fence and gate and the road just behind. Daylight, colour; the season the page lacked. Species seen: broad simple leaves turning yello",
+   "lat": 45.379173,
+   "lon": 11.011438,
+   "pin_checked": "2026-11-26"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

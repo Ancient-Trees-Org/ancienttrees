@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 reader judge: the Verona silk mulberry gets its autumn photograph
+
+**The Silk Mulberry of Ca' di David in Verona (ver_011) now leads with an autumn photograph.** The reader who added the tree on 11-24 sent it: the whole tree in yellow leaf, the low split trunk with its hollow, the fence and the road behind. Their summer photograph moved into the strip, and the new one is filed under November. The pin stays where it was, because the photograph's coordinate was our own hand-placed pin and not a GPS fix. The reader was mailed by `sightings_publish.py --send`. The pin catch-up got an HTTPError from the server again.
+
+Left waiting: lead 3c544597 (Amsterdam, near the Last Elm of Stationsplein) has no file on disk. It is marked `mine` (one of our own accounts), so it is never auto-published anyway. There were no open reports, feedback or tips.
+
 ## 2026-11-26 reader judge: a reader's autumn photograph now leads the Preston Twin
 
 **The Preston Twin in Brighton (bhm_001) has a reader's photograph as its lead.** It shows the whole elm in autumn yellow in front of the walled garden's wall: a burred trunk forking into two great limbs, small rounded toothed leaves on the lawn. The same trunk as the old Commons close-up, which moves to the strip. The photo is filed under November. The tree's approximate pin moved 98 m to the reader's fix and is now confirmed. The same photograph arrived twice, so the second copy (25947861) was rejected as a duplicate. The reader was mailed by `sightings_publish.py --send`. The script could not read pin coordinates from the server (HTTPError) during its pin catch-up. The move itself is in data/cities/brighton.json.
