@@ -79,7 +79,7 @@ struct HomeView: View {
     /// Discover's "New from visitors" row, from the server (NewFromVisitors).
     @State private var visitorRows: [NewFromVisitors.Row] = []
     /// Discover's "Trending this month" shelf (Kit/Trending.swift, a design).
-    @State private var trending: [Trending.Place] = []
+    @State private var trending: [Tree] = []
     @State private var trendColumn: Int?
 
     struct Shelves {
@@ -414,9 +414,9 @@ struct HomeView: View {
     // Polarsteps' "Trending deze maand": a numbered list three rows deep
     // that pages sideways a column at a time, the next column peeking in at
     // the right edge (CONVENTIONS.md "Trending this month"). Each row is a
-    // rounded square photograph, a big rank number, the place in bold with
-    // its country under it in grey, and the row's menu. A row opens the place
-    // on the map, as every place card on Discover does.
+    // TREE (Hidde, on the first design of places): a rounded square
+    // photograph, its rank, the tree's name in bold with its place under it
+    // in grey, and the row's menu. A row opens the tree's page.
     private static let trendThumb: CGFloat = 60
 
     @ViewBuilder private var trendingShelf: some View {
@@ -429,7 +429,7 @@ struct HomeView: View {
                     LazyHStack(alignment: .top, spacing: 16) {
                         ForEach(columns.indices, id: \.self) { c in
                             VStack(alignment: .leading, spacing: 12) {
-                                ForEach(columns[c], id: \.element.slug) { trendRow($0.offset + 1, $0.element) }
+                                ForEach(columns[c], id: \.element.id) { trendRow($0.offset + 1, $0.element) }
                             }
                             // One column is the screen less the margin and
                             // the next column's peek, as in the reference.
@@ -457,25 +457,26 @@ struct HomeView: View {
         }
     }
 
-    private func trendRow(_ rank: Int, _ p: Trending.Place) -> some View {
+    private func trendRow(_ rank: Int, _ t: Tree) -> some View {
         HStack(spacing: 4) {
-            PlaceLink(route: .city(p.slug)) {
+            NavigationLink(value: Route.tree(t.id)) {
                 HStack(spacing: 12) {
                     Color.clear.frame(width: Self.trendThumb, height: Self.trendThumb)
-                        .overlay {
-                            TreePhoto(url: p.shot?.card ?? p.tree.photo?.card) { Brand.surfaceMuted }
-                        }
+                        .overlay { TreePhoto(url: t.photo?.card) { Brand.surfaceMuted } }
                         .clipShape(.rect(cornerRadius: 12, style: .continuous))
+                    // THE NUMBER IN THE NAME'S OWN TYPE (Hidde, 2026-11-26:
+                    // "de getallen zijn belachelijk groot"): the same face,
+                    // weight and size as the tree's name beside it.
                     Text("\(rank)")
-                        .font(.brand(30, .black, relativeTo: .title))
+                        .font(.brand(16, .bold, relativeTo: .headline))
                         .foregroundStyle(Brand.ink)
                         .monospacedDigit()
-                        .frame(width: 22, alignment: .center)
+                        .fixedSize()
                     VStack(alignment: .leading, spacing: 2) {
-                        Text(p.name)
+                        Text(t.name)
                             .font(.brand(16, .bold, relativeTo: .headline))
                             .foregroundStyle(Brand.ink).lineLimit(1)
-                        Text(p.country)
+                        Text(t.city)
                             .font(.subheadline).foregroundStyle(Brand.inkSoft).lineLimit(1)
                     }
                     .layoutPriority(1)
@@ -483,14 +484,19 @@ struct HomeView: View {
                 }
                 .contentShape(.rect)
             }
+            .buttonStyle(.plain)
             .accessibilityElement(children: .combine)
-            .accessibilityLabel("\(rank). \(p.name), \(p.country)")
+            .accessibilityLabel("\(rank). \(t.name), \(t.city)")
             Menu {
-                Button { navigator.push = .city(p.slug) } label: {
-                    Label("Show on the map", systemImage: "map")
+                Button {
+                    if account.isSignedIn { saved.toggleSaved(t.id) } else { nudge.require(.general) }
+                } label: {
+                    saved.isSaved(t.id)
+                        ? Label("Remove from Want to visit", systemImage: "bookmark.slash")
+                        : Label("Want to visit", systemImage: "bookmark")
                 }
-                if let url = Shared.page("/\(p.slug)", from: "trending") {
-                    ShareLink(item: url, subject: Text(p.name)) {
+                if let url = Shared.page(t.url, from: "trending") {
+                    ShareLink(item: url, subject: Text(t.name)) {
                         Label("Share", systemImage: "square.and.arrow.up")
                     }
                 }
@@ -501,7 +507,7 @@ struct HomeView: View {
                     .frame(width: 24, height: 44)
                     .contentShape(.rect)
             }
-            .accessibilityLabel("More for \(p.name)")
+            .accessibilityLabel("More for \(t.name)")
         }
     }
 
