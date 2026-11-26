@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 night run (second attempt, 17:30): nothing to ship, checked and left
+
+- Claims: none standing. READY leads: 3 (York, Guimaraes, Leamington Spa), under the six-candidate floor for a pass, and the other verified files are stale or duplicates of live trees. Own research is paused, so nothing was dispatched.
+- iOS red: the 15:49 run failed on the Trending "More" button (SMALL, 24 by 44), which 3bb91fdc9 already fixed; the run for that commit was still going. The five open app bug rows wait on that run's new walks. The open "a tree you added cannot be edited" row is a feature for Hidde.
+- Web errors: three new types, one page each, under the red threshold (3+ pages).
+
 ## 2026-11-26 night run (17:08 window): iOS red fixed, nothing else to take
 
 - Rung 1: only lead 3c544597 (our own account, file not on disk), already noted by the reader judge; left alone. Rung 2: ios.yml's last failure on main was appfit SMALL on Explore, the Trending row's "More for <tree>" button at 24 by 44 (Home.swift). Widened to 44 by 44 with a -20 trailing padding so the layout stays; not run here (no Xcode on this runner), the next ios.yml run is the proof. Open BUG rows in data/code-audit.json (7, 6 found by people) and the web error `null has no property 'save'` were not touched this window.
