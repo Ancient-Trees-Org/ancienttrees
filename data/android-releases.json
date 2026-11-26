@@ -1,0 +1,4 @@
+{
+ "_note": "Android versionCodes released to testers on Google Play. Uploads are by hand, so the session that releases a build adds its number here; scripts/bug_fixed_mail.py tells readers a fix is out only once its build is listed.",
+ "released": [6]
+}

@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 session: readers hear "fixed, comes with the next update" before the build lands
+
+- **The order** (Hidde: "dit kan heel lang duren dus ik zou m alvast mailen", "onthou die volgorde"): `scripts/bug_fixed_mail.py` now mails an app fix twice, the day it is on main ("We fixed it ... The fix comes with the next app update") and again when the build is in their store ("The fix is in the app now"); a website fix once. Where a fix lives is read from the files its commit changed.
+- Android counts as out only once its versionCode is in the new data/android-releases.json (Play uploads are by hand; android_release.py prints the reminder). 6 is listed.
+- Sent now through tell-readers.yml: the first mail to #1488 (Tortworth under Westonbirt), #1491 (country that would not stay, iPhone build 42) and #1686 (could not add trees, Android build 7).
+
 ## 2026-11-26 session: the Feed is a tab of its own, on both phones, and the web row reads the server (Hidde: the feed "een eigen tab", design "niet slecht")
 
 **What changed in the product (not in a store build yet; Hidde releases):**
