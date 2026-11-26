@@ -74,23 +74,28 @@ struct FeedView: View {
                         header.id("feed-top").padding(.bottom, -12)
                         let list = shown
                         if grid {
-                            // People you may know above the photographs,
-                            // where Polarsteps puts its row on Activity.
-                            if account.isSignedIn && filter == .everyone {
-                                FeedPeopleRow(following: following)
-                            }
-                            tiles(list, width: geo.size.width)
+                            // People you may know between the photographs,
+                            // never opening the page (Hidde, 2026-11-26: "niet
+                            // de pagina mee openen ... ergens tussendoor"), as
+                            // Instagram's "Suggested for you" comes mid-feed.
+                            let cut = min(6, list.count)
+                            tiles(Array(list.prefix(cut)), width: geo.size.width, offset: 0, total: list.count)
                                 .padding(.horizontal, -Self.edge)
                                 .padding(.top, 4)
+                            if account.isSignedIn && filter == .everyone && list.count > cut {
+                                FeedPeopleRow(following: following).id("feed-people")
+                            }
+                            if list.count > cut {
+                                tiles(Array(list.dropFirst(cut)), width: geo.size.width, offset: cut, total: list.count)
+                                    .padding(.horizontal, -Self.edge)
+                            }
                         } else {
                             ForEach(Array(list.enumerated()), id: \.element.post.key) { i, it in
                                 post(it.post, prev: it.prev, width: width)
                                     .id("feed-\(i)")
                                     .onAppear { if i >= list.count - 6 { Task { await more() } } }
-                                // People you may know after the second post,
-                                // where Instagram's "Suggested for you" sits.
-                                if i == 1 && account.isSignedIn && filter == .everyone {
-                                    FeedPeopleRow(following: following).id("feed-people")
+                                if i == 2 && account.isSignedIn && filter == .everyone {
+                                    FeedPeopleRow(following: following)
                                 }
                             }
                         }
@@ -206,7 +211,8 @@ struct FeedView: View {
     /// when the server has no size), the place on it, the tree's name and who
     /// under it, the website's tile (VisitorPhotos.swift's numbers). A tap
     /// opens the tree, as a tile on the website does.
-    private func tiles(_ list: [(post: FeedPosts.Post, prev: FeedPosts.Post?)], width: CGFloat) -> some View {
+    private func tiles(_ list: [(post: FeedPosts.Post, prev: FeedPosts.Post?)], width: CGFloat,
+                       offset: Int = 0, total: Int = 0) -> some View {
         let gap: CGFloat = 12
         let colWidth = (width - Self.edge * 2 - gap) / 2
         func ratio(_ p: FeedPosts.Post) -> CGFloat {
@@ -225,7 +231,7 @@ struct FeedView: View {
                 LazyVStack(alignment: .leading, spacing: 16) {
                     ForEach(cols[c], id: \.1.key) { entry in
                         tile(entry.1, prev: entry.2, width: colWidth, ratio: ratio(entry.1))
-                            .onAppear { if entry.0 >= list.count - 8 { Task { await more() } } }
+                            .onAppear { if offset + entry.0 >= max(total, list.count) - 8 { Task { await more() } } }
                     }
                 }
                 .frame(width: colWidth, alignment: .top)
@@ -253,6 +259,14 @@ struct FeedView: View {
             .modifier(DoubleTapLike(id: p.likeId))
             .accessibilityLabel(p.place.isEmpty ? p.tree_name : "\(p.tree_name), \(p.place)")
             .accessibilityIdentifier("feed-tile")
+            // The website's /visitors tile (Hidde, 2026-11-19 and 11-20): the
+            // save on the photograph's top right, over the link and not in it,
+            // and the heart at the end of the byline. Saving is the tree's,
+            // the heart the person's photograph; a share not checked yet has
+            // neither (no tree of ours, no published photograph).
+            .overlay(alignment: .topTrailing) {
+                if p.isChecked { SaveHeart(tree: known ?? FeedPosts.stub(p), look: .onPhoto).padding(6) }
+            }
             Text(p.tree_name)
                 .font(.brand(14, .bold, relativeTo: .subheadline))
                 .foregroundStyle(Brand.ink)
@@ -265,6 +279,8 @@ struct FeedView: View {
                     Text("· \(when)").font(.system(size: 12)).foregroundStyle(Brand.inkSoft.opacity(0.75))
                         .lineLimit(1).fixedSize()
                 }
+                Spacer(minLength: 0)
+                if let like = p.likeId { PhotoHeart(photoId: like).frame(height: 16) }
             }
             .contentShape(.rect)
             .onTapGesture { if p.author_name != nil { openAuthor(p, prev: prev) } }

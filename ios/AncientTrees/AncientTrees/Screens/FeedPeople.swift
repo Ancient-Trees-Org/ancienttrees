@@ -26,7 +26,7 @@ struct FeedPeopleRow: View {
     @State private var gone: Set<String> = []
     @State private var followed: Set<String> = []
 
-    private static let cardWidth: CGFloat = 164
+    private static let cardWidth: CGFloat = 132
 
     var body: some View {
         let shown = people.filter { !gone.contains($0.profile.user_id) }
@@ -57,15 +57,15 @@ struct FeedPeopleRow: View {
         let on = followed.contains(p.user_id)
         return VStack(spacing: 6) {
             Button { navigator.push = .person(p.user_id) } label: {
-                VStack(spacing: 10) {
-                    face(p).frame(width: 84, height: 84)
+                VStack(spacing: 8) {
+                    face(p).frame(width: 60, height: 60)
                     VStack(spacing: 3) {
                         Text(p.display_name)
-                            .font(.system(size: 15, weight: .semibold))
+                            .font(.system(size: 14, weight: .semibold))
                             .foregroundStyle(Brand.ink)
                             .lineLimit(1)
                         Text(s.reason)
-                            .font(.system(size: 13))
+                            .font(.system(size: 12))
                             .foregroundStyle(Brand.inkSoft)
                             .multilineTextAlignment(.center)
                             .lineLimit(2, reservesSpace: true)
@@ -77,9 +77,9 @@ struct FeedPeopleRow: View {
             .accessibilityIdentifier("feed-person")
             Button { Task { await toggle(p.user_id) } } label: {
                 Text(on ? "Following" : "Follow")
-                    .font(.system(size: 15, weight: .semibold))
+                    .font(.system(size: 14, weight: .semibold))
                     .foregroundStyle(on ? Brand.ink : .white)
-                    .padding(.horizontal, 22).frame(height: 36)
+                    .padding(.horizontal, 18).frame(height: 32)
                     .background(on ? Color.clear : Brand.ink, in: .capsule)
                     .overlay { if on { Capsule().strokeBorder(Brand.hairline, lineWidth: 1) } }
                     .frame(minHeight: 44)
@@ -88,7 +88,7 @@ struct FeedPeopleRow: View {
             .buttonStyle(.plain)
             .accessibilityIdentifier("feed-person-follow")
         }
-        .padding(.horizontal, 12).padding(.top, 18).padding(.bottom, 10)
+        .padding(.horizontal, 10).padding(.top, 14).padding(.bottom, 6)
         .frame(width: Self.cardWidth)
         .background(Brand.surfaceMuted, in: .rect(cornerRadius: 20, style: .continuous))
         .overlay(alignment: .topTrailing) {
@@ -98,7 +98,7 @@ struct FeedPeopleRow: View {
                 Image(systemName: "xmark")
                     .font(.system(size: 10, weight: .bold))
                     .foregroundStyle(.white)
-                    .frame(width: 22, height: 22)
+                    .frame(width: 20, height: 20)
                     .background(Brand.ink, in: .circle)
                     .frame(width: 44, height: 44)
                     .contentShape(.rect)
@@ -116,7 +116,7 @@ struct FeedPeopleRow: View {
                 TreePhoto(url: u) { Color.clear }.clipShape(.circle)
             } else if let first = p.display_name.first {
                 Text(String(first).uppercased())
-                    .font(.brand(32, .black, relativeTo: .title))
+                    .font(.brand(24, .black, relativeTo: .title))
                     .foregroundStyle(Brand.moss)
             }
         }

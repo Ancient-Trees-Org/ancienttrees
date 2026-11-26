@@ -130,13 +130,13 @@ struct TabBar: View {
                 .renderingMode(.template)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 28, height: 28)
-                .frame(height: 24)
+                .frame(width: 25, height: 25)
+                .frame(height: 22)
         } else {
             Image(systemName: item.symbol)
-                .font(.system(size: 21, weight: .regular))
+                .font(.system(size: 19, weight: .regular))
                 .environment(\.symbolVariants, on ? .fill : .none)
-                .frame(height: 24)
+                .frame(height: 22)
         }
     }
 
@@ -150,7 +150,12 @@ struct TabBar: View {
                         // itself is instant on iOS and always has been.
                         withAnimation(.snappy(duration: 0.28)) { select(i) }
                     } label: {
-                        VStack(spacing: 3) {
+                        // POLARSTEPS' BALANCE (Hidde, 2026-11-26: "de balans bij
+                        // Polarsteps iets beter ... iconen iets kleiner"),
+                        // measured on his screenshot: a 23 point glyph, 6
+                        // points to the word, the pair centred with air above
+                        // and below. Ours was 21 point type with 3 to the word.
+                        VStack(spacing: 6) {
                             glyph(item, on: i == selected)
                             Text(item.title)
                                 .font(.system(size: 11,
@@ -161,9 +166,9 @@ struct TabBar: View {
                         // preference (Hidde, 2026-08-26: "flikker op met dat
                         // hele groen, maak het gewoon zwart-wit en zoals zij
                         // doen met dat grijze overlay").
-                        .foregroundStyle(i == selected ? Brand.ink : Brand.inkSoft.opacity(0.8))
+                        .foregroundStyle(i == selected ? Brand.ink : Brand.ink.opacity(0.72))
                         .frame(maxWidth: .infinity)
-                        .frame(height: 50)
+                        .frame(height: 46)
                         // THE SECOND COLOUR, which is the part he asked for by
                         // name (2026-08-26: "ze hebben een tweede kleur extra
                         // die om het icoon zit naast de fill om aan te geven
@@ -195,7 +200,7 @@ struct TabBar: View {
                     .accessibilityAddTraits(i == selected ? [.isSelected, .isButton] : .isButton)
                 }
             }
-            .padding(4)
+            .padding(6)
             // A GREY BAR, not a white one. `.regularMaterial` alone renders
             // nearly white over a pale map, so the pill behind the selected
             // item had nothing to stand out against; the reference bar is
