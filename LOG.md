@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-26 session: US round 3 sent, round 4 (empty cities) ready
+
+- Round 3 sent through Resend on Hidde's "Verstuur ze": 8 (Charleston City Paper, South Carolina Wildlife, Big Island Now, Delaware County Daily Times, Audubon, Friends of the Parks, Chicagology, Bronx.com). 58 US local mails out since 11-25; one answer so far (The East Hampton Star).
+- Round 4 on hold, drafts/batches/press-us-empty-cities-round4.json (private): 14 desks in big US cities with no or hardly any trees (Phoenix, Denver, Detroit, Charlotte, Memphis, Louisville, Sacramento, Nashville, Milwaukee, Indianapolis, Cincinnati, Raleigh, Tampa, Albuquerque). The P.S. asks which tree their readers would put on the map first ("still empty" only where none of ours stands within 30 km). No desk address found for Columbus, Jacksonville, Omaha, Orlando or Tucson. mailcheck clean.
+
 <!-- archive-index -->
 
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
