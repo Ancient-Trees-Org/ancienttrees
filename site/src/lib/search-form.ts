@@ -236,7 +236,8 @@ export function searchWidgetJs(lang = "en"): string {
       // A place row says which place it is, so the search on /explore can
       // move the map there instead of leaving it (go() below).
       var pk = r.kind === 'country' ? ' data-pk="country" data-pv="' + escT(r.it.country).replace(/"/g, '&quot;') + '"'
-             : r.kind === 'city' ? ' data-pk="city" data-pv="' + r.it.u + '"' : '';
+             : r.kind === 'city' ? ' data-pk="city" data-pv="' + r.it.u + '"'
+             : r.kind === 'tree' ? ' data-pk="tree" data-pv="' + escA(r.it.i) + '"' : '';
       // A country opens the map on that country, never its page (Hidde,
       // 2026-11-01: "interessanter om op de kaart te komen", as Airbnb does).
       // A city still opens its page, which is itself a map with the walk.
@@ -316,7 +317,7 @@ export function searchWidgetJs(lang = "en"): string {
         if (it) h = { n: it.n, s: (it.lh ? it.lh + ' &middot; ' : '') + it.count + ' mapped', u: '/' + it.u };
       } else if (r.kind === 'tree') {
         it = IDX.t.filter(function(t) { return t.i === r.key; })[0];
-        if (it) h = { n: it.n, s: escT(it.c), u: '/' + it.u };
+        if (it) h = { n: it.n, s: escT(it.c), u: '/' + it.u, pk: ' data-pk="tree" data-pv="' + escA(it.i) + '"' };
       } else if (r.kind === 'place') {
         var ll = String(r.key).split(',');
         if (ll.length === 2 && r.label) h = { n: r.label, s: escT(r.sub || STR.onMap),
@@ -415,8 +416,9 @@ export function searchWidgetJs(lang = "en"): string {
     }
     at.track('search-' + ctx, norm(input.value.trim()).slice(0, 60));
     // On the map a place stays on the map (Airbnb, and our app): the map
-    // frames it and the field keeps its name. Anywhere else, and for a
-    // species or a tree, the row is a link.
+    // frames it and the field keeps its name. A tree opens on the map with
+    // its card (Google Maps, 2026-11-26). Anywhere else, and for a species,
+    // the row is a link.
     var pk = row.getAttribute('data-pk');
     if (pk && window.atMapPlace && window.atMapPlace(pk, row.getAttribute('data-pv'))) {
       var b = row.querySelector('b');

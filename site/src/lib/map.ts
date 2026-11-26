@@ -726,6 +726,7 @@ window.atMapPlace = function(kind, key) {
   // good"). Since 2026-11-26 the map flies there first and the city's page
   // opens at the view it landed on (fly-to-city-js.ts, "A, fly and fade").
   if (kind === 'city') { atFlyToCity(map, key); return true; }
+  if (kind === 'tree') { return _openTree(key, true); }
   _headFor(kind === 'country' ? key : null);
   // The place searched for leads the list under the map until the search
   // field changes (Hidde, 2026-11-06: searching United Kingdom fitted the
@@ -777,6 +778,48 @@ function _countryFromHash() {
 }
 _countryFromHash();
 window.addEventListener('hashchange', _countryFromHash);
+// A LINK TO A TREE ON THE MAP opens that tree's card (step 4 of the one map,
+// Hidde 2026-11-26; lib/one-map.ts): #tree=<id>, from a one-tree place's
+// "bigger map" and from a tree picked in this map's search. Google Maps'
+// shared place: the map flies to it and the card a pin tap shows is open.
+function _openTree(id, animate) {
+  var f = null;
+  for (var i = 0; i < DATA.features.length; i++) {
+    if (DATA.features[i].properties.id === id) { f = DATA.features[i]; break; }
+  }
+  if (!f || f.geometry.coordinates[0] === null) { return false; }
+  var c = f.geometry.coordinates, shown = false;
+  function show() {
+    if (shown) { return; }
+    var card = T.card();
+    if (!card) { setTimeout(show, 200); return; }
+    shown = true;
+    card(f.properties, c);
+  }
+  var lift = 0;
+  try {
+    var mr = map.getContainer().getBoundingClientRect();
+    var st = window.atSheetTop ? window.atSheetTop() : null;
+    if (st !== null && st < mr.bottom) { lift = (mr.bottom - st) / 2; }
+  } catch (e) {}
+  var z = Math.max(map.getZoom(), 15);
+  if (animate) {
+    map.once('moveend', show);
+    setTimeout(show, 2000);
+    map.flyTo({center: c, zoom: z, offset: [0, -lift], duration: 1200});
+  } else {
+    map.jumpTo({center: c, zoom: z});
+    if (map.loaded()) { show(); } else { map.once('load', show); }
+  }
+  return true;
+}
+(function() {
+  var m = /^#tree=(.+)$/.exec(location.hash);
+  if (!m) { return; }
+  var id = '';
+  try { id = decodeURIComponent(m[1]); } catch (e) { return; }
+  _openTree(id, false);
+})();
 var pins = null;
 // Called by the one map (atTreeMap) once its trees exist.
 function initTreeLayers(p) {

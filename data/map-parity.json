@@ -214,6 +214,15 @@
       "android": "the map search does the same as iOS; nothing to change",
       "status": "one-sided",
       "why": "the website catching up with the phones, which already stay on one map"
+    },
+    {
+      "what": "One map on the website, step 4 (Hidde, 2026-11-26): a link to a tree on the map (#tree=<id>: a tree page's bigger map, a visitor card's app-only tree, a tree picked in a map's search) flies to the tree and opens its card, on every city page and on /explore",
+      "since": "2026-11-26",
+      "web": "city-map-script.ts openOnTree and _searchTree, map.ts _openTree and #tree=, search-form.ts tree rows carry data-pk tree, TreeDetail.astro expandUrl",
+      "ios": "the tree page's full-map button and a searched tree already open the map on the tree with it chosen; nothing to change",
+      "android": "the same as iOS; nothing to change",
+      "status": "one-sided",
+      "why": "the website catching up with the phones"
     }
   ]
 }

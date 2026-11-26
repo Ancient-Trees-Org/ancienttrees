@@ -122,8 +122,9 @@ const spLatin = m ? m[2] : null;
 const openUrl = `${OPEN_APP_URL}?tree=${encodeURIComponent(tree.id)}`;
 const google = `https://www.google.com/maps/dir/?api=1&destination=${loc.latitude},${loc.longitude}&travelmode=walking`;
 // A one-tree place's cityUrl is already the explore map at this tree
-// (lib/place-page, 2026-11-05), which carries its own #map= hash.
-const expandUrl = p.cityUrl.includes("#") ? p.cityUrl : `${p.cityUrl}#tree=${encodeURIComponent(tree.id)}`;
+// (lib/place-page, 2026-11-05); its bigger map opens that map on this tree
+// with its card open, as the city map does (map.ts reads #tree=, 2026-11-26).
+const expandUrl = `${p.cityUrl.split("#")[0]}#tree=${encodeURIComponent(tree.id)}`;
 const movedTemplate = U.pinMoved(987654).replace("987654", "{m}");
 const visibleCrumbs = p.crumbs.slice(0, -1);
 // A PORTRAIT OR SQUARE LEAD on a desktop stands beside the facts at its own

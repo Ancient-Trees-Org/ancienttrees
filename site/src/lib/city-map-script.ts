@@ -565,11 +565,43 @@ if (location.hash.indexOf('#trees=') === 0) {
 paintPassport();
 
 // The #tree=<id> arrival (wantTree, above), once the pins exist.
+// Since 2026-11-26 (step 4 of the one map, lib/one-map.ts) every link to a
+// tree on the map lands with that tree's card open, as Google Maps opens a
+// shared place: the map flies to it and shows the card a pin tap shows.
 function openOnTree(want) {
   for (var ti = 0; ti < markers.length; ti++) {
-    if (markers[ti].id === want) { setActive(ti, true, false); return; }
+    if (markers[ti].id === want) {
+      var idx = ti, shown = false;
+      var show = function() { if (shown) { return; } shown = true; selectTree(idx); };
+      map.once('moveend', show);
+      setTimeout(show, 2000);
+      setActive(idx, true, false, true);
+      return true;
+    }
   }
+  return false;
 }
+// A tree picked in the search on this map (search-form.ts go(), data-pk
+// "tree"): one of this city's opens here; one of another city's opens that
+// city's map on it; one no map holds is its page, the row's own link.
+function _searchTree(id) {
+  if (openOnTree(id)) {
+    try { history.replaceState(null, '', location.pathname + location.search + '#tree=' + encodeURIComponent(id)); } catch (e) {}
+    return true;
+  }
+  for (var ni = 0; ni < NEARBY.length; ni++) {
+    if (NEARBY[ni].properties.id === id) {
+      location.href = '/' + NEARBY[ni].properties.cs + '#tree=' + encodeURIComponent(id);
+      return true;
+    }
+  }
+  return false;
+}
+var _placeSearch = window.atMapPlace;
+window.atMapPlace = function(kind, key) {
+  if (kind === 'tree') { return _searchTree(key); }
+  return _placeSearch ? _placeSearch(kind, key) : false;
+};
 // "Where am I" is the one map's locate button now (atTreeMap), the same
 // on every map; the city page's own button went on 2026-11-20.
 `);
