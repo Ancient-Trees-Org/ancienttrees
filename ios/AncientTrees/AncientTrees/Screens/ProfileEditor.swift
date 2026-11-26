@@ -78,13 +78,18 @@ struct ProfileEditor: View {
                             .textInputAutocapitalization(.words)
                             .multilineTextAlignment(.trailing)
                     }
-                    Picker("Country", selection: $country) {
-                        Text("Don't show").tag(String?.none)
-                        ForEach(Self.countries, id: \.code) { c in
-                            Text(Self.row(c)).tag(Optional(c.code))
+                    // A row that opens a SEARCHABLE list, scrolled to your
+                    // country, as iOS Settings > Language & Region does (release
+                    // walk 2026-11-25: 250 rows from the top, no search, and two
+                    // taps landed on a neighbour while the list still glided).
+                    NavigationLink {
+                        CountryList(country: $country)
+                    } label: {
+                        LabeledContent("Country") {
+                            Text(country.flatMap { code in Self.countries.first { $0.code == code } }
+                                    .map(Self.row) ?? "Don't show")
                         }
                     }
-                    .pickerStyle(.navigationLink)
                     .accessibilityIdentifier("profile-country")
                 }
                 if failed {
@@ -190,6 +195,57 @@ struct ProfileEditor: View {
             .compactMap { code in en.localizedString(forRegionCode: code).map { (code, $0) } }
             .sorted { $0.1.localizedCaseInsensitiveCompare($1.1) == .orderedAscending }
     }()
+}
+
+/// The country list behind Edit profile's Country row: a search field, the
+/// chosen one ticked and in view on opening, a tap that picks and goes back.
+struct CountryList: View {
+    @Binding var country: String?
+    @Environment(\.dismiss) private var dismiss
+    @State private var query = ""
+
+    /// The countries whose English name, or code, starts what was typed, or
+    /// any word in the name. Pure, for the test.
+    static func matching(_ query: String) -> [(code: String, name: String)] {
+        let q = SpeciesSearch.fold(query)
+        guard !q.isEmpty else { return ProfileEditor.countries }
+        return ProfileEditor.countries.filter {
+            SpeciesSearch.startsAWord($0.name, q) || $0.code.lowercased() == q
+        }
+    }
+
+    var body: some View {
+        ScrollViewReader { reader in
+            List {
+                if query.isEmpty { pickRow(nil, "Don't show") }
+                ForEach(Self.matching(query), id: \.code) { c in
+                    pickRow(c.code, ProfileEditor.row(c))
+                }
+            }
+            .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always),
+                        prompt: "Search countries")
+            .navigationTitle("Country")
+            .navigationBarTitleDisplayMode(.inline)
+            .onAppear { if let country { reader.scrollTo(country, anchor: .center) } }
+        }
+    }
+
+    private func pickRow(_ code: String?, _ label: String) -> some View {
+        Button {
+            country = code
+            dismiss()
+        } label: {
+            HStack {
+                Text(label).foregroundStyle(Brand.ink)
+                Spacer()
+                if country == code {
+                    Image(systemName: "checkmark").foregroundStyle(Brand.moss)
+                }
+            }
+            .contentShape(.rect)
+        }
+        .id(code ?? "none")
+    }
 }
 
 /// The bucket half. One file per person, at a path only they may write, which

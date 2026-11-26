@@ -203,6 +203,15 @@ struct PhotoLikersList: View {
         let created_at: String
         var id: String { (user_id ?? "") + created_at }
     }
+
+    /// The name on a row: "You" for your own heart (the server sends your
+    /// own account back even when your profile is private), the public name
+    /// for anyone else, else "A visitor". Instagram's likers list says "You"
+    /// the same way.
+    static func label(_ r: Row, me: String?) -> String {
+        if let id = r.user_id, let me, id.lowercased() == me.lowercased() { return "You" }
+        return r.display_name ?? "A visitor"
+    }
     @State private var rows: [Row] = []
 
     var body: some View {
@@ -218,21 +227,21 @@ struct PhotoLikersList: View {
                             }
                         } label: {
                             HStack(spacing: 12) {
-                                let name = r.display_name ?? "A visitor"
+                                let name = PhotoLikersList.label(r, me: account.session?.userId)
                                 ZStack {
                                     Circle().fill(Brand.moss.opacity(0.12))
                                     if let a = r.avatar_url, let u = URL(string: a) {
                                         TreePhoto(url: u) { Color.clear }.clipShape(.circle)
                                     } else {
-                                        Text(String(name.prefix(1)).uppercased())
+                                        Text(String((r.display_name ?? name).prefix(1)).uppercased())
                                             .font(.brand(16, .black, relativeTo: .body))
                                             .foregroundStyle(Brand.moss)
                                     }
                                 }
                                 .frame(width: 40, height: 40)
                                 Text(name)
-                                    .font(.callout.weight(r.display_name == nil ? .regular : .semibold))
-                                    .foregroundStyle(r.display_name == nil ? Brand.inkSoft : Brand.ink)
+                                    .font(.callout.weight(r.user_id == nil ? .regular : .semibold))
+                                    .foregroundStyle(r.user_id == nil ? Brand.inkSoft : Brand.ink)
                                 Spacer()
                             }
                             .padding(.vertical, 8)

@@ -12,7 +12,8 @@
 --
 -- * photo_likers(photo): who gave this photograph a heart, oldest first, for
 --   a signed-in caller only (names are signed-in only, as everywhere). A
---   private profile comes back without name or account: "A visitor".
+--   private profile comes back without name or account: "A visitor", unless
+--   it is the caller's own, which the app shows as "You".
 -- * my_photo_activity(n): for the caller's own photographs, the hearts other
 --   people gave, one row per photograph, newest first: how many, when the
 --   last came, up to two public names and faces, and whether any came after
@@ -37,9 +38,12 @@ security definer
 set search_path = public
 stable
 as $$
-  select case when p.public then l.user_id end,
-         case when p.public then p.display_name end,
-         case when p.public then p.avatar_url end,
+  -- Your own heart comes back with your account even when your profile is
+  -- private, so the list can say "You" (release walk 2026-11-25: the test
+  -- account saw itself as "A visitor"). Nobody else sees more than before.
+  select case when p.public or l.user_id = auth.uid() then l.user_id end,
+         case when p.public or l.user_id = auth.uid() then p.display_name end,
+         case when p.public or l.user_id = auth.uid() then p.avatar_url end,
          l.created_at
   from public.photo_likes l
   left join public.profiles p on p.user_id = l.user_id

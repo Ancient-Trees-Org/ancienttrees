@@ -56,6 +56,11 @@ struct PhotoViewer: View {
     /// for and brings the person who opens it to the tree. Nil: no button.
     var shareURL: URL? = nil
     var shareMessage: String = ""
+    /// Told which picture is on screen as you page, so the page behind can
+    /// show the same one when the viewer closes (release walk 2026-11-25:
+    /// closed on 2 of 4, the tree page was back on 1). Apple Photos and
+    /// Airbnb's gallery come back to where you were.
+    var onPage: ((Int) -> Void)? = nil
     @State private var confirmingDelete = false
 
     @State private var scale: CGFloat = 1
@@ -201,6 +206,7 @@ struct PhotoViewer: View {
         .accessibilityElement(children: .contain)
         .accessibilityIdentifier("photo-viewer")
         .onAppear { at = gallery.indices.contains(startAt) ? startAt : 0 }
+        .onChange(of: at) { _, now in onPage?(now) }
         // The same words as the website's sheet (UIStrings photoDelete*).
         .sheet(isPresented: $confirmingDelete) {
             BrandSheet(

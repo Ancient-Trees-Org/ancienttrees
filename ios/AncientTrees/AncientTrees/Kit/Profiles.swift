@@ -313,6 +313,16 @@ public final class Profiles {
         return String("\(first) \(parts[parts.count - 1].prefix(1)).".prefix(40))
     }
 
+    /// The letter in your own avatar when it has no picture, the same on My
+    /// trees and Settings: your profile's name first, the address only while
+    /// the profile has not loaded. Settings took the address's letter and My
+    /// trees the name's, so one person showed "A" and "L" (release walk,
+    /// 2026-11-25). Pure, for the test.
+    nonisolated public static func myInitial(displayName: String?, email: String?) -> String? {
+        let name = (displayName?.isEmpty == false ? displayName : nil) ?? email
+        return name?.first.map { String($0).uppercased() }
+    }
+
     /// Give a profile its first name from what the provider said, once.
     /// True when a name exists afterwards, from before or from this call;
     /// false means the person has to be asked (ProfileEditor).

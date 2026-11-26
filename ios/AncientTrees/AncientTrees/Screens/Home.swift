@@ -50,6 +50,15 @@ struct HomeView: View {
     @Environment(Nudge.self) private var nudge
     @Environment(Saved.self) private var saved
     @State private var searching = false
+    /// BACK FROM A RESULT IS THE RESULTS (release walk, 2026-11-25: Back from
+    /// a tree found by search landed on Discover and the query was gone). The
+    /// App Store's and Google Maps' search keep the list one Back away. What
+    /// was typed is kept while the tree or species is open; when Discover
+    /// shows again after it, the search opens on the same results.
+    @State private var typed = ""
+    @State private var backToResults: String?
+    @State private var awayOnResult = false
+    @State private var resumeQuery: String?
     /// QUICK RETURN (Hidde, 2026-10-12: "the convention is that it moves away
     /// but comes back once you scroll up again"). The header with the search
     /// field slides away while you read down and returns the moment you
@@ -357,23 +366,32 @@ struct HomeView: View {
         // inline title keeps the bar (searchable lives in it) without the word
         // "Home" shouting over the hero.
         .toolbar(.hidden, for: .navigationBar)
-        .fullScreenCover(isPresented: $searching) {
-            MapSearch(catalogue: catalogue, origin: origin) { hit in
+        .fullScreenCover(isPresented: $searching, onDismiss: { resumeQuery = nil }) {
+            MapSearch(catalogue: catalogue, origin: origin, onPick: { hit in
                 // A PLACE LANDS ON THE MAP, as the map's own search does
                 // (Hidde, 2026-11-03: the same search went to two different
                 // screens). A tree or a species is still its own page.
                 switch hit {
                 case .city, .country: navigator.searchOnMap = SearchOnMap(hit: hit)
-                case .species(let name): navigator.push = .species(name)
-                case .tree(let t): navigator.push = .tree(t.id)
+                case .species(let name): backToResults = typed; navigator.push = .species(name)
+                case .tree(let t): backToResults = typed; navigator.push = .tree(t.id)
                 // A town with none of our trees is a place on the MAP, where
                 // its empty card and nearest tree wait (2026-10-25).
                 case .place(let name, let lat, let lng):
                     navigator.showPlaceOnMap = PlaceOnMap(name: name, lat: lat, lng: lng)
                 }
-            }
+            }, resume: resumeQuery, onQuery: { typed = $0 })
         }
-        .refreshable { await store.refresh() }
+        // Discover leaves for the picked tree or species: remember that, and
+        // reopen the results when Discover is back on screen after it.
+        .onDisappear { if backToResults != nil, !searching { awayOnResult = true } }
+        .onAppear {
+            guard awayOnResult, let q = backToResults else { return }
+            awayOnResult = false
+            backToResults = nil
+            resumeQuery = q
+            searching = true
+        }        .refreshable { await store.refresh() }
         // Rebuilt when the catalogue changes, and when a fix arrives or moves a
         // long way, because two shelves (walks, best in your country) depend
         // on where you are. A tenth of a degree is about ten kilometres.

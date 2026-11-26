@@ -82,6 +82,14 @@ struct MapFilters: Equatable {
         return true
     }
 
+    /// Does the map show this tree with the filters on: every chip and the
+    /// walking distance. The pins and the open card both ask this, so a card
+    /// never stays for a tree whose pin a filter took away (2026-11-25).
+    func keepsCard(_ t: Tree, month: Int, collected: Set<String>, favourites: Set<String>,
+                   distanceKm: Double) -> Bool {
+        keeps(t, month: month, collected: collected, favourites: favourites) && keepsDistance(distanceKm)
+    }
+
     /// And the same four questions asked of a tree only YOU have.
     ///
     /// This file used to end by saying the mine layer was somebody else's

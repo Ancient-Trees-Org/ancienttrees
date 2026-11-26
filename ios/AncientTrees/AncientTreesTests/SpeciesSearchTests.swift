@@ -65,6 +65,20 @@ final class SpeciesSearchTests: XCTestCase {
         XCTAssertEqual(offered.first?.row.species, "Oak (Quercus sp.)")
     }
 
+    // Release walk 2026-11-25: "oak" showed Adriatic and Aleppo Oak in Top
+    // results, which takes two species, and never Pedunculate Oak (426).
+    func testOakPutsTheOakWithMostTreesFirst() {
+        let cat = Catalogue(trees: [tree("a1", species: "Adriatic Oak (Quercus frainetto)"),
+                                    tree("p1", species: "Pedunculate Oak (Quercus robur)"),
+                                    tree("p2", species: "Pedunculate Oak (Quercus robur)"),
+                                    tree("p3", species: "Pedunculate Oak (Quercus robur)"),
+                                    tree("l1", species: "Aleppo Oak (Quercus infectoria)"),
+                                    tree("l2", species: "Aleppo Oak (Quercus infectoria)")],
+                            walks: [], species: [], speciesDirectory: [], version: "t")
+        let hits = cat.filterSpecies(cat.speciesByTreeCount(), query: "oak").map(\.name)
+        XCTAssertEqual(Array(hits.prefix(2)), ["Pedunculate Oak", "Aleppo Oak"])
+    }
+
     func testAnOldFeedWithoutNamesStillDecodes() {
         let json = #"{"version":"v","count":0,"species":[]}"#
         let feed = try! JSONDecoder().decode(SpeciesFeed.self, from: Data(json.utf8))

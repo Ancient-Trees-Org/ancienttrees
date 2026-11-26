@@ -166,8 +166,12 @@ struct ProfileView: View {
         HStack(spacing: 14) {
             ZStack {
                 Circle().fill(Brand.surfaceMuted)
-                if account.isSignedIn {
-                    Text(String((account.email ?? "?").prefix(1)).uppercased())
+                // Your picture and letter as My trees shows them (release
+                // walk 2026-11-25: "A" here, "L" there, for one person).
+                if account.isSignedIn, let url = profiles.me?.avatar_url, let u = URL(string: url) {
+                    TreePhoto(url: u) { Color.clear }.clipShape(.circle)
+                } else if account.isSignedIn {
+                    Text(Profiles.myInitial(displayName: profiles.me?.display_name, email: account.email) ?? "?")
                         .font(.brand(24, .bold)).foregroundStyle(Brand.moss)
                 } else {
                     Image(systemName: "person").font(.system(size: 24))

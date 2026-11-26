@@ -130,6 +130,16 @@ public enum SpeciesSearch {
 }
 
 extension Catalogue {
+    /// Our species, the ones with most trees first, name breaking ties. Map
+    /// search hands this to filterSpecies, whose ties keep this order: before,
+    /// it handed the alphabet, so "oak" showed Adriatic Oak (2 trees) and
+    /// Aleppo Oak (4) in Top results and never Pedunculate Oak (426) (release
+    /// walk, 2026-11-25). Google Maps and AllTrails put the biggest match first.
+    public func speciesByTreeCount() -> [String] {
+        let count = Dictionary(uniqueKeysWithValues: speciesNames.map { ($0, trees(ofSpecies: $0).count) })
+        return speciesNames.sorted { (count[$0] ?? 0, $1) > (count[$1] ?? 0, $0) }
+    }
+
     /// How one of our species answers what somebody typed, or nil.
     public func speciesHit(_ common: String, query: String) -> SpeciesHit? {
         SpeciesSearch.hit(common: common, latin: scientificName(of: common),

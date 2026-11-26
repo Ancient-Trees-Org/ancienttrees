@@ -150,8 +150,8 @@ struct MapTab: View {
                               version: catalogue.version, count: catalogue.trees.count)
         if memo.key == key { return memo.trees }
         let kept = catalogue.trees.filter {
-            filters.keeps($0, month: month, collected: collectedIds, favourites: favouriteIds)
-                && filters.keepsDistance($0.distanceKm(from: focus.lat, focus.lng))
+            filters.keepsCard($0, month: month, collected: collectedIds, favourites: favouriteIds,
+                              distanceKm: $0.distanceKm(from: focus.lat, focus.lng))
         }
         memo.key = key
         memo.trees = kept
@@ -825,6 +825,18 @@ struct MapTab: View {
                 }
             }
         }
+        // A FILTER THAT HIDES THE CHOSEN TREE CLOSES ITS CARD (release walk,
+        // 2026-11-25: Want to visit took the pin away and left the card of a
+        // tree that was not saved). Google Maps and Airbnb drop a card whose
+        // result a filter removes. MapFilters.keepsCard is the same question
+        // the pins answer.
+        .onChange(of: filters) { _, new in
+            guard let t = selected else { return }
+            if !new.keepsCard(t, month: month, collected: collectedIds, favourites: favouriteIds,
+                              distanceKm: t.distanceKm(from: focus.lat, focus.lng)) {
+                selected = nil
+            }
+        }
         // A tree chosen lets the pin go; lowering the sheet to its foot does too.
         .onChange(of: selected) { _, new in if new != nil, dropped != nil { dropped = nil; beforeDrop = nil } }
         .onChange(of: sheetHeight) { _, new in if (new == .peek || new == .bar), dropped != nil { dropped = nil; beforeDrop = nil } }
@@ -1312,6 +1324,15 @@ struct MapTab: View {
     /// they were looking at a map (Hidde, 2026-08-21: "that's the whole app,
     /// so don't waste that space"). When we do not have a location there is
     /// something real to say, so that half stays.
+    private var whereAction: some View {
+        Text(locationDenied ? "Turn on location" : "Use my location")
+            // Brand.moss, which lightens in the dark. It was a fixed dark
+            // green, and this chip sits on a material: in the dark that is
+            // dark green on dark grey, which is the one word on the chip you
+            // are meant to tap.
+            .foregroundStyle(Brand.moss)
+    }
+
     @ViewBuilder private var whereChip: some View {
         if located {
             EmptyView()
@@ -1327,23 +1348,27 @@ struct MapTab: View {
                     onUseMyLocation()
                 }
             } label: {
-                HStack(spacing: 6) {
-                    Image(systemName: "location.slash")
-                    // No place name. It said "Near Amsterdam", which was true
-                    // of the old hardcoded fallback and is not true now that
-                    // the map opens on the last fix this phone had (Hidde in
-                    // Baarn, 2026-08-25). Naming the wrong town is worse than
-                    // naming none, and the useful half of this chip was always
-                    // the action beside it.
-                    Text("Location off")
-                    Text("·").foregroundStyle(.secondary)
-                    Text(locationDenied ? "Turn on location" : "Use my location")
-                        // Brand.moss, which lightens in the dark. It was a
-                        // fixed dark green, and this chip sits on a material:
-                        // in the dark that is dark green on dark grey, which is
-                        // the one word on the chip you are meant to tap.
-                        .foregroundStyle(Brand.moss)
+                // The whole sentence when it fits; at large text the action
+                // alone, which is the half worth tapping.
+                ViewThatFits(in: .horizontal) {
+                    HStack(spacing: 6) {
+                        Image(systemName: "location.slash")
+                        // No place name. It said "Near Amsterdam", which was true
+                        // of the old hardcoded fallback and is not true now that
+                        // the map opens on the last fix this phone had (Hidde in
+                        // Baarn, 2026-08-25). Naming the wrong town is worse than
+                        // naming none, and the useful half of this chip was always
+                        // the action beside it.
+                        Text("Location off")
+                        Text("·").foregroundStyle(.secondary)
+                        whereAction
+                    }
+                    HStack(spacing: 6) {
+                        Image(systemName: "location.slash")
+                        whereAction
+                    }
                 }
+                .lineLimit(1)
                 .font(.subheadline.weight(.semibold))
                 .padding(.horizontal, 14)
                 .frame(height: 44)
@@ -1555,6 +1580,10 @@ private struct RidesTheSheet<Content: View>: View {
                 .opacity(place.alpha)
                 .allowsHitTesting(place.alpha > 0.05)
                 .padding(.leading, 12)
+                // Clear of the locate arrow on the right (44 wide, 12 in), so
+                // at large text the chip shortens instead of running into it
+                // (release walk 2026-11-25, the SE at XXL).
+                .padding(.trailing, 64)
                 .padding(.bottom, -place.lift)
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomLeading)
         }

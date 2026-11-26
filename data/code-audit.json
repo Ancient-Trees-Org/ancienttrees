@@ -760,6 +760,96 @@
    "reader_line": "adding a tree from the app now works",
    "test": "android/app/src/test/java/app/ancienttrees/account/ShotRescueTest.kt",
    "fixed_in": "5ae461a40"
+  },
+  {
+   "id": "ESC-2026-11-26-search-oak-listed-adriatic-and-aleppo-oa",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/MapSearch.swift",
+   "summary": "Search 'oak' listed Adriatic and Aleppo Oak in Top results and never Pedunculate Oak (426): ties were alphabetical",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
+  },
+  {
+   "id": "ESC-2026-11-26-back-from-a-tree-or-species-found-by-dis",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Home.swift",
+   "summary": "Back from a tree or species found by Discover's search landed on Discover and the query was gone",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
+  },
+  {
+   "id": "ESC-2026-11-26-a-private-account-saw-its-own-heart-as-a",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Kit/PhotoLikes.swift",
+   "summary": "A private account saw its own heart as 'A visitor' in the hearts list",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
+  },
+  {
+   "id": "ESC-2026-11-26-avatar-initial-differed-settings-took-th",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Profile.swift",
+   "summary": "Avatar initial differed: Settings took the address's letter, My trees the profile name's",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
+  },
+  {
+   "id": "ESC-2026-11-26-map-turning-on-want-to-visit-removed-the",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/MapTab.swift",
+   "summary": "Map: turning on Want to visit removed the pin of an unsaved tree but kept its card",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
+  },
+  {
+   "id": "ESC-2026-11-26-my-trees-switching-to-collected-left-the",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Collect.swift",
+   "summary": "My trees: switching to Collected left the map on the Want to visit lane's trees",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
+  },
+  {
+   "id": "ESC-2026-11-26-photo-viewer-closed-on-picture-2-of-4-pu",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Kit/PhotoViewer.swift",
+   "summary": "Photo viewer closed on picture 2 of 4 put the tree page back on picture 1",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
+  },
+  {
+   "id": "ESC-2026-11-26-edit-profile-country-250-rows-with-no-se",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/ProfileEditor.swift",
+   "summary": "Edit profile Country: 250 rows with no search, opening at the top; taps landed on a neighbour",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
+  },
+  {
+   "id": "ESC-2026-11-26-map-at-large-text-the-location-off-chip-",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/MapTab.swift",
+   "summary": "Map at large text: the Location off chip ran into the locate button",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
   }
  ]
 }

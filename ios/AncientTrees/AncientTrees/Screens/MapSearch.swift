@@ -17,6 +17,13 @@ struct MapSearch: View {
     let catalogue: Catalogue
     let origin: (lat: Double, lng: Double)
     var onPick: (Hit) -> Void
+    /// What was typed before, when this screen comes back after a result
+    /// (Discover: Back from a tree or species returns to the results, as the
+    /// App Store's and Google Maps' search do; release walk 2026-11-25).
+    var resume: String? = nil
+    /// Told what was typed when a result is picked, so the caller can bring
+    /// the results back.
+    var onQuery: ((String) -> Void)? = nil
     @Environment(\.dismiss) private var dismiss
     @State private var query = ProcessInfo.processInfo.arguments
         .first { $0.hasPrefix("-search=") }.map { String($0.dropFirst(8)) } ?? ""
@@ -71,7 +78,11 @@ struct MapSearch: View {
         .accessibilityIdentifier("map-search")
         // `-searchblur` (debug, with -search=) keeps the keyboard down so a
         // screenshot shows the whole result list; simctl cannot dismiss it.
-        .onAppear { focused = !ProcessInfo.processInfo.arguments.contains("-searchblur") }
+        // Coming back to results keeps the keyboard down, so the list shows.
+        .onAppear {
+            if let resume, query.isEmpty { query = resume; return }
+            focused = !ProcessInfo.processInfo.arguments.contains("-searchblur")
+        }
         // Recent searches: the account's newest five, signed in only.
         // `-recentdemo` (debug) fills three rows so the section can be looked
         // at on a simulator, which cannot sign in.
@@ -398,6 +409,7 @@ struct MapSearch: View {
             let store = recent, acct = account
             Task { await store.record(e, token: await acct.freshToken()) }
         }
+        onQuery?(query)
         onPick(hit)
         dismiss()
     }
@@ -647,7 +659,7 @@ struct MapSearch: View {
     // first time it is drawn and reads them back after.
     private var biggestCities: [CityRow] { index.cities }
     private var countries: [(name: String, count: Int, cities: Int)] { index.countries }
-    private var allSpecies: [String] { catalogue.speciesNames }
+    private var allSpecies: [String] { index.species }
 
     private var index: SearchIndex { cache.index(for: catalogue) }
 
@@ -659,6 +671,8 @@ struct MapSearch: View {
         let countries: [(name: String, count: Int, cities: Int)]
         /// Every tree with its name folded, in catalogue order.
         let foldedNames: [(tree: Tree, folded: String)]
+        /// Our species, most trees first (Catalogue.speciesByTreeCount).
+        let species: [String]
 
         init(_ catalogue: Catalogue) {
             var out: [CityRow] = []
@@ -680,6 +694,7 @@ struct MapSearch: View {
             }
             .sorted { $0.count > $1.count }
             foldedNames = catalogue.trees.map { (tree: $0, folded: MapSearch.fold($0.name)) }
+            species = catalogue.speciesByTreeCount()
         }
 
         /// Trees whose name starts with the query or has a word that does,

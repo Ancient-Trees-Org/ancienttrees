@@ -27,6 +27,7 @@
 
 import SwiftUI
 import CoreLocation
+import MapKit
 
 struct CollectView: View {
     /// Discover's tile shape (Home.swift), so the two grids are one design.
@@ -185,9 +186,29 @@ struct CollectView: View {
     private func cityOf(_ item: TimelineItem) -> String? {
         switch item {
         case .tree(let t, _): return t.city
-        case .mine(let s): return nearestTree(s)?.city
+        case .mine(let s):
+            let t = nearestTree(s)
+            return Self.placeOfYourTree(place: s.place, linked: s.treeId != nil, nearest: t?.city,
+                                        nearestKm: t.map { $0.distanceKm(from: s.lat, s.lng) })
         case .sent(let t): return t.city
         }
+    }
+
+    /// The place a tree you added is labelled with (report 1488: the Tortworth
+    /// chestnut showed under Westonbirt, 13 km off, because the label was the
+    /// place of the nearest tree we map at any distance). A photograph of one
+    /// of our trees takes that tree's place. Otherwise the place the phone
+    /// named when you added it ("in Tortworth", "near Tortworth"), then the
+    /// nearest of our places only when it is within 3 km, else none. Pure,
+    /// for the test.
+    static func placeOfYourTree(place: String?, linked: Bool, nearest: String?, nearestKm: Double?) -> String? {
+        if linked { return nearest }
+        if let p = place?.trimmingCharacters(in: .whitespaces), !p.isEmpty {
+            for lead in ["in ", "near "] where p.hasPrefix(lead) { return String(p.dropFirst(lead.count)) }
+            return p
+        }
+        guard let nearest, let km = nearestKm, km <= 3 else { return nil }
+        return nearest
     }
 
     /// The tree of ours a find of yours is placed by, worked out ONCE per
@@ -517,7 +538,33 @@ struct CollectView: View {
                 focus: centreOfYours,
                 spanMeters: spanOfYours,
                 fitsTrees: true,
+                moveTo: laneMove,
                 selected: $selectedTree)
+            // A LANE SWITCH FRAMES THAT LANE'S TREES (release walk, 2026-11-25:
+            // Collected kept the map on Lisbon, where Want to visit had left
+            // it, and showed none of the four Amsterdam trees). AllTrails'
+            // lists reframe their map on each switch.
+            .onChange(of: lane) { _, new in
+                let trees = showsYourCollection ? (new == .want ? wishlist : allVisited) : []
+                let mine = showsYourCollection && new == .seen ? sightings.yoursOnly.map { (lat: $0.lat, lng: $0.lng) } : []
+                if let r = Self.laneRegion(trees.map { (lat: $0.lat, lng: $0.lng) } + mine) {
+                    laneMove = (UUID(), r)
+                }
+            }
+    }
+
+    @State private var laneMove: (token: UUID, region: MKCoordinateRegion)?
+
+    /// The region that holds every tree of a lane with a margin, at least a
+    /// few streets wide for a single tree; nil for an empty lane, which keeps
+    /// the map where it is. Pure, for the test.
+    static func laneRegion(_ points: [(lat: Double, lng: Double)]) -> MKCoordinateRegion? {
+        guard let loLat = points.map(\.lat).min(), let hiLat = points.map(\.lat).max(),
+              let loLng = points.map(\.lng).min(), let hiLng = points.map(\.lng).max() else { return nil }
+        return MKCoordinateRegion(
+            center: .init(latitude: (loLat + hiLat) / 2, longitude: (loLng + hiLng) / 2),
+            span: .init(latitudeDelta: max((hiLat - loLat) * 1.4, 0.02),
+                        longitudeDelta: max((hiLng - loLng) * 1.4, 0.02)))
     }
 
     /// The middle of what you have, so the map opens on your collection.
@@ -894,8 +941,8 @@ struct CollectView: View {
                     if let url = profiles.me?.avatar_url, let u = URL(string: url) {
                         TreePhoto(url: u) { Color.clear }
                             .clipShape(.circle)
-                    } else if let e = profiles.me?.display_name ?? account.email, let first = e.first {
-                        Text(String(first).uppercased())
+                    } else if let first = Profiles.myInitial(displayName: profiles.me?.display_name, email: account.email) {
+                        Text(first)
                             .font(.brand(24, .black, relativeTo: .title3))
                             .foregroundStyle(Brand.moss)
                     } else {

@@ -594,7 +594,9 @@ struct TreeDetail: View {
                             title: tree.name, isPresented: $showingPhoto, authors: photoAuthors,
                             // Only where the tree has a page (the toolbar's rule).
                             shareURL: mine == nil ? URL(string: "https://ancienttrees.app" + tree.url) : nil,
-                            shareMessage: "\(tree.name), \(tree.city).")
+                            shareMessage: "\(tree.name), \(tree.city).",
+                            // Back on the page at the picture you closed on.
+                            onPage: { i in if tree.shots.indices.contains(i) { shotAt = i } })
             }
         }
         .fullScreenCover(item: $viewingOwn) { s in
