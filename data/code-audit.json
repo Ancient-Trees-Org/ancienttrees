@@ -1035,8 +1035,10 @@
    "file": "android/app/src/main/java/app/ancienttrees/map/TreeMapView.kt",
    "summary": "Android: a tree of your own with a photograph put its pin on the map from a worker thread after the download (MapLibre CalledFromWorkerThread), which failed the signed-in round trip once the test account had trees with photographs",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "test": "android/app/src/androidTest/java/app/ancienttrees/SignedInRoundTrip.kt aSaveReachesTheServerAndComesBack",
+   "fixed_in": "a07162f9b"
   }
  ]
 }
