@@ -142,6 +142,15 @@
       "android": "nothing to change: the card is a Compose view, never read after it is gone",
       "status": "one-sided",
       "why": "a script reading a removed DOM element is a web-only fault; the card behaves the same everywhere"
+    },
+    {
+      "what": "A desktop web map with no room beside, above or below a pin moves the pin aside so its card never covers it (2026-11-26, the California state map's walk)",
+      "since": "2026-11-26",
+      "web": "map-card-js.ts place(): when no side fits, panBy sideways (pin to 40 px from the left) or down below the card, then places again",
+      "ios": "nothing to change: the phone card stands at the bottom and the map eases the pin above it",
+      "android": "nothing to change: same bottom card as iOS",
+      "status": "one-sided",
+      "why": "only a desktop web map puts the card beside the pin; the phones already move the map to keep the pin clear"
     }
   ]
 }

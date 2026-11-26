@@ -35,7 +35,7 @@ function atMapCard(map, opts) {
   // How far beside the pin the card stands on a desktop: a DOM pin with its
   // drawing is wider than a circle pin.
   var gap = opts.gap || 24;
-  var el = null, at = null, openedAt = 0;
+  var el = null, at = null, openedAt = 0, panning = false;
   function close() {
     if (!el) return;
     el.remove(); el = null; at = null;
@@ -71,6 +71,20 @@ function atMapCard(map, opts) {
       x = Math.min(Math.max(16, p.x - w / 2), W - w - 16);
       var above = p.y - gap - h, below = p.y + gap;
       y = above >= 16 ? above : (below + h <= H - 16 ? below : Math.max(16, H - h - 16));
+      // No side has room (a pin in the middle of a small map): the map moves
+      // the pin aside so the card can stand beside it, as Airbnb's map does,
+      // rather than the card covering it (2026-11-26, the California state
+      // map stopped every deploy). Sideways first, else down below the card.
+      if (above < 16 && below + h > H - 16 && !panning) {
+        var dx = 0, dy = 0;
+        if (W >= 40 + gap + w + 16) { dx = 40 - p.x; }
+        else if (H >= 16 + h + gap + 40) { dy = 16 + h + gap + 20 - p.y; }
+        if (dx || dy) {
+          panning = true;
+          map.once('moveend', function() { panning = false; place(); });
+          map.panBy([-dx, -dy], { duration: 250 });
+        }
+      }
     }
     el.style.left = Math.max(16, x) + 'px';
     el.style.top = y + 'px';
