@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-26 night run (third attempt, same window): nothing to ship
+
+- Pulled, claims none, READY still 3 (york, guimaraes, leamington-spa), verified shelf still stale or duplicate ids. iOS red on main was appfit's header padding, fixed by a later commit; its rerun was still building. One reader photo of an unmapped Amsterdam tree (3c544597) waits for the reader judge.
+
 ## 2026-11-26 night run (second attempt, 19:2x window): nothing to ship
 
 - Claims: none standing. READY leads: 3 (york, guimaraes, leamington-spa), already judged unwritable by the earlier write pass; the other 382 "awaiting a writer" are stale duplicates of live trees (same coordinates, different ids), not writable. Own research paused, so no verify pass.
