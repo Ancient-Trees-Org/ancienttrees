@@ -2,7 +2,7 @@
   "city": "Arezzo",
   "country": "Italy",
   "status": "needs_curation",
-  "intro": "Arezzo is a hill town in eastern Tuscany, known for its sloping Piazza Grande and its frescoes. In the countryside at Ceciliano, just outside the town, grows a downy oak that the national register counts among Italy's monumental trees: 570 centimetres round and 24 metres tall, its trunk splitting low into five or six great stems under one dense crown. A reader sent us its name, Bella, and puts it at 400 years old.",
+  "intro": "Arezzo is a hill town in eastern Tuscany, known for its sloping Piazza Grande and its frescoes. In the countryside at Ceciliano, just outside the town, grows a downy oak that the national register counts among Italy's monumental trees: 570 centimetres round and 24 metres tall, its trunk splitting low into five or six great stems under one dense crown. A reader sent us its photograph and its name, Bella, and puts it at 400 years old.",
   "meta_description": "Bella di Ceciliano, a monumental downy oak outside Arezzo in Tuscany: 570 cm round, 24 m tall, and where to find it.",
   "hero_tree_id": "arz_001",
   "oldest_tree_id": "arz_001",
@@ -49,7 +49,7 @@
         "url": "https://ancienttrees.app/photos/arz_001-bella-di-ceciliano.jpg",
         "license": "Provided by a reader through Ancient Trees, all rights reserved",
         "attribution": null,
-        "status": "held",
+        "status": "approved",
         "width": 1206,
         "height": 1499,
         "source": "contributor",
@@ -57,7 +57,7 @@
         "sighting_id": "e604000d-20cf-4082-885d-3e34c988c961",
         "taken_month": 7,
         "taken_month_basis": "full summer leaf in the photograph; the file carries no date of its own",
-        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-25: a broad multi-stemmed downy oak in full summer leaf, sun through the crown, a pair of yellow gateposts with iron gates behind it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Held 2026-11-26: a cropped screenshot with no camera data, so we cannot tell who took it; it goes back up when the reader says it is their own (Hidde: \"screenshot zijn wel gevaarlijk toch\"). Asked with hold_reply.py doubt_photo_live."
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-24, through the app); viewed and approved on 2026-11-25: a broad multi-stemmed downy oak in full summer leaf, sun through the crown, a pair of yellow gateposts with iron gates behind it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Held 2026-11-26: a cropped screenshot with no camera data, so we cannot tell who took it; it goes back up when the reader says it is their own (Hidde: \"screenshot zijn wel gevaarlijk toch\"). Asked with hold_reply.py doubt_photo_live. Back up 2026-11-26: the reader wrote back that they took the photograph themselves, on a photography commission for the property (feedback 1710), so it is theirs to give and leads again."
       },
       "photos": [
         {

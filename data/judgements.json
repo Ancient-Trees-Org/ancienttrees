@@ -2820,8 +2820,8 @@
     "score": null,
     "note": "nothing measurable about Roverella"
    },
-   "verdict": "hold",
-   "reason": "Photo held 2026-11-26 on Hidde's word ('screenshot zijn wel gevaarlijk toch'): a screenshot, so we cannot tell who took it; the tree stays live as arezzo/arz_001 on the register, the reader asked whether the photo is theirs (hold_reply doubt_photo_live).",
+   "verdict": "publish",
+   "reason": "Photo back up 2026-11-26: the reader wrote back that they took it themselves, on a photography commission for the property (feedback 1710), the yes the doubt_photo hold asked for; it leads arezzo/arz_001 again. Held earlier the same day on Hidde's word ('screenshot zijn wel gevaarlijk toch') until that yes.",
    "hidde": "screenshot zijn wel gevaarlijk toch; Ja, doe het (photo off until the reader says it is theirs)",
    "agreed": true,
    "shown": [

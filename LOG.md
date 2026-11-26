@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 reader judge: Bella di Ceciliano's photograph back up
+
+- Changed on the site: the reader's photograph leads Bella di Ceciliano (arezzo/arz_001) again. It was held this morning as a screenshot. The reader wrote back that they took it themselves, on a photography commission for the property. That is the yes the hold asked for (feedback 1710, handled). The Arezzo intro says again that the reader sent its photograph.
+- Android test: Sílvia (Palheiro Gardens, Madeira) said yes and sent her Play address. She is on the tester list as `yes`, with that address (private store pushed). The opt-in link goes out with the next invite. Feedback 1709 is closed as handled.
+- Nothing else was waiting: 0 queue photographs, 0 open reports, 0 tips. The waiting leads in _sightings.json are all from our own account (`mine`). Lead 3c544597 (Amsterdam) still has no photo on disk.
+
 ## 2026-11-26 session: the feed's empty tile and the double cedar
 
 - **Empty tile**: a photo sent from a tree's page on the website made no public copy in shared-sightings (the app does), so the live-first feed showed it as an empty tile (Madison tupelo). The website now uploads that copy too (add-photo-js.ts), and feed() shows a just-shared post only once its public file exists. Pasted by Hidde; live feed checked, every photo loads.
