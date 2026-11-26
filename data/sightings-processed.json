@@ -8080,6 +8080,18 @@
    "lon": -0.106166,
    "extras": 3,
    "pin_checked": "2026-11-26"
+  },
+  "b6f9f719-e861-4cfd-8597-3443b4ace346": {
+   "outcome": "rejected",
+   "date": "2026-11-26",
+   "tree_id": "lon_026",
+   "reason": "duplicate: the same picture as the further photograph 1 the same reader sent with sighting ad2b3c75, already in the tree's gallery (lon_026-the-brockwell-oak-ad2b3c75-x1.jpg)"
+  },
+  "ad15692d-122b-48e0-b474-994df3b7371d": {
+   "outcome": "rejected",
+   "date": "2026-11-26",
+   "tree_id": "lon_026",
+   "reason": "duplicate: the same picture of Lambeth Council's sign as the further photograph 3 the same reader sent with sighting ad2b3c75, already in the tree's gallery (lon_026-the-brockwell-oak-ad2b3c75-x3.jpg)"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

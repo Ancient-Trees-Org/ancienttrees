@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 reader judge: two Brockwell Oak photos were repeats
+
+- **Nothing changed on the site.** The same reader sent two Brockwell Oak photographs again as separate sightings (b6f9f719, ad15692d). They are the same pictures as further photographs 1 and 3 from sighting ad2b3c75 (the crown under grey cloud, and Lambeth's sign). Both are already in lon_026's gallery, so both were rejected as duplicates and given verdicts in judgements.json. No mail went out.
+- That reader's note on the oak ("partially fenced off … still had some leaves. Not many acorns") was read and kept, and marked seen.
+- Nothing else was waiting: no open reports, tips or feedback, and nothing late in reader_backlog. The 37 open leads in _sightings.json are still from our own accounts (`mine` and the Nara tests), so none were judged.
+
 ## 2026-11-26 session: the whole test chain over the next iPhone build (Hidde: "de hele teststraat")
 
 - **Walked** current main (after build 43: Feed, card designs, map links) on an iPhone 16 Pro Max with the test account (pass 1) and on the SE at XXL and offline (pass 2); notes out/tmp/walk-ios-1126-pass1.md and -pass2.md. appsweep on iOS 26 (the SE swept; the 17 Pro did not boot under the load).

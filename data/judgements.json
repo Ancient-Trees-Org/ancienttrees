@@ -680,6 +680,50 @@
    "reason": "Further photograph 3 viewed: Lambeth Council's sign on the tree's fence (about 600 years, three large branches lost, root area fenced); the tree's own sign, in the gallery of lon_026, its facts now in the story and access line."
   },
   {
+   "id": "sight:b6f9f719-e861-4cfd-8597-3443b4ace346",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Brockwell Oak",
+   "city": "London",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/b6f9f719-e861-4cfd-8597-3443b4ace346.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "reject",
+   "reason": "Duplicate: the same picture as the further photograph 1 this reader sent with sighting ad2b3c75, already in the Brockwell Oak's gallery.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ad15692d-122b-48e0-b474-994df3b7371d",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Brockwell Oak",
+   "city": "London",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/ad15692d-122b-48e0-b474-994df3b7371d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "reject",
+   "reason": "Duplicate: the same picture of Lambeth Council's sign as the further photograph 3 this reader sent with sighting ad2b3c75, already in the Brockwell Oak's gallery.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",
