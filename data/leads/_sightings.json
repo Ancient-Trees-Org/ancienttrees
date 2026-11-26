@@ -6753,9 +6753,10 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "sent by a reader who was not sure which tree it is; judged as a new tree unless the photograph shows one of ours (it then matches no tree we map until a judge says so).",
-   "seen": "2026-11-18"
+   "status": "rejected",
+   "why": "2026-11-26: closed by Hidde, his own account's photo (2026-11-18, Houthavens, about 2.5 km from Stationsplein), not a tree for the map. Earlier: sent unsure which tree it is.",
+   "seen": "2026-11-18",
+   "closed_by_hidde": "Hidde, 2026-11-26: 'Mag weg'. His own photo, not wanted on the map. Never judge it or show it to him again."
   },
   {
    "sighting_id": "2d01c8dc-05b6-421a-b6aa-6e113740a1cf",

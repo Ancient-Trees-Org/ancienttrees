@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 Session: no photos since 17:17 was quiet, not broken; Amsterdam sighting closed
+
+- Hidde asked whether the judge had stalled. It had not: reader-judge runs every 10 minutes, all green, and PostHog shows no `sighting_recorded` since 16:00 UTC (fired on the phone before upload), while 15 to 24 people an hour used the app. A quiet day (17 photos against 27 to 80).
+- Sighting 3c544597, passed on by runs for eight days as "for the reader judge", was Hidde's own account's photo (`mine`), which the judge never takes. Closed on his word ("Mag weg") in data/leads/_sightings.json; the inbox is empty.
+- supabase/feed-live.sql had been overwritten locally with one letter; restored from git (the live function was untouched).
+
 ## 2026-11-26 Map: a tree card dragged down closes, the menu stays
 
 - On the map, a tree card dragged down landed on the list's lowest stop, where the tab bar steps away (Hidde: "dan gaat het hele menu weg"). It now closes back to the list with the tab bar, as Google Maps and Airbnb do; the bar stop stays for the results list. iPhone and Android; TreeCardDragWalk fails without the fix and passes with it.
