@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 session: a just-shared tile on /visitors gave a 404
+
+- Cause: feed() linked a not-yet-checked share to /t/?id=, and the live site only answers /t?id= (no slash). The web tile now corrects it (live with deploy 45824261606), and supabase/feed-live.sql hands out /t?id= itself.
+- Also: a just-shared photograph of a tree we already have now opens that tree's own page under its name, instead of the bare share page. Web through a new public table feed_trees (id, name, place, link; filled by feed_publish.py), iOS and Android by trying the known tree before the share page (next builds).
+- For Hidde: paste supabase/feed-live.sql in the Supabase SQL editor. Until then the web fix covers the 404; the tree-page link for photos waits for the paste and the next feed_publish run.
+
 ## 2026-11-26 session: ages cut inside a number, fixed on the website
 
 - Hidde saw an age like "200 -2" on the site. Cause: the tree page, the translated tree page and the card cut age_estimate at its first comma, including the comma in "2,000". Kingley Vale's yews ("500 to 2,000 years") read "500 to 2", and 26 more tree pages read "about 1" / "roughly 2" for trees of 1,000 to 2,600 years (Dujiangyan, Kvam, Llanerfyl, Yakushima, Omishima, Logan Canyon, Osaka and others); 8 cards did the same. The apps had this fixed on 11-24 (report 1000138), the website never got it.
