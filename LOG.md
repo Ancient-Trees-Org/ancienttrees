@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 reader judge: the La Salle larch is older than 500 years, by its reader
+
+- **Live: la-salle/lsa_001, The Bearded Larch of the Col du Bard Path** now says "more than 500 years, by a reader's estimate". Before, it said "under 500". The reader who sent the tree wrote in report 1000157 that they had typed it wrong ("more than 500 yo"). The age line, the story and the question context changed. There are no translations of the page, and verify_notes records the correction.
+- The report carried the reader's own words, so it was closed `holds` and no mail went out. The digest shows Hidde their words. No draft was needed, because the page now says what they meant.
+- Nothing else was waiting: no photographs in the queue, no tips, no feedback, and no new notes to quote. The 37 open leads in _sightings.json are all from our own accounts (`mine`), so none were judged.
+
 ## 2026-11-26 reader judge: two Brockwell Oak photos were repeats
 
 - **Nothing changed on the site.** The same reader sent two Brockwell Oak photographs again as separate sightings (b6f9f719, ad15692d). They are the same pictures as further photographs 1 and 3 from sighting ad2b3c75 (the crown under grey cloud, and Lambeth's sign). Both are already in lon_026's gallery, so both were rejected as duplicates and given verdicts in judgements.json. No mail went out.
