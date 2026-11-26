@@ -1,0 +1,75 @@
+{
+  "city": "St Peter Port",
+  "country": "Guernsey",
+  "status": "needs_curation",
+  "intro": "St Peter Port is the harbour town of Guernsey, climbing steeply from the quays to the open green of Cambridge Park on its northern edge. On the park's lawn stands a hollow old sweet chestnut whose broken heart is ringed by living limbs that sweep low over the grass. A reader photographed it in late autumn and sent it to us, as an oak of 400 years by their estimate.",
+  "meta_description": "The hollow sweet chestnut in Cambridge Park, St Peter Port, Guernsey: a veteran a reader photographed, where it stands and what we know so far.",
+  "hero_tree_id": "stp_001",
+  "oldest_tree_id": "stp_001",
+  "trees": [
+    {
+      "id": "stp_001",
+      "name": "The Hollow Chestnut of Cambridge Park",
+      "species": "Sweet Chestnut (Castanea sativa)",
+      "age_estimate": "about 400 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Cambridge Park, St Peter Port, Guernsey",
+        "latitude": 49.4608716666667,
+        "longitude": -2.53731666666667,
+        "neighbourhood": "Cambridge Park"
+      },
+      "story": "A reader sent us this tree from Cambridge Park, the open green on the edge of St Peter Port in Guernsey, and called it an oak of 400 years.\n\nLook at the leaves still hanging in its crown and lying on the grass, though, and they are long, narrow and saw-edged, the leaves of a sweet chestnut. Tell us if you know it better. Whatever its name, it is a veteran. The central trunk has burst open and gone hollow, a tall broken column of pale, weathered wood swollen with burrs, and around it the tree has rebuilt itself. Thick grey limbs swing out low over the grass in every direction and then climb again into a wide crown, the way an old chestnut keeps on living long after its heart has rotted away. A sawn log lies on the lawn nearby, and a monkey puzzle stands among the shrubs behind.\n\nThe 400 years are the reader's estimate; we have no girth, planting date or record for the tree yet. If you know it, or what the parish says about it, tell us here and we will add it with your figures.\n\nGo in late autumn, as the reader did, when the last copper leaves hang in the crown, and walk all the way round the hollow trunk.",
+      "how_to_recognise": "On the open lawn: a burst, hollow column of pale dead wood at the centre, ringed by thick grey living limbs that sweep low over the grass and then climb, a monkey puzzle among the shrubs behind.",
+      "access": "Free, in a public park on the edge of St Peter Port.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "636ce3a4-b14c-444f-99b2-39e18202be6c",
+        "date": "2026-11-26"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "636ce3a4-b14c-444f-99b2-39e18202be6c",
+        "moved_m": 0,
+        "date": "2026-11-26",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-26 reader judge: sent by a reader through the app (sighting 636ce3a4-b14c-444f-99b2-39e18202be6c), photograph's own location. Photograph viewed: the whole lower tree on a park lawn: a burst, hollow central trunk of pale weathered wood with burrs, ringed by thick grey living limbs sweeping low and climbing into a bare crown, long saw-edged chestnut leaves in the crown and on the grass, a monkey puzzle and a house behind, overcast daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Oak', species 'Oak', age '400 years', no girth. Listed as sweet chestnut from the leaves in the photograph; the reader's oak is named in the story and FAQ. The park's name comes from the coordinate (Cambridge Park lies at it, beside Beau Sejour); a web search found no written record of this tree. No register entry within 100 m.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/stp_001-hollow-chestnut-of-cambridge-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_3b02b3e0160f36dee964289e",
+        "sighting_id": "636ce3a4-b14c-444f-99b2-39e18202be6c",
+        "note": "Photographed by a reader and sent through the app (2026-11-26); viewed and approved on 2026-11-26: the whole lower tree on a park lawn: a burst, hollow central trunk of pale weathered wood with burrs, ringed by thick grey living limbs sweeping low and climbing into a bare crown, long saw-edged chestnut leaves in the crown and on the grass, a monkey puzzle and a house behind, overcast daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The hollow sweet chestnut in Cambridge Park, St Peter Port, Guernsey: a veteran a reader photographed, where it stands and what we know so far.",
+  "question_answer": "The Hollow Chestnut of Cambridge Park stands on the open lawn of Cambridge Park, on the edge of St Peter Port in Guernsey. The park is public and free to enter.",
+  "question_context": "A reader who walked across Cambridge Park, the open green on the northern edge of St Peter Port, sent us a photograph of this tree in late autumn and called it an oak of about 400 years. The leaves still hanging in its crown and lying on the grass are long, narrow and saw-edged, which are the leaves of a sweet chestnut, so that is how we list it, and we ask readers to tell us if they know better. It is plainly a veteran. The central trunk has burst open and gone hollow, a tall broken column of pale weathered wood swollen with burrs, and around it thick grey living limbs swing out low over the lawn and climb again into a wide crown. That is how old chestnuts carry on for centuries after their heartwood rots. The age is the reader's estimate; we have no girth, planting date or written record for the tree yet. The park is public and free to walk in, and the tree stands on its open grass with a monkey puzzle among the shrubs behind it.",
+  "faq": [
+    {
+      "q": "Can I visit The Hollow Chestnut of Cambridge Park?",
+      "a": "Yes. It stands on the open lawn of Cambridge Park, a public park on the edge of St Peter Port, free to enter."
+    },
+    {
+      "q": "How old is the chestnut in Cambridge Park?",
+      "a": "The reader who sent it puts it at about 400 years. We have no measurement or record yet; if you know one, tell us on its page."
+    },
+    {
+      "q": "Is it an oak or a chestnut?",
+      "a": "The reader sent it as an oak, but the long, saw-edged leaves in its crown and on the grass are a sweet chestnut's."
+    }
+  ]
+}

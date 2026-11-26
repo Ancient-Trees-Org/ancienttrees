@@ -18,6 +18,53 @@
    "agreed": null
   },
   {
+   "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "Oak",
+   "city": null,
+   "species": "Oak",
+   "photo": "p_3b02b3e0160f36dee964289e/636CE3A4-B14C-444F-99B2-39E18202BE6C.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak"
+   },
+   "verdict": "publish",
+   "reason": "Live as st-peter-port/stp_001. The photograph shows a hollow veteran sweet chestnut (sent as an oak, about 400 years by the reader) on the lawn of Cambridge Park, St Peter Port; its own GPS position puts it at the tree. Special: a burst, hollow trunk ringed by low sweeping limbs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:636ce3a4-b14c-444f-99b2-39e18202be6c",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Hollow Chestnut of Cambridge Park",
+   "city": "St Peter Port",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "photo": "out/sightings/636ce3a4-b14c-444f-99b2-39e18202be6c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "new tree",
+   "distance_m": null,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a hollow veteran sweet chestnut, its burst central trunk ringed by low sweeping grey limbs, on a park lawn. Lead photograph of st-peter-port/stp_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",

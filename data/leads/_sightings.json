@@ -12799,6 +12799,39 @@
    "seen": "2026-11-25",
    "judged": "2026-11-25",
    "published_as": "thredbo/thr_001"
+  },
+  {
+   "sighting_id": "636ce3a4-b14c-444f-99b2-39e18202be6c",
+   "user_id": "p_3b02b3e0160f36dee964289e",
+   "mine": false,
+   "name": "Oak",
+   "unsure_among": null,
+   "species": "Oak",
+   "age": "400 years",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 49.4608716666667,
+   "longitude": -2.53731666666667,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_3b02b3e0160f36dee964289e/636CE3A4-B14C-444F-99B2-39E18202BE6C.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-26: the whole lower tree on a park lawn: a burst, hollow central trunk of pale weathered wood with burrs, ringed by thick grey living limbs sweeping low and climbing into a bare crown, long saw-edged chestnut leaves in the crown and on the grass, a monkey puzzle and a house behind, overcast daylight, colour. Live as st-peter-port/stp_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-26",
+   "judged": "2026-11-26",
+   "published_as": "st-peter-port/stp_001"
   }
  ]
 }

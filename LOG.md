@@ -12,6 +12,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 reader judge: a hollow chestnut in Guernsey goes live
+
+**Live.** St Peter Port, Guernsey, stp_001 "The Hollow Chestnut of Cambridge Park" (lead 636ce3a4, sent through the app today with the photograph's own location). The photograph shows a veteran whose central trunk has burst open and gone hollow, with thick grey living limbs sweeping low over the park lawn around it. The reader sent it as an oak of 400 years. The long, saw-edged leaves in the crown and on the grass are a sweet chestnut's, so we list it as one, and the story and FAQ name the reader's oak and ask anyone who knows the tree better to say so. The age is published as the reader's estimate. The pin is confirmed. A web search found no written record of the tree; the park's name comes from the coordinate. This is a new one-tree place (no place page under the two-tree rule), with Guernsey as its country. The photo is filed under November by its own date.
+
+**Nothing else waiting.** There were no open reports, no feedback without a verdict and no unjudged tips. reader_words found no note left unquoted. `sightings_inbox.py --status` still lists lead 3c544597 (since 2026-11-18) with its photograph not on disk. It is marked `mine` (our own account), so it is not reader work and was left alone.
+
+**Checks.** qa --source-only, preflight (0 problems) and i18ncheck are clean. preflight notes that st-peter-port has never been looked up in other languages (`city_names.py`).
+
 ## 2026-11-26 session: "Not able to add trees" (report 1686) fixed on Android
 
 **What happened.** PostHog put the reader on Android 17, Play build 5, signed in. Twice that phone logged `app_exit_abnormal` reason `memory` right before the reader came back and searched Discover, My trees and Map without ever reaching the add flow. The system camera is another app, and on a phone short of memory Android ends ours behind it. The photograph landed in the cache, but nothing read it after the restart, so the reader met an app that had forgotten their tree. iOS keeps its camera in-process and does not have this.
