@@ -46,6 +46,17 @@ def test_never_our_own_accounts():
     assert fp.collect(city(t), mine={"p_ours"}, ok={}) == {}
 
 
+def test_a_second_frame_is_not_a_post_of_its_own():
+    t = tree("a_006", photos=[photo("s6"), photo("s6-extra-1")])
+    assert list(fp.collect(city(t), mine=set(), ok={})) == ["s6"]
+
+
+def test_a_row_without_a_day_takes_its_notes_latest_date():
+    t = tree("a_007", found_by_reader={"tip": "mail"},
+             photo=photo("t7", note="sent 2026-11-15, looked at 2026-11-17"))
+    assert fp.collect(city(t), mine=set(), ok={})["t7"]["_day"] == "2026-11-17"
+
+
 def test_a_commons_photo_is_not_a_readers():
     t = tree("a_005", photo={"url": "https://x/y.jpg", "source": "commons"})
     assert fp.collect(city(t), mine=set(), ok={}) == {}

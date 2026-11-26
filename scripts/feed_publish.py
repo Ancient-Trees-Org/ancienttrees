@@ -67,6 +67,15 @@ def judged():
             if isinstance(v, dict) and v.get("outcome") in JUDGED}
 
 
+def note_day(photo):
+    """The latest date our own note on the photograph names (sent, looked
+    at, approved), for a row nothing else dates. Server-side, a trigger
+    (supabase/feed-sent-time.sql) puts the real sent time on any row with a
+    sighting, so this only orders tips and old rows."""
+    days = __import__("re").findall(r"20\d\d-\d\d-\d\d", photo.get("note") or "")
+    return max(days) if days else None
+
+
 def at_noon(day):
     try:
         datetime.date.fromisoformat(day)
@@ -118,17 +127,22 @@ def collect(places=None, mine=None, ok=None):
                 if lead and lead.get("contributor_user_id") not in mine:
                     key = sid or f"tree:{t['id']}"
                     rows[key] = dict(base, key=key, kind="tree", sighting_id=sid,
-                                     _photo=lead, _day=fbr.get("date"))
+                                     _photo=lead, _day=fbr.get("date") or ok.get(sid)
+                                     or lead.get("live_first_on") or note_day(lead))
             for p in pics:
                 sid = p.get("sighting_id")
                 if p.get("source") != "contributor" or not sid or sid in rows:
+                    continue
+                # One post per send, as Strava shows one activity with all its
+                # photos: a second frame ("<uuid>-extra-1") is not a post.
+                if "-extra-" in sid:
                     continue
                 if p.get("contributor_user_id") in mine or p.get("unlinked"):
                     continue
                 if p.get("live_first_on") and sid not in ok:
                     continue
                 rows[sid] = dict(base, key=sid, kind="photo", sighting_id=sid, _photo=p,
-                                 _day=ok.get(sid) or p.get("live_first_on"))
+                                 _day=ok.get(sid) or p.get("live_first_on") or note_day(p))
     return rows
 
 
@@ -197,6 +211,13 @@ def main():
     for k, r in rows.items():
         old = have.get(k)
         if old and old.get("photo_url") and not old.get("hidden"):
+            # A row stamped today for want of a day (the first fill,
+            # 2026-11-26) takes its own day once one is known.
+            day = r.get("_day")
+            if day and day < now[:10] and (old.get("published_at") or "")[:10] == now[:10] \
+                    and not r.get("sighting_id"):
+                _req(f"/rest/v1/feed?key=eq.{urllib.parse.quote(k)}", key, method="PATCH",
+                     body={"published_at": at_noon(day)}, headers={"Prefer": "return=minimal"})
             continue
         src = local_file(r["_photo"].get("url"))
         if not src:
