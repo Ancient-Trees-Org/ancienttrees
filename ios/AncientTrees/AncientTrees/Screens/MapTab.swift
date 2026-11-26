@@ -833,14 +833,6 @@ struct MapTab: View {
                 }
             }
         }
-        // A FILTER THAT HIDES THE CHOSEN TREE CLOSES ITS CARD (release walk,
-        // 2026-11-25: Want to visit took the pin away and left the card of a
-        // tree that was not saved). Google Maps and Airbnb drop a card whose
-        // result a filter removes. MapFilters.keepsCard is the same question
-        // the pins answer.
-        // A method, not an inline closure: inline, this tipped body past what
-        // the compiler type-checks in time (CI run 45787662446, 2026-11-26).
-        .onChange(of: filters) { _, new in closeCardIfFiltered(new) }
         // A tree chosen lets the pin go; lowering the sheet to its foot does too.
         .onChange(of: selected) { _, new in if new != nil, dropped != nil { dropped = nil; beforeDrop = nil } }
         .onChange(of: sheetHeight) { _, new in if (new == .peek || new == .bar), dropped != nil { dropped = nil; beforeDrop = nil } }
@@ -1392,7 +1384,18 @@ struct MapTab: View {
     /// (the editorial order already leads with pictures) and within 2 km (the
     /// list is distance-ordered anyway). Restoring one is a single line, so
     /// the cost of being wrong here is nothing.
+    /// A FILTER THAT HIDES THE CHOSEN TREE CLOSES ITS CARD (release walk,
+    /// 2026-11-25: Want to visit took the pin away and left the card of a
+    /// tree that was not saved). Google Maps and Airbnb drop a card whose
+    /// result a filter removes. Watched here, on the chips that change the
+    /// filters, and NOT in body: one more modifier there put body past CI's
+    /// type-checker twice on 2026-11-26 (runs 45787662446, 45795061639),
+    /// as a closure and as a method call alike.
     private var filterRow: some View {
+        filterChips.onChange(of: filters) { (_: MapFilters, new: MapFilters) in closeCardIfFiltered(new) }
+    }
+
+    private var filterChips: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
                 // ONE chip. Collected and Yours stood next to each other here
