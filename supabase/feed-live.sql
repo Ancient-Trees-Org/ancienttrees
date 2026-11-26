@@ -118,6 +118,18 @@ as $$
        and exists (select 1 from storage.objects so
                      where so.bucket_id = 'shared-sightings' and so.name = s.photo)
        and s.status in ('mine', 'sent', 'published')
+       -- One post per photograph: the same picture sent twice by one reader
+       -- (same moment, same fix; 2026-11-26, a Varese cedar sent as ours and
+       -- again as a new tree) shows once, the copy tied to one of our trees
+       -- first. The judge drops the repeat as a duplicate later.
+       and not exists (select 1 from public.sightings s2
+                        where s2.user_id = s.user_id and s2.id <> s.id
+                          and s2.shared and s2.photo is not null
+                          and s2.status in ('mine', 'sent', 'published')
+                          and s2.taken_at = s.taken_at
+                          and s2.lat = s.lat and s2.lng = s.lng
+                          and ((s2.tree_id is not null and s.tree_id is null)
+                               or ((s2.tree_id is null) = (s.tree_id is null) and s2.id < s.id)))
        and coalesce(o.created_at, s.taken_at) > now() - interval '14 days'
        and not exists (select 1 from public.feed f2 where f2.key = lower(s.id::text))
        and encode(digest(s.user_id::text, 'sha1'), 'hex') <> all (array[
