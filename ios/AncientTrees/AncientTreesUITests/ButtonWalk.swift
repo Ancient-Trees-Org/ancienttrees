@@ -85,6 +85,7 @@ final class ButtonWalk: XCTestCase {
         "my-trees|tab-my-trees": "already on My trees",
         "feed|tab-feed": "already on the Feed, at the top",
         "feed|feed-filter-everyone": "Everyone is the filter already on",
+        "feed|feed-layout-grid": "the grid is the layout already on",
         // The test pins the location with -at=, and the camera opens on it:
         // re-centring on where it already stands moves nothing.
         "map|map-recentre": "the camera already stands on the test's location",

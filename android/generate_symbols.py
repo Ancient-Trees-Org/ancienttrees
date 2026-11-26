@@ -71,6 +71,8 @@ GLYPHS = {
     "MapFill": ("map", True, 400, False),  # map.fill
     "Group": ("group", False, 400, False),  # person.2, the Feed tab (2026-11-26, Polarsteps' Activity)
     "GroupFill": ("group", True, 400, False),  # person.2.fill
+    "GridView": ("grid_view", False, 400, False),  # square.grid.2x2, the Feed's zoomed-out tab (2026-11-26)
+    "ViewAgenda": ("view_agenda", False, 400, False),  # rectangle.grid.1x2, the Feed's one-by-one tab
     "Eco": ("eco", False, 400, False),  # leaf
     "EcoFill": ("eco", True, 400, False),  # leaf.fill
     "Park": ("park", False, 400, False),  # tree

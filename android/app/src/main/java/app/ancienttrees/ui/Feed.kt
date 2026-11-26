@@ -15,6 +15,12 @@
 package app.ancienttrees.ui
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.lazy.items
+import androidx.compose.ui.semantics.selected
+import androidx.compose.ui.graphics.Color
+import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -86,6 +92,12 @@ class FeedHost(
     val openShared: (String) -> Unit,
     val share: (Tree) -> Unit,
     val askLocation: () -> Unit,
+    /** Find people (People.kt, Route.findPeople): the person with a plus, and See all. */
+    val findPeople: () -> Unit = {},
+    /** People you may know, signed in only (FeedPeople.swift): who and one line why. */
+    val suggestions: suspend (following: Set<String>) -> List<Pair<app.ancienttrees.account.Profiles.Profile, String>> = { emptyList() },
+    /** Follow (true) or unfollow; true when the account took it. */
+    val follow: suspend (userId: String, on: Boolean) -> Boolean = { _, _ -> false },
 )
 
 object Feed {
@@ -104,6 +116,8 @@ fun FeedScreen(
     scrollTop: Int,
     feedTo: Int?,
     host: FeedHost,
+    /** `-feedbig` opens on one post at a time, for the sweep. */
+    startBig: Boolean = false,
 ) {
     val brand = Brand.colors
     val scope = rememberCoroutineScope()
@@ -115,6 +129,10 @@ fun FeedScreen(
     var failed by remember { mutableStateOf(false) }
     var generation by remember { mutableIntStateOf(0) }
     var following by remember { mutableStateOf(emptySet<String>()) }
+    // ZOOMED OUT FIRST (Hidde, 2026-11-26: "standaard juist op de uitgezoomde
+    // versie", "zoals bij de feed op web"): the website's masonry; one big post
+    // at a time is the other tab. In memory only (hard rule 11).
+    var grid by remember { mutableStateOf(!startBig) }
     val here by rememberUpdatedState(if (located) origin else null)
     val shown by remember {
         derivedStateOf { posts.filter { FeedPosts.passes(it.first, filter, following, here) } }
@@ -198,7 +216,103 @@ fun FeedScreen(
         else -> stringResource(R.string.feed_empty_near_off)
     }
 
-    PullRefresh(onRefresh = { restart() }) {
+    val header: @Composable () -> Unit = {
+        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    stringResource(R.string.tab_feed),
+                    fontFamily = BrandFace,
+                    fontWeight = FontWeight.Bold,
+                    fontSize = 32.sp,
+                    color = brand.ink,
+                    modifier = Modifier.weight(1f).semantics { heading() },
+                )
+                // Polarsteps' person with a plus, top right of Activity: Find people.
+                val findLabel = stringResource(R.string.people_find)
+                Box(
+                    contentAlignment = Alignment.Center,
+                    modifier = Modifier
+                        .size(44.dp)
+                        .clip(CircleShape)
+                        .background(brand.surface)
+                        .border(1.dp, brand.hairline, CircleShape)
+                        .clickable(role = Role.Button) { host.findPeople() }
+                        .semantics { contentDescription = findLabel }
+                        .testTag("feed-find-people"),
+                ) { Icon(Sym.PersonAdd, null, tint = brand.ink, modifier = Modifier.size(24.dp)) }
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                FeedPosts.Filter.entries.forEach { f ->
+                    val label = when (f) {
+                        FeedPosts.Filter.EVERYONE -> stringResource(R.string.feed_everyone)
+                        FeedPosts.Filter.FOLLOWING -> stringResource(R.string.feed_following)
+                        FeedPosts.Filter.NEAR -> stringResource(R.string.feed_near)
+                    }
+                    Box(Modifier.testTag("feed-filter-" + when (f) {
+                        FeedPosts.Filter.EVERYONE -> "everyone"
+                        FeedPosts.Filter.FOLLOWING -> "following"
+                        FeedPosts.Filter.NEAR -> "near"
+                    })) { FilterChip(label, null, filter == f) { choose(f) } }
+                }
+            }
+            LayoutTabs(grid) { g ->
+                grid = g
+                app.ancienttrees.account.Measure.event("feed_layout", mapOf("layout" to if (g) "grid" else "big"))
+            }
+        }
+    }
+    val endItem: @Composable () -> Unit = {
+        if (done || failed) {
+            Text(
+                if (shown.isEmpty()) emptyLine else stringResource(R.string.feed_end),
+                fontSize = 15.sp,
+                color = brand.inkSoft,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
+            )
+        } else {
+            Box(Modifier.fillMaxWidth().heightIn(min = 60.dp), contentAlignment = Alignment.Center) {
+                CircularProgressIndicator(color = brand.inkSoft, strokeWidth = 2.dp, modifier = Modifier.size(22.dp))
+            }
+            LaunchedEffect(Unit) { more() }
+        }
+    }
+    val showPeople = signedIn && filter == FeedPosts.Filter.EVERYONE
+
+    if (grid) PullRefresh(onRefresh = { restart() }) {
+        // The website's /visitors masonry (ios FeedView.tiles): two columns 12
+        // apart, each photograph whole at its own shape, the place on it, the
+        // save top right, the name and the byline with the heart under it.
+        // People you may know after the first six, never opening the page.
+        val staggered = androidx.compose.foundation.lazy.staggeredgrid.rememberLazyStaggeredGridState()
+        LaunchedEffect(staggered) {
+            snapshotFlow { staggered.layoutInfo.visibleItemsInfo.lastOrNull()?.index ?: 0 }
+                .collect { i -> if (i >= shown.size - 8) more() }
+        }
+        LaunchedEffect(scrollTop) { if (scrollTop > 0) staggered.animateScrollToItem(0) }
+        androidx.compose.foundation.lazy.staggeredgrid.LazyVerticalStaggeredGrid(
+            columns = androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells.Fixed(2),
+            state = staggered,
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            verticalItemSpacing = 16.dp,
+            contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 6.dp, bottom = 100.dp),
+            modifier = Modifier.fillMaxSize().background(brand.ground).statusBarsPadding().testTag("feed"),
+        ) {
+            val full = androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridItemSpan.FullLine
+            item(key = "head", span = full) { header() }
+            val cut = minOf(6, shown.size)
+            items(cut, key = { shown[it].first.key }) { i ->
+                val (p, prev) = shown[i]
+                FeedTile(p, p.treeId?.let { catalogue.tree(it) }, host, onAuthor = { openAuthor(p, prev) })
+            }
+            if (showPeople && shown.size > cut) item(key = "people", span = full) { FeedPeopleRow(host, following) }
+            items(shown.size - cut, key = { shown[cut + it].first.key }) { i ->
+                val (p, prev) = shown[cut + i]
+                FeedTile(p, p.treeId?.let { catalogue.tree(it) }, host, onAuthor = { openAuthor(p, prev) })
+            }
+            item(key = "end", span = full) { endItem() }
+        }
+    } else PullRefresh(onRefresh = { restart() }) {
         LazyColumn(
             state = list,
             contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 6.dp, bottom = 100.dp),
@@ -206,54 +320,15 @@ fun FeedScreen(
             // Under the status bar, never behind it (Discover's opaque top).
             modifier = Modifier.fillMaxSize().background(brand.ground).statusBarsPadding().testTag("feed"),
         ) {
-            item(key = "head") {
-                Column(Modifier.padding(bottom = 0.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                    Text(
-                        stringResource(R.string.tab_feed),
-                        fontFamily = BrandFace,
-                        fontWeight = FontWeight.Bold,
-                        fontSize = 32.sp,
-                        color = brand.ink,
-                        modifier = Modifier.semantics { heading() },
-                    )
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(bottom = 0.dp)) {
-                        FeedPosts.Filter.entries.forEach { f ->
-                            val label = when (f) {
-                                FeedPosts.Filter.EVERYONE -> stringResource(R.string.feed_everyone)
-                                FeedPosts.Filter.FOLLOWING -> stringResource(R.string.feed_following)
-                                FeedPosts.Filter.NEAR -> stringResource(R.string.feed_near)
-                            }
-                            Box(Modifier.testTag("feed-filter-" + when (f) {
-                                FeedPosts.Filter.EVERYONE -> "everyone"
-                                FeedPosts.Filter.FOLLOWING -> "following"
-                                FeedPosts.Filter.NEAR -> "near"
-                            })) { FilterChip(label, null, filter == f) { choose(f) } }
-                        }
-                    }
-                }
-            }
+            item(key = "head") { header() }
             itemsIndexed(shown, key = { _, it -> it.first.key }) { i, (p, prev) ->
                 // 16 from the chips to the first post (the design), 28 between posts.
                 Box(if (i == 0) Modifier.offsetTop(-12) else Modifier) {
                     FeedPost(p, p.treeId?.let { catalogue.tree(it) }, host, onAuthor = { openAuthor(p, prev) })
                 }
+                if (i == 2 && showPeople) FeedPeopleRow(host, following)
             }
-            item(key = "end") {
-                if (done || failed) {
-                    Text(
-                        if (shown.isEmpty()) emptyLine else stringResource(R.string.feed_end),
-                        fontSize = 15.sp,
-                        color = brand.inkSoft,
-                        textAlign = TextAlign.Center,
-                        modifier = Modifier.fillMaxWidth().padding(top = 8.dp),
-                    )
-                } else {
-                    Box(Modifier.fillMaxWidth().heightIn(min = 60.dp), contentAlignment = Alignment.Center) {
-                        CircularProgressIndicator(color = brand.inkSoft, strokeWidth = 2.dp, modifier = Modifier.size(22.dp))
-                    }
-                    LaunchedEffect(Unit) { more() }
-                }
-            }
+            item(key = "end") { endItem() }
         }
     }
 }
@@ -374,4 +449,172 @@ private fun FeedPill(text: String, modifier: Modifier = Modifier) {
         overflow = TextOverflow.Ellipsis,
         modifier = modifier.background(brand.surface, RoundedCornerShape(50)).padding(horizontal = 9.dp, vertical = 5.dp),
     )
+}
+
+
+/** Zoomed out or one by one: Instagram's profile tabs (FeedView.layoutToggle), full width, a line under the chosen half. */
+@Composable
+private fun LayoutTabs(grid: Boolean, choose: (Boolean) -> Unit) {
+    val brand = Brand.colors
+    Box(Modifier.fillMaxWidth().padding(horizontal = 0.dp)) {
+        Row(Modifier.fillMaxWidth()) {
+            listOf(true, false).forEach { g ->
+                val on = grid == g
+                val label = stringResource(if (g) R.string.feed_layout_grid else R.string.feed_layout_big)
+                Box(
+                    contentAlignment = Alignment.Center,
+                    modifier = Modifier
+                        .weight(1f)
+                        .heightIn(min = 44.dp)
+                        .clickable(role = Role.Tab) { choose(g) }
+                        .semantics { contentDescription = label; selected = on }
+                        .testTag(if (g) "feed-layout-grid" else "feed-layout-big"),
+                ) {
+                    Icon(if (g) Sym.GridView else Sym.ViewAgenda, null,
+                        tint = if (on) brand.ink else brand.inkSoft.copy(alpha = 0.6f), modifier = Modifier.size(26.dp))
+                    if (on) Box(Modifier.align(Alignment.BottomCenter).fillMaxWidth().height(1.5.dp).background(brand.ink))
+                }
+            }
+        }
+        Box(Modifier.align(Alignment.BottomCenter).fillMaxWidth().height(0.5.dp).background(brand.hairline))
+    }
+}
+
+/** One tile of the masonry (FeedView.tile on the iPhone, the website's /visitors tile). */
+@Composable
+private fun FeedTile(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: () -> Unit) {
+    val brand = Brand.colors
+    val open = {
+        val shared = p.sharedId
+        when {
+            shared != null -> host.openShared(shared)
+            known != null -> host.openTree(known)
+            else -> host.openPost(p)
+        }
+    }
+    val ratio = run {
+        val w = p.photoW ?: 0
+        val h = p.photoH ?: 0
+        if (w > 0 && h > 0) maxOf(w.toFloat() / h, 1f / 1.6f) else 4f / 5f
+    }
+    val name = p.authorName ?: stringResource(R.string.discover_a_visitor)
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        val photoMod = Modifier
+            .fillMaxWidth()
+            .aspectRatio(ratio)
+            .clip(RoundedCornerShape(12.dp))
+            .background(brand.surfaceMuted)
+            .semantics { contentDescription = if (p.place.isEmpty()) p.treeName else "${p.treeName}, ${p.place}" }
+            .testTag("feed-tile")
+        Box(if (p.likeId != null) photoMod.doubleTapHeart(p.likeId!!) { open() } else photoMod.clickable(role = Role.Button) { open() }) {
+            p.photoUrl?.let { RemoteImage(it, null, Modifier.fillMaxSize()) }
+            if (p.place.isNotEmpty()) TagPill(p.place, Modifier.align(Alignment.BottomStart).padding(6.dp))
+            // The save, as on every card: the tree's (not before the check).
+            if (p.checked) Box(Modifier.align(Alignment.TopEnd).padding(6.dp)) { SaveMark(known ?: FeedPosts.stub(p), onPhoto = true) }
+        }
+        Text(p.treeName, fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 14.sp, color = brand.ink,
+            maxLines = 2, overflow = TextOverflow.Ellipsis, modifier = Modifier.clickable { open() })
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(5.dp),
+            modifier = Modifier.fillMaxWidth().then(if (p.authorName != null) Modifier.clickable(onClick = onAuthor) else Modifier)) {
+            VisitorFace(name, p.authorAvatar)
+            // The name takes what it needs, the time keeps its room, the heart
+            // stays at the end (FeedView.tile): a long name gives way first.
+            Row(Modifier.weight(1f), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(5.dp)) {
+                Text(name, fontSize = 12.sp, fontWeight = FontWeight.Medium, color = brand.inkSoft, maxLines = 1,
+                    overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f, fill = false))
+                SentAgo.short(p.publishedAt)?.let { Text("· $it", fontSize = 12.sp, color = brand.inkSoft.copy(alpha = 0.75f), maxLines = 1, softWrap = false) }
+            }
+            // The heart, the person's photograph (only one published on a tree of ours).
+            p.likeId?.let { PhotoHeart(it) }
+        }
+    }
+}
+
+/**
+ * PEOPLE YOU MAY KNOW (FeedPeople.swift; Polarsteps' Activity row): cards that scroll
+ * sideways, a round face, the name, one line why, Follow, an X; See all is Find people.
+ * Signed in only. A card taken away is gone for this opening only (hard rule 11).
+ */
+@Composable
+private fun FeedPeopleRow(host: FeedHost, following: Set<String>) {
+    val brand = Brand.colors
+    val scope = rememberCoroutineScope()
+    var people by remember { mutableStateOf(emptyList<Pair<app.ancienttrees.account.Profiles.Profile, String>>()) }
+    var gone by remember { mutableStateOf(emptySet<String>()) }
+    var followed by remember { mutableStateOf(emptySet<String>()) }
+    LaunchedEffect(following) { people = host.suggestions(following) }
+    val shown = people.filter { it.first.userId !in gone }
+    if (shown.isEmpty()) return
+    Column(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.testTag("feed-people")) {
+        Box(Modifier.fullBleed()) { ShelfHeader(stringResource(R.string.feed_people_title)) { host.findPeople() } }
+        androidx.compose.foundation.lazy.LazyRow(
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            contentPadding = PaddingValues(horizontal = 16.dp),
+            modifier = Modifier.fullBleed(),
+        ) {
+            items(shown, key = { it.first.userId }) { (prof, reason) ->
+                val on = prof.userId in followed
+                Box(Modifier.width(132.dp).clip(RoundedCornerShape(20.dp)).background(brand.surfaceMuted)) {
+                    Column(
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.spacedBy(6.dp),
+                        modifier = Modifier.fillMaxWidth().padding(start = 10.dp, end = 10.dp, top = 14.dp, bottom = 6.dp),
+                    ) {
+                        Column(
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            verticalArrangement = Arrangement.spacedBy(8.dp),
+                            modifier = Modifier.clickable { host.openPerson(prof.userId) }.testTag("feed-person"),
+                        ) {
+                            Avatar(prof.avatarUrl, prof.displayName, 60, 24)
+                            Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(3.dp)) {
+                                Text(prof.displayName, fontSize = 14.sp, fontWeight = FontWeight.SemiBold, color = brand.ink, maxLines = 1)
+                                Text(reason, fontSize = 12.sp, color = brand.inkSoft, textAlign = TextAlign.Center, maxLines = 2, minLines = 2)
+                            }
+                        }
+                        Box(
+                            contentAlignment = Alignment.Center,
+                            modifier = Modifier
+                                .heightIn(min = 44.dp)
+                                .clickable(role = Role.Button) {
+                                    scope.launch { if (host.follow(prof.userId, !on)) followed = if (on) followed - prof.userId else followed + prof.userId }
+                                }
+                                .testTag("feed-person-follow"),
+                        ) {
+                            Text(
+                                stringResource(if (on) R.string.people_following else R.string.people_follow),
+                                fontSize = 14.sp, fontWeight = FontWeight.SemiBold,
+                                color = if (on) brand.ink else Color.White,
+                                modifier = Modifier
+                                    .height(32.dp)
+                                    .then(if (on) Modifier.border(1.dp, brand.hairline, RoundedCornerShape(50)) else Modifier.background(brand.ink, RoundedCornerShape(50)))
+                                    .padding(horizontal = 18.dp)
+                                    .wrapContentHeight(Alignment.CenterVertically),
+                            )
+                        }
+                    }
+                    val notNow = stringResource(R.string.feed_people_not_now, prof.displayName)
+                    Box(
+                        contentAlignment = Alignment.Center,
+                        modifier = Modifier
+                            .align(Alignment.TopEnd)
+                            .size(44.dp)
+                            .clickable(role = Role.Button) { gone = gone + prof.userId }
+                            .semantics { contentDescription = notNow }
+                            .testTag("feed-person-dismiss"),
+                    ) {
+                        Box(Modifier.size(20.dp).clip(CircleShape).background(brand.ink), contentAlignment = Alignment.Center) {
+                            Icon(Sym.CloseBold, null, tint = Color.White, modifier = Modifier.size(12.dp))
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** Out to the screen's edges, past the list's 16 (ShelfHeader and the row bring their own). */
+private fun Modifier.fullBleed(): Modifier = this.layout { m, c ->
+    val extra = 32.dp.roundToPx()
+    val pl = m.measure(c.copy(maxWidth = c.maxWidth + extra, minWidth = minOf(c.minWidth + extra, c.maxWidth + extra)))
+    layout(c.maxWidth, pl.height) { pl.place(-16.dp.roundToPx(), 0) }
 }

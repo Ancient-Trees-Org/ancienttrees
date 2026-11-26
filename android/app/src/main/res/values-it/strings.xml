@@ -84,6 +84,10 @@
     <string name="feed_empty_near">Ancora niente di nuovo entro 100 km da te.</string>
     <string name="feed_empty_near_off">Attiva la posizione per vedere le novità vicino a te.</string>
     <string name="feed_failed">Il caricamento non è riuscito. Trascina verso il basso per riprovare.</string>
+    <string name="feed_layout_grid">Mostra come griglia</string>
+    <string name="feed_layout_big">Mostra uno alla volta</string>
+    <string name="feed_people_title">Persone che potresti conoscere</string>
+    <string name="feed_people_not_now">Non ora, %1$s</string>
     <string name="collect_a_tree">Colleziona un albero</string>
     <string name="tab_collect">Colleziona</string>
     <!-- discover -->

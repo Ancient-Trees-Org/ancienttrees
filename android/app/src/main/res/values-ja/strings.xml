@@ -83,6 +83,10 @@
     <string name="feed_empty_near">100 km以内にはまだ新しい投稿はありません。</string>
     <string name="feed_empty_near_off">位置情報をオンにすると、近くの新着が表示されます。</string>
     <string name="feed_failed">読み込めませんでした。下に引いてもう一度お試しください。</string>
+    <string name="feed_layout_grid">グリッドで表示</string>
+    <string name="feed_layout_big">1件ずつ表示</string>
+    <string name="feed_people_title">知り合いかも</string>
+    <string name="feed_people_not_now">今はしない、%1$s</string>
     <string name="collect_a_tree">木を集める</string>
     <string name="tab_collect">集める</string>
     <!-- discover -->

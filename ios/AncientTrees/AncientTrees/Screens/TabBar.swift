@@ -122,27 +122,21 @@ struct TabBar: View {
     /// The deed, handed in rather than assumed, because it is not a tab.
     var collect: () -> Void = {}
 
-    /// THE MENU OPTIONS for Hidde to choose from (2026-11-26: "de tekst en het
-    /// icoon te ver van elkaar ... Polarsteps-titels dikker en kleiner ...
-    /// geef me een paar opties"). `-tabstyle=N` picks one for the
-    /// screenshots; the chosen one becomes the only one and this table goes.
+    /// POLARSTEPS' BAR, option 3 of five Hidde saw beside his Polarsteps
+    /// screenshot at the same scale (2026-11-26: "de tekst en het icoon te ver
+    /// van elkaar ... Polarsteps-titels dikker en kleiner", then "Optie drie";
+    /// drafts/design-2026-11-26-feed/tabbar-options.png): a 22 point glyph 2
+    /// above a 10 point semibold word (bold when chosen), the items not chosen
+    /// nearly as dark as the chosen one, and a grey pill rather than a white
+    /// one behind the chosen item. Replaces the light-grey items and white
+    /// pill of 2026-08-26.
     struct Style {
         var glyph: CGFloat, gap: CGFloat, label: CGFloat
         var weightOn: Font.Weight, weightOff: Font.Weight
         var off: Double, greyPill: Bool, item: CGFloat
     }
-    static let styles: [Style] = [
-        .init(glyph: 19, gap: 6, label: 11, weightOn: .semibold, weightOff: .regular, off: 0.72, greyPill: false, item: 46),
-        .init(glyph: 20, gap: 2, label: 10, weightOn: .bold, weightOff: .semibold, off: 0.72, greyPill: false, item: 46),
-        .init(glyph: 22, gap: 2, label: 10, weightOn: .bold, weightOff: .semibold, off: 0.9, greyPill: true, item: 46),
-        .init(glyph: 18, gap: 1, label: 10, weightOn: .bold, weightOff: .semibold, off: 0.62, greyPill: false, item: 44),
-        .init(glyph: 22, gap: 1, label: 9.5, weightOn: .heavy, weightOff: .bold, off: 0.72, greyPill: false, item: 46),
-    ]
-    static let style: Style = {
-        let n = ProcessInfo.processInfo.arguments.first { $0.hasPrefix("-tabstyle=") }
-            .flatMap { Int($0.dropFirst(10)) } ?? 1
-        return styles[max(0, min(styles.count - 1, n - 1))]
-    }()
+    static let style = Style(glyph: 22, gap: 2, label: 10, weightOn: .bold, weightOff: .semibold,
+                             off: 0.9, greyPill: true, item: 46)
 
     /// An item's glyph: the SF Symbol at 21 points, or the asset drawn at the
     /// same visual size (Material's 24 grid, 26 points across like Android's 26 dp).

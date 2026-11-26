@@ -130,6 +130,14 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 session: the Feed's new design on both phones (Hidde approved v4 and menu option 3)
+
+- **The Feed opens zoomed out**, the website's /visitors masonry: whole photographs at their own shape, place on the photo, save top right, name, who and heart under it. One post big is the other half of a tab row under the chips (Instagram's profile tabs).
+- **People you may know** (Polarsteps' Activity row): small cards with Follow and an X, between the photographs after the first six, signed in only; See all and a new person-with-a-plus top right open Find people.
+- **iPhone tab bar: Polarsteps' balance** (option 3 of five shown beside his Polarsteps screenshot): 22 pt glyph, 2 above a 10 pt semibold word, items not chosen nearly as dark, a grey pill. Android keeps its own docked bar.
+- A session the server refuses still gets the public feed (both phones), so a stale sign-in never empties the tab.
+- Tests: iOS FeedPostsTests, SignedOutWalk feed Following and name (the name now a button on the tiles); Android FeedPostsTest and a build; screens looked at in the simulator, the emulator and on Hidde's own iPhone (a test install from this branch, 16:30). Android's build needed a clean Gradle cache (the shared one had lost files when the disk ran full).
+
 ## 2026-11-26 session: the walk's bugs fixed on Android too, memory given back out of sight (for build 7)
 
 - **Product (Android, ships with build 7)**: every walk finding that was in Android is fixed the iPhone's way: oak search, Back to the results, "You" for your own heart, one avatar letter, a filter closes a hidden tree's card, a My trees lane frames its trees, the viewer returns to its picture, a searchable country list (eight languages) opening on your country, the location chip at large text, "1 follower" in eight languages, no empty photo credit. Bug 11 (Tortworth) was already in from the iPhone session (3 km). The rating question twice was two simulators, not a bug.

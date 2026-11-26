@@ -84,6 +84,10 @@
     <string name="feed_empty_near">Nog niets nieuws binnen 100 km van je.</string>
     <string name="feed_empty_near_off">Zet je locatie aan om te zien wat er nieuw is in de buurt.</string>
     <string name="feed_failed">De feed laadde niet. Trek omlaag om het opnieuw te proberen.</string>
+    <string name="feed_layout_grid">Toon als raster</string>
+    <string name="feed_layout_big">Toon één voor één</string>
+    <string name="feed_people_title">Mensen die je misschien kent</string>
+    <string name="feed_people_not_now">Niet nu, %1$s</string>
     <string name="collect_a_tree">Een boom verzamelen</string>
     <string name="tab_collect">Verzamelen</string>
     <!-- discover -->

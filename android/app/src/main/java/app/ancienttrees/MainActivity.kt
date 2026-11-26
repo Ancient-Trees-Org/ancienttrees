@@ -1213,6 +1213,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                                 signedIn = signedIn,
                                 scrollTop = feedTop,
                                 feedTo = launch.args.firstOrNull { it.startsWith("-feedto=") }?.removePrefix("-feedto=")?.toIntOrNull(),
+                                startBig = "-feedbig" in launch.args,
                                 host = app.ancienttrees.ui.FeedHost(
                                     signedIn = { account.state is SignIn.SignedIn },
                                     token = { account.fresh()?.accessToken },
@@ -1226,6 +1227,28 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                                     openTree = { openTree(it) },
                                     openPost = { nav.push(app.ancienttrees.ui.Page.FeedTree(it)) },
                                     openShared = { nav.push(app.ancienttrees.ui.Page.Shared(it)) },
+                                    findPeople = { routes.openPeople(app.ancienttrees.ui.PeopleSource.SEARCH) },
+                                    // People you may know (FeedPeople.swift): Find people's own
+                                    // suggestions, the most active public photographers, nobody you follow.
+                                    suggestions = { following ->
+                                        val me = account.session?.userId
+                                        if (me == null) emptyList()
+                                        else if (app.ancienttrees.account.DemoPeople.on(launch.args)) app.ancienttrees.account.DemoPeople.suggestions.map {
+                                            it.profile to (if (it.ambassador) context.getString(R.string.people_ambassador_of, it.place)
+                                                else context.getString(R.string.people_photographed_n, it.count ?: 0, it.place))
+                                        }
+                                        else profiles.morePhotographers(following.toList(), 12, account.fresh()?.accessToken).orEmpty()
+                                            .filter { it.userId != me && it.displayName.isNotEmpty() && it.userId.lowercase() !in following }
+                                            .map { app.ancienttrees.account.Profiles.Profile(it.userId, it.displayName, it.avatarUrl) to
+                                                (if (it.trees == 1) context.getString(R.string.people_photographed_any_1)
+                                                 else context.getString(R.string.people_photographed_any_n, it.trees)) }
+                                    },
+                                    follow = { id, on ->
+                                        val me = account.session?.userId
+                                        val t = account.fresh()?.accessToken
+                                        if (app.ancienttrees.account.DemoPeople.on(launch.args)) true
+                                        else me != null && t != null && (if (on) profiles.follow(id, me, t) else profiles.unfollow(id, me, t))
+                                    },
                                     share = { t -> share(context, t, from = "feed") },
                                     askLocation = { if (refused) recovering = true else askLocation() },
                                 ),

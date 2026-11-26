@@ -272,18 +272,32 @@ struct FeedView: View {
                 .foregroundStyle(Brand.ink)
                 .lineLimit(2)
                 .fixedSize(horizontal: false, vertical: true)
-            HStack(spacing: 5) {
-                VisitorFace(name: name, avatar: p.author_avatar)
-                Text(name).font(.system(size: 12, weight: .medium)).foregroundStyle(Brand.inkSoft).lineLimit(1)
-                if let when = SentAgo.short(p.published_at) {
-                    Text("· \(when)").font(.system(size: 12)).foregroundStyle(Brand.inkSoft.opacity(0.75))
-                        .lineLimit(1).fixedSize()
+            HStack(spacing: 2) {
+                // The name opens the profile (signed out it asks first), a
+                // button of its own beside the heart, never around it.
+                let who = HStack(spacing: 5) {
+                    VisitorFace(name: name, avatar: p.author_avatar)
+                    Text(name).font(.system(size: 12, weight: .medium)).foregroundStyle(Brand.inkSoft).lineLimit(1)
+                    if let when = SentAgo.short(p.published_at) {
+                        Text("· \(when)").font(.system(size: 12)).foregroundStyle(Brand.inkSoft.opacity(0.75))
+                            .lineLimit(1).fixedSize()
+                    }
+                }
+                // Apple's 44 to tap, the room hanging below the line as
+                // VisitorLine's does, so nothing moves on screen.
+                .frame(minHeight: 44, alignment: .top)
+                .contentShape(.rect)
+                if p.author_name != nil {
+                    Button { openAuthor(p, prev: prev) } label: { who }
+                        .buttonStyle(.plain)
+                        .accessibilityLabel("\(name), open profile")
+                        .accessibilityIdentifier("feed-author")
+                } else {
+                    who.accessibilityElement(children: .combine)
                 }
                 Spacer(minLength: 0)
                 if let like = p.likeId { PhotoHeart(photoId: like).frame(height: 16) }
             }
-            .contentShape(.rect)
-            .onTapGesture { if p.author_name != nil { openAuthor(p, prev: prev) } }
         }
     }
 

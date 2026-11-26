@@ -91,6 +91,8 @@ object FeedPosts {
         val body = JSONObject().put("n", n)
         if (after != null) body.put("before_at", after.publishedAt).put("before_key", after.key)
         val r = Supa.send("/rest/v1/rpc/feed", token = token, body = body.toString())
+        // A session the server no longer accepts still gets the public feed (FeedPosts.page in ios).
+        if ((r.code == 401 || r.code == 403) && token != null) return page(after, null, n)
         if (!r.ok) return null
         return parse(r.body)
     }

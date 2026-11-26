@@ -150,7 +150,8 @@ final class SignedOutWalk: XCTestCase {
         // A public name on a post, tapped signed out, asks for a sign-in
         // first, as the row's and the See all page's do. From the server.
         let app = launch(["-tab=4"])
-        _ = app.descendants(matching: .any)["feed-photo"].firstMatch.waitForExistence(timeout: 30)
+        // The Feed opens zoomed out (2026-11-26): the tiles' bylines.
+        _ = app.descendants(matching: .any)["feed-tile"].firstMatch.waitForExistence(timeout: 30)
         tap(app, "feed-author"); expectSignIn(app, after: "feed-author")
     }
 
