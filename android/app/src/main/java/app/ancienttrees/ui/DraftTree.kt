@@ -123,16 +123,19 @@ fun DraftTree(
     onCity: ((slug: String, name: String) -> Unit)? = null,
     /** Merged into one of ours (MergeChooser): the tick and "Trees merged" are the root's. */
     onMerged: ((Tree) -> Unit)? = null,
+    /** Every change, so the draft outlives Android ending the app (DraftStore); null once saved. */
+    keep: (Collector.Draft?) -> Unit = {},
 ) {
     val brand = Brand.colors
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
     var name by remember { mutableStateOf(draft.name) }
     var named by remember { mutableStateOf(false) }
-    var age by remember { mutableStateOf("") }
-    var girth by remember { mutableStateOf<Int?>(null) }
-    var species by remember { mutableStateOf("") }
-    var story by remember { mutableStateOf("") }
+    // From the draft: one brought back after Android ended the app (DraftStore) carries them.
+    var age by remember { mutableStateOf(draft.age.orEmpty()) }
+    var girth by remember { mutableStateOf(draft.girthCm) }
+    var species by remember { mutableStateOf(draft.species.orEmpty()) }
+    var story by remember { mutableStateOf(draft.note) }
     var extras by remember { mutableStateOf(draft.extras) }
     var extraMonths by remember { mutableStateOf(draft.extras.indices.map { draft.extraMonths.getOrNull(it) }) }
     var editing by remember { mutableStateOf<Field?>(null) }
@@ -167,6 +170,15 @@ fun DraftTree(
         return
     }
 
+    // Kept on the phone as it changes, a beat after the last keystroke.
+    LaunchedEffect(name, story, species, age, girth, extras, savedId) {
+        if (savedId != null) return@LaunchedEffect
+        kotlinx.coroutines.delay(400)
+        val d = draft.copy(name = name, note = story, species = species.ifEmpty { null }, age = age.ifEmpty { null },
+            girthCm = girth, extras = extras, extraMonths = extraMonths)
+        kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) { keep(d) }
+    }
+
     fun save() {
         val d = draft.copy(name = name, note = story, species = species.ifEmpty { null }, age = age.ifEmpty { null },
             girthCm = girth, extras = extras, extraMonths = extraMonths)
@@ -182,7 +194,7 @@ fun DraftTree(
             if (ok) mine.load(force = true)
             saving = false
             when {
-                ok && mine.byId(d.id) != null -> { savedId = d.id; savedName = d.name }
+                ok && mine.byId(d.id) != null -> { keep(null); savedId = d.id; savedName = d.name }
                 ok -> onDiscard()
                 else -> saveFailed = true
             }
