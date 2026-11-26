@@ -4334,3 +4334,15 @@ Hidde asked for the visitors feed as a tab of its own, then approved the design 
 Asked by a tester adding a library photograph with no location: he knew the address and could only drag. **Airbnb's** location step opens with "Enter your address" over the map, suggestions as you type, then "Is the pin in the right spot?" with the map to drag. **Google Maps'** Add a missing place has an address field above a map with a fixed pin. Both: the words only fly the map there, the pin under the crosshair is what is saved.
 
 **Ours, iPhone and Android:** a search field floating at the top of PinPicker (both the add flow's "Where does it stand?" and Where is it really?), suggestions in the same card while typing (iPhone: Apple's MKLocalSearchCompleter, addresses and places, biased to the visible map; Android: the platform Geocoder), a pick flies the map to it at the picker's street span and the person drags the last metres. Field: the collect search field's numbers (44 tall, radius 14, 12 inside) on surfaceMuted with a hairline edge, because in the dark the field and the map are one tone apart. Rows: EmptyPlaceRow's 56. Files: Screens/PinPicker.swift, ui/PinPicker.kt.
+
+## One map or two: a place's page and the map you zoom out of (2026-11-26, looked at)
+
+Hidde, after /explore got the city page's head: "Ancient Trees Worldwide, Map, or Explore is just the most zoomed-out version of Tree Maps. I think it should be the same thing", and a feed tile that lands on one map or the other.
+
+**Airbnb** (in a browser, 2026-11-26): one map, `/s/Tokyo--Japan/homes`, headed "Over 1,000 homes in Tokyo", the search field "Homes in Tokyo". The first move of the map by hand turns both into "within map area" / "Homes in map area"; the path keeps Tokyo, the view goes into the query (ne_lat, sw_lng, zoom, `search_type=user_map_move`) without a page load, and the document title keeps Tokyo. Google's page is a different URL, `/tokyo-japan/stays`: no map at all, a search box, stats, top-rated homes, host tips, sections by kind; its search leads into the one map.
+
+**AllTrails** (same day): `/japan/tokyo` is a content page ("Best trails in Tokyo", rating, photos, top trails, reviews, FAQ) whose first crumb is "Back to Explore"; the map is only `/explore`.
+
+**Google Maps** (from use, not re-read): one map, a place is `/maps/place/<name>/@lat,lng,zoom` and its panel; zooming out keeps the place's panel until you close it.
+
+What they share: one map, whose address follows the view without a reload, and which never names a place it was not asked for. Airbnb and AllTrails keep a separate page for Google without a big map; Google Maps puts the place on the map itself. Ours is Google Maps' shape: the city page is both Google's page and the map, the form Hidde called good ("the design of the city map is good", 2026-11-22). Proposal in the session of 2026-11-26.
