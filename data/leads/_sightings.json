@@ -12869,6 +12869,33 @@
    "seen": "2026-11-26",
    "judged": "2026-11-26",
    "published_as": "varese/var_003"
+  },
+  {
+   "sighting_id": "tip-1700",
+   "user_id": "p_e49177ca7e67fe2b96fe2900",
+   "mine": false,
+   "name": "Norfolk Island pine (Araucaria heterophylla), Palheiro Gardens",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": 572,
+   "girth_hugs": null,
+   "note": "At 48 m, this is one of the tallest trees recorded in Madeira. It is listed as a monumental tree in Árvores Monumentais e Emblemáticas da Madeira (Regional Forestry Directorate, 2008). Palheiro Gardens, first planted as woodland by the 1st Count of Carvalhal in the early 19th century, has the highest density of monumental trees on the island. Three more araucarias in the garden also exceed 40 m.",
+   "latitude": null,
+   "longitude": null,
+   "location_kind": null,
+   "near": "Funchal, Madeira, Portugal",
+   "taken_month": 11,
+   "photo": "p_e49177ca7e67fe2b96fe2900/d298e478-605c-4496-b236-dbe8d3fdbea9.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": null,
+   "status": "lead",
+   "why": "added by a reader through the app; matches no tree we map. Verify to the normal bar before it gets a page.",
+   "seen": "2026-11-26"
   }
  ]
 }
