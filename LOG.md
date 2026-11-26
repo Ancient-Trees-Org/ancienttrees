@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-26 night run (fourth attempt): nothing to ship
+
+- Re-checked in order: no claims, READY 3 (unwritable, as judged), own research paused, reader photo 3c544597 not on disk so cannot be judged blind. Open app BUG rows are Swift/Android fixes already carrying tests, needing the Mac build; the Linux runner cannot verify them. Web errors orange only (1 page each). Nothing started, nothing claimed.
+
 ## 2026-11-26 night run (third attempt, same window): nothing to ship
 
 - Pulled, claims none, READY still 3 (york, guimaraes, leamington-spa), verified shelf still stale or duplicate ids. iOS red on main was appfit's header padding, fixed by a later commit; its rerun was still building. One reader photo of an unmapped Amsterdam tree (3c544597) waits for the reader judge.
