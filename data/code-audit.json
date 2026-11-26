@@ -1136,9 +1136,11 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/Feed.swift",
    "summary": "The hearts on the Feed's tiles stood 13 points under the name line they belong to",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "AncientTreesUITests/FeedRefreshWalk/testATilesHeartSitsOnItsNameLine"
+   "test": "AncientTreesUITests/FeedRefreshWalk/testATilesHeartSitsOnItsNameLine",
+   "no_test_reason": "The heart's tap area overflows its 18 point frame, so XCUITest reads a frame that does not follow the drawn glyph and cannot see 13 points; checked on screenshots of both phones",
+   "fixed_in": "c3abdf177"
   },
   {
    "id": "ESC-2026-11-26-the-feed-s-grid-broke-after-a-fixed-six-",
