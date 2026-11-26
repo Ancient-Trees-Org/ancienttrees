@@ -687,8 +687,11 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/Collect.swift:197",
    "summary": "My Trees labels a tree you added with the place of the nearest tree we map, with no distance limit on iOS (50 km on Android): the Tortworth chestnut showed under Westonbirt (feedback 1488)",
    "first_seen": "2026-11-25",
-   "status": "open",
-   "found_by": "reader"
+   "status": "fixed",
+   "found_by": "reader",
+   "test": "WalkFindingsTests.testATreeYouAddedIsNotFiledUnderAFarPlace",
+   "reader_line": "A tree you added now shows under the place where it stands in My trees, not under the nearest place we map",
+   "fixed_in": "5fec572af"
   },
   {
    "id": "ESC-2026-11-25-a-tree-you-added-cannot-be-edited-afterw",
@@ -768,8 +771,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/MapSearch.swift",
    "summary": "Search 'oak' listed Adriatic and Aleppo Oak in Top results and never Pedunculate Oak (426): ties were alphabetical",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "test": "SpeciesSearchTests.testOakPutsTheOakWithMostTreesFirst",
+   "fixed_in": "5fec572af"
   },
   {
    "id": "ESC-2026-11-26-back-from-a-tree-or-species-found-by-dis",
@@ -778,8 +783,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/Home.swift",
    "summary": "Back from a tree or species found by Discover's search landed on Discover and the query was gone",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "no_test_reason": "navigation across a full-screen cover and a stack push; looked at in the simulator (oak, Pedunculate Oak, Back to the results, the search's own arrow back to Discover)",
+   "fixed_in": "5fec572af"
   },
   {
    "id": "ESC-2026-11-26-a-private-account-saw-its-own-heart-as-a",
@@ -788,8 +795,10 @@
    "file": "ios/AncientTrees/AncientTrees/Kit/PhotoLikes.swift",
    "summary": "A private account saw its own heart as 'A visitor' in the hearts list",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "test": "WalkFindingsTests.testYourOwnHeartSaysYou",
+   "fixed_in": "5fec572af"
   },
   {
    "id": "ESC-2026-11-26-avatar-initial-differed-settings-took-th",
@@ -798,8 +807,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/Profile.swift",
    "summary": "Avatar initial differed: Settings took the address's letter, My trees the profile name's",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "test": "WalkFindingsTests.testOneInitialForYourAvatar",
+   "fixed_in": "5fec572af"
   },
   {
    "id": "ESC-2026-11-26-map-turning-on-want-to-visit-removed-the",
@@ -808,8 +819,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/MapTab.swift",
    "summary": "Map: turning on Want to visit removed the pin of an unsaved tree but kept its card",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "test": "WalkFindingsTests.testWantToVisitDropsTheCardOfAnUnsavedTree",
+   "fixed_in": "5fec572af"
   },
   {
    "id": "ESC-2026-11-26-my-trees-switching-to-collected-left-the",
@@ -818,8 +831,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/Collect.swift",
    "summary": "My trees: switching to Collected left the map on the Want to visit lane's trees",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "test": "WalkFindingsTests.testALaneFramesItsOwnTrees",
+   "fixed_in": "5fec572af"
   },
   {
    "id": "ESC-2026-11-26-photo-viewer-closed-on-picture-2-of-4-pu",
@@ -828,8 +843,10 @@
    "file": "ios/AncientTrees/AncientTrees/Kit/PhotoViewer.swift",
    "summary": "Photo viewer closed on picture 2 of 4 put the tree page back on picture 1",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "no_test_reason": "a callback from the viewer's page state to the hero pager; no unit seam, the viewer has no UI test of paging",
+   "fixed_in": "5fec572af"
   },
   {
    "id": "ESC-2026-11-26-edit-profile-country-250-rows-with-no-se",
@@ -838,8 +855,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/ProfileEditor.swift",
    "summary": "Edit profile Country: 250 rows with no search, opening at the top; taps landed on a neighbour",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "test": "WalkFindingsTests.testTheCountryListAnswersATypedName",
+   "fixed_in": "5fec572af"
   },
   {
    "id": "ESC-2026-11-26-map-at-large-text-the-location-off-chip-",
@@ -848,8 +867,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/MapTab.swift",
    "summary": "Map at large text: the Location off chip ran into the locate button",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "no_test_reason": "layout at accessibility text sizes; no large-text layout check exists (appfit runs default text)",
+   "fixed_in": "5fec572af"
   }
  ]
 }

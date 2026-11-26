@@ -12,6 +12,22 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-26 session: every bug the build 42 walk found, fixed on the iPhone (Hidde: "ik wil vooral dat je alle bugs gaat fixen de build komt later")
+
+- **Fixed, each with a test unless said** (WalkFindingsTests, SpeciesSearchTests; looked at in the simulator where marked):
+  - Search "oak" showed Adriatic and Aleppo Oak and never Pedunculate Oak (426): species ties now go by tree count. Looked at.
+  - Back from a tree or species found by Discover's search lands on the same results again; the search's own arrow still goes to Discover. Looked at (no unit seam).
+  - Your own heart says "You" in the hearts list. **Needs Hidde to paste** the `photo_likers` function from supabase/photo-hearts-who.sql: your own heart comes back with your account even on a private profile. Until then the app still says "A visitor".
+  - One avatar letter: Settings now shows the profile name's letter, and your photo, as My trees does. Looked at ("L" on both).
+  - A filter that hides the chosen tree (Want to visit, Collected, any chip) closes its card.
+  - My trees: switching between Want to visit and Collected frames that lane's trees.
+  - The photo viewer returns the tree page to the picture you closed on (no unit seam).
+  - Edit profile > Country: a searchable list ("Search countries"), opening on your country with a tick. Looked at.
+  - The Location off chip keeps clear of the locate arrow and drops "Location off ·" at large text (no large-text check exists).
+  - Report 1488: a tree you added is labelled with the place the phone named, or our place only within 3 km, never Westonbirt for a Tortworth chestnut. The bug row has its reader line, so the reader hears once the build is out.
+- **Not a bug**: the rating question twice in one walk was two different simulators. **Not built**: an offline notice (a new element; design first if Hidde wants it). "Remove from collected" keeping the collect photo is the documented behaviour of the Delete photo sheet.
+- **Android owes the same** (prompt handed to Hidde for an Android session): the list above, plus "1 follower", the 71 spacing differences. data/map-parity.json has an open row for the map parts.
+
 ## 2026-11-26 reader judge: a hollow chestnut in Guernsey goes live
 
 **Live.** St Peter Port, Guernsey, stp_001 "The Hollow Chestnut of Cambridge Park" (lead 636ce3a4, sent through the app today with the photograph's own location). The photograph shows a veteran whose central trunk has burst open and gone hollow, with thick grey living limbs sweeping low over the park lawn around it. The reader sent it as an oak of 400 years. The long, saw-edged leaves in the crown and on the grass are a sweet chestnut's, so we list it as one, and the story and FAQ name the reader's oak and ask anyone who knows the tree better to say so. The age is published as the reader's estimate. The pin is confirmed. A web search found no written record of the tree; the park's name comes from the coordinate. This is a new one-tree place (no place page under the two-tree rule), with Guernsey as its country. The photo is filed under November by its own date.

@@ -2,6 +2,15 @@
   "_about": "Every way the maps differ between website, iPhone and Android, and what is owed. scripts/mapparity.py refuses a push that changes one platform's map without touching this file; qa check_map_parity_ledger() holds its shape. status: open (a platform owes the change), one-sided (different on purpose, with why), done. Hidde, 2026-11-20: \"niet alles moet hetzelfde maar als het kan wel\".",
   "rows": [
     {
+      "what": "A filter that hides the chosen tree closes its card; a My trees lane switch frames that lane's trees; the location-off chip shortens at large text",
+      "since": "2026-11-26",
+      "web": "to check: the explore map's filter chips and the profile map's lanes do the same (map-card-js.ts, tree-pins-js.ts)",
+      "ios": "MapTab .onChange(of: filters) with MapFilters.keepsCard; CollectView.laneRegion through TreeMap.moveTo; whereChip ViewThatFits (WalkFindingsTests)",
+      "android": "owed: the same three on MapTab.kt and MyTrees.kt before Android's next release (prompt for the Android session, 2026-11-26)",
+      "status": "open",
+      "why": "release walk before iPhone build 42 found them on the iPhone first"
+    },
+    {
       "what": "The trees come back on the map after a light/dark switch while it is open",
       "since": "2026-11-25",
       "web": "nothing to fix: the website map does not swap its style when the phone changes theme",
