@@ -1171,9 +1171,10 @@
    "file": "ios/AncientTrees/AncientTrees/Kit/ReviewPrompt.swift",
    "summary": "After the third tree page the rating ask fired while the page was leaving, never showed, and blocked every other sheet: collect, the camera and Add a photo did nothing until the app was killed",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "test",
-   "test": "ReviewPromptTests/anAskThatNeverShowedIsAskedAgain"
+   "test": "ReviewPromptTests/anAskThatNeverShowedIsAskedAgain",
+   "fixed_in": "c3c83488c"
   },
   {
    "id": "ESC-2026-11-26-feed-following-stayed-empty-after-follow",
@@ -1182,8 +1183,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/Feed.swift",
    "summary": "Feed > Following stayed empty after following somebody, pull to refresh included",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "no_test_reason": "the follow graph is read from the server on screen return; no UI test signs in two accounts to follow one another",
+   "fixed_in": "c3c83488c"
   },
   {
    "id": "ESC-2026-11-26-offline-a-tree-with-a-photograph-said-no",
@@ -1192,9 +1195,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/TreeDetail.swift",
    "summary": "Offline, a tree with a photograph said 'No photograph yet' and 'No notes yet'",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "test",
-   "test": "WalkFindingsTests.testNotesThatDidNotArriveAreNotNone"
+   "test": "WalkFindingsTests.testNotesThatDidNotArriveAreNotNone",
+   "fixed_in": "c3c83488c"
   },
   {
    "id": "ESC-2026-11-26-another-person-s-profile-at-extra-extra-",
@@ -1203,8 +1207,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/PersonProfile.swift",
    "summary": "Another person's profile at extra-extra-large text cut both counts to '0 follow...'",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "no_test_reason": "layout at accessibility text sizes; no large-text layout check exists; looked at on the SE at XXL after the fix",
+   "fixed_in": "c3c83488c"
   },
   {
    "id": "ESC-2026-11-26-tree-page-at-extra-extra-large-text-amst",
@@ -1213,8 +1219,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/TreeDetail.swift",
    "summary": "Tree page at extra-extra-large text: 'Amst...Amsterdam · Worth the...', district run into the city",
    "first_seen": "2026-11-26",
-   "status": "open",
-   "found_by": "test"
+   "status": "fixed",
+   "found_by": "test",
+   "no_test_reason": "layout at accessibility text sizes; no large-text layout check exists; looked at on the SE at XXL after the fix",
+   "fixed_in": "c3c83488c"
   }
  ]
 }

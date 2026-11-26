@@ -1,5 +1,17 @@
 # LOG
 
+## 2026-11-26 session: the whole test chain over the next iPhone build (Hidde: "de hele teststraat")
+
+- **Walked** current main (after build 43: Feed, card designs, map links) on an iPhone 16 Pro Max with the test account (pass 1) and on the SE at XXL and offline (pass 2); notes out/tmp/walk-ios-1126-pass1.md and -pass2.md. appsweep on iOS 26 (the SE swept; the 17 Pro did not boot under the load).
+- **Fixed, c3c83488c**:
+  - **The rating ask blocked collecting.** Back from the third tree page fired it while the page was leaving; iOS never showed it, the sheet stayed "open", and the camera, Collect and Add a photo did nothing until the app was killed. That is every new user after their third tree, and build 43 carries it: **do not upload build 43**. Now the ask waits until the page has left, and one that never shows is let go and kept for the next pause (ReviewPromptTests). Seen working on the SE: the ask showed, then the camera opened.
+  - Feed > Following reloads who you follow on return and on refresh.
+  - Offline, a tree with a photograph no longer says "No photograph yet" or "No notes yet" ("The notes did not load. Check your connection and come back.").
+  - At XXL: another person's follower counts stack instead of "0 follow..."; the place line under a tree's title puts the verdict below. Both looked at on the SE.
+  - Baarn's FAQ said 5.52 m for the Pekingtuin oak; now 5.9 m, as its story and the register.
+- **Not confirmed**: Find people missing Helia C. (the server returns her as the test account; the walk could not type in that field). Back to Discover from a Trees-lane result coincided with the stuck ask and is likely the same cause.
+- **Nits left** (walk notes): no backdrop under the clock on Discover and Feed when scrolled; email sign-in on the SE hides its button under the keyboard; the hearts list's close X is faint; "Location off" with permission but no fix; search bolds to the end of the name; Collected and species filters leave the map elsewhere; a dropped pin under the chips; short visitor names cut; records shelf "Tallest" without a figure; Settings > Sources says every photo is openly licensed.
+
 ## 2026-11-26 reader judge: a reader's Brockwell Oak leads its page, and the council's new fence is on it
 
 - **Live: london/lon_026, The Brockwell Oak** now leads with a reader's own photograph. It shows the whole oak in late autumn leaf: the squat, burred trunk alone in open grass inside a new chestnut-paling fence. The Commons photo moved to the strip. All three further photographs went up: the crown from the other side, the trunk behind the rails, and Lambeth's sign on the fence. The photo is filed under November. The pin did not move, because the app sent our own pin, not a GPS fix. The reader was mailed.
