@@ -13,7 +13,9 @@
 -- * JUST SHARED (checked = false): a shared sighting with a photograph that has
 --   no feed row yet, straight from `sightings`. The reader's own name for the
 --   tree, their photograph (the public copy the app already made for the share
---   link, without location data in the file), and the share page as its link.
+--   link, without location data in the file), and the share page as its link;
+--   a photograph of a tree we already have takes that tree's name, place and
+--   page instead (feed_trees).
 --   PLACE SHOWN (Hidde, 2026-11-26: "toon plek gewoon, we kunnen er altijd op
 --   terug komen", over the first version that showed none): the nearest of our
 --   own places within about 50 km (feed_places, filled by
@@ -40,6 +42,20 @@ create table if not exists public.feed_places (
 );
 alter table public.feed_places enable row level security;
 grant select, insert, update, delete on public.feed_places to service_role;
+
+-- Our trees, so a just-shared photograph of a tree we already have opens that
+-- tree's own page with its own name (Hidde, 2026-11-26: "Yes, fix both"), as
+-- the checked post will. The link is the one the feed table carries (the
+-- city map with its card for an app-only tree). Public facts, no person in
+-- them; filled by scripts/feed_publish.py.
+create table if not exists public.feed_trees (
+  tree_id text primary key,
+  tree_name text not null,
+  place text not null default '',
+  url text not null
+);
+alter table public.feed_trees enable row level security;
+grant select, insert, update, delete on public.feed_trees to service_role;
 
 drop function if exists public.feed(int, timestamptz, text);
 
@@ -79,18 +95,22 @@ as $$
      where not f.hidden
     union all
     select lower(s.id::text), case when s.tree_id is null then 'tree' else 'photo' end,
-           s.tree_id, coalesce(nullif(s.name, ''), 'A tree'),
-           coalesce((select fp.name from public.feed_places fp
+           s.tree_id, coalesce(ft.tree_name, nullif(s.name, ''), 'A tree'),
+           coalesce(nullif(ft.place, ''), (select fp.name from public.feed_places fp
                       where abs(fp.lat - s.lat) < 0.5 and abs(fp.lng - s.lng) < 0.7
                       order by (fp.lat - s.lat) ^ 2 + ((fp.lng - s.lng) * cos(radians(s.lat))) ^ 2
                       limit 1), ''),
-           '/t/?id=' || lower(s.id::text),
+           -- A photograph of one of ours opens that tree; a tree they added
+           -- opens its share page, /t without a slash (the live site answers
+           -- /t/?id= with a 404: the first tile on /visitors, 2026-11-26).
+           coalesce(ft.url, '/t?id=' || lower(s.id::text)),
            round(s.lat::numeric, 2)::double precision, round(s.lng::numeric, 2)::double precision,
            'https://caimvxiyrtifilimlkqw.supabase.co/storage/v1/object/public/shared-sightings/' || s.photo,
            null, null,
            coalesce(o.created_at, s.taken_at), s.user_id, false
       from public.sightings s
       left join storage.objects o on o.bucket_id = 'sightings' and o.name = s.photo
+      left join public.feed_trees ft on ft.tree_id = s.tree_id
      where s.shared and s.photo is not null
        -- Only a share whose public copy exists: a row whose file is missing
        -- showed an empty tile (2026-11-26, a photo sent from a tree page,

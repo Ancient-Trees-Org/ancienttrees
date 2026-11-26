@@ -117,6 +117,17 @@ def places():
     return out
 
 
+def trees():
+    """One row per tree of ours: its id, name, place and link."""
+    out = {}
+    for slug, city in cities():
+        for t in city.get("trees") or []:
+            if t.get("id") and t.get("name"):
+                out[t["id"]] = {"tree_id": t["id"], "tree_name": t["name"],
+                                "place": city.get("city") or "", "url": tree_url(slug, t)}
+    return list(out.values())
+
+
 def collect(places=None, mine=None, ok=None):
     """{key: row} for everything that belongs in the feed today."""
     mine = ours() if mine is None else mine
@@ -270,6 +281,15 @@ def main():
              headers={"Prefer": "resolution=merge-duplicates,return=minimal"})
     except urllib.error.HTTPError as e:
         print(f"feed: places not written ({e.code}); is supabase/feed-live.sql pasted?")
+    # Our trees, so a just-shared photograph of one opens that tree's page
+    # under its own name (supabase/feed-live.sql, feed_trees).
+    all_trees = trees()
+    try:
+        for i in range(0, len(all_trees), 1000):
+            _req("/rest/v1/feed_trees?on_conflict=tree_id", key, method="POST", body=all_trees[i:i + 1000],
+                 headers={"Prefer": "resolution=merge-duplicates,return=minimal"})
+    except urllib.error.HTTPError as e:
+        print(f"feed: trees not written ({e.code}); is supabase/feed-live.sql pasted?")
     gone = [k for k, r in have.items() if k not in rows and not r.get("hidden")]
     for k in gone:
         _req(f"/rest/v1/feed?key=eq.{urllib.parse.quote(k)}", key, method="PATCH",

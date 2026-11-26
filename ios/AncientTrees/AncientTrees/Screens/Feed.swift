@@ -128,9 +128,11 @@ struct FeedView: View {
     private func post(_ p: FeedPosts.Post, prev: FeedPosts.Post?, width: CGFloat) -> some View {
         let known = p.tree_id.flatMap { catalogue.tree($0) }
         let tree = known ?? FeedPosts.stub(p)
-        // Not checked yet: the share page (SharedTreeView), never a tree page.
-        let route: Route = if let shared = p.sharedId { .shared(shared) }
-            else if let k = known { .tree(k.id) } else { .feedPost(p) }
+        // A photograph of a tree we have opens that tree, checked or not (Hidde,
+        // 2026-11-26: "Yes, fix both"); a tree they added and nobody has
+        // checked yet opens its share page (SharedTreeView).
+        let route: Route = if let k = known { .tree(k.id) }
+            else if let shared = p.sharedId { .shared(shared) } else { .feedPost(p) }
         return VStack(alignment: .leading, spacing: 10) {
             byline(p, prev: prev)
             NavigationLink(value: route) {

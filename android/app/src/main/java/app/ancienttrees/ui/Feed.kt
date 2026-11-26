@@ -271,9 +271,12 @@ private fun FeedPost(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: 
     val tree = known ?: FeedPosts.stub(p)
     val open = {
         val shared = p.sharedId
+        // A photograph of a tree we have opens that tree, checked or not
+        // (Feed.swift, 2026-11-26); a tree they added and nobody checked yet
+        // opens its share page.
         when {
-            shared != null -> host.openShared(shared)
             known != null -> host.openTree(known)
+            shared != null -> host.openShared(shared)
             else -> host.openPost(p)
         }
     }

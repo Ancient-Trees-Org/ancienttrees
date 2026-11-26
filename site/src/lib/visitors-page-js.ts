@@ -62,7 +62,9 @@ export function visitorTileFn(): string {
     return {
       r: { sighting_id: f.key, tree_id: f.tree_id || ('shared:' + f.key), published_at: f.published_at, author_name: f.author_name,
            author_avatar: f.author_avatar, author_id: f.author_id, like: like, checked: checked },
-      c: { n: f.tree_name, u: f.url, p: f.photo_url, c: f.place, w: f.photo_w, h: f.photo_h }
+      // The share page is /t, never /t/ (a 404 on the live site); an older
+      // feed() still hands out the slash (2026-11-26, the first tile on /visitors).
+      c: { n: f.tree_name, u: String(f.url || '').replace(/^\\/t\\/\\?/, '/t?'), p: f.photo_url, c: f.place, w: f.photo_w, h: f.photo_h }
     };
   }
   function nfvTile(r, c, img, ev, ask, extra) {
