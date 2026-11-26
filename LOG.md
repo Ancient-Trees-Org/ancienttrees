@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-26 night run (fifth attempt): nothing to ship
+
+Same walk again: no claims, 3 READY leads still unwritable, `enrich.py --next` and `recognise.py --stuck` empty, reader_words 0 waiting, the 382 "awaiting a writer" files are stale or duplicates. Health red only on open app BUG rows (iOS fixes needing the Mac build). No tree added, nothing claimed.
+
 ## 2026-11-26 night run (20:50 window): nothing to ship
 
 Rung 1: no reader backlog; one new tree note (North Berwick Law beeches, a visitor's own observation) read and left up, marked seen. The Amsterdam sighting 3c544597 is the reader judge's. Rung 2: health red only on open app BUG rows (9, 8 found by people); they are iOS fixes from Hidde's session awaiting build and CI, the Android draft row needs an account-side table (his yes), the Tortworth edit row is a feature. None is a Linux runner's. Own research paused; the 3 READY leads (york, guimaraes, leamington-spa) are the ones earlier attempts today found unwritable; reader_words has nothing waiting. Stopped without committing trees.
