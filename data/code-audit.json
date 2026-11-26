@@ -1174,7 +1174,7 @@
    "status": "fixed",
    "found_by": "test",
    "test": "ReviewPromptTests/anAskThatNeverShowedIsAskedAgain",
-   "fixed_in": "c3c83488c"
+   "fixed_in": "92cfabb94"
   },
   {
    "id": "ESC-2026-11-26-feed-following-stayed-empty-after-follow",
@@ -1186,7 +1186,7 @@
    "status": "fixed",
    "found_by": "test",
    "no_test_reason": "the follow graph is read from the server on screen return; no UI test signs in two accounts to follow one another",
-   "fixed_in": "c3c83488c"
+   "fixed_in": "92cfabb94"
   },
   {
    "id": "ESC-2026-11-26-offline-a-tree-with-a-photograph-said-no",
@@ -1198,7 +1198,7 @@
    "status": "fixed",
    "found_by": "test",
    "test": "WalkFindingsTests.testNotesThatDidNotArriveAreNotNone",
-   "fixed_in": "c3c83488c"
+   "fixed_in": "92cfabb94"
   },
   {
    "id": "ESC-2026-11-26-another-person-s-profile-at-extra-extra-",
@@ -1210,7 +1210,7 @@
    "status": "fixed",
    "found_by": "test",
    "no_test_reason": "layout at accessibility text sizes; no large-text layout check exists; looked at on the SE at XXL after the fix",
-   "fixed_in": "c3c83488c"
+   "fixed_in": "92cfabb94"
   },
   {
    "id": "ESC-2026-11-26-tree-page-at-extra-extra-large-text-amst",
@@ -1222,7 +1222,7 @@
    "status": "fixed",
    "found_by": "test",
    "no_test_reason": "layout at accessibility text sizes; no large-text layout check exists; looked at on the SE at XXL after the fix",
-   "fixed_in": "c3c83488c"
+   "fixed_in": "92cfabb94"
   }
  ]
 }

@@ -3,7 +3,7 @@
 ## 2026-11-26 session: the whole test chain over the next iPhone build (Hidde: "de hele teststraat")
 
 - **Walked** current main (after build 43: Feed, card designs, map links) on an iPhone 16 Pro Max with the test account (pass 1) and on the SE at XXL and offline (pass 2); notes out/tmp/walk-ios-1126-pass1.md and -pass2.md. appsweep on iOS 26 (the SE swept; the 17 Pro did not boot under the load).
-- **Fixed, c3c83488c**:
+- **Fixed, 92cfabb94**:
   - **The rating ask blocked collecting.** Back from the third tree page fired it while the page was leaving; iOS never showed it, the sheet stayed "open", and the camera, Collect and Add a photo did nothing until the app was killed. That is every new user after their third tree, and build 43 carries it: **do not upload build 43**. Now the ask waits until the page has left, and one that never shows is let go and kept for the next pause (ReviewPromptTests). Seen working on the SE: the ask showed, then the camera opened.
   - Feed > Following reloads who you follow on return and on refresh.
   - Offline, a tree with a photograph no longer says "No photograph yet" or "No notes yet" ("The notes did not load. Check your connection and come back.").
