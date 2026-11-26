@@ -419,6 +419,11 @@
    "status": "handled",
    "what": "Thanks and a heads-up that more Varese trees will come through the app; nothing to act on, their trees will be judged as they arrive."
   },
+  "1715": {
+   "date": "2026-11-26",
+   "status": "needs_hidde",
+   "what": "Mail reply about the Madrid eucalyptus came with no plain-text part, so the run could not read it; it is in the inbox to read"
+  },
   "405": {
    "date": "2026-11-17",
    "status": "handled",

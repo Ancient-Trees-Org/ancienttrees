@@ -3411,6 +3411,21 @@
      "mailed": "2026-11-26"
     }
    ]
+  },
+  "p_ec77d0473884f2c559525def": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "ae685cbf-6c8f-4f8b-b347-dc2c55d5707f",
+     "tree_id": "nbw_001",
+     "tree_name": "The Act of Union Beeches of North Berwick Law",
+     "city": "North Berwick",
+     "city_slug": "north-berwick",
+     "display_name": null,
+     "live": "2026-11-26"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

@@ -43,19 +43,58 @@
       },
       "verify_notes": "2026-11-17: sent by a reader through the app on 2026-11-15 as 'A tree near Edinburgh', age '320', note 'There are a few remaining trees planted to commemorate the 1707 Act of Union on North Berwick Law', GPS fix at the viewing spot. Held 11-15 'for Hidde' (trees small in the frame, no written source); judged again under the closed list: the photograph shows the group clearly and the Union planting is sourced (Wikipedia on Hew Dalrymple citing Scotland on Sunday 2009, the Scotsman's 'Act of Union beech trees', a 2013 blog counting five; Canmore notes an early 18th-century plantation on the Law's NE side). Species beech from those sources; the photograph fits. An ensemble with one place to stand. Pin: the reader's own move, approximate. Count of survivors today unknown.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/nbw_001-act-of-union-beeches-of-north-berwick-law.jpg",
-        "taken_month": 7,
-        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
-        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "url": "https://ancienttrees.app/photos/nbw_001-the-act-of-union-beeches-of-north-berwick-law-ae685cbf.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 1600,
-        "height": 1200,
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
         "source": "contributor",
-        "contributor_user_id": "p_7a9ce110d7a1e1c831941fa0",
-        "sighting_id": "460c96b9-89e2-41ac-a829-ec911be11ef7",
-        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-15, through the app); viewed and approved on 2026-11-17: North Berwick Law from the field at its foot: a group of tall beeches with bare grey trunks and flat crowns standing clear of a band of conifers and gorse on the slope, ponies grazing in front, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+        "contributor_user_id": "p_ec77d0473884f2c559525def",
+        "sighting_id": "ae685cbf-6c8f-4f8b-b347-dc2c55d5707f",
+        "note": "Photographed by a reader and sent through the app (2026-11-26); a viewing pass approved it on 2026-11-26: The Union beeches on the lower slope of the Law, close and filling the frame in daylight; a clearer lead than the wide shot with ponies, which moves into the strip Species seen: smooth grey beech trunks, fine twiggy bare crowns, wind-shaped. Fits the description: a small group of tall bare-trunked beeches with flat spreading crowns above a band of conifers on the grassy slope of the Law.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nbw_001-act-of-union-beeches-of-north-berwick-law.jpg",
+          "taken_month": 7,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_7a9ce110d7a1e1c831941fa0",
+          "sighting_id": "460c96b9-89e2-41ac-a829-ec911be11ef7",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-15, through the app); viewed and approved on 2026-11-17: North Berwick Law from the field at its foot: a group of tall beeches with bare grey trunks and flat crowns standing clear of a band of conifers and gorse on the slope, ponies grazing in front, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/nbw_001-the-act-of-union-beeches-of-north-berwick-law-ae685cbf-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_ec77d0473884f2c559525def",
+          "sighting_id": "ae685cbf-6c8f-4f8b-b347-dc2c55d5707f-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/nbw_001-the-act-of-union-beeches-of-north-berwick-law-ae685cbf-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_ec77d0473884f2c559525def",
+          "sighting_id": "ae685cbf-6c8f-4f8b-b347-dc2c55d5707f-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ],
   "question_meta": "The Act of Union beeches on North Berwick Law, planted for the Union of 1707: how old they are and where to find them.",

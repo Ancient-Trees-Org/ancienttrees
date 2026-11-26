@@ -17,15 +17,15 @@
       "age_basis": "source",
       "location": {
         "address": "Località Ceciliano, Arezzo, Tuscany",
-        "latitude": 43.496911,
-        "longitude": 11.862469,
+        "latitude": 43.496678,
+        "longitude": 11.862479,
         "neighbourhood": "Ceciliano"
       },
       "location_precision": "approximate",
       "pin_source": {
-        "kind": "official register",
-        "date": "2026-11-25",
-        "note": "Register coordinate of Albero monumentale d'Italia 01/A390/AR/09; the reader's hand-placed pin is 41 m from it."
+        "kind": "reader report 1000154, a hand-moved pin",
+        "date": "2026-11-26",
+        "note": "A reader moved the pin 25 m from the register coordinate of Albero monumentale d'Italia 01/A390/AR/09 (43.496911, 11.862469); hand-placed, so approximate."
       },
       "how_to_recognise": "A downy oak whose short, massive trunk splits low into five or six stems under one dense dome of a crown, in front of a pair of yellow gateposts with iron gates.",
       "access": "It stands in front of the gates of a private house at Ceciliano; the grounds behind the gates are private, and we have not confirmed how close the road comes. Check before you go.",

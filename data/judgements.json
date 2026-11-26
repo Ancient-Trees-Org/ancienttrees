@@ -441,6 +441,28 @@
    "agreed": null
   },
   {
+   "id": "sight:ae685cbf-6c8f-4f8b-b347-dc2c55d5707f",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The Act of Union Beeches of North Berwick Law",
+   "city": "North Berwick",
+   "species": "European Beech (Fagus sylvatica)",
+   "photo": "out/sightings/ae685cbf-6c8f-4f8b-b347-dc2c55d5707f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about European Beech (Fagus sylvatica)"
+   },
+   "verdict": "publish",
+   "reason": "Union beeches on the Law close and filling the frame, bare winter crowns in daylight; leads the page now, the earlier wide shot with ponies moves to the strip; both further photos (gate view, two trunks on the slope) in the gallery",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",

@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-26 reader judge: a new lead photograph for the Union beeches, a pin moved in Arezzo
+
+- North Berwick (nbw_001, the Act of Union beeches): a stranger sent three photographs through the app. The new lead shows the beeches close up on the slope of the Law, with bare winter crowns in daylight. The earlier reader's wide shot with the ponies moves into the strip. Their other two photographs (the view from the gate, and two trunks on the slope) went into the gallery. The reader was mailed. Their coordinate was our own pin, so the pin did not move.
+- Arezzo (arz_001, Bella di Ceciliano): a reader moved the pin 25 m from the register coordinate (report 1000154). We cannot tell which spot is right, so the reader's spot wins. The pin stays approximate because it was placed by hand, and `pin_source` records the old coordinate. The standard pin thank-you was sent.
+- Feedback 1715 is a mail reply about the Madrid eucalyptus with no plain-text part, so the run could not read it. It was closed `needs_hidde` so it can be read in the inbox.
+- Left as before: 3c544597 (Amsterdam), our own `mine` sighting, has no photo on disk. There were no tips, and no reader notes to quote.
+
 ## 2026-11-26 session: Palheiro Gardens on the Android test
 
 - Play Console (new account, app 4975394642791101357): Palheiro Gardens' Play address added to the closed test Alpha's "Android testers" email list (955 to 956), through Hidde's Chrome. Reply sent in their thread on his yes: they're in, with the opt-in link.
