@@ -397,6 +397,50 @@
    "agreed": null
   },
   {
+   "id": "lead:fd353c48-ea8b-4530-aeef-6b57609b37c7",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "Eucalyptus in Madrid",
+   "city": null,
+   "species": "Eucalyptus",
+   "photo": "p_df9da2fa289e6fdaa8b541de/FD353C48-EA8B-4530-AEEF-6B57609B37C7.jpg",
+   "reader_note": "Ancient and fragrant Eucalyptus in a quiet area",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Eucalyptus"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall pale smooth eucalyptus trunk rising straight above the dark cedars of the Retiro's southwest corner, loose silvery crown, daylight, colour. Photo GPS at the tree, a stranger's own camera shot, stands out in its setting: live as madrid/mad_019 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:fd353c48-ea8b-4530-aeef-6b57609b37c7",
+   "seen": "2026-11-26",
+   "kind": "photo of a tree we map",
+   "tree": "The White-Trunked Eucalyptus of the Retiro",
+   "city": "Madrid",
+   "species": "Eucalyptus (Eucalyptus sp.)",
+   "photo": "https://ancienttrees.app/photos/mad_019-white-trunked-eucalyptus-of-the-retiro.jpg",
+   "reader_note": "Ancient and fragrant Eucalyptus in a quiet area",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Reader judge 2026-11-26: the reader's photograph viewed (whole tree, daylight, colour) and made the lead photo of madrid/mad_019, the tree they sent.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",

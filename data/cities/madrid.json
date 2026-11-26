@@ -4,9 +4,9 @@
   "face_tree_id": "mad_010",
   "status": "needs_curation",
   "intro": "Madrid's most remarkable trees are almost all immigrants, brought in by royal gardeners testing whether foreign species could survive freezing winters and scorching, dry summers. A Mexican swamp cypress has outlasted every native tree in the city's most famous park. A Himalayan cedar, an Atlas Mountains cedar, and a Caucasus elm all found the Madrid plateau survivable enough to grow for centuries. Even the city's oldest documented holm oak, one of the few genuinely native species here, grows wild in what was once a royal hunting ground. Spain's Regional Catalogue of Singular Trees protects every one of them.",
-  "meta_description": "Madrid's remarkable trees are mostly foreign transplants: a Mexican cypress, a Himalayan cedar, a Caucasus elm. Seventeen, catalogued and protected.",
+  "meta_description": "Madrid's remarkable trees are mostly foreign transplants: a Mexican cypress, a Himalayan cedar, a Caucasus elm. Nineteen, and where to find them.",
   "question_answer": "Madrid's oldest tree, by most accounts, is the Ahuehuete, a Montezuma cypress in the Parterre garden of Retiro Park, though its exact age is genuinely disputed: legend and old guidebooks claim it was planted in 1633, which would make it almost 400 years old, while recent studies by city arborists suggest it may be a much younger 200 years or less. Either way it stands in the Parterre, a five minute walk from Puerta de Alcala.",
-  "question_meta": "Madrid's oldest tree is a disputed-age Mexican cypress in Retiro Park, claimed at 400 years but possibly 200. Its story and sixteen more trees.",
+  "question_meta": "Madrid's oldest tree is a disputed-age Mexican cypress in Retiro Park, claimed at 400 years but possibly 200. Its story and eighteen more trees.",
   "question_context": "The Ahuehuete of the Parterre carries two irreconcilable stories about its own age. Guidebooks and the sign at its base repeat a long-standing claim that it was planted in 1633, during the creation of the Retiro as a royal hunting estate under the Count-Duke of Olivares, which would make it close to 400 years old and the oldest tree in Madrid by a wide margin. Specialists, including technicians from Madrid's own city council, are skeptical: the Parterre garden itself was laid out in 1714, replacing whatever vegetation existed before, and some estimates place the tree's planting after 1814, closer to two centuries old rather than four. Montezuma cypresses are native to Mexican wetlands and can live for millennia in the right conditions, so age alone cannot settle the question from the tree's condition. What is not disputed is the species: a swamp cypress from a country most Madrid residents have never associated with their own most famous park, thriving on the plateau for at least two centuries. Getting there: Puerta de Alcala, then a five minute walk into the Parterre garden.",
   "faq": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "q": "Where is the best place to see old trees in Madrid?",
-      "a": "Retiro Park, which holds nine of the eighteen trees on this list, more than any other single site, including the Ahuehuete, a Himalayan cedar, a three-trunked yew and a grove of bald cypresses."
+      "a": "Retiro Park, which holds ten of the nineteen trees on this list, more than any other single site, including the Ahuehuete, a Himalayan cedar, a three-trunked yew and a grove of bald cypresses."
     },
     {
       "q": "Are Madrid's remarkable trees free to see?",
@@ -767,6 +767,51 @@
         "license": null,
         "attribution": null,
         "status": "missing"
+      }
+    },
+    {
+      "id": "mad_019",
+      "name": "The White-Trunked Eucalyptus of the Retiro",
+      "species": "Eucalyptus (Eucalyptus sp.)",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Parque del Retiro, southwest corner near Calle de Alfonso XII, Madrid",
+        "latitude": 40.41082,
+        "longitude": -3.68690333333333,
+        "neighbourhood": "Retiro"
+      },
+      "how_to_recognise": "A tall, pale, smooth-barked trunk rising almost straight among dark drooping cedars beside a gravel path, its loose silvery crown standing well above theirs.",
+      "access": "Free, public park.",
+      "verified_sources": [],
+      "story": "\"Ancient and fragrant Eucalyptus in a quiet area,\" wrote the reader who sent us this tree from the southwest corner of the Retiro, near the Calle de Alfonso XII.\n\nTheir photograph shows why it stopped them. Among the dark, drooping cedars of that corner, one trunk rises pale and nearly straight, its smooth bark the colour of bone, with grey patches near the foot where old bark has flaked away. It climbs well clear of the cedars before it forks, and the crown up there is loose and silvery, made of the long narrow leaves that give gum trees their smell when the sun warms them. In November, when the reader stood here, the trees beyond the gravel path had turned yellow, and the eucalyptus looked as it does all year.\n\nWe do not know which eucalyptus it is, how tall it stands or when it was planted. Gums grow fast, so a tall trunk is not proof of great age; the Retiro's catalogued blue gum, north of the big pond, is a good one to compare it with. If you know this tree's height, girth or story, tell us here and we will add it with your figures.\n\nStand on the lawn under the cedars and look straight up the white trunk.",
+      "found_by_reader": {
+        "sighting_id": "fd353c48-ea8b-4530-aeef-6b57609b37c7",
+        "date": "2026-11-26"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "fd353c48-ea8b-4530-aeef-6b57609b37c7",
+        "moved_m": 0,
+        "date": "2026-11-26",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-26 reader judge: sent by a reader (fd353c48-ea8b-4530-aeef-6b57609b37c7, through the app). Photograph viewed: the whole tree from the lawn: a tall, pale, smooth trunk rising almost straight among dark drooping cedars beside a gravel path, a loose silvery crown of narrow leaves well above them, yellow autumn trees beyond, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17: \"we need either a gps or photo and it needs to be somewhat special\"): a column standing above the cedars of its corner. corroborate.py: no register entry within 100 m. Different tree from mad_017 (981 m away). The reader's own figures: name 'Eucalyptus in Madrid', species 'Eucalyptus', note 'Ancient and fragrant Eucalyptus in a quiet area'. Nothing on the page is stated beyond what the photograph shows and their words.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mad_019-white-trunked-eucalyptus-of-the-retiro.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_df9da2fa289e6fdaa8b541de",
+        "sighting_id": "fd353c48-ea8b-4530-aeef-6b57609b37c7",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-26, through the app); viewed and approved on 2026-11-26: the whole tree from the lawn: a tall, pale, smooth trunk rising almost straight among dark drooping cedars beside a gravel path, a loose silvery crown of narrow leaves well above them, yellow autumn trees beyond, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
       }
     }
   ]

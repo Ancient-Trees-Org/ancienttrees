@@ -1,9 +1,9 @@
 {
  "_note": "Spanish overlay for Madrid, hand-written 2026-08-22. The English page takes 98 impressions and zero clicks over the window, so the Spanish title and meta description are the whole bet: they are written around 'arboles singulares', the legal category Spain and the Comunidad de Madrid actually use, rather than a literal rendering of 'ancient trees'. Text only: every coordinate, photo, licence and pin stays in data/cities/madrid.json.",
  "city": "Madrid",
- "title": "Árboles singulares de Madrid: 17, del Retiro al Prado",
- "meta_description": "Los 17 árboles singulares de Madrid, casi todos forasteros: el ahuehuete de El Retiro, un cedro del Himalaya, un olmo del Cáucaso. Dónde están y qué ver.",
- "intro": "Los árboles más notables de Madrid son casi todos forasteros, traídos por jardineros reales que querían saber qué especies aguantaban los inviernos helados y los veranos secos de la meseta. Un ciprés mexicano ha sobrevivido a todos los árboles autóctonos del parque más famoso de la ciudad. Un cedro del Himalaya, un cedro del Atlas y un olmo del Cáucaso llevan aquí uno o dos siglos. Hasta la encina más antigua documentada, de las pocas autóctonas de la lista, creció en lo que era un coto real de caza. El Catálogo Regional de Árboles Singulares los protege a todos.",
+ "title": "Árboles singulares de Madrid: 19, del Retiro al Prado",
+ "meta_description": "Los 19 árboles más notables de Madrid, casi todos forasteros: el ahuehuete de El Retiro, un cedro del Himalaya, un olmo del Cáucaso. Dónde están y qué ver.",
+ "intro": "Los árboles más notables de Madrid son casi todos forasteros, traídos por jardineros reales que querían saber qué especies aguantaban los inviernos helados y los veranos secos de la meseta. Un ciprés mexicano ha sobrevivido a todos los árboles autóctonos del parque más famoso de la ciudad. Un cedro del Himalaya, un cedro del Atlas y un olmo del Cáucaso llevan aquí uno o dos siglos. Hasta la encina más antigua documentada, de las pocas autóctonas de la lista, creció en lo que era un coto real de caza. El Catálogo Regional de Árboles Singulares protege a la mayoría.",
  "question_title": "¿Cuál es el árbol más antiguo de Madrid? (edad discutida)",
  "question_meta": "El árbol más antiguo de Madrid es el Ahuehuete de El Retiro, un ciprés de Moctezuma: la tradición dice 1633, los técnicos municipales unos 200 años.",
  "question_answer": "El árbol más antiguo de Madrid, según la mayoría de las fuentes, es el Ahuehuete, un ciprés de Moctezuma que crece en el Jardín del Parterre de El Retiro, aunque su edad está realmente en disputa: la leyenda y las guías antiguas sostienen que se plantó en 1633, lo que le daría casi 400 años, mientras que estudios recientes de los técnicos municipales apuntan a unos 200 años o menos. En cualquier caso está en el Parterre, a cinco minutos a pie de la Puerta de Alcalá.",
@@ -15,7 +15,7 @@
   },
   {
    "q": "¿Dónde se ven mejor los árboles viejos de Madrid?",
-   "a": "En El Retiro, que reúne nueve de los dieciocho árboles de esta lista, más que ningún otro sitio: el Ahuehuete, un cedro del Himalaya, un tejo de tres troncos y un grupo de cipreses calvos plantados dentro del estanque."
+   "a": "En El Retiro, que reúne diez de los diecinueve árboles de esta lista, más que ningún otro sitio: el Ahuehuete, un cedro del Himalaya, un tejo de tres troncos y un grupo de cipreses calvos plantados dentro del estanque."
   },
   {
    "q": "¿Se pueden ver gratis los árboles singulares de Madrid?",
@@ -170,6 +170,13 @@
    "access": "Gratuito; un árbol de calle en el Paseo de la Castellana, abierto a cualquier hora.",
    "transport": "Rubén Darío (Metro L5), a pocos minutos a pie.",
    "story": "La propia guía verde de Madrid llama a este olmo el árbol de calle más antiguo de la ciudad. No lleva mucho tiempo con el título. Según la guía, le llegó solo después de que la ciudad perdiera los dos últimos árboles de calle que eran más viejos.\n\nCrece en el Paseo de la Castellana, frente al hotel Villa Magna. La Castellana es la prolongación hacia el norte de los paseos del Prado y de Recoletos, un eje que según la guía quedó terminado en 1834. Esa fecha pertenece al bulevar, no al árbol, y nadie que hayamos encontrado ha publicado cuándo se plantó el olmo.\n\nLa Guía Verde de Madrid del Ayuntamiento, publicada en 2026, lo mide en 18 metros de alto y 380 centímetros de perímetro de tronco, con una copa de 14 metros de diámetro. Según el Plan General de Ordenación Urbana de Madrid de 1997, está protegido como árbol singular.\n\nQuedan dos cosas abiertas. La guía nombra la especie solo como olmo, sin decir de qué olmo se trata. Y no da año de plantación ni edad. Si conoce alguna de las dos, díganoslo.\n\nNuestro punto está en la dirección del hotel, Paseo de la Castellana 22, y no sobre el tronco, así que busque frente al hotel un olmo de casi cuatro metros de perímetro. Es un árbol de calle, gratuito a cualquier hora."
+  },
+  "mad_019": {
+   "name": "El eucalipto de tronco blanco de El Retiro",
+   "species": "Eucalipto (Eucalyptus sp.)",
+   "access": "Gratuito, parque público.",
+   "how_to_recognise": "Un tronco alto, pálido y de corteza lisa que sube casi recto entre cedros oscuros y colgantes junto a un camino de grava, con la copa suelta y plateada muy por encima de la suya.",
+   "story": "\"Un eucalipto antiguo y fragante en una zona tranquila\", escribió quien nos envió este árbol desde el rincón suroeste de El Retiro, cerca de la calle de Alfonso XII.\n\nSu fotografía explica por qué se detuvo. Entre los cedros oscuros y colgantes de ese rincón, un tronco se levanta pálido y casi recto, con la corteza lisa del color del hueso y manchas grises junto al pie, donde la corteza vieja se ha desprendido. Sube muy por encima de los cedros antes de bifurcarse, y allí arriba la copa es suelta y plateada, hecha de las hojas largas y estrechas que dan a los eucaliptos su olor cuando las calienta el sol. En noviembre, cuando lo fotografió, los árboles al otro lado del camino de grava se habían vuelto amarillos, y el eucalipto seguía como está todo el año.\n\nNo sabemos qué eucalipto es, cuánto mide ni cuándo se plantó. Los eucaliptos crecen deprisa, así que un tronco alto no prueba una gran edad; el eucalipto catalogado de El Retiro, al norte del Estanque Grande, sirve para compararlo. Si conoce la altura, el perímetro o la historia de este árbol, díganoslo aquí y lo añadiremos con sus cifras.\n\nPóngase en el césped bajo los cedros y mire hacia arriba, a lo largo del tronco blanco."
   }
  }
 }

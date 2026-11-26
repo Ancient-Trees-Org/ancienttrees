@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-26 reader judge: a reader's eucalyptus in the Retiro goes live
+
+- Live: The White-Trunked Eucalyptus of the Retiro (madrid/mad_019). A stranger sent it through the app with the note "Ancient and fragrant Eucalyptus in a quiet area". The photograph shows a tall, pale, smooth trunk rising well above the dark cedars in the Retiro's southwest corner. The photograph's GPS puts the pin at the tree, so the pin is confirmed. No register entry stands within 100 m, and it is a different tree from our catalogued blue gum (mad_017, 981 m away). The species is left as Eucalyptus sp. and the page asks readers for it. The story quotes the reader and claims no age. A Spanish overlay entry was added. Madrid's counts now read 19 trees and the Retiro's 10, in English and Spanish. The "catalogued and protected" lines were softened because this tree is in no catalogue. The photo is filed under November from its own date. There were no further photos to add.
+- Nothing else was waiting: 0 queue photographs, 0 open reports, 0 tips, 0 feedback, 0 reader notes to quote. Every other open lead comes from our own account (`mine`) and has no photo on disk, including 3c544597 (Amsterdam).
+
 ## 2026-11-26 session: Trending this month on Discover, iPhone and Android
 
 - In the apps, next build: Discover has a new shelf, "Trending this month", after "At their best now". Hidde asked for it after looking at Polarsteps' Verkennen tab; he approved the design from simulator screenshots ("bouw maar gewoon"). It holds nine trees as numbered rows, three to a column, and pages sideways. A row shows the photo, the rank, the tree's name and its place. A tap opens the tree; the menu offers Want to visit and Share.
