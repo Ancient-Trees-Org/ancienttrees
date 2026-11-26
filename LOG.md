@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-26 reader judge: the Varese campus gets its history from a reader
+
+- Changed on the site: the reader who sent the Varese campus beech wrote back that the campus began as a psychiatric hospital in the early 1900s. That fact is now in the stories of var_003, var_004 and var_005, stated as theirs and in our words. It is not quoted, since a mail needs their yes before we quote it. Feedback 1707 is closed as handled, and its reader_words row is done.
+- No readers' trees or photographs were waiting, and no reports were open. The one queue item (3c544597, Amsterdam Stationsplein) and the other waiting leads in _sightings.json are all from our own account (`mine`), which never auto-publishes. The Amsterdam photo is also not on disk.
+
 ## 2026-11-26 reader judge: two campus trees in Varese and a fox-red conifer in Glasgow, live
 
 - Live: varese/var_004, The Picnic-Table Cedars (two big cedars over the picnic tables on the university campus, a few dozen metres from var_003), and varese/var_005, The Autumn Beech of the Campus (a broad beech in full copper on its leaf carpet, framed by a cedar). Both are from the reader who sent var_003 this morning, and both have the photo's own location. Varese now has 5 trees. Its intro, meta, question texts and FAQ give the new count. It has no kept translation.
