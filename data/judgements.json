@@ -13498,10 +13498,10 @@
     "nearest": []
    },
    "measure": null,
-   "verdict": "lead",
-   "reason": "Our own account (mine), not a reader's tree; photograph not fetched by the reader intake, so not judged here.",
-   "hidde": null,
-   "agreed": null
+   "verdict": "hold",
+   "reason": "Hidde's own account's photo, not a tree for the map",
+   "hidde": "Mag weg",
+   "agreed": true
   },
   {
    "id": "tip:1175",
