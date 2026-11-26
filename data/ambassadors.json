@@ -2514,6 +2514,16 @@
         "The Norfolk Island Pine of Ingle Hall",
         "The Bhutan Cypress of Brisbane Street"
       ]
+    },
+    {
+      "user_id": "p_3b02b3e0160f36dee964289e",
+      "place_slug": "st-peter-port",
+      "place_name": "St Peter Port",
+      "date": "2026-11-26",
+      "trees": [
+        "The Hollow Chestnut of Cambridge Park"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
