@@ -24,12 +24,13 @@ import { visitorSaveFn, visitorTileFn } from "./visitors-page-js";
 /** The row shows from this many tiles (NewFromVisitors.minimum). */
 export const VISITORS_MIN = 4;
 
-export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: string): string {
+export function visitorsRowJs(visitorWord: string, saveWord: string, savedWord: string, justShared: string): string {
   return `
 <script>
 (function () {
   var SB = ${JSON.stringify(SUPABASE_URL)}, KEY = ${JSON.stringify(SUPABASE_KEY)};
   var A_VISITOR = ${JSON.stringify(visitorWord)};
+  var JUST_SHARED = ${JSON.stringify(justShared)};
   var MIN = ${VISITORS_MIN};
   ${visitorSaveFn(saveWord, savedWord)}
   ${visitorTileFn()}

@@ -49,6 +49,6 @@ const crumbItems: [string, string | null][] = [[u.home, home], [u.homeVisitorsH,
   <p class="vp-end" id="vp-end" hidden>{u.visitorsEnd}</p>
 </main>
 <Fragment slot="scripts" set:html={TREE_ACTIONS_JS} />
-<Fragment set:html={visitorsPageJs(u.noteVisitor, u.cardSave, u.cardSaved)} />
+<Fragment set:html={visitorsPageJs(u.noteVisitor, u.cardSave, u.cardSaved, u.visitorsJustShared)} />
 <PhotoLikers lang={lang} />
 </Base>

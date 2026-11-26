@@ -488,7 +488,7 @@ const collectedSpecies = [...lit, ...dim]
 const graph = SITE_SCHEMA;
 const headExtra = ldScript(graph);
 const heroImg = imgSrcset(HERO_PHOTO_URL, [1200, 2000, 2800], "100vw");
-const scripts = TREE_ACTIONS_JS + searchWidgetJs(lang) + visitorsRowJs(u.noteVisitor, u.cardSave, u.cardSaved);
+const scripts = TREE_ACTIONS_JS + searchWidgetJs(lang) + visitorsRowJs(u.noteVisitor, u.cardSave, u.cardSaved, u.visitorsJustShared);
 ---
 <Base title={title} description={description} canonical={canonical} lang={lang} ogType="website" headExtra={headExtra + "\n" + hreflangSet("/", homeVariants)}>
 <div class="home-hero poster">

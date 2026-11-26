@@ -644,6 +644,8 @@ export interface UIStrings {
   /** The See all page of New from visitors (/visitors, 2026-11-18). */
   visitorsIntro: string;
   visitorsEnd: string;
+  /** A reader's share in the feed before the judge looked (feed-live.sql, 2026-11-26). */
+  visitorsJustShared: string;
   visitorsLoading: string;
   /** The tree page since 2026-10-24 (CONVENTIONS.md, "Notes from visitors",
    *  "Getting there is one block", "the map is the picture"). */
@@ -1042,6 +1044,7 @@ const EN: UIStrings = {
   seeAll: "See all",
   visitorsIntro: "Photographs people took at the trees, newest first.",
   visitorsEnd: "You have seen every photograph so far.",
+  visitorsJustShared: "just shared",
   visitorsLoading: "Loading more photographs",
   gettingThere: "Getting there",
   readLess: "Read less",
@@ -1124,6 +1127,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     seeAll: "Ver todo",
     visitorsIntro: "Fotos que la gente hizo junto a los árboles, las más recientes primero.",
     visitorsEnd: "Ya has visto todas las fotos por ahora.",
+    visitorsJustShared: "recién compartido",
     visitorsLoading: "Cargando más fotos",
     gettingThere: "Cómo llegar",
     readLess: "Leer menos",
@@ -1513,6 +1517,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     seeAll: "Vedi tutti",
     visitorsIntro: "Foto scattate dalle persone accanto agli alberi, le più recenti per prime.",
     visitorsEnd: "Hai visto tutte le foto per ora.",
+    visitorsJustShared: "appena condiviso",
     visitorsLoading: "Caricamento di altre foto",
     gettingThere: "Come arrivare",
     readLess: "Leggi meno",
@@ -1902,6 +1907,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     seeAll: "Alles bekijken",
     visitorsIntro: "Foto's die mensen bij de bomen maakten, de nieuwste eerst.",
     visitorsEnd: "Je hebt alle foto's tot nu toe gezien.",
+    visitorsJustShared: "net gedeeld",
     visitorsLoading: "Meer foto's laden",
     gettingThere: "Hoe kom je er",
     readLess: "Minder lezen",
@@ -2291,6 +2297,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     seeAll: "Alle ansehen",
     visitorsIntro: "Fotos, die Menschen an den Bäumen gemacht haben, die neuesten zuerst.",
     visitorsEnd: "Du hast bisher alle Fotos gesehen.",
+    visitorsJustShared: "gerade geteilt",
     visitorsLoading: "Weitere Fotos werden geladen",
     gettingThere: "Anfahrt",
     readLess: "Weniger lesen",
@@ -2680,6 +2687,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     seeAll: "Ver tudo",
     visitorsIntro: "Fotografias que as pessoas tiraram junto às árvores, as mais recentes primeiro.",
     visitorsEnd: "Já viste todas as fotografias por agora.",
+    visitorsJustShared: "acabado de partilhar",
     visitorsLoading: "A carregar mais fotografias",
     gettingThere: "Como chegar",
     readLess: "Ler menos",
@@ -3069,6 +3077,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     seeAll: "Tout voir",
     visitorsIntro: "Les photos prises par les visiteurs au pied des arbres, les plus récentes d'abord.",
     visitorsEnd: "Vous avez vu toutes les photos pour l'instant.",
+    visitorsJustShared: "tout juste partagé",
     visitorsLoading: "Chargement d'autres photos",
     gettingThere: "S'y rendre",
     readLess: "Lire moins",
@@ -3458,6 +3467,7 @@ const TABLE: Record<string, Partial<UIStrings>> = {
     seeAll: "すべて見る",
     visitorsIntro: "訪れた人が木のそばで撮った写真です。新しい順に並んでいます。",
     visitorsEnd: "今のところ、すべての写真を見ました。",
+    visitorsJustShared: "シェアされたばかり",
     visitorsLoading: "写真をさらに読み込んでいます",
     gettingThere: "行き方",
     readLess: "閉じる",

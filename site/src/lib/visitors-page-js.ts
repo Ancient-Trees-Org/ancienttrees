@@ -72,6 +72,8 @@ export function visitorTileFn(): string {
       ? '<img src="' + esc(r.author_avatar) + '" alt="" loading="lazy">'
       : '<span>' + esc(name.charAt(0)) + '</span>';
     var when = atAgo(r.published_at, false);
+    // A share the judge has not looked at yet says so (the apps' "just shared a tree").
+    if (r.checked === false && typeof JUST_SHARED !== 'undefined') when = JUST_SHARED + (when ? ' · ' + when : '');
     var line = '<span class="nfv-av" aria-hidden="true">' + av + '</span><span class="nfv-name">' + esc(name) + '</span>' +
       (when ? '<span class="nfv-when">' + esc(when) + '</span>' : '');
     var who = real
@@ -92,12 +94,13 @@ export function visitorTileFn(): string {
 /** Tiles per request: two screens on a laptop, four on a phone. */
 export const VISITORS_PAGE = 24;
 
-export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord: string): string {
+export function visitorsPageJs(visitorWord: string, saveWord: string, savedWord: string, justShared: string): string {
   return `
 <script>
 (function () {
   var SB = ${JSON.stringify(SUPABASE_URL)}, KEY = ${JSON.stringify(SUPABASE_KEY)};
   var A_VISITOR = ${JSON.stringify(visitorWord)};
+  var JUST_SHARED = ${JSON.stringify(justShared)};
   ${visitorSaveFn(saveWord, savedWord)}
   ${visitorTileFn()}
   var N = ${VISITORS_PAGE};
