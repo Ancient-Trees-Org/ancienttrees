@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-26 reader judge: readers' mail replies filed
+
+- Nothing changed on the site. The Varese reader wrote back to say thanks and that more trees from the area will come over the next few days. There was nothing to act on, so feedback 1711 is closed as handled, and its reader_words row is done (thanks, nothing to quote).
+- Nothing else was waiting: 0 queue photographs, 0 open reports, 0 tips. Lead 3c544597 (Amsterdam) is from our own account (`mine`) and still has no photo on disk.
+
 ## 2026-11-26 reader judge: Bella di Ceciliano's photograph back up
 
 - Changed on the site: the reader's photograph leads Bella di Ceciliano (arezzo/arz_001) again. It was held this morning as a screenshot. The reader wrote back that they took it themselves, on a photography commission for the property. That is the yes the hold asked for (feedback 1710, handled). The Arezzo intro says again that the reader sent its photograph.
