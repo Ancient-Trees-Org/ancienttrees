@@ -12,7 +12,7 @@
     <string name="cf_discard">Verwerfen</string>
     <string name="cf_keep_editing">Weiter bearbeiten</string>
     <string name="cf_where">Wo steht er?</string>
-    <string name="cf_place_reason">Dein Foto sagt nicht, wo es aufgenommen wurde. Zieh die Karte, bis die Nadel auf dem Baum sitzt.</string>
+    <string name="cf_place_reason">Dein Foto sagt nicht, wo es aufgenommen wurde. Such eine Adresse oder zieh die Karte, bis die Nadel auf dem Baum sitzt.</string>
     <string name="cf_tree_is_here">Der Baum steht hier</string>
     <string name="cf_which">Welcher ist es?</string>
     <string name="cf_tap_to_compare">Nicht sicher, welcher? Tippe auf %1$s zum Vergleichen.</string>
@@ -89,4 +89,6 @@
     </string-array>
     <string name="cf_your_tree_at">Dein Baum · %1$s</string>
     <string name="cf_added_title">Zu deinen Bäumen hinzugefügt</string>
+    <string name="pin_address_search">Adresse suchen</string>
+    <string name="pin_address_clear">Löschen</string>
 </resources>

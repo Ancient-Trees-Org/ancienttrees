@@ -12,7 +12,7 @@
     <string name="cf_discard">破棄</string>
     <string name="cf_keep_editing">編集を続ける</string>
     <string name="cf_where">どこに立っていますか？</string>
-    <string name="cf_place_reason">写真に撮影場所の情報がありません。ピンが木の上に来るまで地図を動かしてください。</string>
+    <string name="cf_place_reason">写真に撮影場所の情報がありません。住所を検索するか、ピンが木の上に来るまで地図を動かしてください。</string>
     <string name="cf_tree_is_here">木はここです</string>
     <string name="cf_which">どの木ですか？</string>
     <string name="cf_tap_to_compare">わからない場合は %1$s をタップして比べてください。</string>
@@ -89,4 +89,6 @@
     </string-array>
     <string name="cf_your_tree_at">あなたの木 · %1$s</string>
     <string name="cf_added_title">あなたの木に追加しました</string>
+    <string name="pin_address_search">住所を検索</string>
+    <string name="pin_address_clear">消去</string>
 </resources>
