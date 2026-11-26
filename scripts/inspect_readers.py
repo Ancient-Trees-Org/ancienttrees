@@ -159,6 +159,12 @@ def selection(include_answered=False, live=None, fresh_days=2):
         # first copy was already judged, asks him nothing.
         if not include_answered and is_duplicate(j):
             continue
+        # NOTHING TO LOOK AT IS NOT HIS TO SEE (Hidde, 2026-11-26, "ja", on a
+        # list where four of five had no photograph and no words: two mailed
+        # tips waiting for a spot, two app rows the reader took back). Those
+        # are the run's work; his eye goes to a photograph or a reader's words.
+        if not include_answered and not j.get("photo") and not (j.get("reader_note") or "").strip():
+            continue
         key =((j.get("tree") or sid).lower(), (j.get("city") or "").lower())
         if key in by_tree:
             by_tree[key][2] += 1
@@ -223,7 +229,7 @@ def main():
                 # Beside the page, not inlined: inlined the page grew past what
                 # the preview pane opens. A session serves the folder with
                 # preview_start {name: "inspect"} (.claude/launch.json).
-                img = '<img src="%s.jpg" alt="" loading="lazy">' % sid
+                img = '<img src="%s.jpg" alt="">' % sid
         hit = live.get(sid)
         page = ('<a href="%s">%s, live</a>' % (tree_url(hit[0], hit[1].get("name")), html.escape(hit[1].get("id")))
                 if hit else "not on the site")

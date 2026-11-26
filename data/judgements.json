@@ -348,7 +348,8 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
    ]
   },
   {
@@ -366,7 +367,8 @@
    "hidde": null,
    "agreed": null,
    "shown": [
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
    ]
   },
   {
@@ -967,7 +969,10 @@
    "verdict": "hold",
    "reason": "App tree row in Goll Woods whose sighting no longer exists (taken back by the reader); no photograph or words left to judge. Their two Goll Woods oaks from the same walk are live.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-26"
+   ]
   },
   {
    "id": "tip:1675",
@@ -982,7 +987,10 @@
    "verdict": "hold",
    "reason": "App tree row in Goll Woods whose sighting no longer exists (taken back by the reader); no photograph or words left to judge. Their two Goll Woods oaks from the same walk are live.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-26"
+   ]
   },
   {
    "id": "sight:861d7cdb-6e15-4015-8e3c-e2b0607ca814",
@@ -5620,10 +5628,11 @@
    "measure": null,
    "verdict": "hold",
    "reason": "doubt_photo: the Tsagarada plane at night in snow, framed by letterbox bars like a screenshot of a shared picture. The tree is the famous Greek lead awaiting a verify pass.",
-   "hidde": null,
-   "agreed": null,
+   "hidde": "doorgestuurde foto, boom staat al live, lezer al gemaild; niet opnieuw tonen",
+   "agreed": true,
    "shown": [
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
    ]
   },
   {
