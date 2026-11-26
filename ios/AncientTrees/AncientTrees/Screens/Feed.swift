@@ -167,9 +167,14 @@ struct FeedView: View {
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
+                // 44 to hit, its own height to lay out (the ambassador tag's
+                // way in Collect.swift): a one-line name was a 24 point target
+                // (appfit SMALL, run 45810490360).
+                .padding(.vertical, 10)
                 .contentShape(.rect)
             }
             .buttonStyle(.plain)
+            .padding(.vertical, -10)
             .accessibilityIdentifier("feed-name")
             actions(p, tree: tree)
         }

@@ -91,10 +91,15 @@ struct PinPicker: View {
                         Image(systemName: "xmark.circle.fill").foregroundStyle(Brand.inkSoft)
                     }
                     .buttonStyle(.plain)
+                    .padding(.trailing, 8)
                     .accessibilityLabel("Clear")
                 }
             }
-            .padding(.horizontal, 12)
+            // 12 in on the left; on the right the field runs to the screen's
+            // 20 point line, where the rest of this screen ends (appfit TRAIL,
+            // run 45810490360: the field ended 8 points short of it).
+            .padding(.leading, 12)
+            .padding(.trailing, 4)
             .frame(minHeight: 44)
 
             if typing && !search.results.isEmpty {
