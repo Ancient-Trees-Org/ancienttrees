@@ -533,7 +533,7 @@ A reader who got the ambassador P.S. asked what it would entail. My draft explai
 >
 > Thanks for your reply[, and <one line answering anything else they asked>].
 >
-> Being ambassador is for people who enjoy helping out, so don't think about it too heavily. Whenever you feel like it, you can check the <place> list, tell us which trees are missing, or add a photo when you walk past one. You get a badge for <place> beside your name.
+> Being ambassador is for people who enjoy helping out, so don't think about it too heavily. It will be us improving the <place> list together. Whenever you feel like it, you can check the <place> list, tell us which trees are missing, or add a photo when you walk past one. You get a badge for <place> beside your name.
 > https://ancienttrees.app/<place>
 >
 > And it's completely fine if it's not your thing.
