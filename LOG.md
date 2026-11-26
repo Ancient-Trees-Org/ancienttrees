@@ -7,6 +7,12 @@
 - Breakage on the way: Tokyo's map drew no trees for one deploy (the list read its words at load); fixed and checked live.
 - Next: step 4 (every link to the map, from the feed, tree page and search, lands on the tree with its card open), then more cities.
 
+## 2026-11-26 night run (19:08 window): nothing to ship
+
+- Rung 1 left to the reader judge (one unmapped reader photo, 3c544597, no backlog over 24h). Rung 2: iOS CI red/in progress on the Feed work sessions are on, open app bug rows already carry tests; web errors orange only (4 new types, none over the red bar). Rungs 3 and 4 empty (sourcing paused while mail batches wait). Own research paused.
+- Write pass dispatched on the shelf: every US/UK verified file is already published (stale), ten id-collision entries are live under other ids, and the 3 READY leads (York plane, Guimaraes cypress, Leamington lime) lack source, photo, pin or access checks. Zero trees written. About 200 stale research files could be deleted by a session.
+- Tool refusals: none.
+
 ## 2026-11-26 Feed, second walk: refresh works again, bell beside the gear, sliding title, profiles newest first
 
 - **Pull to refresh on the Feed said "the feed did not load"** (Hidde). Emptying the list cut its own request off. It now keeps the posts until the new ones are in, iPhone and Android; FeedRefreshWalk failed before the fix and passes after.
