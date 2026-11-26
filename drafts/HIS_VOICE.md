@@ -550,3 +550,7 @@ A 70-plus reader said she could not really help, being not very mobile, but woul
 ## 2026-11-25: a call we propose is Google Meet (Lucas, Inspiring News)
 
 Lucas offered Zoom for his interview; my draft took it up. Hidde: **"propose google meet instead of zoom from now on"**. Whenever a reply proposes a call, it says Google Meet, also when they mentioned Zoom. mailcheck's ZOOM PROPOSED.
+
+## 2026-11-26: a tester with a practice of their own is asked about the app (Sara, Forestamente, Turin)
+
+A forest bathing guide replied to the Android invite, glad to test. My draft pointed her at the Turin list and asked whether her favourite tree was missing. He rewrote it: **"From your experience with forest bathing I'm also curious how you look at the app and if there are features you think we should add in the future."** and closed "Thanks for the support!". So when a tester brings a practice of their own (guide, teacher, photographer), the ask draws on that practice and is about the product and its future features, not a tree or the city list; no page link needed.
