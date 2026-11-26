@@ -194,9 +194,10 @@ struct FeedView: View {
             // again, and the Feed came back scrolled somewhere else (Hidde,
             // 2026-11-26: "niet op het juiste punt in de feed terug";
             // BackKeepsPlaceWalk). Pull to refresh still starts it over.
-            if loadedFor == account.isSignedIn, !posts.isEmpty { return }
+            // Back from a profile where you followed somebody: the list of
+            // who you follow is read again, the posts and the place stay.
+            if loadedFor == account.isSignedIn, !posts.isEmpty { await loadFollowing(); return }
             loadedFor = account.isSignedIn
-            await loadFollowing()
             await restart()
         }
     }
@@ -523,7 +524,9 @@ struct FeedView: View {
     /// posts on screen stay until the new first page is in, as Instagram's
     /// refresh does; a refresh that fails keeps what was there.
     private func restart() async {
-        await Task { @MainActor in await reload() }.value
+        // Who you follow comes again too: pull to refresh after following
+        // somebody left Following empty (release walk 2026-11-26, pass 1).
+        await Task { @MainActor in await loadFollowing(); await reload() }.value
     }
 
     private func reload() async {

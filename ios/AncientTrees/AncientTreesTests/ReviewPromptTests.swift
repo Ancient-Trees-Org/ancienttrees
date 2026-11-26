@@ -73,6 +73,20 @@ struct ReviewPromptTests {
         #expect(prompt.consider() == false)
     }
 
+    // Release walk 2026-11-26, pass 1: the ask fired on the way out of the
+    // third tree page, never reached the screen, and was counted as asked
+    // (and its stuck sheet blocked collecting). One that never showed goes
+    // back, so the next pause asks again.
+    @Test func anAskThatNeverShowedIsAskedAgain() {
+        let s = Scratch(); defer { s.clean() }
+        let prompt = ReviewPrompt(defaults: s.defaults, suppressed: false)
+        prompt.saw("lon_001"); prompt.saw("lon_002"); prompt.saw("lon_003")
+        #expect(prompt.consider() == true)
+        #expect(prompt.lastFired == "first")
+        prompt.notShown(prompt.lastFired)
+        #expect(prompt.consider() == true)
+    }
+
     @Test func asksAtTheThirdDifferentTree() {
         let s = Scratch(); defer { s.clean() }
         let prompt = ReviewPrompt(defaults: s.defaults, suppressed: false)

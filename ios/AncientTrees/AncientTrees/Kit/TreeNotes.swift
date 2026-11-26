@@ -45,8 +45,18 @@ public final class TreeNotes {
     /// The function is not on the server yet: draw nothing.
     public private(set) var gone = false
     public private(set) var loaded = false
+    /// The server did not answer (offline, a timeout, a 5xx): the page must not
+    /// say "No notes yet" about notes it never received (release walk
+    /// 2026-11-26, pass 2, offline).
+    public private(set) var failed = false
 
     public init() {}
+
+    /// Whether an answer means the notes could not be read. Pure, for the test.
+    nonisolated static func failedAnswer(status: Int?) -> Bool {
+        guard let status else { return true }
+        return status != 404 && !(200..<300).contains(status)
+    }
 
     static func date(_ iso: String) -> Date {
         let f = ISO8601DateFormatter()
@@ -96,7 +106,9 @@ public final class TreeNotes {
         // With the session, so a public writer comes with their account id
         // and a tap on the name opens the profile (reader-names.sql).
         let r = Supa.request("/rest/v1/rpc/tree_notes_for", token: token, body: ["ids": ids])
-        if let (data, resp) = try? await Net.data(for: r), let http = resp as? HTTPURLResponse {
+        let answer = try? await Net.data(for: r)
+        failed = Self.failedAnswer(status: (answer?.1 as? HTTPURLResponse)?.statusCode)
+        if let (data, resp) = answer, let http = resp as? HTTPURLResponse {
             if http.statusCode == 404 { gone = true }
             else if (200..<300).contains(http.statusCode),
                     let rows = try? JSONDecoder().decode([Note].self, from: data) {

@@ -121,6 +121,15 @@ struct PersonProfileView: View {
         .accessibilityIdentifier(id)
     }
 
+    @ViewBuilder private var counts: some View {
+        countButton("**\(followers)** \(followers == 1 ? "follower" : "followers")", id: "person-followers") {
+            openList(followers: true)
+        }
+        countButton("**\(profile?.following ?? 0)** following", id: "person-following") {
+            openList(followers: false)
+        }
+    }
+
     private func openList(followers: Bool) {
         guard account.isSignedIn else { signingIn = true; return }
         navigator.push = .followListOf(userId: userId, followers: followers)
@@ -169,13 +178,12 @@ struct PersonProfileView: View {
                     // AllTrails "Click the number next to 'Followers'",
                     // support.alltrails.com 360019244871; Strava, Polarsteps).
                     // Signed out, the names are behind an account, so it asks.
-                    HStack(spacing: 14) {
-                        countButton("**\(followers)** \(followers == 1 ? "follower" : "followers")", id: "person-followers") {
-                            openList(followers: true)
-                        }
-                        countButton("**\(profile?.following ?? 0)** following", id: "person-following") {
-                            openList(followers: false)
-                        }
+                    // Side by side when they fit; at large text one under the
+                    // other, never cut to "0 follow... 0 follow..." (release
+                    // walk 2026-11-26, pass 2, the SE at XXL).
+                    ViewThatFits(in: .horizontal) {
+                        HStack(spacing: 14) { counts }
+                        VStack(alignment: .leading, spacing: 4) { counts }
                     }
                 }
             }

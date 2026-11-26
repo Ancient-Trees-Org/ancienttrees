@@ -875,7 +875,11 @@ struct TreeDetail: View {
                             if let c = p.card, let have = ImageStore.shared.cached(c) {
                                 Image(uiImage: have).resizable().aspectRatio(contentMode: .fill)
                             } else {
-                                heroFallback
+                                // A photograph that has not arrived (offline,
+                                // still loading) is not a tree without one:
+                                // the mark alone, never "No photograph yet"
+                                // (release walk 2026-11-26, pass 2).
+                                heroFallback(saysNone: false)
                             }
                         }
                               } else {
@@ -989,7 +993,7 @@ struct TreeDetail: View {
             // surface, as before.
             Color.clear
                 .frame(height: 300)
-                .overlay { heroFallback }
+                .overlay { heroFallback(saysNone: true) }
                 .clipped()
                 .accessibilityElement(children: .combine)
                 .accessibilityIdentifier("tree-empty-photo")
@@ -1096,7 +1100,7 @@ struct TreeDetail: View {
         tree.shots.indices.contains(shotAt) ? tree.shots[shotAt] : tree.photo
     }
 
-    private var heroFallback: some View {
+    private func heroFallback(saysNone: Bool) -> some View {
         ZStack {
             Brand.surfaceMuted
             VStack(spacing: 10) {
@@ -1111,8 +1115,10 @@ struct TreeDetail: View {
                 // the map inset that sits in the bottom right corner: at 375
                 // points the single sentence ran straight under it and read as
                 // "Tap to add you" (seen on the sweep, 2026-08-26).
-                Text("No photograph yet")
-                    .font(.caption).foregroundStyle(Brand.inkSoft)
+                if saysNone {
+                    Text("No photograph yet")
+                        .font(.caption).foregroundStyle(Brand.inkSoft)
+                }
             }
         }
     }
@@ -1220,11 +1226,20 @@ struct TreeDetail: View {
         // this morning, and a count exists on almost no tree yet, so the
         // control was invisible exactly where the first vote would have come
         // from.
-        HStack(spacing: 8) {
-            placeLink
-            if mine == nil {
-                dot
-                WorthItButton(tree: tree, compact: true)
+        // On one line when it fits; at large text the verdict goes under the
+        // place, never both cut to "Amst...Amsterdam · Worth the..." (release
+        // walk 2026-11-26, pass 2, the SE at XXL).
+        ViewThatFits(in: .horizontal) {
+            HStack(spacing: 8) {
+                placeLink
+                if mine == nil {
+                    dot
+                    WorthItButton(tree: tree, compact: true)
+                }
+            }
+            VStack(alignment: .leading, spacing: 0) {
+                placeLink
+                if mine == nil { WorthItButton(tree: tree, compact: true) }
             }
         }
         .font(.subheadline)
@@ -1266,10 +1281,13 @@ struct TreeDetail: View {
             // Google Maps writes a place, the city the link.
             if let district = Self.placeDistrict(neighbourhood: tree.neighbourhood, city: tree.city) {
                 HStack(spacing: 0) {
-                    Text("\(district), ")
+                    // The comma on its own, so a cut district still reads
+                    // "Amst..., Amsterdam" and never runs into the city.
+                    Text(district)
                         .foregroundStyle(Brand.inkSoft)
                         .lineLimit(1)
                         .truncationMode(.tail)
+                    Text(", ").foregroundStyle(Brand.inkSoft).fixedSize()
                     Button { navigator.push = .city(tree.citySlug) } label: {
                         Text(tree.city)
                             .underline()
@@ -2193,7 +2211,15 @@ struct TreeDetail: View {
                 // "a grey card like the cards are in app when you have not
                 // bookmarked a tree yet"; "the button should be where the
                 // eventual photo or note ends up"). His words for the ask.
-                if here.isEmpty, notes.mine == nil {
+                // OFFLINE SAYS SO, as the Feed does ("The feed did not load"),
+                // instead of claiming there are none (release walk 2026-11-26).
+                if notes.failed, here.isEmpty, notes.mine == nil {
+                    Text("The notes did not load. Check your connection and come back.")
+                        .font(.system(size: 14))
+                        .foregroundStyle(Brand.inkSoft)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .accessibilityIdentifier("notes-failed")
+                } else if here.isEmpty, notes.mine == nil {
                     VStack(alignment: .leading, spacing: 4) {
                         Image(systemName: "text.bubble")
                             .font(.system(size: 22, weight: .regular))

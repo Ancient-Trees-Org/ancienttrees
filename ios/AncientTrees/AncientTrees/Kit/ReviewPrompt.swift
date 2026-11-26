@@ -170,9 +170,24 @@ public final class ReviewPrompt {
         f.insert(name)
         fired = f
         last = now
+        lastFired = name
         pending = true
         return true
     }
+
+    /// The ask was due but never reached the screen (another sheet, a page
+    /// still leaving): the milestone goes back unfired, so it is asked at the
+    /// next pause rather than lost (release walk 2026-11-26).
+    public func notShown(_ name: String?) {
+        guard let name else { return }
+        var f = fired
+        f.remove(name)
+        fired = f
+        last = nil
+    }
+
+    /// The milestone the last `consider()` fired, for `notShown`.
+    public private(set) var lastFired: String?
 
     /// A "Yes" quiets the asking until a newer version, at least four months
     /// on (Hidde, 2026-10-20). Apple never tells an app whether somebody
@@ -218,13 +233,35 @@ struct ReviewAsk: ViewModifier {
     @State private var feedback = false
     @State private var wantsFeedback = false
     @State private var wantsReview = false
+    @State private var shown = false
+
+    /// How long after a pause the ask waits, so the page that noticed has
+    /// finished leaving: asked while a tree page was still sliding away, iOS
+    /// never showed the sheet, `asking` stayed true, and every other sheet of
+    /// the app (collect, add a photo) silently refused to open until the app
+    /// was killed (release walk 2026-11-26: after the third tree page).
+    static let settle: Duration = .milliseconds(800)
+    /// How long the sheet gets to appear before the ask is given up.
+    static let mustAppearWithin: Duration = .milliseconds(1500)
 
     func body(content: Content) -> some View {
         content
             .onChange(of: prompt.pending) { _, now in
                 guard now else { return }
                 prompt.pending = false
-                asking = true
+                let fired = prompt.lastFired
+                Task { @MainActor in
+                    try? await Task.sleep(for: Self.settle)
+                    shown = false
+                    asking = true
+                    try? await Task.sleep(for: Self.mustAppearWithin)
+                    // Never on screen: let go, so the rest of the app's
+                    // sheets work, and keep the milestone for next time.
+                    if asking && !shown {
+                        asking = false
+                        prompt.notShown(fired)
+                    }
+                }
             }
             // THE ONE SHEET (Kit/BrandSheet.swift, 2026-10-10). The feedback
             // form opens once this one has gone, because two sheets cannot
@@ -244,6 +281,7 @@ struct ReviewAsk: ViewModifier {
                         .primary("Yes", id: "review-yes") { prompt.answeredYes(); wantsReview = true; asking = false },
                         .secondary("Not really", id: "review-no") { wantsFeedback = true; asking = false },
                     ])
+                .onAppear { shown = true }
             }
             .sheet(isPresented: $feedback) { ContributeView(feedbackMode: true) }
     }

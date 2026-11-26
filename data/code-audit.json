@@ -1163,6 +1163,58 @@
    "status": "open",
    "found_by": "hidde",
    "test": "AncientTreesUITests/TreeCardDragWalk"
+  },
+  {
+   "id": "ESC-2026-11-26-after-the-third-tree-page-the-rating-ask",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Kit/ReviewPrompt.swift",
+   "summary": "After the third tree page the rating ask fired while the page was leaving, never showed, and blocked every other sheet: collect, the camera and Add a photo did nothing until the app was killed",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test",
+   "test": "ReviewPromptTests/anAskThatNeverShowedIsAskedAgain"
+  },
+  {
+   "id": "ESC-2026-11-26-feed-following-stayed-empty-after-follow",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Feed.swift",
+   "summary": "Feed > Following stayed empty after following somebody, pull to refresh included",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
+  },
+  {
+   "id": "ESC-2026-11-26-offline-a-tree-with-a-photograph-said-no",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/TreeDetail.swift",
+   "summary": "Offline, a tree with a photograph said 'No photograph yet' and 'No notes yet'",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test",
+   "test": "WalkFindingsTests.testNotesThatDidNotArriveAreNotNone"
+  },
+  {
+   "id": "ESC-2026-11-26-another-person-s-profile-at-extra-extra-",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/PersonProfile.swift",
+   "summary": "Another person's profile at extra-extra-large text cut both counts to '0 follow...'",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
+  },
+  {
+   "id": "ESC-2026-11-26-tree-page-at-extra-extra-large-text-amst",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/TreeDetail.swift",
+   "summary": "Tree page at extra-extra-large text: 'Amst...Amsterdam · Worth the...', district run into the city",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "test"
   }
  ]
 }

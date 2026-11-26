@@ -56,6 +56,15 @@ final class WalkFindingsTests: XCTestCase {
         XCTAssertEqual(CountryList.matching("nl").first?.code, "NL")
     }
 
+    // Release walk 2026-11-26, pass 2: offline the tree page said "No notes
+    // yet" about notes it never received.
+    func testNotesThatDidNotArriveAreNotNone() {
+        XCTAssertTrue(TreeNotes.failedAnswer(status: nil))
+        XCTAssertTrue(TreeNotes.failedAnswer(status: 503))
+        XCTAssertFalse(TreeNotes.failedAnswer(status: 200))
+        XCTAssertFalse(TreeNotes.failedAnswer(status: 404))
+    }
+
     // Report 1488: the Tortworth chestnut showed under Westonbirt, 13 km off.
     func testATreeYouAddedIsNotFiledUnderAFarPlace() {
         XCTAssertNil(CollectView.placeOfYourTree(place: nil, linked: false, nearest: "Westonbirt", nearestKm: 13))
