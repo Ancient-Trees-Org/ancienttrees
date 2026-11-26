@@ -126,17 +126,21 @@ fun MapSearch(
     /** At the tap, before the cover has slid away: the map moves while it goes (MapTab.swift take). */
     onPickStart: (SearchHit) -> Unit = {},
     onBack: () -> Unit,
+    /** The words as they stand at a pick, so Back from the page it opened finds the results again. */
+    onQuery: (String) -> Unit = {},
+    /** Back from a result: the results are already there, no rise and no keyboard. */
+    instant: Boolean = false,
 ) {
     val brand = Brand.colors
     var query by remember { mutableStateOf(initial) }
     var lane by remember { mutableStateOf(Lane.TOP) }
     val index = remember(catalogue) { SearchIndex(catalogue) }
     val focus = remember { FocusRequester() }
-    LaunchedEffect(Unit) { runCatching { focus.requestFocus() } }
+    LaunchedEffect(Unit) { if (!instant) runCatching { focus.requestFocus() } }
     // A FULL-SCREEN COVER (MapTab.swift:728, Home.swift:355): it slides up over the
     // map and down again on the way out.
     val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
-    val rise = remember { androidx.compose.animation.core.Animatable(0f) }
+    val rise = remember { androidx.compose.animation.core.Animatable(if (instant) 1f else 0f) }
     val leaveScope = rememberCoroutineScope()
     var leaving by remember { mutableStateOf(false) }
     LaunchedEffect(Unit) { rise.animateTo(1f, Motion.push()) }
@@ -189,6 +193,7 @@ fun MapSearch(
             recent.demo(listOf(e) + recent.rows.filter { it.id != e.id })
             GlobalScope.launch { recent.record(e, who.token()) }
         }
+        onQuery(query)
         onPickStart(hit)
         leave { onPick(hit) }
     }

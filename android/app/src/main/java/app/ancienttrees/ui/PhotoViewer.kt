@@ -46,6 +46,7 @@ import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.layout.BoxWithConstraints
 import kotlinx.coroutines.launch
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
@@ -76,6 +77,10 @@ fun PhotoViewer(
     /** The tree's page, shared from beside the X (Kit/PhotoViewer.swift shareURL; Hidde,
      *  2026-11-24: Google Maps' and Airbnb's viewers carry one). Null: no button. */
     onShare: (() -> Unit)? = null,
+    /** Told which picture is on screen as you page, so the page behind shows the same
+     *  one when the viewer closes (Kit/PhotoViewer.swift onPage; walk 2026-11-25: closed
+     *  on 2 of 4, the tree page was back on 1). Apple Photos and Airbnb's gallery do. */
+    onPage: ((Int) -> Unit)? = null,
     onClose: () -> Unit,
 ) {
     if (photos.isEmpty()) return
@@ -107,6 +112,7 @@ fun PhotoViewer(
         }
         androidx.compose.runtime.LaunchedEffect(Unit) { rise.animateTo(1f, Motion.push()) }
         var at by remember { mutableIntStateOf(startAt.coerceIn(0, photos.size - 1)) }
+        LaunchedEffect(at) { onPage?.invoke(at) }
         var scale by remember { mutableFloatStateOf(1f) }
         var offset by remember { mutableStateOf(Offset.Zero) }
         var dragDown by remember { mutableFloatStateOf(0f) }

@@ -917,7 +917,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         CompositionLocalProvider(
             LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
                 signedIn = signedIn, token = { account.fresh()?.accessToken },
-                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }),
+                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }, myId = { account.fresh()?.userId }),
         ) {
             when (p) {
                 is app.ancienttrees.ui.Page.TreePage -> cat.tree(p.id)?.let { tree -> TreePage(tree) }
@@ -1034,7 +1034,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                     CompositionLocalProvider(
                         LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
                 signedIn = signedIn, token = { account.fresh()?.accessToken },
-                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }),
+                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }, myId = { account.fresh()?.userId }),
                         app.ancienttrees.ui.LocalSearchAccount provides app.ancienttrees.ui.SearchAccount(
                             signedIn = signedIn,
                             token = { account.fresh()?.accessToken },
@@ -1114,7 +1114,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                         CompositionLocalProvider(
                             LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
                                 signedIn = signedIn, token = { account.fresh()?.accessToken },
-                                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }),
+                                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }, myId = { account.fresh()?.userId }),
                         ) {
                         DiscoverScreen(
                             catalogue = cat,
@@ -1131,6 +1131,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                             openCollection = collectionLink,
                             // No ambassador row for a place you already look after (Home.swift).
                             myPlaces = profiles.myPlaces.map { it.placeName },
+                            covered = nav.stacks[1].isNotEmpty(),
                             act = discoverActions,
                         )
                         }
@@ -1156,7 +1157,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                         CompositionLocalProvider(
                             LocalTreeMarks provides TreeMarks(saves.hearts, saves.collected, onSave = { heart(it) },
                 signedIn = signedIn, token = { account.fresh()?.accessToken },
-                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }),
+                signIn = { signInReason = app.ancienttrees.ui.SignInReason.General; asking = true }, openPerson = { routes.openPerson(it) }, myId = { account.fresh()?.userId }),
                             app.ancienttrees.ui.LocalMyHeader provides app.ancienttrees.ui.MyHeader(
                                 profiles = profiles,
                                 earlyAdopter = earlyAdopter,

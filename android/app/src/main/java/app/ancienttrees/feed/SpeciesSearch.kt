@@ -66,12 +66,29 @@ object SpeciesSearch {
     }
 }
 
-/** The species among [commons] a query finds, best kind of hit first, then their own order. */
-fun Catalogue.filterSpecies(commons: List<String>, query: String): List<Pair<String, SpeciesHit>> {
+/**
+ * The species among [commons] a query finds, best kind of hit first, then the one
+ * with the most trees, then their own order. "oak" put Adriatic and Aleppo Oak
+ * (2 and 4 trees) in Top results and left Pedunculate Oak (426) out, because the
+ * tie fell to the alphabet (iOS walk 2026-11-25, F9).
+ */
+fun Catalogue.filterSpecies(commons: List<String>, query: String): List<Pair<String, SpeciesHit>> =
+    rankSpecies(commons, query, { scientificName(it) }, { otherNames[it].orEmpty() }, { treesOfSpecies(it).size })
+
+/** [filterSpecies] without a catalogue, for the unit test. */
+fun rankSpecies(
+    commons: List<String>,
+    query: String,
+    latin: (String) -> String?,
+    other: (String) -> List<String>,
+    count: (String) -> Int,
+): List<Pair<String, SpeciesHit>> {
     val q = SpeciesSearch.fold(query)
     return commons.mapIndexedNotNull { i, c ->
-        SpeciesSearch.hit(c, scientificName(c), otherNames[c].orEmpty(), q)?.let { Triple(i, c, it) }
-    }.sortedWith(compareBy<Triple<Int, String, SpeciesHit>>({ it.third.rank }, { it.first })).map { it.second to it.third }
+        SpeciesSearch.hit(c, latin(c), other(c), q)?.let { Triple(i, c, it) }
+    }.sortedWith(
+        compareBy<Triple<Int, String, SpeciesHit>>({ it.third.rank }, { -count(it.second) }, { it.first }),
+    ).map { it.second to it.third }
 }
 
 /**

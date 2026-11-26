@@ -365,6 +365,15 @@ class Profiles(private val args: List<String> = emptyList()) {
             return "$first ${parts.last().take(1)}.".take(40)
         }
 
+        /**
+         * The letter in your own avatar when it has no picture, the same on My trees
+         * and Settings (Profiles.myInitial): your profile's name first, the address
+         * only while the profile has not loaded. Settings took the address's letter
+         * and My trees the name's, so one person showed "A" and "L" (iOS walk 2026-11-25).
+         */
+        fun myInitial(displayName: String?, email: String?): String? =
+            (displayName?.takeIf { it.isNotEmpty() } ?: email)?.firstOrNull()?.uppercase()
+
         /** "Mossy Linden 4821", the name the server gives an account it has no name for. */
         fun isGeneratedName(name: String): Boolean = Regex("^[A-Z][a-z]+ [A-Z][a-z]+ [0-9]{4}$").matches(name)
     }

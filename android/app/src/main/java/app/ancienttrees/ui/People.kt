@@ -504,7 +504,12 @@ private fun RefreshableWhen(on: Boolean, refreshing: Boolean, onRefresh: () -> U
 
 /** The search field on top of Find people, drawn under the bar always. */
 @Composable
-private fun SearchField(query: String, onChange: (String) -> Unit) {
+private fun SearchField(query: String, onChange: (String) -> Unit) =
+    PillSearchField(query, onChange, stringResource(R.string.people_search))
+
+/** The pill search field (Find people, the country list): iOS 26's white capsule. */
+@Composable
+internal fun PillSearchField(query: String, onChange: (String) -> Unit, placeholder: String) {
     val brand = Brand.colors
     val keyboard = androidx.compose.ui.platform.LocalSoftwareKeyboardController.current
     BasicTextField(
@@ -530,7 +535,7 @@ private fun SearchField(query: String, onChange: (String) -> Unit) {
                 Icon(Sym.Search, null, tint = brand.ink, modifier = Modifier.size(20.dp))
                 Spacer(Modifier.size(6.dp))
                 Box(Modifier.weight(1f)) {
-                    if (query.isEmpty()) Text(stringResource(R.string.people_search), fontSize = 17.sp, color = brand.inkSoft.copy(alpha = 0.8f))
+                    if (query.isEmpty()) Text(placeholder, fontSize = 17.sp, color = brand.inkSoft.copy(alpha = 0.8f))
                     inner()
                 }
                 // .searchable's clear button once there is text (MapSearch.kt's).
@@ -817,7 +822,8 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
 @Composable
 fun FollowLine(followers: Int, following: Int, onFollowers: (() -> Unit)? = null, onFollowing: (() -> Unit)? = null) {
     val brand = Brand.colors
-    val f1 = stringResource(R.string.people_followers_word)
+    // "1 follower", in the singular (walk 2026-11-25: "1 followers").
+    val f1 = androidx.compose.ui.res.pluralStringResource(R.plurals.people_followers_word, followers)
     val f2 = stringResource(R.string.people_following_word)
     if (onFollowers != null && onFollowing != null) {
         // Two taps, each 44 tall to hit, as the iPhone's countButton.

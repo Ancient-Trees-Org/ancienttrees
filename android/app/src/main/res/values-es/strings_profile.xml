@@ -86,6 +86,7 @@
     <string name="people_followers">Seguidores</string>
     <string name="people_following">Siguiendo</string>
     <string name="people_search">Buscar personas</string>
+    <string name="editor_search_countries">Buscar países</string>
     <string name="people_share">Compartir tu perfil</string>
     <string name="people_share_line">Mira los árboles que he coleccionado en Ancient Trees.</string>
     <string name="people_suggested">Sugerencias</string>
@@ -118,7 +119,10 @@
     <string name="report_impersonation">Se hace pasar por otra persona</string>
     <string name="report_spam">Spam o publicidad</string>
     <string name="report_other">Otra cosa</string>
-    <string name="people_followers_word">seguidores</string>
+    <plurals name="people_followers_word">
+        <item quantity="one">seguidor</item>
+        <item quantity="other">seguidores</item>
+    </plurals>
     <string name="people_following_word">siguiendo</string>
     <string name="person_lane_collected">Coleccionados</string>
     <string name="profile_approved">Aprobado</string>

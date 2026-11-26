@@ -45,8 +45,13 @@ data class Photo(
         get() {
             // No answer from the feed: print the credit, which is never wrong.
             if (creditRequired == false) return null
-            if (!creditLine.isNullOrEmpty()) return creditLine
+            // An empty line is the feed's answer too: no name to credit (a reader's
+            // photograph, whose name the server gives under the photo), so the website
+            // prints nothing and so does the app. Treating "" as missing printed
+            // "Photo:  · Provided by a reader..." on the iPhone (walk 2026-11-25; Photos.swift).
+            creditLine?.let { return it.ifEmpty { null } }
             return listOfNotNull(attributionShort ?: attribution, license)
+                .filter { it.isNotEmpty() }
                 .joinToString(" · ")
                 .ifEmpty { null }
         }

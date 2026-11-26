@@ -8,7 +8,10 @@
     <string name="mt_signin_collect">Inicia sesión para empezar tu colección de árboles.</string>
     <string name="mt_collected_empty">Añades un árbol aquí fotografiándolo con el botón de la cámara.</string>
     <string name="mt_all">Todos %1$d</string>
-    <string name="mt_followers">seguidores</string>
+    <plurals name="mt_followers">
+        <item quantity="one">seguidor</item>
+        <item quantity="other">seguidores</item>
+    </plurals>
     <string name="mt_following">siguiendo</string>
     <string name="mt_settings">Ajustes</string>
     <string name="mt_find_people">Buscar personas</string>
