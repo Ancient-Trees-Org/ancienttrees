@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-25T14:54Z",
+  "synced": "2026-11-26T01:27Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -20,6 +20,15 @@
       "public": true,
       "since": "2026-10-18",
       "display_name": "Hidde",
+      "profile_public": true
+    },
+    {
+      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
+      "place_slug": "guimaraes",
+      "place_name": "Guimaraes",
+      "public": true,
+      "since": "2026-10-28",
+      "display_name": "Miguel Portugal",
       "profile_public": true
     },
     {
@@ -44,15 +53,6 @@
       "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
       "place_slug": "vales",
       "place_name": "Vales",
-      "public": true,
-      "since": "2026-10-28",
-      "display_name": "Miguel Portugal",
-      "profile_public": true
-    },
-    {
-      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "guimaraes",
-      "place_name": "Guimaraes",
       "public": true,
       "since": "2026-10-28",
       "display_name": "Miguel Portugal",
@@ -221,21 +221,21 @@
       "profile_public": true
     },
     {
-      "user_id": "f73e92aa-f513-4fee-be90-eb0402939a78",
-      "place_slug": "gdansk",
-      "place_name": "Gdansk",
-      "public": true,
-      "since": "2026-11-19",
-      "display_name": "kubacho c.",
-      "profile_public": true
-    },
-    {
       "user_id": "827bb1ce-c12e-4501-aebb-bd63706ed385",
       "place_slug": "york",
       "place_name": "York",
       "public": true,
       "since": "2026-11-19",
       "display_name": "Laurie G.",
+      "profile_public": true
+    },
+    {
+      "user_id": "f73e92aa-f513-4fee-be90-eb0402939a78",
+      "place_slug": "gdansk",
+      "place_name": "Gdansk",
+      "public": true,
+      "since": "2026-11-19",
+      "display_name": "kubacho c.",
       "profile_public": true
     },
     {
@@ -437,6 +437,24 @@
       "public": true,
       "since": "2026-11-25",
       "display_name": "Roger H.",
+      "profile_public": true
+    },
+    {
+      "user_id": "21784b51-2745-473e-9829-6c35257f2043",
+      "place_slug": "new-forest",
+      "place_name": "New Forest",
+      "public": true,
+      "since": "2026-11-26",
+      "display_name": "Windinthewillowz",
+      "profile_public": true
+    },
+    {
+      "user_id": "4f5bde7a-2234-43b8-961e-e3bb5216b244",
+      "place_slug": "hobart",
+      "place_name": "Hobart",
+      "public": true,
+      "since": "2026-11-26",
+      "display_name": "Silver Beech 4146",
       "profile_public": true
     },
     {
@@ -2475,6 +2493,27 @@
         "The Snow Gum above Thredbo"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_f127bf781505453e3305184d",
+      "place_slug": "new-forest",
+      "place_name": "New Forest",
+      "date": "2026-11-26",
+      "trees": [
+        "The Knightwood Oak",
+        "The Giant Sequoias of the Tall Trees Trail"
+      ]
+    },
+    {
+      "user_id": "p_dabd74bef1d935f48a2bb1d7",
+      "place_slug": "hobart",
+      "place_name": "Hobart",
+      "date": "2026-11-26",
+      "trees": [
+        "The Dawn Redwoods of Elizabeth Street",
+        "The Norfolk Island Pine of Ingle Hall",
+        "The Bhutan Cypress of Brisbane Street"
+      ]
     }
   ],
   "requested": [
@@ -2927,7 +2966,10 @@
         "cop_047",
         "cop_048",
         "cop_049",
-        "cop_050"
+        "cop_050",
+        "cop_051",
+        "cop_052",
+        "cop_053"
       ],
       "since": "2026-10-06",
       "mailed": [
@@ -2935,6 +2977,14 @@
           "date": "2026-11-18",
           "trees": [
             "cop_050"
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "trees": [
+            "cop_051",
+            "cop_052",
+            "cop_053"
           ]
         }
       ]
@@ -4063,6 +4113,31 @@
         "ntm_001"
       ],
       "since": "2026-11-25",
+      "mailed": []
+    },
+    "new-forest": {
+      "trees": [
+        "nwf_001",
+        "nwf_002"
+      ],
+      "since": "2026-11-26",
+      "mailed": []
+    },
+    "hobart": {
+      "trees": [
+        "hob_001",
+        "hob_002",
+        "hob_003",
+        "hob_004",
+        "hob_005",
+        "hob_006",
+        "hob_007",
+        "hob_008",
+        "hob_009",
+        "hob_010",
+        "hob_011"
+      ],
+      "since": "2026-11-26",
       "mailed": []
     }
   }

@@ -2109,27 +2109,8 @@
    ]
   },
   "p_208e853a0292b8f518700a87": {
-   "last": "2026-11-19",
-   "pending": [
-    {
-     "sighting_id": "b6bb10c9-d418-4437-b701-1015e35e7f5f",
-     "tree_id": "mel_001",
-     "tree_name": "The Finer Holm Oak of Edinburgh Gardens",
-     "city": "Melbourne",
-     "city_slug": "melbourne",
-     "display_name": null,
-     "live": "2026-11-19"
-    },
-    {
-     "sighting_id": "269a3040-d241-4af0-ab00-ab8db2ee2ecf",
-     "tree_id": "mel_019",
-     "tree_name": "The Gum by the Edinburgh Gardens Skate Bowl",
-     "city": "Melbourne",
-     "city_slug": "melbourne",
-     "display_name": null,
-     "live": "2026-11-19"
-    }
-   ],
+   "last": "2026-11-26",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "83d2e9a2-5746-4e5c-8c4a-6a4e97717e08",
@@ -2140,6 +2121,16 @@
      "sighting_id": "976d3d1b-1a58-4716-b138-4393ee1fdd27",
      "tree_id": "mel_001",
      "mailed": "2026-11-19"
+    },
+    {
+     "sighting_id": "b6bb10c9-d418-4437-b701-1015e35e7f5f",
+     "tree_id": "mel_001",
+     "mailed": "2026-11-26"
+    },
+    {
+     "sighting_id": "269a3040-d241-4af0-ab00-ab8db2ee2ecf",
+     "tree_id": "mel_019",
+     "mailed": "2026-11-26"
     }
    ]
   },
@@ -2268,27 +2259,8 @@
    ]
   },
   "p_57c98e1ef3e54e44a10e0ab7": {
-   "last": "2026-11-19",
-   "pending": [
-    {
-     "sighting_id": "417749a0-3387-4bd0-853a-ce00cd4dad90",
-     "tree_id": "nol_001",
-     "tree_name": "The McDonogh Oak",
-     "city": "New Orleans",
-     "city_slug": "new-orleans",
-     "display_name": null,
-     "live": "2026-11-19"
-    },
-    {
-     "sighting_id": "f074ff96-c720-45f6-9846-4accc10c9516",
-     "tree_id": "sdg_001",
-     "tree_name": "The Moreton Bay Fig of Balboa Park",
-     "city": "San Diego",
-     "city_slug": "san-diego",
-     "display_name": null,
-     "live": "2026-11-19"
-    }
-   ],
+   "last": "2026-11-26",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "7d406ac5-86cd-4e9b-bb12-0d096bb70555",
@@ -2299,6 +2271,16 @@
      "sighting_id": "2d8363ff-5a96-4d90-af36-bb86771d64dc",
      "tree_id": "kyw_004",
      "mailed": "2026-11-19"
+    },
+    {
+     "sighting_id": "417749a0-3387-4bd0-853a-ce00cd4dad90",
+     "tree_id": "nol_001",
+     "mailed": "2026-11-26"
+    },
+    {
+     "sighting_id": "f074ff96-c720-45f6-9846-4accc10c9516",
+     "tree_id": "sdg_001",
+     "mailed": "2026-11-26"
     }
    ]
   },
