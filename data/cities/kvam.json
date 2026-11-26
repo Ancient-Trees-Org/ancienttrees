@@ -17,8 +17,8 @@
       "age_basis": "source",
       "location": {
         "address": "Tolo, near Hardangerfjordvegen, Kvam, Vestland",
-        "latitude": 60.3680225548025,
-        "longitude": 6.18613024169611,
+        "latitude": 60.36816,
+        "longitude": 6.184909,
         "neighbourhood": "Tolo"
       },
       "story": "\"It is now over a 1000 years old, and is still just as healthy,\" writes the reader who sent this oak from Tolo in Kvam, on the Hardangerfjord in western Norway, beside the fjord road.\n\nThey call it Den freda eika, the protected oak, and one of Norway's biggest. When it was officially protected in the 1950s, they write, it was estimated at 950 years old, and they give its girth as 706 centimetres.\n\nThe photograph shows an oak that has spent its life spreading rather than climbing. From one short, broad base, four or five great limbs leave the trunk almost at ground level and lean out in every direction, twisting as they go, their grey bark dark with moss. In the middle of them stands a sawn stump, where another limb once was. The crown is thin and green, and between the trunks the water of the fjord shows pale through the trees.\n\nThe age, the girth and the protection are the reader's account, and no register we hold lists this tree yet, so read them as theirs. The photograph does not settle which oak it is, so this page names the genus. If you know more of its history, tell us here.\n\nLook for the cluster of leaning, mossy limbs on the slope above the water.",
@@ -28,16 +28,16 @@
         "sighting_id": "2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f",
         "date": "2026-11-16"
       },
-      "verify_notes": "2026-11-16 night run: sent by a reader through the app with a GPS fix at the tree (sighting 2af51c4d). Photograph viewed: Whole low many-limbed oak filling the frame, daylight, colour, GPS fix at the tree. Published under the reader-found rule (CLAUDE.md, Hidde 2026-10-12 and 2026-10-21); corroborate.py found no register entry within 100 m. Figures, names and age are the reader's unless a source above says otherwise. Place name from the OpenStreetMap reverse lookup of the reader's fix. 2026-11-16 session: the same reader (same account, same photograph) also sent it through the website as tip-951, place Norheimsund, naming it 'Den freda eika', one of Norway's biggest oaks, protected in the 1950s and then estimated at 950 years, girth 706 cm; folded into this entry and quoted in the story, all as the reader's account.",
+      "verify_notes": "2026-11-16 night run: sent by a reader through the app with a GPS fix at the tree (sighting 2af51c4d). Photograph viewed: Whole low many-limbed oak filling the frame, daylight, colour, GPS fix at the tree. Published under the reader-found rule (CLAUDE.md, Hidde 2026-10-12 and 2026-10-21); corroborate.py found no register entry within 100 m. Figures, names and age are the reader's unless a source above says otherwise. Place name from the OpenStreetMap reverse lookup of the reader's fix. 2026-11-16 session: the same reader (same account, same photograph) also sent it through the website as tip-951, place Norheimsund, naming it 'Den freda eika', one of Norway's biggest oaks, protected in the 1950s and then estimated at 950 years, girth 706 cm; folded into this entry and quoted in the story, all as the reader's account. 2026-11-26 reader judge: pin moved 68 m to a reader's hand-placed spot (report 1000156), still approximate.",
       "access": "On open wooded ground near the Hardangerfjord road; Norway's right to roam covers uncultivated land.",
       "curation_status": "flagged",
       "location_precision": "approximate",
       "pin_source": {
         "kind": "reader's hand-placed pin",
         "sighting_id": "2af51c4d-954d-4ebf-ac1f-82dcd5ef4a7f",
-        "moved_m": 0,
-        "date": "2026-11-16",
-        "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
+        "moved_m": 68,
+        "date": "2026-11-26",
+        "note": "Reader report 1000156: a reader moved the pin 68 m west from our earlier hand-placed spot (60.368023, 6.186130). Both are hand-placed and neither is a GPS fix, so the reader's spot stands, approximate."
       },
       "photo": {
         "url": "https://ancienttrees.app/photos/kvm_001-the-old-oak-at-tolo.jpg",

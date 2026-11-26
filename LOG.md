@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 reader judge: the Kvam oak's pin follows a reader
+
+- Kvam (kvm_001, the Old Oak at Tolo): a reader moved its pin 68 m west (report 1000156). Our pin there was itself placed by hand, not a GPS fix, so their spot stands, still approximate. They got the standard pin thank-you.
+- One new note on the Act of Union Beeches of North Berwick Law, from someone who visited today and saw two more old beeches toward the Mill Burn. It needed no hiding and was marked read.
+- No photographs, trees, tips or feedback waiting from strangers. The 37 open leads in _sightings.json are all from our own accounts (`mine`, or the retired Nara test photos), which the judge never takes. Their files are not on disk.
+
 ## 2026-11-26 Session: no photos since 17:17 was quiet, not broken; Amsterdam sighting closed
 
 - Hidde asked whether the judge had stalled. It had not: reader-judge runs every 10 minutes, all green, and PostHog shows no `sighting_recorded` since 16:00 UTC (fired on the phone before upload), while 15 to 24 people an hour used the app. A quiet day (17 photos against 27 to 80).
