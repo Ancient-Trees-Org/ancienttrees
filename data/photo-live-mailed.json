@@ -3397,28 +3397,20 @@
    ]
   },
   "p_8e81b8648dbc14a87b1c569f": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-26",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "d231f7ce-25a9-4ad1-a162-a1ba237cdba4",
      "tree_id": "var_002",
-     "tree_name": "The Ginkgo of Varese",
-     "city": "Varese",
-     "city_slug": "varese",
-     "display_name": null,
-     "live": "2026-11-26"
+     "mailed": "2026-11-26"
     },
     {
      "sighting_id": "23ce27a5-b254-49a5-8753-5efb5a8e8e7d",
      "tree_id": "var_001",
-     "tree_name": "The Great Cedar of Varese",
-     "city": "Varese",
-     "city_slug": "varese",
-     "display_name": null,
-     "live": "2026-11-26"
+     "mailed": "2026-11-26"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
