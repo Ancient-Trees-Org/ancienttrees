@@ -146,6 +146,13 @@ final class SignedOutWalk: XCTestCase {
         tap(app, "feed-filter-following"); expectSignIn(app, after: "feed-filter-following")
     }
 
+    func testFeedFindPeopleAsks() {
+        // The person with a plus on the Feed (2026-11-26): signed out it asks
+        // for a sign-in, never opens Find people.
+        let app = launch(["-tab=4"])
+        tap(app, "feed-find-people"); expectSignIn(app, after: "feed-find-people")
+    }
+
     func testFeedNameAsks() {
         // A public name on a post, tapped signed out, asks for a sign-in
         // first, as the row's and the See all page's do. From the server.
