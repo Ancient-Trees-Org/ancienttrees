@@ -712,7 +712,9 @@ struct MapTab: View {
         // lowest stop only the count bar stays and the tab bar steps away.
         .environment(\.sheetResults, true)
         .onChange(of: sheetHeight, initial: true) { _, h in
-            navigator.mapTakesScreen = h == .bar
+            // Never for a tree card dragged down: that closes back to the list
+            // (PinSelection), and the tab bar must not flicker away meanwhile.
+            navigator.mapTakesScreen = h == .bar && selected == nil
         }
         .onDisappear { navigator.mapTakesScreen = false }
         .onAppear { navigator.mapTakesScreen = sheetHeight == .bar }

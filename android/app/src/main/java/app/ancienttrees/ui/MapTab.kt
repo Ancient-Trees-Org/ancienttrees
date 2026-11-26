@@ -237,8 +237,17 @@ fun MapTab(
     LaunchedEffect(sheet.height) {
         // The sheet's stop, for the root: the tab bar steps away at the bar, and the
         // snackbar stands where the pill stands at full (Navigator.mapTakesScreen).
+        // A tree card dragged down closes back to the list with the tab bar
+        // (PinSelection on the iPhone, Hidde 2026-11-26: "dan gaat het hele menu
+        // weg"): the bar stop, where the tab bar steps away, is the list's own.
+        if (sheet.height == SheetHeight.BAR && selected != null) {
+            before = null
+            selected = null
+            sheet.height = SheetHeight.PEEK
+            return@LaunchedEffect
+        }
         onSheetStop(sheet.height)
-        if ((sheet.height == SheetHeight.PEEK || sheet.height == SheetHeight.BAR) && selected != null) {
+        if (sheet.height == SheetHeight.PEEK && selected != null) {
             before = null
             selected = null
         }

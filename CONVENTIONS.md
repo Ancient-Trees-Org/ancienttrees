@@ -4369,5 +4369,5 @@ The tab opens ZOOMED OUT, as the website's /visitors masonry ("standaard juist o
 - **Double tap gives a heart and never takes it back** (Instagram), as recorded on 2026-11-22: the heart itself takes it back.
 - **"Dark mode", not "Appearance"** (Hidde: "ja, noem het dark mode"; Instagram and X say Dark mode, from memory), both phones, every language.
 - **A public profile runs newest upload first, back in time** (Hidde: "je laatstgenomen foto als eerste"), our trees and their own trees in one order: `recent` in supabase/profile-newest-first.sql, keys only, no dates. This ends the 2026-10-19 "no time order" on a public profile.
-- **Open, not built yet: a tree card dragged down on the map hides the tab bar.** Airbnb hides it only when the *results list* is pulled down to its bar stop; Google Maps and Airbnb close a selected place when it is dragged down. Advice given: keep the bar stop for the list, let a dragged tree card close.
+- **A tree card dragged down on the map closes back to the list, and the tab bar stays** (Hidde: "ja, bouw dat"). Airbnb hides the tab bar only when the *results list* is pulled down to its bar stop; Google Maps and Airbnb close a selected place when it is dragged down. Built: PinSelection (TreePlaceSheet.swift) and MapTab.kt, TreeCardDragWalk.
 

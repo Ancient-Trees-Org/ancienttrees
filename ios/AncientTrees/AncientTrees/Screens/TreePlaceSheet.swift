@@ -134,6 +134,13 @@ struct PinSelection: ViewModifier {
                 if new == .peek || new == .bar, selected != nil {
                     before = nil
                     selected = nil
+                    // A CARD DRAGGED DOWN CLOSES, the list comes back with the
+                    // tab bar (Hidde, 2026-11-26: "als ik op een boom klik en die
+                    // wegscroll naar beneden, dan gaat het hele menu weg"; "ja,
+                    // bouw dat"). The bar stop, where the tab bar steps away, is
+                    // the results list's own (Airbnb); Google Maps and Airbnb
+                    // close a dragged-down place back to the list.
+                    if new == .bar { height = .peek }
                 }
             }
     }

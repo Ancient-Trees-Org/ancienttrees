@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-26 Map: a tree card dragged down closes, the menu stays
+
+- On the map, a tree card dragged down landed on the list's lowest stop, where the tab bar steps away (Hidde: "dan gaat het hele menu weg"). It now closes back to the list with the tab bar, as Google Maps and Airbnb do; the bar stop stays for the results list. iPhone and Android; TreeCardDragWalk fails without the fix and passes with it.
+
 ## 2026-11-26 reader judge: one pin report closed, one sighting left
 
 Report 1000155 (Padua, the Certosa di Vigodarzere plane): a reader dragged the pin 41 km from Vigodarzere into the countryside near Conegliano. They wrote nothing and sent no photo, and the story's site is 6 km north of Padua. That is a move into open country with no reason, so I closed it `holds`, kept our pin and sent no mail. Sighting 3c544597 (Amsterdam, near Stationsplein, "not sure which tree") is left for the next run: its photograph is not on disk, so I could not judge it without seeing it. It is also flagged `mine`, our own account's photo. No new tips, feedback or reader words waiting.

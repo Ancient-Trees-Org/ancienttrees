@@ -1152,6 +1152,17 @@
    "status": "open",
    "found_by": "hidde",
    "test": "AncientTreesTests/FeedPostsTests/testTheGridBreaksWhereTheColumnsAreLevel"
+  },
+  {
+   "id": "ESC-2026-11-26-a-tree-card-dragged-down-on-the-map-land",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/TreePlaceSheet.swift",
+   "summary": "A tree card dragged down on the map landed on the list's bar stop and the tab bar went away",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "AncientTreesUITests/TreeCardDragWalk"
   }
  ]
 }
