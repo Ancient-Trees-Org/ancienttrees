@@ -23,8 +23,8 @@
       "what": "A tapped pin's card lets go with a short swipe down: 56 of drag or a 125/s flick (Material 3's sheet thresholds)",
       "since": "2026-11-24",
       "web": "on a phone the card floats over the map (Airbnb's mobile site) and a tap on the map lets it go; it has no sheet to swipe",
-      "ios": "BottomSheet.swift onEnded, from the card stop",
-      "android": "MapSheet.kt settle, from the card stop",
+      "ios": "BottomSheet.swift onEnded, from the card stop; the numbers in CardSwipe (CardSwipeTests, 2026-11-26)",
+      "android": "MapSheet.kt settle, from the card stop; the numbers in CardSwipe.kt (CardSwipeTest, 2026-11-26)",
       "status": "one-sided",
       "why": "the phones hold the tree in their sheet, the web's phone map uses Airbnb's floating card (CONVENTIONS.md \"Tapping a pin on a map that has a list in a sheet\"), so there is no swipe to tune"
     },
