@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-26 night run (second attempt, 19:2x window): nothing to ship
+
+- Claims: none standing. READY leads: 3 (york, guimaraes, leamington-spa), already judged unwritable by the earlier write pass; the other 382 "awaiting a writer" are stale duplicates of live trees (same coordinates, different ids), not writable. Own research paused, so no verify pass.
+- iOS red is the Dependabot branch (supabase-js bump); main's run was still building. Open app bug rows each carry their test already, waiting on that run. Web errors orange (`null has no property 'save'`, 4 new types), under the red bar.
+- Left for a session: the duplicate-id verified files in data/research/ (alpujarras, cardiff, croatia, cyprus, grazalema...) need folding into leads marked duplicate; "a tree you added cannot be edited" (bug row, no test yet) is a feature, his call.
+
 ## 2026-11-26 session: one map on the website, steps 1 to 3 live (Tokyo first)
 
 - **Tokyo's page is the map opened on Tokyo.** The cross beside share, or dragging the map off Tokyo, turns the panel into the map's trees in view and the address into /explore#map=..., with no page load; Back brings Tokyo back. Only Tokyo so far (`ONE_MAP_CITIES` in site/src/lib/one-map.ts); every other city page is unchanged.
