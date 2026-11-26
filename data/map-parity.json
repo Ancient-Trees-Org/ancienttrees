@@ -2,6 +2,15 @@
   "_about": "Every way the maps differ between website, iPhone and Android, and what is owed. scripts/mapparity.py refuses a push that changes one platform's map without touching this file; qa check_map_parity_ledger() holds its shape. status: open (a platform owes the change), one-sided (different on purpose, with why), done. Hidde, 2026-11-20: \"niet alles moet hetzelfde maar als het kan wel\".",
   "rows": [
     {
+      "what": "A chosen tree's card dragged down closes back to the list and the tab bar stays",
+      "since": "2026-11-26",
+      "web": "no tab bar on the website, so nothing steps away; the web sheet's card closes with its cross or a tap on the map",
+      "ios": "PinSelection in TreePlaceSheet.swift: peek or bar with a tree chosen lets it go, bar becomes peek; MapTab mapTakesScreen only with no tree (TreeCardDragWalk)",
+      "android": "MapTab.kt LaunchedEffect(sheet.height): BAR with a tree chosen lets it go and settles on PEEK",
+      "status": "one-sided",
+      "why": "the tab bar this guards exists only in the apps"
+    },
+    {
       "what": "A filter that hides the chosen tree closes its card; a My trees lane switch frames that lane's trees; the location-off chip shortens at large text",
       "since": "2026-11-26",
       "web": "to check: the explore map's filter chips and the profile map's lanes do the same (map-card-js.ts, tree-pins-js.ts)",
