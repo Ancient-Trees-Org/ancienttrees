@@ -187,6 +187,15 @@
       "android": "nothing to change: the map tab's TreePlaceHeader is already one header",
       "status": "one-sided",
       "why": "it brings the website's panels together; the phones already draw one header"
+    },
+    {
+      "what": "One map on the website, step 1 (Hidde, 2026-11-26): /explore's trees-in-view list moved word for word into site/src/lib/view-list-js.ts so the city map can use it; nothing a person sees changes",
+      "since": "2026-11-26",
+      "web": "map.ts exploreMapScript includes viewListJs(); the list, its count, Highlights, Collected, rows and empty state are unchanged",
+      "ios": "nothing to change: the app's map tab is already one map with one list (MapTab.swift)",
+      "android": "nothing to change: the map tab is already one map with one list",
+      "status": "one-sided",
+      "why": "the website catching up with the phones, which already have one map"
     }
   ]
 }
