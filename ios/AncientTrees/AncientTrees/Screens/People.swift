@@ -48,6 +48,12 @@ struct PeopleView: View {
     @State private var results: [Profiles.Profile] = []
     /// What fills the page while the field is empty (Kit/SuggestedPeople.swift).
     @State private var suggestions: [SuggestedPerson] = []
+    /// What the page was last loaded for, so coming Back to it keeps the list
+    /// and its scroll (Hidde, 2026-11-26: from Find people's long list to a
+    /// profile and back "springt die ook naar een random stuk terug").
+    @State private var loadedFor: String?
+    @State private var listedFor: String?
+    @State private var searchedFor: String?
     /// Suggested keeps going while you scroll (2026-11-25): a page is on its
     /// way, or the server has nobody left (or cannot answer), so it stops.
     @State private var loadingMore = false
@@ -263,8 +269,15 @@ struct PeopleView: View {
                     let url = Feed.base.appending(path: "profile").appending(queryItems: [URLQueryItem(name: "u", value: uid)])
                     Group {
                         if profiles.myPublic == true {
-                            ShareLink(item: Shared.tag(url, from: "profile"), message: Text(Self.shareLine)) { shareRow }
-                                .countsShare("profile")
+                            // A Button that raises the share sheet, not a
+                            // ShareLink: inside this list the ShareLink took
+                            // the tap and opened nothing (Hidde, 2026-11-26:
+                            // "die knop helemaal niet werkt"; ShareProfileWalk).
+                            Button {
+                                Measure.event("share_tapped", ["where": "profile"])
+                                sharing = SharedURL(url: Shared.tag(url, from: "profile"))
+                            } label: { shareRow }
+                            .buttonStyle(.plain)
                         } else {
                             Button {
                                 if profiles.me?.display_name.isEmpty ?? true { editingName = true }
@@ -358,6 +371,9 @@ struct PeopleView: View {
                 // cannot be photographed or looked at before they ship, and a
                 // control nobody has looked at is exactly what this project
                 // keeps promising not to ship.
+                let me = account.session?.userId ?? ""
+                if loadedFor == me { return }
+                loadedFor = me
                 if DemoPeople.on && source != .search { results = DemoPeople.all }
                 await loadFollowing()
                 await loadSuggestions()
@@ -371,6 +387,8 @@ struct PeopleView: View {
             }
             .task(id: source) {
                 guard source != .search, let me = account.session?.userId else { return }
+                if listedFor == me, !results.isEmpty { return }
+                listedFor = me
                 let uid = isMine ? me : (owner ?? me)
                 searching = true
                 let token = await account.freshToken()
@@ -397,6 +415,8 @@ struct PeopleView: View {
             }
             .task(id: query) {
                 if source != .search { return }
+                if searchedFor == query, !query.isEmpty { return }
+                searchedFor = query
                 if DemoPeople.on {
                     // The demo people answer any name typed.
                     results = query.trimmingCharacters(in: .whitespaces).isEmpty ? [] : DemoPeople.all

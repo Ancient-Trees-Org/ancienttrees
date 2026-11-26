@@ -217,6 +217,8 @@ struct VisitorPhotosView: View {
 struct VisitorFace: View {
     let name: String
     let avatar: String?
+    /// 16 in a tile's byline, larger where the line is the whole caption.
+    var size: CGFloat = 16
 
     var body: some View {
         Group {
@@ -224,13 +226,13 @@ struct VisitorFace: View {
                 AsyncImage(url: u) { $0.resizable().scaledToFill() } placeholder: { Brand.moss.opacity(0.15) }
             } else {
                 Text(String(name.prefix(1)))
-                    .font(.system(size: 9, weight: .bold))
+                    .font(.system(size: size * 0.56, weight: .bold))
                     .foregroundStyle(Brand.moss)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .background(Brand.moss.opacity(0.15))
             }
         }
-        .frame(width: 16, height: 16)
+        .frame(width: size, height: size)
         .clipShape(.circle)
     }
 }

@@ -25,6 +25,7 @@ struct FeedPeopleRow: View {
     @State private var people: [SuggestedPerson] = []
     @State private var gone: Set<String> = []
     @State private var followed: Set<String> = []
+    @State private var loadedFor: String?
 
     private static let cardWidth: CGFloat = 132
 
@@ -124,6 +125,9 @@ struct FeedPeopleRow: View {
 
     private func load() async {
         guard let me = account.session?.userId else { people = []; return }
+        // Not again on Back: the row would change under the reader.
+        if loadedFor == me, !people.isEmpty { return }
+        loadedFor = me
         if DemoPeople.on { people = DemoPeople.suggestions; return }
         let token = await account.freshToken()
         guard let rows = await profiles.morePhotographers(skip: Array(following), n: 12, token: token) else { return }

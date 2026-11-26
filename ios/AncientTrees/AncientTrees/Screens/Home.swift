@@ -78,6 +78,7 @@ struct HomeView: View {
     @State private var deck = Shelves()
     /// Discover's "New from visitors" row, from the server (NewFromVisitors).
     @State private var visitorRows: [NewFromVisitors.Row] = []
+    @State private var visitorRowsFor: Bool?
     /// Discover's "Trending this month" shelf (Kit/Trending.swift).
     @State private var trending: [Tree] = []
     @State private var trendColumn: Int?
@@ -392,7 +393,13 @@ struct HomeView: View {
         .task(id: "\(catalogue.version)|\(location.known)|\(Int(origin.lat * 10))|\(Int(origin.lng * 10))") { buildShelves() }
         // Asked again on a sign-in or out: the account id comes only to a
         // signed-in caller, so the names turn into links without a relaunch.
-        .task(id: account.isSignedIn) { visitorRows = await NewFromVisitors.load(token: await account.freshToken(), known: { NewFromVisitors.known($0) { catalogue.tree($0) } }) }
+        // Once per sign-in state, not every time Discover comes back into view:
+        // a reload on Back changed the row under the reader (BackKeepsPlaceWalk).
+        .task(id: account.isSignedIn) {
+            if visitorRowsFor == account.isSignedIn, !visitorRows.isEmpty { return }
+            visitorRowsFor = account.isSignedIn
+            visitorRows = await NewFromVisitors.load(token: await account.freshToken(), known: { NewFromVisitors.known($0) { catalogue.tree($0) } })
+        }
         .task(id: catalogue.version) { trending = await Trending.load(token: nil) { catalogue.tree($0) } }
     }
 

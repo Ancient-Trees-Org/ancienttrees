@@ -111,6 +111,11 @@ final class Sightings {
         var lat: Double
         var lng: Double
         var date: Date = Date()
+        /// When it reached the account (the row's created_at), which is the
+        /// order My trees shows: newest upload first (Hidde, 2026-11-26: "is
+        /// het niet logischer om je nieuwste upload als eerste te zien"). A
+        /// photograph from the camera roll can be years older than its upload.
+        var addedAt: Date? = Date()
         /// A file in Documents/sightings. Not a path: a phone's container
         /// moves between launches and an absolute path goes stale.
         var photo: String?

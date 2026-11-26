@@ -83,6 +83,7 @@ enum SightingSync {
                                           girthCm: row["girth_cm"] as? Int,
                                           lat: lat, lng: lng)
             if let d = stamp(row["taken_at"]) { made.date = d }
+            made.addedAt = stamp(row["created_at"]) ?? made.date
             // It came FROM the account, so the account has it. Without this the
             // first sign-out after a fresh sign-in would keep every pulled
             // tree on the phone, waiting for a push to tell us what we already

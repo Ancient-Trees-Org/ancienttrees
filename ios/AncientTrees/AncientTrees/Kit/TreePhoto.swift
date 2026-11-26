@@ -55,9 +55,17 @@ actor ImageGate {
 
     /// The slot is handed straight to whoever is next, so `running` only falls
     /// when nobody is waiting for it.
+    ///
+    /// NEWEST FIRST (2026-11-26, Hidde on his phone: a fast scroll down the
+    /// Feed left photographs loading "forever", and then other pages loaded
+    /// nothing at all). A queue served oldest first made what is on screen now
+    /// wait behind every tile already scrolled past. The last one asked for is
+    /// the one in view, so it goes first (Instagram's way; Kingfisher and
+    /// SDWebImage both cancel and reprioritise on scroll), and requests nobody
+    /// wants any more leave the queue (ImageStore.image's cancellation).
     func release() {
         if waiting.isEmpty { running -= 1 }
-        else { waiting.removeFirst().resume() }
+        else { waiting.removeLast().resume() }
     }
 }
 
@@ -75,6 +83,11 @@ final class ImageStore {
     }()
 
     private var inFlight: [URL: Task<UIImage?, Never>] = [:]
+    /// How many views are still waiting for each URL. When the last one
+    /// scrolls away (its task cancelled), the download is cancelled too, so a
+    /// fast scroll does not leave hundreds of photographs nobody sees in the
+    /// queue ahead of the ones on screen.
+    private var wanted: [URL: Int] = [:]
     /// EIGHT, not four. Four was set while every card image came from
     /// Wikimedia, which rate-limits a burst into HTTP 429; since 2026-08-27 the
     /// cards are served from our own domain and the only thing a small number
@@ -105,13 +118,21 @@ final class ImageStore {
     /// page seems longer to load sometimes").
     func image(for url: URL, urgent: Bool = false) async -> UIImage? {
         if let hit = cached(url) { return hit }
-        if let running = inFlight[url] { return await running.value }
+        wanted[url, default: 0] += 1
+        if let running = inFlight[url] { return await waitFor(running, url) }
         // Task, not Task.detached: it inherits MainActor, so the two lines
         // that touch the cache below need no hop. The fetch itself is
         // nonisolated and therefore runs off the main thread, which is what
         // keeps a decoding JPEG out of the scroll.
         let task = Task<UIImage?, Never>(priority: urgent ? .userInitiated : nil) { [gate] in
             if !urgent { await gate.acquire() }
+            // Its turn came after everybody who wanted it scrolled away: give
+            // the slot to the next one at once instead of downloading.
+            if Task.isCancelled {
+                if !urgent { await gate.release() }
+                self.inFlight[url] = nil
+                return nil
+            }
             let image = await Self.fetch(url)
             if !urgent { await gate.release() }
             if let image {
@@ -121,7 +142,35 @@ final class ImageStore {
             return image
         }
         inFlight[url] = task
-        return await task.value
+        return await waitFor(task, url)
+    }
+
+    /// Waits for the download, and cancels it when the last view that wanted
+    /// it goes away (a tile scrolled off screen cancels its `.task`).
+    private func waitFor(_ task: Task<UIImage?, Never>, _ url: URL) async -> UIImage? {
+        let image = await withTaskCancellationHandler {
+            await task.value
+        } onCancel: {
+            // This view went away: one fewer waiting, and with nobody left the
+            // download leaves the queue (it gives its slot straight on).
+            Task { @MainActor in self.letGo(url, task) }
+        }
+        // Counted down here only when this view stayed to the end; a view
+        // that went away was counted down in onCancel.
+        if !Task.isCancelled { lower(url) }
+        return image
+    }
+
+    private func lower(_ url: URL) {
+        let left = (wanted[url] ?? 1) - 1
+        wanted[url] = left > 0 ? left : nil
+    }
+
+    private func letGo(_ url: URL, _ task: Task<UIImage?, Never>) {
+        lower(url)
+        guard wanted[url] == nil, inFlight[url] == task else { return }
+        task.cancel()
+        inFlight[url] = nil
     }
 
     /// NEVER DECODED BIGGER THAN A SCREEN CAN SHOW (2026-11-16, after the

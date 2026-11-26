@@ -53,6 +53,8 @@ struct FeedView: View {
     @State private var done = false
     @State private var failed = false
     @State private var generation = 0
+    /// The signed-in state the list was loaded for (see the `.task` below).
+    @State private var loadedFor: Bool?
     /// The accounts you follow, asked once per sign-in for Following.
     @State private var following: Set<String> = []
 
@@ -60,7 +62,11 @@ struct FeedView: View {
 
     private var shown: [(post: FeedPosts.Post, prev: FeedPosts.Post?)] {
         let o: (lat: Double, lng: Double)? = located ? origin : nil
-        return posts.filter { FeedPosts.passes($0.post, filter, following: following, origin: o) }
+        // CHECKED ONLY (Hidde, 2026-11-26: "eerst bomen een pagina laten maken
+        // voordat we ze laten zien ... de helft heeft wel een bookmark, de
+        // andere niet"): a share the judge has not looked at yet waits, 10 to
+        // 30 minutes, until it is a tree with its page, save and heart.
+        return posts.filter { $0.post.isChecked && FeedPosts.passes($0.post, filter, following: following, origin: o) }
     }
 
     var body: some View {
@@ -72,6 +78,14 @@ struct FeedView: View {
                         // 16 from the chips to the first post, the design's
                         // gap, not the 28 between posts.
                         header.id("feed-top").padding(.bottom, -12)
+                        // WHAT THE FILTER NEEDS, ON TOP (Hidde, 2026-11-26):
+                        // Following with nobody followed yet shows People you
+                        // may know first; Near you without a location asks
+                        // for it first.
+                        if filter == .following && account.isSignedIn && following.isEmpty {
+                            FeedPeopleRow(following: following)
+                        }
+                        if filter == .near && !located { NearYouCard() }
                         let list = shown
                         if grid {
                             // People you may know between the photographs,
@@ -131,6 +145,14 @@ struct FeedView: View {
         }
         .brandGround()
         .task(id: account.isSignedIn) {
+            // ONLY WHEN SIGNING IN OR OUT, never because the tab came back
+            // into view. A `.task` runs again each time its view reappears, so
+            // Back from a tree or a profile emptied the list and loaded it
+            // again, and the Feed came back scrolled somewhere else (Hidde,
+            // 2026-11-26: "niet op het juiste punt in de feed terug";
+            // BackKeepsPlaceWalk). Pull to refresh still starts it over.
+            if loadedFor == account.isSignedIn, !posts.isEmpty { return }
+            loadedFor = account.isSignedIn
             await loadFollowing()
             await restart()
         }
@@ -280,10 +302,10 @@ struct FeedView: View {
                 // The name opens the profile (signed out it asks first), a
                 // button of its own beside the heart, never around it.
                 let who = HStack(spacing: 5) {
-                    VisitorFace(name: name, avatar: p.author_avatar)
-                    Text(name).font(.system(size: 12, weight: .medium)).foregroundStyle(Brand.inkSoft).lineLimit(1)
+                    VisitorFace(name: name, avatar: p.author_avatar, size: 18)
+                    Text(name).font(.system(size: 13, weight: .medium)).foregroundStyle(Brand.inkSoft).lineLimit(1)
                     if let when = SentAgo.short(p.published_at) {
-                        Text("· \(when)").font(.system(size: 12)).foregroundStyle(Brand.inkSoft.opacity(0.75))
+                        Text("· \(when)").font(.system(size: 13)).foregroundStyle(Brand.inkSoft.opacity(0.75))
                             .lineLimit(1).fixedSize()
                     }
                 }
@@ -300,7 +322,7 @@ struct FeedView: View {
                     who.accessibilityElement(children: .combine)
                 }
                 Spacer(minLength: 0)
-                if let like = p.likeId { PhotoHeart(photoId: like).frame(height: 16) }
+                if let like = p.likeId { PhotoHeart(photoId: like, size: 16).frame(height: 18) }
             }
         }
     }
@@ -442,9 +464,7 @@ struct FeedView: View {
         case .following: return following.isEmpty
             ? "Follow people to see the trees they add here."
             : "Nobody you follow has added anything yet."
-        case .near: return located
-            ? "Nothing new within 100 km of you yet."
-            : "Turn on your location to see what is new near you."
+        case .near: return located ? "Nothing new within 100 km of you yet." : ""
         }
     }
 
@@ -505,6 +525,34 @@ struct FeedView: View {
                 }
             }
         }
+    }
+}
+
+/// Near you without a location: the card that asks for it, EmptyPlaceCard's
+/// shape, with the map's own Location off control as its action.
+private struct NearYouCard: View {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            VStack(alignment: .leading, spacing: 8) {
+                Image(systemName: "location")
+                    .font(.system(size: 22, weight: .medium))
+                    .foregroundStyle(Brand.inkSoft.opacity(0.6))
+                    .accessibilityHidden(true)
+                Text("See what is new near you")
+                    .font(.system(size: 16, weight: .semibold))
+                    .foregroundStyle(Brand.ink)
+                Text("Turn on your location to see the trees people added within 100 km.")
+                    .font(.system(size: 14))
+                    .foregroundStyle(Brand.inkSoft)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            LocationOffChip()
+        }
+        .padding(16)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Brand.surfaceMuted, in: .rect(cornerRadius: 14))
+        .accessibilityElement(children: .contain)
+        .accessibilityIdentifier("feed-near-card")
     }
 }
 

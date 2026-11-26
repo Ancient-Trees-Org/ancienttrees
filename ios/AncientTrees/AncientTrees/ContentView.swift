@@ -184,6 +184,9 @@ struct ContentView: View {
         case "visitors": return .visitors
         // Activity, the bell on Discover (2026-11-22): -open=activity:me.
         case "activity": return .activity
+        // Find people (2026-11-26), so a test can reach its share row:
+        // -open=people:all.
+        case "people": return .findPeople
         // A tree of YOURS, which was the last screen here no argument could
         // open. Sightings.demoIDs are the two that -mine-demo always creates.
         case "mine": return UUID(uuidString: value).map { Route.mine($0) }

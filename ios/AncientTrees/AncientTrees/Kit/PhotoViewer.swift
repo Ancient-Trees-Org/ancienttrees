@@ -75,6 +75,9 @@ struct PhotoViewer: View {
     /// Where in the set we are. Set from `startAt` on appear rather than in an
     /// initialiser, so the memberwise one keeps working at every call site.
     @State private var at = 0
+    /// How far the row of pictures follows the finger sideways.
+    @State private var swipe: CGFloat = 0
+    @State private var width: CGFloat = 390
 
     /// The set to page through, and the one photograph on screen. `shown` is
     /// the only thing the picture and the credit read, so they cannot disagree.
@@ -106,9 +109,31 @@ struct PhotoViewer: View {
             Color.black.ignoresSafeArea()
                 .opacity(1 - min(dragDown / 400, 0.6))
 
-            picture
-                .scaleEffect(scale)
-                .offset(x: offset.width, y: offset.height + dragDown)
+            // SIDEWAYS LIKE PHOTOS (Hidde, 2026-11-26: "een soort van gekke,
+            // heel onlogische overgang. Je verwacht dat het gewoon opzij
+            // swipet"): the picture follows the finger and its neighbour slides
+            // in beside it, Apple's Photos and every gallery; it used to fade.
+            GeometryReader { geo in
+                HStack(spacing: 0) {
+                    ForEach(gallery.count > 1 ? [-1, 0, 1] : [0], id: \.self) { k in
+                        Group {
+                            if k == 0 {
+                                picture
+                                    .scaleEffect(scale)
+                                    .offset(x: offset.width, y: offset.height)
+                            } else {
+                                neighbour(k)
+                            }
+                        }
+                        .frame(width: geo.size.width, height: geo.size.height)
+                        .clipped()
+                    }
+                }
+                .offset(x: (gallery.count > 1 ? -geo.size.width : 0) + swipe, y: dragDown)
+                .onAppear { width = geo.size.width }
+                .onChange(of: geo.size.width) { _, w in width = w }
+            }
+            .ignoresSafeArea()
                 .gesture(magnify)
                 .simultaneousGesture(pan)
                 .onTapGesture(count: 2) { doubleTap() }
@@ -177,12 +202,16 @@ struct PhotoViewer: View {
                             // page's byline (Hidde, 2026-11-20; Google Maps
                             // names the maker and the date in its viewer).
                             HStack(spacing: 5) {
-                                VisitorFace(name: name, avatar: a.author_avatar)
-                                Text(name).font(.caption.weight(.medium))
+                                // Readable at arm's length (Hidde, 2026-11-26:
+                                // "best klein. Is het niet te klein om goed te
+                                // gebruiken?"): 15 point, a 22 point face and an
+                                // 18 point heart, Instagram's byline size.
+                                VisitorFace(name: name, avatar: a.author_avatar, size: 22)
+                                Text(name).font(.subheadline.weight(.semibold))
                                 if let when = SentAgo.long(a.published_at) {
-                                    Text("· \(when)").font(.caption).opacity(0.75)
+                                    Text("· \(when)").font(.subheadline).opacity(0.75)
                                 }
-                                PhotoHeart(photoId: by.lowercased(), onDark: true)
+                                PhotoHeart(photoId: by.lowercased(), onDark: true, size: 18)
                             }
                             .foregroundStyle(.white.opacity(0.9))
                             .lineLimit(1)
@@ -220,6 +249,15 @@ struct PhotoViewer: View {
                     },
                     .secondary("Cancel") { confirmingDelete = false },
                 ])
+        }
+    }
+
+    /// The picture beside this one, drawn while the finger pulls it in.
+    @ViewBuilder private func neighbour(_ k: Int) -> some View {
+        let n = max(gallery.count, 1)
+        let i = ((at + k) % n + n) % n
+        if gallery.indices.contains(i) {
+            TreePhoto(url: gallery[i].full, contentMode: .fit) { ProgressView().tint(.white) }
         }
     }
 
@@ -265,11 +303,16 @@ struct PhotoViewer: View {
                     offset = CGSize(width: settled.width + v.translation.width,
                                     height: settled.height + v.translation.height)
                 } else {
-                    // Only downward follows the finger. A sideways drag pages
-                    // on release rather than sliding, which keeps this a few
-                    // lines instead of a second gesture machine fighting zoom.
+                    // Both directions follow the finger now: down to close,
+                    // sideways to page, the row sliding with it (2026-11-26).
                     let d = v.translation
-                    dragDown = abs(d.width) > abs(d.height) ? 0 : max(0, d.height)
+                    if abs(d.width) > abs(d.height) {
+                        dragDown = 0
+                        if gallery.count > 1 { swipe = d.width }
+                    } else {
+                        swipe = 0
+                        dragDown = max(0, d.height)
+                    }
                 }
             }
             .onEnded { v in
@@ -278,9 +321,26 @@ struct PhotoViewer: View {
                 // Which gesture it WAS is decided at the end by the axis that
                 // moved further, so a slightly crooked swipe still does what
                 // the thumb meant. Same rule as the website's lightbox.
-                if abs(d.width) > abs(d.height), abs(d.width) > 60, gallery.count > 1 {
-                    withAnimation(.easeOut(duration: 0.2)) { dragDown = 0 }
-                    page(d.width < 0 ? 1 : -1)
+                let flick = v.predictedEndTranslation.width
+                if abs(d.width) > abs(d.height), gallery.count > 1,
+                   abs(d.width) > width * 0.25 || abs(flick) > width * 0.5 {
+                    let by = d.width < 0 ? 1 : -1
+                    withAnimation(.easeOut(duration: 0.22)) {
+                        swipe = by == 1 ? -width : width
+                        dragDown = 0
+                    } completion: {
+                        // The neighbour is now in the middle: it becomes the
+                        // picture and the row stands still again, unanimated.
+                        var t = Transaction(); t.disablesAnimations = true
+                        withTransaction(t) {
+                            reset()
+                            wantsOriginal = false
+                            at = ((at + by) % gallery.count + gallery.count) % gallery.count
+                            swipe = 0
+                        }
+                    }
+                } else if abs(d.width) > abs(d.height) {
+                    withAnimation(.spring(duration: 0.25)) { swipe = 0 }
                 } else if d.height > 90 {
                     isPresented = false
                 } else {

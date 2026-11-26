@@ -138,7 +138,8 @@ struct CollectView: View {
         }
         var date: Date {
             switch self {
-            case .mine(let s): s.date
+            // Newest UPLOAD first, not the photograph's own date (2026-11-26).
+            case .mine(let s): s.addedAt ?? s.date
             case .sent(let t): t.sentAt ?? .distantPast
             case .tree(_, let d): d
             }

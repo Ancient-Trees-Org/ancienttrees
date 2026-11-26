@@ -94,7 +94,10 @@ struct PersonProfileView: View {
             // Names the person (2026-10-28), as the website's sheet does.
             SignInSheet(reason: profile.map { .follow($0.display_name) } ?? .general)
         }
-        .task { await load() }
+        // Once, not every time the page comes back into view: Back from a tree
+        // reloaded it and the grids jumped (BackKeepsPlaceWalk, 2026-11-26).
+        // Pull to refresh and the person menu still load it again.
+        .task { if !loaded { await load() } }
         .fullScreenCover(isPresented: $viewingAvatar) {
             PhotoViewer(title: profile?.display_name ?? "", isPresented: $viewingAvatar,
                         remote: avatarURL)
@@ -106,12 +109,15 @@ struct PersonProfileView: View {
             Text(text)
                 .font(.footnote).foregroundStyle(Brand.inkSoft)
                 .lineLimit(1).minimumScaleFactor(0.8)
-                // 44 to hit, 20 to lay out, as My trees' counts (Collect.swift).
-                .frame(minHeight: 44)
+                // 44 to hit, 20 to lay out, the extra room hanging BELOW the
+                // numbers: reaching up as well, it lay over the name, and a
+                // tap on the name opened the followers (Hidde, 2026-11-26:
+                // "ik klik op zijn naam, dan kom ik op followers").
+                .frame(minHeight: 44, alignment: .top)
                 .contentShape(.rect)
         }
         .buttonStyle(.plain)
-        .padding(.vertical, -12)
+        .padding(.bottom, -24)
         .accessibilityIdentifier(id)
     }
 
@@ -199,9 +205,18 @@ struct PersonProfileView: View {
 
     @ViewBuilder private func tags(_ p: Profiles.PublicProfile) -> some View {
         if !p.ambassador.isEmpty {
+            // The badge opens its place, as your own does on My trees (Hidde,
+            // 2026-11-26: "als je ... drukt op zijn badge, dan word je niet
+            // naar die stad geleid"). The feed names a place by name, so the
+            // map's search finds it the way a typed name would.
             AmbassadorBadge(places: p.ambassador.map {
                 Profiles.Ambassador(user_id: p.user_id, place_slug: $0.lowercased(), place_name: $0, public: true)
-            }, size: 13).fixedSize()
+            }, size: 13, open: { a in
+                let guess = a.place_name.folding(options: .diacriticInsensitive, locale: nil)
+                    .lowercased().replacingOccurrences(of: " ", with: "-")
+                let slug = catalogue.facets.cities.first(where: { $0.name == a.place_name })?.slug ?? guess
+                navigator.push = .city(slug)
+            }).fixedSize()
         }
         if earlyAdopter { EarlyAdopterBadge(size: 13).fixedSize() }
     }
