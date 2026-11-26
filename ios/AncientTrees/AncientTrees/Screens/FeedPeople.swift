@@ -35,17 +35,20 @@ struct FeedPeopleRow: View {
         // anybody to show (an empty Group never appears, and never loads).
         VStack(spacing: 0) {
             if !shown.isEmpty {
+                // The Feed insets its rows by 16; this block runs edge to edge
+                // as a whole, so the header's own 16 and the cards' 16 line
+                // up with the rows above and below, and the cards scroll to
+                // the screen's edge (Discover's shelves do the same).
                 VStack(alignment: .leading, spacing: 12) {
                     ShelfHeader(title: "People you may know", seeAll: { navigator.push = .findPeople })
-                        .padding(.horizontal, -16)
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 12) {
                             ForEach(shown, id: \.profile.user_id) { card($0) }
                         }
                         .padding(.horizontal, 16)
                     }
-                    .padding(.horizontal, -16)
                 }
+                .padding(.horizontal, -16)
                 .accessibilityElement(children: .contain)
                 .accessibilityIdentifier("feed-people")
             }
