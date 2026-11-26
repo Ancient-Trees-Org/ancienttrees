@@ -69,8 +69,8 @@ GLYPHS = {
     "SearchSemibold": ("search", False, 600, False),
     "Map": ("map", False, 400, False),  # map
     "MapFill": ("map", True, 400, False),  # map.fill
-    "Group": ("group", False, 400, False),  # person.3, the Feed tab (2026-11-26)
-    "GroupFill": ("group", True, 400, False),  # person.3.fill
+    "Group": ("group", False, 400, False),  # person.2, the Feed tab (2026-11-26, Polarsteps' Activity)
+    "GroupFill": ("group", True, 400, False),  # person.2.fill
     "Eco": ("eco", False, 400, False),  # leaf
     "EcoFill": ("eco", True, 400, False),  # leaf.fill
     "Park": ("park", False, 400, False),  # tree

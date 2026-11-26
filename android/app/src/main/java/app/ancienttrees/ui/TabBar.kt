@@ -68,7 +68,7 @@ private data class TabItem(val title: Int, val outline: ImageVector, val filled:
 private val ITEMS = listOf(
     TabItem(R.string.tab_map, Sym.Map, Sym.MapFill, 0, "tab-map"),
     TabItem(R.string.tab_discover, Sym.Search, Sym.Search, 1, "tab-discover"),
-    // THE FEED (Hidde, 2026-11-26): person.3 on the iPhone, Material's group here.
+    // THE FEED (Hidde, 2026-11-26): two people, Polarsteps' Activity tab; person.2 on the iPhone, Material's group here.
     TabItem(R.string.tab_feed, Sym.Group, Sym.GroupFill, Feed.TAB, "tab-feed"),
     TabItem(R.string.tab_my_trees, Sym.Leaf, Sym.LeafFill, 2, "tab-my-trees"),
 )
