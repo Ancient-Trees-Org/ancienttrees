@@ -28,6 +28,18 @@ suspect; a reviewer that finds fifteen nitpicks a day is worse.
 
 ---
 
+## 2026-11-26
+
+Web half: the last 24 hours were reader-judge fixes (Ames, Woolland, Goll Woods), 26 vendored photographs, walking routes and the daily digest. Ames, Woolland and Goll Woods pages hold no em dashes. The four WARNs of 2026-11-25 still stand in site/dist (grep today), replacements as in the 2026-11-21 entry:
+
+- WARN site/dist/miami/baobabs-of-collins-park.html, key-west/strangler-figs-of-the-key-west-cemetery.html "writer must not invent any" (tenth review; public copy never narrates process). Also in api/trees.json, so the app reads it.
+- WARN site/dist/explore.html "Each pin opens a tree with its age, its species, why it is worth the walk..." (twentieth review).
+- WARN site/dist/contribute.html "verified against independent sources" (thirty-first review; false since 2026-10-12).
+- WARN site/dist/collections/ancient-oaks-of-europe.html and collections/europes-most-remarkable-yews.html "every coordinate verified" (eleventh review; hard rule 2). Also in api/browse.json, so fix the feed text.
+- NOTE session start reports the newest Build and deploy site run as FAILED (2026-11-26) and the night run's deploy dispatch was refused (403); not investigated here, rung 2 for a run.
+
+---
+
 ## 2026-11-25
 
 Web half: the last 24 hours were reader-judge photograph batches (Turin ginkgo, Madison tupelo, Tokyo pine), vendored photos, a leads hand-back and an Android crash fix. Turin, Madison and Tokyo pages hold no em dashes. Four earlier WARNs still stand in site/dist (grep today), replacements as in the 2026-11-21 entry:
