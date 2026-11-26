@@ -67,6 +67,12 @@
       "build": "41",
       "answered_at": "2026-11-24",
       "what": "One crash (2026-11-15, iOS 18.7.8): EXC_BREAKPOINT / SIGTRAP, empty stack on the crashed thread, no frame of ours on any thread. Nothing to read; looked into 2026-11-24, no cause found; a newer report rings again."
+    },
+    {
+      "signature": "AncientTrees+0x376463",
+      "build": "41",
+      "answered_at": "2026-11-26",
+      "what": "One hang of 2 sec (2026-11-21, iPhone 12, iOS 18.7.8), under HANG_LONG_SECS and not repeated. Main thread: our only frame is main(); below it a MetalKit draw from the map view (MapLibre) waiting in Metal on an XPC reply from the shader compiler, the first-draw pipeline build of the map on that phone. No line of ours runs during it. Looked into 2026-11-26; a repeat or a hang of 5 sec rings again."
     }
   ]
 }

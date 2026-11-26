@@ -28,6 +28,16 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Not a bug**: the rating question twice in one walk was two different simulators. **Not built**: an offline notice (a new element; design first if Hidde wants it). "Remove from collected" keeping the collect photo is the documented behaviour of the Delete photo sheet.
 - **Android owes the same** (prompt handed to Hidde for an Android session): the list above, plus "1 follower", the 71 spacing differences. data/map-parity.json has an open row for the map parts.
 
+## 2026-11-26 session: tests for the bugs people found, and the Tortworth label on Android
+
+**Android carries report 1488 too.** On the Android app, a tree you added in My trees is now named after one of our places only when one of our trees stands within 3 km, the iPhone's number from the entry above (MyTreesPlaceTest). Before, Android took the nearest place up to 50 km away, which is how the Tortworth Chestnut showed under Westonbirt, 15 km off, in the minute before Tortworth's own page reached the phone. The iPhone fix is the session above's; this session's own iPhone version was dropped in its favour.
+
+**Tests where there were none.** Three bugs people found had been closed with "no machine can see this". Each now has a test. The card swipe-away rule (56 points or a flick) is in one place per platform, with CardSwipeTests and CardSwipeTest. The iOS 18 scrolled navigation bar keeping its background has NavigationBarTests. Text running into text at the largest text size has a new OVERLAP rule in `appfit.py --large-text` (test: scripts/test_appfit_overlap.py), which the twice-daily iOS 18 floor job now runs on the small iPhone.
+
+**Crash list.** The build 41 hang (AncientTrees+0x376463, 2 s, iPhone 12) was answered in data/crash-fixes.json. The main thread was waiting on Metal's shader compiler during the map's first draw, and no code of ours was running. A repeat, or a hang of 5 s or more, rings again. The build 41 crash during a pan is fixed in build 42.
+
+**Digest.** "What was fixed" said "a person" for bugs our own test walk found. It now says "our test walk".
+
 ## 2026-11-26 reader judge: a hollow chestnut in Guernsey goes live
 
 **Live.** St Peter Port, Guernsey, stp_001 "The Hollow Chestnut of Cambridge Park" (lead 636ce3a4, sent through the app today with the photograph's own location). The photograph shows a veteran whose central trunk has burst open and gone hollow, with thick grey living limbs sweeping low over the park lawn around it. The reader sent it as an oak of 400 years. The long, saw-edged leaves in the crown and on the grass are a sweet chestnut's, so we list it as one, and the story and FAQ name the reader's oak and ask anyone who knows the tree better to say so. The age is published as the reader's estimate. The pin is confirmed. A web search found no written record of the tree; the park's name comes from the coordinate. This is a new one-tree place (no place page under the two-tree rule), with Guernsey as its country. The photo is filed under November by its own date.

@@ -223,7 +223,7 @@ fun MapSheet(
             // BottomSheet.swift does.
             val down = latestTarget - now
             if (cardFits && state.height == SheetHeight.CARD && next == SheetHeight.CARD &&
-                (down > with(density) { 56.dp.toPx() } || velocity > with(density) { 125.dp.toPx() })
+                CardSwipe.closes(dragDp = down / density.density, velocityDp = velocity / density.density)
             ) next = SheetHeight.PEEK
             if (next == state.height) {
                 scope.launch { anim.animateTo(latestTarget, SheetStops.motion) }

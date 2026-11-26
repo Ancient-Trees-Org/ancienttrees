@@ -677,19 +677,19 @@
    "first_seen": "2026-11-24",
    "status": "fixed",
    "found_by": "hidde",
-   "no_test_reason": "the threshold lives inside each sheet's gesture; checked by hand in the iOS simulator and the Android emulator with a slow 60 pt drag that sprang back before and closes now",
-   "fixed_in": "52899c936"
+   "fixed_in": "52899c936",
+   "test": "AncientTreesTests/CardSwipeTests + android/app/src/test/java/app/ancienttrees/ui/CardSwipeTest.kt"
   },
   {
    "id": "ESC-2026-11-25-my-trees-labels-a-tree-you-added-with-th",
    "surface": "APP",
    "kind": "BUG",
    "file": "ios/AncientTrees/AncientTrees/Screens/Collect.swift:197",
-   "summary": "My Trees labels a tree you added with the place of the nearest tree we map, with no distance limit on iOS (50 km on Android): the Tortworth chestnut showed under Westonbirt (feedback 1488)",
+   "summary": "My Trees labels a tree you added with the place of the nearest tree we map up to 50 km off, on both phones: the Tortworth Chestnut showed under Westonbirt, 15 km away, in the minute before Tortworth's own page reached the phone (feedback 1488)",
    "first_seen": "2026-11-25",
    "status": "fixed",
    "found_by": "reader",
-   "test": "WalkFindingsTests.testATreeYouAddedIsNotFiledUnderAFarPlace",
+   "test": "WalkFindingsTests.testATreeYouAddedIsNotFiledUnderAFarPlace + android/app/src/test/java/app/ancienttrees/feed/MyTreesPlaceTest.kt (Android: the same 3 km)",
    "reader_line": "A tree you added now shows under the place where it stands in My trees, not under the nearest place we map",
    "fixed_in": "5fec572af"
   },
@@ -736,8 +736,8 @@
    "first_seen": "2026-11-25",
    "status": "fixed",
    "found_by": "test",
-   "no_test_reason": "a translucency fault: no XCUI frame measures what shows through a bar; looked at on iOS 18.6 scrolled, tree page and Find people",
-   "fixed_in": "c106c4492"
+   "fixed_in": "c106c4492",
+   "test": "AncientTreesTests/NavigationBarTests"
   },
   {
    "id": "ESC-2026-11-25-my-trees-follower-count-overlaps-the-nam",
@@ -748,8 +748,8 @@
    "first_seen": "2026-11-25",
    "status": "fixed",
    "found_by": "test",
-   "no_test_reason": "no machine check runs the app at accessibility text sizes yet; found by the large-text pass of the release walk, looked at after the fix",
-   "fixed_in": "c106c4492"
+   "fixed_in": "c106c4492",
+   "test": "scripts/test_appfit_overlap.py; scripts/appfit.py --large-text (OVERLAP) in ios.yml's floor job"
   },
   {
    "id": "ESC-2026-11-25-a-reader-wrote-from-the-app-s-profile-fe",

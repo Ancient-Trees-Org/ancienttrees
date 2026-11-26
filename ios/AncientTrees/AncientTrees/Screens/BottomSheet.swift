@@ -34,6 +34,20 @@
 import SwiftUI
 import UIKit
 
+/// When a downward swipe on a tapped tree's card closes it (Hidde, 2026-11-24:
+/// the card sprang back unless dragged half its height). Material 3's sheet
+/// lets go after 56 of drag or a flick of 125 a second (BottomSheetDefaults);
+/// Android's MapSheet.kt carries the same two numbers. Its own type so a test
+/// holds it (CardSwipeTests), not only a hand drag in the simulator.
+enum CardSwipe {
+    static let dragToClose: CGFloat = 56
+    static let flickToClose: CGFloat = 125
+
+    static func closes(drag: CGFloat, velocity: CGFloat) -> Bool {
+        drag > dragToClose || velocity > flickToClose
+    }
+}
+
 enum SheetHeight: CaseIterable {
     case bar, peek, card, half, full
 
@@ -780,7 +794,8 @@ struct BottomSheet<Header: View, Content: View>: View {
                         // flick of 125 a second (BottomSheetDefaults), the
                         // same on Android (MapSheet.kt).
                         if cardFits, height == .card, next == .card,
-                           value.translation.height > 56 || value.velocity.height > 125 {
+                           CardSwipe.closes(drag: value.translation.height,
+                                            velocity: value.velocity.height) {
                             next = .peek
                         }
                         // ONE change, not two (2026-09-26). The stop and the

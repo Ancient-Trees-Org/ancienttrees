@@ -89,6 +89,7 @@ import app.ancienttrees.account.OwnSighting
 import app.ancienttrees.account.Saves
 import app.ancienttrees.account.SentTip
 import app.ancienttrees.feed.Catalogue
+import app.ancienttrees.feed.CollectRules
 import app.ancienttrees.feed.Geo
 import app.ancienttrees.feed.Here
 import app.ancienttrees.feed.Tree
@@ -178,9 +179,13 @@ private fun MyTreesInner(
     val wishlist = if (shows) saves.heartedAt.entries.sortedByDescending { it.value }.mapNotNull { byTree[it.key] } else emptyList()
 
     // nearestTree: the tree of ours a find of yours is placed by, worked out ONCE per find.
+    // With how far off it stands, null when it is ours by id (CollectRules.placeLabel).
     val placeOf = remember(mine.version, catalogue) {
         mine.all.associate { s ->
-            s.id to (s.treeId?.let { byTree[it] } ?: catalogue.nearest(s.lat, s.lng, 1, 50.0).firstOrNull()?.first)
+            val own = s.treeId?.let { byTree[it] }
+            val place: Pair<Tree, Double?>? = if (own != null) Pair(own, null)
+                else catalogue.nearest(s.lat, s.lng, 1, 50.0).firstOrNull()?.let { Pair(it.first, it.second) }
+            s.id to place
         }
     }
     val countryOfCity = remember(catalogue) {
@@ -190,12 +195,12 @@ private fun MyTreesInner(
     }
     fun countryOf(i: TimelineItem): String? = when (i) {
         is TimelineItem.Ours -> i.t.country
-        is TimelineItem.Mine -> placeOf[i.s.id]?.country
+        is TimelineItem.Mine -> placeOf[i.s.id]?.first?.country
         is TimelineItem.Sent -> countryOfCity[i.t.city]
     }
     fun cityOf(i: TimelineItem): String? = when (i) {
         is TimelineItem.Ours -> i.t.city
-        is TimelineItem.Mine -> placeOf[i.s.id]?.city
+        is TimelineItem.Mine -> placeOf[i.s.id]?.let { CollectRules.placeLabel(it.first.city, it.second) }
         is TimelineItem.Sent -> i.t.city
     }
     // TICKED TREES ONLY (Hidde, 2026-10-10): a photograph alone does not put one of ours here.

@@ -429,7 +429,7 @@ def centred_in_button(el, els):
     return False
 
 
-def check(screen):
+def check(screen, large=False):
     findings = []
     W = screen["w"]
     mark_shelves(screen)
@@ -550,7 +550,107 @@ def check(screen):
 
     findings += edge_drift(screen, els, "left")
     findings += edge_drift(screen, els, "right")
+    if large:
+        # At the largest text sizes alignment is not the question (a heading
+        # that wraps moves by design); what breaks is words running into words
+        # and off the screen. SMALL stays: a control only grows with the text.
+        findings = [f for f in findings if f[0] in ("CLIPPED", "SMALL", "BURIED")
+                    # The terms link inside the sign-in sentence grows with
+                    # the text past the 28 point line the SMALL exemption
+                    # allows; it is still a line of text, not a button.
+                    and not (f[0] == "SMALL" and f[1].type == "Link"
+                             and str(f[1].ident or f[1].label).startswith("https://ancienttrees.app/"))]
+        findings += overlaps(screen)
     return findings
+
+
+# THE LARGEST TEXT SIZES (escaped bug of 2026-11-25: My trees' follower count
+# ran over the person's name at a large text size, found by the release walk's
+# hand pass because no machine ran the app that way). `--large-text` sets the
+# simulator's text size to this before the sweep and judges words that run
+# into other words, which no rule above asks.
+LARGE_TEXT = "accessibility-extra-large"
+OVERLAP_MIN = 4.0  # points both ways; a descender brushing a line is not one
+
+
+def _ancestor(a, b):
+    p = b.parent
+    while p is not None:
+        if p is a:
+            return True
+        p = p.parent
+    return False
+
+
+def _scroller(el):
+    p = el.parent
+    while p is not None:
+        if p.type in SCROLLERS:
+            return p
+        p = p.parent
+    return None
+
+
+def _chain(el):
+    out = []
+    while el is not None:
+        out.append(el)
+        el = el.parent
+    return out[::-1]  # root first
+
+
+def _stacked_layers(a, b, W, H):
+    """True when a and b sit in two different screen-sized siblings."""
+    ca, cb = _chain(a), _chain(b)
+    i = 0
+    while i < min(len(ca), len(cb)) and ca[i] is cb[i]:
+        i += 1
+    if i >= len(ca) or i >= len(cb):
+        return False
+    la, lb = ca[i], cb[i]
+    full = lambda e: e.w >= W - SAME and e.h >= H * 0.85  # noqa: E731
+    return full(la) and full(lb)
+
+
+def overlaps(screen):
+    """OVERLAP: two pieces of text drawn over each other."""
+    W, H = screen["w"], screen["h"]
+    texts = [e for e in screen["els"]
+             if e.type == "StaticText" and e.w > 0 and e.h > 0
+             and e.x < W - SAME and e.y < H and e.bottom > 0
+             and e.label not in SYSTEM_LABELS
+             and not inside(e, NOT_OURS, NOT_OURS_IDS) and not in_shelf(e)]
+    out = []
+    for i, a in enumerate(texts):
+        for b in texts[i + 1:]:
+            if _ancestor(a, b) or _ancestor(b, a):
+                continue
+            # ONLY TEXT THAT MOVES TOGETHER. A list scrolling under the
+            # floating tab bar, a page's facts under its pinned "Take me
+            # there" bar, a page behind a sheet: one of the two scrolls clear
+            # of the other, the BURIED rule's reasoning. The first large-text
+            # sweep (2026-11-26) reported 40 of those and nothing else; text
+            # in one scroll container (or both fixed) cannot move apart.
+            if _scroller(a) is not _scroller(b):
+                continue
+            if inside(a, (), FLOATS_OVER_PAGES) or inside(b, (), FLOATS_OVER_PAGES):
+                continue
+            # A full-screen cover over a page ("Where is it really?" over the
+            # tree page): the two paths part at two screen-sized layers, and
+            # the page below is not what anybody reads.
+            if _stacked_layers(a, b, W, H):
+                continue
+            # The same words twice (a label and its accessibility copy) sit
+            # on one frame; that is one piece of text, not two.
+            if (a.label == b.label and abs(a.x - b.x) < SAME
+                    and abs(a.y - b.y) < SAME):
+                continue
+            dx = min(a.right, b.right) - max(a.x, b.x)
+            dy = min(a.bottom, b.bottom) - max(a.y, b.y)
+            if dx > OVERLAP_MIN and dy > OVERLAP_MIN:
+                out.append(("OVERLAP", a,
+                            f"runs into {b.name()} by {dx:.0f} by {dy:.0f} points"))
+    return out
 
 
 def edge_of(el, W, side):
@@ -657,7 +757,7 @@ _BUILT = []
 _RETRIED = []  # one second sweep per run, never a loop
 
 
-def run_test(device, scratch):
+def run_test(device, scratch, large=False):
     """Run the dumping UI test and read the file it leaves behind.
 
     A FILE rather than the test's output, because XCTest does not forward a
@@ -688,7 +788,11 @@ def run_test(device, scratch):
         # appsweep.py's own main() already does this before using a device
         # it just created, this brings run_test() in line with that.
         appsweep.boot(udid)
-    device_dir = pathlib.Path.home() / "Library/Developer/CoreSimulator/Devices" / udid
+    if large:
+        appsweep.boot(udid)
+        subprocess.run(["xcrun", "simctl", "ui", udid, "content_size", LARGE_TEXT],
+                       capture_output=True, text=True)
+    device_dir =pathlib.Path.home() / "Library/Developer/CoreSimulator/Devices" / udid
     for stale in device_dir.rglob(DUMP_NAME):
         stale.unlink()
 
@@ -759,6 +863,7 @@ def run_test(device, scratch):
              "CODE_SIGN_IDENTITY="],
             cwd=APP_DIR, capture_output=True, text=True, timeout=1800)
     except subprocess.TimeoutExpired:
+        _default_text(udid, large)
         subprocess.run(["xcrun", "simctl", "shutdown", udid],
                        capture_output=True, text=True)
         sys.exit("xcodebuild test hung past 30 minutes and was killed; "
@@ -773,6 +878,7 @@ def run_test(device, scratch):
     # seconds each and then 'did not have a process ID'"), and it is why the
     # layout gate went red in CI on 2026-08-26 while passing on every desk,
     # because a desk runs `--device` and measures one phone.
+    _default_text(udid, large)
     subprocess.run(["xcrun", "simctl", "shutdown", udid],
                    capture_output=True, text=True)
     print(f"  swept in {(time.monotonic() - t0) / 60:.1f} min", flush=True)
@@ -795,9 +901,16 @@ def run_test(device, scratch):
         if not _RETRIED:
             _RETRIED.append(True)
             print("  sweeping once more", flush=True)
-            return run_test(device, scratch)
+            return run_test(device, scratch, large)
         sys.exit("the test left no measurements behind, twice")
     return found[-1].read_text()
+
+
+def _default_text(udid, large):
+    """Put the simulator's text size back, so the next sweep on it is normal."""
+    if large:
+        subprocess.run(["xcrun", "simctl", "ui", udid, "content_size", "large"],
+                       capture_output=True, text=True)
 
 
 SELF_PADDING = {
@@ -904,9 +1017,18 @@ def main():
                          "measured on the newest until 2026-08-31.")
     ap.add_argument("--dump", default=None, help="a saved test output to judge")
     ap.add_argument("--json", action="store_true", help="findings as JSON")
+    ap.add_argument("--no-build", action="store_true",
+                    help="reuse the test build an earlier appfit step of the "
+                         "same job left in the scratch folder")
+    ap.add_argument("--large-text", action="store_true", dest="large",
+                    help="sweep at the largest accessibility text size and judge "
+                         "text running into text and off the screen (OVERLAP, "
+                         "CLIPPED, SMALL, BURIED); alignment is not judged there")
     args = ap.parse_args()
 
     scratch = os.environ.get("CLAUDE_SCRATCHPAD", "/tmp")
+    if args.no_build and list(pathlib.Path(scratch, "dd").glob("Build/Products/*.xctestrun")):
+        _BUILT.append(True)
 
     # The source check runs first and needs no simulator: it catches the
     # mistake where it is written rather than where it happens to be seen.
@@ -931,9 +1053,14 @@ def main():
         appsweep.floor_note(args.os_filter)
         names = ([args.device] if args.device
                  else [d[0] for d in appsweep.sweep_devices(args.os_filter)])
+        # `--device "iPhone SE (sweep)" --os 18`: that phone on that runtime,
+        # by the full name sweep_devices() gives it.
+        if args.device and args.os_filter:
+            names = [d[0] for d in appsweep.sweep_devices(args.os_filter)
+                     if d[0].startswith(args.device)][:1] or names
         runs = []
         for name in names:
-            runs.append((name, run_test(name, scratch)))
+            runs.append((name, run_test(name, scratch, args.large)))
             pathlib.Path(scratch, "appfit-dump.txt").write_text(runs[-1][1])
 
     total = []
@@ -945,7 +1072,7 @@ def main():
         for screen in got:
             screen["device"] = device
             screens.append(screen)
-            total += [(screen["name"],) + f for f in check(screen)]
+            total += [(screen["name"],) + f for f in check(screen, args.large)]
 
     if args.json:
         print(json.dumps([{"screen": s, "kind": k, "element": el.name(),

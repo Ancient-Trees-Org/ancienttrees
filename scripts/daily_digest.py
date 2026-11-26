@@ -2119,7 +2119,10 @@ def fixed_rows(since):
             surface = "Android" if str(r.get("file", "")).startswith("android/") else "iPhone"
         elif surface == "WEB":
             surface = "Web"
-        found = "a person" if r.get("found_by") else "code review"
+        # found_by "test" is our own release walk, not a person (two rows of
+        # 2026-11-25 read "a person" before this).
+        found = {"hidde": "a person", "reader": "a person",
+                 "test": "our test walk"}.get(r.get("found_by"), "code review")
         rows.append({"when": when, "surface": surface, "what": r.get("summary") or r.get("id"),
                      "found": found, "test": "yes" if r.get("test") else "no",
                      "commit": r.get("fixed_in")})

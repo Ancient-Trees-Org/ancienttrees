@@ -759,6 +759,14 @@ jobs:
         if: always() && (inputs.floor_only == '' || inputs.floor_only == null)
         run: python3 scripts/appfit.py --os 18
 
+      # THE LARGEST TEXT SIZE, on the small phone (escaped bug of 2026-11-25:
+      # My trees' follower count ran over the name, and only a hand pass of
+      # the release walk saw it). Words running into words and off the edge;
+      # about 20 minutes, inside the job's 150.
+      - name: Does it still fit at the largest text size
+        if: always() && (inputs.floor_only == '' || inputs.floor_only == null)
+        run: python3 scripts/appfit.py --os 18 --device "iPhone SE (sweep)" --large-text --no-build
+
       - name: Photograph every screen on iOS 18
         if: always() && (inputs.floor_only == '' || inputs.floor_only == null)
         run: python3 scripts/appsweep.py --no-build --os 18 --device "iPhone SE (sweep)" || true

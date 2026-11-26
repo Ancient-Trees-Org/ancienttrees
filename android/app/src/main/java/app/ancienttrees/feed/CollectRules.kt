@@ -107,6 +107,21 @@ object CollectRules {
         }
     }
 
+    /**
+     * The place a tree YOU added is labelled with in My trees (report 1488: the
+     * Tortworth Chestnut showed under Westonbirt, 15 km off). Only when one of
+     * ours stands within [PLACE_LABEL_KM]; [km] null means it is ours by id.
+     * CollectView.placeOfYourTree on the iPhone carries the same number.
+     */
+    const val PLACE_LABEL_KM = 3.0
+
+    fun placeLabel(city: String?, km: Double?): String? = when {
+        city == null -> null
+        km == null -> city
+        km <= PLACE_LABEL_KM -> city
+        else -> null
+    }
+
     /** The nearest of our trees within [withinKm], for naming a tree only you have. */
     fun nearestTree(lat: Double, lng: Double, trees: List<Tree>, withinKm: Double = 30.0): Pair<Tree, Double>? =
         trees.map { it to Geo.km(lat, lng, it.lat, it.lng) }

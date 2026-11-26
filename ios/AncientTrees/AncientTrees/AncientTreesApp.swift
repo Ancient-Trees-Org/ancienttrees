@@ -54,6 +54,19 @@ struct AncientTreesApp: App {
         // font. The appearance proxy can, and doing it once here is what stops
         // every screen's own name from being the system face while everything
         // under it is not.
+        let glass: Bool
+        if #available(iOS 26, *) { glass = true } else { glass = false }
+        let bars = navigationBars(glass: glass)
+        UINavigationBar.appearance().standardAppearance = bars.scrolled
+        UINavigationBar.appearance().scrollEdgeAppearance = bars.edge
+        UINavigationBar.appearance().compactAppearance = bars.scrolled
+    }
+
+    /// The bar at the scroll edge and once content scrolls under it. Its own
+    /// function so NavigationBarTests holds the iOS 18 rule below (escaped bug
+    /// of 2026-11-25: the bar was see-through on a scrolled page).
+    @MainActor static func navigationBars(glass: Bool)
+        -> (edge: UINavigationBarAppearance, scrolled: UINavigationBarAppearance) {
         let bar = UINavigationBarAppearance()
         bar.configureWithTransparentBackground()
         let ink = UIColor { $0.userInterfaceStyle == .dark
@@ -71,7 +84,7 @@ struct AncientTreesApp: App {
         // and Settings (walk before build 42, 2026-11-25). Below 26 the
         // scrolled bar takes the system material, as every UIKit app's does.
         let scrolled: UINavigationBarAppearance
-        if #available(iOS 26, *) {
+        if glass {
             scrolled = bar
         } else {
             scrolled = UINavigationBarAppearance()
@@ -79,9 +92,7 @@ struct AncientTreesApp: App {
             scrolled.largeTitleTextAttributes = bar.largeTitleTextAttributes
             scrolled.titleTextAttributes = bar.titleTextAttributes
         }
-        UINavigationBar.appearance().standardAppearance = scrolled
-        UINavigationBar.appearance().scrollEdgeAppearance = bar
-        UINavigationBar.appearance().compactAppearance = scrolled
+        return (bar, scrolled)
     }
 
     var body: some Scene {
