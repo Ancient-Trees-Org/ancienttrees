@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-26 reader judge: a tall araucaria at Palheiro Gardens, Madeira, live
+
+- Live: madeira/mdr_013, The Tall Araucaria of Palheiro Gardens, from a reader's website tip with a photograph (viewed: a Norfolk Island pine standing alone on a lawn, tier on tier, daylight). It came with no GPS, so the pin is approximate on the garden's point (the same as the pohutukawa, mdr_010). Paid entry. The page gives the reader's 48 m, their survey citation (Árvores Monumentais e Emblemáticas da Madeira, 2008) and their account of the garden as their own words. Photo filed in November, the photo's own month. Madeira now has 13 trees; its intro, meta and question texts (EN and the kept PT overlay) give the new count, and the PT overlay has the tree.
+- Nothing else waited: 0 open reports, 0 open feedback, 0 reader notes to quote. Lead 3c544597 (Amsterdam) is still our own account's and its photo is still not on disk, so it was left alone.
+
 ## 2026-11-26 reader judge: a campus cedar in Varese live
 
 - Live: varese/var_003, The Cedar of the University Campus, from a reader's app photograph (four frames viewed; photo GPS at the tree, dated November). A broad blue-grey cedar alone on a campus lawn. Species left at Cedrus sp.: the reader says Lebanon, the crown reads Atlas, and the page asks. Varese now has three trees; its intro, meta, question texts and FAQ say so. No kept translation of Varese.

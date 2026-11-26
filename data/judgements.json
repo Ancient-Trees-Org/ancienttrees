@@ -178,6 +178,39 @@
    "agreed": null
   },
   {
+   "id": "lead:tip-1700",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "Norfolk Island pine (Araucaria heterophylla), Palheiro Gardens",
+   "city": "Funchal, Madeira, Portugal",
+   "species": null,
+   "photo": "p_e49177ca7e67fe2b96fe2900/d298e478-605c-4496-b236-dbe8d3fdbea9.jpg",
+   "reader_note": "At 48 m, this is one of the tallest trees recorded in Madeira. It is listed as a monumental tree in Árvores Monumentais e Emblemáticas da Madeira (Regional Forestry Directorate, 2008). Palheiro Gardens, first planted as woodland by the 1st Count of Carvalhal in the early 19th century, has the highest density of monumental trees on the island. Three more araucarias in the garden also exceed 40 m.",
+   "reader_girth_cm": 572,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall tiered araucaria alone on a lawn at Palheiro Gardens, a real photo in daylight; somewhat special by any walker's eye. No GPS, so pinned approximately on the garden (paid entry). Live as madeira/mdr_013; the reader's 48 m and survey listing stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:tip-1700",
+   "seen": "2026-11-26",
+   "kind": "a tree we do not map",
+   "tree": "The Tall Araucaria of Palheiro Gardens",
+   "photo": "p_e49177ca7e67fe2b96fe2900/d298e478-605c-4496-b236-dbe8d3fdbea9.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-26: the whole araucaria alone on a lawn, tiered flat branches up a straight trunk, overcast daylight, colour. Lead photograph of madeira/mdr_013.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:884271d6-d2ca-4381-87d4-7dcdbb2e2255",
    "seen": "2026-11-25",
    "kind": "photo of a tree we map",
