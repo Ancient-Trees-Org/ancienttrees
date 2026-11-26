@@ -6,7 +6,6 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import { checkCountPromises } from "../lib/count-promises";
 import Base from "../layouts/Base.astro";
-import Breadcrumbs from "../components/Breadcrumbs.astro";
 import { cityIsRenderable, renderableTrees, treeSlugsForCity, oldestTree, hasQuestionPage, type CityEntry } from "../lib/trees";
 import { collectionEntries } from "../lib/collection-rank";
 import { speciesCommon, speciesPageSlugs } from "../lib/species";
@@ -25,8 +24,8 @@ import { mapHead } from "../lib/map";
 import TreeCard from "../components/TreeCard.astro";
 import { highlightsOf } from "../lib/highlights";
 import { splitForPage } from "../lib/day-trips";
-import ShareButton from "../components/ShareButton.astro";
-import PlaceRow from "../components/PlaceRow.astro";
+import PlaceHead from "../components/PlaceHead.astro";
+import PlaceIntro from "../components/PlaceIntro.astro";
 import { SHARE_JS } from "../lib/share-js";
 import { TREE_ACTIONS_JS } from "../lib/tree-actions-js";
 import { VISITED_SYNC_JS } from "../lib/visited-sync-js";
@@ -294,20 +293,12 @@ const avgLng = markers.reduce((s, m) => s + m.lng, 0) / markers.length;
   <div class="split">
     <aside class="panel" id="sheet">
       <div class="sheet-grab">
-        <div class="panel-head">
-          <Breadcrumbs items={crumbItems} />
-          <PlaceRow shareLabel={ui("en").share} copiedLabel={ui("en").shareCopied} closeLabel={ui("en").photoClose} />
-          <p class="eyebrow">{country}</p>
-          <div class="page-head">
-            <h1><span class="h1-lead">Ancient Trees in </span><em>{cityName}</em></h1>
-            <ShareButton url={canonical} title={`Ancient trees in ${cityName}`} />
-          </div>
-        </div>
+        <PlaceHead crumbs={crumbItems} eyebrow={country} lead={ui("en").heading("{c}")} name={cityName}
+                   share={{ url: canonical, title: ui("en").heading(cityName) }}
+                   placeRow={{ share: ui("en").share, copied: ui("en").shareCopied, close: ui("en").photoClose }} />
       </div>
       <div class="sheet-body">
-      <div class="city-intro">
-        <p class="lede">{intro}</p>
-        <button type="button" class="city-intro-more">Read more</button>
+      <PlaceIntro text={intro} readMore={ui("en").readMore}>
         {/* ONE SLIM WHITE BOX (direction C, Hidde, 2026-11-05): the ambassador.
             The Plus row has its own box under the trees (2026-11-06).
             .city-box in style.css. */}
@@ -318,7 +309,7 @@ const avgLng = markers.reduce((s, m) => s + m.lng, 0) / markers.length;
           <strong><span id="passport-count">0</span> of {trees.length}</strong> visited in {cityName}
           <a class="passport-save" href="/account#saved">{ui("en").seeCollection}</a>
         </p>
-      </div>
+      </PlaceIntro>
       {highlights.length > 0 && (
         <section class="city-highlights">
           <h2 class="city-section-head">{ui("en").highlights}</h2>

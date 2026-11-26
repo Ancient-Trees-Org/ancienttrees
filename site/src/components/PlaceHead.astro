@@ -1,0 +1,48 @@
+---
+// THE PLACE HEAD, ONE COMPONENT FOR EVERY PAGE THAT IS A PLACE ON A MAP
+// (Hidde, 2026-11-22: "gebruik dit design als basis en voer het helemaal door
+// ... maak er idd gewoon 1 component van", the Zurich page as the model).
+// The city page in every language, the country page and /explore all draw
+// their head through this: the crumbs, the line above the title, the title
+// "Ancient Trees in <em>Place</em>" and the share circle. Its pair is
+// PlaceIntro.astro, the intro under it at the top of the sheet's body; the
+// sheet splits the two (sheet-grab and sheet-body), so they are two files.
+//
+// /explore retitles the same elements in the browser when a country is
+// searched (map.ts _headFor): the crumb, the title's three pieces, the share
+// link and the intro text, inside this markup; it never writes a head of its
+// own. qa's check_one_place_head() refuses a page that hand-
+// writes the head again.
+import Breadcrumbs from "./Breadcrumbs.astro";
+import PlaceRow from "./PlaceRow.astro";
+import ShareButton from "./ShareButton.astro";
+
+interface Props {
+  crumbs: [string, string | null][];
+  /** The small capitals line above the title (the country, or a count). */
+  eyebrow?: string;
+  /** The title's words with "{c}" where the place goes (UIStrings heading),
+   *  or a plain title when name is empty. */
+  lead: string;
+  name: string;
+  share?: { url: string; title: string; label?: string; copied?: string };
+  /** The tapped-pin row of the phone sheet (city and country maps). */
+  placeRow?: { share: string; copied: string; close: string };
+  /** /explore only: hooks for retitling (ex-*) in the browser. */
+  live?: boolean;
+}
+const { crumbs, eyebrow, lead, name, share, placeRow, live } = Astro.props as Props;
+const [before, after] = name ? (lead.includes("{c}") ? lead.split("{c}") : [lead, ""]) : [lead, ""];
+---
+<div class="panel-head place-head">
+  {live ? <div id="ex-crumbs"><Breadcrumbs items={crumbs} /></div> : <Breadcrumbs items={crumbs} />}
+  {placeRow && <PlaceRow shareLabel={placeRow.share} copiedLabel={placeRow.copied} closeLabel={placeRow.close} />}
+  {(eyebrow || live) && <p class="eyebrow" id={live ? "ex-eyebrow" : undefined} hidden={!eyebrow}>{eyebrow}</p>}
+  <div class="page-head">
+    <h1 id={live ? "ex-h1" : undefined} data-world={live ? lead : undefined}>{name
+      ? <Fragment>{before && <span class="h1-lead">{before}</span>}<em>{name}</em>{after && <span class="h1-lead">{after}</span>}</Fragment>
+      : before}</h1>
+    {(share || live) && <ShareButton url={share?.url ?? ""} title={share?.title ?? ""} label={share?.label} copied={share?.copied} />}
+  </div>
+  <slot />
+</div>

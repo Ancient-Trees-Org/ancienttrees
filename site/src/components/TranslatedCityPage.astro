@@ -13,8 +13,8 @@ import TreeCard from "./TreeCard.astro";
 import { highlightsOf } from "../lib/highlights";
 import { splitForPage } from "../lib/day-trips";
 import LanguagePicker from "./LanguagePicker.astro";
-import ShareButton from "./ShareButton.astro";
-import PlaceRow from "./PlaceRow.astro";
+import PlaceHead from "./PlaceHead.astro";
+import PlaceIntro from "./PlaceIntro.astro";
 import Base from "../layouts/Base.astro";
 import { TREE_ACTIONS_JS } from "../lib/tree-actions-js";
 import { VISITED_SYNC_JS } from "../lib/visited-sync-js";
@@ -143,20 +143,13 @@ const cityHasQuestion = hasQuestionPage(city);
   <div class="split">
     <aside class="panel" id="sheet">
       <div class="sheet-grab">
-      <div class="panel-head">
-        <nav class="crumbs" aria-label="Breadcrumb"><a href={`/${lang}/cities`}>{U.citiesCrumb}</a> › <span>{tr.city}</span></nav>
-        <PlaceRow shareLabel={U.share} copiedLabel={U.shareCopied} closeLabel={U.photoClose} />
-        <p class="eyebrow">{countryLabel}</p>
-        <div class="page-head">
-          <h1><span class="h1-lead">{U.heading("")}</span><em>{tr.city}</em></h1>
-          <ShareButton url={selfUrl} title={U.heading(tr.city)} label={U.share} copied={U.shareCopied} />
-        </div>
-      </div>
+      <PlaceHead crumbs={[[U.citiesCrumb, `/${lang}/cities`], [tr.city, null]]} eyebrow={countryLabel}
+                 lead={U.heading("{c}")} name={tr.city}
+                 share={{ url: selfUrl, title: U.heading(tr.city), label: U.share, copied: U.shareCopied }}
+                 placeRow={{ share: U.share, copied: U.shareCopied, close: U.photoClose }} />
       </div>
       <div class="sheet-body">
-      <div class="city-intro">
-        <p class="lede">{tr.intro}</p>
-        <button type="button" class="city-intro-more">{U.readMore}</button>
+      <PlaceIntro text={tr.intro} readMore={U.readMore}>
         <div class="city-box">
           <AmbassadorLine people={namedAmbassadorsFor(cslug)} lang={lang} place={tr.city} requestCity={city.data.city} seated={placeHasAmbassador(cslug)} />
         </div>
@@ -164,7 +157,7 @@ const cityHasQuestion = hasQuestionPage(city);
           <strong><span id="passport-count">0</span> / {trees.length}</strong> {U.visitedOf(trees.length, tr.city)}
           <a class="passport-save" href="/account#saved">{U.seeCollection}</a>
         </p>
-      </div>
+      </PlaceIntro>
       {highlights.length > 0 && (
         <section class="city-highlights">
           <h2 class="city-section-head">{U.highlights}</h2>

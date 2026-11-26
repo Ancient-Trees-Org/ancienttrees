@@ -518,6 +518,9 @@ export interface ExploreListData {
    *  box asks for "an" ambassador rather than "the". */
   places: Record<string, { n: string; k: string; h: string; a?: number }>;
   countries: Record<string, string>;
+  /** A country's intro for the place head when it is searched (English
+   *  pages only; data/countries, the country page's own words). */
+  intros?: Record<string, string>;
   icons: Record<string, string>;
   speciesIcon: string[];
 }
@@ -549,6 +552,7 @@ export function exploreMapScript(features: ExploreTreeFeature[], cities: Explore
     credit: U.photoCredit("{c}"),
     collected: U.mapFilterMine, seen: U.seenChip, noPhoto: U.noPhotoYet,
     ambThe: U.ambassadorBecomeThe("{p}"), ambA: U.ambassadorBecomeA("{p}"), plus: U.plusRow,
+    headIn: U.heading("{c}"),
   };
   const citiesJson = JSON.stringify(cities);
   const speciesJson = JSON.stringify(species);
@@ -568,6 +572,7 @@ var SPECIES_L = ${speciesLatinJson};
 // The list under the map (renderPanel, below).
 var PLACES = ${JSON.stringify(list.places)};
 var COUNTRIES = ${JSON.stringify(list.countries)};
+var INTROS = ${JSON.stringify(list.intros || {})};
 var SP_ICONS = ${JSON.stringify(list.icons)};
 var SP_IC = ${JSON.stringify(list.speciesIcon)};
 var WORDS = ${JSON.stringify(words)};
@@ -684,6 +689,46 @@ window.addEventListener('hashchange', _placeFromHash);
 // Airbnb's search on its map, and our app's (MapTab.swift, case .country):
 // the whole spread of the country or city in view, never its page. Returns
 // false for a place this map holds no tree of, and the search then navigates.
+// The head of the panel says the place, as the city page's h1 does
+// ("Ancient Trees in <em>Zurich</em>"): a searched country while the search
+// holds, the map's own title again when it ends (Hidde, 2026-11-22).
+function _headFor(name) {
+  var h = document.getElementById('ex-h1');
+  if (!h) { return; }
+  var crumbs = document.getElementById('ex-crumbs');
+  var intro = document.getElementById('ex-intro');
+  var lede = intro && intro.querySelector('.lede');
+  var share = h.parentNode.querySelector('.share-btn');
+  if (_headFor.world === undefined) {
+    _headFor.world = { crumbs: crumbs ? crumbs.innerHTML : '', lede: lede ? lede.textContent : '',
+      url: share ? share.getAttribute('data-share-url') : '', title: share ? share.getAttribute('data-share-title') : '' };
+  }
+  var W = _headFor.world;
+  if (!name) {
+    h.textContent = h.getAttribute('data-world') || '';
+    if (crumbs) { crumbs.innerHTML = W.crumbs; }
+    if (lede) { lede.textContent = W.lede; intro.classList.add('is-open'); }
+    if (share) { share.setAttribute('data-share-url', W.url); share.setAttribute('data-share-title', W.title); }
+    return;
+  }
+  var parts = String(WORDS.headIn).split('{c}');
+  h.innerHTML = (parts[0] ? '<span class="h1-lead">' + _esc(parts[0]) + '</span>' : '') +
+    '<em>' + _esc(name) + '</em>' + (parts[1] ? '<span class="h1-lead">' + _esc(parts[1]) + '</span>' : '');
+  // Home, then the country: the city page's crumbs one step up.
+  var nav = crumbs && crumbs.querySelector('nav');
+  var first = nav && nav.querySelector('a');
+  if (nav && first) { nav.innerHTML = first.outerHTML + ' \u203a <span>' + _esc(name) + '</span>'; }
+  // The country page's own intro where there is one, clamped with Read more.
+  if (lede) {
+    if (INTROS[name]) { lede.textContent = INTROS[name]; intro.classList.remove('is-open'); }
+    else { lede.textContent = W.lede; intro.classList.add('is-open'); }
+  }
+  if (share) {
+    share.setAttribute('data-share-url', COUNTRIES[name] ? location.origin + COUNTRIES[name] :
+      location.origin + location.pathname + '#country=' + encodeURIComponent(name));
+    share.setAttribute('data-share-title', String(WORDS.headIn).replace('{c}', name));
+  }
+}
 window.atMapPlace = function(kind, key) {
   // A city opens its own page from this map too, as from every other search
   // field: one Zurich, never a second version of it on /explore (Hidde,
@@ -691,6 +736,7 @@ window.atMapPlace = function(kind, key) {
   // moeten niet meerdere kaarten bestaan. the design of the city map is
   // good"). false makes the search follow the row's link.
   if (kind === 'city') { return false; }
+  _headFor(kind === 'country' ? key : null);
   // The place searched for leads the list under the map until the search
   // field changes (Hidde, 2026-11-06: searching United Kingdom fitted the
   // Benelux in too; then the Airbnb rule, the search holds while you drag).
@@ -897,9 +943,12 @@ function renderPanel() {
         '<div class="tree-hl-list">' + col.map(_hlHtml).join('') + '</div></section>';
     }
   }
-  // The ambassador box UNDER the Highlights (Hidde, 2026-11-06: "doe de
-  // ambasadeur knop onder highlight"), as in the app.
-  html += _boxHtml(trees);
+  // The ambassador box sits in the place head's intro, above the
+  // Highlights, as on the city page (Hidde, 2026-11-22: the city page is the
+  // design; this reverses "onder highlight" of 2026-11-06).
+  var boxEl = document.getElementById('ex-box');
+  if (boxEl) { boxEl.innerHTML = _boxHtml(trees); }
+  else { html += _boxHtml(trees); }
   html += '<h3 class="city-section-head">' + _esc(_n(WORDS.all, trees.length)) + '</h3>' +
     '<div class="tree-rows">' + trees.slice(0, LIST_MAX).map(_rowHtml).join('') + '</div>' +
     (trees.length > LIST_MAX ? '<p class="ex-more">' + _esc(WORDS.more) + '</p>' : '') + _plusHtml(trees);
@@ -958,6 +1007,7 @@ if (panel) panel.addEventListener('click', function(e) {
 function _endSearch(clearField) {
   if (!FOCUS) { return; }
   FOCUS = null;
+  _headFor(null);
   // Both fields that search this map: the panel's (phone) and the bar's
   // (desktop, AllTrails' way, 2026-11-22).
   if (clearField) {

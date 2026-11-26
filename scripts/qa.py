@@ -4172,6 +4172,37 @@ def check_one_place_card():
     return problems
 
 
+def check_one_place_head():
+    """The head of a place page (crumbs, the line above the title, "Ancient
+    Trees in <em>Place</em>", the share circle) and the intro under it are one
+    component, PlaceHead.astro and PlaceIntro.astro, on the city page in every
+    language, the country page and /explore (Hidde, 2026-11-22: "gebruik dit
+    design als basis en voer het helemaal door ... maak er idd gewoon 1
+    component van", after /explore had drifted in title, intro and fonts).
+    This refuses the head or the intro written anywhere else. map.ts may fill
+    the title's pieces into PlaceHead's markup (_headFor), nothing more.
+
+    Removing this needs Hidde."""
+    problems = []
+    src = ROOT / "site" / "src"
+    head = src / "components" / "PlaceHead.astro"
+    intro = src / "components" / "PlaceIntro.astro"
+    if not head.exists() or not intro.exists():
+        return ["site/src/components/PlaceHead.astro or PlaceIntro.astro is gone, the one place head"]
+    filler = src / "lib" / "map.ts"
+    for f in sorted(list(src.rglob("*.ts")) + list(src.rglob("*.astro"))):
+        if f in (head, intro):
+            continue
+        for i, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            if "h1-lead" in line and f != filler:
+                problems.append("%s:%d writes a place title by hand; use PlaceHead.astro"
+                                % (f.relative_to(ROOT), i))
+            if re.search(r"""class=["'][^"']*\bcity-intro\b""", line):
+                problems.append("%s:%d writes a place intro by hand; use PlaceIntro.astro"
+                                % (f.relative_to(ROOT), i))
+    return problems
+
+
 def check_the_noindex_split_holds():
     """Pages Google alone is asked not to list carry the googlebot tag and only
     that; everything else on the noindex list carries the generic robots tag;
@@ -5126,6 +5157,7 @@ def main():
         check_one_tree_card,
         check_map_parity_ledger,
         check_one_place_card,
+        check_one_place_head,
     ]
     if args.source_only:
         # The photo checks are left out on purpose: they read every image in
