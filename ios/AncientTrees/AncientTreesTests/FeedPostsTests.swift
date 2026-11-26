@@ -76,4 +76,13 @@ final class FeedPostsTests: XCTestCase {
         XCTAssertTrue(p.isNewTree)
         XCTAssertEqual(p.likeId, "5b0e2c1a-7d7e-4f7a-9c1e-2d3b4a5c6d7e")
     }
+
+    /// The grid breaks where both columns end level (Hidde, 2026-11-26: "hier
+    /// zit een raar gat"), never after a fixed six.
+    func testTheGridBreaksWhereTheColumnsAreLevel() {
+        // Six tiles: after six the columns differ by 300, after four by 0.
+        let h: [Double] = [400, 400, 300, 300, 200, 500, 300, 300]
+        XCTAssertEqual(FeedPosts.evenCut(h), 4)
+        XCTAssertEqual(FeedPosts.evenCut([300, 300, 300]), 3)
+    }
 }

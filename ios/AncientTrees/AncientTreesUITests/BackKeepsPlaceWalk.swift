@@ -46,7 +46,17 @@ final class BackKeepsPlaceWalk: XCTestCase {
         let list = app.descendants(matching: .any)["feed"].firstMatch
         list.swipeUp(); list.swipeUp()
         sleep(2)
-        guard let a = anchor(app, id) else {
+        // A big post is taller than half the screen, so two swipes can leave no
+        // top in the window; a short drag more finds one.
+        var found = anchor(app, id)
+        for _ in 0..<3 where found == nil {
+            let w = app.windows.firstMatch
+            w.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.6))
+                .press(forDuration: 0.05, thenDragTo: w.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.4)))
+            sleep(2)
+            found = anchor(app, id)
+        }
+        guard let a = found else {
             let frames = app.descendants(matching: .any).matching(identifier: id).allElementsBoundByIndex
                 .prefix(8).map { "\(Int($0.frame.minY))" }.joined(separator: ",")
             return XCTFail("no tile in view after scrolling; tops: \(frames)")

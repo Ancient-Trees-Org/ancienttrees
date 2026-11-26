@@ -1184,6 +1184,11 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                                         findPeople = { routes.openPeople(app.ancienttrees.ui.PeopleSource.SEARCH) },
                                         followList = { f -> routes.openPeople(if (f) app.ancienttrees.ui.PeopleSource.FOLLOWERS else app.ancienttrees.ui.PeopleSource.FOLLOWING) },
                                         showMap = { nav.tab = 0 },
+                                        bell = {
+                                            if (mtSignedIn) app.ancienttrees.ui.ActivityBell({ account.fresh()?.accessToken }) {
+                                                nav.push(app.ancienttrees.ui.Page.Discover(app.ancienttrees.ui.DiscoverPage.Activity))
+                                            }
+                                        },
                                     ),
                                 )
                             }

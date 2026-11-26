@@ -322,7 +322,15 @@ struct CollectView: View {
                 sheetBody
             }
         } floating: {
-            settingsButton.frame(maxWidth: .infinity, alignment: .trailing)
+            // THE BELL BESIDE THE GEAR (Hidde, 2026-11-26: "de notificatiebutton
+            // die nu op feed staat ... naast de instellingenknop bij My Trees"):
+            // the hearts on your own photographs, on your own page, 12 apart
+            // as the Feed's two discs were.
+            HStack(alignment: .top, spacing: 12) {
+                Spacer(minLength: 0)
+                ActivityBell().padding(.top, 8)
+                settingsButton
+            }
         }
         .pinSelection($selectedTree, height: $sheetHeight)
         // TAPPING MY TREES WHILE ON IT scrolls the list back up (Hidde,
@@ -623,8 +631,15 @@ struct CollectView: View {
                         .foregroundStyle(Brand.ink)
                         .opacity(pageProgress)
                 }
+                // THE SAME DISC AND THE SAME HEIGHT AS THE FEED'S (Hidde,
+                // 2026-11-26: "zit de instellingenknop op een andere plek?";
+                // it sat 8 points higher, without the edge and shadow of
+                // HeaderDisc). Centred 50 points down on every tab.
+                .overlay { Circle().strokeBorder(Brand.hairline, lineWidth: 1) }
+                .shadow(color: .black.opacity(0.06), radius: 3, y: 1)
         }
         .buttonStyle(.plain)
+        .padding(.top, 8)
         .padding(.trailing, 16)
         .accessibilityLabel("Settings")
         .accessibilityIdentifier("mytrees-settings")

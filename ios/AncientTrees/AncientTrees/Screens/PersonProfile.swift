@@ -258,26 +258,33 @@ struct PersonProfileView: View {
         let trees = (lane == .seen ? p.visited : p.saves).compactMap { catalogue.tree($0) }
         let own = lane == .seen ? p.own.filter { $0.uuid != nil } : []
         let approved = Set(p.approved)
+        // Newest upload first, back in time (Hidde, 2026-11-26), our trees and
+        // their own mixed in one order; Want to visit newest save first.
+        let items = Profiles.collected(trees: trees.map(\.id), own: own, recent: lane == .seen ? p.recent : nil)
         if trees.isEmpty && own.isEmpty {
             Text(lane == .seen ? "No trees collected yet." : "No trees saved yet.")
                 .font(.subheadline).foregroundStyle(Brand.inkSoft)
         } else {
             LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 6), count: 3), spacing: 6) {
-                ForEach(trees) { t in
-                    SheetLink(route: .tree(t.id)) {
-                        CollectedTile(kind: .ours(t), city: t.city, approved: approved.contains(t.id))
-                            .clipShape(Self.tileShape)
-                    }
-                    .accessibilityIdentifier("tree-card")
-                    .accessibilityLabel(approved.contains(t.id) ? "\(t.name), Approved" : t.name)
-                }
-                ForEach(own) { o in
-                    if let id = o.uuid {
-                        SheetLink(route: .shared(id)) {
-                            CollectedTile(kind: .shared(o)).clipShape(Self.tileShape)
+                ForEach(items) { item in
+                    switch item {
+                    case .tree(let tid):
+                        if let t = catalogue.tree(tid) {
+                            SheetLink(route: .tree(t.id)) {
+                                CollectedTile(kind: .ours(t), city: t.city, approved: approved.contains(t.id))
+                                    .clipShape(Self.tileShape)
+                            }
+                            .accessibilityIdentifier("tree-card")
+                            .accessibilityLabel(approved.contains(t.id) ? "\(t.name), Approved" : t.name)
                         }
-                        .accessibilityIdentifier("own-tree-card")
-                        .accessibilityLabel(o.title)
+                    case .own(let o):
+                        if let id = o.uuid {
+                            SheetLink(route: .shared(id)) {
+                                CollectedTile(kind: .shared(o)).clipShape(Self.tileShape)
+                            }
+                            .accessibilityIdentifier("own-tree-card")
+                            .accessibilityLabel(o.title)
+                        }
                     }
                 }
             }

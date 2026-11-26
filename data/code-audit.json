@@ -1117,6 +1117,39 @@
    "status": "open",
    "found_by": "hidde",
    "test": "AncientTreesTests/ImageGateTests"
+  },
+  {
+   "id": "ESC-2026-11-26-pull-to-refresh-on-the-feed-said-the-fee",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Feed.swift",
+   "summary": "Pull to refresh on the Feed said the feed did not load: emptying the list cut its own request off",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "AncientTreesUITests/FeedRefreshWalk"
+  },
+  {
+   "id": "ESC-2026-11-26-the-hearts-on-the-feed-s-tiles-stood-13-",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Feed.swift",
+   "summary": "The hearts on the Feed's tiles stood 13 points under the name line they belong to",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "AncientTreesUITests/FeedRefreshWalk/testATilesHeartSitsOnItsNameLine"
+  },
+  {
+   "id": "ESC-2026-11-26-the-feed-s-grid-broke-after-a-fixed-six-",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Screens/Feed.swift",
+   "summary": "The Feed's grid broke after a fixed six photos for People you may know, leaving a hole under the shorter column",
+   "first_seen": "2026-11-26",
+   "status": "open",
+   "found_by": "hidde",
+   "test": "AncientTreesTests/FeedPostsTests/testTheGridBreaksWhereTheColumnsAreLevel"
   }
  ]
 }

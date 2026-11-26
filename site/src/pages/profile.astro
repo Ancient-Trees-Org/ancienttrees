@@ -228,7 +228,7 @@ const t = ui("en");
     follow(p);
     people(p.user_id);
     moderate(p);
-    lists(p.visited || [], p.saves || [], p.approved || [], p.own || []);
+    lists(p.visited || [], p.saves || [], p.approved || [], p.own || [], p.recent || null);
     remeasure();
   }
 
@@ -474,23 +474,34 @@ const t = ui("en");
       img.src = img.dataset.full;
     }
   }, true);
-  function lists(visited, saves, approved, own) {
+  function lists(visited, saves, approved, own, recent) {
     var isApproved = {};
     approved.forEach(function(id) { isApproved[id] = true; });
     C.catalogue().then(function(cards) {
-      function fill(listId, emptyId, ids, extra) {
+      // NEWEST FIRST (Hidde, 2026-11-26: "je laatstgenomen foto als eerste ...
+      // terug in de tijd"): public_profile()'s 'recent' orders our trees and
+      // their own in one list, no dates (supabase/profile-newest-first.sql).
+      function fill(listId, emptyId, ids, ownList, order) {
         var known = ids.filter(function(id) { return cards[id]; });
         var node = el(listId);
-        if (!known.length && !extra) { el(emptyId).hidden = false; return; }
-        node.innerHTML = known.map(function(id) {
+        ownList = ownList || [];
+        if (!known.length && !ownList.length) { el(emptyId).hidden = false; return; }
+        var tiles = known.map(function(id) {
           var city = String(cards[id].c || "").replace(/[&"<>]/g, "");
           var chip = isApproved[id] ? '<span class="appr-chip">' + SEAL + 'Approved</span>' : '';
-          return '<li' + (city ? ' data-city="' + city + '"' : '') + '>' + chip + C.card(id, cards[id], false, false) + '</li>';
-        }).join("") + (extra || "");
+          return { k: "t:" + id, html: '<li' + (city ? ' data-city="' + city + '"' : '') + '>' + chip + C.card(id, cards[id], false, false) + '</li>' };
+        }).concat(ownList.map(function(o) { return { k: "o:" + String(o.id).toLowerCase(), html: ownTile(o) }; }));
+        if (order) {
+          var rank = {};
+          order.forEach(function(k, i) { k = String(k).toLowerCase(); if (!(k in rank)) rank[k] = i; });
+          tiles = tiles.map(function(t, i) { return { t: t, i: i, r: (t.k.toLowerCase() in rank) ? rank[t.k.toLowerCase()] : 1e9 }; })
+            .sort(function(a, b) { return a.r - b.r || a.i - b.i; }).map(function(x) { return x.t; });
+        }
+        node.innerHTML = tiles.map(function(t) { return t.html; }).join("");
         node.hidden = false;
         if (window.atPaintSaves) window.atPaintSaves();
       }
-      fill("visited-list", "mine-empty", visited, own.map(ownTile).join(""));
+      fill("visited-list", "mine-empty", visited, own, recent);
       fill("saved-list", "saved-empty", saves);
       if (!window.atSetMyTrees) return;
       var got = {}, savedIds = {};

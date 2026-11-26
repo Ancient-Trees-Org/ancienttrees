@@ -110,6 +110,8 @@ class MyTreesActions(
     val findPeople: () -> Unit,
     val followList: (followers: Boolean) -> Unit,
     val showMap: () -> Unit,
+    /** The Activity bell beside the gear (Collect.swift, Hidde 2026-11-26), signed in only. */
+    val bell: @Composable () -> Unit = {},
 )
 
 /** CollectView.TreesLane: two lanes, not three (Hidde, 2026-08-24). */
@@ -390,7 +392,15 @@ private fun MyTreesInner(
         }
 
         // POLARSTEPS' GEAR: it never leaves, and fills in as the list becomes the page.
-        SettingsGear(sheet.pageProgress, actions.settings, Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = (12f * (1f - sheet.pageProgress)).dp, end = 16.dp)) // under the status bar with 10 of air over the map, the full sheets' rule (Sheet.kt): flush against Android's thin bar it read too high (Hidde, 2026-11-17); the air goes as the sheet becomes the page, where Find people stands right under the gear
+        // THE BELL BESIDE THE GEAR (Hidde, 2026-11-26: "de notificatiebutton die nu op
+        // feed staat ... naast de instellingenknop bij My Trees"), 12 apart, one disc size.
+        androidx.compose.foundation.layout.Row(
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            modifier = Modifier.align(Alignment.TopEnd).statusBarsPadding().padding(top = (12f * (1f - sheet.pageProgress)).dp, end = 16.dp),
+        ) {
+            actions.bell()
+            SettingsGear(sheet.pageProgress, actions.settings)
+        } // under the status bar with 10 of air over the map, the full sheets' rule (Sheet.kt): flush against Android's thin bar it read too high (Hidde, 2026-11-17); the air goes as the sheet becomes the page, where Find people stands right under the gear
     }
 }
 
@@ -400,13 +410,15 @@ private fun SettingsGear(progress: Float, onClick: () -> Unit, modifier: Modifie
     val label = stringResource(R.string.mt_settings)
     Box(
         modifier
-            .size(40.dp) // Polarsteps' 39 on Hidde's Samsung (2026-11-17), centre on the same line
-            // iOS 26's white circle with its soft shadow (visual review 2026-11-11).
-            .shadow(8.dp, CircleShape, ambientColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.10f), spotColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.10f))
+            // HeaderDisc's 44, edge and shadow (Hidde, 2026-11-26: the gear and the
+            // bell beside it one disc, as on the Feed and on the iPhone).
+            .size(44.dp)
+            .shadow(2.dp, CircleShape, ambientColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.06f), spotColor = androidx.compose.ui.graphics.Color.Black.copy(alpha = 0.06f))
             .clip(CircleShape)
             .clickable(role = Role.Button, onClick = onClick)
             // The ripple stays inside the shape (Airbnb's line, 2026-11-10).
             .background(brand.surface, CircleShape)
+            .border(1.dp, brand.hairline, CircleShape)
             .semantics { contentDescription = label }
             .testTag("mytrees-settings"),
         contentAlignment = Alignment.Center,

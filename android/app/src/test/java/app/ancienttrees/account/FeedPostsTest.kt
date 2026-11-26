@@ -68,4 +68,10 @@ class FeedPostsTest {
         assertTrue(p.isNewTree)
         assertEquals("5b0e2c1a-7d7e-4f7a-9c1e-2d3b4a5c6d7e", p.likeId)
     }
+
+    /** The grid breaks where both columns end level (Hidde, 2026-11-26: "hier zit een raar gat"). */
+    @org.junit.Test fun theGridBreaksWhereTheColumnsAreLevel() {
+        org.junit.Assert.assertEquals(4, FeedPosts.evenCut(listOf(400f, 400f, 300f, 300f, 200f, 500f, 300f, 300f)))
+        org.junit.Assert.assertEquals(3, FeedPosts.evenCut(listOf(300f, 300f, 300f)))
+    }
 }

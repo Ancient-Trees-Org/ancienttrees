@@ -742,7 +742,9 @@ fun ShelfHeader(title: String, seeAll: (() -> Unit)? = null) {
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier
                     .alignByBaseline()
-                    .heightIn(min = 44.dp)
+                    // No 44 tall row (Style.swift ShelfHeader, Hidde 2026-11-26: the gap
+                    // under a shelf's title differed by 11 with and without See all);
+                    // Compose widens a small clickable's touch area to 48 by itself.
                     .padding(start = 8.dp)
                     .clickable(interactionSource = remember { MutableInteractionSource() }, indication = androidx.compose.foundation.LocalIndication.current, onClick = seeAll),
             ) {

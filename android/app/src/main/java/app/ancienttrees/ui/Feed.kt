@@ -46,6 +46,13 @@ import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.derivedStateOf
+import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.foundation.layout.offset
+import androidx.compose.foundation.layout.windowInsetsTopHeight
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.statusBars
+import androidx.compose.ui.draw.alpha
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateListOf
@@ -141,6 +148,14 @@ fun FeedScreen(
         derivedStateOf { posts.filter { it.first.checked && FeedPosts.passes(it.first, filter, following, here) } }
     }
 
+    fun take(page: List<FeedPosts.Post>, n: Int) {
+        var prev = last
+        val seen = posts.map { it.first.key }.toHashSet()
+        for (p in page) if (seen.add(p.key)) { posts.add(p to prev); prev = p }
+        page.lastOrNull()?.let { last = it }
+        if (page.size < n) done = true
+    }
+
     suspend fun more() {
         if (busy || done || failed) return
         val gen = generation
@@ -150,12 +165,9 @@ fun FeedScreen(
         if (gen != generation) return
         busy = false
         val page = answer ?: run { failed = true; return }
-        var prev = last
-        val seen = posts.map { it.first.key }.toHashSet()
-        for (p in page) if (seen.add(p.key)) { posts.add(p to prev); prev = p }
-        page.lastOrNull()?.let { last = it }
-        if (page.size < n) done = true
+        take(page, n)
     }
+
 
     // A filter shows only part of each page: read on until a screen of posts or the end.
     suspend fun fill() {
@@ -168,10 +180,20 @@ fun FeedScreen(
         }
     }
 
+    // Pull to refresh keeps the posts on screen until the new first page is
+    // in, and a refresh that fails keeps them (FeedView.reload, Hidde
+    // 2026-11-26: "the feed did not load. Pull down again").
     suspend fun restart() {
         generation++
-        posts.clear(); last = null; done = false; failed = false; busy = false
-        more()
+        val gen = generation
+        busy = true
+        val n = if (filter == FeedPosts.Filter.EVERYONE) FeedPosts.PAGE_SIZE else 48
+        val answer = FeedPosts.page(null, host.token(), n)
+        if (gen != generation) return
+        busy = false
+        if (answer == null) { if (posts.isEmpty()) failed = true; return }
+        posts.clear(); last = null; done = false; failed = false
+        take(answer, n)
         fill()
     }
 
@@ -230,12 +252,8 @@ fun FeedScreen(
                     color = brand.ink,
                     modifier = Modifier.weight(1f).semantics { heading() },
                 )
-                // The bell (moved from Discover) and Polarsteps' person with a plus,
-                // the same disc on every tab (FeedView, 2026-11-26).
-                if (signedIn) {
-                    host.bell()
-                    Spacer(Modifier.width(8.dp))
-                }
+                // Polarsteps' person with a plus, the same disc on every tab
+                // (FeedView, 2026-11-26); the bell moved on to My trees.
                 val findLabel = stringResource(R.string.people_find)
                 HeaderDisc(Sym.PersonAdd, "feed-find-people", label = findLabel) {
                     // Signed out: sign in first, then Find people.
@@ -284,12 +302,53 @@ fun FeedScreen(
     val topPeople = signedIn && filter == FeedPosts.Filter.FOLLOWING && following.isEmpty()
     val nearCard = filter == FeedPosts.Filter.NEAR && !located
 
-    if (grid) PullRefresh(onRefresh = { restart() }) {
+    // DISCOVER'S HEADER (Hidde, 2026-11-26: "als je naar beneden scrolt en weer
+    // omhooggaat, komt die titel naar beneden ... datzelfde bij feed"; Discover.kt's
+    // quick return): pinned over the list, away reading down, back on any scroll up.
+    val density = androidx.compose.ui.platform.LocalDensity.current
+    val staggered = androidx.compose.foundation.lazy.staggeredgrid.rememberLazyStaggeredGridState()
+    var headerHidden by remember { mutableStateOf(false) }
+    // 0 until the header has measured: the lists wait for it, or the grid lays
+    // out under a guessed top and starts with its first photograph behind the header.
+    var headerPx by remember { mutableStateOf(0) }
+    val nearTop by remember {
+        derivedStateOf {
+            if (grid) staggered.firstVisibleItemIndex == 0 && staggered.firstVisibleItemScrollOffset < headerPx
+            else list.firstVisibleItemIndex == 0 && list.firstVisibleItemScrollOffset < headerPx
+        }
+    }
+    LaunchedEffect(nearTop) { if (nearTop) headerHidden = false }
+    val quickReturn = remember {
+        object : androidx.compose.ui.input.nestedscroll.NestedScrollConnection {
+            override fun onPostScroll(
+                consumed: androidx.compose.ui.geometry.Offset,
+                available: androidx.compose.ui.geometry.Offset,
+                source: androidx.compose.ui.input.nestedscroll.NestedScrollSource,
+            ): androidx.compose.ui.geometry.Offset {
+                if (consumed.y < -1f && !nearTop) headerHidden = true
+                else if (consumed.y > 1f) headerHidden = false
+                return androidx.compose.ui.geometry.Offset.Zero
+            }
+        }
+    }
+    val headerShift by androidx.compose.animation.core.animateIntAsState(
+        if (headerHidden) -(headerPx + with(density) { 80.dp.roundToPx() }) else 0,
+        Motion.snappy(0.25f),
+        label = "feed-header",
+    )
+    LaunchedEffect(scrollTop) { if (scrollTop > 0) headerHidden = false }
+    // 16 from the layout row to the first post, as before.
+    val listTop = with(density) { headerPx.toDp() } + 10.dp
+    // A grid column's width, for where the grid breaks (FeedPosts.evenCut).
+    val colDp = (androidx.compose.ui.platform.LocalConfiguration.current.screenWidthDp - 44) / 2f
+
+    Box(Modifier.fillMaxSize().background(brand.ground)) {
+    if (headerPx == 0) Spacer(Modifier.fillMaxSize())
+    else if (grid) PullRefresh(onRefresh = { restart() }) {
         // The website's /visitors masonry (ios FeedView.tiles): two columns 12
         // apart, each photograph whole at its own shape, the place on it, the
         // save top right, the name and the byline with the heart under it.
         // People you may know after the first six, never opening the page.
-        val staggered = androidx.compose.foundation.lazy.staggeredgrid.rememberLazyStaggeredGridState()
         LaunchedEffect(staggered) {
             snapshotFlow { staggered.layoutInfo.visibleItemsInfo.lastOrNull()?.index ?: 0 }
                 .collect { i -> if (i >= shown.size - 8) more() }
@@ -300,14 +359,23 @@ fun FeedScreen(
             state = staggered,
             horizontalArrangement = Arrangement.spacedBy(12.dp),
             verticalItemSpacing = 16.dp,
-            contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 6.dp, bottom = 100.dp),
-            modifier = Modifier.fillMaxSize().background(brand.ground).statusBarsPadding().testTag("feed"),
+            contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = listTop - 16.dp, bottom = 100.dp),
+            modifier = Modifier.fillMaxSize().nestedScroll(quickReturn).testTag("feed"),
         ) {
             val full = androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridItemSpan.FullLine
-            item(key = "head", span = full) { header() }
+            // The list's anchor at the top, where the header item stood: without it
+            // the grid kept the spinner in place as the posts arrived and opened
+            // a few posts down.
+            item(key = "top", span = full) { Spacer(Modifier.height(0.dp)) }
             if (topPeople) item(key = "people-top", span = full) { FeedPeopleRow(host, following) }
             if (nearCard) item(key = "near-card", span = full) { NearYouCard(host) }
-            val cut = minOf(6, shown.size)
+            // Where both columns end level (FeedPosts.evenCut), never a fixed six.
+            val cut = FeedPosts.evenCut(shown.map { (p, _) ->
+                val w = p.photoW ?: 0
+                val h = p.photoH ?: 0
+                val r = if (w > 0 && h > 0) minOf(h.toFloat() / w, 1.6f) else 5f / 4f
+                colDp * r + 70f
+            })
             items(cut, key = { shown[it].first.key }) { i ->
                 val (p, prev) = shown[i]
                 FeedTile(p, p.treeId?.let { catalogue.tree(it) }, host, onAuthor = { openAuthor(p, prev) })
@@ -322,23 +390,39 @@ fun FeedScreen(
     } else PullRefresh(onRefresh = { restart() }) {
         LazyColumn(
             state = list,
-            contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 6.dp, bottom = 100.dp),
+            contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = listTop - 28.dp, bottom = 100.dp),
             verticalArrangement = Arrangement.spacedBy(28.dp),
-            // Under the status bar, never behind it (Discover's opaque top).
-            modifier = Modifier.fillMaxSize().background(brand.ground).statusBarsPadding().testTag("feed"),
+            modifier = Modifier.fillMaxSize().nestedScroll(quickReturn).testTag("feed"),
         ) {
-            item(key = "head") { header() }
+            item(key = "top") { Spacer(Modifier.height(0.dp)) } // the anchor; its 28 is taken off the top
             if (topPeople) item(key = "people-top") { FeedPeopleRow(host, following) }
             if (nearCard) item(key = "near-card") { NearYouCard(host) }
             itemsIndexed(shown, key = { _, it -> it.first.key }) { i, (p, prev) ->
-                // 16 from the chips to the first post (the design), 28 between posts.
-                Box(if (i == 0) Modifier.offsetTop(-12) else Modifier) {
-                    FeedPost(p, p.treeId?.let { catalogue.tree(it) }, host, onAuthor = { openAuthor(p, prev) })
-                }
+                FeedPost(p, p.treeId?.let { catalogue.tree(it) }, host, onAuthor = { openAuthor(p, prev) })
                 if (i == 2 && showPeople) FeedPeopleRow(host, following)
             }
             item(key = "end") { endItem() }
         }
+    }
+        // PINNED, sliding away and back (Discover.kt's header).
+        Box(
+            Modifier
+                .offset { androidx.compose.ui.unit.IntOffset(0, headerShift) }
+                .onSizeChanged { headerPx = it.height }
+                .fillMaxWidth()
+                .background(brand.ground)
+                .statusBarsPadding()
+                .padding(horizontal = 16.dp)
+                .padding(top = 6.dp, bottom = 6.dp),
+        ) { header() }
+        // While the header is away, the status bar keeps a solid strip.
+        Box(
+            Modifier
+                .fillMaxWidth()
+                .windowInsetsTopHeight(WindowInsets.statusBars)
+                .alpha(if (headerHidden) 1f else 0f)
+                .background(brand.ground),
+        )
     }
 }
 

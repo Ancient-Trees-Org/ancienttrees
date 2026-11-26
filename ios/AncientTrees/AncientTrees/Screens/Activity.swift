@@ -73,9 +73,9 @@ final class ActivityStore {
     }
 }
 
-/// The bell top right of the Feed (moved from Discover 2026-11-26, Instagram's
-/// and Strava's place for it: the social tab), signed in only, a dot while
-/// something is new.
+/// The bell top right of My trees, beside the gear (Hidde, 2026-11-26: from
+/// Discover to the Feed, then the same day beside the settings on My trees),
+/// signed in only, a dot while something is new.
 struct ActivityBell: View {
     @Environment(Account.self) private var account
     @Environment(Navigator.self) private var navigator

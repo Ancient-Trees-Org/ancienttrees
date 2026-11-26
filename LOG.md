@@ -1,5 +1,17 @@
 # LOG
 
+## 2026-11-26 Feed, second walk: refresh works again, bell beside the gear, sliding title, profiles newest first
+
+- **Pull to refresh on the Feed said "the feed did not load"** (Hidde). Emptying the list cut its own request off. It now keeps the posts until the new ones are in, iPhone and Android; FeedRefreshWalk failed before the fix and passes after.
+- **Header buttons**: the bell moved from the Feed to My trees, beside the gear; the gear is the same 44 disc with edge and shadow and now sits at the Feed's height (it was 8 points higher). Discover keeps no button there, the Instagram and Strava way.
+- **The Feed's title slides away while reading down and comes back on scroll up**, as on Discover, iPhone and Android.
+- **Discover's shelves**: the gap under a title no longer depends on whether it has See all (11 points difference).
+- **The hearts on the Feed's tiles** sit on the name line again (they were 13 points lower).
+- **The hole in the Feed's grid** (Hidde's screenshot): the grid broke after a fixed six photos for People you may know, leaving the shorter column's gap; it now breaks between four and eight photos where both columns end level, iPhone and Android.
+- **Settings says "Dark mode"** instead of Appearance / Theme, all languages.
+- **A public profile shows the newest upload first**, iPhone, Android and the website. FOR HIDDE: paste supabase/profile-newest-first.sql in Supabase's SQL editor; until then profiles keep the old order.
+- Not built: a tree card dragged down on the map hides the tab bar; advice is to make it close the card instead (waits for his word).
+
 ## 2026-11-26 session (19:30): iOS red, second cause fixed
 
 - The 17:15 ios.yml run on main passed every screen (0 layout findings on 82 screens, both phones) but appfit's source check failed: FeedPeople.swift padded the "People you may know" header twice (ShelfHeader pads itself, then -16). The block now runs edge to edge as a whole, same pixels (7f2d53174). The double-padding check passes locally; the next ios.yml run is the proof.

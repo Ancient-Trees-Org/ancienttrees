@@ -53,6 +53,9 @@ struct FeedView: View {
     @State private var done = false
     @State private var failed = false
     @State private var generation = 0
+    /// Discover's sliding header: away while reading down, back on scroll up.
+    @State private var headerHidden = false
+    @State private var headerHeight: CGFloat = 160
     /// The signed-in state the list was loaded for (see the `.task` below).
     @State private var loadedFor: Bool?
     /// The accounts you follow, asked once per sign-in for Following.
@@ -75,9 +78,6 @@ struct FeedView: View {
             ScrollViewReader { proxy in
                 ScrollView {
                     LazyVStack(alignment: .leading, spacing: 28) {
-                        // 16 from the chips to the first post, the design's
-                        // gap, not the 28 between posts.
-                        header.id("feed-top").padding(.bottom, -12)
                         // WHAT THE FILTER NEEDS, ON TOP (Hidde, 2026-11-26):
                         // Following with nobody followed yet shows People you
                         // may know first; Near you without a location asks
@@ -92,7 +92,9 @@ struct FeedView: View {
                             // never opening the page (Hidde, 2026-11-26: "niet
                             // de pagina mee openen ... ergens tussendoor"), as
                             // Instagram's "Suggested for you" comes mid-feed.
-                            let cut = min(6, list.count)
+                            // Where both columns end level (FeedPosts.evenCut).
+                            let colW = (geo.size.width - Self.edge * 2 - 12) / 2
+                            let cut = FeedPosts.evenCut(list.map { Double(colW * Self.ratio($0.post) + 70) })
                             tiles(Array(list.prefix(cut)), width: geo.size.width, offset: 0, total: list.count)
                                 .padding(.horizontal, -Self.edge)
                                 .padding(.top, 4)
@@ -118,8 +120,49 @@ struct FeedView: View {
                     .padding(.horizontal, Self.edge)
                     .padding(.top, 6)
                     .padding(.bottom, 100)        // clear of the floating tab bar
+                    // The top, for a tap on the Feed tab; the header itself is
+                    // pinned above the list (safeAreaInset below), 16 above
+                    // the first post as before.
+                    .background(alignment: .top) { Color.clear.frame(height: 1).id("feed-top") }
                 }
                 .refreshable { await restart() }
+                // On the list itself, never around the pinned header: there it
+                // took the header's buttons' own names away (SignedOutWalk).
+                .accessibilityIdentifier("feed")
+                // DISCOVER'S HEADER (Hidde, 2026-11-26: "als je naar beneden
+                // scrolt en weer omhooggaat, komt die titel naar beneden ...
+                // datzelfde bij feed"): reading down slides it away, any
+                // scroll back up brings it back, near the top it always shows.
+                .onScrollGeometryChange(for: CGFloat.self) { $0.contentOffset.y + $0.contentInsets.top } action: { old, new in
+                    let hide: Bool
+                    if new < headerHeight { hide = false }
+                    else if new > old + 1 { hide = true }
+                    else if new < old - 1 { hide = false }
+                    else { return }
+                    if hide != headerHidden {
+                        withAnimation(.snappy(duration: 0.25)) { headerHidden = hide }
+                    }
+                }
+                .safeAreaInset(edge: .top, spacing: 0) {
+                    header
+                        .padding(.horizontal, Self.edge)
+                        .padding(.top, 6)
+                        .padding(.bottom, 6)
+                        .background(Brand.ground.ignoresSafeArea(edges: .top))
+                        .onGeometryChange(for: CGFloat.self) { $0.size.height } action: { headerHeight = $0 }
+                        .offset(y: headerHidden ? -(headerHeight + 80) : 0)
+                }
+                // While the header is away the clock keeps a solid strip.
+                .overlay(alignment: .top) {
+                    GeometryReader { g in
+                        Brand.ground
+                            .frame(height: g.safeAreaInsets.top)
+                            .offset(y: -g.safeAreaInsets.top)
+                    }
+                    .frame(height: 0)
+                    .opacity(headerHidden ? 1 : 0)
+                    .allowsHitTesting(false)
+                }
                 .onChange(of: jumpTo) { _, id in
                     guard let id else { return }
                     Task { @MainActor in
@@ -131,6 +174,7 @@ struct FeedView: View {
                 .onChange(of: navigator.scrollToTop?.token) { _, _ in
                     guard navigator.scrollToTop?.tab == Self.tag else { return }
                     withAnimation(.snappy) { proxy.scrollTo("feed-top", anchor: .top) }
+                    headerHidden = false
                 }
                 // -feedto=N scrolls to the Nth post for the sweep, which
                 // cannot swipe (Discover's -discoverto, 2026-10-10).
@@ -141,7 +185,6 @@ struct FeedView: View {
                     }
                 }
             }
-            .accessibilityIdentifier("feed")
         }
         .brandGround()
         .task(id: account.isSignedIn) {
@@ -167,9 +210,6 @@ struct FeedView: View {
                     .font(.screenTitle)
                     .foregroundStyle(Brand.ink)
                 Spacer(minLength: 8)
-                ActivityBell()
-                    .alignmentGuide(.firstTextBaseline) { d in d[VerticalAlignment.center] + 12 }
-                    .padding(.trailing, 4)
                 // ADD FRIENDS, Polarsteps' person with a plus top right of
                 // Activity: Find people, which asks a signed-out person to
                 // sign in (People.swift).
@@ -237,14 +277,17 @@ struct FeedView: View {
     /// when the server has no size), the place on it, the tree's name and who
     /// under it, the website's tile (VisitorPhotos.swift's numbers). A tap
     /// opens the tree, as a tile on the website does.
+    /// A tile's photograph shape: its own, at most 1.6 tall, 4:5 without a size.
+    static func ratio(_ p: FeedPosts.Post) -> CGFloat {
+        guard let w = p.photo_w, let h = p.photo_h, w > 0, h > 0 else { return 5.0 / 4.0 }
+        return min(CGFloat(h) / CGFloat(w), 1.6)
+    }
+
     private func tiles(_ list: [(post: FeedPosts.Post, prev: FeedPosts.Post?)], width: CGFloat,
                        offset: Int = 0, total: Int = 0) -> some View {
         let gap: CGFloat = 12
         let colWidth = (width - Self.edge * 2 - gap) / 2
-        func ratio(_ p: FeedPosts.Post) -> CGFloat {
-            guard let w = p.photo_w, let h = p.photo_h, w > 0, h > 0 else { return 5.0 / 4.0 }
-            return min(CGFloat(h) / CGFloat(w), 1.6)
-        }
+        func ratio(_ p: FeedPosts.Post) -> CGFloat { Self.ratio(p) }
         var cols: [[(Int, FeedPosts.Post, FeedPosts.Post?)]] = [[], []]
         var heights: [CGFloat] = [0, 0]
         for (i, it) in list.enumerated() {
@@ -298,7 +341,10 @@ struct FeedView: View {
                 .foregroundStyle(Brand.ink)
                 .lineLimit(2)
                 .fixedSize(horizontal: false, vertical: true)
-            HStack(spacing: 2) {
+            // TOP, not centre (Hidde, 2026-11-26: "de hartjes bij de tiles een
+            // beetje raar uitgelijnd"): the name line hangs at the top of its
+            // 44 tap room, so a centred heart stood 13 points under it.
+            HStack(alignment: .top, spacing: 2) {
                 // The name opens the profile (signed out it asks first), a
                 // button of its own beside the heart, never around it.
                 let who = HStack(spacing: 5) {
@@ -470,10 +516,31 @@ struct FeedView: View {
 
     // MARK: - loading
 
+    /// PULL TO REFRESH (Hidde, 2026-11-26: "the feed did not load. Pull down
+    /// again"; FeedRefreshWalk). Emptying the list first made SwiftUI end the
+    /// refresh's own task, which cut the request off, and a cut-off request
+    /// read as a failure. So the request runs in a task of its own, and the
+    /// posts on screen stay until the new first page is in, as Instagram's
+    /// refresh does; a refresh that fails keeps what was there.
     private func restart() async {
+        await Task { @MainActor in await reload() }.value
+    }
+
+    private func reload() async {
         generation += 1
-        posts = []; last = nil; done = false; failed = false; busy = false
-        await more()
+        let gen = generation
+        busy = true
+        let token = await account.freshToken()
+        let n = filter == .everyone ? FeedPosts.pageSize : 48
+        let answer = await FeedPosts.page(after: nil, n: n, token: token)
+        guard gen == generation else { return }
+        busy = false
+        guard let page = answer else {
+            if posts.isEmpty { failed = true }
+            return
+        }
+        posts = []; last = nil; done = false; failed = false
+        take(page, n: n)
         await fill()
     }
 
@@ -499,6 +566,10 @@ struct FeedView: View {
         guard gen == generation else { return }
         busy = false
         guard let page = answer else { failed = true; return }
+        take(page, n: n)
+    }
+
+    private func take(_ page: [FeedPosts.Post], n: Int) {
         var prev = last
         var seen = Set(posts.map(\.post.key))
         for p in page where seen.insert(p.key).inserted {

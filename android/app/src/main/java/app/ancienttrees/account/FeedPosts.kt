@@ -56,6 +56,26 @@ object FeedPosts {
     const val NEAR_KM = 100.0
     const val PAGE_SIZE = 24
 
+    /**
+     * Where the grid breaks for People you may know (FeedPosts.evenCut on the iPhone,
+     * Hidde 2026-11-26: "hier zit een raar gat"): between four and eight tiles, where
+     * the two columns, filled shorter first, end most nearly level.
+     */
+    fun evenCut(heights: List<Float>, lo: Int = 4, hi: Int = 8): Int {
+        if (heights.size <= lo) return heights.size
+        val cols = floatArrayOf(0f, 0f)
+        var best = minOf(6, heights.size)
+        var bestGap = Float.MAX_VALUE
+        heights.take(hi).forEachIndexed { i, h ->
+            val c = if (cols[1] < cols[0]) 1 else 0
+            cols[c] += h
+            val n = i + 1
+            val gap = kotlin.math.abs(cols[0] - cols[1])
+            if (n >= lo && gap < bestGap - 0.5f) { best = n; bestGap = gap }
+        }
+        return best
+    }
+
     private val UUID_RE = Regex("^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$")
 
     private fun JSONObject.text(k: String): String? = if (isNull(k)) null else (opt(k) as? String)

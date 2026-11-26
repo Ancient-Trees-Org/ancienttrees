@@ -795,9 +795,13 @@ private fun PersonInner(host: PeopleHost, userId: String, onBack: () -> Unit) {
                     Text(stringResource(if (lane == 0) R.string.person_none_collected else R.string.person_none_saved), fontSize = 15.sp, color = brand.inkSoft)
                 } else {
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        val tiles: List<@Composable (Modifier) -> Unit> =
+                        val all: List<@Composable (Modifier) -> Unit> =
                             trees.map { t -> @Composable { m: Modifier -> GridTile(t, t.id in approved, m) { host.openTree(t) } } } +
                                 own.map { o -> @Composable { m: Modifier -> OwnTile(o, m) { host.openShared(o.id.lowercase()) } } }
+                        // Newest upload first, back in time (Hidde, 2026-11-26), ours and
+                        // their own in one order; Want to visit newest save first.
+                        val keys = trees.map { "t:" + it.id } + own.map { "o:" + it.id.lowercase() }
+                        val tiles = Profiles.collectedOrder(keys, if (lane == 0) p.recent else null).map { all[it] }
                         for (row in tiles.chunked(3)) {
                             Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                                 for (tile in row) tile(Modifier.weight(1f))

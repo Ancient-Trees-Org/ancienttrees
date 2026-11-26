@@ -266,7 +266,9 @@ struct ProfileView: View {
                 Divider().padding(.leading, 48)
                 // LIGHT OR DARK (2026-11-26, a tester: the dark mode "is very
                 // dark, and there's no way to turn it off"). Same row shape as
-                // Distances; Google Maps keeps the same three answers.
+                // Distances; Google Maps keeps the same three answers. Called
+                // "Dark mode" (Hidde, 2026-11-26: "Appearance" read weird; "ja,
+                // noem het dark mode"), the word Instagram and X use.
                 Menu {
                     Picker("", selection: Binding(get: { appearance.theme },
                                                   set: { appearance.theme = $0 })) {
@@ -275,7 +277,7 @@ struct ProfileView: View {
                 } label: {
                     HStack(spacing: 12) {
                         Image(systemName: "circle.lefthalf.filled").frame(width: 20).foregroundStyle(Brand.moss)
-                        Text("Appearance").font(.callout).foregroundStyle(Brand.ink)
+                        Text("Dark mode").font(.callout).foregroundStyle(Brand.ink)
                         Spacer()
                         Text(appearance.theme.label).font(.callout).foregroundStyle(Brand.inkSoft)
                         Image(systemName: "chevron.up.chevron.down")

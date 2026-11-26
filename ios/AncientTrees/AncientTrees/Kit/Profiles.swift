@@ -89,6 +89,37 @@ public final class Profiles {
         /// missing key decodes as an empty list, never as a failed profile.
         public var approved: [String] = []
         public var own: [OwnTree] = []
+        /// NEWEST FIRST (Hidde, 2026-11-26: "je laatstgenomen foto als eerste
+        /// ... en dat die dan terug in de tijd loopt"): every collected tree
+        /// ("t:<tree id>") and own tree ("o:<sighting id>") newest upload
+        /// first, no dates (supabase/profile-newest-first.sql). Nil on a
+        /// database without that SQL: our trees, then their own, as before.
+        public var recent: [String]? = nil
+    }
+
+    /// One tile on a person's Collected grid.
+    public enum CollectedItem: Hashable, Identifiable {
+        case tree(String)
+        case own(OwnTree)
+        public var id: String {
+            switch self {
+            case .tree(let t): "t:" + t
+            case .own(let o): "o:" + o.id.lowercased()
+            }
+        }
+    }
+
+    /// The Collected grid in the server's newest-first order; a tile the
+    /// order does not name keeps its place after the rest.
+    public static func collected(trees: [String], own: [OwnTree], recent: [String]?) -> [CollectedItem] {
+        let items = trees.map(CollectedItem.tree) + own.map(CollectedItem.own)
+        guard let recent else { return items }
+        var rank: [String: Int] = [:]
+        for (i, k) in recent.enumerated() where rank[k.lowercased()] == nil { rank[k.lowercased()] = i }
+        return items.enumerated().sorted { a, b in
+            let ra = rank[a.element.id.lowercased()] ?? Int.max, rb = rank[b.element.id.lowercased()] ?? Int.max
+            return ra != rb ? ra < rb : a.offset < b.offset
+        }.map(\.element)
     }
 
     /// One tree somebody added that is not in our selection, as

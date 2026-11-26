@@ -79,6 +79,25 @@ public enum FeedPosts {
 
     static let pageSize = 24
 
+    /// WHERE THE GRID BREAKS FOR PEOPLE YOU MAY KNOW (Hidde, 2026-11-26, a
+    /// screenshot: "hier zit een raar gat"). A full-width row ends the masonry
+    /// above it, so a cut after a fixed six left the shorter column's hole
+    /// above the row. The cut goes where the two columns end most nearly
+    /// level, between four and eight tiles, placed as the grid places them
+    /// (each into the shorter column). `heights` are the tiles' heights.
+    static func evenCut(_ heights: [Double], from lo: Int = 4, to hi: Int = 8) -> Int {
+        guard heights.count > lo else { return heights.count }
+        var cols = [0.0, 0.0]
+        var best = (cut: min(6, heights.count), gap: Double.infinity)
+        for (i, h) in heights.prefix(hi).enumerated() {
+            let c = cols[1] < cols[0] ? 1 : 0
+            cols[c] += h
+            let n = i + 1
+            if n >= lo, abs(cols[0] - cols[1]) < best.gap - 0.5 { best = (n, abs(cols[0] - cols[1])) }
+        }
+        return best.cut
+    }
+
     /// The posts after `after`, newest first, by the server's keyset paging:
     /// a post that goes live while somebody scrolls never repeats one. Nil
     /// when the server did not answer.

@@ -271,8 +271,15 @@ public struct ShelfHeader: View {
                             Image(systemName: "chevron.right").font(.caption2)
                         }
                         .foregroundStyle(Brand.moss)
-                        .frame(minHeight: 44)
+                        // A 44 POINT TAP THAT TAKES NO ROOM (Hidde, 2026-11-26:
+                        // "de afstand tussen de titel en de thumbnails verschilt
+                        // per lijst"): a 44 tall link made every shelf with See
+                        // all 11 points further from its photographs than one
+                        // without. The tap area reaches above and below; the
+                        // row stays the height of its words.
+                        .padding(.vertical, 12)
                         .contentShape(.rect)
+                        .padding(.vertical, -12)
                     }
                     .buttonStyle(.plain)
                 }
@@ -283,8 +290,15 @@ public struct ShelfHeader: View {
                             Image(systemName: "chevron.right").font(.caption2)
                         }
                         .foregroundStyle(Brand.moss)
-                        .frame(minHeight: 44)
+                        // A 44 POINT TAP THAT TAKES NO ROOM (Hidde, 2026-11-26:
+                        // "de afstand tussen de titel en de thumbnails verschilt
+                        // per lijst"): a 44 tall link made every shelf with See
+                        // all 11 points further from its photographs than one
+                        // without. The tap area reaches above and below; the
+                        // row stays the height of its words.
+                        .padding(.vertical, 12)
                         .contentShape(.rect)
+                        .padding(.vertical, -12)
                     }
                     .buttonStyle(.plain)
                 }

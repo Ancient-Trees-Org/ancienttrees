@@ -47,6 +47,12 @@ class Profiles(private val args: List<String> = emptyList()) {
          */
         val approved: List<String> = emptyList(),
         val own: List<OwnTree> = emptyList(),
+        /**
+         * Newest first (Hidde, 2026-11-26: "je laatstgenomen foto als eerste"):
+         * "t:<tree id>" and "o:<sighting id>" keys newest upload first, no dates
+         * (supabase/profile-newest-first.sql). Null without that SQL.
+         */
+        val recent: List<String>? = null,
     )
 
     /** One tree somebody added that is not in our selection (Profiles.OwnTree on the iPhone). */
@@ -336,6 +342,18 @@ class Profiles(private val args: List<String> = emptyList()) {
     }
 
     companion object {
+        /**
+         * The Collected grid's order (Profiles.collected on the iPhone): the indices
+         * of [keys] in the server's newest-first [recent]; a key it does not name
+         * keeps its place after the rest; without an order, as given.
+         */
+        fun collectedOrder(keys: List<String>, recent: List<String>?): List<Int> {
+            if (recent == null) return keys.indices.toList()
+            val rank = HashMap<String, Int>()
+            recent.forEachIndexed { i, k -> rank.putIfAbsent(k.lowercase(), i) }
+            return keys.indices.sortedWith(compareBy({ rank[keys[it].lowercase()] ?: Int.MAX_VALUE }, { it }))
+        }
+
         const val DEMO_ME = "00000000-0000-0000-0000-0000000000ab"
 
         /** public_profile()'s answer; a missing or malformed `approved` or `own` reads as empty. */
@@ -365,6 +383,7 @@ class Profiles(private val args: List<String> = emptyList()) {
                 saves = list("saves"),
                 approved = runCatching { list("approved") }.getOrDefault(emptyList()),
                 own = own,
+                recent = if (j.has("recent") && !j.isNull("recent")) list("recent") else null,
             )
         }.getOrNull()
 
