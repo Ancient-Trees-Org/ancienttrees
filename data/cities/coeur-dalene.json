@@ -1,0 +1,115 @@
+{
+  "city": "Coeur d'Alene",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Coeur d'Alene is a lake town in the Idaho Panhandle, built where the army's Fort Sherman once stood on the north shore of Lake Coeur d'Alene. A reader walked its oldest corner, between City Park and the quiet streets of the old fort grounds, and sent us two trees: a towering American chestnut in the park, of a kind the eastern forests lost a century ago, and a beech rising far above a house on West Sherman Court.",
+  "meta_description": "Two old trees a reader found in Coeur d'Alene, Idaho: an American chestnut in City Park and a towering beech on West Sherman Court, and where to see them.",
+  "hero_tree_id": "coe_001",
+  "oldest_tree_id": "coe_001",
+  "trees": [
+    {
+      "id": "coe_001",
+      "name": "The American Chestnut of City Park",
+      "species": "American Chestnut (Castanea dentata)",
+      "location": {
+        "address": "City Park, West Mullan Avenue, Coeur d'Alene, Idaho",
+        "latitude": 47.6750213864088,
+        "longitude": -116.79090940256,
+        "neighbourhood": "City Park"
+      },
+      "how_to_recognise": "On the park lawn near the Fort Sherman playground: a tall chestnut whose two furrowed grey trunks rise from one base, inside a low chain on black posts, with information panels standing at its edge.",
+      "access": "Free, in a public city park, open daily.",
+      "verified_sources": [
+        "https://www.cdaid.org/government/departments/parks-and-recreation/urban-forestry/programs/historical-unusual-big-trees-of-coeur-dalene/ (City of Coeur d'Alene Urban Forestry, Historical, Unusual and Big Trees: lists an American chestnut in City Park)"
+      ],
+      "story": "A reader sent us this American chestnut from City Park in Coeur d'Alene, on the north shore of the lake, and it is a tree few Americans will ever see at this size.\n\nAmerican chestnuts were once among the commonest trees of the eastern forests, until a fungus arrived early in the twentieth century and killed almost all of them. Planted far from those forests, a handful escaped it and grew old. Coeur d'Alene's own list of historic, unusual and big trees names an American chestnut in City Park.\n\nThe photograph shows why it made the list. Two great grey trunks rise from one base, deeply furrowed and nearly straight, and climb past the ponderosa pines around them into a high, open crown. Another tall trunk stands close beside it. A low chain on black posts keeps feet off the roots, and information panels stand at the edge of the circle.\n\nThe reader measured the trunk at 432 centimetres round; that figure is theirs, not one we have seen in a register. If you know when the park's chestnuts were planted, tell us here.\n\nCome in autumn, when the spiny husks fall on the grass, and read the panels before you go.",
+      "found_by_reader": {
+        "sighting_id": "b03e2273-a3db-4f93-8887-cb08af847978",
+        "date": "2026-11-27"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "b03e2273-a3db-4f93-8887-cb08af847978",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-27 reader judge: sent by a reader (b03e2273-a3db-4f93-8887-cb08af847978, 2026-11-27, through the app). Photograph viewed: the whole tree in late autumn from the park lawn, two great furrowed trunks from one base climbing into a high bare crown, a second tall trunk beside it, a low chain on black posts round the roots, information panels at its edge, ponderosa pines around, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Reverse lookup of the fix (OpenStreetMap): City Park by the Fort Sherman playground. The reader's own figures: name 'American Chestnut', species 'American Chestnut', girth 432 cm, stated as theirs. Camera data stripped; the two fixes share a latitude to the centimetre but land on what each photo shows. The city list entry and a 2006 Spokesman-Review piece on three old American chestnuts in City Park were read through search summaries (the pages refused a direct fetch), so the list is cited for the park's chestnut, not for this exact trunk.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/coe_001-american-chestnut-of-city-park.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_ad17eacb13cbe36b89fd4c43",
+        "sighting_id": "b03e2273-a3db-4f93-8887-cb08af847978",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-27, through the app); viewed and approved on 2026-11-27: the whole tree in late autumn from the park lawn, two great furrowed trunks from one base climbing into a high bare crown, a second tall trunk beside it, a low chain on black posts round the roots, information panels at its edge, ponderosa pines around, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    },
+    {
+      "id": "coe_002",
+      "name": "The Beech of West Sherman Court",
+      "species": "American Beech (Fagus grandifolia)",
+      "location": {
+        "address": "Front garden on West Sherman Court, Coeur d'Alene, Idaho",
+        "latitude": 47.6750214256183,
+        "longitude": -116.791451734344,
+        "neighbourhood": "Fort Grounds"
+      },
+      "how_to_recognise": "In the front garden of a white clapboard house with a flag by the door: a smooth grey trunk patched with moss, splitting a few metres up into many upright limbs whose crown towers over the roof and the street.",
+      "access": "In a private front garden; seen from the sidewalk, which passes right beside it. The garden itself is private.",
+      "story": "On West Sherman Court in Coeur d'Alene, a short walk from City Park and the lake, a reader stopped under this beech in a front garden and sent us its photograph.\n\nBeeches do not grow wild anywhere near Idaho; the American beech belongs to the forests of the East. So somebody planted this one, and it has had the room and the years to rise far above the white two-storey house beside it. The trunk is smooth and grey, the way a beech's stays all its life, with moss creeping up the side away from the sun. A few metres up it breaks into a crowd of upright limbs that fan out into a crown of fine twigs, wide enough to hang over the sidewalk and the street.\n\nThe reader knows it as an American beech and measured its trunk at 122 centimetres round; those are their figures. We do not know who planted it or when. If you do, tell us here and we will add it.\n\nIt stands in somebody's garden, so look from the sidewalk. Come back in autumn, when the crown turns bronze before the leaves come down.",
+      "found_by_reader": {
+        "sighting_id": "4b492b05-4ce4-46ec-8151-2c49e234334f",
+        "date": "2026-11-27"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "4b492b05-4ce4-46ec-8151-2c49e234334f",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-27 reader judge: sent by a reader (4b492b05-4ce4-46ec-8151-2c49e234334f, 2026-11-27, through the app). Photograph viewed: the whole beech in late autumn from the sidewalk, a smooth mossy grey trunk splitting into many upright limbs and a fine bare crown far above the roof of a white two-storey house, a spruce behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Reverse lookup of the fix (OpenStreetMap): West Sherman Court, a residential street. The reader's own figures: name 'American Beech', species 'American Beech', girth 122 cm, stated as theirs. Camera data stripped; the two fixes share a latitude to the centimetre but land on what each photo shows.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/coe_002-beech-of-west-sherman-court.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_ad17eacb13cbe36b89fd4c43",
+        "sighting_id": "4b492b05-4ce4-46ec-8151-2c49e234334f",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-27, through the app); viewed and approved on 2026-11-27: the whole beech in late autumn from the sidewalk, a smooth mossy grey trunk splitting into many upright limbs and a fine bare crown far above the roof of a white two-storey house, a spruce behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      }
+    }
+  ],
+  "question_meta": "The oldest trees we know of in Coeur d'Alene, Idaho: an American chestnut in City Park and a beech on West Sherman Court, both sent by a reader.",
+  "question_answer": "The American Chestnut of City Park is the tree to see in Coeur d'Alene: a tall two-trunked chestnut in the public City Park on West Mullan Avenue, named on the city's own list of historic, unusual and big trees. A towering beech stands a short walk west on West Sherman Court.",
+  "question_context": "Coeur d'Alene grew up around Fort Sherman, an army post on the north shore of Lake Coeur d'Alene, and its City Park and the old fort grounds next to it hold some of its oldest planted trees. A reader sent us two of them in November 2026. The first is an American chestnut in City Park, two furrowed grey trunks from one base climbing past the ponderosa pines into a high crown, inside a low chain with information panels at its edge. American chestnuts were once among the commonest trees of the eastern United States until a fungus killed almost all of them early in the twentieth century; planted far away, a few escaped and grew old, and the city's list of historic, unusual and big trees names an American chestnut in City Park. The reader measured its trunk at 432 centimetres round. The second is a beech in a front garden on West Sherman Court, a smooth grey trunk breaking into many upright limbs high above the house beside it. It is private ground, so it is seen from the sidewalk. We do not yet know when either tree was planted.",
+  "faq": [
+    {
+      "q": "Can I visit the American chestnut in Coeur d'Alene's City Park?",
+      "a": "Yes. It stands in City Park on West Mullan Avenue, a free public park open daily, near the Fort Sherman playground. A low chain keeps feet off its roots."
+    },
+    {
+      "q": "Why is an American chestnut in Idaho special?",
+      "a": "A fungus killed almost all American chestnuts in their eastern forests early in the twentieth century. A few planted far from there escaped it and grew old, and Coeur d'Alene lists the one in City Park among its historic, unusual and big trees."
+    },
+    {
+      "q": "Can I see the beech on West Sherman Court?",
+      "a": "Yes, from the sidewalk, which runs right beside it. It grows in the front garden of a private house, so please do not go into the garden."
+    }
+  ]
+}

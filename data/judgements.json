@@ -2,17 +2,30 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
-   "id": "sight:1ff6cc31-6be5-40d3-90e8-62b0a221bd07",
+   "id": "sight:4b492b05-4ce4-46ec-8151-2c49e234334f",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
-   "tree": "The Pale Trunks of Sigiria",
-   "city": "Nairobi",
-   "species": "Unknown species (smooth pale bark, to be confirmed)",
-   "photo": "p_84f03edc300cfd4dd24e38eb/1FF6CC31-6BE5-40D3-90E8-62B0A221BD07.jpg",
+   "tree": "The Beech of West Sherman Court",
+   "city": "Coeur d'Alene",
+   "species": "American Beech (Fagus grandifolia)",
+   "photo": "p_ad17eacb13cbe36b89fd4c43/4B492B05-4CE4-46EC-8151-2C49E234334F.jpg",
    "verdict": "publish",
    "hidde": null,
    "agreed": null,
-   "reason": "Lead photograph viewed: three pale mottled trunks from one base under a wide crown of crooked branches, lit from below at night in the garden by the Sigiria Coffee House, colour; lead of nairobi/nbo_001."
+   "reason": "Lead photograph viewed: the whole beech from the sidewalk, mossy grey trunk and a bare crown far above the house beside it, late-autumn daylight, colour; lead of coeur-dalene/coe_002."
+  },
+  {
+   "id": "sight:b03e2273-a3db-4f93-8887-cb08af847978",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The American Chestnut of City Park",
+   "city": "Coeur d'Alene",
+   "species": "American Chestnut (Castanea dentata)",
+   "photo": "p_ad17eacb13cbe36b89fd4c43/B03E2273-A3DB-4F93-8887-CB08AF847978.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the whole two-trunked chestnut on the City Park lawn inside its chain ring, information panels at its edge, late-autumn daylight, colour; lead of coeur-dalene/coe_001."
   },
   {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
@@ -29,6 +42,19 @@
    "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:1ff6cc31-6be5-40d3-90e8-62b0a221bd07",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Pale Trunks of Sigiria",
+   "city": "Nairobi",
+   "species": "Unknown species (smooth pale bark, to be confirmed)",
+   "photo": "p_84f03edc300cfd4dd24e38eb/1FF6CC31-6BE5-40D3-90E8-62B0A221BD07.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: three pale mottled trunks from one base under a wide crown of crooked branches, lit from below at night in the garden by the Sigiria Coffee House, colour; lead of nairobi/nbo_001."
   },
   {
    "id": "sight:dbd699ab-cf16-49cf-a847-8159da83dbac",
@@ -832,6 +858,62 @@
    "measure": null,
    "verdict": "publish",
    "reason": "Photograph viewed: three pale mottled trunks from one base under a wide crown, lit at night in the garden by the Sigiria Coffee House, Karura Forest, Nairobi; GPS from the photo; public forest ground. Live as nairobi/nbo_001, species asked on the page.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:4b492b05-4ce4-46ec-8151-2c49e234334f",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "American Beech",
+   "city": null,
+   "species": "American Beech",
+   "photo": "p_ad17eacb13cbe36b89fd4c43/4B492B05-4CE4-46EC-8151-2C49E234334F.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 122,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Beech"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big multi-stemmed beech far taller than the two-storey house beside it, beeches not native to Idaho, GPS fix on West Sherman Court; private front garden seen from the sidewalk, so it ships with the pin at the street and an honest access line. Live as coeur-dalene/coe_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b03e2273-a3db-4f93-8887-cb08af847978",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "American Chestnut",
+   "city": null,
+   "species": "American Chestnut",
+   "photo": "p_ad17eacb13cbe36b89fd4c43/B03E2273-A3DB-4F93-8887-CB08AF847978.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 432,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Chestnut"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall two-trunked American chestnut in Coeur d'Alene's City Park inside a chain ring with information panels, GPS fix at the park by the Fort Sherman playground; the city's own big-trees list names an American chestnut in City Park. Live as coeur-dalene/coe_001.",
    "hidde": null,
    "agreed": null
   },

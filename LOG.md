@@ -1,5 +1,15 @@
 # LOG
 
+## 2026-11-27 reader judge: Coeur d'Alene, Idaho, a chestnut and a beech
+
+- **Changed:** a new reader sent two trees through the app, each with a device GPS fix and a trunk girth. Both are live in a new place, Coeur d'Alene (Idaho), with confirmed pins and their photos filed in November from their own dates.
+  - coe_001 "The American Chestnut of City Park". The photo shows two furrowed trunks from one base inside a chain ring with information panels, and OpenStreetMap puts the fix in City Park by the Fort Sherman playground. The city's own Historical, Unusual and Big Trees list names an American chestnut in City Park. I read that through a search summary because the page refused a direct fetch, so the story cites it for the park's chestnut, not for this exact trunk.
+  - coe_002 "The Beech of West Sherman Court". The photo shows a big multi-stemmed beech far above a two-storey house. It stands in a private front garden right beside the sidewalk, so it ships with the pin on the street and an honest access line.
+  - The reader's girths (432 cm and 122 cm) are in the stories as theirs.
+- The two fixes share a latitude to the centimetre, which looked odd. Each one lands on what its photo shows, so they stand. The camera data was stripped from both files.
+- Also added coeur-dalene to data/us-states.json (Idaho) and ran city_names.py.
+- Nothing else was waiting: 0 queue photographs, 0 open reports, 0 feedback, 0 tips, 0 further photographs, 0 notes to quote. Preflight found 0 problems, and qa source checks and i18ncheck were clean.
+
 ## 2026-11-27 reader judge: a first tree in Kenya, in Nairobi's Karura Forest
 
 - **Changed:** a reader sent a tree through the app with the photo's own GPS and no name or note. I looked at the photo. It was taken at night and shows three pale, mottled trunks rising from one base, lit from below, with a café umbrella and string lights in the frame. OpenStreetMap puts the point in Karura Forest's Sigiria section, beside the Sigiria Coffee House and Gate F. That is public forest with an entry fee. The tree is live as nairobi/nbo_001 "The Pale Trunks of Sigiria", a new one-tree place (Kenya), with a confirmed pin and the photo filed in November from its own date. The species is left open and the page asks for it. The Karura history (Wangari Maathai, 1999) is cited to Wikipedia. Kenya is out of focus only for our own research, never for a reader's tree.
