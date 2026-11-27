@@ -468,7 +468,12 @@ fun MapTab(
                 }
             }
         }
-        if (!searching) {
+        // FADED OUT IS GONE (ButtonWalk, 2026-11-27: at a full sheet the arrow had
+        // faded to nothing and still took a tap and a screen reader's focus, a
+        // button nobody can see). Read through its own derivedStateOf, so a drag
+        // recomposes only when it crosses the line, not every frame.
+        val controlsShown by remember { derivedStateOf { place.second > 0.01f } }
+        if (!searching && controlsShown) {
             Box(
                 Modifier
                     .fillMaxSize()

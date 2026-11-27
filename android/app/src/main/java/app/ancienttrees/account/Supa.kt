@@ -53,7 +53,12 @@ object Supa {
             } finally {
                 c.disconnect()
             }
-        }.getOrElse { Reply(0, "") }
+        }.getOrElse {
+            // A cancelled request stays cancelled: runCatching also catches the
+            // coroutine's own CancellationException, which must travel on.
+            if (it is kotlinx.coroutines.CancellationException) throw it
+            Reply(0, "")
+        }
     }
 
     suspend fun rows(path: String, token: String): List<JSONObject> {

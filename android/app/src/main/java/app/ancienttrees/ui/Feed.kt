@@ -55,7 +55,6 @@ import androidx.compose.foundation.layout.statusBars
 import androidx.compose.ui.draw.alpha
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -131,7 +130,10 @@ fun FeedScreen(
     val brand = Brand.colors
     val scope = rememberCoroutineScope()
     var filter by remember { mutableStateOf(FeedPosts.Filter.EVERYONE) }
-    val posts = remember { mutableStateListOf<Pair<FeedPosts.Post, FeedPosts.Post?>>() }
+    // ONE IMMUTABLE LIST, REPLACED WHOLE (ButtonWalk, 2026-11-27: a
+    // ConcurrentModificationException in `shown` while a page was added one post
+    // at a time). A list that is swapped, never changed, cannot change under a read.
+    var posts by remember { mutableStateOf<List<Pair<FeedPosts.Post, FeedPosts.Post?>>>(emptyList()) }
     var last by remember { mutableStateOf<FeedPosts.Post?>(null) }
     var busy by remember { mutableStateOf(false) }
     var done by remember { mutableStateOf(false) }
@@ -151,7 +153,9 @@ fun FeedScreen(
     fun take(page: List<FeedPosts.Post>, n: Int) {
         var prev = last
         val seen = posts.map { it.first.key }.toHashSet()
-        for (p in page) if (seen.add(p.key)) { posts.add(p to prev); prev = p }
+        val added = ArrayList<Pair<FeedPosts.Post, FeedPosts.Post?>>()
+        for (p in page) if (seen.add(p.key)) { added.add(p to prev); prev = p }
+        if (added.isNotEmpty()) posts = posts + added
         page.lastOrNull()?.let { last = it }
         if (page.size < n) done = true
     }
@@ -192,7 +196,7 @@ fun FeedScreen(
         if (gen != generation) return
         busy = false
         if (answer == null) { if (posts.isEmpty()) failed = true; return }
-        posts.clear(); last = null; done = false; failed = false
+        posts = emptyList(); last = null; done = false; failed = false
         take(answer, n)
         fill()
     }
