@@ -69,10 +69,11 @@
       "girth_cm": 600,
       "location": {
         "address": "Skarsgatan near Drakenbergsgatan, Orgryte, Goteborg",
-        "latitude": 57.6965,
-        "longitude": 12.0085,
+        "latitude": 57.693531,
+        "longitude": 12.008696,
         "neighbourhood": "Orgryte"
       },
+      "pin_source": "reader report 1000158, a pin moved by hand on the map (2026-11-27), 331 m from our earlier unsourced estimate; the day after a reader photographed the tree",
       "story": "Goteborgs-Posten calls this the only giant tree in Gothenburg with a plot of its own, and it means that literally: Skar 751:93 is a parcel of land that exists for an oak rather than for a building. On 14 October 2025 the city made the arrangement formal and declared the tree a naturminne, a nature monument, one of four oaks in Orgryte designated that day.\n\nGiant tree is a category here rather than a compliment. The county board of Vastra Gotaland applies it to trunks more than a metre through, and it rates this one sarskilt skyddsvart, specially worth protecting, standing inside an area the county has singled out for exactly such trees.\n\nSkarseken is a gransek, a boundary oak. Before the 1800s the farms out here, Garda and Stora Torp among them, marked their lines with trees instead of fences, and the oaks outlived the boundaries, then the farms, then the fields themselves. The city arrived, the streets bent around them, and the lines they hold are now nobody's. The city puts the four somewhere between 300 and 500 years old.\n\nNo girth has ever been published for this one. If you bring a tape measure, we would like the number.",
       "how_to_recognise": "The one heavy old oak standing alone on its own small square of ground between the houses, much thicker than anything planted around it.",
       "verified_sources": [
@@ -84,10 +85,17 @@
       "access": "Free, standing on a residential street in Orgryte, viewable from public road",
       "transport": "Tram to Danska vagen or Redbergsplatsen then short walk; roughly 15-20 minutes from central Goteborg",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/got_002-skarseken.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 739,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_bd4b33911efb53e848c36cea",
+        "sighting_id": "53ef0785-8bec-424a-b291-ee69536aff55",
+        "note": "Photographed by a reader and sent through the app (2026-11-26); a viewing pass approved it on 2026-11-27: A massive old oak, trunk thick with ivy, bare winter crown of long crooked oak limbs in low sun, standing alone between houses: Skarseken, which had no photograph. Species seen: deciduous oak form: crooked, zigzagging heavy limbs, bare in winter, broad spreading crown. Fits the description: one heavy old tree on its own small plot between the houses, a white house just behind it, far thicker than anything around it.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "approximate",

@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: Skarseken in Gothenburg has its first photograph, and its pin follows the reader
+
+- **Live: gothenburg/got_002, Skarseken** now has a lead photograph. Until now it had none. A reader sent it from the tree's page (sighting 53ef0785): a heavy oak with ivy up the trunk and a bare winter crown, standing alone between houses with a white house behind it. The species and the recognition line both match. It is filed under November, the month the photo was taken.
+- **Its pin moved 331 m** to where the same tree's reader put it this morning (report 1000158). Our old pin was only an estimate: the city's naturminne decisions give no coordinates. The new spot is still `approximate`, since it was placed by hand and is not a GPS fix. It does not land on any of our other Örgryte oaks. They got the standard pin thank-you.
+- Nothing else was waiting: no tips, feedback, notes, further photographs or words to quote, and nothing late in reader_backlog. The 37 open leads in _sightings.json are still from our own accounts, so none were judged. Preflight found 0 problems, the qa source checks were clean and i18ncheck was clean.
+
 ## 2026-11-27 Night run, second attempt: nothing shipped
 
 The three READY leads (york plane, guimaraes cypress, leamington-spa lime) cannot be written: no sources, no pin or no photo, the cypress is in Paços de Ferreira 15.7 km out. leads.py counts them READY without checking sources or a pin; worth tightening. The fix commit's deploy runs show skipped and this run cannot dispatch deploy.yml (403), so the red build is unconfirmed until the next push or a session dispatches it. Web error AbortError skipTransition and the open app BUG rows are untouched.

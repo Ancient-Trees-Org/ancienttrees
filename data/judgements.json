@@ -172,6 +172,28 @@
    "agreed": null
   },
   {
+   "id": "sight:53ef0785-8bec-424a-b291-ee69536aff55",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "Skarseken",
+   "city": "Gothenburg",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/53ef0785-8bec-424a-b291-ee69536aff55.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin. Its date is the photograph’s own date.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Skarseken's first photograph: the ivy-clad trunk and bare winter crown of a heavy oak alone between houses; species and description match",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",
