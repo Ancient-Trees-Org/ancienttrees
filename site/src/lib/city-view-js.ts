@@ -184,13 +184,28 @@ function toPlace() {
 // of the map turns the list into "within map area" at once. The page's own
 // fits, a tapped pin's card and a flight carry no originalEvent and never
 // leave it.
-var _viewUserMove = false;
+// A zoom by wheel, pinch, double click or the + and - buttons does not
+// always carry an originalEvent on its zoomstart (a wheel zoom never did,
+// found live 2026-11-27), so those inputs are read on the map itself and
+// count for the move that ends within a second and a half.
+var _viewUserMove = false, _viewZoomAt = 0;
+function _viewZoomed() { _viewZoomAt = Date.now(); }
 map.on('dragstart', function() { _viewUserMove = true; });
 map.on('zoomstart', function(e) { if (e && e.originalEvent) { _viewUserMove = true; } });
+(function() {
+  var box = map.getContainer();
+  box.addEventListener('wheel', _viewZoomed, { passive: true });
+  box.addEventListener('dblclick', _viewZoomed);
+  box.addEventListener('touchmove', function(e) { if (e.touches && e.touches.length > 1) { _viewZoomed(); } }, { passive: true });
+  box.addEventListener('click', function(e) {
+    if (e.target.closest && e.target.closest('.maplibregl-ctrl-zoom-in, .maplibregl-ctrl-zoom-out')) { _viewZoomed(); }
+  });
+})();
 map.on('moveend', function() {
-  var user = _viewUserMove;
+  var user = _viewUserMove || Date.now() - _viewZoomAt < 1500;
   _viewUserMove = false;
   if (VIEW || !user) { return; }
+  _viewZoomAt = 0;
   toView(true);
 });
 // Back to the city's address brings its panel back, where you were on it.

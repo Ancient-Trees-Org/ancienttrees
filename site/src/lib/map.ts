@@ -892,6 +892,18 @@ function _endSearch(clearField) {
 }
 map.on('dragstart', function() { _endSearch(true); });
 map.on('zoomstart', function(e) { if (e && e.originalEvent) { _endSearch(true); } });
+// A wheel zoom's zoomstart carries no originalEvent (found live 2026-11-27),
+// so the wheel, a pinch, a double click and the + and - buttons end it too.
+(function() {
+  var box = map.getContainer();
+  var end = function() { _endSearch(true); };
+  box.addEventListener('wheel', end, { passive: true });
+  box.addEventListener('dblclick', end);
+  box.addEventListener('touchmove', function(e) { if (e.touches && e.touches.length > 1) { end(); } }, { passive: true });
+  box.addEventListener('click', function(e) {
+    if (e.target.closest && e.target.closest('.maplibregl-ctrl-zoom-in, .maplibregl-ctrl-zoom-out')) { end(); }
+  });
+})();
 (function() {
   ['ex-q', 'bar-q'].forEach(function(id) {
     var q = document.getElementById(id);
