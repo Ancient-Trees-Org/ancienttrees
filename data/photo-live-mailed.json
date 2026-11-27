@@ -3519,6 +3519,30 @@
      "mailed": "2026-11-27"
     }
    ]
+  },
+  "p_3bb792528c3370538a708e62": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "7f6d33cc-9630-4e28-8032-27408a7d7350",
+     "tree_id": "arz_001",
+     "tree_name": "Bella di Ceciliano",
+     "city": "Arezzo",
+     "city_slug": "arezzo",
+     "display_name": null,
+     "live": "2026-11-27"
+    },
+    {
+     "sighting_id": "0c30f257-a373-43f7-801d-9367a4630f6a",
+     "tree_id": "arz_001",
+     "tree_name": "Bella di Ceciliano",
+     "city": "Arezzo",
+     "city_slug": "arezzo",
+     "display_name": null,
+     "live": "2026-11-27"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
