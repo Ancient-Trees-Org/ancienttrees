@@ -376,14 +376,26 @@ struct TreeMap: UIViewRepresentable {
             // leaves the neighbours on screen so the next pin is one tap away
             // (recorded 2026-10-18). Only a map zoomed out past the city is
             // brought in, so the tapped pin is not a dot among continents.
+            // ONLY WHEN THE PIN WOULD BE HIDDEN (Hidde, 2026-11-27: "dan
+            // verspringt de hele kaart. Dat is niet echt een fijne interactie";
+            // CONVENTIONS.md "Tapping a pin on a map that has a list in a
+            // sheet": Apple Maps grows the pin in place, and Airbnb's map
+            // "only moves when the pin would sit behind the card"). A pin you
+            // tapped is where your finger is, so the map stays; a tree paged
+            // to in the sheet, off screen or under the card, is brought in.
             let zoom = max(map.zoomLevel, Self.zoom(forMeters: 20_000))
-            map.setCenter(.init(latitude: sel.lat, longitude: sel.lng),
-                          zoomLevel: zoom, animated: true)
+            let coord = CLLocationCoordinate2D(latitude: sel.lat, longitude: sel.lng)
+            let at = map.convert(coord, toPointTo: map)
+            if zoom > map.zoomLevel + 0.01
+                || Self.pinNeedsMove(at, in: map.bounds.size, topCover: map.contentInset.top) {
+                map.setCenter(coord, zoomLevel: zoom, animated: true)
+            }
         } else if selected == nil, context.coordinator.centred != nil {
             // A tree was just let go: say once what is in view now, which
             // regionDidChange skipped while it was selected. Its own write is
             // deferred to the next tick, so this is safe inside an update.
             context.coordinator.centred = nil
+            context.coordinator.releasedAt = Date()
             context.coordinator.mapView(map, regionDidChangeAnimated: false)
         }
 
@@ -392,6 +404,28 @@ struct TreeMap: UIViewRepresentable {
     }
 
     // MARK: camera arithmetic
+
+    /// Whether a chosen tree's pin, at `point` on a map of `size`, is out of
+    /// sight: above the controls at the top, past an edge, or in the lower
+    /// 45% the tree's card rises over. 40 points of air on every side. Pure,
+    /// for the test (TreeMapPinTapTests).
+    nonisolated static func pinNeedsMove(_ point: CGPoint, in size: CGSize, topCover: CGFloat) -> Bool {
+        let air: CGFloat = 40
+        let visible = CGRect(x: air, y: topCover + air,
+                             width: max(0, size.width - 2 * air),
+                             height: max(0, size.height * 0.55 - topCover - air))
+        return !visible.contains(point)
+    }
+
+    /// The same question once the card is up and its height is known: is the
+    /// pin outside the strip between the controls on top and the sheet below,
+    /// with 40 points of air?
+    nonisolated static func pinHidden(_ point: CGPoint, in size: CGSize, top: CGFloat, bottom: CGFloat) -> Bool {
+        let air: CGFloat = 40
+        let visible = CGRect(x: air, y: top + air, width: max(0, size.width - 2 * air),
+                             height: max(0, size.height - top - bottom - 2 * air))
+        return !visible.contains(point)
+    }
 
     /// MapKit thinks in metres across, MapLibre in zoom levels. One conversion,
     /// in one place, so every caller keeps speaking metres.
@@ -631,6 +665,9 @@ struct TreeMap: UIViewRepresentable {
         /// region kept reporting itself while a tree was selected.
         var parent: TreeMap
         var centred: String?
+        /// When a chosen tree was let go: its card falls over the next moments,
+        /// and the map holds still while it does (see settle).
+        var releasedAt: Date?
         var moved: UUID?
         /// The last deliberate move and when it was asked for. MapLibre drops a
         /// camera animation the moment the content inset changes, and a place
@@ -992,7 +1029,30 @@ struct TreeMap: UIViewRepresentable {
             // the map so a tall chip row cannot squeeze the viewport shut.
             let topCover = min(parent.topCover, map.bounds.height / 3)
             if abs(map.contentInset.bottom - bottom) > 1 || abs(map.contentInset.top - topCover) > 1 {
+                // A TREE'S CARD RISING OR FALLING LEAVES THE MAP WHERE IT IS
+                // (Hidde, 2026-11-27: "dan verspringt de hele kaart"). MapLibre
+                // keeps its centre in the middle of the inset, so a new inset
+                // slid every pin up by half the card's height. Here the
+                // coordinate under the new middle is read first and kept there,
+                // so nothing on screen moves; only a chosen pin the card now
+                // covers is brought up into view.
+                let holdStill = aimed && (parent.selected != nil || centred != nil
+                    || (releasedAt.map { Date().timeIntervalSince($0) < 2 } ?? false))
+                    && !(lastMove.map { Date().timeIntervalSince($0.at) < 4 } ?? false)
+                let h = map.bounds.height
+                let middle = CGPoint(x: map.bounds.midX, y: topCover + (h - topCover - bottom) / 2)
+                let keep = map.convert(middle, toCoordinateFrom: map)
                 map.contentInset = UIEdgeInsets(top: topCover, left: 0, bottom: bottom, right: 0)
+                if holdStill {
+                    map.setCenter(keep, zoomLevel: map.zoomLevel, animated: false)
+                    if let sel = parent.selected {
+                        let c = CLLocationCoordinate2D(latitude: sel.lat, longitude: sel.lng)
+                        let at = map.convert(c, toPointTo: map)
+                        if TreeMap.pinHidden(at, in: map.bounds.size, top: topCover, bottom: bottom) {
+                            map.setCenter(c, zoomLevel: map.zoomLevel, animated: true)
+                        }
+                    }
+                }
                 // The inset change just cancelled any camera flight; finish a
                 // deliberate one into the new viewport (see lastMove).
                 if let m = lastMove, Date().timeIntervalSince(m.at) < 4 {

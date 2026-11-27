@@ -97,8 +97,11 @@ struct FeedView: View {
                             // Further down than the first screen or two (Hidde,
                             // 2026-11-27: "te vroeg in je scroll ... iets lager"):
                             // after ten to sixteen photographs, not four to eight.
+                            // Only where the row will stand: signed out the grid
+                            // keeps its old break, which BackKeepsPlaceWalk holds.
+                            let peopleHere = account.isSignedIn && filter == .everyone
                             let cut = FeedPosts.evenCut(list.map { Double(colW * Self.ratio($0.post) + 70) },
-                                                        from: 10, to: 16)
+                                                        from: peopleHere ? 10 : 4, to: peopleHere ? 16 : 8)
                             tiles(Array(list.prefix(cut)), width: geo.size.width, offset: 0, total: list.count)
                                 .padding(.horizontal, -Self.edge)
                                 .padding(.top, 4)

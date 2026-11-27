@@ -388,7 +388,7 @@ fun FeedScreen(
                 val h = p.photoH ?: 0
                 val r = if (w > 0 && h > 0) minOf(h.toFloat() / w, 1.6f) else 5f / 4f
                 colDp * r + 70f
-            }, lo = 10, hi = 16) // further down, after ten to sixteen photographs (Hidde, 2026-11-27)
+            }, lo = if (showPeople) 10 else 4, hi = if (showPeople) 16 else 8) // further down where the row stands (Hidde, 2026-11-27)
             items(cut, key = { shown[it].first.key }) { i ->
                 val (p, prev) = shown[i]
                 FeedTile(p, p.treeId?.let { catalogue.tree(it) }, host, onAuthor = { openAuthor(p, prev) })
