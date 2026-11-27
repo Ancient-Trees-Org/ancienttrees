@@ -26,6 +26,8 @@ import { mapHead } from "../lib/map";
 import { type WalkMarker } from "../lib/walks";
 import { hasWalksPage } from "../lib/city-walks";
 import { cityMapScript } from "../lib/city-map-script";
+import { oneMapOn } from "../lib/one-map";
+import { chrome } from "../lib/ui-strings";
 import { savesOf } from "../lib/saves";
 import { mapSpecies } from "../lib/map-species";
 import { speciesCommon } from "../lib/species";
@@ -46,6 +48,13 @@ const { lang, city, tr, fallback = false } = Astro.props as Props;
 
 const U = ui(lang);
 const cslug = city.id;
+// ONE MAP (lib/one-map.ts), in the reader's language: drag or zoom the map
+// yourself and the panel is the map's trees in view, its address that
+// language's /explore (Hidde, 2026-11-27: "Ja, vertaalde ook").
+const oneMap = oneMapOn(cslug, lang)
+  ? { explorePath: `/${lang}/explore`, words: { title: U.exploreHeading, note: U.exploreNote,
+      map: chrome(lang).map, docTitle: U.exploreTitle } }
+  : undefined;
 const withWalks = hasWalksPage(city);
 /** Where this city's tree and question pages live. A translated city has them
  * in its own language; a fallback city does not, because only real
@@ -266,5 +275,5 @@ const cityHasQuestion = hasQuestionPage(city);
       </div>
     </div>
   </div>
-  <Fragment slot="scripts" set:html={TREE_ACTIONS_JS + VISITED_SYNC_JS + cityMapScript(markers, [avgLat, avgLng], null, [], [], split.inTown.map((t: any) => ({ lat: t.location.latitude, lng: t.location.longitude })), lang) + SHEET_JS + SHARE_JS} />
+  <Fragment slot="scripts" set:html={TREE_ACTIONS_JS + VISITED_SYNC_JS + cityMapScript(markers, [avgLat, avgLng], null, [], [], split.inTown.map((t: any) => ({ lat: t.location.latitude, lng: t.location.longitude })), lang, oneMap) + SHEET_JS + SHARE_JS} />
 </Base>

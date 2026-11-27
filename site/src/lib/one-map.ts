@@ -6,14 +6,13 @@
 //
 // It goes live city by city, so a fault reaches a few pages that Google sends
 // people to, never all of them (pagecheck's map walk stops a broken deploy).
-// "all" turns it on everywhere; an English city page first, the languages
-// after.
+// "all" turns it on everywhere, every language's city page included (the
+// languages since 2026-11-27).
 // Tokyo alone from 2026-11-26; every English city page from 2026-11-27
 // (Hidde: "Ja, alle steden").
 export const ONE_MAP_CITIES: "all" | string[] = "all";
 
 export function oneMapOn(slug: string, lang: string): boolean {
-  if (lang !== "en") return false;
   const on = ONE_MAP_CITIES as "all" | string[];
   return on === "all" || on.includes(slug);
 }
