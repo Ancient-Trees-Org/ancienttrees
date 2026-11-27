@@ -76,6 +76,14 @@ struct ContentView: View {
     /// Profile keeps its own stack like the others, or pushing from it would
     /// land in the collection's history and Back would leave the wrong tab.
 
+    /// The page a tree on this stack was opened on: the tab's name in
+    /// lower case ("my-trees"), plus the screen under it (Kit/TreeSource.swift).
+    private func treePage(_ stack: Int, _ route: Route) -> String {
+        let tab = (TabBar.items.first { $0.tag == stack }?.title ?? "tab\(stack)")
+            .lowercased().replacingOccurrences(of: " ", with: "-")
+        return TreeSource.page(tab: tab, path: path(stack).wrappedValue, route: route)
+    }
+
     private func path(_ id: Int) -> Binding<[Route]> {
         switch id {
         case 0: $mapPath
@@ -239,7 +247,7 @@ struct ContentView: View {
             return
         }
         if comps.path == "/open" {
-            navigator.push = Self.continued(comps)
+            TreeSource.mark("link"); navigator.push = Self.continued(comps)
             return
         }
         // Everything else the association file hands us: a tree, a city, a
@@ -247,7 +255,7 @@ struct ContentView: View {
         // app and goes nowhere, which the association file's exclusions make
         // rare, and qa.py's route check keeps rare.
         switch WebLink.parse(comps, lookup: WebLink.Lookup(catalogue: store.catalogue)) {
-        case .route(let route): navigator.push = route
+        case .route(let route): TreeSource.mark("link"); navigator.push = route
         case .map: tab = 0
         case .none: break
         }
@@ -434,6 +442,8 @@ struct ContentView: View {
                 .toolbar(.hidden, for: .tabBar)
                 .navigationDestination(for: Route.self) { route in
                     destination(route, cat)
+                        // Where a tree was opened, for tree_opened (Kit/TreeSource.swift).
+                        .environment(\.treeFrom, treePage(id, route))
                         // A pushed page is a reading page; the bar does nothing
                         // there and AllTrails hides it too. Back is the way out.
                         .toolbar(.hidden, for: .tabBar)
@@ -606,7 +616,7 @@ struct ContentView: View {
                                  navigator.collectAddsPhoto = true
                                  navigator.collectNearby = true
                              } else {
-                                 navigator.push = .tree(n.tree.id)
+                                 TreeSource.mark("nearby"); navigator.push = .tree(n.tree.id)
                              }
                          },
                          dismiss: { withAnimation { nearby = nil } })

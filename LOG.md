@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-27 session: the app now says where every tree was opened from (iOS and Android)
+
+- `tree_opened` carries `from` on both phones. It names the tab, plus the page under the tree when it was not the tab's first screen ("map", "feed", "my-trees", "discover/collection", "feed/person", "discover/tree"). On Discover it names the row instead ("discover/best", "discover/trending", "discover/visitors", "discover/want", "discover/more-near-you"). A few other ways in say what they are: "search", "map/pin" (a pin's card), "nearby" (the nearby banner) and "link" (a web link). Hidde asked for it on every page: "kunnen we dit uberhaupt toevoegen op alle paginas dat we zien waar mensen klikken op bomen wat werkt en niet?"
+- How it works: Kit/TreeSource.swift and ui/TreeSource.kt. The page comes from the navigation stack, so a new screen is covered without remembering to say so. The row name comes from the tap, counted without taking the tap from the link (the `countsShare` pattern) and read once within two seconds. Nothing is kept on the device.
+- Checks: TreeSourceTests (iOS, 3 pass) and TreeSourceTest (Android, passes), both builds, and ShelvesTest. The first events arrive with the next app build. To read them: `python3 scripts/posthog.py --sql "select properties.from f, count() c from events where event='tree_opened' and properties.from is not null group by f order by c desc"`.
+- The privacy page needed no change: it already says the app records that a tree was opened. `from` adds only which screen, nothing about the person or a place.
+
 ## 2026-11-27 session: Discover in a new order, without the season photo (iOS and Android)
 
 - Discover now opens with At their best now, nearest first. Then come Trending this month, New from visitors (high up but not first, because it is too much like the Feed), the cities with the ambassador row, Lists with an opinion, Want to visit (full or empty), Tree countries, By species, and the endless "More trees near you". Hidde chose it from the mockup in drafts/design-2026-11-27-discover/ ("Ja, bouw het").

@@ -344,7 +344,7 @@ fun DiscoverScreen(
                 when (hit) {
                     is SearchHit.City, is SearchHit.Country, is SearchHit.Place -> act.openPlace(hit)
                     is SearchHit.Species -> { resumeQuery = lastQuery; act.openSpecies(hit.name) }
-                    is SearchHit.OneTree -> { resumeQuery = lastQuery; act.openTree(hit.tree) }
+                    is SearchHit.OneTree -> { resumeQuery = lastQuery; TreeSource.mark("search"); act.openTree(hit.tree) }
                 }
             },
             onBack = { searching = false; resumed = false },
@@ -443,14 +443,14 @@ private fun LazyListScope.discoverContent(
 
     if (deck.best.size >= 3) {
         block("best") {
-            Section(stringResource(R.string.discover_best)) { TileShelf(deck.best, ::tag, act.openTree) }
+            Section(stringResource(R.string.discover_best)) { TileShelf(deck.best, ::tag, onOpen = { TreeSource.mark("discover/best"); act.openTree(it) }) }
         }
     }
 
     // TRENDING THIS MONTH after the first shelf, where Polarsteps puts it (2026-11-26).
     if (trending.size >= 3) {
         block("discover-trending") {
-            Section(stringResource(R.string.discover_trending)) { TrendingShelf(trending, act.openTree) }
+            Section(stringResource(R.string.discover_trending)) { TrendingShelf(trending) { TreeSource.mark("discover/trending"); act.openTree(it) } }
         }
     }
 
@@ -462,10 +462,10 @@ private fun LazyListScope.discoverContent(
                 Shelf(Modifier.trimBottom(VISITOR_LINE_ROOM)) {
                     items(fresh, key = { it.first.sightingId }) { (row, tree, shot) ->
                         Column(verticalArrangement = Arrangement.spacedBy(7.dp)) {
-                            Tile(tree, tree.city, Modifier.width(TILE_WIDTH).semantics { contentDescription = "visitor-tile" }, shot = shot, saveable = true) { act.openTree(tree) }
+                            Tile(tree, tree.city, Modifier.width(TILE_WIDTH).semantics { contentDescription = "visitor-tile" }, shot = shot, saveable = true) { TreeSource.mark("discover/visitors"); act.openTree(tree) }
                             // The tree's name, then who and when (Home.swift, 2026-11-20).
                             Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                                VisitorTitle(tree.name, TILE_WIDTH, Modifier.height(36.dp).clickable { act.openTree(tree) })
+                                VisitorTitle(tree.name, TILE_WIDTH, Modifier.height(36.dp).clickable { TreeSource.mark("discover/visitors"); act.openTree(tree) })
                                 VisitorLine(row, TILE_WIDTH, openVisitor)
                             }
                         }
@@ -569,7 +569,7 @@ private fun LazyListScope.discoverContent(
                 horizontalArrangement = Arrangement.spacedBy(6.dp),
                 modifier = Modifier.padding(horizontal = 16.dp).padding(top = if (i == 0) 12.dp else 6.dp),
             ) {
-                for (t in rows[i]) Tile(t, tag(t), Modifier.weight(1f).semantics { contentDescription = "tree-card" }, saveable = true) { act.openTree(t) }
+                for (t in rows[i]) Tile(t, tag(t), Modifier.weight(1f).semantics { contentDescription = "tree-card" }, saveable = true) { TreeSource.mark("discover/more-near-you"); act.openTree(t) }
                 repeat(3 - rows[i].size) { Spacer(Modifier.weight(1f)) }
             }
         }
@@ -983,7 +983,7 @@ internal fun SecondaryButton(text: String, icon: ImageVector?, modifier: Modifie
 private fun WantToVisitFull(mine: List<Tree>, tag: (Tree) -> String, act: DiscoverActions) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         ShelfHeader(stringResource(R.string.want_to_visit), seeAll = act.openWantToVisit)
-        TileShelf(mine.take(3), tag, act.openTree, ghosts = maxOf(0, 3 - mine.size))
+        TileShelf(mine.take(3), tag, { TreeSource.mark("discover/want"); act.openTree(it) }, ghosts = maxOf(0, 3 - mine.size))
         // A SHORT LIST STILL INVITES MORE (Hidde, 2026-10-12).
         if (mine.size < 3) {
             SecondaryButton(stringResource(R.string.discover_find_near), Sym.Map, Modifier.padding(horizontal = 16.dp), act.showMap)

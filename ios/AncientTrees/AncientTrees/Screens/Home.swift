@@ -343,7 +343,7 @@ struct HomeView: View {
                 switch hit {
                 case .city, .country: navigator.searchOnMap = SearchOnMap(hit: hit)
                 case .species(let name): backToResults = typed; navigator.push = .species(name)
-                case .tree(let t): backToResults = typed; navigator.push = .tree(t.id)
+                case .tree(let t): backToResults = typed; TreeSource.mark("search"); navigator.push = .tree(t.id)
                 // A town with none of our trees is a place on the MAP, where
                 // its empty card and nearest tree wait (2026-10-25).
                 case .place(let name, let lat, let lng):
@@ -453,6 +453,7 @@ struct HomeView: View {
                 .contentShape(.rect)
             }
             .buttonStyle(.plain)
+            .opensTree(from: "discover/trending")
             .accessibilityElement(children: .combine)
             .accessibilityLabel("\(rank). \(t.name), \(t.city)")
             Menu {
@@ -615,11 +616,12 @@ struct HomeView: View {
         VisitorLine(row: r, width: Self.tileWidth) { openVisitor($0) }
     }
 
-    private func tileShelf(_ trees: [Tree], ghosts: Int = 0) -> some View {
+    private func tileShelf(_ trees: [Tree], ghosts: Int = 0, from: String) -> some View {
         shelf {
             ForEach(trees) { t in
                 NavigationLink(value: Route.tree(t.id)) { CollectedTile(kind: .ours(t), city: tag(t)).frame(width: Self.tileWidth).clipShape(Self.tileShape) }
                     .buttonStyle(.plain)
+                    .opensTree(from: from)
                     .accessibilityIdentifier("tree-card")
                     // The card save on every tree tile (Hidde, 2026-11-20:
                     // "ja trek die ook gelijk, web en app", after the Airbnb
@@ -688,7 +690,7 @@ struct HomeView: View {
                     navigator.openWantToVisit = true
                     navigator.selectTab = 2
                 })
-                tileShelf(Array(mine.prefix(3)), ghosts: max(0, 3 - mine.count))
+                tileShelf(Array(mine.prefix(3)), ghosts: max(0, 3 - mine.count), from: "discover/want")
                 // A SHORT LIST STILL INVITES MORE (Hidde, 2026-10-12): with
                 // one or two trees the way to the map stays, as on the empty
                 // row. No line explaining the bookmark (Hidde, 2026-10-13:
@@ -826,7 +828,7 @@ struct HomeView: View {
     /// "Discover after the Feed tab".
     @ViewBuilder private var shelves: some View {
         if deck.best.count >= 3 {
-            section("At their best now") { tileShelf(deck.best) }
+            section("At their best now") { tileShelf(deck.best, from: "discover/best") }
         }
 
         // TRENDING THIS MONTH after the first shelf, where Polarsteps puts it.
@@ -853,6 +855,7 @@ struct HomeView: View {
                                     .frame(width: Self.tileWidth).clipShape(Self.tileShape)
                             }
                             .buttonStyle(.plain)
+                            .opensTree(from: "discover/visitors")
                             .accessibilityIdentifier("visitor-tile")
                             // The card save, as on /visitors and the web row
                             // (Hidde, 2026-11-19), over the link, not in it.
@@ -949,6 +952,7 @@ struct HomeView: View {
                             CollectedTile(kind: .ours(t), city: tag(t)).clipShape(Self.tileShape)
                         }
                         .buttonStyle(.plain)
+                        .opensTree(from: "discover/more-near-you")
                         .accessibilityIdentifier("tree-card")
                         // The card save, as every tree tile (2026-11-20).
                         .overlay(alignment: .topTrailing) { SaveHeart(tree: t, look: .onPhoto).padding(6) }

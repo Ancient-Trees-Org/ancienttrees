@@ -531,7 +531,7 @@ fun MapTab(
             val t = selected
             val d = dropped
             if (t != null) {
-                TreePlaceBody(t, onOpen = { onOpen(t) })
+                TreePlaceBody(t, onOpen = { TreeSource.mark("map/pin"); onOpen(t) })
             } else if (d != null) {
                 DroppedPinBody(d, onAdd = {
                     clearDropped()

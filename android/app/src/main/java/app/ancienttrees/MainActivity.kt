@@ -430,7 +430,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
         val target = app.ancienttrees.feed.WebLink.parse(uri, app.ancienttrees.feed.WebLink.Lookup.of(cat))
         when (target) {
             // Pushed on the stack you are on, as navigator.push does.
-            is app.ancienttrees.feed.LinkTarget.TreeAt -> cat.tree(target.id)?.let { openTree(it) }
+            is app.ancienttrees.feed.LinkTarget.TreeAt -> cat.tree(target.id)?.let { app.ancienttrees.ui.TreeSource.mark("link"); openTree(it) }
             is app.ancienttrees.feed.LinkTarget.City -> cat.trees(target.slug).firstOrNull()?.let { t ->
                 goOnMap(app.ancienttrees.ui.SearchHit.City(target.slug, t.city, t.lat, t.lng))
             }
@@ -696,13 +696,17 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
     fun nearOf(lat: Double, lng: Double): String =
         fix?.let { if (app.ancienttrees.feed.Geo.km(it.lat, it.lng, lat, lng) <= 25) "yes" else "no" } ?: "unknown"
     LaunchedEffect(nav.top) {
+        // `from`: the page or row it was opened from (ui/TreeSource.kt, 2026-11-27).
+        fun from(): String = app.ancienttrees.ui.TreeSource.take(
+            app.ancienttrees.ui.TreeSource.page(nav.tab, nav.stack.map { it.page }),
+        )
         when (val p = nav.top) {
             is app.ancienttrees.ui.Page.TreePage -> catalogue?.tree(p.id)?.let { t ->
-                Measure.event("tree_opened", mapOf("tree" to t.id, "near" to nearOf(t.lat, t.lng)))
+                Measure.event("tree_opened", mapOf("tree" to t.id, "near" to nearOf(t.lat, t.lng), "from" to from()))
             }
             is app.ancienttrees.ui.Page.Mine -> {
                 val m = myTrees.byId(p.id)
-                Measure.event("tree_opened", mapOf("tree" to "own", "near" to (m?.let { nearOf(it.lat, it.lng) } ?: "unknown")))
+                Measure.event("tree_opened", mapOf("tree" to "own", "near" to (m?.let { nearOf(it.lat, it.lng) } ?: "unknown"), "from" to from()))
             }
             else -> Unit
         }
@@ -1341,6 +1345,7 @@ private fun App(link: Uri?, onLinkRead: () -> Unit, launch: LaunchArgs = LaunchA
                             val start = app.ancienttrees.ui.CollectStart(about = n.tree.name, addsPhoto = true, knownTree = n.tree.id)
                             if (signedIn) collectStart = start else { pendingAfterSignIn = { collectStart = start }; asking = true }
                         } else {
+                            app.ancienttrees.ui.TreeSource.mark("nearby")
                             openTree(n.tree)
                         }
                     }

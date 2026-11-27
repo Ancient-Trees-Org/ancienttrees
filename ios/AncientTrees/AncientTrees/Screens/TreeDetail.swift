@@ -26,6 +26,8 @@ struct TreeDetail: View {
     @Environment(Saved.self) private var saved
     @Environment(Sightings.self) private var sightings
     @Environment(\.dismiss) private var dismiss
+    /// The page this tree was opened on, for tree_opened (Kit/TreeSource.swift).
+    @Environment(\.treeFrom) private var treeFrom
     @State private var editing: EditableField?
     /// Naming the species is a picker rather than a text field, since
     /// 2026-08-29. A typed string cannot group (hard rule 9).
@@ -695,7 +697,9 @@ struct TreeDetail: View {
             let near = LocationProvider.remembered.map {
                 Geo.km($0, (lat: tree.lat, lng: tree.lng)) <= 25 ? "yes" : "no"
             } ?? "unknown"
-            Measure.event("tree_opened", ["tree": mine == nil ? tree.id : "own", "near": near])
+            // `from`: the page or shelf it was opened from (Hidde, 2026-11-27).
+            Measure.event("tree_opened", ["tree": mine == nil ? tree.id : "own", "near": near,
+                                          "from": TreeSource.take(page: treeFrom)])
             if let m = mine, minePlace == nil || Sightings.wantsTown(m.place), geocodedPlace == nil {
                 let marks = try? await CLGeocoder()
                     .reverseGeocodeLocation(CLLocation(latitude: m.lat, longitude: m.lng))

@@ -627,7 +627,7 @@ struct MapTab: View {
                                   isOwn: mine(for: t) != nil,
                                   onOpen: {
                                       if let m = mine(for: t) { navigator.push = .mine(m.id) }
-                                      else { navigator.push = .tree(t.id) }
+                                      else { TreeSource.mark("map/pin"); navigator.push = .tree(t.id) }
                                   })
                 } else if let d = dropped {
                     DroppedPinBody(spot: d) {
