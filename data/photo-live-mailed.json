@@ -3452,6 +3452,21 @@
      "mailed": "2026-11-27"
     }
    ]
+  },
+  "p_811c22e9b1052597bd33bdb6": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "f19ad4b8-abe3-46da-a80d-0aabfc084430",
+     "tree_id": "rom_018",
+     "tree_name": "The Cedar of Lebanon of Villa Torlonia",
+     "city": "Rome",
+     "city_slug": "rome",
+     "display_name": null,
+     "live": "2026-11-27"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

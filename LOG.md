@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-27 reader judge: a reader's photograph now leads the Villa Torlonia cedar in Rome
+
+- **rome/rom_018, the Cedar of Lebanon of Villa Torlonia, has a reader's photograph as its lead** (sighting f19ad4b8, `add`). It was sent from 19 m from our confirmed pin. It shows a broad cedar with many stems rising from one massive, flared trunk. It stands on the lawn below the Casino Nobile, with the white columns and a stone urn on the balustrade in frame. That is the setting the recognition line names. The species (tiered sprays of short needles) and the description both fit. The Commons photograph moved into the strip. The reader was mailed. The photo is filed under November (the photograph's own date). The pin catch-up could not read coordinates (HTTPError), but the pin was already confirmed.
+- There were no further photographs, open reports, tips, feedback or words to quote. The 37 other open leads in _sightings.json are our own accounts' rows, as in earlier runs. qa source checks were clean, preflight found 0 problems and i18ncheck was clean.
+
 ## 2026-11-27 reader judge: a walking sweet chestnut in Betchworth Park, Dorking, live from a reader's photograph
 
 - **Live: dorking/dkg_001, the Walking Chestnuts of Betchworth Park** (sighting e88184b7). This is a new one-tree place in Surrey, so it gets no place page. The photograph shows a massive sweet chestnut with deeply ridged bark splitting into heavy stems, a burr at its foot and a low limb arching towards the ground. It is clearly special. The reader's note explains how "walking" chestnuts layer, and the story quotes it. Their age (the 1500s, about 500 years) and girth (700 cm) are on the page as theirs. Dorking Museum is the source for the parkland's old sweet chestnuts and the 1448 emparkment. Mole Valley council is the source for the public footpaths round the golf course. The access line says to keep to the paths and that we have not checked how close a path passes this trunk.

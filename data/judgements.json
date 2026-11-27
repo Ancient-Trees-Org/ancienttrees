@@ -412,6 +412,28 @@
    "agreed": null
   },
   {
+   "id": "sight:f19ad4b8-abe3-46da-a80d-0aabfc084430",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "The Cedar of Lebanon of Villa Torlonia",
+   "city": "Rome",
+   "species": "Cedar of Lebanon (Cedrus libani)",
+   "photo": "out/sightings/f19ad4b8-abe3-46da-a80d-0aabfc084430.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 19,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cedar of Lebanon (Cedrus libani)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph looked at: the many-stemmed cedar with its massive flared bole below the Casino Nobile in Villa Torlonia, 19 m from our pin, daylight; added to rom_018's page as the lead, the Commons photo moves into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",

@@ -795,13 +795,17 @@
         "label": "upright barrel cones that sit on the branches like eggs"
       },
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Villa_Torlonia_-cedro_del_Libano_e_Casino_Nobile_-_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Byus71, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/rom_018-the-cedar-of-lebanon-of-villa-torlonia-f19ad4b8.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 4640,
-        "height": 3472,
-        "taken_month": 9
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_811c22e9b1052597bd33bdb6",
+        "sighting_id": "f19ad4b8-abe3-46da-a80d-0aabfc084430",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); a viewing pass approved it on 2026-11-27: Looked at: a broad, many-stemmed cedar rising from one massive flared bole on the lawn below the Casino Nobile, whose white columns and a stone urn on the balustrade stand at the left of the frame; sent from 19 m of our pin, daylight and colour, backlit but the trunk reads clearly. Species seen: short needles in flat tiered sprays, dark grey-green, ridged grey bark on a thick flaring trunk: a cedar (Cedrus). Fits the description: a very thick old cedar trunk beside the Casino Nobile and its stone balustrade, the setting our recognition line names, in Villa Torlonia.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "girth_cm": 600,
       "how_to_recognise": "Beside Valadier's staircase up to the Casino Nobile, six metres round and 28 up, the thickest cedar anywhere on Rome's register.",
@@ -809,7 +813,18 @@
         "name": "Alberi monumentali del Lazio (Regione Lazio, elenco 2025), no. 19/H501/RM12",
         "url": null
       },
-      "height_m": 28
+      "height_m": 28,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Villa_Torlonia_-cedro_del_Libano_e_Casino_Nobile_-_1.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Byus71, via Wikimedia Commons",
+          "status": "approved",
+          "width": 4640,
+          "height": 3472,
+          "taken_month": 9
+        }
+      ]
     },
     {
       "id": "rom_019",
