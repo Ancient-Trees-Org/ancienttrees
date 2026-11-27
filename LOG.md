@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-27 night run, fourth attempt in the window
+
+- Nothing shipped. No claims stand, 0 READY leads, own research paused. The last failed deploy's log shows only the fig description error, already fixed on main. Dispatch gives 403 and a local site build was denied, so the fix is unconfirmed until one deploy runs. For Hidde: `gh workflow run deploy.yml` once.
+
 ## 2026-11-27 night run, third attempt in the window
 
 - Nothing shipped. No claims, 0 READY leads, own research paused, and `passcheck.py --pending` shows only stale or duplicate-id files.
