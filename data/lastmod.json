@@ -3825,6 +3825,10 @@
 "h": "c043c7f810d5",
 "d": "2026-11-07"
 },
+"city:squamish": {
+"h": "cef9d3bf4eb7",
+"d": "2026-11-27"
+},
 "city:sremski-karlovci": {
 "h": "e780da13b66b",
 "d": "2026-10-13"
@@ -16520,6 +16524,10 @@
 "q:spoleto": {
 "h": "c043c7f810d5",
 "d": "2026-11-07"
+},
+"q:squamish": {
+"h": "cef9d3bf4eb7",
+"d": "2026-11-27"
 },
 "q:sremski-karlovci": {
 "h": "e780da13b66b",
@@ -34760,6 +34768,10 @@
 "tree:sqk_001": {
 "h": "2718e6e4ec83",
 "d": "2026-10-15"
+},
+"tree:sqm_001": {
+"h": "2fb9e2ba155f",
+"d": "2026-11-27"
 },
 "tree:sqo_001": {
 "h": "df3b78b1abee",
