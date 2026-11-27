@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 night run (second retry): nothing shipped, state re-checked
+
+- No product change. No claims, READY leads 0, own research paused, so no verify or write pass was possible.
+- The waiting sighting 64eec98b (Brockwell Oak) is already the live lead photograph; the inbox entry is stale, nothing to apply.
+- health.py's iOS "failure" is a run cancelled by newer pushes (46024472034), not a failed test. Open app BUG rows (feed back-scroll, share profile, badge tap, card drag) are Swift and need a Mac runner. The web error `getLayer` (maplibre, orange) needs a session with a browser.
+
 ## 2026-11-27 night run (retry, 22:10 window): shelf empty, nothing shipped
 
 - No product change. Resolved a LOG.md rebase conflict (kept both entries). No claims standing; READY leads 0; every unpublished verified file is a duplicate-by-pin or an id collision with a live tree (hard rule 3), not writable. Own research stays paused, so no verify pass.
