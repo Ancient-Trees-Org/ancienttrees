@@ -1,5 +1,13 @@
 # LOG
 
+## 2026-11-27 13:25 run: a reader's Moreton Bay fig photo is live; iOS CI red needs a Mac
+
+- Changed in the product: the Moreton Bay Fig of Villa Bellini (Catania, cat_001) had no photograph. A reader's wide daylight shot of the whole tree (buttress roots, limbs, species matches) now leads its page. Looked at the pixels first; the verdict is in data/judgements.json.
+- Breakage, not fixed here: ios.yml run 45996140371 (commit 12:08) fails three real UI-test assertions: BackKeepsPlaceWalk.testBackFromATreeKeepsTheFeedWhereItWas (the Feed moved on Back), and SignedOutWalk.testDiscoverWantToVisitAsks (tapping discover-want-signin signed out did not open the sign-in sheet; likely linked to the 11:57 "heart given after sign-in" change). Swift cannot be built or run on this runner, so I did not change that code blind. A session with a Mac should reproduce both.
+- Web error "Transition was skipped" (16 reports, 13 pages): the filter that ignores the browser's own view-transition rejections went in at 01:35 today (760cd8f1a), so these reports are from older builds; the line should fall. Not touched.
+- Open app BUG rows (10) are Swift fixes already written and waiting for a build; nothing to do from here.
+- Postbox and live sign-in checks were over 26 h old; GitHub dropped the schedules, not dispatched from here.
+
 ## 2026-11-27 reader judge: a Bologna plane photograph goes on the Minghetti plane
 
 - A reader's app photograph (3aadb77e) sent for the Ginkgo of Piazza Cavour (bol_006) actually shows a London plane: mottled bark, lobed leaves and a tall forked crown in a planted bed. Its GPS fix is 17 m from our Plane Tree of Piazza Minghetti (bol_003, register pin) and 167 m from the ginkgo. The queue row was pointed at bol_003 and applied as `add`, so the reader's photo is now the lead and the Commons photo moved into the strip. The photo is filed under November, its own date. The pin stays confirmed. The publish step's coordinate read hit an HTTPError again, but nothing depended on it.
