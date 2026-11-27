@@ -13340,6 +13340,39 @@
    "seen": "2026-11-27",
    "judged": "2026-11-27",
    "published_as": "dorking/dkg_001"
+  },
+  {
+   "sighting_id": "36e8a880-dc48-4f47-8fdf-e60c4bbe6a1a",
+   "user_id": "p_050be16cf5546124be58a745",
+   "mine": false,
+   "name": "Black Poplar near Ulverston",
+   "unsure_among": null,
+   "species": "Black Poplar",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 54.0464150418745,
+   "longitude": -2.83510310289216,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_050be16cf5546124be58a745/36E8A880-DC48-4F47-8FDF-E60C4BBE6A1A.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photograph viewed 2026-11-27: a big, deeply furrowed black poplar with a hollow high on its trunk, beside a dirt path on a raised bank through bare winter woodland, a cyclist standing at its foot for scale, overcast daylight, colour. Special enough to go live. Held only because the reader names it 'near Ulverston' while the pin they placed by hand is on New Quay Road, Aldcliffe, Lancaster (by the Lune estuary path), 25 km away across Morecambe Bay; the standard doubt_location mail asks where it stands (submission 1753). Their answer puts it live the same run.",
+   "seen": "2026-11-27",
+   "hold": "doubt_location",
+   "judged": "2026-11-27"
   }
  ]
 }

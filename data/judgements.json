@@ -478,6 +478,50 @@
    "agreed": null
   },
   {
+   "id": "sight:929beb72-30d0-4d9d-beaf-4e6ef5c88d6a",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "The Moreton Bay Fig of Villa Bellini",
+   "city": "Catania",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/929beb72-30d0-4d9d-beaf-4e6ef5c88d6a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Looked at the pixels: wide daylight shot of the whole fig, buttress roots and limbs, species and park match; the tree had no photograph.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:36e8a880-dc48-4f47-8fdf-e60c4bbe6a1a",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Black Poplar near Ulverston",
+   "city": null,
+   "species": "Black Poplar",
+   "photo": "p_050be16cf5546124be58a745/36E8A880-DC48-4F47-8FDF-E60C4BBE6A1A.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Poplar"
+   },
+   "verdict": "hold",
+   "reason": "Viewed: a big furrowed black poplar with a hollow high on the trunk beside a path on a raised bank, a cyclist at its foot for scale. Special enough, but the reader names it near Ulverston while their hand-placed pin is on New Quay Road, Lancaster, 25 km across Morecambe Bay: held doubt_location, the standard mail asks where it stands.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",
@@ -30630,22 +30674,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:929beb72-30d0-4d9d-beaf-4e6ef5c88d6a",
-   "seen": "2026-11-27",
-   "kind": "photo of a tree we map",
-   "tree": "The Moreton Bay Fig of Villa Bellini",
-   "city": "Catania",
-   "species": "Moreton Bay Fig (Ficus macrophylla)",
-   "photo": "out/sightings/929beb72-30d0-4d9d-beaf-4e6ef5c88d6a.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Looked at the pixels: wide daylight shot of the whole fig, buttress roots and limbs, species and park match; the tree had no photograph.",
    "hidde": null,
    "agreed": null
   }

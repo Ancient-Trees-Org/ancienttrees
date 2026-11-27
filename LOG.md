@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-27 reader judge: a Black Poplar on hold until we know where it stands
+
+- One tree was waiting: a reader's "Black Poplar near Ulverston" sent from the app (sighting 36e8a880). I looked at the photograph. It shows a big, deeply furrowed poplar with a hollow high on the trunk, beside a path on a raised bank, with a cyclist at its foot for scale. It is special enough to go live. But the pin, which the reader placed by hand, is on New Quay Road in Aldcliffe, Lancaster, by the Lune estuary path. Ulverston is 25 km away across Morecambe Bay. A wrong location costs trust, so I held it as `doubt_location`, and the standard mail asking where it stands goes at the next knock (submission 1753). When they answer, it goes live the same run.
+- There were no open reports, feedback, tips or words to quote. qa source checks were clean and preflight found 0 problems.
+
 ## 2026-11-27 reader judge: nothing new; the Catania fig was already live
 
 - The only waiting item was the reader's photograph of the Villa Bellini fig (cat_001). I looked at it and approved it, then found the 13:25 run had published the same photograph minutes earlier. I kept that run's version. The one thing it had not done was queue the reader's "your photograph is on the page" mail, so this commit adds that entry to data/photo-live-mailed.json (pending, nothing sent twice).
