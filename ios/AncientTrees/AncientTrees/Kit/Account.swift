@@ -449,10 +449,14 @@ public final class Account {
         state = .signedOut
     }
 
+    /// The project's email OTP length (Supabase, Authentication, Email):
+    /// eight, measured with admin/generate_link on 2026-11-27.
+    public static let codeLength = 8
+
     public func verify(code: String, email: String) async {
         let clean = code.filter(\.isNumber)
-        guard clean.count >= 6 else {
-            problem = "That code is six digits."
+        guard clean.count >= Self.codeLength else {
+            problem = "That code is \(Self.codeLength) digits."
             return
         }
         state = .working

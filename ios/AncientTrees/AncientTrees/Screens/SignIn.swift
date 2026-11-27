@@ -353,7 +353,7 @@ struct SignInSheet: View {
             // the exact fault Hidde hit on 2026-08-30 ("je hoort digits te
             // krijgen maar ik krijg een magic link").
             if Launch.emailCode {
-            TextField("123456", text: $code)
+            TextField("12345678", text: $code)
                 .keyboardType(.numberPad)
                 .textContentType(.oneTimeCode)
                 .multilineTextAlignment(.center)
@@ -362,7 +362,7 @@ struct SignInSheet: View {
                 .padding(.vertical, 14)
                 .background(Color(.secondarySystemBackground), in: .capsule)
                 .onChange(of: code) { _, new in
-                    if new.filter(\.isNumber).count == 6 {
+                    if new.filter(\.isNumber).count == Account.codeLength {
                         Task {
                             await account.verify(code: new, email: to)
                             await finishIfSignedIn()
