@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 session: Genoa cedar, the reader's photo is of our tree; asked whether it is theirs
+
+- The app reader whose photo of the Cedar of Lebanon of Acquasanta (gnv_012, sighting fe75421a) was held `doubt_photo` answered our question. It is the register cedar: their map link lands 13 m from our pin. There is no second cedar to chase.
+- What is still unknown is who took the photo: a professional-looking summer frame with no camera data, sent in November. Hidde approved a one-line reply asking whether they took it, sent in their thread through Resend (drafts/reply-reader-cedar-acquasanta-2026-11-27b.md).
+- On a yes: the photo leads gnv_012 the same day, and the access and recognition lines ("open square before the church steps") are rewritten to match the wooded slope it shows. On a no: rejected `not_theirs`.
+
 ## 2026-11-27 reader judge: a reader's photo now leads the Larger Bunya Pine of Catania
 
 - A reader sent a photograph of the Larger Bunya Pine of Villa Bellini (cat_002), Catania, from 27 m away. I looked at it: a tall araucaria rising far above the palms and holm oaks by the Via Etnea steps, in daylight, with its near-identical neighbour just behind. It went up beside the Commons photograph and now leads the page. The reader's "it is on the page" mail is queued.
