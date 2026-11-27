@@ -1,0 +1,73 @@
+{
+  "city": "Hervey Bay",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Hervey Bay is a string of seaside suburbs on the Queensland coast, facing the sheltered water between the mainland and K'gari, where humpback whales rest on their way south. In Urangan, at its eastern end near the boat harbour, a reader photographed a fig that has grown extra trunks from its own limbs and sent it to us. It stands on private garden ground but is seen from the road.",
+  "meta_description": "A fig on pillar roots beside Boat Harbour Drive in Urangan, Hervey Bay, Queensland: a reader's photograph and where to see it from the road.",
+  "hero_tree_id": "hbq_001",
+  "oldest_tree_id": "hbq_001",
+  "trees": [
+    {
+      "id": "hbq_001",
+      "name": "The Pillar-Root Fig of Boat Harbour Drive",
+      "species": "Fig (Ficus sp.)",
+      "location": {
+        "address": "Beside Boat Harbour Drive, Urangan, Hervey Bay, Queensland 4655 (seen from the road; the tree stands on the edge of a private residential village)",
+        "latitude": -25.29662,
+        "longitude": 152.90413,
+        "neighbourhood": "Urangan"
+      },
+      "story": "Most trees stand on one trunk. This fig in Urangan, on the eastern edge of Hervey Bay, stands on several, and a reader who walked under it sent us the photograph.\n\nLook at the picture and count. In the middle, a knot of grey stems rises out of a mulched bed, ribbed and braided where roots have run down the bark and fused into it. To the right, a separate pillar holds up a long horizontal limb, and between them there is open daylight. That second trunk began as a thin root dropped from the branch above, which reached the soil, thickened and now carries weight. Figs that do this can go on spreading sideways for as long as they are given room, and this one has clearly been given some.\n\nA man walking past at the edge of the frame barely reaches the first fork. We do not know which fig this is, how old it is or who planted it; the leaves are broad and glossy, as on several of the big figs of the Queensland coast. If you know, tell us here.\n\nThe tree grows on the garden edge of a private residential village beside Boat Harbour Drive. Look from the roadside near the bus stop, where the pillar roots show best in the morning light.",
+      "how_to_recognise": "A wide fig on a mulched garden bed: a cluster of braided grey trunks in the middle and a separate grey pillar to its right holding up a long level limb, open daylight between them.",
+      "verified_sources": [
+        "https://www.openstreetmap.org/way/1480580841 (OpenStreetMap: Starboard Circuit in The Anchorage Lifestyle Resort, Urangan, Hervey Bay; the reader's fix at the tree falls at its north end, about 30 m from Boat Harbour Drive and its bus stop)"
+      ],
+      "access": "Seen from Boat Harbour Drive, about 30 m away, near the bus stop. The tree stands in the grounds of a private residential village; please look from the road and do not walk in.",
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "viewing place",
+        "sighting_id": "bddb92b5-0efd-43eb-b661-c7592a388e25",
+        "moved_m": 29,
+        "date": "2026-11-27",
+        "note": "The reader's fix at the tree (-25.296877, 152.904127) lies on the garden edge of a private residential village; the pin stands about 29 m north on the public roadside of Boat Harbour Drive, where the tree is seen from."
+      },
+      "found_by_reader": {
+        "sighting_id": "bddb92b5-0efd-43eb-b661-c7592a388e25",
+        "date": "2026-11-27"
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/hbq_001-pillar-root-fig-of-boat-harbour-drive.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_e0d004e60bf90bc4cce2b02d",
+        "sighting_id": "bddb92b5-0efd-43eb-b661-c7592a388e25",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); viewed and approved on 2026-11-27: a broad fig in leaf whose crown stands on a cluster of grey trunks and on further pillar trunks grown down from its limbs, a mulched garden bed in front, a road and a fence behind, a passer-by at the right edge, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app with a device GPS fix (sighting bddb92b5-0efd-43eb-b661-c7592a388e25), named 'A tree I found', no species, age, girth or note. Photograph viewed: a broad fig in leaf whose crown stands on a cluster of grey trunks and on further pillar trunks grown down from its limbs, a mulched garden bed in front, a road and a fence behind, a passer-by at the right edge, daylight, colour. No register entry within 100 m, no encyclopaedia article within 300 m (corroborate.py). OpenStreetMap (Nominatim reverse) places the fix in The Anchorage Lifestyle Resort, a private residential village, about 30 m south of Boat Harbour Drive and its bus stop: a fig this wide that close to the road is seen from it, so it ships view-only with the pin on the roadside (CLAUDE.md hard rule 10; Hidde, 2026-11-17: 'not public is also not 100% dismiss if its viewable'). Species left as the genus and asked on the page."
+    }
+  ],
+  "question_meta": "Where to see the pillar-root fig on Boat Harbour Drive in Urangan, Hervey Bay, Queensland: a reader's photograph and how to find it.",
+  "question_answer": "The Pillar-Root Fig of Boat Harbour Drive grows in Urangan, at the eastern end of Hervey Bay in Queensland. It stands on the edge of a private residential village and is seen from Boat Harbour Drive, near the bus stop.",
+  "question_context": "Urangan is the eastern end of Hervey Bay, the line of beach suburbs on the Queensland coast that looks across sheltered water to K'gari, the island long known as Fraser Island. Boat Harbour Drive runs through it towards the marina, where the whale-watching boats leave in season. Beside the road, on the garden edge of a private residential village, grows a broad fig that a reader walked under and photographed. Its crown rests on a knot of braided grey trunks and on a separate pillar that began as a root dropped from a limb above, reached the ground and thickened until it could carry weight. We do not yet know which fig it is, how old it is or who planted it; its leaves are broad and glossy like several of the big figs of the Queensland coast. The grounds are private, so look from the roadside about 30 m away. Anyone who knows this tree, its species or its age can tell us on the tree's page.",
+  "faq": [
+    {
+      "q": "Can I visit The Pillar-Root Fig of Boat Harbour Drive?",
+      "a": "You can see it from Boat Harbour Drive in Urangan, near the bus stop. The tree stands in the grounds of a private residential village, so look from the road."
+    },
+    {
+      "q": "Why does the fig in Urangan have more than one trunk?",
+      "a": "Some figs drop roots from their limbs. When a root reaches the soil it thickens into a pillar that holds the branch up, and the tree can keep spreading."
+    },
+    {
+      "q": "How old is the fig on Boat Harbour Drive?",
+      "a": "We do not know yet. If you know its age or who planted it, tell us on the tree's page."
+    }
+  ]
+}

@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: a pillar-rooted fig in Hervey Bay, Queensland, live from a reader's photograph
+
+- **Live: hervey-bay/hbq_001, the Pillar-Root Fig of Boat Harbour Drive** (sighting bddb92b5). This is a new one-tree place, so it gets no place page. The photograph shows a broad fig standing on braided grey trunks, with a separate pillar root holding up a level limb. It is clearly special. The species is left as Fig (Ficus sp.) and the page asks readers what it is. The reader gave no species, age, girth or note.
+- **Pin**: OpenStreetMap puts the reader's GPS fix on the garden edge of The Anchorage Lifestyle Resort, a private residential village, about 30 m from Boat Harbour Drive and its bus stop. A fig that size so close to the road can be seen from it. So it ships view-only (hard rule 10), with the pin moved 29 m onto the roadside: `approximate`, `pin_source` "viewing place", with the reader's fix kept in the note. The access line says to look from the road and not walk in. The photo is filed under November, from the photograph's own date. A passer-by stands at the right edge of the frame, seen from behind.
+- No open reports, tips, feedback, further photographs or words to quote. The 37 other open leads are September and October rows from our own accounts. qa source checks were clean, preflight found 0 problems and i18ncheck was clean. A NOTE remains: city_names.py has not yet looked up Hervey Bay in other languages.
+
 ## 2026-11-27 reader judge: a second photograph of the Kyoto Gyoen muku, and its pin now follows that photo's GPS
 
 - **Live: kyoto/kyo_019, the Twisted Muku of Omiya Gate** has a second photograph, in the strip behind the lead (sighting f17b77f9, taken April 2026, filed under April). It shows the pale, twisting trunk rising over the park's stone wall with its roots on the kerb, exactly as the recognition line describes. It was shot from across Marutamachi-dori through a window, and the streaks on the glass keep it out of the lead spot.

@@ -13171,6 +13171,39 @@
    "seen": "2026-11-27",
    "judged": "2026-11-27",
    "published_as": "alstonville/aln_001"
+  },
+  {
+   "sighting_id": "bddb92b5-0efd-43eb-b661-c7592a388e25",
+   "user_id": "p_e0d004e60bf90bc4cce2b02d",
+   "mine": false,
+   "name": "A tree I found",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -25.2968766528833,
+   "longitude": 152.90412684114,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_e0d004e60bf90bc4cce2b02d/BDDB92B5-0EFD-43EB-B661-C7592A388E25.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-27: a broad fig in leaf whose crown stands on a cluster of grey trunks and on further pillar trunks grown down from its limbs, a mulched garden bed in front, a road and a fence behind, a passer-by at the right edge, daylight, colour. Live as hervey-bay/hbq_001 under the closed list (Hidde, 2026-11-17), view-only from Boat Harbour Drive, pin on the roadside.",
+   "seen": "2026-11-27",
+   "judged": "2026-11-27",
+   "published_as": "hervey-bay/hbq_001"
   }
  ]
 }

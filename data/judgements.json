@@ -216,6 +216,44 @@
    "agreed": null
   },
   {
+   "id": "sight:bddb92b5-0efd-43eb-b661-c7592a388e25",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Pillar-Root Fig of Boat Harbour Drive",
+   "city": "Hervey Bay",
+   "species": "Fig (Ficus sp.)",
+   "photo": "p_e0d004e60bf90bc4cce2b02d/BDDB92B5-0EFD-43EB-B661-C7592A388E25.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: a broad fig on braided grey trunks and a separate pillar root under a level limb; lead of hbq_001."
+  },
+  {
+   "id": "lead:bddb92b5-0efd-43eb-b661-c7592a388e25",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_e0d004e60bf90bc4cce2b02d/BDDB92B5-0EFD-43EB-B661-C7592A388E25.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad fig standing on braided grey trunks plus a separate pillar root holding up a level limb, daylight, colour; device GPS fix. Somewhat special by any walker's eye. The fix falls on the garden edge of a private residential village 30 m from Boat Harbour Drive, so it ships view-only with the pin on the roadside. Species left as Ficus sp. Live as hervey-bay/hbq_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",
