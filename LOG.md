@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-27 session: the iPhone map stays still when a pin is tapped; the red feed test fixed
+
+- Tapping a pin used to slide the whole map up by about 115 points as the card rose, and down again when it closed. Now the map stays where it was: the pin grows in place, and the map only moves when the card would cover the pin. Checked in the simulator (Amsterdam: a pin in the upper map stays put, a low one is brought up, closing leaves everything in place) and with TreeMapPinTapTests. Android has not been checked yet; that is an open row in data/map-parity.json.
+- The red iOS CI (BackKeepsPlaceWalk) came from moving People you may know lower: that also moved the break in the signed-out feed grid. Now the later break applies only where the row actually shows. The test passes again locally.
+- SignedOutWalk testAmbassadorSeatAsks fails locally on the last green commit too, so it is not from these changes. In CI the Discover sign-in test failed once. If CI goes red on either, it needs a look of its own.
+- Not on main: the wider tab bar pill (TabBar.swift in the chain-42 worktree), which waits for Hidde's yes on drafts/design-2026-11-27-tabbar-pill.png.
+
 ## 2026-11-27 session: the app now says where every tree was opened from (iOS and Android)
 
 - `tree_opened` carries `from` on both phones. It names the tab, plus the page under the tree when it was not the tab's first screen ("map", "feed", "my-trees", "discover/collection", "feed/person", "discover/tree"). On Discover it names the row instead ("discover/best", "discover/trending", "discover/visitors", "discover/want", "discover/more-near-you"). A few other ways in say what they are: "search", "map/pin" (a pin's card), "nearby" (the nearby banner) and "link" (a web link). Hidde asked for it on every page: "kunnen we dit uberhaupt toevoegen op alle paginas dat we zien waar mensen klikken op bomen wat werkt en niet?"
