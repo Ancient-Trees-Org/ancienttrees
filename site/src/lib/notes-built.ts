@@ -25,9 +25,20 @@ function load(): Record<string, BuiltNote[]> {
   return cached!;
 }
 
+/** A reader's own em dash becomes a spaced hyphen: hard rule 3 holds for
+ *  every word on the site, and the first build with notes in the HTML failed
+ *  qa on two of them (2026-11-27). TREE_NOTES_JS does the same on redraw. */
+export function noDash(s: string): string {
+  return s.replace(/\s*—\s*/g, " - ");
+}
+
 /** The visible notes on this tree, newest first; [] when none or no file. */
 export function builtNotes(treeId: string): BuiltNote[] {
-  return load()[treeId] ?? [];
+  return (load()[treeId] ?? []).map((n) => ({
+    ...n,
+    body: noDash(n.body),
+    author_name: n.author_name ? noDash(n.author_name) : null,
+  }));
 }
 
 /** The newest note's day (YYYY-MM-DD), for the page's lastmod; null when none. */

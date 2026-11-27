@@ -122,7 +122,9 @@ export const TREE_NOTES_JS = `
     meta.appendChild(w);
     meta.appendChild(el('span', null, dayOf(r.created_at)));
     li.appendChild(meta);
-    li.appendChild(el('p', null, r.body));
+    // A reader's own em dash as a spaced hyphen, as the build writes it
+    // (lib/notes-built.ts noDash; hard rule 3).
+    li.appendChild(el('p', null, String(r.body || '').replace(/\\s*\\u2014\\s*/g, ' - ')));
     return li;
   }
   function sameNote(a, b) {
