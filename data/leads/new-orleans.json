@@ -48,6 +48,52 @@
    "why": "2026-11-02 pin angles exhausted, do not repeat: (1) OSM via Nominatim (Overpass is unreachable from this Mac, exit 7 and 28) holds natural=tree nodes only for McDonogh Oak and Tree of Life (both already live), none for these five or any other New Orleans oak; (2) Commons search and geosearch (5 km round City Park) name only Dueling, Suicide, McDonogh and Glory Oak (File:Glory Oak - City Park, New Orleans.jpg, licence not checked, no geotag-to-name evidence); (3) 100oaks.blog has no post on any of the five; (4) City Park's 2024 official map PDF (neworleanscitypark.org/wp-content/uploads/2024/04/NOCP-Map_2024.pdf) marks the Historic Oak Grove but no named oak; oldgrowthforest.net names only Anseman, McDonogh, Suicide. Only an old walking-tour brochure or an on-site GPS fix would place them.",
    "species": "Oak (Quercus sp.)",
    "species_basis": "genus read from the tree's own name; ask the reader which species"
+  },
+  {
+   "id": "nol_009",
+   "name": "The Oak by the Bayou Metairie Lagoon",
+   "species": "Southern Live Oak (Quercus virginiana)",
+   "location": {
+    "address": "City Park, on the path along the Bayou Metairie lagoon north of the Anseman Avenue entrance",
+    "latitude": 29.9842966666667,
+    "longitude": -90.0983888333333,
+    "neighbourhood": "City Park"
+   },
+   "story": "A reader walking City Park's old oak grove in February photographed this tree, about 130 metres north of the Anseman Oak, on the side of the grove that runs down to the water of Bayou Metairie.\n\nIt is a southern live oak, hung with Spanish moss like its neighbours. The trunk is broad and short and rises out of a fan of surface roots beside the path, then forks at about head height into a handful of enormous limbs that twist up and out in every direction, carrying a crown that fills the sky in the photograph. The lagoon shows through at the left, and fan palms crowd the bank behind.\n\nCity Park's oldest oaks grow on the raised strip of ground between City Park Avenue and the bayou, which the bayou built up with its silt over centuries. This one stands at the bayou end of it. We have no name, age or girth for it yet. If you know it, tell us and we will add it as yours.\n\nFollow the path along the water and look for the fork above the roots.",
+   "how_to_recognise": "On the path beside the lagoon: a mossy live oak whose short broad trunk forks at head height into several huge twisting limbs, roots fanning out over the ground to the path.",
+   "access": "Free. Public city park, open daily.",
+   "verified_sources": [
+    "https://neworleanscitypark.org/venues/mcdonogh-oak/ (City Park: the Old Grove of live oaks along Bayou Metairie)"
+   ],
+   "found_by_reader": {
+    "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
+    "date": "2026-11-19"
+   },
+   "location_precision": "confirmed",
+   "pin_source": {
+    "kind": "reader GPS fix",
+    "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
+    "moved_m": 0,
+    "date": "2026-11-19",
+    "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+   },
+   "curation_status": "flagged",
+   "verify_notes": "2026-11-19 reader judge: sent by a reader through the app for the Anseman Oak (photo taken 2026-02-22). Its GPS fix is 126 m north of the Anseman's pin, itself another reader's GPS fix, and the trunk differs from the Anseman's lead photograph, so it was taken out of that tree's strip (other_tree) and published as a tree of its own under the closed list. Photograph viewed: a big live oak hung with Spanish moss, its trunk forking at mid-height into great sweeping limbs, a paved path in front and the water of the lagoon at the left, bright winter daylight, colour.",
+   "photo": {
+    "url": "https://ancienttrees.app/photos/nol_009-oak-by-the-bayou-metairie-lagoon.jpg",
+    "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+    "attribution": null,
+    "status": "approved",
+    "width": 1200,
+    "height": 1600,
+    "taken_month": 2,
+    "source": "contributor",
+    "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+    "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
+    "note": "Photographed by a reader and sent through the app (2026-02-22); viewed and approved on 2026-11-19: a big live oak hung with Spanish moss, its trunk forking at mid-height into great sweeping limbs, a paved path in front and the water of the lagoon at the left, bright winter daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+   },
+   "removed": "2026-11-27",
+   "removed_reason": "duplicate of nol_002: the same Anseman Oak, confirmed by the city's ambassador 2026-11-26; its photo and pin moved to nol_002"
   }
  ],
  "blocked": [

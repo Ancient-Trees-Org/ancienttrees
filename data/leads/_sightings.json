@@ -7408,10 +7408,10 @@
    "nearest_published_m": 126,
    "sent_for": "nol_002",
    "status": "published",
-   "why": "Photograph viewed 2026-11-19: a big live oak hung with Spanish moss, its trunk forking at mid-height into great sweeping limbs, a paved path in front and the water of the lagoon at the left, bright winter daylight, colour. Live as new-orleans/nol_009 under the closed list (Hidde, 2026-11-17).",
+   "why": "Photograph viewed 2026-11-19: a big live oak hung with Spanish moss, its trunk forking at mid-height into great sweeping limbs, a paved path in front and the water of the lagoon at the left, bright winter daylight, colour. Live as new-orleans/nol_009 under the closed list (Hidde, 2026-11-17). 2026-11-27: folded into nol_002, the Anseman Oak it was sent for (the ambassador confirmed the spot).",
    "seen": "2026-11-19",
    "judged": "2026-11-19",
-   "published_as": "new-orleans/nol_009"
+   "published_as": "new-orleans/nol_002"
   },
   {
    "sighting_id": "f8d4d7f9-5ca6-429d-8016-d34ff35182f8",
@@ -13373,6 +13373,33 @@
    "seen": "2026-11-27",
    "hold": "doubt_location",
    "judged": "2026-11-27"
+  },
+  {
+   "sighting_id": "91f2f869-b590-4465-8512-c49c7ca04a54",
+   "user_id": "p_802261c7cf0cd9b255100c55",
+   "mine": null,
+   "name": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 29.983274,
+   "longitude": -90.098953,
+   "location_kind": null,
+   "near": "New Orleans",
+   "photo": "p_802261c7cf0cd9b255100c55/91F2F869-B590-4465-8512-C49C7CA04A54.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": null,
+   "sent_for": "nol_002",
+   "status": "lead",
+   "why": "Was the Anseman Oak's lead photograph (2026-11-15): a massive burled, knotted live oak trunk in City Park's old grove. 2026-11-27 the city's ambassador, a local photographer of these oaks, placed the Anseman just off Anseman Avenue east of the lagoon bridge, 115 m north of this GPS fix, and the Anseman's trunk forks at head height, unlike this one. So this is another grove oak, name unknown; the grove holds dozens of named oaks close together (the 1999 City Park walking tour), so it waits for the tour map to say which one rather than becoming another unnamed tree.",
+   "seen": "2026-11-15",
+   "judged": "2026-11-27",
+   "published_as": null,
+   "hold": "doubt_location"
   }
  ]
 }

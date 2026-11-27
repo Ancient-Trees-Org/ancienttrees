@@ -2,9 +2,9 @@
   "city": "New Orleans",
   "country": "United States",
   "status": "needs_curation",
-  "intro": "Seven of these nine stand in City Park, which holds more registered live oaks than any other place on earth, and the three oldest sit on a strip between City Park Avenue and Bayou Metairie that never flooded, not even in 2005. The bayou spent centuries dropping silt and raised that ground a metre above the rest of the park, which is why the city's oldest oaks are the ones on the high ground. Two are reckoned between seven and nine hundred years old and one stands on wooden crutches. The other two are uptown by the zoo.",
-  "meta_description": "Nine remarkable trees in New Orleans: a 700-year live oak on crutches, the last duelling oak, an oak hung with wind chimes, and the Tree of Life.",
-  "question_meta": "New Orleans's oldest tree is the McDonogh Oak in City Park, reckoned at 700 to 800 years. Where it stands, and eight more worth the walk.",
+  "intro": "Six of these eight stand in City Park, which holds more registered live oaks than any other place on earth, and the three oldest sit on a strip between City Park Avenue and Bayou Metairie that never flooded, not even in 2005. The bayou spent centuries dropping silt and raised that ground a metre above the rest of the park, which is why the city's oldest oaks are the ones on the high ground. Two are reckoned between seven and nine hundred years old and one stands on wooden crutches. The other two are uptown by the zoo.",
+  "meta_description": "Eight remarkable trees in New Orleans: a 700-year live oak on crutches, the last duelling oak, an oak hung with wind chimes, and the Tree of Life.",
+  "question_meta": "New Orleans's oldest tree is the McDonogh Oak in City Park, reckoned at 700 to 800 years. Where it stands, and seven more worth the walk.",
   "question_answer": "The oldest tree in New Orleans is the McDonogh Oak, a southern live oak in the Old Grove of City Park, between City Park Avenue and Bayou Metairie. City Park puts it at 700 to 800 years and other accounts stretch to 900, which would make it older than the city by five centuries. The trunk is over eight metres round and the crown reaches about forty six metres across, wide enough that the longest branches now rest on wooden crutches. The Anseman Oak, a few hundred metres west in the same grove, is given the same range and by some accounts is the older of the two. Nobody has cored either, so the honest answer is that they are the two oldest and the order between them is not settled.",
   "question_context": "Ages here are estimates from City Park and from the Old-Growth Forest Network, which added this grove in 2018 as the first site in Louisiana. None comes from a core sample. Live oak is difficult to date because it grows fast when young, slows unpredictably and often hollows, so a range of two centuries is the honest width. Girths are firmer: the trunk figures come from measured surveys and from the Live Oak Society, which has registered live oaks since 1934 and now lists over ten thousand across fourteen states. Two hundred and forty nine of them stand in City Park, more registered live oaks than anywhere else on earth. That society is a garden club rather than a government body, so it is used here to find and cross-check trees rather than as a register in its own right. Where a pin is marked approximate it means the street or the grove is known and the trunk is not, which in a grove of hundreds of old oaks is worth saying plainly.",
   "hero_tree_id": "nol_001",
@@ -24,7 +24,7 @@
     },
     {
       "q": "Are these free to visit?",
-      "a": "Seven of the nine. City Park and Audubon Park are open public parks with no entry charge, and the Tree of Life stands outside the zoo fence, so no ticket is needed for it. Two, though, sit behind a ticket: the Martha Washington Oak is inside Audubon Zoo and the Enrique Alferez Oak is inside City Park's Botanical Garden, both of which charge their own admission."
+      "a": "Six of the eight. City Park and Audubon Park are open public parks with no entry charge, and the Tree of Life stands outside the zoo fence, so no ticket is needed for it. Two, though, sit behind a ticket: the Martha Washington Oak is inside Audubon Zoo and the Enrique Alferez Oak is inside City Park's Botanical Garden, both of which charge their own admission."
     }
   ],
   "trees": [
@@ -45,7 +45,8 @@
       "verified_sources": [
         "https://neworleanscitypark.org/venues/mcdonogh-oak/",
         "https://www.oldgrowthforest.net/la-historic-live-oak-grove-city-park",
-        "https://www.sierraclub.org/louisiana/blog/2018/10/new-orleans-city-park-s-oak-grove-joins-national-old-growth-forest-network"
+        "https://www.sierraclub.org/louisiana/blog/2018/10/new-orleans-city-park-s-oak-grove-joins-national-old-growth-forest-network",
+        "City Park, 'City Park's Historic Live Oak Trees: A Visitor's Walking Tour' (Friends of City Park, 1999 measurements; scan sent by the city's ambassador)"
       ],
       "access": "Free. Public city park, open daily.",
       "transport": "City Park, about 6 km north of the French Quarter. Canal Streetcar to City Park / Museum, then a walk west along the grove.",
@@ -84,7 +85,9 @@
           "sighting_id": "417749a0-3387-4bd0-853a-ce00cd4dad90-extra-1",
           "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
-      ]
+      ],
+      "girth_cm": 775,
+      "height_m": 21.9
     },
     {
       "id": "nol_002",
@@ -94,16 +97,17 @@
       "age_min": 500,
       "age_max": 900,
       "location": {
-        "address": "City Park, just inside the Anseman Avenue entrance, on City Park Avenue opposite North Alexander Street",
-        "latitude": 29.983274,
-        "longitude": -90.098953,
+        "address": "City Park, just off Anseman Avenue, east of the lagoon bridge",
+        "latitude": 29.9842966666667,
+        "longitude": -90.0983888333333,
         "neighbourhood": "City Park"
       },
-      "story": "Victor Anseman was a florist who retired and then gave the last fifteen years of his life to a park. In 1891 he pulled together the business and political people of the city into the City Park Improvement Association, which is the reason there is a park here at all rather than a subdivision. He died in 1904 and they named this oak after him.\n\nIt is a good choice of monument. The tree is given the same range as the McDonogh Oak, five hundred to nine hundred years, and some accounts make it the older of the two. Neither has been cored, so the order between them is a matter of who is doing the estimating.\n\nIt stands at the western end of the same high strip of ground, just inside the entrance that also carries his name. The pin here marks the entrance rather than the trunk, because the grove holds hundreds of old oaks and pretending to know which metre is the one would be a promise this page cannot keep. Walk in from City Park Avenue opposite North Alexander and look for the biggest thing standing.",
+      "story": "Victor Anseman was a florist who retired and then gave the last fifteen years of his life to a park. In 1891 he pulled together the business and political people of the city into the City Park Improvement Association, which is the reason there is a park here at all rather than a subdivision. He died in 1904 and they named this oak after him.\n\nIt is a good choice of monument. The tree is given the same range as the McDonogh Oak, five hundred to nine hundred years, and some accounts make it the older of the two. Neither has been cored, so the order between them is a matter of who is doing the estimating.\n\nIt stands at the western end of the same high strip of ground, just off the avenue that also carries his name, east of the bridge over the lagoon. City Park's own walking tour measured it in 1999 at 23 feet 7 inches round and 60 feet tall. Look for the short, broad trunk that splits at head height into great twisting limbs.",
       "verified_sources": [
         "https://www.sierraclub.org/louisiana/blog/2018/10/new-orleans-city-park-s-oak-grove-joins-national-old-growth-forest-network",
         "https://www.oldgrowthforest.net/la-historic-live-oak-grove-city-park",
-        "https://neworleanshistorical.org/items/show/115"
+        "https://neworleanshistorical.org/items/show/115",
+        "City Park, 'City Park's Historic Live Oak Trees: A Visitor's Walking Tour' (Friends of City Park, 1999 measurements; scan sent by the city's ambassador)"
       ],
       "access": "Free. Public city park, open daily.",
       "transport": "City Park, about 6 km north of the French Quarter. Enter from City Park Avenue at the Anseman Avenue entrance.",
@@ -114,22 +118,25 @@
         "status": "approved",
         "width": 1200,
         "height": 1600,
-        "taken_month": 11,
+        "taken_month": 2,
         "source": "contributor",
-        "contributor_user_id": "p_802261c7cf0cd9b255100c55",
-        "sighting_id": "91f2f869-b590-4465-8512-c49c7ca04a54",
-        "note": "Photographed by a reader and sent through the app (2026-11-15); a viewing pass approved it on 2026-11-15: Tree has no photograph; a massive burled live oak trunk with Spanish moss and resurrection fern in City Park, the reader's GPS 92 m inside the entrance the pin marks. Basis is the reader's pick plus GPS; the grove holds many old oaks. Species seen: Southern live oak: blocky dark bark, Spanish moss, resurrection fern on the limbs, palmettos below. Fits the description: A very large, very old live oak with a huge buttressed trunk and wide limbs, just inside the City Park Avenue entrance by the reader's GPS.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+        "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
+        "note": "Photographed by a reader and sent through the app (2026-02-22); viewed and approved on 2026-11-19: a big live oak hung with Spanish moss, its trunk forking at mid-height into great sweeping limbs, a paved path in front and the water of the lagoon at the left, bright winter daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Moved to the Anseman Oak 2026-11-27: the reader sent it for this tree, and the city's ambassador, a local photographer of these oaks, confirmed the GPS fix is where the Anseman Oak stands."
       },
-      "how_to_recognise": "A very large spreading live oak just inside the entrance, at the western end of the old grove along City Park Avenue.",
+      "how_to_recognise": "Just off Anseman Avenue, east of the lagoon bridge: a mossy live oak whose short broad trunk forks at head height into several huge twisting limbs.",
       "curation_status": "flagged",
       "location_precision": "confirmed",
       "pin_source": {
         "kind": "reader GPS fix",
-        "sighting_id": "91f2f869-b590-4465-8512-c49c7ca04a54",
-        "moved_m": 92,
-        "date": "2026-11-15",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+        "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
+        "moved_m": 0,
+        "date": "2026-11-19",
+        "note": "The pin marks where a reader stood to photograph this tree, sent for the Anseman Oak; a local photographer of the park's oaks confirmed the spot (2026-11-26)."
+      },
+      "girth_cm": 719,
+      "height_m": 18.3,
+      "verify_notes": "2026-11-27: the city's ambassador, a New Orleans photographer of the park's oaks, wrote that our pin was wrong and that the tree stands just off Anseman Avenue east of the lagoon bridge, where nol_009's reader GPS fix stood; nol_009 (sent by that reader for this tree) folded in as a duplicate and its photo made the lead. The previous lead (sighting 91f2f869, a burly knotted trunk 115 m south) shows another grove oak, tree unknown; kept as a lead in data/leads/_sightings.json. Girth and height from the 1999 walking tour brochure."
     },
     {
       "id": "nol_003",
@@ -148,7 +155,8 @@
       "verified_sources": [
         "https://neworleanshistorical.org/items/show/109",
         "https://www.theadvocate.com/gambit/new_orleans/news/blake_pontchartrain/article_4f2e2e10-c820-5d29-8cb1-61499d8f962a.html",
-        "https://www.lgcfinc.org/uploads/1/5/1/2/15124054/001-5000.pdf"
+        "https://www.lgcfinc.org/uploads/1/5/1/2/15124054/001-5000.pdf",
+        "City Park, 'City Park's Historic Live Oak Trees: A Visitor's Walking Tour' (Friends of City Park, 1999 measurements; scan sent by the city's ambassador)"
       ],
       "access": "Free. Public city park, open daily.",
       "transport": "City Park, beside the New Orleans Museum of Art. Canal Streetcar to City Park / Museum.",
@@ -167,7 +175,8 @@
         "name": "Live Oak Society registry (Louisiana Garden Club Federation), no. 912",
         "url": null
       },
-      "girth_cm": 510
+      "girth_cm": 510,
+      "height_m": 13.7
     },
     {
       "id": "nol_004",
@@ -226,7 +235,8 @@
         "https://www.theadvocate.com/gambit/new_orleans/news/blake_pontchartrain/article_4f2e2e10-c820-5d29-8cb1-61499d8f962a.html (Gambit / The Advocate, Blake Pontchartrain, answering where the Dueling Oaks and the Suicide Oak stand: Victory Avenue near Marconi Drive)",
         "https://www.theadvocate.com/baton_rouge/sports/outdoors/10-spots-to-see-majestic-live-oaks-in-the-new-orleans-area/article_55e0cf23-03cd-5109-9804-bc313aff3592.html (The Advocate, guide to the area's live oaks: same location, and the low branch that frames the walkway)",
         "https://www.myneworleans.com/old-and-magnificent/ (New Orleans Magazine, 'Old and Magnificent': names it with the McDonogh and Anseman oaks as remnants of the forest that predates the city, and records the two limbs lost in the 1980s)",
-        "https://nolahistoryguy.com/suicide-oak-city-park/ (NOLA History Guy, Edward Branley, on the sixteen deaths over roughly twelve years)"
+        "https://nolahistoryguy.com/suicide-oak-city-park/ (NOLA History Guy, Edward Branley, on the sixteen deaths over roughly twelve years)",
+        "City Park, 'City Park's Historic Live Oak Trees: A Visitor's Walking Tour' (Friends of City Park, 1999 measurements; scan sent by the city's ambassador)"
       ],
       "access": "Free. Public city park, open daily.",
       "transport": "City Park, about 6 km north of the French Quarter. Canal Streetcar to City Park / Museum, then twenty minutes northwest through the park, or park on Victory Avenue.",
@@ -259,7 +269,9 @@
         "moved_m": 140,
         "date": "2026-11-15",
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
-      }
+      },
+      "girth_cm": 676,
+      "height_m": 19.8
     },
     {
       "id": "nol_006",
@@ -354,7 +366,8 @@
       "verified_sources": [
         "http://web.archive.org/web/20221006193518/https://neworleanscitypark.com/live-oaks-of-city-park",
         "https://www.lgcfinc.org/uploads/1/5/1/2/15124054/live_oak_society_-_orleans.docx",
-        "https://neworleanscitypark.org/botanical-garden/"
+        "https://neworleanscitypark.org/botanical-garden/",
+        "City Park, 'City Park's Historic Live Oak Trees: A Visitor's Walking Tour' (Friends of City Park, 1999 measurements; scan sent by the city's ambassador)"
       ],
       "access": "Paid entry: inside the New Orleans Botanical Garden in City Park. Open Tuesday to Sunday 10am to 4:30pm (last entry 4pm), closed Mondays. Adults $17 for Louisiana residents, $27 for non-residents; children 3 to 12 $8; under 3 free; free for Louisiana residents on Wednesdays (valid Louisiana ID required).",
       "transport": "City Park, Mid-City, about 6 km north of the French Quarter. Canal Streetcar to City Park / Museum, then a walk to the Botanical Garden entrance on Victory Avenue.",
@@ -369,51 +382,8 @@
         "status": "missing"
       },
       "photos": [],
-      "paid_entry": true
-    },
-    {
-      "id": "nol_009",
-      "name": "The Oak by the Bayou Metairie Lagoon",
-      "species": "Southern Live Oak (Quercus virginiana)",
-      "location": {
-        "address": "City Park, on the path along the Bayou Metairie lagoon north of the Anseman Avenue entrance",
-        "latitude": 29.9842966666667,
-        "longitude": -90.0983888333333,
-        "neighbourhood": "City Park"
-      },
-      "story": "A reader walking City Park's old oak grove in February photographed this tree, about 130 metres north of the Anseman Oak, on the side of the grove that runs down to the water of Bayou Metairie.\n\nIt is a southern live oak, hung with Spanish moss like its neighbours. The trunk is broad and short and rises out of a fan of surface roots beside the path, then forks at about head height into a handful of enormous limbs that twist up and out in every direction, carrying a crown that fills the sky in the photograph. The lagoon shows through at the left, and fan palms crowd the bank behind.\n\nCity Park's oldest oaks grow on the raised strip of ground between City Park Avenue and the bayou, which the bayou built up with its silt over centuries. This one stands at the bayou end of it. We have no name, age or girth for it yet. If you know it, tell us and we will add it as yours.\n\nFollow the path along the water and look for the fork above the roots.",
-      "how_to_recognise": "On the path beside the lagoon: a mossy live oak whose short broad trunk forks at head height into several huge twisting limbs, roots fanning out over the ground to the path.",
-      "access": "Free. Public city park, open daily.",
-      "verified_sources": [
-        "https://neworleanscitypark.org/venues/mcdonogh-oak/ (City Park: the Old Grove of live oaks along Bayou Metairie)"
-      ],
-      "found_by_reader": {
-        "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
-        "date": "2026-11-19"
-      },
-      "location_precision": "confirmed",
-      "pin_source": {
-        "kind": "reader GPS fix",
-        "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
-        "moved_m": 0,
-        "date": "2026-11-19",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
-      },
-      "curation_status": "flagged",
-      "verify_notes": "2026-11-19 reader judge: sent by a reader through the app for the Anseman Oak (photo taken 2026-02-22). Its GPS fix is 126 m north of the Anseman's pin, itself another reader's GPS fix, and the trunk differs from the Anseman's lead photograph, so it was taken out of that tree's strip (other_tree) and published as a tree of its own under the closed list. Photograph viewed: a big live oak hung with Spanish moss, its trunk forking at mid-height into great sweeping limbs, a paved path in front and the water of the lagoon at the left, bright winter daylight, colour.",
-      "photo": {
-        "url": "https://ancienttrees.app/photos/nol_009-oak-by-the-bayou-metairie-lagoon.jpg",
-        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
-        "attribution": null,
-        "status": "approved",
-        "width": 1200,
-        "height": 1600,
-        "taken_month": 2,
-        "source": "contributor",
-        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
-        "sighting_id": "f37a9e16-ce5b-48ab-a115-8f435303f92e",
-        "note": "Photographed by a reader and sent through the app (2026-02-22); viewed and approved on 2026-11-19: a big live oak hung with Spanish moss, its trunk forking at mid-height into great sweeping limbs, a paved path in front and the water of the lagoon at the left, bright winter daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+      "paid_entry": true,
+      "height_m": 15.2
     }
   ]
 }

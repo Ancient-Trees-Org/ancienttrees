@@ -204,6 +204,8 @@ const CROSS_CITY_MERGED_TREE_SLUGS: [string, string, string, string][] = [
 // rather than a cleanup: check_register_says_the_tree_is_gone() in
 // scripts/preflight.py now fails on any published tree citing a status-5 row.
 const REMOVED_TREE_SLUGS: [string, string][] = [
+  // 2026-11-27, scripts/retire.py: duplicate of nol_002: the same Anseman Oak, confirmed by the city's ambassador 2026-11-26;
+  ["new-orleans", "oak-by-the-bayou-metairie-lagoon"],
   // 2026-11-22, scripts/retire.py: dead: felled, a reader's photograph of 2026-11-22 (sighting 3771a756, 7 m from the pin) sh
   ["girona", "great-pine-of-romanya"],
   // 2026-11-20, scripts/retire.py: dead: taken down by Tyler Arboretum (its own page 'Remembrance for the Cedar of Lebanon', 
