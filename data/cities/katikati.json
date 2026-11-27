@@ -1,0 +1,93 @@
+{
+  "city": "Katikati",
+  "country": "New Zealand",
+  "status": "needs_curation",
+  "intro": "Katikati is a small town on the western shore of Tauranga Harbour in the Bay of Plenty, with the forested Kaimai Range rising behind it. The range marks the southern edge of the kauri's natural home, and up in its forest a reader photographed a kauri that a sign measures at 2.7 metres across, with nearly thirteen metres of bare trunk before the first limb.",
+  "meta_description": "A giant kauri in the Kaimai Range above Katikati, Bay of Plenty: 2.7 metres across by its sign, reached on a short forest walk.",
+  "hero_tree_id": "kti_001",
+  "oldest_tree_id": "kti_001",
+  "trees": [
+    {
+      "id": "kti_001",
+      "name": "The Kaimai Kauri above Katikati",
+      "species": "Kauri (Agathis australis)",
+      "age_estimate": "about 600 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Forest track in the Kaimai Range above Katikati, Bay of Plenty",
+        "latitude": -37.5046866,
+        "longitude": 175.9296561,
+        "neighbourhood": "Kaimai Range"
+      },
+      "story": "\"One of the largest in the Kaimai range,\" wrote the reader who sent us this kauri from the forest above Katikati, \"only about 15 to 20 mins walk to the tree.\"\n\nThe Kaimai Range is the southern edge of the kauri's natural home, so a giant here is a long way from the famous forests of Northland. The photograph shows the shape that makes a kauri unlike any other tree. A single grey column, smooth and pale and patterned like hammered metal, rises without a branch far above the forest around it, and only then breaks into a crown of thick, crooked limbs carrying their own gardens of ferns and lilies.\n\nA sign at its foot gives 12.8 metres of trunk to the first limb and 2.7 metres across at one and a half metres up. The reader puts its girth at about 8.5 metres and its age at 600 years. The age is their estimate; we have not seen a measurement of it.\n\nA timber boardwalk carries you right up to the trunk and keeps your feet off its shallow roots, which kauri dieback attacks through soil carried on boots. Stay on the boards, and when you reach the sign, look straight up.",
+      "how_to_recognise": "A huge pale grey column of a trunk with no branches for its first twelve metres, ringed by a timber boardwalk with a green sign at its foot naming it Kauri, Agathis australis.",
+      "access": "Free, on a forest track about 15 to 20 minutes' walk in, by the reader's account. Kauri tracks in the Kaimai Range can close to protect the trees from kauri dieback; check the track's status with the Department of Conservation before you go, and clean your boots at any hygiene station.",
+      "verified_sources": [
+        "Reader's photograph of the sign at the tree (2026-11-27): 'KAURI Agathis australis, Height to first limb 12.8 m, Diameter at 1.5 m 2.7 m'"
+      ],
+      "found_by_reader": {
+        "sighting_id": "412d732a-a569-428b-a51e-cd7bb7f82119",
+        "date": "2026-11-27"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "412d732a-a569-428b-a51e-cd7bb7f82119",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app (412d732a-a569-428b-a51e-cd7bb7f82119). Photograph viewed: the pale, hammered grey column of a kauri trunk rising straight from a timber boardwalk into the forest canopy, a DOC-style sign at its foot reading 'KAURI Agathis australis, Height to first limb 12.8 m, Diameter at 1.5 m 2.7 m', daylight, colour. A second photograph looks up the trunk into the crown. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Kauri', species 'Kauri', age '600', girth 850 cm (the sign's 2.7 m diameter agrees). No register entry within 100 m. A web search found the Tuahu Kauri Track and a NZ Herald piece on a 600-year-old kauri with a wraparound boardwalk south of Katikati, but nothing ties either to this pin, so neither is named.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/kti_001-kaimai-kauri-above-katikati.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 900,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_bbdee5b7a8f38ffa1b4a1176",
+        "sighting_id": "412d732a-a569-428b-a51e-cd7bb7f82119",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); viewed and approved on 2026-11-27: the pale, hammered grey column of a kauri trunk rising straight from a timber boardwalk into the forest canopy, a DOC-style sign at its foot reading 'KAURI Agathis australis, Height to first limb 12.8 m, Diameter at 1.5 m 2.7 m', daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/kti_001-the-kaimai-kauri-above-katikati-412d732a-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 900,
+          "height": 1600,
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, kept by the app",
+          "source": "contributor",
+          "contributor_user_id": "p_bbdee5b7a8f38ffa1b4a1176",
+          "sighting_id": "412d732a-a569-428b-a51e-cd7bb7f82119-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
+    }
+  ],
+  "question_meta": "A giant kauri in the Kaimai Range above Katikati, Bay of Plenty: 2.7 metres across by its sign, reached on a short forest walk.",
+  "question_answer": "The Kaimai Kauri stands in the forest of the Kaimai Range above Katikati, about 15 to 20 minutes' walk along a track by a reader's account, with a boardwalk around its trunk.",
+  "question_context": "A reader who sent this tree from the forest above Katikati calls it one of the largest kauri in the Kaimai Range, and says it is only about 15 to 20 minutes' walk from the start of the track. The Kaimai Range is the southern edge of the kauri's natural home, so a big kauri here is rarer than in Northland. The sign at the tree's foot, which the reader photographed, gives a diameter of 2.7 metres at 1.5 metres up and a height of 12.8 metres to the first limb. The reader puts its girth at about 8.5 metres and its age at about 600 years; that age is their estimate, not a measurement we have seen. The trunk rises as one smooth grey column far above the surrounding forest before it opens into a crown of heavy limbs. A timber boardwalk runs around it and keeps visitors off the shallow roots, which kauri dieback attacks through soil carried on boots, and tracks in the range can close to protect the trees, so check with the Department of Conservation before you go.",
+  "faq": [
+    {
+      "q": "Can I visit the Kaimai Kauri above Katikati?",
+      "a": "Yes, it is on a forest track, free to walk. Kauri tracks in the Kaimai Range can close to protect the trees from kauri dieback, so check the track's status with the Department of Conservation first."
+    },
+    {
+      "q": "How big is the Kaimai Kauri?",
+      "a": "The sign at the tree gives 2.7 metres across at 1.5 metres up and 12.8 metres of trunk to the first limb."
+    },
+    {
+      "q": "How long is the walk to the kauri?",
+      "a": "About 15 to 20 minutes from the start of the track, by the account of the reader who sent it to us."
+    }
+  ]
+}

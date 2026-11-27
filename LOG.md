@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-27 reader judge: a kauri in the Kaimai Range
+
+- New tree live: **The Kaimai Kauri above Katikati** (katikati/kti_001), a new one-tree place in New Zealand. A reader sent it through the app with a GPS fix at the tree: a pale grey kauri column on a boardwalk, its sign giving 2.7 m across and 12.8 m to the first limb. Their 600 years and 8.5 m girth are stated as theirs. Both photographs are up (lead and gallery); the access line says to check DOC for kauri-dieback track closures. The track is not named: nothing ties this pin to the Tuahu kauri or the Herald's 600-year-old boardwalk kauri.
+- No other readers' trees, reports, tips or feedback waiting. The other unheld leads in _sightings.json are our own account's (`mine`), not readers'.
+
 ## 2026-11-27 night run, fourth attempt in the window
 
 - Nothing shipped. No claims stand, 0 READY leads, own research paused. The last failed deploy's log shows only the fig description error, already fixed on main. Dispatch gives 403 and a local site build was denied, so the fix is unconfirmed until one deploy runs. For Hidde: `gh workflow run deploy.yml` once.

@@ -2,6 +2,35 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:412d732a-a569-428b-a51e-cd7bb7f82119",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Kaimai Kauri above Katikati",
+   "city": "Katikati",
+   "species": "Kauri (Agathis australis)",
+   "photo": "p_bbdee5b7a8f38ffa1b4a1176/412D732A-A569-428B-A51E-CD7BB7F82119.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the pale grey kauri column rising from a timber boardwalk, its sign at the foot (2.7 m across at 1.5 m, 12.8 m to first limb), daylight, colour; lead of katikati/kti_001. A second photograph, looking up the trunk into the crown, is in its gallery."
+  },
+  {
+   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
+   "seen": "before 2026-09-23",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
+   "city": "Kyoto",
+   "species": "Muku Tree (Aphananthe aspera)",
+   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:4b492b05-4ce4-46ec-8151-2c49e234334f",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
@@ -26,22 +55,6 @@
    "hidde": null,
    "agreed": null,
    "reason": "Lead photograph viewed: the whole two-trunked chestnut on the City Park lawn inside its chain ring, information panels at its edge, late-autumn daylight, colour; lead of coeur-dalene/coe_001."
-  },
-  {
-   "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
-   "seen": "before 2026-09-23",
-   "kind": "photo of a tree we map",
-   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
-   "city": "Kyoto",
-   "species": "Muku Tree (Aphananthe aspera)",
-   "photo": "https://ancienttrees.app/photos/kyo_019-the-twisted-muku-of-omiya-gate-kyoto-gyoen.jpg",
-   "reader_note": "",
-   "reader_girth_cm": null,
-   "measure": null,
-   "verdict": "publish",
-   "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
-   "hidde": null,
-   "agreed": null
   },
   {
    "id": "sight:1ff6cc31-6be5-40d3-90e8-62b0a221bd07",
@@ -914,6 +927,34 @@
    },
    "verdict": "publish",
    "reason": "Photograph viewed: a tall two-trunked American chestnut in Coeur d'Alene's City Park inside a chain ring with information panels, GPS fix at the park by the Fort Sherman playground; the city's own big-trees list names an American chestnut in City Park. Live as coeur-dalene/coe_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:412d732a-a569-428b-a51e-cd7bb7f82119",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Kauri",
+   "city": null,
+   "species": "Kauri",
+   "photo": "p_bbdee5b7a8f38ffa1b4a1176/412D732A-A569-428B-A51E-CD7BB7F82119.jpg",
+   "reader_note": "one of the largest in the Kaimai range. only about 15 to 20 mins walk to the tree",
+   "reader_girth_cm": 850,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Kauri"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a giant kauri trunk on a boardwalk with its sign (2.7 m across, 12.8 m to first limb), GPS fix at the tree; live as katikati/kti_001, a new one-tree place",
    "hidde": null,
    "agreed": null
   },

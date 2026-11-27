@@ -13640,6 +13640,43 @@
    "seen": "2026-11-27",
    "judged": "2026-11-27",
    "published_as": "coeur-dalene/coe_001"
+  },
+  {
+   "sighting_id": "412d732a-a569-428b-a51e-cd7bb7f82119",
+   "user_id": "p_bbdee5b7a8f38ffa1b4a1176",
+   "mine": false,
+   "name": "Kauri",
+   "unsure_among": null,
+   "species": "Kauri",
+   "age": "600",
+   "girth_cm": 850,
+   "girth_hugs": null,
+   "note": "one of the largest in the Kaimai range. only about 15 to 20 mins walk to the tree",
+   "latitude": -37.5046866,
+   "longitude": 175.9296561,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_bbdee5b7a8f38ffa1b4a1176/412D732A-A569-428B-A51E-CD7BB7F82119.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/412d732a-a569-428b-a51e-cd7bb7f82119-extra-1.jpg"
+   ],
+   "extra_months": [
+    11
+   ],
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-27: the pale, hammered grey column of a kauri trunk rising straight from a timber boardwalk into the forest canopy, a DOC-style sign at its foot reading 'KAURI Agathis australis, Height to first limb 12.8 m, Diameter at 1.5 m 2.7 m', daylight, colour. Live as katikati/kti_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-27",
+   "judged": "2026-11-27",
+   "published_as": "katikati/kti_001"
   }
  ]
 }
