@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-27, session (Hidde: dd, then the cedar)
+
+- **The Genoa cedar's reader gets a question, not a silent hold.** The judge held a reader's photo of gnv_012 as doubt_photo (summer frame, no camera data, a wooded slope where our page says church square). Hidde: "the photo looks like a legit phot", "just ask the person if its that tree or another one and ask for location", then "remember this response". Mailed through Resend; the text is now `hold_reply.py <id> photo_elsewhere "<tree>" --where ... --seen ... --kind ...` (test scripts/test_hold_reply_location.py), and BRIEF_READER_JUDGE.md tells the judge to ask it. A photo kept only in the reader's own collection has no reply row, so the script prints the text for a session to send.
+- **A reply sent as HTML only is now read.** Feedback 1715 ("no plain-text part") was Andrea's question about the ambassador role; `outreach_inbox.body_of()` falls back to the HTML part (scripts/test_body_of_html.py). Their answer had already gone out 11-26.
+- Checked and already done: the spreading web error (5f79931a8), the failed scheduled iOS run (fixed by the Feed back fix, green 06:46), Palheiro's Play address (on the testers list 11-26).
+
 ## 2026-11-27 session: a tree you add is named after its own town, not "near" one of ours (both phones)
 
 - **Product (next app builds, iOS and Android):** a tree a reader adds more than 5 km from our nearest place no longer becomes "A tree near Ripon" with a link to Ripon on its page. The phone names the town it stands in ("A tree in Knaresborough"), and a name we made follows it; a name they typed is never touched. Older trees named "near X" are renamed the next time their page opens. Our place is still named and linked within 5 km ("in Nara").

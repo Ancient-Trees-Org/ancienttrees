@@ -12,6 +12,7 @@ written once here, never by a run.
     python3 scripts/hold_reply.py <submission id> not_theirs ["tree name"] [--dry]
     python3 scripts/hold_reply.py <sighting id or lead:<id>> not_public ["tree name"]
     python3 scripts/hold_reply.py <id> doubt_photo_live ["tree name"] [--again]
+    python3 scripts/hold_reply.py <id> photo_elsewhere "tree name" --where "..." --seen "..." [--kind cedar]
 
 It writes the text as the row's reply_text with outcome `open_question`;
 contributor_reply.py mails it at the knock after mailcheck, like any answer.
@@ -60,6 +61,20 @@ REPLIES = {
         "Can it be seen from a street or path? Then we'll put it on the map with the "
         "pin at that spot.\n\n"
         "Thanks again,\nAncient Trees\n"),
+    # THE PHOTO SHOWS ANOTHER SPOT THAN OUR PIN (Hidde, 2026-11-27, the Genoa
+    # cedar: "we should just ask the person if its that tree or another one
+    # and ask for location", then "remember this response for this
+    # situation"). A good photo whose setting does not match where our page
+    # puts the tree is asked about, never held in silence: same tree, the
+    # photo goes live; another one, it is a new tree at their spot.
+    # --where "in the square in front of the Acquasanta church"
+    # --seen  "one on a wooded slope"
+    "photo_elsewhere": (
+        "Hi,\n\nThanks for your photo of {name}!\n\n"
+        "On our map {it} stands {where}, and your photo shows {seen}. "
+        "Is it the same tree, or another {kind} nearby? Either way we'd love to have it.\n\n"
+        "Could you tell us where you took it, by replying to this mail?\n\n"
+        "Thanks again,\nAncient Trees\nhttps://ancienttrees.app\n"),
     "wrong_tree": (
         "Thanks for your photo of {name}! We couldn't tell which tree it shows.\n\n"
         "Could you tell us which one it is, or where you stood when you took it?\n\n"
@@ -85,12 +100,26 @@ REPLIES = {
 REPLIES["doubt_location"] = REPLIES["no_location"]
 
 
-def text(reason, name):
-    return REPLIES[reason].format(name=name or "your tree")
+def opt(argv, flag):
+    """The value after --flag, or None."""
+    if flag in argv:
+        i = argv.index(flag)
+        if i + 1 < len(argv):
+            return argv[i + 1]
+    return None
+
+
+def text(reason, name, where=None, seen=None, kind=None):
+    if reason == "photo_elsewhere" and not (where and seen):
+        raise SystemExit('hold_reply: photo_elsewhere needs --where "<where our page puts it>" '
+                         'and --seen "<what the photo shows>"')
+    return REPLIES[reason].format(name=name or "your tree", where=where, seen=seen,
+                                  it="that " + kind if kind else "it", kind=kind or "tree")
 
 
 def main(argv):
-    args = [a for a in argv if not a.startswith("--")]
+    vals = {opt(argv, f) for f in ("--where", "--seen", "--kind")} - {None}
+    args = [a for a in argv if not a.startswith("--") and a not in vals]
     if len(args) < 2 or args[1] not in REPLIES:
         print(__doc__)
         return 1
@@ -109,11 +138,17 @@ def main(argv):
         rows = inbox.get("/rest/v1/submissions?select=id&tree=ilike.%s&order=id.desc&limit=1" % sight, key)
         if not rows:
             print("hold_reply: sighting %s was never sent to us as a tree (no submissions row), no mail" % sight)
+            if reason == "photo_elsewhere":
+                # A photo added to one of our trees is still a question worth
+                # asking (the Genoa cedar, 2026-11-27): a session sends this
+                # text to the account's address as a one-mail batch.
+                print(text(reason, args[2] if len(args) > 2 else None,
+                           opt(argv, "--where"), opt(argv, "--seen"), opt(argv, "--kind")))
             return 0
         sid = str(rows[0]["id"])
     row = inbox.get("/rest/v1/submissions?select=id,tree,why,reply_text,replied_at&id=eq.%d" % int(sid), key)[0]
     name = args[2] if len(args) > 2 else None
-    body = text(reason, name)
+    body = text(reason, name, opt(argv, "--where"), opt(argv, "--seen"), opt(argv, "--kind"))
     if "--dry" in argv:
         print(body)
         return 0
