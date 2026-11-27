@@ -5,6 +5,12 @@
 - The only waiting item was the reader's photograph of the Villa Bellini fig (cat_001). I looked at it and approved it, then found the 13:25 run had published the same photograph minutes earlier. I kept that run's version. The one thing it had not done was queue the reader's "your photograph is on the page" mail, so this commit adds that entry to data/photo-live-mailed.json (pending, nothing sent twice).
 - There were no open reports, tips, feedback, tree notes, further photographs, words to quote or late items. qa source checks, preflight and i18ncheck were clean.
 
+## 2026-11-27 night run (second attempt): nothing shipped, the write shelf is empty
+
+- Changed in the product: nothing. No claims stood. `leads.py --ready` lists one lead, the York Riverside London Plane, and two write passes (the fourth such verdict) found no source, photo or facts, so a story would be invented. It leaves READY once the York ambassador sends a photo or a reason, which a reply mail would ask for.
+- `passcheck.py --pending` holds no writable tree: every entry is a stale file, a same-tree duplicate within 50 m (about 50) or an id collision with a live tree (nyc_031 = nyc_130, car_001 = crd_004, wol_001 = wvh_001, among others). The US and UK verified shelf is empty; with own research paused it refills from readers' tips only.
+- Not done: the research-file cleanup (deleting stale verified files, folding duplicates into leads). iOS CI red and the 10 open app BUG rows are as in the entry below.
+
 ## 2026-11-27 13:25 run: a reader's Moreton Bay fig photo is live; iOS CI red needs a Mac
 
 - Changed in the product: the Moreton Bay Fig of Villa Bellini (Catania, cat_001) had no photograph. A reader's wide daylight shot of the whole tree (buttress roots, limbs, species matches) now leads its page. Looked at the pixels first; the verdict is in data/judgements.json.
