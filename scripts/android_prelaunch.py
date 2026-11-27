@@ -11,11 +11,12 @@ RELEASE_CHECKLIST.md "Every build"; the three walks by a session follow it.
 In order, stopping at nothing (each step reports; the summary says what failed):
   1. unit tests (testDebugUnitTest)
   2. the Play build: signed aab and apk (scripts/android_release.py --apk)
-  3. every instrumented test (FlowWalk, SignedInRoundTrip, ButtonWalk) against the
+  3. every instrumented test but ButtonWalk (FlowWalk, SignedInRoundTrip, ...) against the
      "minified" build type: the Play build's own R8 with the test door open
      (build.gradle.kts), so a class R8 strips wrongly fails here, not on a phone
   4. the Play apk itself, opened by finger (scripts/android_release_walk.py)
   5. spacing against the iPhone (scripts/android_spacing.py)
+  6. ButtonWalk, one screen at a time (scripts/android_walk.py, debug build)
 Needs a running emulator (ANDROID_SERIAL, default emulator-5554) and, for the
 signed-in round trip, SUPABASE_SERVICE_KEY (from ~/.ancienttrees-supabase.env).
 Never runs on a physical phone.
@@ -73,13 +74,19 @@ if "--skip-walks" not in sys.argv:
     session = test_session()
     # A Play-signed install left by an earlier walk refuses the debug-signed test apk.
     subprocess.run([str(SDK / "platform-tools" / "adb"), "-s", SERIAL, "uninstall", "app.ancienttrees.map"], capture_output=True)
-    step("every instrumented test on the Play build's R8 (minified)",
+    # ButtonWalk is left out here: it takes hours and one stalled launch in a single
+    # Gradle call held the whole chain (2026-11-27). It runs after, one screen at a
+    # time with its own limit, through scripts/android_walk.py.
+    step("every instrumented test but ButtonWalk on the Play build's R8 (minified)",
          gradle + ["-PtestMinified", "connectedMinifiedAndroidTest",
-                   f"-Pandroid.testInstrumentationRunnerArguments.AT_SESSION={session}"], cwd=android)
+                   "-Pandroid.testInstrumentationRunnerArguments.notClass=app.ancienttrees.ButtonWalk",
+                   f"-Pandroid.testInstrumentationRunnerArguments.AT_SESSION={session}"], cwd=android, limit=2700)
     # The test run uninstalls the app; the Play apk goes on fresh for the finger walk.
     subprocess.run([str(SDK / "platform-tools" / "adb"), "-s", SERIAL, "uninstall", "app.ancienttrees.map"], capture_output=True)
     step("the Play apk opened by finger", [sys.executable, "scripts/android_release_walk.py"])
     step("spacing against the iPhone", [sys.executable, "scripts/android_spacing.py"])
+    step("every button on every screen (ButtonWalk, one screen at a time)",
+         [sys.executable, "scripts/android_walk.py"], limit=6 * 3600)
 
 print("\n== summary")
 for name, ok, took in results:
