@@ -18,6 +18,7 @@ in the repository. Key as in scripts/inbox.py.
   python3 scripts/leaderboard.py            top 25
   python3 scripts/leaderboard.py --top 50
   python3 scripts/leaderboard.py --days 30  only activity in the last 30 days
+  python3 scripts/leaderboard.py --links    plus each public profile link
 """
 import argparse
 import collections
@@ -107,6 +108,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--top", type=int, default=25)
     ap.add_argument("--days", type=int, default=0)
+    ap.add_argument("--links", action="store_true", help="print each public profile link under the table")
     a = ap.parse_args()
     key = inbox.load_key()
     if not key:
@@ -128,7 +130,7 @@ def main():
             if uid and not ours.is_ours(uid):
                 counts[uid][col] += 1
 
-    profiles = fetch_all("/rest/v1/profiles?select=user_id,display_name,country", key)
+    profiles = fetch_all("/rest/v1/profiles?select=user_id,display_name,country,public", key)
     names = {p["user_id"]: p.get("display_name") or "?" for p in profiles}
     home = {p["user_id"]: p.get("country") or "" for p in profiles}
     where = active_places(key, since)
@@ -152,6 +154,13 @@ def main():
     tot = collections.Counter()
     for _, _, c in board:
         tot.update(c)
+    if a.links:
+        public = {p["user_id"]: p.get("public") for p in profiles}
+        print("\nProfiles:")
+        for i, (_, uid, _) in enumerate(board[:a.top], 1):
+            link = "https://ancienttrees.app/profile?u=" + uid
+            print("%3d  %-24s %s%s" % (i, names.get(uid, "(no profile)")[:24], link,
+                                      "" if public.get(uid) else "  (private)"))
     print("\n     %-24s %6s  " % ("all readers", "") + " ".join("%6d" % tot[k] for k in cols))
 
 
