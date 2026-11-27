@@ -277,9 +277,12 @@ public struct ShelfHeader: View {
                         // all 11 points further from its photographs than one
                         // without. The tap area reaches above and below; the
                         // row stays the height of its words.
-                        .padding(.vertical, 12)
+                        // 13, not 12: on iOS 18.5 the words are 18 tall,
+                        // which made 42 (appfit SMALL on the floor job, run
+                        // 45919613380).
+                        .padding(.vertical, 13)
                         .contentShape(.rect)
-                        .padding(.vertical, -12)
+                        .padding(.vertical, -13)
                     }
                     .buttonStyle(.plain)
                 }
@@ -296,9 +299,12 @@ public struct ShelfHeader: View {
                         // all 11 points further from its photographs than one
                         // without. The tap area reaches above and below; the
                         // row stays the height of its words.
-                        .padding(.vertical, 12)
+                        // 13, not 12: on iOS 18.5 the words are 18 tall,
+                        // which made 42 (appfit SMALL on the floor job, run
+                        // 45919613380).
+                        .padding(.vertical, 13)
                         .contentShape(.rect)
-                        .padding(.vertical, -12)
+                        .padding(.vertical, -13)
                     }
                     .buttonStyle(.plain)
                 }

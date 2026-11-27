@@ -194,9 +194,10 @@ struct FeedView: View {
             // again, and the Feed came back scrolled somewhere else (Hidde,
             // 2026-11-26: "niet op het juiste punt in de feed terug";
             // BackKeepsPlaceWalk). Pull to refresh still starts it over.
-            // Back from a profile where you followed somebody: the list of
-            // who you follow is read again, the posts and the place stay.
-            if loadedFor == account.isSignedIn, !posts.isEmpty { await loadFollowing(); return }
+            // Back keeps the Feed exactly as it was: nothing is read again here
+            // (reading who you follow on return moved and dropped the tiles,
+            // BackKeepsPlaceWalk, 2026-11-27). Following reads it when chosen.
+            if loadedFor == account.isSignedIn, !posts.isEmpty { return }
             loadedFor = account.isSignedIn
             await restart()
         }
@@ -382,7 +383,9 @@ struct FeedView: View {
         if f == .near && !located { onUseMyLocation() }
         filter = f
         Measure.event("feed_filter", ["filter": f.rawValue])
-        Task { await fill() }
+        // Following asks again who you follow, so somebody followed a moment
+        // ago is in it (release walk 2026-11-26, pass 1).
+        Task { if f == .following { await loadFollowing() }; await fill() }
     }
 
     // MARK: - a post
@@ -586,7 +589,11 @@ struct FeedView: View {
     private func loadFollowing() async {
         guard let me = account.session?.userId else { following = []; return }
         let ids = await profiles.followingIds(of: me, token: await account.freshToken())
-        following = Set(ids.map { $0.lowercased() })
+        // Only when it changed: the same set written again redrew the people
+        // row and moved the Feed on Back from a tree (BackKeepsPlaceWalk,
+        // run 45904954877, after the reload on return was added).
+        let now = Set(ids.map { $0.lowercased() })
+        if now != following { following = now }
     }
 
     private func openAuthor(_ p: FeedPosts.Post, prev: FeedPosts.Post?) {

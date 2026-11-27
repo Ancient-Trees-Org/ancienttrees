@@ -49,7 +49,11 @@ struct ContributeView: View {
                     // sentence to where it is met first.
                     if !account.isSignedIn {
                         Section {
-                            Text("You need an account to send a tree, so you can see what happened to each one you sent.")
+                            // The feedback form says its own reason (release
+                            // walk 2026-11-26, pass 3: it borrowed the tree one).
+                            Text(feedbackMode
+                                 ? "You need an account to send feedback, so we can answer you."
+                                 : "You need an account to send a tree, so you can see what happened to each one you sent.")
                                 .font(.footnote).foregroundStyle(Brand.inkSoft)
                             Button("Sign in") { signingIn = true }
                                 .font(.callout.weight(.semibold))

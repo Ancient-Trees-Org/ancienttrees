@@ -1371,12 +1371,19 @@ struct CollectSheet: View {
     /// The payoff, and the reason this beat exists at all: without it,
     /// collecting is filing paperwork. Somebody stood in front of something
     /// and the app's job at that exact second is to tell them what it is.
+    /// A tree's name inside a sentence: "The Wilhelminalinde" becomes "the
+    /// Wilhelminalinde", as English writes it after "You found" (release walk
+    /// 2026-11-26, pass 3). Other names are left as they are. Pure.
+    nonisolated static func midSentence(_ name: String) -> String {
+        name.hasPrefix("The ") ? "the " + name.dropFirst(4) : name
+    }
+
     private func tickedState(_ t: Tree) -> some View {
         VStack(spacing: 0) {
             SheetIconTile(symbol: newFind ? "checkmark.seal.fill" : "photo.fill").padding(.bottom, 16)
             // A tree already in your trees is not found again: the photo is
             // the news, so the title says that and nothing celebrates.
-            sheetTitle(newFind ? "You found \(t.name)" : "Photo added to \(t.name)")
+            sheetTitle(newFind ? "You found \(Self.midSentence(t.name))" : "Photo added to \(Self.midSentence(t.name))")
             sheetMessage(subtitle(t))
             if pinReported {
                 sheetFootnote("Thank you for the location. We will check it and move our pin.")

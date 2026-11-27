@@ -65,6 +65,13 @@ final class WalkFindingsTests: XCTestCase {
         XCTAssertFalse(TreeNotes.failedAnswer(status: 404))
     }
 
+    // Release walk 2026-11-26, pass 3: "You found The Wilhelminalinde".
+    func testATreesNameReadsRightInsideASentence() {
+        XCTAssertEqual(CollectSheet.midSentence("The Wilhelminalinde"), "the Wilhelminalinde")
+        XCTAssertEqual(CollectSheet.midSentence("Old Tjikko"), "Old Tjikko")
+        XCTAssertEqual(CollectSheet.midSentence("Theodore's Oak"), "Theodore's Oak")
+    }
+
     // Report 1488: the Tortworth chestnut showed under Westonbirt, 13 km off.
     func testATreeYouAddedIsNotFiledUnderAFarPlace() {
         XCTAssertNil(CollectView.placeOfYourTree(place: nil, linked: false, nearest: "Westonbirt", nearestKm: 13))
