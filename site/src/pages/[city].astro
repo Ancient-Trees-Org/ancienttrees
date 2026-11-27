@@ -100,8 +100,8 @@ const { city, allCities, countryPages, speciesPages, collections, statePages } =
 const cityName = city.data.city;
 const country = city.data.country;
 const cslug = city.id;
-// ONE MAP (lib/one-map.ts): this page is the map opened on its city; leave
-// the city, or press the cross, and the panel is the map's trees in view.
+// ONE MAP (lib/one-map.ts): this page is the map opened on its city; drag or
+// zoom it yourself and the panel is the map's trees in view.
 const oneMap = oneMapOn(cslug, "en")
   ? { explorePath: "/explore", words: { title: ui("en").exploreHeading, note: ui("en").exploreNote,
       map: chrome("en").map, docTitle: ui("en").exploreTitle } }
