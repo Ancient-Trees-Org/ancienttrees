@@ -245,7 +245,7 @@
     {
       "what": "One map, amended (Hidde, 2026-11-27: \"ja maak gewoon airbnb na\"): on a one-map city page the first drag or zoom by hand turns the city's panel into the trees in view, Airbnb's way; the cross beside share is gone",
       "since": "2026-11-27",
-      "web": "city-view-js.ts moveend after a move of your own; PlaceHead.astro without the close button",
+      "web": "city-view-js.ts moveend after a move of your own (drag, or a zoom by wheel, pinch, double click or + and -, read on the map itself since a wheel zoom carries no originalEvent; map.ts ends /explore's search the same way); PlaceHead.astro without the close button",
       "ios": "MapTab onUserMove already drops a place's header and list on the first move by hand; nothing to change",
       "android": "the same as iOS; nothing to change",
       "status": "one-sided",
