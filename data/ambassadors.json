@@ -2710,6 +2710,26 @@
         "The Giant Cottonwood of Alum Creek"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_ad17eacb13cbe36b89fd4c43",
+      "place_slug": "coeur-dalene",
+      "place_name": "Coeur d'Alene",
+      "date": "2026-11-27",
+      "trees": [
+        "The American Chestnut of City Park"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_84f03edc300cfd4dd24e38eb",
+      "place_slug": "nairobi",
+      "place_name": "Nairobi",
+      "date": "2026-11-27",
+      "trees": [
+        "The Pale Trunks of Sigiria"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
