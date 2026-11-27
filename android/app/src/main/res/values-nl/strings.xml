@@ -95,11 +95,6 @@
     <string name="tab_collect">Verzamelen</string>
     <!-- discover -->
     <string name="discover_search">Zoek een plaats, een boom of een soort</string>
-    <string name="discover_season_here">%1$s is er</string>
-    <string name="discover_season_count">%1$s op hun mooist deze maand</string>
-    <string name="discover_season_near">\u0020· %1$d binnen 20 km van je</string>
-    <string name="discover_at_best">Nu op zijn mooist</string>
-    <string name="discover_at_best_in">Nu op zijn mooist · %1$s</string>
     <string name="discover_hero_1">Bomen die de wandeling waard zijn,</string>
     <string name="discover_hero_2">waar je ook bent.</string>
     <string name="discover_best">Nu op hun mooist</string>
@@ -111,7 +106,6 @@
     <string name="visitors_intro">Foto\'s die mensen bij de bomen maakten, de nieuwste eerst.</string>
     <string name="visitors_end">Je hebt alle foto\'s tot nu toe gezien.</string>
     <string name="discover_cities">Onze favoriete bomensteden</string>
-    <string name="discover_records">De records</string>
     <string name="discover_oldest">Oudste</string>
     <string name="discover_oldest_age">Oudste · %1$s</string>
     <string name="discover_thickest">Dikste</string>

@@ -95,11 +95,6 @@
     <string name="tab_collect">Sammeln</string>
     <!-- discover -->
     <string name="discover_search">Suche einen Ort, einen Baum oder eine Art</string>
-    <string name="discover_season_here">Der %1$s ist da</string>
-    <string name="discover_season_count">%1$s in diesem Monat in Bestform</string>
-    <string name="discover_season_near">\u0020· %1$d im Umkreis von 20 km</string>
-    <string name="discover_at_best">Jetzt in Bestform</string>
-    <string name="discover_at_best_in">Jetzt in Bestform · %1$s</string>
     <string name="discover_hero_1">Bäume, die den Weg lohnen,</string>
     <string name="discover_hero_2">wo immer du bist.</string>
     <string name="discover_best">Jetzt in Bestform</string>
@@ -111,7 +106,6 @@
     <string name="visitors_intro">Fotos, die Menschen an den Bäumen gemacht haben, die neuesten zuerst.</string>
     <string name="visitors_end">Du hast bisher alle Fotos gesehen.</string>
     <string name="discover_cities">Unsere liebsten Baumstädte</string>
-    <string name="discover_records">Die Rekorde</string>
     <string name="discover_oldest">Ältester</string>
     <string name="discover_oldest_age">Ältester · %1$s</string>
     <string name="discover_thickest">Dickster</string>

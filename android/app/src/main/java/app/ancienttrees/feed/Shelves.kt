@@ -16,13 +16,9 @@ data class Record(val kind: Kind, val label: String?, val tree: Tree, val collec
 
 data class ListCard(val collection: TreeCollection, val face: Tree)
 
-/** The season where you stand (Home.swift Shelves.season). */
-data class SeasonHero(val word: Season, val hero: Tree, val count: Int, val near: Int)
-
 enum class Season { SPRING, SUMMER, AUTUMN, WINTER }
 
 data class Shelves(
-    val season: SeasonHero? = null,
     val best: List<Tree> = emptyList(),
     val cities: List<CityCard> = emptyList(),
     val here: Pair<String, String>? = null,
@@ -34,17 +30,6 @@ data class Shelves(
     val tail: List<Tree> = emptyList(),
 ) {
     companion object {
-        /** The season's word on your half of the world (Hidde, 2026-10-09). */
-        fun seasonWord(month: Int, south: Boolean): Season {
-            val m = if (south) (month + 5) % 12 + 1 else month
-            return when (m) {
-                in 3..5 -> Season.SPRING
-                in 6..8 -> Season.SUMMER
-                in 9..11 -> Season.AUTUMN
-                else -> Season.WINTER
-            }
-        }
-
         /** The generated rankings, already The records (Home.swift `generated`). */
         private val GENERATED = setOf(
             "tallest-trees", "thickest-trees", "trees-older-than-400-years",
@@ -68,21 +53,13 @@ data class Shelves(
             // Distance once per tree, not once per comparison.
             val ranked = c.trees.map { it to Geo.km(lat, lng, it.lat, it.lng) }.sortedBy { it.second }
 
-            // THE SEASON WHERE YOU ARE (Hidde, 2026-10-10). Without a fix the
-            // north is assumed, the half where most of the map is.
+            // AT THEIR BEST NOW on your half of the world (without a fix the
+            // north). No season photograph above it any more (Hidde, 2026-11-27:
+            // "its too complicated i think we should just get rid of it").
             val south = located && lat < 0
-            val atBest = ranked.filter { (t, _) -> month in t.bestMonths && (t.lat < 0) == south }
-            val bestPhotographed = atBest.filter { it.first.photo != null }.map { it.first }
-            // THE PICTURE SHOWS THE SEASON IT NAMES (Hidde, 2026-10-13).
-            val hero = bestPhotographed.firstOrNull { t ->
-                val m = t.photo?.takenMonth ?: return@firstOrNull false
-                m in t.bestMonths
-            }
-            val season = hero?.let {
-                val near = if (located) atBest.count { it.second <= 20 } else 0
-                SeasonHero(seasonWord(month, south), it, atBest.size, near)
-            }
-            val best = bestPhotographed.filter { it.id != hero?.id }.take(6)
+            val best = ranked.map { it.first }
+                .filter { month in it.bestMonths && (it.lat < 0) == south && it.photo != null }
+                .take(6)
 
             // The city you are standing in, for its open ambassador seat. Only with a real fix.
             var here: Pair<String, String>? = null
@@ -148,10 +125,9 @@ data class Shelves(
 
             // MORE TREES NEAR YOU (Hidde, 2026-10-10): every photographed tree not already on the page.
             val shown = best.map { it.id }.toMutableSet()
-            hero?.let { shown.add(it.id) }
             val tail = ranked.map { it.first }.filter { it.photo != null && it.id !in shown }
 
-            return Shelves(season, best, cities, here, countries, islands, species, records, lists, tail)
+            return Shelves(best, cities, here, countries, islands, species, records, lists, tail)
         }
     }
 }

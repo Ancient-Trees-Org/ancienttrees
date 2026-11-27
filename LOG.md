@@ -1,5 +1,13 @@
 # LOG
 
+## 2026-11-27 session: Discover in a new order, without the season photo (iOS and Android)
+
+- Discover now opens with At their best now, nearest first. Then come Trending this month, New from visitors (high up but not first, because it is too much like the Feed), the cities with the ambassador row, Lists with an opinion, Want to visit (full or empty), Tree countries, By species, and the endless "More trees near you". Hidde chose it from the mockup in drafts/design-2026-11-27-discover/ ("Ja, bouw het").
+- The big season photo ("Autumn is here") is gone. A simulation for 18 cities showed it only found a nearby tree from September to November in the north. It never did in the south, and in winter it showed trees hundreds of kilometres away (Munich for London). The stock "Trees worth the walk" band went with it.
+- The Records (oldest, thickest, tallest) and Tree islands are now tiles in the one Lists with an opinion shelf. Tree islands opens a new list page (Route.Index.islands on iPhone, IndexKind.ISLANDS on Android). The page went from 14 blocks to 9.
+- Checks: the iOS build, plus simulator screenshots of the top and the lists in London (drafts/design-2026-11-27-discover/built-ios-*.png). The Android build and ShelvesTest pass. There is no Android screenshot yet, because the only emulator was in use by another session. The next session to run the emulator should look at Discover. The UI test now looks for "Lists with an opinion" instead of "The records".
+- Benchmark and PostHog numbers are in CONVENTIONS.md, "Discover after the Feed tab". tree_opened carries no shelf, so no shelf can be measured yet.
+
 ## 2026-11-27 session: Genoa cedar, the reader's photo is of our tree; asked whether it is theirs
 
 - The app reader whose photo of the Cedar of Lebanon of Acquasanta (gnv_012, sighting fe75421a) was held `doubt_photo` answered our question. It is the register cedar: their map link lands 13 m from our pin. There is no second cedar to chase.

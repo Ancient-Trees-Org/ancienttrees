@@ -23,27 +23,16 @@ class ShelvesTest {
     private fun catalogue(vararg ts: Tree, browse: Browse? = null) =
         Catalogue("v", ts.toList(), emptyList(), emptyList(), browse)
 
-    @Test fun theSeasonWordFlipsOnTheSouthernHalf() {
-        assertEquals(Season.AUTUMN, Shelves.seasonWord(11, south = false))
-        assertEquals(Season.SPRING, Shelves.seasonWord(11, south = true))
-        assertEquals(Season.WINTER, Shelves.seasonWord(1, south = false))
-        assertEquals(Season.SUMMER, Shelves.seasonWord(1, south = true))
-    }
-
-    @Test fun theHeroShowsTheSeasonItNames() {
-        // The nearer tree's photograph was taken in summer, so it cannot front autumn.
+    @Test fun atTheirBestNowIsNearestFirstOnYourHalf() {
+        // No season photograph above the shelf since 2026-11-27: every
+        // photographed tree at its best this month, nearest first, the
+        // southern half left out in the north.
         val near = tree("near", 52.37, 4.89, best = listOf(10, 11), taken = 7)
         val far = tree("far", 51.0, 4.0, best = listOf(10, 11), taken = 11)
-        val s = Shelves.build(catalogue(near, far), 52.37, 4.89, located = true, month = 11)
-        assertEquals("far", s.season?.hero?.id)
-        assertEquals(2, s.season?.count)
-        assertEquals(1, s.season?.near)
-        assertEquals(listOf("near"), s.best.map { it.id })
-    }
-
-    @Test fun noHeroWithoutAPhotographOfItsSeason() {
-        val t = tree("t", 52.37, 4.89, best = listOf(11), taken = null)
-        assertNull(Shelves.build(catalogue(t), 52.37, 4.89, true, 11).season)
+        val south = tree("south", -37.8, 144.9, best = listOf(11))
+        val bare = tree("bare", 52.0, 4.9, photo = false, best = listOf(11))
+        val s = Shelves.build(catalogue(far, south, near, bare), 52.37, 4.89, located = true, month = 11)
+        assertEquals(listOf("near", "far"), s.best.map { it.id })
     }
 
     @Test fun theCityYouAreInLeadsTheCities() {

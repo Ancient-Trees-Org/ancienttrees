@@ -84,11 +84,8 @@ struct HomeView: View {
     @State private var trendColumn: Int?
 
     struct Shelves {
-        /// The season where you stand: its word, the photographed tree at its
-        /// best nearest to you, how many trees on your half of the world are at
-        /// their best this month, and how many of those are within 20 km.
-        var season: (word: String, hero: Tree, count: Int, near: Int)? = nil
-        /// At their best now, photographed, nearest first, the hero left out.
+        /// At their best now, photographed, nearest first: the shelf that opens
+        /// the page since the season photograph went (2026-11-27).
         var best: [Tree] = []
         var cities: [(slug: String, name: String, country: String, count: Int)] = []
         /// The city you are standing in, for the ambassador row.
@@ -106,18 +103,6 @@ struct HomeView: View {
     private var month: Int { Calendar.current.component(.month, from: Date()) }
 
     private var cities: [(slug: String, name: String, country: String, count: Int)] { deck.cities }
-
-    /// The season's word on your half of the world (Hidde, 2026-10-09: "wat
-    /// doen we met het feit dat sommige landen niet tegelijk herfst hebben").
-    static func seasonWord(month: Int, south: Bool) -> String {
-        let m = south ? (month + 5) % 12 + 1 : month
-        switch m {
-        case 3...5: return "Spring"
-        case 6...8: return "Summer"
-        case 9...11: return "Autumn"
-        default: return "Winter"
-        }
-    }
 
     /// Rebuilt when the catalogue changes under us, or when the map has moved
     /// somewhere far enough to change what is near.
@@ -143,28 +128,17 @@ struct HomeView: View {
             .map { (tree: $0, km: $0.distanceKm(from: origin.lat, origin.lng)) }
             .sorted { $0.km < $1.km }
 
-        // THE SEASON WHERE YOU ARE, the hero (Hidde, 2026-10-10: "season h1 is
-        // good"). Without a fix the north is assumed, the half where most of
-        // the map is.
+        // AT THEIR BEST NOW, on your half of the world (without a fix the
+        // north, where most of the map is). NO SEASON PHOTOGRAPH ABOVE IT ANY
+        // MORE (Hidde, 2026-11-27: "its too complicated i think we should just
+        // get rid of it"): it only found a near tree from September to November
+        // in the north, never in the south, and in winter drew one from
+        // hundreds of kilometres. CONVENTIONS.md "Discover after the Feed tab".
         let south = location.known && origin.lat < 0
-        let atBest = ranked.filter {
+        s.best = Array(ranked.filter {
             ($0.tree.bestTime?.months ?? []).contains(month) && ($0.tree.lat < 0) == south
-        }
-        let bestPhotographed = atBest.filter { $0.tree.photo != nil }.map(\.tree)
-        // THE PICTURE SHOWS THE SEASON IT NAMES (Hidde, 2026-10-13: "it
-        // doesnt make sense to do autumn is here with a non autumn photo,
-        // rather do one not close"). The hero is the nearest tree at its best
-        // whose photograph was taken in its best months, however far; with
-        // none, the stock hero, which claims no season.
-        let hero = bestPhotographed.first { t in
-            guard let m = t.photo?.takenMonth else { return false }
-            return (t.bestTime?.months ?? []).contains(m)
-        }
-        if let hero {
-            let near = location.known ? atBest.filter { $0.km <= 20 }.count : 0
-            s.season = (Self.seasonWord(month: month, south: south), hero, atBest.count, near)
-        }
-        s.best = Array(bestPhotographed.filter { $0.id != hero?.id }.prefix(6))
+                && $0.tree.photo != nil
+        }.map(\.tree).prefix(6))
 
         // The city you are standing in, for its open ambassador seat. Only with
         // a real fix: the fallback is not anybody's city.
@@ -242,7 +216,6 @@ struct HomeView: View {
         // "more trees near you at the end is perfect"): every photographed tree
         // not already on the page, nearest first.
         var shown = Set(s.best.map(\.id))
-        if let h = s.season?.hero { shown.insert(h.id) }
         s.tail = ranked.map(\.tree).filter { $0.photo != nil && !shown.contains($0.id) }
         deck = s
     }
@@ -256,8 +229,9 @@ struct HomeView: View {
             // phone, signingIn went true and nothing appeared. No simulator
             // showed it. The shelves inside are lazy themselves.
             VStack(alignment: .leading, spacing: 30) {
-                seasonHero.id("discover-top")
-                shelves
+                // One view for the top anchor: .id on the shelves' tuple
+                // would tag every shelf with it.
+                VStack(alignment: .leading, spacing: 30) { shelves }.id("discover-top")
                 growingCard
                 tailShelf.id("discover-tail")
                 Color.clear.frame(height: 90)        // clear of the floating tab bar
@@ -569,55 +543,6 @@ struct HomeView: View {
         .padding(.horizontal, 16)
     }
 
-    /// A photograph and the promise, a different one every time the app is
-    /// opened (Kit/Heroes.swift). It is the website's own hero moved onto the
-    /// phone, so somebody arriving from ancienttrees.app meets the same thing.
-    ///
-    /// It scrolls AWAY rather than pinning, which is the whole reason it is
-    /// allowed to be this big: the search field above it is pinned and stays,
-    /// so a picture at the top costs a scroll and never a control.
-    ///
-    /// No tree name on it, deliberately. These are stock photographs and a
-    /// name beside one would say we hold that tree, which we do not.
-    @ViewBuilder private var heroBand: some View {
-        // No photograph, no band. A gradient with a slogan on it is worse than
-        // nothing, and that is exactly what shipped for one build: Image("name")
-        // asks the asset catalogue, these files are loose in the bundle, and a
-        // missing image is not a build error. See Kit/Heroes.swift.
-        if let photo = Heroes.image {
-        ZStack(alignment: .bottomLeading) {
-            Image(uiImage: photo)
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(height: 260)
-                .clipped()
-            LinearGradient(colors: [.clear, .black.opacity(0.62)],
-                           startPoint: .center, endPoint: .bottom)
-                .frame(height: 260)
-            VStack(alignment: .leading, spacing: 2) {
-                Text("Trees worth the walk,")
-                    .foregroundStyle(.white)
-                Text("wherever you are.")
-                    .foregroundStyle(Brand.gold)
-            }
-            .font(.brand(26, .bold, relativeTo: .title2))
-            .shadow(color: .black.opacity(0.35), radius: 8, y: 2)
-            .padding(16)
-        }
-        .frame(height: 260)
-        // The credit where the photograph's licence asks for one (Heroes.credit).
-        .overlay(alignment: .bottomTrailing) {
-            if let c = Heroes.credit {
-                Text(c).font(.caption2).foregroundStyle(.white.opacity(0.7)).padding(10)
-            }
-        }
-        .clipShape(.rect(cornerRadius: 16))
-        .padding(.horizontal, 16)
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("Trees worth the walk, wherever you are")
-        }
-    }
-
     // MARK: - Discover, redesigned 2026-10-10
     //
     // Convention: AllTrails, komoot and Pinterest build a browse screen as a
@@ -745,56 +670,6 @@ struct HomeView: View {
             NavigationLink(value: route) { face }
                 .buttonStyle(.plain)
         }
-    }
-
-    /// THE SEASON (hero H1). One photographed tree at its best near you, the
-    /// season's word for your half of the world, and a real count. Falls back
-    /// to the stock hero in the rare month nothing on your half peaks.
-    @ViewBuilder private var seasonHero: some View {
-        if let s = deck.season, let url = s.hero.photo?.full ?? s.hero.photo?.card {
-            NavigationLink(value: Route.tree(s.hero.id)) {
-                ZStack(alignment: .bottomLeading) {
-                    Color.clear.frame(height: 240)
-                        .overlay { TreePhoto(url: url) { Brand.surfaceMuted } }
-                        .clipped()
-                    LinearGradient(colors: [.clear, .black.opacity(0.62)],
-                                   startPoint: .center, endPoint: .bottom)
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text("\(s.word) is here")
-                            .font(.brand(26, .bold, relativeTo: .title2))
-                            .foregroundStyle(.white)
-                        Text("\(treesLabel(s.count)) at their best this month"
-                             + (s.near > 0 ? " · \(s.near) within 20 km of you" : ""))
-                            .font(.subheadline.weight(.medium))
-                            .foregroundStyle(.white.opacity(0.88))
-                            .fixedSize(horizontal: false, vertical: true)
-                    }
-                    .shadow(color: .black.opacity(0.3), radius: 6, y: 1)
-                    .padding(16)
-                }
-                .frame(height: 240)
-                // FAR AWAY, IT SAYS WHERE (Hidde, 2026-10-13: in Melbourne the
-                // only southern tree at its best was in Buenos Aires, unnamed).
-                .overlay(alignment: .topLeading) { TagPill(text: heroPill(s.hero)).padding(12) }
-                .clipShape(.rect(cornerRadius: 14))
-                .contentShape(.rect)
-                // One element, as the stock hero was: the photograph is wider
-                // than the card before the clip, and VoiceOver reads the card.
-                .accessibilityElement(children: .ignore)
-                .accessibilityLabel("\(s.word) is here. \(s.hero.name), at its best now.")
-            }
-            .buttonStyle(.plain)
-            .padding(.horizontal, 16)
-            .accessibilityIdentifier("discover-season")
-        } else {
-            heroBand
-        }
-    }
-
-    /// "At its best now", plus the place when the tree is not near you: the
-    /// same 30 km line tag() draws between a distance and a city.
-    private func heroPill(_ t: Tree) -> String {
-        t.distanceKm(from: origin.lat, origin.lng) <= 30 ? "At its best now" : "At its best now · \(t.city)"
     }
 
     private var wantTrees: [Tree] {
@@ -941,9 +816,14 @@ struct HomeView: View {
         .buttonStyle(.plain)
     }
 
-    /// THE ORDER (Hidde, 2026-10-13): finding first (what is at its best,
-    /// the cities, then why trees are special: the records and the lists),
-    /// your own list and the asks after, the index rows last.
+    /// THE ORDER (Hidde, 2026-11-27, from the mockup in
+    /// drafts/design-2026-11-27-discover/): At their best now opens the page,
+    /// Trending second, New from visitors third (high, for the current feel,
+    /// but not the opener: "its too much like the feed"), the cities with
+    /// the ambassador seat, one shelf of lists (the records and the islands
+    /// folded in as lists), your Want to visit full or empty ("laat er lekker
+    /// in crossreference is prima"), then the indexes. CONVENTIONS.md
+    /// "Discover after the Feed tab".
     @ViewBuilder private var shelves: some View {
         if deck.best.count >= 3 {
             section("At their best now") { tileShelf(deck.best) }
@@ -955,9 +835,9 @@ struct HomeView: View {
         // NEW FROM VISITORS (Hidde, 2026-11-06, approved in the simulator):
         // the newest photographs visitors sent that went live, one tile per
         // tree, the person under it on one line (Unsplash's and Pinterest's
-        // creator line). Second on the page, right under the season's trees,
-        // so a newcomer sees people adding before the cities and lists. From
-        // four tiles, so it never stands half empty (Kit/NewFromVisitors).
+        // creator line). Third on the page, so a newcomer sees people adding
+        // before the cities and lists. From four tiles, so it never stands
+        // half empty (Kit/NewFromVisitors).
         let fresh = NewFromVisitors.tiles(visitorRows) { catalogue.tree($0) }
         if fresh.count >= NewFromVisitors.minimum {
             // See all is the Feed tab (2026-11-26), its root, as the App
@@ -1007,23 +887,29 @@ struct HomeView: View {
             AmbassadorWantedRow(place: h.name, inSheet: false).padding(.horizontal, 16)
         }
 
-        if deck.records.count == 3 {
-            section("The records") {
-                shelf {
-                    ForEach(deck.records, id: \.label) { r in tile(r.tree, r.label, to: r.route) }
-                }
-            }
-        }
-
-        if deck.lists.count >= 3 {
+        // LISTS WITH AN OPINION, one shelf: the three records first (each
+        // opens its ranking), then the hand-made lists, then the islands as
+        // one more list. Six shelves of one shape read as one repeated
+        // thumbnail (CONVENTIONS.md 2026-10-06); three of them are lists.
+        let islandFace = deck.islands.count >= 3
+            ? deck.islands.lazy.compactMap { catalogue.face(city: $0.slug) }.first : nil
+        if deck.records.count + deck.lists.count + (islandFace == nil ? 0 : 1) >= 3 {
             section("Lists with an opinion") {
                 shelf {
+                    ForEach(deck.records, id: \.label) { r in tile(r.tree, r.label, to: r.route) }
                     ForEach(deck.lists, id: \.collection.slug) { l in
                         tile(l.face, l.collection.title, to: .collection(l.collection.slug))
                     }
+                    if let islandFace { tile(islandFace, Route.Index.islands.title, to: .index(.islands)) }
                 }
             }
+            .id("discover-lists")
         }
+
+        // Full or empty, one place, after the finding rows (Hidde, 2026-10-13;
+        // kept full on 2026-11-27: "crossreference is prima").
+        wantToVisitFull
+        wantToVisitEmpty.id("discover-want")
 
         if !deck.countries.isEmpty {
             section("Tree countries", more: .index(.countries)) {
@@ -1036,24 +922,9 @@ struct HomeView: View {
             }
         }
 
-        // Full or empty, one place, below the finding rows (Hidde, 2026-10-13:
-        // Discover is for trees you do not know yet; your list has My trees).
-        wantToVisitFull
-        wantToVisitEmpty.id("discover-want")
-
         if !deck.species.isEmpty {
             section("By species", more: .index(.species)) { speciesRows }
                 .id("discover-species")
-        }
-
-        if deck.islands.count >= 3 {
-            section("Tree islands") {
-                shelf {
-                    ForEach(deck.islands.prefix(6), id: \.slug) { c in
-                        if let face = catalogue.face(city: c.slug) { tile(face, c.name, to: .city(c.slug)) }
-                    }
-                }
-            }
         }
     }
 

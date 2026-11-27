@@ -21,6 +21,7 @@ struct IndexView: View {
                 case .countries: countries
                 case .species: species
                 case .oldest: oldest
+                case .islands: islands
                 }
                 Color.clear.frame(height: 80)
             }
@@ -44,6 +45,25 @@ struct IndexView: View {
                     country: $0.value[0].country, count: $0.value.count) }
             .filter { matches($0.name) || matches($0.country) }
             .sorted { $0.count > $1.count }
+        return ForEach(all, id: \.slug) { c in
+            PlaceLink(route: .city(c.slug)) {
+                row(c.name, c.country, c.count)
+            }
+            .buttonStyle(.plain)
+        }
+    }
+
+    /// The tree islands, in the website's order (feed `islands`). Discover's
+    /// lists shelf opens this since the islands shelf folded into it
+    /// (2026-11-27); the rows are the cities' own.
+    private var islands: some View {
+        let byCity = catalogue.citiesWithTrees
+        let all = catalogue.facets.islands
+            .compactMap { slug -> (slug: String, name: String, country: String, count: Int)? in
+                guard let t = byCity[slug], let first = t.first else { return nil }
+                return (slug: slug, name: first.city, country: first.country, count: t.count)
+            }
+            .filter { matches($0.name) || matches($0.country) }
         return ForEach(all, id: \.slug) { c in
             PlaceLink(route: .city(c.slug)) {
                 row(c.name, c.country, c.count)

@@ -84,13 +84,14 @@ public enum Route: Hashable {
     case activity
 
     public enum Index: String, Hashable {
-        case cities, countries, species, oldest
+        case cities, countries, species, oldest, islands
         public var title: String {
             switch self {
             case .cities: "Tree cities"
             case .countries: "Tree countries"
             case .species: "Species"
             case .oldest: "The oldest trees we map"
+            case .islands: "Tree islands"
             }
         }
     }

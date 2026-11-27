@@ -161,7 +161,7 @@ sealed class DiscoverPage {
     data object Activity : DiscoverPage()
 }
 
-enum class IndexKind { CITIES, COUNTRIES, SPECIES, OLDEST }
+enum class IndexKind { CITIES, COUNTRIES, SPECIES, OLDEST, ISLANDS }
 
 private val TILE_WIDTH = 120.dp
 private val TILE_SHAPE = RoundedCornerShape(12.dp)
@@ -357,18 +357,15 @@ fun DiscoverScreen(
 /** The LazyColumn index of a section, for -discoverto (counted the way discoverContent emits). */
 private fun keyIndex(deck: Shelves, rows: List<NewFromVisitors.Row>, c: Catalogue, to: String, trending: Int = 0): Int {
     val keys = ArrayList<String>()
-    keys += "discover-top"
     if (deck.best.size >= 3) keys += "best"
     if (trending >= 3) keys += "discover-trending"
     if (NewFromVisitors.tiles(rows) { c.tree(it) }.size >= NewFromVisitors.MINIMUM) keys += "visitors"
     keys += "cities"
     deck.here?.let { (slug, _) -> if (c.ambassadors(slug).isEmpty() && !c.seated(slug)) keys += "ambassador" }
-    if (deck.records.size == 3) keys += "records"
-    if (deck.lists.size >= 3) keys += "lists"
-    if (deck.countries.isNotEmpty()) keys += "countries"
+    if (listTiles(deck, c) >= 3) keys += "discover-lists"
     keys += "discover-want"
+    if (deck.countries.isNotEmpty()) keys += "countries"
     if (deck.species.isNotEmpty()) keys += "discover-species"
-    if (deck.islands.size >= 3) keys += "islands"
     keys += "growing"
     keys += "discover-tail"
     return keys.indexOf("discover-$to").coerceAtLeast(0)
@@ -407,8 +404,17 @@ private fun SearchField(onClick: () -> Unit) {
     }
 }
 
-// MARK: - the page, in Hidde's order (2026-10-13): finding first, your own list
-// and the asks after, the index rows last.
+/** The islands' face for the lists shelf: from three islands, the first with a photograph. */
+private fun islandFace(deck: Shelves, c: Catalogue): Tree? =
+    if (deck.islands.size >= 3) deck.islands.firstNotNullOfOrNull { c.faceOfCity(it.slug) } else null
+
+/** How many tiles the lists shelf holds: the records, the lists, the islands as one. */
+private fun listTiles(deck: Shelves, c: Catalogue): Int =
+    deck.records.size + deck.lists.size + (if (islandFace(deck, c) != null) 1 else 0)
+
+// MARK: - the page, in Hidde's order of 2026-11-27 (Home.swift `shelves`): At
+// their best now opens, Trending, New from visitors (high, not the opener),
+// the cities and the seat, one lists shelf, Want to visit, the indexes.
 
 private fun LazyListScope.discoverContent(
     deck: Shelves,
@@ -428,7 +434,12 @@ private fun LazyListScope.discoverContent(
 ) {
     fun tag(t: Tree): String = tagFor(t, origin, located)
 
-    block("discover-top", first = true) { SeasonHeroOrBand(deck, origin) { act.openTree(it) } }
+    // The first block emitted sits at the top with no gap above it.
+    var top = true
+    fun block(key: String, content: @Composable () -> Unit) {
+        block(key, first = top, content = content)
+        top = false
+    }
 
     if (deck.best.size >= 3) {
         block("best") {
@@ -485,15 +496,28 @@ private fun LazyListScope.discoverContent(
         }
     }
 
-    if (deck.records.size == 3) {
-        block("records") {
-            Section(stringResource(R.string.discover_records)) {
+    // LISTS WITH AN OPINION, one shelf: the records first, then the
+    // hand-made lists, then the islands as one more list (2026-11-27).
+    val islands = islandFace(deck, c)
+    if (listTiles(deck, c) >= 3) {
+        block("discover-lists") {
+            Section(stringResource(R.string.discover_lists)) {
                 Shelf {
-                    items(deck.records, key = { it.kind.name }) { r ->
+                    items(deck.records, key = { "record-" + it.kind.name }) { r ->
                         Tile(r.tree, recordLabel(r), Modifier.width(TILE_WIDTH)) {
                             when (r.kind) {
                                 Record.Kind.OLDEST -> open(DiscoverPage.Index(IndexKind.OLDEST))
                                 else -> r.collection?.let { open(DiscoverPage.Collection(it)) }
+                            }
+                        }
+                    }
+                    items(deck.lists, key = { it.collection.slug }) { l ->
+                        Tile(l.face, l.collection.title, Modifier.width(TILE_WIDTH)) { open(DiscoverPage.Collection(l.collection.slug)) }
+                    }
+                    if (islands != null) {
+                        item(key = "islands") {
+                            Tile(islands, stringResource(R.string.discover_islands), Modifier.width(TILE_WIDTH)) {
+                                open(DiscoverPage.Index(IndexKind.ISLANDS))
                             }
                         }
                     }
@@ -502,16 +526,10 @@ private fun LazyListScope.discoverContent(
         }
     }
 
-    if (deck.lists.size >= 3) {
-        block("lists") {
-            Section(stringResource(R.string.discover_lists)) {
-                Shelf {
-                    items(deck.lists, key = { it.collection.slug }) { l ->
-                        Tile(l.face, l.collection.title, Modifier.width(TILE_WIDTH)) { open(DiscoverPage.Collection(l.collection.slug)) }
-                    }
-                }
-            }
-        }
+    // Full or empty, after the finding rows (2026-10-13; kept full 2026-11-27).
+    block("discover-want") {
+        val mine = want.mapNotNull { c.tree(it) }.sortedBy { Geo.km(origin.lat, origin.lng, it.lat, it.lng) }
+        if (mine.isNotEmpty()) WantToVisitFull(mine, ::tag, act) else WantToVisitEmpty(signedIn, act)
     }
 
     if (deck.countries.isNotEmpty()) {
@@ -526,32 +544,10 @@ private fun LazyListScope.discoverContent(
         }
     }
 
-    // Full or empty, one place, below the finding rows (Hidde, 2026-10-13).
-    block("discover-want") {
-        val mine = want.mapNotNull { c.tree(it) }.sortedBy { Geo.km(origin.lat, origin.lng, it.lat, it.lng) }
-        if (mine.isNotEmpty()) WantToVisitFull(mine, ::tag, act) else WantToVisitEmpty(signedIn, act)
-    }
-
     if (deck.species.isNotEmpty()) {
         block("discover-species") {
             Section(stringResource(R.string.discover_species), seeAll = { open(DiscoverPage.Index(IndexKind.SPECIES)) }) {
                 SpeciesRows(deck.species) { act.openSpecies(it) }
-            }
-        }
-    }
-
-    if (deck.islands.size >= 3) {
-        block("islands") {
-            Section(stringResource(R.string.discover_islands)) {
-                Shelf {
-                    items(deck.islands.take(6), key = { it.slug }) { isl ->
-                        c.faceOfCity(isl.slug)?.let { face ->
-                            Tile(face, isl.name, Modifier.width(TILE_WIDTH)) {
-                                act.openPlace(SearchHit.City(isl.slug, isl.name, 0.0, 0.0))
-                            }
-                        }
-                    }
-                }
             }
         }
     }
@@ -889,82 +885,6 @@ private fun PlaceCard(name: String, sub: String, cover: Tree?, onOpen: () -> Uni
     }
 }
 
-/** THE SEASON (hero H1), or the stock hero in the rare month nothing on your half peaks. */
-@Composable
-private fun SeasonHeroOrBand(deck: Shelves, origin: Here, onOpen: (Tree) -> Unit) {
-    val s = deck.season
-    val url = s?.hero?.photo?.let { it.hero ?: it.thumb ?: it.url }
-    if (s == null || url == null) {
-        HeroBand()
-        return
-    }
-    val word = stringResource(
-        when (s.word) {
-            Season.SPRING -> R.string.season_spring
-            Season.SUMMER -> R.string.season_summer
-            Season.AUTUMN -> R.string.season_autumn
-            Season.WINTER -> R.string.season_winter
-        },
-    )
-    val line = stringResource(R.string.discover_season_count, treeCount(s.count)) +
-        // In miles where Distances says so: every translation carries "20 km" (12 mi).
-        if (s.near > 0) stringResource(R.string.discover_season_near, s.near).replace("20 km", if (Units.now) "12 mi" else "20 km") else ""
-    val far = Geo.km(origin.lat, origin.lng, s.hero.lat, s.hero.lng) > 30
-    val pill = if (far) stringResource(R.string.discover_at_best_in, s.hero.city) else stringResource(R.string.discover_at_best)
-    val shadow = Shadow(Color.Black.copy(alpha = 0.3f), Offset(0f, 2f), 12f)
-    Box(
-        Modifier
-            .padding(horizontal = 16.dp)
-            .fillMaxWidth()
-            .height(240.dp)
-            .clip(RoundedCornerShape(14.dp))
-            .background(Brand.colors.surfaceMuted)
-            .clickable(interactionSource = remember { MutableInteractionSource() }, indication = androidx.compose.foundation.LocalIndication.current) { onOpen(s.hero) }
-            .semantics { contentDescription = "discover-season" },
-    ) {
-        RemoteImage(url, null, Modifier.fillMaxSize())
-        Box(Modifier.fillMaxSize().background(Brush.verticalGradient(0.5f to Color.Transparent, 1f to Color.Black.copy(alpha = 0.62f))))
-        Column(Modifier.align(Alignment.BottomStart).padding(16.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text(
-                stringResource(R.string.discover_season_here, word),
-                style = TextStyle(shadow = shadow),
-                fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 26.sp, color = Color.White,
-            )
-            Text(
-                line,
-                style = TextStyle(shadow = shadow),
-                fontSize = 15.sp, fontWeight = FontWeight.Medium, color = Color.White.copy(alpha = 0.88f),
-            )
-        }
-        // FAR AWAY, IT SAYS WHERE (Hidde, 2026-10-13).
-        TagPill(pill, Modifier.align(Alignment.TopStart).padding(12.dp))
-    }
-}
-
-@Composable
-private fun HeroBand() {
-    val context = LocalContext.current
-    val i = remember { Heroes.pick(context) }
-    val shadow = Shadow(Color.Black.copy(alpha = 0.35f), Offset(0f, 2f), 16f)
-    Box(
-        Modifier
-            .padding(horizontal = 16.dp)
-            .fillMaxWidth()
-            .height(260.dp)
-            .clip(RoundedCornerShape(16.dp))
-            .semantics { contentDescription = "Trees worth the walk, wherever you are" },
-    ) {
-        Image(painterResource(Heroes.image(i)), null, contentScale = ContentScale.Crop, modifier = Modifier.fillMaxSize())
-        Box(Modifier.fillMaxSize().background(Brush.verticalGradient(0.5f to Color.Transparent, 1f to Color.Black.copy(alpha = 0.62f))))
-        Column(Modifier.align(Alignment.BottomStart).padding(16.dp), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-            Text(stringResource(R.string.discover_hero_1), style = TextStyle(shadow = shadow), fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 26.sp, color = Color.White)
-            Text(stringResource(R.string.discover_hero_2), style = TextStyle(shadow = shadow), fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 26.sp, color = Brand.colors.gold)
-        }
-        Heroes.credit(i)?.let {
-            Text(it, fontSize = 11.sp, color = Color.White.copy(alpha = 0.7f), modifier = Modifier.align(Alignment.BottomEnd).padding(10.dp))
-        }
-    }
-}
 
 /**
  * Who sent it: a small avatar and the name. A public profile's name shows to
@@ -1334,6 +1254,7 @@ private fun IndexPage(kind: IndexKind, c: Catalogue, act: DiscoverActions, onBac
             IndexKind.COUNTRIES -> R.string.discover_countries
             IndexKind.SPECIES -> R.string.discover_index_species
             IndexKind.OLDEST -> R.string.discover_index_oldest
+            IndexKind.ISLANDS -> R.string.discover_islands
         },
     )
     Column(Modifier.fillMaxSize().background(brand.ground)) {
@@ -1398,6 +1319,14 @@ private fun IndexPage(kind: IndexKind, c: Catalogue, act: DiscoverActions, onBac
                         .filter { search.isEmpty() || SpeciesSearch.hit(it.first, c.scientificName(it.first), c.otherNames[it.first].orEmpty(), search) != null }
                         .sortedByDescending { it.second }
                     items(all, key = { it.first }) { (name, n) -> SpeciesIndexRow(name, n) { act.openSpecies(name) } }
+                }
+                // The islands in the website's order (IndexPages.swift islands).
+                IndexKind.ISLANDS -> {
+                    val all = c.islands.mapNotNull { slug -> c.trees(slug).firstOrNull()?.let { Triple(slug, it, c.trees(slug).size) } }
+                        .filter { matches(it.second.city) || matches(it.second.country) }
+                    items(all, key = { it.first }) { (slug, t, n) ->
+                        IndexRow(t.city, t.country, n) { act.openPlace(SearchHit.City(slug, t.city, t.lat, t.lng)) }
+                    }
                 }
                 IndexKind.OLDEST -> {
                     val all = c.trees.filter { (it.ageMin ?: 0) > 0 && (matches(it.name) || matches(it.city)) }

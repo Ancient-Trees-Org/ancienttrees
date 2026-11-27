@@ -94,11 +94,6 @@
     <string name="tab_collect">集める</string>
     <!-- discover -->
     <string name="discover_search">場所、木、樹種を検索</string>
-    <string name="discover_season_here">%1$sが来ました</string>
-    <string name="discover_season_count">今月見頃の木 %1$s</string>
-    <string name="discover_season_near">\u0020· 20 km以内に%1$d本</string>
-    <string name="discover_at_best">今が見頃</string>
-    <string name="discover_at_best_in">今が見頃 · %1$s</string>
     <string name="discover_hero_1">歩いて会いに行きたい木を、</string>
     <string name="discover_hero_2">どこにいても。</string>
     <string name="discover_best">今が見頃</string>
@@ -110,7 +105,6 @@
     <string name="visitors_intro">訪れた人が木のそばで撮った写真です。新しい順に並んでいます。</string>
     <string name="visitors_end">今のところ、すべての写真を見ました。</string>
     <string name="discover_cities">お気に入りの木の街</string>
-    <string name="discover_records">記録</string>
     <string name="discover_oldest">最古</string>
     <string name="discover_oldest_age">最古 · %1$s</string>
     <string name="discover_thickest">最も太い</string>
