@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 night run: web error cleared, iOS red left for its next run
+
+- **Rung 2.** The web error "AbortError: Transition was skipped" (16 reports, 13 pages) is the browser rejecting its own cross-document @view-transition when a visitor leaves a page mid-transition. No script of ours holds those promises, so web-errors-js.ts now ignores "Transition was skipped/aborted". Preflight 0 problems.
+- **iOS red, not fixed.** The 22:27 run failed `BackKeepsPlaceWalk.testBackFromATreeKeepsTheFeedWhereItWas` (Feed tile 152.5 before Back, 55.5 after). It started with 92cfabb94, which touched Feed.swift, TreeDetail.swift and ReviewPrompt.swift. This runner has no iOS, so I did not guess at a fix. The run in progress at 00:55 UTC on main will show if it still fails. If it does, a session with a Mac should look at the Feed's scroll position after Back first.
+- 10 open app BUG rows in data/code-audit.json were not taken: they need the iOS toolchain to verify.
+
 ## 2026-11-26 reader judge: the La Salle larch is older than 500 years, by its reader
 
 - **Live: la-salle/lsa_001, The Bearded Larch of the Col du Bard Path** now says "more than 500 years, by a reader's estimate". Before, it said "under 500". The reader who sent the tree wrote in report 1000157 that they had typed it wrong ("more than 500 yo"). The age line, the story and the question context changed. There are no translations of the page, and verify_notes records the correction.
