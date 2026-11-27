@@ -278,14 +278,39 @@ final class Sightings {
         }
     }
 
-    /// "in Nara" within five kilometres of one of our trees in Nara, "near
-    /// Nara" within thirty, which is the day-trip boundary the site already
-    /// uses, and nothing further out than that.
+    /// "in Nara" within five kilometres of one of our trees in Nara, and
+    /// nothing further out: there the phone names the town itself
+    /// (`namePlace`, from the tree page's reverse geocode). "near Nara" up to
+    /// thirty kilometres is gone (Plus answer, 2026-11-22: a reader adding
+    /// trees in Knaresborough was told "near Ripon", "two bus rides away",
+    /// and read it as the app not letting them add trees at home). Google
+    /// Maps and iNaturalist name the town the point is in, never the nearest
+    /// place they happen to cover.
+    nonisolated static let ourPlaceKm = 5.0
+
     nonisolated static func placePhrase(nearestCity city: String?, km: Double?) -> String? {
         guard let city, !city.isEmpty, let km else { return nil }
-        if km <= 5 { return "in \(city)" }
-        if km <= 30 { return "near \(city)" }
-        return nil
+        return km <= ourPlaceKm ? "in \(city)" : nil
+    }
+
+    /// Whether a tree's stored place should give way to the town the phone
+    /// names: none yet, or the "near <our place>" older builds wrote.
+    nonisolated static func wantsTown(_ place: String?) -> Bool {
+        let p = place?.trimmingCharacters(in: .whitespaces) ?? ""
+        return p.isEmpty || p.hasPrefix("near ")
+    }
+
+    /// The new place and name once the phone has named the town: the place
+    /// becomes "in <town>", and a name WE made from the old place follows it
+    /// (a name somebody typed is theirs and is never touched). Nil when
+    /// nothing changes. Pure, for the test.
+    nonisolated static func townNamed(_ town: String, place: String?, name: String,
+                                      species: String?) -> (place: String, name: String)? {
+        let t = town.trimmingCharacters(in: .whitespaces)
+        guard !t.isEmpty, wantsTown(place) else { return nil }
+        let newPlace = "in \(t)"
+        let madeUp = name == unnamed || name == fallbackName(species: species, place: place)
+        return (newPlace, madeUp ? fallbackName(species: species, place: newPlace) : name)
     }
 
     /// Where a change goes after it has been written here. Set once by the root
@@ -732,6 +757,19 @@ final class Sightings {
         // 2026-11-20): an edit used to wait for the next full sync, so a
         // species or status fixed on the phone reached nobody until the app
         // next signed in. A draft stays on this phone until Save.
+        if all[i].draft != true { Self.syncOne?(all[i]) }
+    }
+
+    /// The town the phone named for a tree only you have (TreeDetail's
+    /// reverse geocode), kept with the tree so My trees and its name say
+    /// Knaresborough rather than the nearest place we map. See `townNamed`.
+    func namePlace(_ id: UUID, town: String) {
+        guard let i = all.firstIndex(where: { $0.id == id }),
+              let next = Self.townNamed(town, place: all[i].place, name: all[i].name,
+                                        species: all[i].species) else { return }
+        all[i].place = next.place
+        all[i].name = next.name
+        persist()
         if all[i].draft != true { Self.syncOne?(all[i]) }
     }
 

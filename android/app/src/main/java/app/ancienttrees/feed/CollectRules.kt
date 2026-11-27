@@ -95,17 +95,29 @@ object CollectRules {
         return !(a.lowercase(Locale.ROOT).contains("old") || a.contains(","))
     }
 
-    /** Sightings.placePhrase: "in Nara" within 5 km of one of our trees there, "near Nara" within 30. */
-    enum class Near { IN, NEAR }
+    /**
+     * Sightings.placePhrase: "in Nara" within [OUR_PLACE_KM] of one of our trees
+     * there, and nothing further out: the phone names the town itself (OwnTree's
+     * geocode, [renameForTown]). "near Nara" up to 30 km is gone (Plus answer,
+     * 2026-11-22: a tree added in Knaresborough was "near Ripon", two bus rides away).
+     */
+    const val OUR_PLACE_KM = 5.0
+
+    enum class Near { IN }
 
     fun placeKind(city: String?, km: Double?): Near? {
         if (city.isNullOrEmpty() || km == null) return null
-        return when {
-            km <= 5 -> Near.IN
-            km <= 30 -> Near.NEAR
-            else -> null
-        }
+        return if (km <= OUR_PLACE_KM) Near.IN else null
     }
+
+    /**
+     * Sightings.townNamed: the name a tree only you have takes once the phone has
+     * named the town, when the name is one WE made ([madeUp]: "A tree I found", or
+     * "A tree near Ripon" from an older build); a name somebody typed is never
+     * touched. Null when nothing changes.
+     */
+    fun renameForTown(name: String, madeUp: Set<String>, townName: String): String? =
+        if (name in madeUp && name != townName) townName else null
 
     /**
      * The place a tree YOU added is labelled with in My trees (report 1488: the

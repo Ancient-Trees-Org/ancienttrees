@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-27 session: a tree you add is named after its own town, not "near" one of ours (both phones)
+
+- **Product (next app builds, iOS and Android):** a tree a reader adds more than 5 km from our nearest place no longer becomes "A tree near Ripon" with a link to Ripon on its page. The phone names the town it stands in ("A tree in Knaresborough"), and a name we made follows it; a name they typed is never touched. Older trees named "near X" are renamed the next time their page opens. Our place is still named and linked within 5 km ("in Nara").
+- **Why:** a Plus answer of 2026-11-22 (anonymous, so no reply is possible): "I'd like to add trees in my hometown of Knaresborough but this doesn't seem to be possible. The app thinks I'm in Ripon". Adding was possible; the "near Ripon" label made it look as though it was not. Recorded as ESC-2026-11-27-a-tree-you-add-up-to-30-km-from-one-of-o. Plus answers are read by nobody but the digest, so this sat for five days.
+- Tests: MyTreesTests `theTownThePhoneNamesReplacesTheNearestPlaceOfOurs`, `thePlaceIsOursOnlyCloseByAndNothingBeyond`; Android CollectRulesTest `theTownThePhoneNamesReplacesANameWeMade`. Both green.
+
 ## 2026-11-27 reader judge: a reader's photograph now leads the Villa Torlonia cedar in Rome
 
 - **rome/rom_018, the Cedar of Lebanon of Villa Torlonia, has a reader's photograph as its lead** (sighting f19ad4b8, `add`). It was sent from 19 m from our confirmed pin. It shows a broad cedar with many stems rising from one massive, flared trunk. It stands on the lawn below the Casino Nobile, with the white columns and a stone urn on the balustrade in frame. That is the setting the recognition line names. The species (tiered sprays of short needles) and the description both fit. The Commons photograph moved into the strip. The reader was mailed. The photo is filed under November (the photograph's own date). The pin catch-up could not read coordinates (HTTPError), but the pin was already confirmed.

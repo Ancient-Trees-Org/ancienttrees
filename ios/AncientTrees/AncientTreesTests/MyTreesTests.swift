@@ -1046,11 +1046,27 @@ struct AnUnnamedTreeIsNamedFromWhatWeKnow {
         #expect(Sightings.fallbackName(species: nil, place: nil) == "A tree I found")
     }
 
-    @Test func thePlaceIsInCloseAndNearFurtherOutAndNothingBeyond() {
+    @Test func thePlaceIsOursOnlyCloseByAndNothingBeyond() {
         #expect(Sightings.placePhrase(nearestCity: "Nara", km: 1.2) == "in Nara")
-        #expect(Sightings.placePhrase(nearestCity: "Nara", km: 12) == "near Nara")
+        #expect(Sightings.placePhrase(nearestCity: "Nara", km: 12) == nil)
         #expect(Sightings.placePhrase(nearestCity: "Nara", km: 80) == nil)
         #expect(Sightings.placePhrase(nearestCity: nil, km: 1) == nil)
+    }
+
+    /// Plus answer, 2026-11-22: a tree added in Knaresborough was "near
+    /// Ripon", two bus rides away. The town the phone names wins, and a name
+    /// we made follows it; a name somebody typed never does.
+    @Test func theTownThePhoneNamesReplacesTheNearestPlaceOfOurs() {
+        let r = Sightings.townNamed("Knaresborough", place: "near Ripon",
+                                    name: "A tree near Ripon", species: nil)
+        #expect(r?.place == "in Knaresborough")
+        #expect(r?.name == "A tree in Knaresborough")
+        #expect(Sightings.townNamed("Knaresborough", place: nil, name: Sightings.unnamed,
+                                    species: "Oak")?.name == "Oak in Knaresborough")
+        #expect(Sightings.townNamed("Knaresborough", place: "near Ripon",
+                                    name: "The Dropping Well yew", species: nil)?.name == "The Dropping Well yew")
+        #expect(Sightings.townNamed("Kyoto", place: "in Nara", name: "A tree in Nara", species: nil) == nil)
+        #expect(Sightings.townNamed(" ", place: nil, name: "x", species: nil) == nil)
     }
 
     /// Filling in the species renames a tree WE named, and never one they named.

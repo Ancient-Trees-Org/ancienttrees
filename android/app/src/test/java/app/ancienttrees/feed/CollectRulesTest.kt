@@ -64,9 +64,19 @@ class CollectRulesTest {
         assertNull(CollectRules.ageNeedsOld(" "))
     }
 
-    @Test fun placePhraseStopsAtThirtyKilometres() {
+    // Plus answer, 2026-11-22: Knaresborough was "near Ripon", two bus rides away.
+    @Test fun theTownThePhoneNamesReplacesANameWeMade() {
+        val madeUp = setOf("A tree I found", "A tree near Ripon")
+        assertEquals("A tree in Knaresborough",
+            CollectRules.renameForTown("A tree near Ripon", madeUp, "A tree in Knaresborough"))
+        assertNull(CollectRules.renameForTown("The Dropping Well yew", madeUp, "A tree in Knaresborough"))
+        assertNull(CollectRules.renameForTown("A tree in Knaresborough", madeUp + "A tree in Knaresborough",
+            "A tree in Knaresborough"))
+    }
+
+    @Test fun placePhraseIsOursOnlyWithinFiveKilometres() {
         assertEquals(CollectRules.Near.IN, CollectRules.placeKind("Nara", 2.0))
-        assertEquals(CollectRules.Near.NEAR, CollectRules.placeKind("Nara", 20.0))
+        assertNull(CollectRules.placeKind("Nara", 20.0))
         assertNull(CollectRules.placeKind("Nara", 40.0))
         assertFalse(CollectRules.isFar(lat, lng, m300))
         assertTrue(CollectRules.isFar(lat, lng, km1))

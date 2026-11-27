@@ -696,10 +696,13 @@ struct TreeDetail: View {
                 Geo.km($0, (lat: tree.lat, lng: tree.lng)) <= 25 ? "yes" : "no"
             } ?? "unknown"
             Measure.event("tree_opened", ["tree": mine == nil ? tree.id : "own", "near": near])
-            if let m = mine, minePlace == nil, geocodedPlace == nil {
+            if let m = mine, minePlace == nil || Sightings.wantsTown(m.place), geocodedPlace == nil {
                 let marks = try? await CLGeocoder()
                     .reverseGeocodeLocation(CLLocation(latitude: m.lat, longitude: m.lng))
                 geocodedPlace = marks?.first?.locality ?? marks?.first?.administrativeArea
+                // Kept with the tree: "A tree in Knaresborough", not "near
+                // Ripon" (Plus answer, 2026-11-22).
+                if let town = marks?.first?.locality { sightings.namePlace(m.id, town: town) }
             }
             // Three trees LOOKED AT is the review ask's threshold (Hidde,
             // 2026-09-04). Counted here beside the measurement because this
@@ -1332,9 +1335,11 @@ struct TreeDetail: View {
         }
     }
 
-    /// The nearest city we publish, when the tree of your own stands close
-    /// enough to it for the page to be about the same place. 30 km is the
-    /// day-trip boundary this project already uses everywhere else.
+    /// The nearest city we publish, when the tree of your own stands IN it:
+    /// within `Sightings.ourPlaceKm`, the same 5 km that names it "in Nara".
+    /// Further out the town the phone names stands instead, grey and not a
+    /// link (was 30 km, which told a reader in Knaresborough their tree was
+    /// in Ripon; Plus answer, 2026-11-22).
     private var minePlace: (name: String, slug: String)? {
         guard let m = mine else { return nil }
         var best: (tree: Tree, km: Double)?
@@ -1342,7 +1347,7 @@ struct TreeDetail: View {
             let km = t.distanceKm(from: m.lat, m.lng)
             if best == nil || km < best!.km { best = (t, km) }
         }
-        guard let b = best, b.km <= 30 else { return nil }
+        guard let b = best, b.km <= Sightings.ourPlaceKm else { return nil }
         return (b.tree.city, b.tree.citySlug)
     }
 

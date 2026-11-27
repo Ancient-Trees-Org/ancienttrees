@@ -253,7 +253,6 @@ fun CollectSheet(
         val near = CollectRules.nearestTree(h.lat, h.lng, trees) ?: return null
         return when (CollectRules.placeKind(near.first.city, near.second)) {
             CollectRules.Near.IN -> context.getString(R.string.cf_in_city, near.first.city)
-            CollectRules.Near.NEAR -> context.getString(R.string.cf_near_city, near.first.city)
             null -> null
         }
     }

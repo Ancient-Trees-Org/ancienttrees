@@ -88,6 +88,7 @@ import app.ancienttrees.account.Collector
 import app.ancienttrees.account.MyTrees
 import app.ancienttrees.account.OwnSighting
 import app.ancienttrees.feed.Catalogue
+import app.ancienttrees.feed.CollectRules
 import app.ancienttrees.feed.Geo
 import kotlinx.coroutines.launch
 
@@ -97,7 +98,9 @@ enum class EditableField { NAME, AGE, GIRTH, STORY }
 /** TreeDetail.minePlace: the nearest city we publish within 30 km, the day-trip boundary. */
 fun minePlace(catalogue: Catalogue, lat: Double, lng: Double): Pair<String, String>? {
     val best = catalogue.trees.minByOrNull { Geo.km(lat, lng, it.lat, it.lng) } ?: return null
-    if (Geo.km(lat, lng, best.lat, best.lng) > 30) return null
+    // TreeDetail.minePlace: only a place the tree stands IN (5 km, the "in Nara"
+    // line); further out the town the phone names (Plus answer, 2026-11-22).
+    if (Geo.km(lat, lng, best.lat, best.lng) > CollectRules.OUR_PLACE_KM) return null
     return best.city to best.citySlug
 }
 
@@ -145,13 +148,23 @@ private fun OwnTreeInner(
     var geocoded by remember(s.lat, s.lng) { mutableStateOf<String?>(null) }
     LaunchedEffect(s.lat, s.lng, place == null) {
         if (place != null || geocoded != null || !android.location.Geocoder.isPresent()) return@LaunchedEffect
-        geocoded = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) {
+        val found = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) {
             runCatching {
                 @Suppress("DEPRECATION")
                 android.location.Geocoder(context).getFromLocation(s.lat, s.lng, 1)?.firstOrNull()
-                    ?.let { it.locality ?: it.adminArea }
             }.getOrNull()
         }
+        geocoded = found?.let { it.locality ?: it.adminArea }
+        // Sightings.namePlace: a name WE made follows the town the phone names,
+        // "A tree in Knaresborough", never "A tree near Ripon" (Plus answer, 2026-11-22).
+        val town = found?.locality ?: return@LaunchedEffect
+        val near = CollectRules.nearestTree(s.lat, s.lng, catalogue.trees)?.first?.city
+        val madeUp = setOfNotNull(
+            context.getString(R.string.cf_unnamed),
+            near?.let { context.getString(R.string.cf_a_tree_at, context.getString(R.string.cf_near_city, it)) },
+        )
+        val renamed = context.getString(R.string.cf_a_tree_at, context.getString(R.string.cf_in_city, town))
+        CollectRules.renameForTown(s.name, madeUp, renamed)?.let { mine.update(s.id, name = it) }
     }
 
     BoxWithConstraints(Modifier.fillMaxSize().background(brand.ground)) {

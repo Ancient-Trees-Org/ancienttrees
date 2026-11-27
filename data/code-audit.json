@@ -1223,6 +1223,17 @@
    "found_by": "test",
    "no_test_reason": "layout at accessibility text sizes; no large-text layout check exists; looked at on the SE at XXL after the fix",
    "fixed_in": "92cfabb94"
+  },
+  {
+   "id": "ESC-2026-11-27-a-tree-you-add-up-to-30-km-from-one-of-o",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Kit/Sightings.swift:284",
+   "summary": "A tree you add up to 30 km from one of our places is named and placed after that place on both phones (\"A tree near Ripon\", the tree page links Ripon), so a reader adding trees in Knaresborough read it as the app not letting them add trees at home (Plus answer, 2026-11-22, anonymous)",
+   "first_seen": "2026-11-27",
+   "status": "open",
+   "found_by": "reader",
+   "reader_line": "A tree you add is now named after the town it stands in, not the nearest place we map"
   }
  ]
 }
