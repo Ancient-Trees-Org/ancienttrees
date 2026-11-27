@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: a maple in autumn colour at the National Arboretum, and the Yamaki Pine's new lead photo
+
+- **Live: washington-dc/wdc_044, The Flame-Leaved Maple of the Arboretum.** A reader sent it through the app (sighting e53755b2), a tree we do not map. It is a slender maple at the U.S. National Arboretum in full scarlet and orange autumn colour. Their second photograph shows the arboretum's own label held up on its stem, reading "Acer pubipalmatum, maple", so the species comes from that label. The reader placed the pin by hand, so it is approximate and the story says the pin marks the area. Both photographs are up, filed in November from the photo's own date. It is under the closed list: a tree blazing in autumn colour in its setting counts as special.
+- **The Yamaki Pine (wdc_025) has a reader's photograph as its lead.** It came from the same reader (sighting 7941c650): the bonsai on its plinth at the Japanese Pavilion in clear daylight, species and description matched. The Commons picture moved to the strip. The reader's fix was 9 m from our pin, so the pin is now confirmed. The congratulation mail for wdc_044 waits for the deploy.
+- Nothing else was waiting: no open reports, tips, feedback or reader words to quote. Preflight 0 problems, qa source clean, i18ncheck clean.
+
 ## 2026-11-27 reader judge: a hollow cedar at Shannon Falls, Squamish
 
 - **Live: squamish/sqm_001, The Hollow Cedar of Shannon Falls.** A reader sent it through the app (sighting 43dd1d12). It is a western red cedar standing alone on the picnic lawn of Shannon Falls Provincial Park, its trunk open at the foot in a hollow that the reader says "a child can walk through". The photograph is daylight and colour, and its own GPS puts it inside the park (OSM relation 8634839). The pin is confirmed, and the photo is filed in November from its own date. Squamish is a new one-tree place, so it gets no place page yet. Its intro, question texts and three FAQ are written for when it grows.

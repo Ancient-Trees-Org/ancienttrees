@@ -8098,6 +8098,24 @@
    "date": "2026-11-27",
    "tree_id": "sqm_001",
    "pin_checked": "2026-11-27"
+  },
+  "e53755b2-3f8d-4db4-84e8-fc0ffb918481": {
+   "outcome": "published",
+   "date": "2026-11-27",
+   "tree_id": "wdc_044",
+   "city_slug": "washington-dc"
+  },
+  "7941c650-7bfd-4e0d-8b0e-3eebde560748": {
+   "outcome": "added",
+   "date": "2026-11-27",
+   "tree_id": "wdc_025",
+   "city_slug": "washington-dc",
+   "file": "wdc_025-the-yamaki-pine-7941c650.jpg",
+   "reason": "The Yamaki Pine itself in its pot on the stone plinth at the Japanese Pavilion, the Fast Facts board behind it and a 'Please Do Not Touch' sign on the plinth; clear blue sky, daylight, colour. Species seen: five-needled blue-green pine in short dense tufts, layered flat pads, thick gnarled trunk: Ja",
+   "lat": 38.9123857569066,
+   "lon": -76.9690320747786,
+   "extras": 0,
+   "pin_checked": "2026-11-27"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

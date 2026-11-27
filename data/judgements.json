@@ -58,6 +58,53 @@
    "agreed": null
   },
   {
+   "id": "sight:7941c650-7bfd-4e0d-8b0e-3eebde560748",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "The Yamaki Pine",
+   "city": "Washington DC",
+   "species": "Japanese White Pine (Pinus parviflora 'Miyajima')",
+   "photo": "out/sightings/7941c650-7bfd-4e0d-8b0e-3eebde560748.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 9,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Japanese White Pine (Pinus parviflora 'Miyajima')"
+   },
+   "verdict": "publish",
+   "reason": "The Yamaki Pine in its pot at the Japanese Pavilion entrance, clear daylight; added as the lead photograph of wdc_025, the Commons picture moved to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:e53755b2-3f8d-4db4-84e8-fc0ffb918481",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "A tree in Washington DC",
+   "city": null,
+   "species": null,
+   "photo": "p_4d76c495781f6f5803ca5686/E53755B2-3F8D-4DB4-84E8-FC0FFB918481.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "A maple in full scarlet autumn colour at the U.S. National Arboretum, its label (Acer pubipalmatum) in the reader's second photo; live as washington-dc/wdc_044 with an approximate pin, both photographs up.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",
@@ -30212,6 +30259,32 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:e53755b2-3f8d-4db4-84e8-fc0ffb918481",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Flame-Leaved Maple of the Arboretum",
+   "city": "Washington DC",
+   "species": "Maple (Acer pubipalmatum)",
+   "photo": "p_4d76c495781f6f5803ca5686/E53755B2-3F8D-4DB4-84E8-FC0FFB918481.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the maple's crown in full scarlet and orange autumn colour against a blue sky; lead of wdc_044."
+  },
+  {
+   "id": "sight:e53755b2-3f8d-4db4-84e8-fc0ffb918481-extra-1",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Flame-Leaved Maple of the Arboretum",
+   "city": "Washington DC",
+   "species": "Maple (Acer pubipalmatum)",
+   "photo": "p_4d76c495781f6f5803ca5686/E53755B2-3F8D-4DB4-84E8-FC0FFB918481.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Further photograph 1 viewed: the reader's hand holding the arboretum label 'Acer pubipalmatum, maple' on one of its stems; in the gallery of wdc_044."
   }
  ]
 }

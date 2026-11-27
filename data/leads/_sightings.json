@@ -13103,6 +13103,41 @@
    "seen": "2026-11-27",
    "judged": "2026-11-27",
    "published_as": "squamish/sqm_001"
+  },
+  {
+   "sighting_id": "e53755b2-3f8d-4db4-84e8-fc0ffb918481",
+   "user_id": "p_4d76c495781f6f5803ca5686",
+   "mine": false,
+   "name": "A tree in Washington DC",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 38.9113849286369,
+   "longitude": -76.9560320819261,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_4d76c495781f6f5803ca5686/E53755B2-3F8D-4DB4-84E8-FC0FFB918481.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/e53755b2-3f8d-4db4-84e8-fc0ffb918481-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": 1123,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-27: looking up into a slender many-stemmed maple in full autumn colour, small deeply lobed leaves scarlet and orange against a blue sky, yellow crowns of taller trees around it; a second photograph shows the reader's hand holding the arboretum label on one of its leaning stems, reading 'Acer pubipalmatum, maple', daylight, colour. Live as washington-dc/wdc_044 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-27",
+   "judged": "2026-11-27",
+   "published_as": "washington-dc/wdc_044"
   }
  ]
 }

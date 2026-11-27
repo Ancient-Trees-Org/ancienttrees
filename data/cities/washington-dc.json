@@ -900,8 +900,8 @@
       "age_max": 400,
       "location": {
         "address": "National Bonsai & Penjing Museum, Japanese Pavilion entrance, U.S. National Arboretum, 3501 New York Avenue NE, Washington, DC 20002",
-        "latitude": 38.91242,
-        "longitude": -76.96894,
+        "latitude": 38.912386,
+        "longitude": -76.969032,
         "neighbourhood": "U.S. National Arboretum (Ivy City / Arboretum)"
       },
       "verified_sources": [
@@ -911,7 +911,7 @@
       ],
       "access": "Free; no ticket needed. National Bonsai & Penjing Museum open daily 10:00 am to 4:00 pm (National Bonsai Foundation page; the USDA page adds federal-holiday closures November to February). The Arboretum grounds open 8 am to 5 pm. The tree is the display at the entrance to the Japanese Pavilion. On foot only via the 24th and R Streets NE gate; parking on the grounds is free.",
       "transport": "Stadium-Armory Metro (Blue/Orange/Silver), then B2 Metrobus to Bladensburg Road at Rand Street, then walk R Street two blocks to the Arboretum gate (National Bonsai Foundation directions; the walk inside the grounds to the museum is not timed from a source).",
-      "location_precision": "approximate",
+      "location_precision": "confirmed",
       "location_site": {
         "name": "National Bonsai & Penjing Museum, Japanese Pavilion",
         "radius_m": 50
@@ -921,15 +921,37 @@
       "how_to_recognise": "You can recognise it as a bonsai, a Japanese white pine in a pot rather than a tree in the ground. It stands at the entrance to the Japanese Pavilion of the National Bonsai & Penjing Museum.",
       "age_basis": "source",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Japanese_White_Pine_%27Hiroshima_Survivor%27%2C_30_April_2012.JPG",
-        "license": "CC BY-SA 3.0",
-        "attribution": "Sage Ross, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/wdc_025-the-yamaki-pine-7941c650.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "approved_by": "viewing pass",
-        "approved_on": "2026-10-22",
-        "width": 5184,
-        "height": 3456,
-        "taken_month": 4
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_4d76c495781f6f5803ca5686",
+        "sighting_id": "7941c650-7bfd-4e0d-8b0e-3eebde560748",
+        "note": "Photographed by a reader and sent through the app (2026-11-07); a viewing pass approved it on 2026-11-27: The Yamaki Pine itself in its pot on the stone plinth at the Japanese Pavilion, the Fast Facts board behind it and a 'Please Do Not Touch' sign on the plinth; clear blue sky, daylight, colour. Species seen: five-needled blue-green pine in short dense tufts, layered flat pads, thick gnarled trunk: Japanese white pine. Fits the description: a bonsai pine in a pot, not in the ground, at the entrance to the Japanese Pavilion with its information board, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Japanese_White_Pine_%27Hiroshima_Survivor%27%2C_30_April_2012.JPG",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Sage Ross, via Wikimedia Commons",
+          "status": "approved",
+          "approved_by": "viewing pass",
+          "approved_on": "2026-10-22",
+          "width": 5184,
+          "height": 3456,
+          "taken_month": 4
+        }
+      ],
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "7941c650-7bfd-4e0d-8b0e-3eebde560748",
+        "moved_m": 9,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
       }
     },
     {
@@ -1423,6 +1445,64 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
       }
+    },
+    {
+      "id": "wdc_044",
+      "name": "The Flame-Leaved Maple of the Arboretum",
+      "species": "Maple (Acer pubipalmatum)",
+      "location": {
+        "address": "U.S. National Arboretum, 3501 New York Avenue NE, Washington, DC",
+        "latitude": 38.9113849286369,
+        "longitude": -76.9560320819261,
+        "neighbourhood": "U.S. National Arboretum, Northeast DC"
+      },
+      "how_to_recognise": "A slender maple of several leaning grey stems, its small lobed leaves scarlet and orange in November, an arboretum label reading 'Acer pubipalmatum' on one stem and a thick straight trunk right beside it.",
+      "access": "Free. In the U.S. National Arboretum; the grounds open 8 am to 5 pm. On foot, enter at the 24th and R Streets NE gate.",
+      "story": "A reader walking through the U.S. National Arboretum in November stopped under this maple and sent us two photographs. One looks straight up into a crown on fire with scarlet and orange. The other shows the label that hangs from one of its stems, held up to the camera: Acer pubipalmatum, maple.\n\nThat is not a name most visitors will know. It is a maple from China, with small hand-shaped leaves cut deep into narrow lobes, like the Japanese maples planted in gardens everywhere. In the reader's pictures those leaves are at their best, thousands of them lit from behind against a clear blue sky, with the yellow of the taller trees around them showing through the gaps.\n\nThe tree itself is slender. Several smooth grey stems lean out and up from the ground, and right beside them rises the much thicker, straight trunk of a bigger neighbour. What makes it worth the walk is the colour, and the arboretum's numbered label tells you that you have found the right one.\n\nWe do not know when it was planted or how big it is. If you know this maple, or the collection it belongs to, tell us here and we will add it.\n\nOur pin marks the area rather than the exact trunk. The reader was there in November, when the leaves had turned; stand under the crown and look up.",
+      "verified_sources": [
+        "https://www.usna.usda.gov/ (U.S. National Arboretum, 3501 New York Avenue NE: the grounds where the reader photographed this maple, its arboretum label reading 'Acer pubipalmatum, maple' shown in their photograph)"
+      ],
+      "found_by_reader": {
+        "sighting_id": "e53755b2-3f8d-4db4-84e8-fc0ffb918481",
+        "date": "2026-11-27"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "e53755b2-3f8d-4db4-84e8-fc0ffb918481",
+        "date": "2026-11-27",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-27 reader judge: sent by a reader (e53755b2-3f8d-4db4-84e8-fc0ffb918481, through the app). Photographs viewed: looking up into a slender many-stemmed maple in full autumn colour, small deeply lobed leaves scarlet and orange against a blue sky, yellow crowns of taller trees around it; a second photograph shows the reader's hand holding the arboretum label on one of its leaning stems, reading 'Acer pubipalmatum, maple', daylight, colour. Species from the arboretum's own label in the reader's photograph. Published under the closed list for a reader's tree (Hidde, 2026-11-17): a tree in full autumn colour standing out in its setting (BRIEF_READER_JUDGE.md, 2026-11-24). The reader gave no name, species, age or note.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wdc_044-flame-leaved-maple-of-the-arboretum.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 900,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_4d76c495781f6f5803ca5686",
+        "sighting_id": "e53755b2-3f8d-4db4-84e8-fc0ffb918481",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); viewed and approved on 2026-11-27: looking up into a slender many-stemmed maple in full autumn colour, small deeply lobed leaves scarlet and orange against a blue sky, yellow crowns of taller trees around it; a second photograph shows the reader's hand holding the arboretum label on one of its leaning stems, reading 'Acer pubipalmatum, maple', daylight, colour. Not an open licence: ask before reuse elsewhere.",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/wdc_044-the-flame-leaved-maple-of-the-arboretum-e53755b2-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_4d76c495781f6f5803ca5686",
+          "sighting_id": "e53755b2-3f8d-4db4-84e8-fc0ffb918481-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

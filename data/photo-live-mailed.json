@@ -3420,6 +3420,21 @@
      "mailed": "2026-11-26"
     }
    ]
+  },
+  "p_4d76c495781f6f5803ca5686": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "7941c650-7bfd-4e0d-8b0e-3eebde560748",
+     "tree_id": "wdc_025",
+     "tree_name": "The Yamaki Pine",
+     "city": "Washington DC",
+     "city_slug": "washington-dc",
+     "display_name": null,
+     "live": "2026-11-27"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
