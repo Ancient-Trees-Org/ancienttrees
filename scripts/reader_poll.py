@@ -67,6 +67,10 @@ def main():
         fb = get("/rest/v1/submissions?select=why&kind=eq.feedback&created_at=gte." + since, key)
         n += len([r for r in fb if not (r.get("why") or "").strip().lower().startswith(
             ("worth it", "not worth it", "vote undone", "report"))])
+        # A typed Plus answer (the idea or "Something else") wakes it too
+        # (Hidde, 2026-11-27: a bug sat five days as a Plus answer).
+        plus = get("/rest/v1/plus_answers?select=idea,other_text&created_at=gte." + since, key)
+        n += len([r for r in plus if (r.get("idea") or "").strip() or (r.get("other_text") or "").strip()])
         # Reports on our trees (dead, wrong place, could not tell which, a
         # moved pin) wake the judge too, by when they were sent or when their
         # follow-up words came (Hidde, 2026-11-17: like the readers' trees).

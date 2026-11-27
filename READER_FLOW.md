@@ -57,7 +57,7 @@ First drawn 2026-11-17; kept on Hidde's word 2026-11-19 ("Zou je die er ook bij 
 | Worth-it vote | app, website | live directly | Counted on the tree | Never |
 | Ambassador request | app, website | reader judge, digest | Mail with the questions and the badge, automatically; the digest names who was added | Never (a daily line, no action) |
 | Feedback and ideas | app, website | reader judge, digest | Handled and recorded when it needs no mail (bug fixed, tip made a lead, idea already on the backlog) | A reply is needed (draft ready), or the decision is his |
-| Plus question | app, website | digest | Counts plus their words under the Plus table | Daily, to read |
+| Plus question | app, website | digest; typed answers also the reader judge (since 2026-11-27) | Counts plus their words under the Plus table; a typed answer is judged like feedback: a bug becomes a bug row, a wish goes to PRODUCT_TODO.md "Ideas from readers". Anonymous, so never a reply | Daily, to read |
 | App Store review | App Store | digest | Shown, not answered | Daily, to read |
 | Android waitlist | website | digest | Counted; asked for the closed test later | Never |
 | A reply to one of our reader mails | mail | reader judge (since 2026-11-18) | Filed as a feedback row; a held tree re-opened or an age or story put on the page | Anything that is not one of those |

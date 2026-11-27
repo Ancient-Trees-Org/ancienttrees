@@ -400,9 +400,9 @@
    "what": "Reader's fact that the campus began as an early-1900s psychiatric hospital added to the three Varese campus stories as theirs"
   },
   "1708": {
-   "date": "2026-11-26",
-   "status": "needs_hidde",
-   "what": "planting date (about 1810, the garden's belief) put on the Palheiro araucaria's page in English and Portuguese as a reader's estimate; they ask when Android comes, reply offering the test group drafted"
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "Planting date on the page; Android test offered and accepted (1709), their Play address added to the testers 2026-11-26"
   },
   "1709": {
    "date": "2026-11-26",
@@ -420,9 +420,9 @@
    "what": "Thanks and a heads-up that more Varese trees will come through the app; nothing to act on, their trees will be judged as they arrive."
   },
   "1715": {
-   "date": "2026-11-26",
-   "status": "needs_hidde",
-   "what": "Mail reply about the Madrid eucalyptus came with no plain-text part, so the run could not read it; it is in the inbox to read"
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "HTML-only mail: Andrea's question about the ambassador role, answered 2026-11-26 with his standard text; mail reader now reads HTML replies"
   },
   "405": {
    "date": "2026-11-17",
@@ -448,6 +448,72 @@
    "date": "2026-11-17",
    "status": "handled",
    "what": "Asked whether they can add trees from old southeastern US forests. Reply sent on Hidde's yes 2026-11-17 (add it in the app at the tree; which forest?)."
+  },
+  "plus:11": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "collecting trees by visiting and photographing them is the product; camera species recognition filed as an idea in PRODUCT_TODO.md (Ideas from readers)"
+  },
+  "plus:12": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "already done: a photograph's own date files it by month, and a reader's photograph shows their public profile name"
+  },
+  "plus:13": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "Add a tree has been in the iPhone app since August; the same not-found-it feeling as plus:26, which was the 'near <our place>' naming, fixed in 6a085decb"
+  },
+  "plus:14": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "the Major Oak is a blocked lead: declared dead in spring 2026; it may qualify under the standing-dead exception of 2026-11-17, named in LOG for a session"
+  },
+  "plus:15": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "already possible: the website's contribute page and Add a photo take a file from a computer"
+  },
+  "plus:16": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "notifications near a tree filed as an idea in PRODUCT_TODO.md (Ideas from readers); asked twice, with plus:23"
+  },
+  "plus:20": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "a community idea; following people and the Feed are live, nothing to do"
+  },
+  "plus:21": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "an address only, no ask; Plus answers are anonymous, nothing to do"
+  },
+  "plus:23": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "notifications near a tree filed as an idea in PRODUCT_TODO.md (Ideas from readers); asked twice, with plus:16"
+  },
+  "plus:24": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "camera species identification filed as an idea in PRODUCT_TODO.md (Ideas from readers)"
+  },
+  "plus:25": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "an address only, no ask; Plus answers are anonymous, nothing to do"
+  },
+  "plus:26": {
+   "bug": "ESC-2026-11-27-a-tree-you-add-up-to-30-km-from-one-of-o",
+   "date": "2026-11-27",
+   "status": "bug",
+   "what": "a tree added 15 km from Ripon was named 'near Ripon'; now named after its own town, both phones, 6a085decb"
+  },
+  "plus:9": {
+   "date": "2026-11-27",
+   "status": "handled",
+   "what": "already possible: a tree with an unknown species is added and published as its genus or 'sp.', asking readers on the page"
   }
  }
 }

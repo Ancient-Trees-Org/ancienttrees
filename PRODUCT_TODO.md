@@ -47,6 +47,10 @@ Weekly analysis retries Tue/Wed; Canada map (phone slide-north awaiting deploy);
 - More collections for their own sake: improve the ones that climb instead.
 - Homepage redesign: PARKED by Hidde 2026-09-24, "wacht daar sws maar mee". Nobody knows yet what it should be.
 
+### Ideas from readers (typed Plus answers, filed by the reader judge; his call, never a run's)
+- Notifications when you come near a mapped tree (Plus answers 16 and 23, 2026-11-17 and 11-21). Overlaps the parked Season Radar alerts; a Plus candidate.
+- Species identification from the camera (Plus answers 11 and 24, 2026-11-15 and 11-22). PictureThis and iNaturalist do it; a third-party model would need his yes (hard list 5).
+
 ### Open for Hidde, no rush
 - My trees vs Seen: AllTrails keeps Lists (want to go) and Completed (been) apart, because they are two intents, plan and trophy. Check the current app (the 09-18 fix split My trees and Favourites) before proposing anything.
 

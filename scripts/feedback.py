@@ -26,6 +26,9 @@ digest page).
     python3 scripts/feedback.py --close <id> bug <code-audit BUG id> "what was done"
     python3 scripts/feedback.py --for-hidde       the rows that need him (digest)
 
+Typed Plus answers are feedback too since 2026-11-27 (`plus:<id>`, see
+plus_ideas()): anonymous, so never a reply.
+
 Statuses: `handled` (done, nothing for him: a fix made, a lead recorded, an
 idea filed, no answer needed), `bug` (something broken: the BUG row it names
 in data/code-audit.json is rung-2 work until a test closes it, never his
@@ -104,6 +107,42 @@ def unhandled():
         if words.lower().startswith(VOTES) or words.lower().startswith("report"):
             continue
         out.append(r)
+    out += [r for r in plus_ideas(key) if r["id"] not in done]
+    out.sort(key=lambda r: r.get("created_at") or "")
+    return out
+
+
+def plus_ideas(key):
+    """Every typed Plus answer (the open idea or "Something else"), as a feedback
+    row with id `plus:<id>`, page `plus-answer`.
+
+    Plus answer, 2026-11-22: "I'd like to add trees in my hometown of
+    Knaresborough but this doesn't seem to be possible." It was a bug, and it
+    sat five days because typed Plus answers reached only the digest and no
+    judge (Hidde, 2026-11-27: "Ja, doe het"). plus_answers holds no account,
+    so there is nobody to reply to: an idea is filed or needs nothing, a bug
+    is a bug. Our own test rows (data/plus-answers-not-counted.json) stay out."""
+    import inbox
+    try:
+        import plus_answers
+        skip = set(plus_answers.not_counted()["answers"])
+    except Exception:  # noqa: BLE001
+        skip = set()
+    try:
+        rows = inbox.get("/rest/v1/plus_answers?select=id,created_at,surface,city,idea,other_text"
+                         "&order=created_at.asc&limit=5000", key) or []
+    except Exception:  # noqa: BLE001
+        return []
+    out = []
+    for r in rows:
+        idea, other = (r.get("idea") or "").strip(), (r.get("other_text") or "").strip()
+        if r.get("created_at") in skip or not (idea or other):
+            continue
+        words = " / ".join(x for x in ("Something else: " + other if other else "",
+                                       "Idea: " + idea if idea else "") if x)
+        out.append({"id": "plus:%s" % r["id"], "created_at": r.get("created_at"),
+                    "page": "plus-answer (%s)" % (r.get("surface") or "?"), "tree": "",
+                    "city": r.get("city") or "", "why": words})
     return out
 
 
