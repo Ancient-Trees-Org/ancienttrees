@@ -1,6 +1,9 @@
 {
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
+    "2026-11-27": [
+      {"date": "2026-11-27", "kind": "write", "target": "york+guimaraes+leamington-spa", "tokens": 45000, "trees": 0, "note": "3 READY leads handed back unwritten as status held: York riverside plane (no source, photo or facts), Sanfins cypress (Pacos de Ferreira, no life or access check, outside the day trip), Jephson silver pendant lime (no honest pin, no size); READY pool now 0; estimate"}
+    ],
     "2026-11-26": [
       {"date": "2026-11-26", "kind": "write", "target": "pending shelf (US/UK verified files + 3 READY leads)", "tokens": 0, "trees": 0, "note": "nothing to write: every US/UK verified file is stale; the 10 id-collision entries (bri_017, car_001, nyc_027, nyc_031, wol_001, cdl_003, lar_001, tro_001-003, sct_001) are live already under the same or another id; READY leads york plane (no source, no photo), guimaraes cypress (other concelho, alive and access unchecked), leamington lime (no pin, no size) not writable; tokens unknown"}
     ],
