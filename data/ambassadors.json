@@ -2730,6 +2730,16 @@
         "The Pale Trunks of Sigiria"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_bbdee5b7a8f38ffa1b4a1176",
+      "place_slug": "katikati",
+      "place_name": "Katikati",
+      "date": "2026-11-27",
+      "trees": [
+        "The Kaimai Kauri above Katikati"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
