@@ -3526,19 +3526,15 @@
    "sent": []
   },
   "p_17ebda916a359d13967483d9": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-27",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "64eec98b-ae65-4dac-afae-fc4a795786ee",
      "tree_id": "lon_026",
-     "tree_name": "The Brockwell Oak",
-     "city": "London",
-     "city_slug": "london",
-     "display_name": null,
-     "live": "2026-11-27"
+     "mailed": "2026-11-27"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
