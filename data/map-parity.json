@@ -277,6 +277,15 @@
       "android": "MapTab.kt: TreePlaceBody's onOpen calls TreeSource.mark(\"map/pin\") (ui/TreeSource.kt)",
       "status": "one-sided",
       "why": "app measurement only; the website measures where a page was reached from with GA's own referrer"
+    },
+    {
+      "what": "A tapped pin stays where the finger put it (Hidde, 2026-11-27: \"dan verspringt de hele kaart\"): the card rising or falling no longer slides the map; only a pin the card would cover is brought up",
+      "since": "2026-11-27",
+      "web": "nothing to change: the website's card opens beside its pin and the map does not move (map-card-js.ts)",
+      "ios": "TreeMap.swift: settle() keeps the coordinate under the inset's middle when the inset changes for a chosen or released tree; pinNeedsMove/pinHidden decide when it is brought in (TreeMapPinTapTests)",
+      "android": "not yet checked: the Android map may still recentre on every pin tap",
+      "status": "open",
+      "owed": "android: tap a pin in the upper map and close the card, the map must not move; copy the iOS rule"
     }
   ]
 }
