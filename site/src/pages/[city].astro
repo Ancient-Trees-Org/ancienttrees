@@ -303,8 +303,7 @@ const avgLng = markers.reduce((s, m) => s + m.lng, 0) / markers.length;
       <div class="sheet-grab">
         <PlaceHead crumbs={crumbItems} eyebrow={country} lead={ui("en").heading("{c}")} name={cityName}
                    share={{ url: canonical, title: ui("en").heading(cityName) }}
-                   placeRow={{ share: ui("en").share, copied: ui("en").shareCopied, close: ui("en").photoClose }}
-                   close={oneMap ? ui("en").photoClose : undefined} />
+                   placeRow={{ share: ui("en").share, copied: ui("en").shareCopied, close: ui("en").photoClose }} />
       </div>
       <div class="sheet-body">
       <PlaceIntro text={intro} readMore={ui("en").readMore}>

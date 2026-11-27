@@ -1217,10 +1217,9 @@ button.profile-avatar.profile-edit { border: 0; padding: 0; cursor: pointer; }
 .at-search .ats-clr[hidden] { display: none; }
 /* /explore's ambassador box, filled by map.ts only when the map is on one city. */
 #ex-box:empty { display: none; }
-/* ONE MAP (lib/one-map.ts, city-view-js.ts): the cross beside share closes
-   the city's panel; while the panel is the map's trees in view, everything
-   the script set hidden stays hidden, whatever display its own rule gives. */
-.place-head-acts { display: flex; gap: 8px; flex: none; }
+/* ONE MAP (lib/one-map.ts, city-view-js.ts): while the panel is the map's
+   trees in view, everything the script set hidden stays hidden, whatever
+   display its own rule gives. */
 .place-head [hidden], .panel.is-view .sheet-body > [hidden], #view-body[hidden] { display: none !important; }
 /* Fly, then the city (lib/fly-to-city-js.ts, Hidde 2026-11-26: "A, fly and
    fade"): the browser's own cross-page fade, which Base.astro's pageswap

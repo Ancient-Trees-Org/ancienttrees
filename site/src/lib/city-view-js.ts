@@ -4,9 +4,10 @@
 // city. Google Maps keeps a place's panel while you look around and closes it
 // with its cross; Airbnb's list turns into "within map area" once the map is
 // moved off the place, and its address follows the view without a page load.
-// So: while any of the city's trees is in view, the panel is the city's, as
-// the server wrote it. Move the map off the city, or press the cross, and the
-// panel becomes /explore's list of trees in view (lib/view-list-js.ts, the
+// So: the panel is the city's, as the server wrote it, until you move the
+// map yourself. Then, Airbnb's way (Hidde, 2026-11-27: "ja maak gewoon airbnb
+// na", after finding the cross odd and zooming out doing nothing), the panel
+// becomes /explore's list of trees in view (lib/view-list-js.ts, the
 // same code), the head says the map's own title and the address becomes
 // /explore#map=..., which loads exactly this view on its own. Back brings the
 // city's panel back. Nothing names a place from what happens to be in view
@@ -129,7 +130,7 @@ function _viewHead(on) {
   var head = _sheet ? _sheet.querySelector('.place-head') : null;
   if (!head) { return; }
   var h1 = head.querySelector('h1'), nav = head.querySelector('nav'), eb = head.querySelector('.eyebrow');
-  var share = head.querySelector('.page-head [data-share]'), x = head.querySelector('.place-close');
+  var share = head.querySelector('.page-head [data-share]');
   if (on) {
     if (!_headSaved) {
       _headSaved = { h1: h1 ? h1.innerHTML : '', nav: nav ? nav.innerHTML : '', eb: eb ? eb.hidden : true,
@@ -141,14 +142,12 @@ function _viewHead(on) {
     if (nav && first) { nav.innerHTML = first.outerHTML + ' › <span>' + _esc(VIEW_WORDS.map) + '</span>'; }
     if (eb) { eb.hidden = true; }
     if (share) { share.setAttribute('data-share-url', location.origin + VIEW_PATH); share.setAttribute('data-share-title', VIEW_WORDS.title); }
-    if (x) { x.hidden = true; }
     document.title = VIEW_WORDS.docTitle;
   } else if (_headSaved) {
     if (h1) { h1.innerHTML = _headSaved.h1; }
     if (nav) { nav.innerHTML = _headSaved.nav; }
     if (eb) { eb.hidden = _headSaved.eb; }
     if (share) { share.setAttribute('data-share-url', _headSaved.url); share.setAttribute('data-share-title', _headSaved.title); }
-    if (x) { x.hidden = false; }
     document.title = _headSaved.doc;
   }
 }
@@ -181,8 +180,10 @@ function toPlace() {
   _viewHead(false);
   if (_sheet) { _sheet.classList.remove('is-view'); _sheet.scrollTop = 0; }
 }
-// Leaving the city: a move of your own after which none of its trees is in
-// view. The page's own fits carry no originalEvent and never leave it.
+// Leaving the city: any drag or zoom of your own, as on Airbnb, where a move
+// of the map turns the list into "within map area" at once. The page's own
+// fits, a tapped pin's card and a flight carry no originalEvent and never
+// leave it.
 var _viewUserMove = false;
 map.on('dragstart', function() { _viewUserMove = true; });
 map.on('zoomstart', function(e) { if (e && e.originalEvent) { _viewUserMove = true; } });
@@ -190,15 +191,7 @@ map.on('moveend', function() {
   var user = _viewUserMove;
   _viewUserMove = false;
   if (VIEW || !user) { return; }
-  var b = map.getBounds();
-  for (var i = 0; i < markers.length; i++) {
-    if (b.contains([markers[i].lng, markers[i].lat])) { return; }
-  }
   toView(true);
-});
-// The cross beside share closes the city's panel; the map stays where it is.
-document.addEventListener('click', function(e) {
-  if (e.target.closest && e.target.closest('.place-close')) { toView(true); }
 });
 // Back to the city's address brings its panel back, where you were on it.
 window.addEventListener('popstate', function() {
