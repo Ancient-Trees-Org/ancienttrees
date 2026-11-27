@@ -1000,6 +1000,28 @@
    "agreed": null
   },
   {
+   "id": "sight:64eec98b-ae65-4dac-afae-fc4a795786ee",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "The Brockwell Oak",
+   "city": "London",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/64eec98b-ae65-4dac-afae-fc4a795786ee.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 37,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "The Brockwell Oak in sunlit autumn leaf, whole tree inside its fence with Brockwell Hall behind; now the lead photograph, the earlier reader's moves to the strip. Pin kept: the camera stood tens of metres south.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",

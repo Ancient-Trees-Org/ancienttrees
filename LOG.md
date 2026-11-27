@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: a new lead photograph for the Brockwell Oak
+
+- New lead photograph: **The Brockwell Oak** (london/lon_026) now opens with a second reader's sunlit autumn shot (taken 2026-11-23): the whole tree inside its new fence, with Brockwell Hall behind. The first reader's photo from 2026-11-20 moved to the gallery. The reader is mailed.
+- The pin was not moved. sightings_publish moved it 37 m south to the photo's GPS fix and marked it confirmed. But the photo looks north at the oak from tens of metres away, so that fix is where the camera stood, not where the tree is. The old pin is back and stays approximate (noted in verify_notes and in sightings-processed's `pin_kept`).
+- No reports, tips or feedback waiting. The 37 unheld leads in _sightings.json are all our own account's (`mine`), not readers'.
+
 ## 2026-11-27 reader judge: Madison's Constitution-Year Oak
 
 - New tree live: **The Constitution-Year Oak** (madison/msn_006), Vilas neighbourhood, Madison, Wisconsin. A reader sent it through the app, with the phone's own location: a big, deeply ridged oak, and at its foot the 1987 bronze plaque of the National Arborist Association and the International Society of Arboriculture, presented by the Wisconsin Arborist Association, saying it "lived here at the time of the signing of our Constitution". The plaque is its age source (over 240 years). The reader's 250+ years, 4 m girth and white oak are stated as theirs, and the page asks readers to confirm the species. All three photographs are up: the lead and two in the gallery. It is now Madison's oldest tree we map, so the intro, question texts and first FAQ follow it. The access line says we have not confirmed who owns the wooded ground. A Vilas Park master plan is said to mention a bur oak with the same 1987 plaque, but its text could not be read, so the park is not named.

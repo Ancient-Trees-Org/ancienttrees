@@ -1253,19 +1253,32 @@
       "story": "The Brockwell Oak was old before Brockwell Park existed, and old before the country estate the park was made from. Lambeth Council, which owns the ground, said so in 2008 when the tree was counted among London's Great Trees, and put its age at probably well over 700 years. The Great Trees of London list is more cautious: 500 to 700 years as of 2010. Read together, they put the acorn in the ground no later than the early 1500s, and around 1300 or before if the council is right. That band is the honest answer.\n\nEven at the cautious end it was more than a century and a half old when the Great Fire burned the City in 1666, a few miles to the north. The public, by contrast, are newcomers. The park only opened in 1892, when this oak was already several centuries into its life.\n\nLambeth gives its girth as over six metres. That is the council's figure rather than a published measurement, and it is a floor, not a ceiling.\n\nSince then Lambeth has put a low wooden fence round its roots. The council's sign on it says the oak has lost three large branches over the last several years, and puts its age at around 600 years. The pin comes from the Great Trees map, not a survey of the trunk, but you will not miss a squat, burred trunk over six metres round, alone in open grass inside the rails.",
       "how_to_recognise": "You can recognise it by the trunk, over six metres round by Lambeth Council's figure, on a broad oak alone in open grass inside a low wooden fence with the council's sign on it, in Brockwell Park.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/lon_026-the-brockwell-oak-ad2b3c75.jpg",
+        "url": "https://ancienttrees.app/photos/lon_026-the-brockwell-oak-64eec98b.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 1200,
-        "height": 1600,
+        "width": 1600,
+        "height": 1200,
         "taken_month": 11,
         "source": "contributor",
-        "contributor_user_id": "p_e03b678c7ff95e57e31ad99c",
-        "sighting_id": "ad2b3c75-3e16-463b-8c24-6067e42f14ed",
-        "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-26: The Brockwell Oak itself, whole tree in frame in daylight: the squat burred trunk with the split stub, the broad crown in late autumn leaf, the new chestnut-paling fence and gate Lambeth put round its root area. A reader's own photograph, so it leads; the Commons one moves to the strip. Species seen: oak: rugged dark bark, lobed brown autumn leaves on the grass, broad spreading oak crown. Fits the description: a huge squat oak trunk standing alone in open grass in Brockwell Park; the reader's third picture is Lambeth's own sign on the fence naming it Brockwell Park's ancient oak.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_17ebda916a359d13967483d9",
+        "sighting_id": "64eec98b-ae65-4dac-afae-fc4a795786ee",
+        "note": "Photographed by a reader and sent through the app (2026-11-23); a viewing pass approved it on 2026-11-27: The Brockwell Oak in sunlit autumn leaf: the same broad, low-forked crown on a single massive trunk, inside the new split-rail fence, Brockwell Hall on the rise behind; 37 m from our pin. A fine full-tree frame in daylight and colour. Species seen: oak: rugged dark bark, lobed leaves turning russet-brown, broad spreading crown of a veteran pedunculate oak. Fits the description: a broad oak alone in open grass inside a low wooden fence in Brockwell Park, huge trunk, the hall behind.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/lon_026-the-brockwell-oak-ad2b3c75.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_e03b678c7ff95e57e31ad99c",
+          "sighting_id": "ad2b3c75-3e16-463b-8c24-6067e42f14ed",
+          "note": "Photographed by a reader and sent through the app (2026-11-20); a viewing pass approved it on 2026-11-26: The Brockwell Oak itself, whole tree in frame in daylight: the squat burred trunk with the split stub, the broad crown in late autumn leaf, the new chestnut-paling fence and gate Lambeth put round its root area. A reader's own photograph, so it leads; the Commons one moves to the strip. Species seen: oak: rugged dark bark, lobed brown autumn leaves on the grass, broad spreading oak crown. Fits the description: a huge squat oak trunk standing alone in open grass in Brockwell Park; the reader's third picture is Lambeth's own sign on the fence naming it Brockwell Park's ancient oak.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Brockwell_Oak_%2810%29.jpg",
           "license": "CC BY-SA 4.0",
@@ -1312,7 +1325,7 @@
           "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ],
-      "verify_notes": "2026-11-26 reader judge: a reader's photographs show the council's new fence and sign; story, access and recognition line updated from the sign."
+      "verify_notes": "2026-11-26 reader judge: a reader's photographs show the council's new fence and sign; story, access and recognition line updated from the sign. 2026-11-27 reader judge: a second reader's autumn photograph leads now; its GPS fix (37 m south) was the camera's spot looking north at the oak with Brockwell Hall behind, taken from tens of metres back, so the pin stays where it was, approximate."
     },
     {
       "id": "lon_027",
