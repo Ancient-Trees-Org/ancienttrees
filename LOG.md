@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-27 third attempt in the 12:08 window, nothing shipped
+
+Claims: none standing. READY leads: the same 3 the write agent refused earlier (York, Sanfins, Leamington), so no new dispatch. `passcheck.py --pending` holds only stale files, id clashes and within-50m duplicates (taiwan has 1 real unpublished, no source change). `reader_words.py` 0 notes waiting (4 mail sentences wait for the sender's yes), `enrich.py --next` nothing, `recognise.py --stuck` 0. `pagegaps.py`: 36 species and 2 park pages missing, but the strict cut keeps them out of Google and they are low value in recovery mode, so left alone. Own research stays paused, so no verify pass or scouting. Nothing left that a run may do.
+
 ## 2026-11-27 second attempt in the 12:08 window, nothing shipped
 
 A write-stories agent was dispatched on the 3 READY leads and refused all three: York plane (no source, no photo), Sanfins cypress (in Pacos de Ferreira, outside Guimaraes' 30-minute boundary, access unchecked), Leamington lime (no size evidence, no pin). `leads.py --ready` is fail-open and will keep listing them; each lead needs a reason it recognises (needs a verify pass or a reader's photo with GPS). Leads unchanged. `passcheck.py --pending` is otherwise stale entries only. The web error "Transition was skipped" is confirmed already filtered since 760cd8f1a; it clears as old reports age out. Postbox and livecheck dispatch still need a session (403 here).
