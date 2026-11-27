@@ -194,6 +194,28 @@
    "agreed": null
   },
   {
+   "id": "sight:f17b77f9-8fa0-4fe2-af81-b92804eb0d11",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
+   "city": "Kyoto",
+   "species": "Muku Tree (Aphananthe aspera)",
+   "photo": "out/sightings/f17b77f9-8fa0-4fe2-af81-b92804eb0d11.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 59,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Muku Tree (Aphananthe aspera)"
+   },
+   "verdict": "publish",
+   "reason": "In the strip behind the lead on kyo_019: the twisted muku on the Gyoen south wall in spring leaf, shot across Marutamachi-dori through a window (streaks, so not the lead). Its photo GPS moved the pin 59 m onto the wall line, confirmed.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",

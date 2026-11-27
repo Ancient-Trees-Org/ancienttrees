@@ -276,7 +276,17 @@
   },
   "p_9f7b25dda38d08dabcad19bf": {
    "last": "2026-11-16",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "f17b77f9-8fa0-4fe2-af81-b92804eb0d11",
+     "tree_id": "kyo_019",
+     "tree_name": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
+     "city": "Kyoto",
+     "city_slug": "kyoto",
+     "display_name": null,
+     "live": "2026-11-27"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "ca9fc102-0921-422a-ab13-5d1712d2e630",

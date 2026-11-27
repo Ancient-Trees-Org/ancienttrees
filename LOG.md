@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: a second photograph of the Kyoto Gyoen muku, and its pin now follows that photo's GPS
+
+- **Live: kyoto/kyo_019, the Twisted Muku of Omiya Gate** has a second photograph, in the strip behind the lead (sighting f17b77f9, taken April 2026, filed under April). It shows the pale, twisting trunk rising over the park's stone wall with its roots on the kerb, exactly as the recognition line describes. It was shot from across Marutamachi-dori through a window, and the streaks on the glass keep it out of the lead spot.
+- **Pin**: the photograph carries its own GPS (35.017586, 135.76033). That is on the wall line, 59 m from the spot the reader's report placed in words this morning. It is now `confirmed`, `pin_source` "reader GPS fix". This follows Hidde's 2026-11-17 rule that a photo's GPS beats a pin moved by hand. The fix agrees with the report (the south wall of Gyo-en, north of the road), only more precise.
+- The coordinate read in the publish step hit an HTTPError ("pins: could not read coordinates"). This did not affect the move above, which came from the queue row. No open reports, tips, feedback, further photographs or words to quote. The 37 open leads in _sightings.json are September and October rows from our own accounts. Their photographs are not on this runner, so none were judged. qa source checks were clean, preflight found 0 problems and i18ncheck was clean.
+
 ## 2026-11-27 reader judge: the Kyoto Gyoen muku's pin moves off the road onto the park wall
 
 - **Live: kyoto/kyo_019, the Twisted Muku of Omiya Gate**: its pin moved about 120 m north (35.017 to 35.0181, same longitude). A reader wrote (report 1000159) that the tree is "slightly more north across Marutamachi-Dori on the southern wall of Gyo-en". Our old pin was the Sudajii's (kyo_016) estimated gate-area point, and it sat on Marutamachi-dori itself. The new spot is from their description, so it is now `approximate`. It had been marked `confirmed` under a 2026-10-05 "reader GPS fix" label, but its own verify_notes say the app recorded our pin, not the phone's. Overpass was at capacity, so the street's position comes from Marutamachi Station's known coordinate, not from OSM geometry.
