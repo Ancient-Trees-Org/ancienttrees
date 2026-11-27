@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-27 Night run, second attempt: nothing shipped
+
+The three READY leads (york plane, guimaraes cypress, leamington-spa lime) cannot be written: no sources, no pin or no photo, the cypress is in Paços de Ferreira 15.7 km out. leads.py counts them READY without checking sources or a pin; worth tightening. The fix commit's deploy runs show skipped and this run cannot dispatch deploy.yml (403), so the red build is unconfirmed until the next push or a session dispatches it. Web error AbortError skipTransition and the open app BUG rows are untouched.
+
 ## 2026-11-27 Night run: the site build was red, fixed
 
 Rung 2. Build and deploy had failed since the National Arboretum maple went live: species "Maple" carried two Latin names (Acer pubipalmatum in Washington DC, Acer pycnanthum in Higashiomi), which hard rule 9 refuses. The DC tree is now "Downy Palmate Maple (Acer pubipalmatum)" (common name is a translation of the epithet, a better English name may exist). Preflight clean, pushed; the next deploy should go green, which also clears the smoke test. Not touched: the web error "AbortError: Transition was skipped" (16 reports, 13 pages), the open app BUG rows and the iOS schedule failure; own research is paused and the reader judge handles readers.
