@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-27 write pass on the 3 READY leads: none shipped, two held
+
+- Changed in the product: nothing. None of the three leads held enough verified fact to write 150 words without making things up.
+- Guimaraes, Mexican Cypress at Citania de Sanfins: set `held`. The only source is an ICNF register row last measured in 2006, with no life check and nothing on the museum grounds' access, and it stands in Pacos de Ferreira, outside Guimaraes' day-trip limit. It needs a verify pass, which waits while own research is paused.
+- Leamington Spa, silver pendant lime: set `held`. All we have is the council's one line, "view from the path by the lake". There is no measurement, story or photograph, and no pin that picks the tree out.
+- York, Riverside London Plane: left as it was, because it is a reader's (the ambassador's) lead under the closed list. It has a what3words pin but no photograph, source or reason. It stays READY until the ambassador sends a photograph, which a reply could ask for. This is the fifth pass to reach that verdict.
+
 ## 2026-11-27 night run (15:28 window): health check only, no trees
 
 - Rung 2. The red web error "Transition was skipped" (16 reports, 13 pages) already has its filter on main (760cd8f1a, 01:35 UTC), so the 24-hour count is pre-deploy reports. Answered in health.py. Two new, smaller errors came in: a maplibre `getLayer` TypeError (2 reports) and "Transition was aborted ... Page already revealed" (matches the same filter).
