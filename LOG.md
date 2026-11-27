@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-27 reader judge: Ohio's former champion cottonwood at Alum Creek
+
+- Changed in the product: a new one-tree place, Alum Creek (Delaware County, Ohio): The Giant Cottonwood of Alum Creek (alum-creek/acw_001), a reader's app tree photographed in snow. Two sources confirm it: Columbus Navigator, which the reader cited, and a 2008 Ohio biodiversity blog that puts it at Cheshire Road and Africa Road, where the reader's pin falls. Their figures (380 in round, 122 ft, 527 points) are given as theirs. The page says it lost its state-champion title after 2020 storm damage, so it claims no current crown. The pin was placed by hand, so it is approximate. The photo is filed in February, from its own date.
+- Their second photograph (a person hugging the trunk, square crop) was left off as `person`.
+- Breakage, fixed before the push: the first id prefix `alc` was already Alerce Costero's, and the place was missing from data/us-states.json. Renamed to `acw_001` and added Ohio.
+- No reports, feedback or tips were waiting.
+
 ## 2026-11-27 reader judge: a 600-year downy oak in the Vaucluse, a new Methuselah photograph
 
 - Changed in the product: a new one-tree place, Murs (Vaucluse, France): The Great Downy Oak of Murs (murs/mur_001), a reader's app tree. It is a huge lone oak beside a lane in the fields, in copper autumn leaf. All three of the reader's photographs are on the page. Their figures (600 to 1,000 years, 6 m girth) are given as theirs. The pin was placed by hand, so it is marked approximate, and it includes the 64 m move the reader made while adding it (report 1000160, closed `holds`, no mail since it was their own new tree). No register entry within 100 m. The congratulation mail goes from tell-readers.yml after the deploy.

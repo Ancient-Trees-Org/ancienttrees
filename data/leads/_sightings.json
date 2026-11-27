@@ -13506,6 +13506,41 @@
    "seen": "2026-11-27",
    "judged": "2026-11-27",
    "published_as": "murs/mur_001"
+  },
+  {
+   "sighting_id": "dbd699ab-cf16-49cf-a847-8159da83dbac",
+   "user_id": "p_b8cc3f2ece8104a236a0e2cb",
+   "mine": false,
+   "name": "Eastern Cottonwood",
+   "unsure_among": null,
+   "species": "Eastern Cottonwood",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Eastern Cottonwood (Populus deltoides)\nPoints: 527\nCircumference: 380 inches\nHeight: 122 feet\nCrown: 102.9 feet\nLocated in Delaware County this is the largest cottonwood tree living in Ohio. \n\nhttps://www.columbusnavigator.com/giant-cottonwood-tree-ohio/",
+   "latitude": 40.2384879575971,
+   "longitude": -82.9604821499909,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 2,
+   "photo": "p_b8cc3f2ece8104a236a0e2cb/DBD699AB-CF16-49CF-A847-8159DA83DBAC.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/dbd699ab-cf16-49cf-a847-8159da83dbac-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-27: the whole cottonwood in snow from the woods below it: a vast furrowed grey trunk splitting into several great stems, one torn stub among them, bare crown against a white sky, fallen logs in the snow, daylight, colour. Live as alum-creek/acw_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-27",
+   "judged": "2026-11-27",
+   "published_as": "alum-creek/acw_001"
   }
  ]
 }

@@ -1,0 +1,73 @@
+{
+  "city": "Alum Creek",
+  "country": "United States",
+  "status": "needs_curation",
+  "intro": "Alum Creek runs south through Delaware County towards Columbus, Ohio, and the state park along it keeps woods, trails and a long reservoir just north of the city. In thin woods by Cheshire Road stands a huge eastern cottonwood that Ohio once named its champion, a title it lost after storm damage in 2020. A reader sent us its photograph from the snow.",
+  "meta_description": "A giant eastern cottonwood by Alum Creek State Park in Delaware County, Ohio, once the state champion: where it stands.",
+  "hero_tree_id": "acw_001",
+  "oldest_tree_id": "acw_001",
+  "trees": [
+    {
+      "id": "acw_001",
+      "name": "The Giant Cottonwood of Alum Creek",
+      "species": "Eastern Cottonwood (Populus deltoides)",
+      "location": {
+        "address": "Woods by Cheshire Road near Africa Road, Alum Creek State Park, Delaware County, Ohio",
+        "latitude": 40.2384879575971,
+        "longitude": -82.9604821499909,
+        "neighbourhood": "Alum Creek"
+      },
+      "story": "\"Located in Delaware County this is the largest cottonwood tree living in Ohio,\" wrote the reader who sent us this tree from the woods along Cheshire Road, at the edge of Alum Creek State Park north of Columbus.\n\nWith it they sent the figures champion trees are judged by: 380 inches round, 122 feet tall, a crown 102.9 feet across, 527 points in all. Those are their numbers. Ohio did name this tree its champion eastern cottonwood, and the Columbus Navigator reports a height of about 136 feet and a base nearly 31 feet round, but it also says storm damage in 2020 cost the tree its title.\n\nThe reader's photograph, taken in the snow, shows what is left, and it is still enormous. A grey trunk, furrowed into thick ridges, rises from a mound and splits into several stems as wide as ordinary trees, one of them ending in a torn, pale stub where a limb came away. Their bare branches spread high over the thin woods around it, with fallen logs lying in the snow below.\n\nEastern cottonwoods grow fast and big along rivers and creeks, and they rarely age gently, so go while it stands. Walk round the mound to see how many trunks rise from that one base.",
+      "how_to_recognise": "In thin woods a short walk down from the road: a huge grey cottonwood on a low mound, its furrowed trunk splitting into several great stems with a torn pale stub between them.",
+      "verified_sources": [
+        "https://www.columbusnavigator.com/giant-cottonwood-tree-ohio/ (Columbus Navigator: giant eastern cottonwood near Alum Creek north of Columbus, about 136 ft tall, base nearly 31 ft round, former Ohio state champion, title lost after storm damage in 2020; a short walk down a small hill from the road; cited by the reader)",
+        "https://ohiogeologyandbiodiversity.blogspot.com/2008/02/ohios-champion-eastern-cottonwood.html (Ohio geology and biodiversity blog, 2008: Ohio's champion eastern cottonwood, seen along Cheshire Road at Africa Road in Alum Creek State Park, Delaware County)"
+      ],
+      "access": "A short walk down a small hill from Cheshire Road, at the edge of Alum Creek State Park. We have not confirmed whether the ground right at the tree is park land.",
+      "found_by_reader": {
+        "sighting_id": "dbd699ab-cf16-49cf-a847-8159da83dbac",
+        "date": "2026-11-27"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "dbd699ab-cf16-49cf-a847-8159da83dbac",
+        "date": "2026-11-27",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix. It falls at Cheshire Road and Africa Road, where a 2008 source puts the tree."
+      },
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app (dbd699ab-cf16-49cf-a847-8159da83dbac). Photograph viewed: the whole cottonwood in snow from the woods below it: a vast furrowed grey trunk splitting into several great stems, one torn stub among them, bare crown against a white sky, fallen logs in the snow, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures (380 in round, 122 ft tall, crown 102.9 ft, 527 points) are stated as theirs; Columbus Navigator gives about 136 ft and nearly 31 ft round and says the champion title was lost after 2020 storm damage, so the page claims no current crown. No register entry within 100 m (corroborate.py). Their second photograph (a person hugging the trunk, square crop) left off as `person`.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/acw_001-the-giant-cottonwood-of-alum-creek.jpg",
+        "taken_month": 2,
+        "taken_month_basis": "the photograph's own date",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_b8cc3f2ece8104a236a0e2cb",
+        "sighting_id": "dbd699ab-cf16-49cf-a847-8159da83dbac",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-27, through the app); viewed and approved on 2026-11-27: the whole cottonwood in snow from the woods below it: a vast furrowed grey trunk splitting into several great stems, one torn stub among them, bare crown against a white sky, fallen logs in the snow, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "A giant eastern cottonwood by Alum Creek State Park in Delaware County, Ohio, once the state champion: where it stands.",
+  "question_answer": "The Giant Cottonwood of Alum Creek stands in thin woods by Cheshire Road near Africa Road, at the edge of Alum Creek State Park in Delaware County, Ohio, a short walk down a small hill from the road.",
+  "question_context": "A reader sent us this tree from the woods along Cheshire Road, at the edge of Alum Creek State Park north of Columbus, and called it the largest cottonwood living in Ohio. With it came the figures champion trees are judged by: 380 inches round, 122 feet tall, a crown 102.9 feet across and 527 points, which are their numbers. Ohio did name this eastern cottonwood its state champion, and a 2008 account placed it at Cheshire Road and Africa Road. The Columbus Navigator gives it about 136 feet of height and nearly 31 feet round the base, but reports that storm damage in 2020 cost it the title. The reader's photograph, taken in snow, shows a furrowed grey trunk on a low mound splitting into several great stems, one ending in a torn pale stub, under a wide bare crown. The Navigator describes it as a short walk across the road and down a small hill. We have not confirmed whether the ground at the tree is park land, so keep to the paths and leave it as you found it.",
+  "faq": [
+    {
+      "q": "Can I visit The Giant Cottonwood of Alum Creek?",
+      "a": "Yes, it is a short walk down a small hill from Cheshire Road at the edge of Alum Creek State Park. We have not confirmed whether the ground right at the tree is park land."
+    },
+    {
+      "q": "Is it still Ohio's champion cottonwood?",
+      "a": "It was Ohio's champion eastern cottonwood, but the Columbus Navigator reports it lost the title after storm damage in 2020."
+    },
+    {
+      "q": "How big is the Alum Creek cottonwood?",
+      "a": "The reader who sent it gives 380 inches round and 122 feet tall; the Columbus Navigator reports about 136 feet and nearly 31 feet round the base."
+    }
+  ]
+}

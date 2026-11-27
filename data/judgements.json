@@ -2,6 +2,19 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:dbd699ab-cf16-49cf-a847-8159da83dbac",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Giant Cottonwood of Alum Creek",
+   "city": "Alum Creek",
+   "species": "Eastern Cottonwood (Populus deltoides)",
+   "photo": "p_b8cc3f2ece8104a236a0e2cb/DBD699AB-CF16-49CF-A847-8159DA83DBAC.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the whole cottonwood in snow, vast furrowed multi-stemmed trunk with a torn stub, bare crown, daylight, colour; lead of alum-creek/acw_001. Further photograph 1 (a person hugging the trunk) left off as person."
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -709,6 +722,34 @@
    },
    "verdict": "publish",
    "reason": "Live as murs/mur_001: a huge downy oak, squat grey trunk on knuckled roots splitting into three great limbs, crown far wider than tall in copper autumn leaf, beside a public lane outside Murs (Vaucluse). Reader's figures (600 to 1000 years, 6 m girth) stated as theirs; hand-placed pin, approximate, the reader's own 64 m move taken; three photographs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:dbd699ab-cf16-49cf-a847-8159da83dbac",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Eastern Cottonwood",
+   "city": null,
+   "species": "Eastern Cottonwood",
+   "photo": "p_b8cc3f2ece8104a236a0e2cb/DBD699AB-CF16-49CF-A847-8159DA83DBAC.jpg",
+   "reader_note": "Eastern Cottonwood (Populus deltoides)\nPoints: 527\nCircumference: 380 inches\nHeight: 122 feet\nCrown: 102.9 feet\nLocated in Delaware County this is the largest cottonwood tree living in Ohio. \n\nhttps://www.columbusnavigator.com/giant-cottonwood-tree-ohio/",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Eastern Cottonwood"
+   },
+   "verdict": "publish",
+   "reason": "Former Ohio champion eastern cottonwood by Alum Creek State Park; reader's snow photograph shows the vast multi-stemmed trunk; two sources place it at Cheshire Rd and Africa Rd. Live as alum-creek/acw_001, pin approximate (hand-placed).",
    "hidde": null,
    "agreed": null
   },
