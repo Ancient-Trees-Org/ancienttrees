@@ -52,10 +52,17 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/cat_001-the-moreton-bay-fig-of-villa-bellini.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_9ba2fe2890d0fba37865bf67",
+        "sighting_id": "929beb72-30d0-4d9d-beaf-4e6ef5c88d6a",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); a viewing pass approved it on 2026-11-27: Wide daylight shot of the whole tree, buttress roots and spreading limbs, a park bench and gate behind; the tree has no photograph. Species seen: Ficus macrophylla: smooth grey trunk, huge buttress roots, glossy leathery leaves. Fits the description: A giant spreading fig with a fluted trunk and roots running along the ground, in a public park.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "girth_cm": 1400,
       "how_to_recognise": "You can recognise it by the long, coiling sprawl of root buttresses spreading across the ground like tentacles. It stands in Villa Bellini on Via Etnea, Catania's main public park.",

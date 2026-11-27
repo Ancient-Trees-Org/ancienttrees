@@ -1,52 +1,5 @@
 {
  "_note": "Photographs readers sent through the app, matched to a tree we map, waiting for a viewing pass. Judge with the photo-judge agent and apply with scripts/sightings_publish.py. Rebuilt on every knock from the rows without a verdict.",
  "written": "2026-11-27",
- "queue": [
-  {
-   "sighting_id": "929beb72-30d0-4d9d-beaf-4e6ef5c88d6a",
-   "user_id": "p_9ba2fe2890d0fba37865bf67",
-   "tree_id": "cat_001",
-   "city_slug": "catania",
-   "city": "Catania",
-   "tree_name": "The Moreton Bay Fig of Villa Bellini",
-   "match": "app",
-   "distance_m": 7,
-   "mine": false,
-   "current_photo": "none",
-   "current_source": null,
-   "tree_species": "Moreton Bay Fig (Ficus macrophylla)",
-   "recognise": "You can recognise it by the long, coiling sprawl of root buttresses spreading across the ground like tentacles. It stands in Villa Bellini on Via Etnea, Catania's main public park.",
-   "tree_girth_cm": 1400,
-   "tree_height_m": 30.0,
-   "story": "Fourteen metres around the trunk, and a crown that reaches forty-three metres across. On the figures published by Italy's tree registers, only one Moreton Bay fig in Sicily is bigger, the giant in Palermo's botanical garden. What stops people in Villa Bellini, though, is at ground level. A Ficus macrophylla drops aerial roots from its branches and thickens them into buttresses once they reach soil, and this one has thrown a long, coiling sprawl of them out across the ground, the kind of shape that has people reaching for octopus tentacles to describe it.\n\nIts age is genuinely unsettled. One contributor account gives a planting date of 1860, which would make it about 165 years old and would h",
-   "name": "The Moreton Bay Fig of Villa Bellini",
-   "species": null,
-   "girth_cm": null,
-   "girth_hugs": null,
-   "note": "",
-   "taken_at": "2026-11-27",
-   "photo_path": "p_9ba2fe2890d0fba37865bf67/929BEB72-30D0-4D9D-BEAF-4E6EF5C88D6A.jpg",
-   "age": null,
-   "sign_path": null,
-   "sign_file": null,
-   "extra_files": [],
-   "extra_months": null,
-   "latitude": 37.5126081545914,
-   "longitude": 15.0826876401284,
-   "file": "out/sightings/929beb72-30d0-4d9d-beaf-4e6ef5c88d6a.jpg",
-   "light": {
-    "verdict": "WEAK: usable, but the light is working against it",
-    "brightness": 75.3,
-    "contrast": 29.9,
-    "colour": 0.16,
-    "blown": 0.0,
-    "dark": 0.0,
-    "subject": 75.3,
-    "subject_colour": 0.16
-   },
-   "vouched": null,
-   "rank": 0,
-   "worth": "closes a gap: this tree has no photograph at all"
-  }
- ]
+ "queue": []
 }

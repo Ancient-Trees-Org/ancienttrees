@@ -30632,6 +30632,22 @@
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:929beb72-30d0-4d9d-beaf-4e6ef5c88d6a",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "The Moreton Bay Fig of Villa Bellini",
+   "city": "Catania",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/929beb72-30d0-4d9d-beaf-4e6ef5c88d6a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Looked at the pixels: wide daylight shot of the whole fig, buttress roots and limbs, species and park match; the tree had no photograph.",
+   "hidde": null,
+   "agreed": null
   }
  ]
 }
