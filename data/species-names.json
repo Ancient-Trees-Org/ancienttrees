@@ -4773,6 +4773,10 @@
    }
   },
   {
+   "common": "Downy Palmate Maple",
+   "latin": "Acer pubipalmatum"
+  },
+  {
    "common": "Dragon Tree",
    "latin": "Dracaena draco",
    "names": {
@@ -10207,6 +10211,23 @@
    "names": {
     "en": [
      "Hill's Oak"
+    ]
+   }
+  },
+  {
+   "common": "Northern Rata",
+   "latin": "Metrosideros robusta",
+   "names": {
+    "de": [
+     "Nord-Rata",
+     "Nordinsel-Eisenholz"
+    ],
+    "es": [
+     "Arbol rata del norte"
+    ],
+    "ja": [
+     "ニュージーランドクリスマスツリー",
+     "ノーザンラタ"
     ]
    }
   },

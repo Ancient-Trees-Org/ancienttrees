@@ -246,22 +246,6 @@ App half (iPhone SE: refused, review-ask, search, signin-email, signin, species-
 - NOTE APP signin-email.png is byte-identical in look to signin.png (it shows the three-button choice, not an email form), so the screen named for email entry is not being exercised by the sweep. For a session.
 - Nothing wrong found on refused.png, review-ask.png or species-pick.png.
 
-## 2026-11-12
-
-Web half: the last 24 hours were Cardiff and Windsor trees into the app, an add-photo fix, Android release prep. No em dashes in site/dist. Standing findings unchanged.
-
-- WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are" while app-only pins open a card with no story. Sixth review. Hard rule 2 and "a decision that changes what the product does also changes what the product says". Replacement: "Each pin opens a tree; some stories are in the app." Translations too.
-- WARN site/dist/contribute.html (source site/src/pages/contribute.astro) still says "verified against independent sources" / "check every tip against independent sources", twice. False since "Good reader input IS the source" (2026-10-12). Seventeenth review. Replacement: "We read every submission before it is kept."
-- NOTE data/cities/windsor.json wsr_002 story: "An iNaturalist record from August 2026 falls within range of the spot, though nobody has checked that it shows this particular oak." Narrates our process and states a non-fact; "Public copy never narrates our process". Drop the sentence.
-- NOTE the 11-07 question stands: data/walk-routes.json routing through app-only trees that have no page is unchecked.
-
-App half (iPhone SE: people, photo-viewer, place-pin, profile-edit, profile-signed-in, profile):
-
-- NOTE APP profile-edit.png: Country is pre-filled "United States" with the Name still empty, so a new account shows a country nobody chose, and it is public with the profile. Show it empty until picked, or fill it from the device region and say so. For a session.
-- NOTE APP profile.png and profile-signed-in.png: "Ancient Trees Plus" sits under the HELP heading beside Send feedback and Rate the app. The section title disagrees with what the row is (an offer). For a session; the paywall line is Hidde's (hard list 2).
-- NOTE APP place-pin.png: two marks stand on the map, the drop pin and the tree disc beneath it, so "until the pin sits on the tree" is ambiguous about which one moves. For a session.
-- Nothing wrong found on people.png and photo-viewer.png (credit and licence shown).
-
 ## 2026-11-18 code
 
 - WEB-BUG-refresh-blip-signs-out, site/src/lib/signin-js.ts:254: a 429 or 5xx from the token refresh clears the stored session and signs the visitor out; only 400/401/403 mean the refresh token is spent.
