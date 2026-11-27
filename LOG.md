@@ -12,6 +12,15 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-27 session: build 44 ready, and what Hidde found on it
+
+- **Build 44 (1.0.5)** is archived and on Hidde's phone, ready for him to upload: the test chain's fixes, CI green (c05a3e156). Builds 42 and 43 carry the stuck rating ask that blocks collecting: never upload them.
+- **Fixed after build 44** (next build, 1e376665f): a heart tapped signed out is now given after the sign-in (it asked and forgot); People you may know sits lower in the Feed and is fetched with its first page, so it no longer pops in.
+- **Saved for later, needs Hidde (he said "bewaar dit voor later")**: the email sign-in link opens Safari and only then asks for the app, so a bookmark tapped signed out is lost on the way. Prepared in 783202297: the sign-in and welcome mails carry the eight-digit code (the project's OTP length, measured) beside the button, and the app accepts eight digits. To go live: Hidde pastes supabase/functions/send-email/index.ts into the Supabase dashboard (Edge Functions, send-email, Deploy), checks the code arrives, then a session flips `Launch.emailCode` to true for the next build. Until then nothing changes for anyone.
+- **Open, needs a screenshot from Hidde**: on his own profile a tile should show his own photograph. My trees already uses your newest photo of a tree (synced from the account), so which screen shows the wrong one is unknown.
+- **Explained, not a bug**: a photo strip mixes photos with a person behind them (name and heart) and Commons or mailed photos (neither).
+- **Android owes**: the signed-out heart's continuation and the People row's new place.
+
 ## 2026-11-27 reader judge: a reader's photographs now lead the Whistler cork oak in Aguas de Moura
 
 - **aguas-de-moura/agm_001, the Whistler Cork Oak, now has a reader's photograph as its lead** (sighting 45cea55f, verdict `add`). It was sent from 12 m from our pin. The frame looks up from under the crown: one huge cork-barked trunk under vast spreading limbs, the low post fence around it, and the village street and houses behind. Both the species and the recognition line fit. The old photograph moved into the strip. The reader's second frame shows the same tree whole from the lawn, and it is in the strip too (reader_extras). The reader was mailed. The photo is filed under November. As in earlier runs, the pin catch-up could not read coordinates (HTTPError); the move does not depend on it.
