@@ -2682,6 +2682,16 @@
         "The Great Downy Oak of Murs"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_b8cc3f2ece8104a236a0e2cb",
+      "place_slug": "alum-creek",
+      "place_name": "Alum Creek",
+      "date": "2026-11-27",
+      "trees": [
+        "The Giant Cottonwood of Alum Creek"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
