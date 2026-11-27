@@ -2642,6 +2642,26 @@
         "The Pillar-Root Fig of Boat Harbour Drive"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_40111ad6d5fbfa454cb92a3a",
+      "place_slug": "lake-waikaremoana",
+      "place_name": "Lake Waikaremoana",
+      "date": "2026-11-27",
+      "trees": [
+        "The Giant Rata of the Ngamoko Track"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_da24af7ac31ae7cdbc1ccdae",
+      "place_slug": "livorno",
+      "place_name": "Livorno",
+      "date": "2026-11-27",
+      "trees": [
+        "The Cedar of Villa Fabbricotti"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
