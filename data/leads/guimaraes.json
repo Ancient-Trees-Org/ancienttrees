@@ -67,8 +67,8 @@
       "species": "Mexican Cypress (Cupressus lusitanica)",
       "lat": 41.32125747,
       "lng": -8.371451674,
-      "status": "lead",
-      "why": "2026-11-21 verify pass: ICNF KNJ1/019, Pacos de Ferreira (not Guimaraes), girth 6.5 m, 280 y at 2006, classified 1940. 15.7 km from Guimaraes centre, no 30-minute public transport link found; belongs to a Pacos de Ferreira/Citania de Sanfins pass. Alive and access not checked."
+      "status": "held",
+      "why": "2026-11-21 verify pass: ICNF KNJ1/019, Pacos de Ferreira (not Guimaraes), girth 6.5 m, 280 y at 2006, classified 1940. 15.7 km from Guimaraes centre, no 30-minute public transport link found; belongs to a Pacos de Ferreira/Citania de Sanfins pass. Alive and access not checked. 2026-11-27 write pass: handed back unwritten, one register row with no life check, no access line and outside the Guimaraes day-trip boundary; needs a verify pass (life, access) for a Pacos de Ferreira place."
     },
     {
       "name": "Pedunculate Oak of Ermal, Guilhofrei",
