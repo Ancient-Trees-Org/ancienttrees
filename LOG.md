@@ -7,6 +7,13 @@
 - There were no open reports, feedback, tips, further photographs or words to quote. The other open leads in _sightings.json are our own `mine` test sightings. qa source checks, preflight and i18ncheck were clean.
 - For Hidde: one mail to the New Orleans reader waits in drafts/reply-reader-lead-91f2f869-2026-11-27.md (a session sends it).
 
+## 2026-11-27 session: New Orleans, the lagoon oak was the Anseman Oak (ambassador's correction)
+
+- Our New Orleans ambassador, a photographer of City Park's oaks, wrote that "The Oak by the Bayou Metairie Lagoon" (nol_009) is the Anseman Oak and that our Anseman pin was wrong. His photograph of the Anseman matches the reader's photo, and that reader had sent it for the Anseman in the first place. So nol_009 is retired as a duplicate (its URL redirects to the city page), and its photo and GPS pin are now the Anseman's (nol_002), just off Anseman Avenue east of the lagoon bridge. The story's paragraph about the pin was rewritten, and the city and City Park counts went from 9 to 8 and from 7 to 6.
+- The Anseman's old lead photo (sighting 91f2f869, a burly knotted trunk 115 m south) shows another oak in the grove, so it is held as a lead (`doubt_location`) in data/leads/_sightings.json until the tour map names it.
+- He sent a scan of City Park's 1999 walking tour of the historic oaks: a numbered map plus the girth and height of 26 named oaks. Its girths and heights are now on the Anseman, McDonogh and Suicide oaks, and its heights on the Dueling and Alferez oaks. It is the map that the open City Park leads in data/leads/new-orleans.json were waiting for (Grandjean, Delgado, Flying Horse and others). The scan is in out/mail-photos/bill/ and is not committed. Pinning those leads from the map is a depth lane for the next run.
+- The reply went out on Hidde's "Yes, fix and send" (drafts/batches/reply-bill-guion-new-orleans-2026-11-27.json).
+
 ## 2026-11-27 reader judge: a Black Poplar on hold until we know where it stands
 
 - One tree was waiting: a reader's "Black Poplar near Ulverston" sent from the app (sighting 36e8a880). I looked at the photograph. It shows a big, deeply furrowed poplar with a hollow high on the trunk, beside a path on a raised bank, with a cyclist at its foot for scale. It is special enough to go live. But the pin, which the reader placed by hand, is on New Quay Road in Aldcliffe, Lancaster, by the Lune estuary path. Ulverston is 25 km away across Morecambe Bay. A wrong location costs trust, so I held it as `doubt_location`, and the standard mail asking where it stands goes at the next knock (submission 1753). When they answer, it goes live the same run.
