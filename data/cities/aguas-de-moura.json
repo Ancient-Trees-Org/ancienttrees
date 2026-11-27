@@ -54,13 +54,17 @@
       "location_precision": "confirmed",
       "curation_status": "ai_generated",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Whistler_cork_oak_tree_PT.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "UNAC, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/agm_001-the-whistler-cork-oak-sobreiro-assobiador-45cea55f.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3872,
-        "height": 2592,
-        "taken_month": 11
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_dc0896ccc090a0d74571d474",
+        "sighting_id": "45cea55f-dae1-40ab-8e95-9f3dd886587e",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); a viewing pass approved it on 2026-11-27: The Whistler itself: one massive cork-barked trunk under a vast spreading crown, the low post fence ringing it, the village street and houses behind; GPS 12 m from our pin. Daylight, colour, the tree fills the frame. Species seen: thick fissured cork bark on trunk and limbs, small leathery evergreen oak leaves, broad low crown. Fits the description: huge deeply fissured cork trunk under a wide spreading crown, ringed by a small fence on a lawn in the village.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by its huge, deeply fissured cork trunk (4.15m round) under a wide spreading crown, ringed by a small protective fence. It stands beside a playground and benches in the village of Aguas de Moura.",
       "fame": {
@@ -77,6 +81,15 @@
       "height_m": 19.0,
       "verify_notes": "Register number and height from Arvoredo de Interesse Público (ICNF) no. AIP15080650I (data/registers/portugal-icnf.json), matched on our pin at 3 m (register_match.py, 2026-10-12).",
       "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/2018_Whistler_cork_oak_tree_PT.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "UNAC, via Wikimedia Commons",
+          "status": "approved",
+          "width": 3872,
+          "height": 2592,
+          "taken_month": 11
+        },
         {
           "url": "https://ancienttrees.app/photos/agm_001-the-whistler-cork-oak-sobreiro-assobiador-5e09bb82.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
@@ -202,6 +215,18 @@
           "contributor_user_id": "p_8d2e8c80b6e13fa250fc6677",
           "sighting_id": "62c4bb28-b3f8-46f6-8d7a-c88755acce7b-extra-2",
           "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/agm_001-the-whistler-cork-oak-sobreiro-assobiador-45cea55f-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_dc0896ccc090a0d74571d474",
+          "sighting_id": "45cea55f-dae1-40ab-8e95-9f3dd886587e-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

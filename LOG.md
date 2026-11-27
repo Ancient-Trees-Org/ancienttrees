@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-27 reader judge: a reader's photographs now lead the Whistler cork oak in Aguas de Moura
+
+- **aguas-de-moura/agm_001, the Whistler Cork Oak, now has a reader's photograph as its lead** (sighting 45cea55f, verdict `add`). It was sent from 12 m from our pin. The frame looks up from under the crown: one huge cork-barked trunk under vast spreading limbs, the low post fence around it, and the village street and houses behind. Both the species and the recognition line fit. The old photograph moved into the strip. The reader's second frame shows the same tree whole from the lawn, and it is in the strip too (reader_extras). The reader was mailed. The photo is filed under November. As in earlier runs, the pin catch-up could not read coordinates (HTTPError); the move does not depend on it.
+- There were no open reports, tips, feedback or words to quote. The 37 other open leads in _sightings.json are our own accounts' rows. qa source checks were clean, preflight found 0 problems and i18ncheck was clean.
+
 ## 2026-11-27, session (Hidde: dd, then the cedar)
 
 - **The Genoa cedar's reader gets a question, not a silent hold.** The judge held a reader's photo of gnv_012 as doubt_photo (summer frame, no camera data, a wooded slope where our page says church square). Hidde: "the photo looks like a legit phot", "just ask the person if its that tree or another one and ask for location", then "remember this response". Mailed through Resend; the text is now `hold_reply.py <id> photo_elsewhere "<tree>" --where ... --seen ... --kind ...` (test scripts/test_hold_reply_location.py), and BRIEF_READER_JUDGE.md tells the judge to ask it. A photo kept only in the reader's own collection has no reply row, so the script prints the text for a session to send.

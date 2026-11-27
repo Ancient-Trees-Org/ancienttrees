@@ -434,6 +434,28 @@
    "agreed": null
   },
   {
+   "id": "sight:45cea55f-dae1-40ab-8e95-9f3dd886587e",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "The Whistler Cork Oak (Sobreiro Assobiador)",
+   "city": "Aguas de Moura",
+   "species": "Cork Oak (Quercus suber)",
+   "photo": "out/sightings/45cea55f-dae1-40ab-8e95-9f3dd886587e.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 12,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Cork Oak (Quercus suber)"
+   },
+   "verdict": "publish",
+   "reason": "The Whistler itself, both frames: the fenced cork trunk under its vast crown on the village green, GPS 12 m from our pin. Now the lead photograph, the old one in the strip; the wide second frame in the strip too.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",

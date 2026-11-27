@@ -1517,6 +1517,15 @@
      "city_slug": "setubal",
      "display_name": null,
      "live": "2026-11-23"
+    },
+    {
+     "sighting_id": "45cea55f-dae1-40ab-8e95-9f3dd886587e",
+     "tree_id": "agm_001",
+     "tree_name": "The Whistler Cork Oak (Sobreiro Assobiador)",
+     "city": "Aguas de Moura",
+     "city_slug": "aguas-de-moura",
+     "display_name": null,
+     "live": "2026-11-27"
     }
    ],
    "sent": [
