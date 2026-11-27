@@ -298,6 +298,11 @@ class ButtonWalk {
         val node = root.fetchSemanticsNode()
         val rootBounds = onMain { node.boundsInWindow }
         root.performTouchInput { click(r.center - rootBounds.topLeft) }
+        // PAST THE DOUBLE-TAP WINDOW (2026-11-27): a photo that likes on a double tap
+        // (doubleTapHeart) fires its single tap only after the 300 ms wait for a
+        // second one, and under the test clock that wait moves only while frames are
+        // asked for; on a still Feed it never ended and every tile read as dead.
+        rule.mainClock.advanceTimeBy(500)
     }
 
     /** Every control whose centre is on screen, scrolling down a few times. */

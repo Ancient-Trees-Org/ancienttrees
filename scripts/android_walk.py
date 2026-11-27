@@ -14,6 +14,12 @@ out/android-walk/ so the judging is reading a strip of pictures.
     python3 scripts/android_walk.py --no-build
 Exit 1 when a test fails.
 
+ButtonWalk runs ONE SCREEN AT A TIME, each with its own limit (2026-11-27: one
+Gradle call for all 29 tests sat at 0 of 29 for two and a half hours on one
+stuck launch). A screen whose launch Android never finished on the API 37
+emulator ("keyDispatchingTimedOut" while the app's main thread idled) is run
+once more and said as such; a second time it counts as a failure.
+
 The debug build is installed over whatever is on the phone; a build signed with
 another key (a release build) is uninstalled first, as android_parity.py does.
 CI runs the same tests through gradle's connectedDebugAndroidTest (android.yml).
@@ -70,6 +76,55 @@ def install(apk):
         sys.exit(f"adb install {apk.name} failed:\n{r.stdout[-800:]}{r.stderr[-800:]}")
 
 
+PER_SCREEN = 1200       # seconds: a ButtonWalk screen takes 1 to 12 minutes
+OTHERS = 2400           # seconds: every other walk together takes about 15
+
+
+def button_screens():
+    """The screens ButtonWalk.kt walks, read from its own list."""
+    src = (ROOT / "android/app/src/androidTest/java/app/ancienttrees/ButtonWalk.kt").read_text()
+    return re.findall(r'^\s*"([a-z-]+)" to listOf\(', src, re.M)
+
+
+class Out:
+    def __init__(self, stdout):
+        self.stdout = stdout
+
+
+def instrument(cmd, timeout):
+    try:
+        return adb(*cmd, timeout=timeout).stdout
+    except subprocess.TimeoutExpired as e:
+        adb("shell", "am", "force-stop", PACKAGE)
+        out = e.stdout.decode() if isinstance(e.stdout, bytes) else (e.stdout or "")
+        return out + f"\nINSTRUMENTATION_RESULT: shortMsg=no answer in {timeout} s\n"
+
+
+def run_all(cmd, session, a):
+    """Every asked walk; ButtonWalk screen by screen, each with its own limit."""
+    whole_button = not a.screens and (not a.only or "ButtonWalk" in a.only)
+    if not whole_button:
+        return Out(instrument(cmd, 3600))
+    head = ["shell", "am", "instrument", "-w", "-r"]
+    if session:
+        head += ["-e", "AT_SESSION", "'" + session + "'"]
+    out = ""
+    others = [o for o in a.only if o != "ButtonWalk"]
+    if not a.only:
+        out += instrument(head + ["-e", "notClass", "app.ancienttrees.ButtonWalk", RUNNER], OTHERS)
+    elif others:
+        out += instrument(head + ["-e", "class", ",".join("app.ancienttrees." + o for o in others), RUNNER], OTHERS)
+    for screen in button_screens():
+        for t in ("everyButtonAnswersSignedOut", "everyButtonAnswersSignedIn"):
+            one = head + ["-e", "screens", screen, "-e", "class", "app.ancienttrees.ButtonWalk#" + t, RUNNER]
+            got = instrument(one, PER_SCREEN)
+            if "keyDispatchingTimedOut" in got:
+                print(f"note: ButtonWalk {screen} {t}: Android never finished the launch (emulator); once more")
+                got = instrument(one, PER_SCREEN)
+            out += got
+    return Out(out)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", nargs="*", default=[], help="Class or Class#method, e.g. FlowWalk#settings")
@@ -100,7 +155,7 @@ def main():
         for perm in ("ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"):
             adb("shell", "pm", "grant", PACKAGE, "android.permission." + perm)
         adb("shell", "rm", "-rf", "/data/local/tmp/walk")
-        r = adb(*cmd, timeout=3600)
+        r = run_all(cmd, session, a)
         # The frames each step left (FlowWalk.shoot), out of the app's own files.
         if OUT.exists():
             shutil.rmtree(OUT)

@@ -79,10 +79,10 @@ What changed in the test street:
 
 Result on a private API 37 emulator, one screen at a time: 28 of 32 green; unit tests 154 of 154.
 
-Still open, for the next session:
-- Feed in ButtonWalk: every control reads as dead in the walk (tiles, bylines, hearts), while a finger on the same build opens the tree (checked by hand, screenshots). The walk's taps do not reach the Feed; cause not found.
-- On the API 37 emulator a launch sometimes never gets focus from Android (app main thread idle, "Duplicate finish request"); rarer after the wait, not gone. Not seen on CI's API 35.
-- Why the first run sat at 0 of 29 for 2.5 hours: a Gradle run with no limit per test, the Mac asleep, and a second session driving the same emulator. Long walks now run one screen at a time with a limit, under caffeinate, on their own emulator.
+Morning follow-up (Hidde: "Yes, go ahead"):
+- The Feed's "dead" controls were the test clock, not the app: a photo that likes on a double tap fires its single tap after the 300 ms wait for a second one, and under Compose's test clock that wait only moves while frames are asked for. The walk now moves the clock past the window after every tap; FeedTileWalk.kt (new) proves a tile and a title open their tree. Feed, Discover and visitors walks green, signed in and out.
+- The launch Android never finished on the API 37 emulator stays an emulator matter (app idle, focus never given). scripts/android_walk.py now runs ButtonWalk one screen at a time with its own limit (20 min a screen, 40 for the other walks together), runs such a screen once more and says so, and never again waits for ever on one call.
+- Why the first run sat at 0 of 29 for 2.5 hours: one Gradle call with no limit per test, the Mac asleep, and a second session driving the same emulator. My own scripts skipped scripts/emulator_lock.py, which android_walk.py takes; long walks go through android_walk.py from now on.
 
 ## 2026-11-27 reader judge: a giant fig in the Big Scrub rainforest near Alstonville, NSW
 
