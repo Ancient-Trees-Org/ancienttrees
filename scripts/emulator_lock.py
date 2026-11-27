@@ -55,6 +55,11 @@ def pin_to_emulator():
         sys.exit(f"ANDROID_SERIAL={wanted} is not a running emulator; refusing (a real phone is never tested on)")
     if not found:
         sys.exit("no emulator running; refusing to use a phone on the cable. Start the emulator first.")
+    # One emulator at a time (Hidde, 2026-11-27: "zullen we onthouden dat niet tegelijk
+    # meer te doen"): two emulators beside a Gradle build froze his 16 GB Mac and every
+    # run was lost. Stop the other one first.
+    if len(found) > 1:
+        sys.exit(f"{len(found)} emulators are running ({', '.join(found)}); the Mac freezes with two. Stop all but one first.")
     os.environ["ANDROID_SERIAL"] = wanted or found[0]
     return os.environ["ANDROID_SERIAL"]
 

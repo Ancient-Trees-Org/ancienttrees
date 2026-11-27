@@ -18,6 +18,8 @@ import emulator_lock  # noqa: E402
 PHONE_ONLY = "List of devices attached\nR5CR61FY7EE            device usb:1048576X product:p3sxeea model:SM_G998B\n\n"
 BOTH = ("List of devices attached\nR5CR61FY7EE            device usb:1048576X model:SM_G998B\n"
         "emulator-5554          device product:sdk_gphone64_arm64\n\n")
+TWO = ("List of devices attached\nemulator-5554          device product:sdk_gphone64_arm64\n"
+       "emulator-5556          device product:sdk_gphone64_arm64\n\n")
 OFFLINE = "List of devices attached\nemulator-5554          offline\n\n"
 
 
@@ -45,6 +47,11 @@ class Pin(unittest.TestCase):
 
     def test_pins_the_emulator_when_both_are_there(self):
         self.assertEqual(self.run_with(BOTH, {}), ("emulator-5554", "emulator-5554"))
+
+    def test_refuses_two_emulators_at_once(self):
+        # Two emulators beside a build froze the Mac (2026-11-27).
+        with self.assertRaises(SystemExit):
+            self.run_with(TWO, {"ANDROID_SERIAL": "emulator-5556"})
 
     def test_refuses_a_serial_that_names_the_phone(self):
         with self.assertRaises(SystemExit):
