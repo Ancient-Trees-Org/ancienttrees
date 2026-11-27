@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 night run (15:28 window): health check only, no trees
+
+- Rung 2. The red web error "Transition was skipped" (16 reports, 13 pages) already has its filter on main (760cd8f1a, 01:35 UTC), so the 24-hour count is pre-deploy reports. Answered in health.py. Two new, smaller errors came in: a maplibre `getLayer` TypeError (2 reports) and "Transition was aborted ... Page already revealed" (matches the same filter).
+- The 10 open app BUG rows (iOS Feed, profile and card-drag fixes with tests written, awaiting a build) need Swift, Xcode and the simulators, so this Linux runner left them alone. The iOS scheduled run failed 3.4h ago and the postbox and live sign-in checks are over 26h old (GitHub dropped the schedules). Sessions with the right tools should look.
+- Reader inbox empty. Only 3 READY leads (York, Guimaraes, Leamington Spa), under the six-tree minimum for a write pass; own research is paused, so no refill. Nothing published.
+
 ## 2026-11-27 reader judge: two cedars at Villa Cagnola, Varese, live
 
 - The same reader who sent the three campus trees added two great cedars in the park of Villa Cagnola at Gazzada, about 5 km south of Varese. Both photographs were viewed, both came with the photo's own GPS, and both are live under Varese: var_006 "The Cedar by the Tower at Villa Cagnola" and var_007 "The Blue Cedar of Villa Cagnola". Each has its further photograph in the strip (reader_extras.py), and both are filed in November from the photograph's own date.
