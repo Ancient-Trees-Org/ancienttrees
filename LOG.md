@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-27 reader judge: nothing new; the Catania fig was already live
+
+- The only waiting item was the reader's photograph of the Villa Bellini fig (cat_001). I looked at it and approved it, then found the 13:25 run had published the same photograph minutes earlier. I kept that run's version. The one thing it had not done was queue the reader's "your photograph is on the page" mail, so this commit adds that entry to data/photo-live-mailed.json (pending, nothing sent twice).
+- There were no open reports, tips, feedback, tree notes, further photographs, words to quote or late items. qa source checks, preflight and i18ncheck were clean.
+
 ## 2026-11-27 13:25 run: a reader's Moreton Bay fig photo is live; iOS CI red needs a Mac
 
 - Changed in the product: the Moreton Bay Fig of Villa Bellini (Catania, cat_001) had no photograph. A reader's wide daylight shot of the whole tree (buttress roots, limbs, species matches) now leads its page. Looked at the pixels first; the verdict is in data/judgements.json.

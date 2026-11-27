@@ -3487,6 +3487,21 @@
     }
    ],
    "sent": []
+  },
+  "p_9ba2fe2890d0fba37865bf67": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "929beb72-30d0-4d9d-beaf-4e6ef5c88d6a",
+     "tree_id": "cat_001",
+     "tree_name": "The Moreton Bay Fig of Villa Bellini",
+     "city": "Catania",
+     "city_slug": "catania",
+     "display_name": null,
+     "live": "2026-11-27"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
