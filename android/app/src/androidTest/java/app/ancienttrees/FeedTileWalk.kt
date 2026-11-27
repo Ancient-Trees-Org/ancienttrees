@@ -71,15 +71,12 @@ class FeedTileWalk {
 
     @Test fun aClickOnATitleOpensItsTree() {
         start(emptyList())
-        val tile = rule.onAllNodesWithTag("feed-tile").onFirst().fetchSemanticsNode()
-        var name = ""
-        InstrumentationRegistry.getInstrumentation().runOnMainSync {
-            name = tile.config[androidx.compose.ui.semantics.SemanticsProperties.ContentDescription].first().substringBefore(", ")
-        }
-        rule.onAllNodes(androidx.compose.ui.test.hasText(name)).onFirst().performClick()
+        // The title under the first tile by its own tag: the same name can stand
+        // elsewhere on the screen (a pill, a row further down) where no touch lands.
+        rule.onAllNodesWithTag("feed-tile-title").onFirst().performClick()
         val ok = opened()
         shoot("title-after")
-        org.junit.Assert.assertTrue("a click on the first Feed title ($name) opened no tree page", ok)
+        org.junit.Assert.assertTrue("a click on the first Feed title opened no tree page", ok)
     }
 
     @Test fun aFingerOnATileOpensItsTree() {

@@ -592,7 +592,7 @@ private fun FeedTile(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: 
             if (p.checked) Box(Modifier.align(Alignment.TopEnd).padding(6.dp)) { SaveMark(known ?: FeedPosts.stub(p), onPhoto = true) }
         }
         Text(p.treeName, fontFamily = BrandFace, fontWeight = FontWeight.Bold, fontSize = 14.sp, color = brand.ink,
-            maxLines = 2, overflow = TextOverflow.Ellipsis, modifier = Modifier.clickable { open() })
+            maxLines = 2, overflow = TextOverflow.Ellipsis, modifier = Modifier.clickable { open() }.testTag("feed-tile-title"))
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(5.dp),
             modifier = Modifier.fillMaxWidth().then(if (p.authorName != null) Modifier.clickable(onClick = onAuthor) else Modifier)) {
             VisitorFace(name, p.authorAvatar, size = 18)
