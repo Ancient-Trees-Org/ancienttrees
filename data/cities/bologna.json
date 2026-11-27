@@ -139,13 +139,17 @@
       "access": "Free, public square",
       "transport": "5 min walk from Piazza Maggiore",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Statua_Minghetti_e_Platano.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "GennaroBologna, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/bol_003-the-plane-tree-of-piazza-minghetti-3aadb77e.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1000,
-        "height": 750,
-        "taken_month": 9
+        "width": 1204,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_21429d1c6a44f14c7876e774",
+        "sighting_id": "3aadb77e-e8f1-4c64-b125-719c0aca8134",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); a viewing pass approved it on 2026-11-27: Sent for the Piazza Cavour ginkgo but shows the London plane of Piazza Minghetti, 17 m from the photo's fix: tall mottled trunk in its planted bed, the square's buildings behind, leaves turning in late autumn. Species seen: London plane: mottled flaking bark, maple-like lobed leaves, tall forked crown. Fits the description: a very tall plane rising from the bed of Piazza Minghetti, 17 m from the register pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Height (39.5m) and circumference (455cm) corroborated across two independent sources, including the 'tallest monumental tree in the province' superlative, presented as sourced rather than independently verified against a full provincial register. Photo verified directly: shows the Minghetti statue directly in front of the described plane tree canopy, an exact match to the square and story. Pin tightened 2026-07-27: the only Platanus tree node OpenStreetMap maps in the piazza sits about 17m from the prior address-level estimate; kept `approximate` since the node itself carried no name or registry reference tying it individually to this tree. Upgraded to confirmed: Italy's official AMI national monumental-trees register lists a 'Platano comune' at Piazza Minghetti itself (record naming the exact square, species matching London Plane), read with a purpose-built binary XLS parser and independently landing about 11m from the already-tightened OSM node, two independent sources converging on the same point.",
@@ -157,7 +161,18 @@
       "official_register": {
         "name": "Alberi Monumentali d'Italia (MASAF elenco, codice AMI), no. 04/A944/BO/08",
         "url": null
-      }
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Statua_Minghetti_e_Platano.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "GennaroBologna, via Wikimedia Commons",
+          "status": "approved",
+          "width": 1000,
+          "height": 750,
+          "taken_month": 9
+        }
+      ]
     },
     {
       "id": "bol_004",

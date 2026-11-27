@@ -456,6 +456,28 @@
    "agreed": null
   },
   {
+   "id": "sight:3aadb77e-e8f1-4c64-b125-719c0aca8134",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane Tree of Piazza Minghetti",
+   "city": "Bologna",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/3aadb77e-e8f1-4c64-b125-719c0aca8134.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 17,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "sent for bol_006 (the Piazza Cavour ginkgo); the photograph shows bol_003"
+   },
+   "verdict": "publish",
+   "reason": "Sent for the Piazza Cavour ginkgo, but the photograph shows a London plane: mottled bark, lobed leaves, a tall forked crown in a planted bed. Its location is 17 m from our Plane Tree of Piazza Minghetti (bol_003, register pin), so it went on that tree as the lead photograph, and the Commons photo moved into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",

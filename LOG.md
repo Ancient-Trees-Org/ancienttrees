@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: a Bologna plane photograph goes on the Minghetti plane
+
+- A reader's app photograph (3aadb77e) sent for the Ginkgo of Piazza Cavour (bol_006) actually shows a London plane: mottled bark, lobed leaves and a tall forked crown in a planted bed. Its GPS fix is 17 m from our Plane Tree of Piazza Minghetti (bol_003, register pin) and 167 m from the ginkgo. The queue row was pointed at bol_003 and applied as `add`, so the reader's photo is now the lead and the Commons photo moved into the strip. The photo is filed under November, its own date. The pin stays confirmed. The publish step's coordinate read hit an HTTPError again, but nothing depended on it.
+- Nothing else was waiting: no open reports, tips, feedback, tree notes, further photographs or words to quote, and nothing late in reader_backlog. The 37 open leads in _sightings.json are our own accounts' rows, as in earlier runs. qa source checks were clean, preflight found 0 problems and i18ncheck was clean.
+- For a session: sightings_publish.py has no verdict for "this shows another tree of ours". This run edited the queue row's tree by hand before applying. A `tree_id` override on the verdict would make that one step.
+
 ## 2026-11-27 third attempt in the 12:08 window, nothing shipped
 
 Claims: none standing. READY leads: the same 3 the write agent refused earlier (York, Sanfins, Leamington), so no new dispatch. `passcheck.py --pending` holds only stale files, id clashes and within-50m duplicates (taiwan has 1 real unpublished, no source change). `reader_words.py` 0 notes waiting (4 mail sentences wait for the sender's yes), `enrich.py --next` nothing, `recognise.py --stuck` 0. `pagegaps.py`: 36 species and 2 park pages missing, but the strict cut keeps them out of Google and they are low value in recovery mode, so left alone. Own research stays paused, so no verify pass or scouting. Nothing left that a run may do.

@@ -3472,6 +3472,21 @@
      "mailed": "2026-11-27"
     }
    ]
+  },
+  "p_21429d1c6a44f14c7876e774": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "3aadb77e-e8f1-4c64-b125-719c0aca8134",
+     "tree_id": "bol_003",
+     "tree_name": "The Plane Tree of Piazza Minghetti",
+     "city": "Bologna",
+     "city_slug": "bologna",
+     "display_name": null,
+     "live": "2026-11-27"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {
