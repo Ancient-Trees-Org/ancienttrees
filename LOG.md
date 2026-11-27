@@ -242,7 +242,8 @@ Rung 1: no reader backlog; one new tree note (North Berwick Law beeches, a visit
 - **Step 4: a link to a tree on the map opens its card**, on every city page and on /explore (not only Tokyo): the tree page's bigger-map button, a visitor card's app-only tree, and a tree picked in the search on a map now fly to the tree with its card open, as Google Maps opens a shared place. Before, the city map only lit the pin. A tree picked in the search anywhere else still opens its page.
 - **Tokyo leaves its panel Airbnb's way (2026-11-27, Hidde: "ja maak gewoon airbnb na")**: the cross is gone; the first drag or zoom of your own (wheel, pinch, double click, + and -) turns the panel into the trees in view; a tapped pin's card does not. On the way: a wheel zoom never counted as a move by hand (no originalEvent, and in the pane it started a second late), so it is now read from the wheel itself; /explore's country search ends on a wheel zoom too. Checked live: wheel, drag, Back, pin tap.
 - Open with Hidde: picking a city in the search still loads its page behind a fade; loading nothing at all means swapping the city's panel in place, the bigger rewrite he set aside on 2026-11-26.
-- Next: more cities on the one map (`ONE_MAP_CITIES`), then translated, country and state pages.
+- **Every English city page is the one map now** (2026-11-27, Hidde: "Ja, alle steden"; `ONE_MAP_CITIES = "all"`). Checked live: London (wheel), Lisbon (drag), Bilbao on a 375px phone (drag), no console errors.
+- Next: translated city pages, then country and state pages.
 
 ## 2026-11-26 night run (19:08 window): nothing to ship
 
