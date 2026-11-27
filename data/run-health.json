@@ -2,96 +2,6 @@
  "note": "One record per night run, written by the workflow's own Run health step, never by the run. A run cannot leave this empty by giving up, which is the entire point: on 2026-08-15 four runs ended after nine minutes of a sixty minute window and left no trace at all. 'denials' counts commands the allowlist refused; it read 4 to 25 until 2026-08-15 and has returned null since, because the SDK key it reads went away. Treat a null as a broken instrument, not a zero.",
  "runs": [
   {
-   "started": "2026-09-18T01:13:31+00:00",
-   "date": "2026-09-18",
-   "run_id": "35294422999",
-   "minutes": 102.4,
-   "minutes_basis": "measured",
-   "attempts": 2,
-   "turns": 367,
-   "denials": 42,
-   "denials_source": "permission_denials: Bash(cd), Bash(curl), Bash(env), Bash(for), Bash(gh), Bash(git), Bash(grep), Bash(ls), Bash(mkdir), Bash(pdftotext), Bash(printenv), Bash(python3), Bash(rm), Bash(until), Bash(wc), Bash(which), Bash(while)",
-   "ended": "success",
-   "tokens": 20264148,
-   "claims_held": [
-    "_famous-poland"
-   ],
-   "commits": 18,
-   "cities_touched": 17,
-   "cities": [
-    {
-     "city": "bulat-pestivien",
-     "trees": 1
-    },
-    {
-     "city": "crecy-en-ponthieu",
-     "trees": 1
-    },
-    {
-     "city": "fontaine-belfort",
-     "trees": 1
-    },
-    {
-     "city": "innimond",
-     "trees": 1
-    },
-    {
-     "city": "le-guerno",
-     "trees": 1
-    },
-    {
-     "city": "alishan",
-     "trees": 0
-    },
-    {
-     "city": "cagliari",
-     "trees": 0
-    },
-    {
-     "city": "cooper-creek",
-     "trees": 0
-    },
-    {
-     "city": "hiroshima",
-     "trees": 0
-    },
-    {
-     "city": "le-precheur",
-     "trees": 0
-    },
-    {
-     "city": "monterey",
-     "trees": 0
-    },
-    {
-     "city": "nara",
-     "trees": 0
-    },
-    {
-     "city": "pisa",
-     "trees": 0
-    },
-    {
-     "city": "poleski-national-park",
-     "trees": 0
-    },
-    {
-     "city": "priekule",
-     "trees": 0
-    },
-    {
-     "city": "santa-maria-del-tule",
-     "trees": 0
-    },
-    {
-     "city": "stelmuze",
-     "trees": 0
-    }
-   ],
-   "trees": 5,
-   "logged": true
-  },
-  {
    "started": "2026-09-18T02:57:13+00:00",
    "date": "2026-09-18",
    "run_id": "35297824059",
@@ -17546,6 +17456,30 @@
    "cities_touched": 0,
    "cities": [],
    "trees": 0,
+   "logged": true
+  },
+  {
+   "started": "2026-11-27T19:54:45+00:00",
+   "date": "2026-11-27",
+   "run_id": "46059891529",
+   "minutes": 5.2,
+   "minutes_basis": "measured",
+   "attempts": 4,
+   "turns": 84,
+   "denials": 1,
+   "denials_source": "permission_denials: Bash(cd && npx)",
+   "ended": "success",
+   "tokens": 868850,
+   "claims_held": [],
+   "commits": 8,
+   "cities_touched": 1,
+   "cities": [
+    {
+     "city": "coeur-dalene",
+     "trees": 2
+    }
+   ],
+   "trees": 2,
    "logged": true
   }
  ],
