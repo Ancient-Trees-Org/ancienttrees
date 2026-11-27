@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-27 session: readers' notes and our own photographs now reach Google (live)
+
+- Changed in the product: Google now sees what readers give us. Until today the notes ("From people who stood here") were filled only by a script, so every crawler read the empty card. The build now writes them into the page HTML (102 notes on 100 trees; `scripts/notes_for_build.py` in deploy.yml, output gitignored, so their words stay out of the repo). A new note moves the page's sitemap date. Our own photographs (a reader's, ours, one mailed with permission) now go into the tree page's structured data as ImageObjects, with the day and "by a visitor", never a name. sitemap.xml lists them as image:image: 1,139 photographs on 907 indexable urls. Checked live on le-porge/plane-tree-of-place-saint-seurin and in the sitemap.
+- Breakage: the first build failed qa on a reader's own em dash in two notes. Notes now render it as a spaced hyphen, on the web and in the script's redraw (hard rule 3).
+- Guarded by qa `check_readers_content_is_in_the_html()` (before the push) and `check_readers_content_is_in_the_built_pages()`.
+- Context, from the same session: the November core update ended about 11-24 with no recovery (without our own name in the query, ~65 impressions a day at positions 21 to 90, against ~2,150 before 09-28). The December core update started 11-24 and is still rolling: no index changes until a week after it ends. Pages with reader content went from 5% (10-27) to 17% (11-27) of web tree pages. Laid before Hidde, not built: the hard trim (only pages with reader content on the web), "photographed by a visitor on <date>" visible on the page, and a row linking the newest reader pages from home and city pages.
+
 ## 2026-11-27 write pass on the 3 READY leads: none shipped, two held
 
 - Changed in the product: nothing. None of the three leads held enough verified fact to write 150 words without making things up.
