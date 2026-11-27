@@ -23,7 +23,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 ## 2026-11-27 session: Android test invitation, wave 6
 
 - **Wave 6** (Hidde: "kun je de 22 mensen uitnodigen?"): the Gmail waitlist sign-ups that never had an Android invite. There were 22 yesterday and 31 by now, most of them Italian, from the TGCom24 days. All 31 are on Play's "Android testers" list (956 to 987, saved and counted before any mail). They got wave 5's text, word for word, through Resend only: 25 at once, and 6 half an hour later (the blind brake allows 25 a run). Batch drafts/batches/android-test-invite-newapp-wave6-2026-11-27.json, built by out/tmp/wave6_build.py.
-- The closed test "Alpha" shows 63 active testers. The Play Console ids in memory were stale: the developer account is 6289749847935270102 and the app is 4975394642791101357.
+- The closed test "Alpha" shows 63 active testers. Play Console for the new app: developer account 6289749847935270102, app 4975394642791101357. The 8701… ids belong to the old, disabled account.
 
 ## 2026-11-27 session: build 44 ready, and what Hidde found on it
 
