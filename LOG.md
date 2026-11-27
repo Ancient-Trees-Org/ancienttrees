@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 night run, third attempt in the window
+
+- Nothing shipped. No claims, 0 READY leads, own research paused, and `passcheck.py --pending` shows only stale or duplicate-id files.
+- Checked the red web error: its filter ("Transition was skipped") has been in site/src/lib/web-errors-js.ts since 18:00 but is not live, because every deploy since failed on the fig description or was skipped (deploy.yml skips pushes by claude[bot]). So the web error, like the fig fix, waits for the one deploy. Dispatch returned 403 again. For Hidde: `gh workflow run deploy.yml` once.
+- The iOS failure and 10 open app bugs need Swift on a Mac; not attempted here.
+
 ## 2026-11-27 night run, second attempt in the window
 
 - Nothing written. No claims stood, `leads.py --ready` is empty (0 READY), and own research is paused, so there was no verify or write pass to dispatch. The "awaiting a writer" pile (382) is mostly id collisions and stale files that `passcheck.py --pending` says must not be merged as they are.
