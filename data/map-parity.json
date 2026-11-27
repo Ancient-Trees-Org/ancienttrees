@@ -250,6 +250,15 @@
       "android": "the same as iOS; nothing to change",
       "status": "one-sided",
       "why": "the website catching up with the phones"
+    },
+    {
+      "what": "One map on country pages (Hidde, 2026-11-27: \"Eerst landpagina's\"): the country map draws the other countries' trees too, and a drag or zoom of your own turns its panel into the map's trees in view at /explore#map=...",
+      "since": "2026-11-27",
+      "web": "map.ts countryMapScript opts.oneMap: NEARBY from /api/pins.json and cityViewJs; [country].astro passes the words",
+      "ios": "the map tab already shows a country's header and list and drops them on a move by hand; nothing to change",
+      "android": "the same as iOS; nothing to change",
+      "status": "one-sided",
+      "why": "the website catching up with the phones"
     }
   ]
 }

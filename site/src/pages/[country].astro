@@ -28,6 +28,7 @@ import { mapSpecies } from "../lib/map-species";
 import { speciesIconKey } from "../lib/species-icons";
 import MapFilters from "../components/MapFilters.astro";
 import PlaceHead from "../components/PlaceHead.astro";
+import { chrome } from "../lib/ui-strings";
 import PlaceIntro from "../components/PlaceIntro.astro";
 import { SHEET_JS } from "../lib/sheet-js";
 import { SHARE_JS } from "../lib/share-js";
@@ -295,7 +296,12 @@ const mapScript = countryMapScript(
   })),
   intro.data.map_frame,
   intro.data.map_focus,
-  { sheet: true }
+  { sheet: true,
+    // ONE MAP (lib/one-map.ts): drag or zoom it yourself and the panel is
+    // the map's trees in view, the address /explore#map=... (Hidde,
+    // 2026-11-27: "Eerst landpagina's").
+    oneMap: { explorePath: "/explore", words: { title: ui("en").exploreHeading, note: ui("en").exploreNote,
+              map: chrome("en").map, docTitle: ui("en").exploreTitle } } }
 );
 ---
 <Base title={title} description={description} canonical={canonical} headExtra={headExtra} footer={false}>

@@ -13,6 +13,7 @@ import { treeCardJs } from "./tree-card";
 import { placeCardJs } from "./browse-card";
 import { viewListJs, viewListWords } from "./view-list-js";
 import { flyToCityJs } from "./fly-to-city-js";
+import { cityViewJs, type CityViewWords } from "./city-view-js";
 
 /** MapLibre, loaded without blocking the page.
  *
@@ -363,7 +364,7 @@ export interface CountryMapCity {
 export function countryMapScript(cities: CountryMapCity[],
                                  frame?: [[number, number], [number, number]],
                                  focus?: [[number, number], [number, number]],
-                                 opts: { sheet?: boolean } = {}): string {
+                                 opts: { sheet?: boolean; oneMap?: { explorePath: string; words: CityViewWords } } = {}): string {
   // THE APP'S COUNTRY MAP (Hidde, 2026-10-04, on Italy: "deze stad preview is
   // niet echt mooi trek dit ook gelijk met app"). It was one dot per CITY with
   // its count and its name printed beside it, and in a country with forty
@@ -372,6 +373,11 @@ export function countryMapScript(cities: CountryMapCity[],
   // the base map's. So this is the explore map's pin style and its one rule:
   // a pin or a dot opens its tree.
   const sheet = Boolean(opts.sheet);
+  // ONE MAP (lib/one-map.ts, Hidde 2026-11-27: "Eerst landpagina's"): the
+  // country page is the map opened on its country, as a city page is: the
+  // other countries' trees are on it too, and a drag or zoom of your own
+  // turns the panel into the map's trees in view (city-view-js.ts).
+  const oneMap = sheet && opts.oneMap ? opts.oneMap : undefined;
   const data = {
     type: "FeatureCollection",
     features: cities.flatMap((c) => c.markers.map((m) => ({
@@ -390,10 +396,14 @@ export function countryMapScript(cities: CountryMapCity[],
   // rather than hiding a layer, species list fetched when the chip opens.
   const filters = sheet ? `${mapFiltersJs()}
 var SPECIES = null, SPECIES_L = null;
+var NEARBY = [], SP_IC = null;
+function _inView() { return typeof VIEW !== 'undefined' && VIEW === true; }
 function applyCountryFilters() {
   var kept = filtersOn() ? ALL.filter(function(f) { return keepsTree(f.properties); }) : ALL;
-  if (typeof pins !== 'undefined' && pins) { pins.setData(kept); }
+  var near = filtersOn() ? NEARBY.filter(function(f) { return keepsTree(f.properties); }) : NEARBY;
+  if (typeof pins !== 'undefined' && pins) { pins.setData(kept.concat(near)); }
   atFilterCount(kept.length);
+  if (_inView()) { _viewFilter(); renderPanel(); }
 }
 atMapFilters({
   apply: applyCountryFilters,
@@ -408,7 +418,7 @@ atMapFilters({
   map: function() { return typeof map !== 'undefined' ? map : null; }
 });
 ` : "";
-  return mapScript(`${PILES_JS}${mapCardJs()}${treePinsJs()}${treeMapJs()}
+  return mapScript(`${PILES_JS}${mapCardJs()}${treePinsJs()}${treeMapJs()}${oneMap ? treeCardJs() + placeCardJs() : ""}
 var ALL = ${JSON.stringify(data)}.features;
 var pins = null;
 ${filters}
@@ -419,15 +429,46 @@ if (!atCanMap()) return;
 // country page's is the page, and gets everything every map has.
 var T = atTreeMap({
   center: [0, 0], zoom: 3, embedded: !SHEET,
-  iconOf: function(p) { return p.ic || 'broadleaf'; },
-  ready: function(p) {
+  iconOf: function(p) {
+    return p.ic || (p.sp !== undefined && p.sp !== null && typeof SP_IC !== 'undefined' && SP_IC && SP_IC[p.sp]) || 'broadleaf';
+  },
+  ready: function(p, c) {
     pins = p;
+    mapCard = c;
     fit();
     pins.setData(ALL);
     if (SHEET && typeof applyCountryFilters === 'function') { applyCountryFilters(); }
+    if (ONE_MAP) { _countryNeighbours(); }
   }
 });
 var map = T.map;
+var mapCard = null;
+function clearPin() { if (pins) { pins.select(null); } }
+// The other countries' trees, as the city map draws its neighbours
+// (city-map-script.ts NEARBY): from /api/pins.json, with their species'
+// drawings from /api/map-species.json.
+var ONE_MAP = ${oneMap ? "true" : "false"};
+function _countryNeighbours() {
+  var own = {};
+  ALL.forEach(function(f) { own[f.properties.id] = 1; });
+  Promise.all([
+    fetch('/api/pins.json').then(function(r) { return r.json(); }),
+    fetch('/api/map-species.json').then(function(r) { return r.json(); }).catch(function() { return null; })
+  ]).then(function(got) {
+    var rows = got[0], sp = got[1];
+    if (sp) {
+      SP_IC = sp.icons || null;
+      if (!SPECIES) { SPECIES = sp.names || []; SPECIES_L = sp.latin || []; }
+    }
+    NEARBY = [];
+    rows.forEach(function(r) {
+      if (own[r[0]]) { return; }
+      NEARBY.push({type: 'Feature', geometry: {type: 'Point', coordinates: [r[1], r[2]]},
+                   properties: {id: r[0], cs: r[3], pr: r[4], sp: r[5], paid: r[6], mn: r[7]}});
+    });
+    applyCountryFilters();
+  }).catch(function() {});
+}
 var b = new maplibregl.LngLatBounds();
 ALL.forEach(function(f) { b.extend(f.geometry.coordinates); });
 // A country whose cities all hug one border names extra ground to show
@@ -477,6 +518,8 @@ map.on('dragstart', function() { touched = true; });
 map.on('zoomstart', function(e) { if (e.originalEvent) { touched = true; } });
 new ResizeObserver(function() { fit(); }).observe(document.getElementById('map'));
 map.on('load', fit);
+var HOME = b;
+${oneMap ? cityViewJs("en", oneMap.explorePath, oneMap.words) : ""}
 `);
 }
 
