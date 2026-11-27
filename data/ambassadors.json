@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-27T19:21Z",
+  "synced": "2026-11-27T19:23Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -482,6 +482,15 @@
       "public": true,
       "since": "2026-11-27",
       "display_name": "Evergreen Yew 7187",
+      "profile_public": true
+    },
+    {
+      "user_id": "6d9117ef-9196-4f26-aeaf-a539dd6b4cdc",
+      "place_slug": "lake-waikaremoana",
+      "place_name": "Lake Waikaremoana",
+      "public": true,
+      "since": "2026-11-27",
+      "display_name": "Sunlit Chestnut 1733",
       "profile_public": true
     },
     {

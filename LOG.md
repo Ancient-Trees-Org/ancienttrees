@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: Lake Waikaremoana has an ambassador
+
+- **Changed:** the reader who sent the Giant Rata of the Ngamoko Track replied to our mail. They are happy with the page and said yes to being ambassador of Lake Waikaremoana, from abroad for now. Their account now has the badge (`ambassador.py --grant`; the sync shows their public profile name). Feedback 1768 is closed `handled`. reader_words is closed `--done` for the same row, because the mail is about the offer, not the tree.
+- **Not sent:** the standard "Looking after Lake Waikaremoana" mail. This runner has no mail credentials for `--grant`. It is listed by `ambassador.py --welcome-missing` together with Horn-Lehe and Girona, which were already waiting. For a session: `python3 scripts/ambassador.py --welcome-missing --send`.
+- Nothing else waited: 0 queue photographs, 0 open reports, 0 tips, 0 further photographs. The 37 open leads are September and October photos from our own accounts. qa source checks were clean, preflight found 0 problems and i18ncheck was clean.
+
 ## 2026-11-27 night run (fourth attempt): three more species intros
 
 - Changed in the product: species intros for Cucumber Tree Magnolia, Coast Live Oak and Black Cherry, from our own trees' figures (noindexed under the strict cut, so for the app and Bing). Renamed the Cunningham's Fig file to the slug pagegaps expects, so it no longer reports as a gap.
