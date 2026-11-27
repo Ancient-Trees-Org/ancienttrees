@@ -816,6 +816,7 @@ struct HomeView: View {
             .contentShape(.capsule)
         }
         .buttonStyle(.plain)
+        .countsDiscoverTap("species")
     }
 
     /// THE ORDER (Hidde, 2026-11-27, from the mockup in
@@ -899,11 +900,11 @@ struct HomeView: View {
         if deck.records.count + deck.lists.count + (islandFace == nil ? 0 : 1) >= 3 {
             section("Lists with an opinion") {
                 shelf {
-                    ForEach(deck.records, id: \.label) { r in tile(r.tree, r.label, to: r.route) }
+                    ForEach(deck.records, id: \.label) { r in tile(r.tree, r.label, to: r.route).countsDiscoverTap("records") }
                     ForEach(deck.lists, id: \.collection.slug) { l in
-                        tile(l.face, l.collection.title, to: .collection(l.collection.slug))
+                        tile(l.face, l.collection.title, to: .collection(l.collection.slug)).countsDiscoverTap("lists")
                     }
-                    if let islandFace { tile(islandFace, Route.Index.islands.title, to: .index(.islands)) }
+                    if let islandFace { tile(islandFace, Route.Index.islands.title, to: .index(.islands)).countsDiscoverTap("islands") }
                 }
             }
             .id("discover-lists")
@@ -921,6 +922,7 @@ struct HomeView: View {
                         placeCard(c.name, treesLabel(c.count), cover: c.photo)
                     }
                     .buttonStyle(.plain)
+                    .countsDiscoverTap("countries")
                 }
             }
         }
@@ -985,6 +987,7 @@ struct HomeView: View {
                     placeCard(c.name, treesLabel(c.count), cover: catalogue.face(city: c.slug))
                 }
                 .buttonStyle(.plain)
+                .countsDiscoverTap("cities")
             }
         }
     }

@@ -480,6 +480,7 @@ private fun LazyListScope.discoverContent(
             Shelf(Modifier.padding(bottom = 4.dp)) {
                 items(deck.cities.take(14), key = { it.slug }) { city ->
                     PlaceCard(city.name, treeCount(city.count), c.faceOfCity(city.slug)) {
+                        TreeSource.tapped("cities")
                         act.openPlace(SearchHit.City(city.slug, city.name, 0.0, 0.0))
                     }
                 }
@@ -505,6 +506,7 @@ private fun LazyListScope.discoverContent(
                 Shelf {
                     items(deck.records, key = { "record-" + it.kind.name }) { r ->
                         Tile(r.tree, recordLabel(r), Modifier.width(TILE_WIDTH)) {
+                            TreeSource.tapped("records")
                             when (r.kind) {
                                 Record.Kind.OLDEST -> open(DiscoverPage.Index(IndexKind.OLDEST))
                                 else -> r.collection?.let { open(DiscoverPage.Collection(it)) }
@@ -512,11 +514,12 @@ private fun LazyListScope.discoverContent(
                         }
                     }
                     items(deck.lists, key = { it.collection.slug }) { l ->
-                        Tile(l.face, l.collection.title, Modifier.width(TILE_WIDTH)) { open(DiscoverPage.Collection(l.collection.slug)) }
+                        Tile(l.face, l.collection.title, Modifier.width(TILE_WIDTH)) { TreeSource.tapped("lists"); open(DiscoverPage.Collection(l.collection.slug)) }
                     }
                     if (islands != null) {
                         item(key = "islands") {
                             Tile(islands, stringResource(R.string.discover_islands), Modifier.width(TILE_WIDTH)) {
+                                TreeSource.tapped("islands")
                                 open(DiscoverPage.Index(IndexKind.ISLANDS))
                             }
                         }
@@ -537,7 +540,7 @@ private fun LazyListScope.discoverContent(
             Section(stringResource(R.string.discover_countries), seeAll = { open(DiscoverPage.Index(IndexKind.COUNTRIES)) }) {
                 Shelf(Modifier.padding(bottom = 4.dp)) {
                     items(deck.countries.take(14), key = { it.name }) { k ->
-                        PlaceCard(k.name, treeCount(k.count), k.photo) { act.openPlace(SearchHit.Country(k.name)) }
+                        PlaceCard(k.name, treeCount(k.count), k.photo) { TreeSource.tapped("countries"); act.openPlace(SearchHit.Country(k.name)) }
                     }
                 }
             }
@@ -547,7 +550,7 @@ private fun LazyListScope.discoverContent(
     if (deck.species.isNotEmpty()) {
         block("discover-species") {
             Section(stringResource(R.string.discover_species), seeAll = { open(DiscoverPage.Index(IndexKind.SPECIES)) }) {
-                SpeciesRows(deck.species) { act.openSpecies(it) }
+                SpeciesRows(deck.species) { TreeSource.tapped("species"); act.openSpecies(it) }
             }
         }
     }

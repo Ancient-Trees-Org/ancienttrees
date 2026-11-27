@@ -35,6 +35,13 @@ enum TreeSource {
         return page
     }
 
+    /// A tap on a Discover row: `discover_tap` with the row's name ("best",
+    /// "trending", "visitors", "cities", "records", "lists", "islands",
+    /// "want", "countries", "species", "more-near-you").
+    static func tapped(row: String) {
+        Measure.event("discover_tap", ["row": row])
+    }
+
     /// A route's kind as a word: "city", "collection", "person", "tree".
     static func kind(_ route: Route) -> String {
         let s = String(describing: route)
@@ -63,7 +70,18 @@ extension EnvironmentValues {
 
 extension View {
     /// Names the tap that opens a tree, without taking the tap from the link.
+    /// A Discover row's tree also counts as a tap on that row (discover_tap).
     func opensTree(from name: String) -> some View {
-        simultaneousGesture(TapGesture().onEnded { TreeSource.mark(name) })
+        simultaneousGesture(TapGesture().onEnded {
+            TreeSource.mark(name)
+            if name.hasPrefix("discover/") { TreeSource.tapped(row: String(name.dropFirst(9))) }
+        })
+    }
+
+    /// A tap on a Discover tile that opens a page rather than a tree (a city,
+    /// a list, a country, a species), counted with its row, so a row is
+    /// measured even when nobody opens a tree after it (Hidde, 2026-11-27).
+    func countsDiscoverTap(_ row: String) -> some View {
+        simultaneousGesture(TapGesture().onEnded { TreeSource.tapped(row: row) })
     }
 }

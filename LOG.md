@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 session: every Discover row counts its taps, and the daily digest shows where trees are opened
+
+- A new app event, `discover_tap` {row}, fires on every tap on a Discover row, on iPhone and Android. That includes the rows that open a page before any tree: cities, records, lists, islands, countries and species. The tree rows count too (best, trending, visitors, want, more-near-you). So a row is measured even when nobody opens a tree after it. Hidde asked: "sommig rijen gaan niet direct naar een boompagina meet je die ook?"
+- The daily digest has a new block above Search: "Where trees are opened in the app". It holds two short tables over the last 7 days, counting only people outside the project: `tree_opened` by `from`, and `discover_tap` by row (`tree_doors_section()` in scripts/daily_digest.py; Hidde: "mss niet over 2 weken melden maar gewoon in dd zetten"). It says "no data yet" until the next app build is in use. The one-off report scheduled for 11 December is deleted.
+- Checks: TreeSourceTests (iOS, 3 pass) and TreeSourceTest (Android), both builds, and the digest block run against PostHog (it showed "no data yet", as expected).
+
 ## 2026-11-27 session: the iPhone map stays still when a pin is tapped; the red feed test fixed
 
 - Tapping a pin used to slide the whole map up by about 115 points as the card rose, and down again when it closed. Now the map stays where it was: the pin grows in place, and the map only moves when the card would cover the pin. Checked in the simulator (Amsterdam: a pin in the upper map stays put, a low one is brought up, closing leaves everything in place) and with TreeMapPinTapTests. Android has not been checked yet; that is an open row in data/map-parity.json.

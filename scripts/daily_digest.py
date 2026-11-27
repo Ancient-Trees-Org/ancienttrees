@@ -3436,6 +3436,51 @@ def _ph_ours():
     return " AND ".join(clauses), cfg
 
 
+def tree_doors_section(_today=None):
+    """Where people open trees in the app, and which Discover rows they tap,
+    over the last seven days, strangers only.
+
+    Hidde, 2026-11-27, after Discover's new order: "kunnen we dit uberhaupt
+    toevoegen op alle paginas dat we zien waar mensen klikken op bomen wat
+    werkt en niet?", then "mss niet over 2 weken melden maar gewoon in dd
+    zetten". `tree_opened` carries `from` (Kit/TreeSource.swift,
+    ui/TreeSource.kt): the tab plus the page under the tree, a Discover row,
+    or a door (search, map/pin, nearby, link). `discover_tap` counts a tap on
+    a Discover row by name, also for rows that open a page first (cities,
+    lists, countries, species). Two short tables; counts, never trends.
+    """
+    key = os.environ.get("POSTHOG_READ_KEY")
+    if not key:
+        return None
+    project, _why = _ph_project(key)
+    if not project:
+        return None
+    ours, _cfg = _ph_ours()
+    and_ours = ("AND " + ours) if ours else ""
+    opened = _posthog("""
+        SELECT toString(properties.from) AS f, count() AS n, count(DISTINCT distinct_id) AS p
+        FROM events
+        WHERE event = 'tree_opened' AND timestamp > now() - INTERVAL 7 DAY
+          AND properties.from IS NOT NULL AND toString(properties.from) != '' %s
+        GROUP BY f ORDER BY n DESC LIMIT 12""" % and_ours, key, project)
+    taps = _posthog("""
+        SELECT toString(properties.row) AS r, count() AS n, count(DISTINCT distinct_id) AS p
+        FROM events
+        WHERE event = 'discover_tap' AND timestamp > now() - INTERVAL 7 DAY %s
+        GROUP BY r ORDER BY n DESC""" % and_ours, key, project)
+    head = "**Where trees are opened in the app** (last 7 days, strangers)"
+    if not opened and not taps:
+        return head + ": no data yet; it arrives with the app build after 2026-11-27."
+    out = [head, ""]
+    if opened:
+        out += ["| Opened from | Trees opened | People |", "|---|---:|---:|"]
+        out += ["| %s | %d | %d |" % (f, n, p) for f, n, p in opened]
+    if taps:
+        out += ["", "| Discover row | Taps | People |", "|---|---:|---:|"]
+        out += ["| %s | %d | %d |" % (r, n, p) for r, n, p in taps]
+    return "\n".join(out)
+
+
 def app_builder_section(today):
     """The app as a builder reads it: one table, this week against the week
     before, the chain from arriving to standing in front of a tree.
@@ -4556,6 +4601,14 @@ def main():
 
     gsc_latest = None
     gsc_data = None
+    # Where people open trees in the app, above Search (Hidde, 2026-11-27:
+    # "gewoon in dd zetten").
+    try:
+        doors = tree_doors_section(today)
+        if doors:
+            blocks.append(doors)
+    except Exception as e:
+        blocks.append("**Where trees are opened**: failed today (%s)." % str(e)[:90])
     # Bing first, in its own try, so it can be spliced directly under Google's
     # day table (Hidde, 2026-10-09) without either fetch taking the other down.
     try:

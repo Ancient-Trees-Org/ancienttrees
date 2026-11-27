@@ -16,6 +16,16 @@ object TreeSource {
     /** A tap that is about to open a tree, named. */
     fun mark(name: String) {
         pending = name to System.currentTimeMillis()
+        // A Discover row's tree also counts as a tap on that row.
+        if (name.startsWith("discover/")) tapped(name.removePrefix("discover/"))
+    }
+
+    /**
+     * A tap on a Discover row: `discover_tap` with the row's name (Kit/TreeSource.swift
+     * tapped(row:)), also for tiles that open a page rather than a tree.
+     */
+    fun tapped(row: String) {
+        app.ancienttrees.account.Measure.event("discover_tap", mapOf("row" to row))
     }
 
     /** The tap's name if it came in the last two seconds, else the page; cleared either way. */
