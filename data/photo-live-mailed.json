@@ -3443,19 +3443,15 @@
    ]
   },
   "p_bd4b33911efb53e848c36cea": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-27",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "53ef0785-8bec-424a-b291-ee69536aff55",
      "tree_id": "got_002",
-     "tree_name": "Skarseken",
-     "city": "Gothenburg",
-     "city_slug": "gothenburg",
-     "display_name": null,
-     "live": "2026-11-27"
+     "mailed": "2026-11-27"
     }
-   ],
-   "sent": []
+   ]
   }
  },
  "p_65a5c90c9072f11a77218aba": {
