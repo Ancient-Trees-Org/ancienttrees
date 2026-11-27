@@ -13400,6 +13400,76 @@
    "judged": "2026-11-27",
    "published_as": null,
    "hold": "doubt_location"
+  },
+  {
+   "sighting_id": "2549a442-0870-4e1f-910d-bf1b18e33909",
+   "user_id": "p_df9da2fa289e6fdaa8b541de",
+   "mine": false,
+   "name": "Blue Atlas Cedar in Varese",
+   "unsure_among": null,
+   "species": "Blue Atlas Cedar",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Formerly the Cagnola family’s villa, it is now a guesthouse owned by the Vatican.\nA very beautiful park with lovely views.\nIt is not always possible to go inside, but it is worth a try.",
+   "latitude": 45.78025,
+   "longitude": 8.82133666666667,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_df9da2fa289e6fdaa8b541de/2549A442-0870-4E1F-910D-BF1B18E33909.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/2549a442-0870-4e1f-910d-bf1b18e33909-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-27: a tall many-stemmed cedar on a low grassy mound beside a gravel park path, drooping green sprays, a weeping beech in orange autumn leaf to its left; the extra shows the same path with a monkey puzzle and a brick tower with battlements on the slope beyond; daylight, colour. Live as varese/var_006 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-27",
+   "judged": "2026-11-27",
+   "published_as": "varese/var_006"
+  },
+  {
+   "sighting_id": "16c8b4f6-e3cc-4085-8f5e-a32092225659",
+   "user_id": "p_df9da2fa289e6fdaa8b541de",
+   "mine": false,
+   "name": "Blue Weeping Atlas Cedar in Varese",
+   "unsure_among": null,
+   "species": "Blue Weeping Atlas Cedar",
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "Formerly the Cagnola family’s villa, it is now a guesthouse owned by the Vatican.\nA very beautiful park with lovely views.\nIt is not always possible to go inside, but it is worth a try.",
+   "latitude": 45.7792866666667,
+   "longitude": 8.82097,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_df9da2fa289e6fdaa8b541de/16C8B4F6-E3CC-4085-8F5E-A32092225659.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/16c8b4f6-e3cc-4085-8f5e-a32092225659-extra-1.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-27: a huge cedar of several grey trunks rising from one base into level, spreading limbs with silver-blue foliage, fan palms around its foot by a gravel drive; the extra shows its whole crown against a yellow sunset over the valley; colour. Live as varese/var_007 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-27",
+   "judged": "2026-11-27",
+   "published_as": "varese/var_007"
   }
  ]
 }

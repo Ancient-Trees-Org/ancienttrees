@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-27 reader judge: two cedars at Villa Cagnola, Varese, live
+
+- The same reader who sent the three campus trees added two great cedars in the park of Villa Cagnola at Gazzada, about 5 km south of Varese. Both photographs were viewed, both came with the photo's own GPS, and both are live under Varese: var_006 "The Cedar by the Tower at Villa Cagnola" and var_007 "The Blue Cedar of Villa Cagnola". Each has its further photograph in the strip (reader_extras.py), and both are filed in November from the photograph's own date.
+- var_006 is left at genus. The reader calls it a blue Atlas cedar, but the sprays look green and drooping, which may mean a deodar, so the page asks. var_007 is an Atlas cedar, as the reader says and the blue foliage shows. The reader's note is quoted: the villa was the Cagnola family's and is now a Vatican-owned guesthouse, "not always possible to go inside, but it is worth a try". The access lines say the same.
+- The Varese texts now count seven trees: intro, meta, question answer and context, and two FAQ answers.
+- No open reports, no feedback without a verdict, and no reader notes waiting to be quoted.
+
 ## 2026-11-27 session: every Discover row counts its taps, and the daily digest shows where trees are opened
 
 - A new app event, `discover_tap` {row}, fires on every tap on a Discover row, on iPhone and Android. That includes the rows that open a page before any tree: cities, records, lists, islands, countries and species. The tree rows count too (best, trending, visitors, want, more-near-you). So a row is measured even when nobody opens a tree after it. Hidde asked: "sommig rijen gaan niet direct naar een boompagina meet je die ook?"

@@ -544,6 +544,62 @@
    "agreed": null
   },
   {
+   "id": "lead:2549a442-0870-4e1f-910d-bf1b18e33909",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Blue Atlas Cedar in Varese",
+   "city": null,
+   "species": "Blue Atlas Cedar",
+   "photo": "p_df9da2fa289e6fdaa8b541de/2549A442-0870-4E1F-910D-BF1B18E33909.jpg",
+   "reader_note": "Formerly the Cagnola family’s villa, it is now a guesthouse owned by the Vatican.\nA very beautiful park with lovely views.\nIt is not always possible to go inside, but it is worth a try.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Blue Atlas Cedar"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall many-stemmed cedar on a mound by a gravel path in the park of Villa Cagnola, Gazzada, a weeping beech in autumn leaf beside it; GPS from the photo. Live as varese/var_006, species left at genus (reader says blue Atlas cedar, the green drooping sprays suggest deodar; the page asks).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:16c8b4f6-e3cc-4085-8f5e-a32092225659",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Blue Weeping Atlas Cedar in Varese",
+   "city": null,
+   "species": "Blue Weeping Atlas Cedar",
+   "photo": "p_df9da2fa289e6fdaa8b541de/16C8B4F6-E3CC-4085-8F5E-A32092225659.jpg",
+   "reader_note": "Formerly the Cagnola family’s villa, it is now a guesthouse owned by the Vatican.\nA very beautiful park with lovely views.\nIt is not always possible to go inside, but it is worth a try.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Blue Weeping Atlas Cedar"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge silver-blue cedar of several trunks among fan palms by a gravel drive in the park of Villa Cagnola, Gazzada, and its whole crown against a sunset; GPS from the photo. Live as varese/var_007, Atlas cedar as the reader says and the foliage shows.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",
@@ -30717,6 +30773,30 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2549a442-0870-4e1f-910d-bf1b18e33909",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Blue Atlas Cedar in Varese",
+   "photo": "p_df9da2fa289e6fdaa8b541de/2549A442-0870-4E1F-910D-BF1B18E33909.jpg",
+   "reader_note": "Formerly the Cagnola family’s villa, it is now a guesthouse owned by the Vatican.\nA very beautiful park with lovely views.\nIt is not always possible to go inside, but it is worth a try.",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall many-stemmed cedar by a gravel path in the park of Villa Cagnola, Gazzada; lead photo of var_006, its further view along the path to the brick tower in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:16c8b4f6-e3cc-4085-8f5e-a32092225659",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Blue Weeping Atlas Cedar in Varese",
+   "photo": "p_df9da2fa289e6fdaa8b541de/16C8B4F6-E3CC-4085-8F5E-A32092225659.jpg",
+   "reader_note": "Formerly the Cagnola family’s villa, it is now a guesthouse owned by the Vatican.\nA very beautiful park with lovely views.\nIt is not always possible to go inside, but it is worth a try.",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge silver-blue cedar of several trunks among fan palms at Villa Cagnola, Gazzada; lead photo of var_007, its further view against the sunset in the strip.",
    "hidde": null,
    "agreed": null
   }

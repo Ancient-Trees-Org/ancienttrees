@@ -2,17 +2,17 @@
   "city": "Varese",
   "country": "Italy",
   "status": "needs_curation",
-  "intro": "Varese is the garden city of Lombardy, at the foot of the Alps between Lake Maggiore and Lake Como, its villas and parks full of trees planted in the nineteenth century. Readers have sent us five: a vast Lebanon cedar 34 metres tall and a ginkgo 365 centimetres round that turns gold in November, both on Italy's national register, and on a university campus a broad blue-grey cedar, a pair of cedars over picnic tables and a beech in autumn copper.",
-  "meta_description": "Varese's great trees: a vast cedar of Lebanon and a gold November ginkgo on Italy's national register, and three old trees on a university campus.",
-  "question_meta": "Varese's great trees: a vast cedar of Lebanon and a gold November ginkgo on Italy's national register, and three old trees on a university campus.",
-  "question_answer": "The register cedar and the ginkgo stand a few dozen metres apart in a public garden off Viale Sant'Antonio; three more trees, two cedars and a beech, grow within a short walk of each other on a university campus in south-east Varese. All five are free to see.",
-  "question_context": "Varese calls itself the garden city, and its villas and public parks hold some of the finest planted trees in Lombardy, many of them set out in the nineteenth century when exotic conifers and Asian trees were the fashion. A reader sent us two that stand a few dozen metres apart in a public garden off Viale Sant'Antonio, and both match entries on Italy's national register; another reader added three on a university campus: a broad blue-grey cedar, a pair of cedars over picnic tables and a beech that turns copper in late November. The first is a cedar of Lebanon, recorded at 34 metres tall, whose several trunks carry a dark, tiered crown so broad it fills the photograph. The second is a ginkgo, recorded at 365 centimetres round and 28 metres tall, which the reader photographed from below in November with every leaf turned butter yellow. Ginkgo is a living fossil, almost unchanged for some two hundred million years. We do not know when either tree was planted. The garden's boards may say, and if they do, tell us on the trees' pages.",
+  "intro": "Varese is the garden city of Lombardy, at the foot of the Alps between Lake Maggiore and Lake Como, its villas and parks full of trees planted in the nineteenth century. Readers have sent us seven: a vast Lebanon cedar 34 metres tall and a ginkgo 365 centimetres round that turns gold in November, both on Italy's national register, and on a university campus a broad blue-grey cedar, a pair of cedars over picnic tables and a beech in autumn copper. Just south of town, in the park of Villa Cagnola at Gazzada, stand two more great cedars.",
+  "meta_description": "Varese's great trees: a vast register cedar of Lebanon, a gold November ginkgo, three trees on a university campus and two cedars at Villa Cagnola.",
+  "question_meta": "Varese's great trees: a vast register cedar of Lebanon, a gold November ginkgo, three trees on a university campus and two cedars at Villa Cagnola.",
+  "question_answer": "The register cedar and the ginkgo stand a few dozen metres apart in a public garden off Viale Sant'Antonio; three more trees, two cedars and a beech, grow within a short walk of each other on a university campus in south-east Varese, and these are free to see. Two great cedars stand in the park of Villa Cagnola at Gazzada, just south of town, which is not always open.",
+  "question_context": "Varese calls itself the garden city, and its villas and public parks hold some of the finest planted trees in Lombardy, many of them set out in the nineteenth century when exotic conifers and Asian trees were the fashion. A reader sent us two that stand a few dozen metres apart in a public garden off Viale Sant'Antonio, and both match entries on Italy's national register; another reader added three on a university campus: a broad blue-grey cedar, a pair of cedars over picnic tables and a beech that turns copper in late November. The first is a cedar of Lebanon, recorded at 34 metres tall, whose several trunks carry a dark, tiered crown so broad it fills the photograph. The second is a ginkgo, recorded at 365 centimetres round and 28 metres tall, which the reader photographed from below in November with every leaf turned butter yellow. We do not know when either tree was planted; the garden's boards may say, and if they do, tell us on the trees' pages. The campus reader later added two great cedars in the park of Villa Cagnola at Gazzada, just south of town.",
   "hero_tree_id": "var_001",
   "oldest_tree_id": "var_001",
   "faq": [
     {
       "q": "What are the monumental trees of Varese?",
-      "a": "A cedar of Lebanon 34 metres tall and a ginkgo 365 centimetres round, both listed on Italy's national register of monumental trees and standing in the same garden, and three trees a reader sent us from a university campus: two cedars and a beech."
+      "a": "A cedar of Lebanon 34 metres tall and a ginkgo 365 centimetres round, both listed on Italy's national register of monumental trees and standing in the same garden, and three trees a reader sent us from a university campus: two cedars and a beech, plus two great cedars in the park of Villa Cagnola at Gazzada, just south of town."
     },
     {
       "q": "When is the ginkgo at its best?",
@@ -20,7 +20,7 @@
     },
     {
       "q": "Are they free to visit?",
-      "a": "Yes. Two stand in a public garden; the three campus trees are best seen in campus hours."
+      "a": "The five in Varese are free. Two stand in a public garden, and the three campus trees are best seen in campus hours. The park of Villa Cagnola at Gazzada is not always open, but a reader says it is worth a try."
     }
   ],
   "trees": [
@@ -351,6 +351,120 @@
         "taken_month": 11,
         "taken_month_basis": "the photograph's own date"
       }
+    },
+    {
+      "id": "var_006",
+      "name": "The Cedar by the Tower at Villa Cagnola",
+      "species": "Cedar (Cedrus sp.)",
+      "location": {
+        "address": "Park of Villa Cagnola, Gazzada Schianno, near Varese",
+        "latitude": 45.78025,
+        "longitude": 8.82133666666667,
+        "neighbourhood": "Gazzada Schianno"
+      },
+      "how_to_recognise": "A tall cedar of several stems on a low grassy mound beside a gravel path, a weeping beech hanging to its left; a monkey puzzle and a brick tower with battlements stand on the slope just beyond.",
+      "access": "In the park of Villa Cagnola, a guesthouse; the reader says it is not always possible to go in, but worth a try. Check before you go.",
+      "story": "\"A very beautiful park with lovely views,\" wrote the reader who sent us this cedar from Villa Cagnola at Gazzada, a few kilometres south of Varese. \"It is not always possible to go inside, but it is worth a try.\"\n\nThe villa, they tell us, belonged to the Cagnola family and is now a guesthouse owned by the Vatican. Its park is planted the way the old Lombard villa gardens were, with conifers from far away set among beeches and lawns, and this cedar stands beside one of its gravel paths on a low grassy mound. Several stems rise together from a broad, dark foot and carry a tall, shaggy crown of drooping green sprays. To its left a weeping beech hangs in curtains of orange in November, and a little further along the path a monkey puzzle and a brick tower with battlements stand on the slope.\n\nThe reader knows it as a blue Atlas cedar. In their photographs the needles look green rather than blue, and the drooping tips make us wonder about a Himalayan cedar, so tell us which you think it is. We do not know when it was planted or how big it is around; if the villa keeps a record of its trees, tell us here.\n\nFollow the path past the mound towards the tower, and look back.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "2549a442-0870-4e1f-910d-bf1b18e33909",
+        "date": "2026-11-27"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "2549a442-0870-4e1f-910d-bf1b18e33909",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-27 reader judge: sent by a reader (2549a442-0870-4e1f-910d-bf1b18e33909, through the app). Photograph viewed: a tall many-stemmed cedar on a low grassy mound beside a gravel park path, drooping green sprays, a weeping beech in orange autumn leaf to its left; the extra shows the same path with a monkey puzzle and a brick tower with battlements on the slope beyond; daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Blue Atlas Cedar in Varese', species 'Blue Atlas Cedar', note on the villa (Cagnola family, now a Vatican-owned guesthouse, not always open) stated as theirs. Villa Cagnola is in Gazzada Schianno, about 5 km south of central Varese, filed under Varese.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/var_006-cedar-by-the-tower-at-villa-cagnola.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_df9da2fa289e6fdaa8b541de",
+        "sighting_id": "2549a442-0870-4e1f-910d-bf1b18e33909",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-27, through the app); viewed and approved on 2026-11-27: a tall many-stemmed cedar on a low grassy mound beside a gravel park path, drooping green sprays, a weeping beech in orange autumn leaf to its left; the extra shows the same path with a monkey puzzle and a brick tower with battlements on the slope beyond; daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/var_006-the-cedar-by-the-tower-at-villa-cagnola-2549a442-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_df9da2fa289e6fdaa8b541de",
+          "sighting_id": "2549a442-0870-4e1f-910d-bf1b18e33909-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
+    },
+    {
+      "id": "var_007",
+      "name": "The Blue Cedar of Villa Cagnola",
+      "species": "Atlas Cedar (Cedrus atlantica)",
+      "location": {
+        "address": "Park of Villa Cagnola, Gazzada Schianno, near Varese",
+        "latitude": 45.7792866666667,
+        "longitude": 8.82097,
+        "neighbourhood": "Gazzada Schianno"
+      },
+      "how_to_recognise": "A huge silver-blue cedar whose several trunks rise together from one base beside a curving gravel drive, fan palms crowded round its foot, at the edge of the park above the valley.",
+      "access": "In the park of Villa Cagnola, a guesthouse; the reader says it is not always possible to go in, but worth a try. Check before you go.",
+      "story": "The reader who sent us this cedar from the park of Villa Cagnola, at Gazzada just south of Varese, knows it as a blue weeping Atlas cedar, and colour is the first thing their photographs show. The whole crown has the silver-blue cast of the blue Atlas cedar.\n\nIt is a giant. Several trunks rise together from one base and part into long limbs that spread level in every direction, so that from below the crown is a lattice of branches against the light. Fan palms crowd around its foot, and a gravel drive curves past it. From the edge of the park the reader's second photograph catches the whole tree against a yellow sunset, the hills and roofs of the valley below.\n\n\"Formerly the Cagnola family's villa, it is now a guesthouse owned by the Vatican,\" the reader writes. \"A very beautiful park with lovely views. It is not always possible to go inside, but it is worth a try.\"\n\nWe do not know when it was planted or how wide its trunks are; if you have measured them, or the villa keeps a record, tell us here and we will add it. A second great cedar stands by a gravel path a short walk away in the same park.\n\nStand among the palms under the crown and look straight up.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "16c8b4f6-e3cc-4085-8f5e-a32092225659",
+        "date": "2026-11-27"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "16c8b4f6-e3cc-4085-8f5e-a32092225659",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-27 reader judge: sent by a reader (16c8b4f6-e3cc-4085-8f5e-a32092225659, through the app). Photograph viewed: a huge cedar of several grey trunks rising from one base into level, spreading limbs with silver-blue foliage, fan palms around its foot by a gravel drive; the extra shows its whole crown against a yellow sunset over the valley; colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Blue Weeping Atlas Cedar in Varese', species 'Blue Weeping Atlas Cedar', note on the villa (Cagnola family, now a Vatican-owned guesthouse, not always open) stated as theirs. Villa Cagnola is in Gazzada Schianno, about 5 km south of central Varese, filed under Varese.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/var_007-blue-cedar-of-villa-cagnola.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_df9da2fa289e6fdaa8b541de",
+        "sighting_id": "16c8b4f6-e3cc-4085-8f5e-a32092225659",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-27, through the app); viewed and approved on 2026-11-27: a huge cedar of several grey trunks rising from one base into level, spreading limbs with silver-blue foliage, fan palms around its foot by a gravel drive; the extra shows its whole crown against a yellow sunset over the valley; colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/var_007-the-blue-cedar-of-villa-cagnola-16c8b4f6-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_df9da2fa289e6fdaa8b541de",
+          "sighting_id": "16c8b4f6-e3cc-4085-8f5e-a32092225659-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }
