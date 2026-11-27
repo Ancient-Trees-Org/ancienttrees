@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-26T01:27Z",
+  "synced": "2026-11-27T01:30Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -33,15 +33,6 @@
     },
     {
       "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "braga",
-      "place_name": "Braga",
-      "public": true,
-      "since": "2026-10-28",
-      "display_name": "Miguel Portugal",
-      "profile_public": true
-    },
-    {
-      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
       "place_slug": "calvos",
       "place_name": "Calvos",
       "public": true,
@@ -53,6 +44,15 @@
       "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
       "place_slug": "vales",
       "place_name": "Vales",
+      "public": true,
+      "since": "2026-10-28",
+      "display_name": "Miguel Portugal",
+      "profile_public": true
+    },
+    {
+      "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
+      "place_slug": "braga",
+      "place_name": "Braga",
       "public": true,
       "since": "2026-10-28",
       "display_name": "Miguel Portugal",
@@ -221,12 +221,12 @@
       "profile_public": true
     },
     {
-      "user_id": "827bb1ce-c12e-4501-aebb-bd63706ed385",
-      "place_slug": "york",
-      "place_name": "York",
+      "user_id": "cc8588b8-f264-4f34-9c63-7b45b2fb67f3",
+      "place_slug": "reno-valdieu",
+      "place_name": "Réno-Valdieu",
       "public": true,
       "since": "2026-11-19",
-      "display_name": "Laurie G.",
+      "display_name": "Michèle G.",
       "profile_public": true
     },
     {
@@ -239,12 +239,12 @@
       "profile_public": true
     },
     {
-      "user_id": "cc8588b8-f264-4f34-9c63-7b45b2fb67f3",
-      "place_slug": "reno-valdieu",
-      "place_name": "Réno-Valdieu",
+      "user_id": "827bb1ce-c12e-4501-aebb-bd63706ed385",
+      "place_slug": "york",
+      "place_name": "York",
       "public": true,
       "since": "2026-11-19",
-      "display_name": "Michèle G.",
+      "display_name": "Laurie G.",
       "profile_public": true
     },
     {
@@ -455,6 +455,24 @@
       "public": true,
       "since": "2026-11-26",
       "display_name": "Silver Beech 4146",
+      "profile_public": true
+    },
+    {
+      "user_id": "39e10875-e1f4-4670-911c-da409eefbd86",
+      "place_slug": "new-york",
+      "place_name": "New York",
+      "public": true,
+      "since": "2026-11-27",
+      "display_name": "Yussre E.",
+      "profile_public": true
+    },
+    {
+      "user_id": "969d70c8-d8c7-4040-b9b4-dc597b51fa0e",
+      "place_slug": "kyoto",
+      "place_name": "Kyoto",
+      "public": true,
+      "since": "2026-11-27",
+      "display_name": "Shady Sequoia 7424",
       "profile_public": true
     },
     {
@@ -2554,6 +2572,36 @@
         "The Queen Elizabeth Oak"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_df9da2fa289e6fdaa8b541de",
+      "place_slug": "madrid",
+      "place_name": "Madrid",
+      "date": "2026-11-27",
+      "trees": [
+        "The White-Trunked Eucalyptus of the Retiro"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_301957e27a3ccd7b6fb69a01",
+      "place_slug": "new-york",
+      "place_name": "New York",
+      "date": "2026-11-27",
+      "trees": [
+        "The Ginkgo of the United Order of Tents",
+        "The Circus Ground Oak of Saratoga Park"
+      ]
+    },
+    {
+      "user_id": "p_9f7b25dda38d08dabcad19bf",
+      "place_slug": "kyoto",
+      "place_name": "Kyoto",
+      "date": "2026-11-27",
+      "trees": [
+        "The Land Boat Pine",
+        "The Camphor of the Kyoto University Clock Tower"
+      ]
     }
   ],
   "requested": [
@@ -3425,10 +3473,18 @@
         "nol_005",
         "nol_006",
         "nol_007",
-        "nol_008"
+        "nol_008",
+        "nol_009"
       ],
       "since": "2026-11-02",
-      "mailed": []
+      "mailed": [
+        {
+          "date": "2026-11-27",
+          "trees": [
+            "nol_009"
+          ]
+        }
+      ]
     },
     "pamplona": {
       "trees": [
@@ -4178,6 +4234,136 @@
         "hob_011"
       ],
       "since": "2026-11-26",
+      "mailed": []
+    },
+    "new-york": {
+      "trees": [
+        "nyc_001",
+        "nyc_002",
+        "nyc_003",
+        "nyc_004",
+        "nyc_005",
+        "nyc_006",
+        "nyc_007",
+        "nyc_008",
+        "nyc_009",
+        "nyc_010",
+        "nyc_011",
+        "nyc_012",
+        "nyc_013",
+        "nyc_014",
+        "nyc_015",
+        "nyc_016",
+        "nyc_017",
+        "nyc_018",
+        "nyc_019",
+        "nyc_020",
+        "nyc_021",
+        "nyc_022",
+        "nyc_023",
+        "nyc_024",
+        "nyc_025",
+        "nyc_026",
+        "nyc_027",
+        "nyc_028",
+        "nyc_029",
+        "nyc_030",
+        "nyc_031",
+        "nyc_032",
+        "nyc_033",
+        "nyc_034",
+        "nyc_035",
+        "nyc_036",
+        "nyc_037",
+        "nyc_038",
+        "nyc_039",
+        "nyc_040",
+        "nyc_070",
+        "nyc_071",
+        "nyc_072",
+        "nyc_073",
+        "nyc_074",
+        "nyc_075",
+        "nyc_076",
+        "nyc_077",
+        "nyc_078",
+        "nyc_079",
+        "nyc_080",
+        "nyc_081",
+        "nyc_082",
+        "nyc_083",
+        "nyc_084",
+        "nyc_085",
+        "nyc_086",
+        "nyc_087",
+        "nyc_088",
+        "nyc_089",
+        "nyc_090",
+        "nyc_091",
+        "nyc_092",
+        "nyc_093",
+        "nyc_095",
+        "nyc_096",
+        "nyc_097",
+        "nyc_098",
+        "nyc_110",
+        "nyc_111",
+        "nyc_112",
+        "nyc_113",
+        "nyc_114",
+        "nyc_115",
+        "nyc_116",
+        "nyc_117",
+        "nyc_118",
+        "nyc_119",
+        "nyc_120",
+        "nyc_121",
+        "nyc_123",
+        "nyc_124",
+        "nyc_125",
+        "nyc_126",
+        "nyc_127",
+        "nyc_128",
+        "nyc_129",
+        "nyc_130",
+        "nyc_131",
+        "nyc_132",
+        "nyc_133",
+        "nyc_134",
+        "nyc_135",
+        "nyc_136",
+        "nyc_140",
+        "nyc_141",
+        "nyc_142",
+        "nyc_143",
+        "nyc_144"
+      ],
+      "since": "2026-11-27",
+      "mailed": []
+    },
+    "kyoto": {
+      "trees": [
+        "kyo_001",
+        "kyo_002",
+        "kyo_003",
+        "kyo_004",
+        "kyo_005",
+        "kyo_006",
+        "kyo_007",
+        "kyo_008",
+        "kyo_010",
+        "kyo_011",
+        "kyo_012",
+        "kyo_013",
+        "kyo_014",
+        "kyo_015",
+        "kyo_016",
+        "kyo_017",
+        "kyo_018",
+        "kyo_019",
+        "kyo_020"
+      ],
+      "since": "2026-11-27",
       "mailed": []
     }
   }

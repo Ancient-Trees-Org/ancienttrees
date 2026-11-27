@@ -2323,27 +2323,8 @@
    ]
   },
   "p_632f911006e6a6d1beaf2da5": {
-   "last": "2026-11-20",
-   "pending": [
-    {
-     "sighting_id": "09fefb21-1b03-4d64-ab0e-e0a8a0555821",
-     "tree_id": "lyo_022",
-     "tree_name": "The Plane of Montée Saint-Sébastien",
-     "city": "Lyon",
-     "city_slug": "lyon",
-     "display_name": null,
-     "live": "2026-11-20"
-    },
-    {
-     "sighting_id": "fdead4bd-c68d-43f0-8e68-ff78adba5748",
-     "tree_id": "lyo_022",
-     "tree_name": "The Plane of Montée Saint-Sébastien",
-     "city": "Lyon",
-     "city_slug": "lyon",
-     "display_name": null,
-     "live": "2026-11-20"
-    }
-   ],
+   "last": "2026-11-27",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "446cfadf-3ffe-4a88-bb64-ef1404f11d10",
@@ -2354,22 +2335,22 @@
      "sighting_id": "34765498-f889-416e-b6a0-40c66432370a",
      "tree_id": "lyo_013",
      "mailed": "2026-11-20"
+    },
+    {
+     "sighting_id": "09fefb21-1b03-4d64-ab0e-e0a8a0555821",
+     "tree_id": "lyo_022",
+     "mailed": "2026-11-27"
+    },
+    {
+     "sighting_id": "fdead4bd-c68d-43f0-8e68-ff78adba5748",
+     "tree_id": "lyo_022",
+     "mailed": "2026-11-27"
     }
    ]
   },
   "p_01ea1753df5e9ff4dabdde36": {
-   "last": "2026-11-20",
-   "pending": [
-    {
-     "sighting_id": "bfc1e32d-1f10-4f87-917c-fc19570af1dd",
-     "tree_id": "yor_007",
-     "tree_name": "The Minster Yard Beech",
-     "city": "York",
-     "city_slug": "york",
-     "display_name": null,
-     "live": "2026-11-23"
-    }
-   ],
+   "last": "2026-11-27",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "aab2b8be-5c24-4d80-ac8f-d2df2fd3c60a",
@@ -2395,6 +2376,11 @@
      "sighting_id": "810c3609-4e33-454c-96ae-3380148dde04",
      "tree_id": "yor_002",
      "mailed": "2026-11-20"
+    },
+    {
+     "sighting_id": "bfc1e32d-1f10-4f87-917c-fc19570af1dd",
+     "tree_id": "yor_007",
+     "mailed": "2026-11-27"
     }
    ]
   },
@@ -2486,23 +2472,18 @@
    ]
   },
   "p_93268936c7d94f408d689cef": {
-   "last": "2026-11-20",
-   "pending": [
-    {
-     "sighting_id": "d9c64779-8637-49ca-b6ec-f3ce13842d8a",
-     "tree_id": "pal_001",
-     "tree_name": "The Ficus of Piazza Marina",
-     "city": "Palermo",
-     "city_slug": "palermo",
-     "display_name": null,
-     "live": "2026-11-24"
-    }
-   ],
+   "last": "2026-11-27",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "808db90d-fc21-4413-a407-fc01effd1aff",
      "tree_id": "ams_032",
      "mailed": "2026-11-20"
+    },
+    {
+     "sighting_id": "d9c64779-8637-49ca-b6ec-f3ce13842d8a",
+     "tree_id": "pal_001",
+     "mailed": "2026-11-27"
     }
    ]
   },
@@ -2518,23 +2499,18 @@
    ]
   },
   "p_81c58c51dd7f98c91361dc6c": {
-   "last": "2026-11-20",
-   "pending": [
-    {
-     "sighting_id": "a56bc4d5-e195-4279-8549-d512ec7db388",
-     "tree_id": "par_002",
-     "tree_name": "The Cedar of Jussieu",
-     "city": "Paris",
-     "city_slug": "paris",
-     "display_name": null,
-     "live": "2026-11-22"
-    }
-   ],
+   "last": "2026-11-27",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "7734217f-6c6a-45a2-8dce-58cf64dd2477",
      "tree_id": "par_016",
      "mailed": "2026-11-20"
+    },
+    {
+     "sighting_id": "a56bc4d5-e195-4279-8549-d512ec7db388",
+     "tree_id": "par_002",
+     "mailed": "2026-11-27"
     }
    ]
   },
