@@ -2672,6 +2672,16 @@
         "The Walking Chestnuts of Betchworth Park"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_ece9ca6c7ea34ac62e71a9a5",
+      "place_slug": "murs",
+      "place_name": "Murs",
+      "date": "2026-11-27",
+      "trees": [
+        "The Great Downy Oak of Murs"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
