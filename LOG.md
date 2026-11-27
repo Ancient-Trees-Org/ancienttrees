@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: a hollow cedar at Shannon Falls, Squamish
+
+- **Live: squamish/sqm_001, The Hollow Cedar of Shannon Falls.** A reader sent it through the app (sighting 43dd1d12). It is a western red cedar standing alone on the picnic lawn of Shannon Falls Provincial Park, its trunk open at the foot in a hollow that the reader says "a child can walk through". The photograph is daylight and colour, and its own GPS puts it inside the park (OSM relation 8634839). The pin is confirmed, and the photo is filed in November from its own date. Squamish is a new one-tree place, so it gets no place page yet. Its intro, question texts and three FAQ are written for when it grows.
+- No register entry and no encyclopaedia article stand nearby. Every fact on the page is either visible in the photo or the reader's.
+- Nothing else was waiting: no open reports, tips, feedback, further photographs or notes to quote, and nothing late in reader_backlog. Preflight 0 problems, qa source clean, i18ncheck clean.
+
 ## 2026-11-27 night run: web error cleared, iOS red left for its next run
 
 - **Rung 2.** The web error "AbortError: Transition was skipped" (16 reports, 13 pages) is the browser rejecting its own cross-document @view-transition when a visitor leaves a page mid-transition. No script of ours holds those promises, so web-errors-js.ts now ignores "Transition was skipped/aborted". Preflight 0 problems.

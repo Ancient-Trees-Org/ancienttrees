@@ -18,6 +18,46 @@
    "agreed": null
   },
   {
+   "id": "sight:43dd1d12-dd99-4de0-a421-99d36e7d6496",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Hollow Cedar of Shannon Falls",
+   "photo": "p_53aaa669253594e00af0eac0/43DD1D12-DD99-4DE0-A421-99D36E7D6496.jpg",
+   "reader_note": "The base of the tree is hollow - a child can walk through it.",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-27: the whole western red cedar on the Shannon Falls picnic lawn, a hollow open at its foot, daylight, colour, GPS fix. Lead photograph of squamish/sqm_001."
+  },
+  {
+   "id": "lead:43dd1d12-dd99-4de0-a421-99d36e7d6496",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Western Red Cedar",
+   "city": null,
+   "species": "Western Red Cedar",
+   "photo": "p_53aaa669253594e00af0eac0/43DD1D12-DD99-4DE0-A421-99D36E7D6496.jpg",
+   "reader_note": "The base of the tree is hollow - a child can walk through it.",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Western Red Cedar"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall western red cedar alone on a park picnic lawn, its flared trunk open at the foot in a hollow, daylight; photo GPS inside Shannon Falls Provincial Park. Somewhat special (the walk-through hollow), so live as squamish/sqm_001 under the closed list.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",

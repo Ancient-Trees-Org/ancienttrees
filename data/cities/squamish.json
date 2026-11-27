@@ -1,0 +1,72 @@
+{
+  "city": "Squamish",
+  "country": "Canada",
+  "status": "needs_curation",
+  "intro": "Squamish sits at the head of Howe Sound in British Columbia, on the Sea-to-Sky Highway between Vancouver and Whistler. Just south of town, on the picnic lawn of Shannon Falls Provincial Park, stands a western red cedar whose trunk opens at the foot into a hollow a child could walk through. A reader photographed it and sent it to us; we do not yet know its age or girth.",
+  "meta_description": "The hollow western red cedar on the picnic lawn at Shannon Falls, near Squamish, BC: a tree a reader sent us, where it stands and what we know.",
+  "question_meta": "The hollow western red cedar at Shannon Falls Provincial Park near Squamish, British Columbia: where it stands and what a reader told us about it.",
+  "question_answer": "The Hollow Cedar of Shannon Falls is a western red cedar on the picnic lawn of Shannon Falls Provincial Park, just south of Squamish on the Sea-to-Sky Highway. It is free to see in the park's day-use area.",
+  "question_context": "A reader sent us this tree from the picnic lawn at Shannon Falls, the provincial park just south of Squamish on the Sea-to-Sky Highway, with a note that the base of the tree is hollow and a child can walk through it. The photograph shows a western red cedar, Thuja plicata, standing on its own in the mown grass beside a paved path and a few picnic tables. Its trunk flares out at the foot into thick ribbed buttresses that part around a dark opening at ground level, and above the hollow it carries on straight and whole, its bark in long grey and red-brown strips, into a dense, drooping crown that rises well above the forest behind. Old western red cedars often go hollow at the heart while the outer wood keeps growing. We have no age, girth or height for this one; a reader who has measured it can tell us on the tree's page. The park is a day-use area with a car park, and the cedar stands on the lawn near the start of the trail to the falls.",
+  "hero_tree_id": "sqm_001",
+  "oldest_tree_id": "sqm_001",
+  "faq": [
+    {
+      "q": "Where is the hollow cedar at Shannon Falls?",
+      "a": "On the picnic lawn of Shannon Falls Provincial Park, just south of Squamish on the Sea-to-Sky Highway, beside the paved path."
+    },
+    {
+      "q": "Does it cost anything to see?",
+      "a": "No. It stands in the park's free day-use area, open in daylight."
+    },
+    {
+      "q": "How old is it?",
+      "a": "We do not know yet. No age, girth or height has been published for it; if you know one, tell us on its page."
+    }
+  ],
+  "trees": [
+    {
+      "id": "sqm_001",
+      "name": "The Hollow Cedar of Shannon Falls",
+      "species": "Western Red Cedar (Thuja plicata)",
+      "location": {
+        "address": "Picnic area, Shannon Falls Provincial Park, Sea-to-Sky Highway, south of Squamish, British Columbia",
+        "latitude": 49.671105,
+        "longitude": -123.160591666667,
+        "neighbourhood": "Shannon Falls Provincial Park"
+      },
+      "location_site": "Shannon Falls Provincial Park picnic area",
+      "how_to_recognise": "Alone on the picnic lawn by the paved path: a tall cedar whose ribbed trunk flares at the foot around a dark open hollow, picnic tables a few steps to one side.",
+      "access": "Free, in a provincial park day-use area beside the Sea-to-Sky Highway; open in daylight.",
+      "story": "\"The base of the tree is hollow - a child can walk through it,\" wrote the reader who sent us this western red cedar from the picnic lawn at Shannon Falls, just south of Squamish on the Sea-to-Sky Highway.\n\nThe photograph shows what they mean. The cedar stands on its own in the mown grass, and its trunk flares out at the bottom into thick ribbed buttresses that part around a dark opening at ground level, tall enough to look into from the path. Above the hollow the trunk carries on straight and whole, its bark in long grey and red-brown strips, into a dense, drooping crown that rises far above the picnic tables and the forest of younger cedars behind.\n\nWestern red cedar is the great tree of the Pacific Northwest coast, and old ones often go hollow at the heart while the living wood around the outside keeps growing. A tree standing on an open hollow like this has had a long time to get there, but we have no age, girth or height for this one. If you know its story, or have measured it, tell us here and we will add it with your figures.\n\nCome for the falls, which give the park its name, and stop at the cedar on the way back to the car park.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "43dd1d12-dd99-4de0-a421-99d36e7d6496",
+        "date": "2026-11-27"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "43dd1d12-dd99-4de0-a421-99d36e7d6496",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-27 reader judge: sent by a reader (43dd1d12-dd99-4de0-a421-99d36e7d6496, 2026-11-27, through the app). Photograph viewed: the whole cedar standing alone in a mown picnic lawn, a dark open hollow at the foot of its flared, ribbed trunk, a tall dense crown above, picnic tables and a paved path around it, forest behind, daylight, colour. The pin falls inside Shannon Falls Provincial Park (OpenStreetMap relation 8634839) on a mapped picnic table. No register entry within 100 m and no encyclopaedia article within 300 m (corroborate.py). Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Western Red Cedar', species 'Western Red Cedar', age 'None', girth None cm; their note on the hollow base is quoted.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/sqm_001-hollow-cedar-of-shannon-falls.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-27)",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_53aaa669253594e00af0eac0",
+        "sighting_id": "43dd1d12-dd99-4de0-a421-99d36e7d6496",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-27, through the app); viewed and approved on 2026-11-27: the whole cedar standing alone in a mown picnic lawn, a dark open hollow at the foot of its flared, ribbed trunk, a tall dense crown above, picnic tables and a paved path around it, forest behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}
