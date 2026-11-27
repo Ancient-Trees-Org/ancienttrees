@@ -1,5 +1,52 @@
 {
  "_note": "Photographs readers sent through the app, matched to a tree we map, waiting for a viewing pass. Judge with the photo-judge agent and apply with scripts/sightings_publish.py. Rebuilt on every knock from the rows without a verdict.",
  "written": "2026-11-27",
- "queue": []
+ "queue": [
+  {
+   "sighting_id": "64eec98b-ae65-4dac-afae-fc4a795786ee",
+   "user_id": "p_17ebda916a359d13967483d9",
+   "tree_id": "lon_026",
+   "city_slug": "london",
+   "city": "London",
+   "tree_name": "The Brockwell Oak",
+   "match": "app",
+   "distance_m": 37,
+   "mine": false,
+   "current_photo": "approved",
+   "current_source": "contributor",
+   "tree_species": "Pedunculate Oak (Quercus robur)",
+   "recognise": "You can recognise it by the trunk, over six metres round by Lambeth Council's figure, on a broad oak alone in open grass inside a low wooden fence with the council's sign on it, in Brockwell Park.",
+   "tree_girth_cm": 600,
+   "tree_height_m": null,
+   "story": "The Brockwell Oak was old before Brockwell Park existed, and old before the country estate the park was made from. Lambeth Council, which owns the ground, said so in 2008 when the tree was counted among London's Great Trees, and put its age at probably well over 700 years. The Great Trees of London list is more cautious: 500 to 700 years as of 2010. Read together, they put the acorn in the ground no later than the early 1500s, and around 1300 or before if the council is right. That band is the honest answer.\n\nEven at the cautious end it was more than a century and a half old when the Great Fire burned the City in 1666, a few miles to the north. The public, by contrast, are newcomers. The par",
+   "name": "The Brockwell Oak",
+   "species": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "taken_at": "2026-11-23",
+   "photo_path": "p_17ebda916a359d13967483d9/64EEC98B-AE65-4DAC-AFAE-FC4A795786EE.jpg",
+   "age": null,
+   "sign_path": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "latitude": 51.4477783333333,
+   "longitude": -0.106091666666667,
+   "file": "out/sightings/64eec98b-ae65-4dac-afae-fc4a795786ee.jpg",
+   "light": {
+    "verdict": "OK: daylight, colour, subject separated",
+    "brightness": 130.3,
+    "contrast": 42.7,
+    "colour": 0.37,
+    "blown": 0.0,
+    "dark": 0.0,
+    "subject": 130.3,
+    "subject_colour": 0.37
+   },
+   "vouched": null,
+   "rank": 1,
+   "worth": "the tree already has one: ship this only if it is better"
+  }
+ ]
 }

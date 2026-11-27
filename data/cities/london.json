@@ -1323,6 +1323,20 @@
           "contributor_user_id": "p_e03b678c7ff95e57e31ad99c",
           "sighting_id": "ad2b3c75-3e16-463b-8c24-6067e42f14ed-extra-3",
           "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/lon_026-the-brockwell-oak-64eec98b.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_17ebda916a359d13967483d9",
+          "sighting_id": "64eec98b-ae65-4dac-afae-fc4a795786ee",
+          "note": "Photographed by a reader and sent through the app (2026-11-23); in the strip since 2026-11-27, live first (CONVENTIONS.md 2026-10-24), the look that may make it the lead still to come. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py).",
+          "live_first_on": "2026-11-27"
         }
       ],
       "verify_notes": "2026-11-26 reader judge: a reader's photographs show the council's new fence and sign; story, access and recognition line updated from the sign. 2026-11-27 reader judge: a second reader's autumn photograph leads now; its GPS fix (37 m south) was the camera's spot looking north at the oak with Brockwell Hall behind, taken from tens of metres back, so the pin stays where it was, approximate."
