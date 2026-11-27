@@ -4116,6 +4116,18 @@ def check_one_tree_card():
     return problems
 
 
+def check_a_sql_file_names_real_columns():
+    """A file in supabase/ that Hidde pastes names only columns its tables
+    have (scripts/sqlcolumns.py). 2026-11-27: profile-newest-first.sql sorted
+    sightings by created_at, which it never had, and his paste failed.
+
+    Removing this needs Hidde."""
+    import subprocess
+    r = subprocess.run([sys.executable, str(ROOT / "scripts" / "sqlcolumns.py")],
+                       capture_output=True, text=True)
+    return [line for line in r.stdout.splitlines() if line.strip()] if r.returncode else []
+
+
 def check_map_parity_ledger():
     """data/map-parity.json, the ledger of how the maps differ between the
     website, the iPhone and Android (scripts/mapparity.py makes a one-sided
@@ -5156,6 +5168,7 @@ def main():
         check_an_age_is_never_cut_inside_a_number,
         check_one_tree_card,
         check_map_parity_ledger,
+        check_a_sql_file_names_real_columns,
         check_one_place_card,
         check_one_place_head,
     ]
