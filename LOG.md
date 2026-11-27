@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 night run (rung 2 only)
+
+- **Fixed:** the 19:39 deploy failed because the Cunningham's fig species page had a 159-character meta description (limit 155). Shortened to 150 and pushed; the push redeploys. Run health still listed Open app bugs (10, 9 found by people), the iOS app run and the web error "skipTransition() called" (16 reports, 13 pages) as red. I did none of those this window.
+- My local commit queueing two reader photographs conflicted with the reader judge's Coeur d'Alene work upstream, so I dropped mine. Preflight is at 0 problems.
+- No trees were written and the shelf is untouched. The window was started at 19:54 UTC and I stopped early.
+
 ## 2026-11-27 reader judge: Coeur d'Alene, Idaho, a chestnut and a beech
 
 - **Changed:** a new reader sent two trees through the app, each with a device GPS fix and a trunk girth. Both are live in a new place, Coeur d'Alene (Idaho), with confirmed pins and their photos filed in November from their own dates.
