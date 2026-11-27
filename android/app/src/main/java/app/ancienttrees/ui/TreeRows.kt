@@ -61,6 +61,12 @@ data class TreeMarks(
     val signedIn: Boolean = false,
     val token: suspend () -> String? = { null },
     val signIn: () -> Unit = {},
+    /**
+     * Sign in, then finish what was tapped (Hidde, 2026-11-27: "de actie die ik aan het
+     * doen was hartje of bookmark wordt niet gedaan als ik inlog"). Null falls back to
+     * [signIn], which asks and forgets.
+     */
+    val signInThen: ((() -> Unit) -> Unit)? = null,
     /** Who gave a heart opens their profile (PhotoLikersSheet, 2026-11-22). */
     val openPerson: (String) -> Unit = {},
     /** Your own account id, for "You" in the hearts list (PhotoLikersSheet). */

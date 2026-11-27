@@ -87,6 +87,20 @@ object PhotoLikes {
         }
     }
 
+    /**
+     * The heart tapped signed out, given once the account is in (PhotoLikes.swift
+     * giveAfterSignIn, 2026-11-27). The count is asked again with the new session first,
+     * so a heart this account already gave on another phone is not given twice.
+     */
+    private val afterSignIn = kotlinx.coroutines.MainScope()
+    fun giveAfterSignIn(id: String, token: suspend () -> String?) {
+        afterSignIn.launch {
+            val t = token() ?: return@launch
+            load(listOf(id), t)
+            give(id, t)
+        }
+    }
+
     /** Give or take back, shown at once; refused, it goes back. */
     /** A double tap only ever gives (Instagram); a heart already given stays. */
     suspend fun give(id: String, token: String) {
@@ -136,7 +150,11 @@ fun Modifier.doubleTapHeart(photoId: String, onTap: () -> Unit): Modifier {
             indication = androidx.compose.foundation.LocalIndication.current,
             onClick = onTap,
             onDoubleClick = {
-                if (!marks.signedIn) { marks.signIn(); return@combinedClickable }
+                if (!marks.signedIn) {
+                    val then = marks.signInThen
+                    if (then != null) then { PhotoLikes.giveAfterSignIn(photoId, marks.token) } else marks.signIn()
+                    return@combinedClickable
+                }
                 haptic.performHapticFeedback(androidx.compose.ui.hapticfeedback.HapticFeedbackType.LongPress)
                 burst = true
                 scope.launch {
@@ -185,7 +203,10 @@ fun PhotoHeart(photoId: String, onDark: Boolean = false, size: androidx.compose.
                     if (marks.signedIn) {
                         scope.launch { marks.token()?.let { PhotoLikes.toggle(photoId, it) } }
                     } else {
-                        marks.signIn()
+                        // The heart lands after the sign-in (Hidde, 2026-11-27): given, never
+                        // toggled, as the save does (PhotoLikes.swift).
+                        val then = marks.signInThen
+                        if (then != null) then { PhotoLikes.giveAfterSignIn(photoId, marks.token) } else marks.signIn()
                     }
                 }
                 .semantics { contentDescription = "photo-like" }

@@ -205,6 +205,8 @@ fun FeedScreen(
         val me = host.myId()
         following = if (me != null) host.followingIds(me, host.token()).map { it.lowercase() }.toSet() else emptySet()
         restart()
+        // People you may know, fetched now so the row is whole further down (2026-11-27).
+        if (me != null) FeedPeopleAhead.warm(host, following)
     }
 
     val list = rememberLazyListState()
@@ -225,7 +227,14 @@ fun FeedScreen(
         if (f == FeedPosts.Filter.NEAR && !located) host.askLocation()
         filter = f
         app.ancienttrees.account.Measure.event("feed_filter", mapOf("filter" to f.name.lowercase()))
-        scope.launch { fill() }
+        scope.launch {
+            // Following asks again who you follow, so somebody followed a moment ago is in
+            // it (Feed.swift choose, release walk 2026-11-26).
+            if (f == FeedPosts.Filter.FOLLOWING) {
+                host.myId()?.let { me -> following = host.followingIds(me, host.token()).map { it.lowercase() }.toSet() }
+            }
+            fill()
+        }
     }
 
     fun openAuthor(p: FeedPosts.Post, prev: FeedPosts.Post?) {
@@ -379,7 +388,7 @@ fun FeedScreen(
                 val h = p.photoH ?: 0
                 val r = if (w > 0 && h > 0) minOf(h.toFloat() / w, 1.6f) else 5f / 4f
                 colDp * r + 70f
-            })
+            }, lo = 10, hi = 16) // further down, after ten to sixteen photographs (Hidde, 2026-11-27)
             items(cut, key = { shown[it].first.key }) { i ->
                 val (p, prev) = shown[i]
                 FeedTile(p, p.treeId?.let { catalogue.tree(it) }, host, onAuthor = { openAuthor(p, prev) })
@@ -403,7 +412,7 @@ fun FeedScreen(
             if (nearCard) item(key = "near-card") { NearYouCard(host) }
             itemsIndexed(shown, key = { _, it -> it.first.key }) { i, (p, prev) ->
                 FeedPost(p, p.treeId?.let { catalogue.tree(it) }, host, onAuthor = { openAuthor(p, prev) })
-                if (i == 2 && showPeople) FeedPeopleRow(host, following)
+                if (i == 7 && showPeople) FeedPeopleRow(host, following)
             }
             item(key = "end") { endItem() }
         }
@@ -610,6 +619,28 @@ private fun FeedTile(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: 
 }
 
 /**
+ * People you may know, fetched once with the Feed's first page so the row is whole when
+ * it scrolls into view (FeedPeopleRow.ahead / warm on the iPhone). Not kept on the device:
+ * it lives as long as the app does, like the feed itself.
+ */
+object FeedPeopleAhead {
+    var people: List<Pair<app.ancienttrees.account.Profiles.Profile, String>>? = null
+    private var forFollowing: Set<String>? = null
+    private var forMe: String? = null
+
+    suspend fun warm(host: FeedHost, following: Set<String>): List<Pair<app.ancienttrees.account.Profiles.Profile, String>> {
+        val me = host.myId()
+        val have = people
+        if (have != null && forFollowing == following && forMe == me) return have
+        val fresh = host.suggestions(following)
+        people = fresh
+        forFollowing = following
+        forMe = me
+        return fresh
+    }
+}
+
+/**
  * PEOPLE YOU MAY KNOW (FeedPeople.swift; Polarsteps' Activity row): cards that scroll
  * sideways, a round face, the name, one line why, Follow, an X; See all is Find people.
  * Signed in only. A card taken away is gone for this opening only (hard rule 11).
@@ -618,10 +649,12 @@ private fun FeedTile(p: FeedPosts.Post, known: Tree?, host: FeedHost, onAuthor: 
 private fun FeedPeopleRow(host: FeedHost, following: Set<String>) {
     val brand = Brand.colors
     val scope = rememberCoroutineScope()
-    var people by remember { mutableStateOf(emptyList<Pair<app.ancienttrees.account.Profiles.Profile, String>>()) }
+    // What the Feed fetched ahead, from the first frame, so the row never pops in
+    // (FeedPeopleRow.ahead on the iPhone; Hidde, 2026-11-27).
+    var people by remember { mutableStateOf(FeedPeopleAhead.people ?: emptyList()) }
     var gone by remember { mutableStateOf(emptySet<String>()) }
     var followed by remember { mutableStateOf(emptySet<String>()) }
-    LaunchedEffect(following) { people = host.suggestions(following) }
+    LaunchedEffect(following) { people = FeedPeopleAhead.warm(host, following) }
     val shown = people.filter { it.first.userId !in gone }
     if (shown.isEmpty()) return
     Column(verticalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.testTag("feed-people")) {
