@@ -2,6 +2,15 @@
   "_about": "Every way the maps differ between website, iPhone and Android, and what is owed. scripts/mapparity.py refuses a push that changes one platform's map without touching this file; qa check_map_parity_ledger() holds its shape. status: open (a platform owes the change), one-sided (different on purpose, with why), done. Hidde, 2026-11-20: \"niet alles moet hetzelfde maar als het kan wel\".",
   "rows": [
     {
+      "what": "The locate arrow, faded out under a high sheet or a tree card, takes no tap",
+      "since": "2026-11-27",
+      "web": "to check: whether the explore and city maps' locate control can be tapped while a sheet covers it",
+      "ios": "TreeMap.swift: view.isUserInteractionEnabled = place.alpha > 0.05",
+      "android": "MapTab.kt: the controls leave the tree once recentrePlacement's alpha is 0.01 or less (ButtonWalk map-full, map-pin)",
+      "status": "open",
+      "owed": "web: check the locate control under a covering sheet"
+    },
+    {
       "what": "A chosen tree's card dragged down closes back to the list and the tab bar stays",
       "since": "2026-11-26",
       "web": "no tab bar on the website, so nothing steps away; the web sheet's card closes with its cross or a tap on the map",
