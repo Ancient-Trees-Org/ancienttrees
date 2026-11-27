@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-27 night run (fourth attempt): three more species intros
+
+- Changed in the product: species intros for Cucumber Tree Magnolia, Coast Live Oak and Black Cherry, from our own trees' figures (noindexed under the strict cut, so for the app and Bing). Renamed the Cunningham's Fig file to the slug pagegaps expects, so it no longer reports as a gap.
+- No claims, READY pool 0, own research paused, enrich and recognise have nothing. The iOS red run is cancelled jobs (cannot rerun from here); open app BUG rows need Xcode. Remaining gaps: Apple, American Beech, Aleppo Oak and 22 more species, two park pages.
+
 ## 2026-11-27 reader judge: two repeat photographs of the Bella di Ceciliano
 
 - Nothing changed in the product. The reader who added the Bella di Ceciliano (arezzo/arz_001) sent two more photographs of it through the app. I looked at both: they are the same frames as photographs x3 (storm sky) and x2 (autumn trunk), which are already in the tree's gallery. Both were rejected as `duplicate`, and the page loses nothing.
