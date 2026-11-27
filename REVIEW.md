@@ -18,6 +18,18 @@ Severities: **BLOCKER** (the site is wrong or broken; runs treat as rung 2),
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-27
+
+Web half: the last 24 hours were reader-judge trees (Alstonville fig, Squamish cedar, Washington DC maples), an app Feed fix, a build fix for a duplicate common name and a view-transition error catch. Alstonville and Squamish hold no em dashes or banned words (single-tree places redirect to the tree, as designed). Four earlier WARNs still stand in site/dist (grep today), replacements as in the 2026-11-21 entry:
+
+- WARN site/dist/miami/baobabs-of-collins-park.html, key-west/strangler-figs-of-the-key-west-cemetery.html "writer must not invent any" (eleventh review; public copy never narrates process). Also in api/trees.json.
+- WARN site/dist/explore.html "Each pin opens a tree with its age, its species, why it is worth the walk..." (twenty-first review).
+- WARN site/dist/contribute.html "verified against independent sources" (thirty-second review; false since 2026-10-12).
+- WARN site/dist/collections/ancient-oaks-of-europe.html and collections/europes-most-remarkable-yews.html "every coordinate verified" (twelfth review; hard rule 2). Also in api/browse.json.
+- NOTE session start reports the iOS app workflow failing on its schedule (newest 2026-11-27); rung 2 for a run.
+
+---
+
 ## 2026-11-25 code (full)
 
 Nothing new in the code. Coverage was partial: pattern sweeps (force unwraps, `!!`, `[0]`/`first()`, `uniqueKeysWithValues`, GlobalScope, scroll/input listeners) over the iPhone app, Android app and site scripts, then reading each hit (SuggestedPeople.build, People.swift, CatalogueStore.kt, TreeDetail.kt YourPhotos, MapSearch.kt SearchIndex, map-filters-js, people-js). Every hit was guarded. Not read line by line: the largest Screens and Compose files. The next full sweep should not rely on this one.
