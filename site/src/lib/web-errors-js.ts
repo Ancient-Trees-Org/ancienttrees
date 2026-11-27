@@ -68,7 +68,9 @@ export const WEB_ERRORS_JS = `
     // Wallet and other extensions that write into the page: a script of theirs
     // fails with our page's address as its file, so the file test cannot tell.
     // Nothing in site/src touches window.ethereum or builds a base64 SVG image.
-    return /window\\.ethereum|Unable to load image data:image\\/svg\\+xml;base64/.test(message || '');
+    // A page change while the cross-document @view-transition (style.css) is still
+    // running makes the browser reject its own promises; no script of ours holds them.
+    return /window\\.ethereum|Unable to load image data:image\\/svg\\+xml;base64|Transition was (skipped|aborted)/.test(message || '');
   }
   function report(message, source, line) {
     try {
