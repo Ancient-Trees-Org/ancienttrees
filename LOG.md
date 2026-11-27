@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: a giant fig in the Big Scrub rainforest near Alstonville, NSW
+
+- **Live: alstonville/aln_001, The Moreton Bay Fig of Victoria Park.** A reader sent it through the app (sighting c428c962), and it is a tree we do not map; no tree of ours stands within 80 km. The photograph looks straight up a huge buttressed fig trunk laced with vines, with a thin palm rising beside it, in daylight and colour. Its GPS fix from the phone falls inside Victoria Park Nature Reserve, about 200 m from the reserve's Wikipedia centroid, so the pin is confirmed. The NSW National Parks page is the source that names the reserve. The species, the age (500 to 1,000 years) and the girth (15 m) are the reader's, and the story says so. The photo is filed in November from its own date.
+- Alstonville is a new place with one tree, so it gets no place page yet. Its intro, question texts and three FAQ are written for when it grows. No register entry or encyclopaedia article stands nearby. The congratulation mail waits for the deploy.
+- Nothing else was waiting: no open reports, tips, feedback, further photographs or notes to quote, and nothing late in reader_backlog. Preflight 0 problems, qa source clean, i18ncheck clean.
+
 ## 2026-11-27 reader judge: a maple in autumn colour at the National Arboretum, and the Yamaki Pine's new lead photo
 
 - **Live: washington-dc/wdc_044, The Flame-Leaved Maple of the Arboretum.** A reader sent it through the app (sighting e53755b2), a tree we do not map. It is a slender maple at the U.S. National Arboretum in full scarlet and orange autumn colour. Their second photograph shows the arboretum's own label held up on its stem, reading "Acer pubipalmatum, maple", so the species comes from that label. The reader placed the pin by hand, so it is approximate and the story says the pin marks the area. Both photographs are up, filed in November from the photo's own date. It is under the closed list: a tree blazing in autumn colour in its setting counts as special.

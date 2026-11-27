@@ -13138,6 +13138,39 @@
    "seen": "2026-11-27",
    "judged": "2026-11-27",
    "published_as": "washington-dc/wdc_044"
+  },
+  {
+   "sighting_id": "c428c962-fcbf-4bb1-b6c9-47a9e267f2e0",
+   "user_id": "p_7cb72c85b39c7dc30e1ec0e2",
+   "mine": false,
+   "name": "Moreton Bay Fig",
+   "unsure_among": null,
+   "species": "Moreton Bay Fig",
+   "age": "500-1000 years",
+   "girth_cm": 1500,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -28.9037460720114,
+   "longitude": 153.410834645826,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_7cb72c85b39c7dc30e1ec0e2/C428C962-FCBF-4BB1-B6C9-47A9E267F2E0.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-27: looking straight up a huge buttressed fig trunk wrapped in vines, a thin palm stem rising beside it, rainforest canopy and palm fronds all round, daylight, colour. Live as alstonville/aln_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-27",
+   "judged": "2026-11-27",
+   "published_as": "alstonville/aln_001"
   }
  ]
 }

@@ -1,0 +1,77 @@
+{
+  "city": "Alstonville",
+  "country": "Australia",
+  "status": "needs_curation",
+  "intro": "Alstonville is a small town on the plateau behind Ballina in northern New South Wales, in country that was once the Big Scrub, a vast lowland rainforest cleared for farms in the nineteenth century. Just south of town, Victoria Park Nature Reserve keeps a small piece of it, and there a reader photographed a giant fig they know as a Moreton Bay fig and sent it to us.",
+  "meta_description": "A giant fig in Victoria Park Nature Reserve near Alstonville, NSW, a remnant of the Big Scrub rainforest: a reader's photograph and how to find it.",
+  "hero_tree_id": "aln_001",
+  "oldest_tree_id": "aln_001",
+  "trees": [
+    {
+      "id": "aln_001",
+      "name": "The Moreton Bay Fig of Victoria Park",
+      "species": "Moreton Bay Fig (Ficus macrophylla)",
+      "age_estimate": "500 to 1,000 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Victoria Park Nature Reserve, Victoria Park Road, near Alstonville, New South Wales",
+        "latitude": -28.9037460720114,
+        "longitude": 153.410834645826,
+        "neighbourhood": "Victoria Park"
+      },
+      "story": "Victoria Park Nature Reserve, a few kilometres south of Alstonville, is one of the last scraps of the Big Scrub, the great lowland rainforest that once covered this corner of northern New South Wales before it was cleared for farms. A reader stood at the foot of this fig inside it and sent us the photograph.\n\nThe picture looks straight up. The trunk is not round but a mass of grey flanges and ribs, the way a big fig builds itself, with vines and climbing ferns running up its sides. Beside it a slender palm shoots past on a stem as thin as a broom handle, and you only grasp the size of the fig when you see how the palm's whole crown sits level with its lower limbs.\n\nThe reader knows it as a Moreton Bay fig and puts it at 500 to 1,000 years old, its trunk about fifteen metres round. Those figures are theirs; we have not seen a measurement or a record of it. If you know this tree, tell us here.\n\nWalk the reserve slowly and look up whenever the canopy closes over you.",
+      "how_to_recognise": "In the rainforest of the reserve: a giant grey fig trunk of ribs and flanges, laced with vines and climbing ferns, with a thin straight palm stem rising right beside it.",
+      "verified_sources": [
+        "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/victoria-park-nature-reserve (NSW National Parks: Victoria Park Nature Reserve, a rainforest remnant near Alstonville with a boardwalk loop; the reader's pin falls inside it)"
+      ],
+      "access": "Free, in a nature reserve run by NSW National Parks, with a short boardwalk loop through the rainforest. Check the park page for closures after floods.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c428c962-fcbf-4bb1-b6c9-47a9e267f2e0",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "found_by_reader": {
+        "sighting_id": "c428c962-fcbf-4bb1-b6c9-47a9e267f2e0",
+        "date": "2026-11-27"
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/aln_001-the-moreton-bay-fig-of-victoria-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_7cb72c85b39c7dc30e1ec0e2",
+        "sighting_id": "c428c962-fcbf-4bb1-b6c9-47a9e267f2e0",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); viewed and approved on 2026-11-27: looking straight up a huge buttressed fig trunk wrapped in vines, a thin palm stem rising beside it, rainforest canopy and palm fronds all round, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app with a device GPS fix (sighting c428c962-fcbf-4bb1-b6c9-47a9e267f2e0), named 'Moreton Bay Fig', species 'Moreton Bay Fig', age '500-1000 years', girth 1500 cm, no note. Photograph viewed: looking straight up a huge buttressed fig trunk wrapped in vines, a thin palm stem rising beside it, rainforest canopy and palm fronds all round, daylight, colour. No register entry within 100 m, no encyclopaedia article within 300 m (corroborate.py). The pin lies about 200 m from Wikipedia's centroid of Victoria Park Nature Reserve (28.9017 S, 153.4109 E), inside the 18 ha reserve. Species, age and girth are the reader's; published under the closed list for a reader's tree (Hidde, 2026-11-17)."
+    }
+  ],
+  "question_meta": "A giant fig in Victoria Park Nature Reserve near Alstonville, NSW, a remnant of the Big Scrub rainforest: a reader's photograph and how to find it.",
+  "question_answer": "The Moreton Bay Fig of Victoria Park grows in Victoria Park Nature Reserve, just south of Alstonville in northern New South Wales. The reserve is free to enter and has a short boardwalk loop through the rainforest.",
+  "question_context": "Victoria Park Nature Reserve is a small remnant of the Big Scrub, the lowland rainforest that once covered much of the country between Lismore, Byron Bay and Ballina before nineteenth-century clearing for farms left only scattered patches. NSW National Parks runs it, with a short boardwalk loop through the trees. A reader walking there stood at the foot of a giant fig and sent us a photograph looking straight up its trunk, a mass of grey ribs and flanges laced with vines and climbing ferns, with a slender palm rising beside it whose crown barely reaches the fig's lower limbs. The reader knows it as a Moreton Bay fig and puts it at 500 to 1,000 years old, its trunk about fifteen metres round. Those figures are theirs; we have not seen a measurement, a register entry or a written record of this tree. Anyone who knows it, or has measured it, can tell us on the tree's page.",
+  "faq": [
+    {
+      "q": "Can I visit The Moreton Bay Fig of Victoria Park?",
+      "a": "Yes. It grows in Victoria Park Nature Reserve near Alstonville, which is free to enter and run by NSW National Parks."
+    },
+    {
+      "q": "How old is the fig in Victoria Park Nature Reserve?",
+      "a": "The reader who sent it puts it at 500 to 1,000 years. We have no measurement or record to confirm that."
+    },
+    {
+      "q": "What is the Big Scrub?",
+      "a": "The lowland rainforest that once covered this part of northern New South Wales. Most of it was cleared for farms; Victoria Park keeps a small piece."
+    }
+  ]
+}
