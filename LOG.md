@@ -32,7 +32,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 - **Saved for later, needs Hidde (he said "bewaar dit voor later")**: the email sign-in link opens Safari and only then asks for the app, so a bookmark tapped signed out is lost on the way. Prepared in 783202297: the sign-in and welcome mails carry the eight-digit code (the project's OTP length, measured) beside the button, and the app accepts eight digits. To go live: Hidde pastes supabase/functions/send-email/index.ts into the Supabase dashboard (Edge Functions, send-email, Deploy), checks the code arrives, then a session flips `Launch.emailCode` to true for the next build. Until then nothing changes for anyone.
 - **Open, needs a screenshot from Hidde**: on his own profile a tile should show his own photograph. My trees already uses your newest photo of a tree (synced from the account), so which screen shows the wrong one is unknown.
 - **Explained, not a bug**: a photo strip mixes photos with a person behind them (name and heart) and Commons or mailed photos (neither).
-- **Android owes**: the signed-out heart's continuation and the People row's new place.
+- **Android caught up** (f797d4095): the signed-out heart is given after the sign-in, People you may know sits lower and is fetched with the Feed, Following reads who you follow when chosen. Unit tests green; not yet walked on an emulator.
 
 ## 2026-11-27 reader judge: a reader's photographs now lead the Whistler cork oak in Aguas de Moura
 
