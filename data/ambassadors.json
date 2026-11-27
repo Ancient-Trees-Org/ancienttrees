@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-27T01:30Z",
+  "synced": "2026-11-27T19:21Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -221,12 +221,12 @@
       "profile_public": true
     },
     {
-      "user_id": "cc8588b8-f264-4f34-9c63-7b45b2fb67f3",
-      "place_slug": "reno-valdieu",
-      "place_name": "Réno-Valdieu",
+      "user_id": "970ee2a0-056c-47a4-b75a-b57d9b72301e",
+      "place_slug": "brisbane",
+      "place_name": "Brisbane",
       "public": true,
       "since": "2026-11-19",
-      "display_name": "Michèle G.",
+      "display_name": "Olivia B.",
       "profile_public": true
     },
     {
@@ -248,12 +248,12 @@
       "profile_public": true
     },
     {
-      "user_id": "970ee2a0-056c-47a4-b75a-b57d9b72301e",
-      "place_slug": "brisbane",
-      "place_name": "Brisbane",
+      "user_id": "cc8588b8-f264-4f34-9c63-7b45b2fb67f3",
+      "place_slug": "reno-valdieu",
+      "place_name": "Réno-Valdieu",
       "public": true,
       "since": "2026-11-19",
-      "display_name": "Olivia B.",
+      "display_name": "Michèle G.",
       "profile_public": true
     },
     {
@@ -473,6 +473,15 @@
       "public": true,
       "since": "2026-11-27",
       "display_name": "Shady Sequoia 7424",
+      "profile_public": true
+    },
+    {
+      "user_id": "09dc21c2-9110-4680-8fe0-5257389a462d",
+      "place_slug": "powelltown",
+      "place_name": "Powelltown",
+      "public": true,
+      "since": "2026-11-27",
+      "display_name": "Evergreen Yew 7187",
       "profile_public": true
     },
     {
@@ -3090,6 +3099,13 @@
       "place_slug": "nottingham",
       "place_name": "Nottingham",
       "date": "2026-11-25"
+    },
+    {
+      "row": 1767,
+      "user_id": "p_376f50f11885a8f77d2c0f12",
+      "place_slug": "powelltown",
+      "place_name": "Powelltown",
+      "date": "2026-11-27"
     }
   ],
   "told": {
