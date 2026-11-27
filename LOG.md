@@ -281,7 +281,8 @@ Rung 1: no reader backlog; one new tree note (North Berwick Law beeches, a visit
 - **Tokyo leaves its panel Airbnb's way (2026-11-27, Hidde: "ja maak gewoon airbnb na")**: the cross is gone; the first drag or zoom of your own (wheel, pinch, double click, + and -) turns the panel into the trees in view; a tapped pin's card does not. On the way: a wheel zoom never counted as a move by hand (no originalEvent, and in the pane it started a second late), so it is now read from the wheel itself; /explore's country search ends on a wheel zoom too. Checked live: wheel, drag, Back, pin tap.
 - Open with Hidde: picking a city in the search still loads its page behind a fade; loading nothing at all means swapping the city's panel in place, the bigger rewrite he set aside on 2026-11-26.
 - **Every English city page is the one map now** (2026-11-27, Hidde: "Ja, alle steden"; `ONE_MAP_CITIES = "all"`). Checked live: London (wheel), Lisbon (drag), Bilbao on a 375px phone (drag), no console errors.
-- Next: translated city pages, then country and state pages.
+- **Translated city pages too** (Hidde: "Ja, vertaalde ook"): /de/berlin dragged turns into "Die Karte der alten Bäume" at /de/explore#map=..., checked live.
+- Next: country and state pages.
 
 ## 2026-11-26 night run (19:08 window): nothing to ship
 
