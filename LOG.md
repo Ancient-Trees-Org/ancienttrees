@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-27 reader judge: a 600-year downy oak in the Vaucluse, a new Methuselah photograph
+
+- Changed in the product: a new one-tree place, Murs (Vaucluse, France): The Great Downy Oak of Murs (murs/mur_001), a reader's app tree. It is a huge lone oak beside a lane in the fields, in copper autumn leaf. All three of the reader's photographs are on the page. Their figures (600 to 1,000 years, 6 m girth) are given as theirs. The pin was placed by hand, so it is marked approximate, and it includes the 64 m move the reader made while adding it (report 1000160, closed `holds`, no mail since it was their own new tree). No register entry within 100 m. The congratulation mail goes from tell-readers.yml after the deploy.
+- Woodside's Methuselah Tree (wdd_001) has a second reader's photograph, a whole-tree view from the trail with its burl and split-rail fence. It now leads the page, and the earlier base shot is in the strip. The reader is mailed through the weekly bundle.
+- Breakage, fixed before the push: the first id, `mrs_001`, was already Meares Island's and preflight refused it. Renamed to `mur_001` with its photographs. `city_names.py` found no Wikipedia article for Murs (a disambiguation page), so it is listed as unresolved, a note only.
+- No feedback, tips or other reports were waiting.
+
 ## 2026-11-27 session: readers' notes and our own photographs now reach Google (live)
 
 - Changed in the product: Google now sees what readers give us. Until today the notes ("From people who stood here") were filled only by a script, so every crawler read the empty card. The build now writes them into the page HTML (102 notes on 100 trees; `scripts/notes_for_build.py` in deploy.yml, output gitignored, so their words stay out of the repo). A new note moves the page's sitemap date. Our own photographs (a reader's, ours, one mailed with permission) now go into the tree page's structured data as ImageObjects, with the day and "by a visitor", never a name. sitemap.xml lists them as image:image: 1,139 photographs on 907 indexable urls. Checked live on le-porge/plane-tree-of-place-saint-seurin and in the sitemap.

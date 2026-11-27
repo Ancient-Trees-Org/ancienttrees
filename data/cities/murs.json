@@ -1,0 +1,100 @@
+{
+  "city": "Murs",
+  "country": "France",
+  "status": "needs_curation",
+  "intro": "Murs is a hill village in the Vaucluse, on the edge of the Monts de Vaucluse above the Luberon valley, among fields, cherry orchards and stone farmhouses. Just outside it, on the verge of a narrow lane, stands a downy oak with a squat grey trunk and a crown far wider than it is tall. A reader sent us its photographs and puts it at 600 to 1,000 years old.",
+  "meta_description": "A huge downy oak beside a lane outside Murs in the Vaucluse, sent by a reader who puts it at 600 to 1,000 years: where it stands.",
+  "hero_tree_id": "mur_001",
+  "oldest_tree_id": "mur_001",
+  "trees": [
+    {
+      "id": "mur_001",
+      "name": "The Great Downy Oak of Murs",
+      "species": "Downy Oak (Quercus pubescens)",
+      "age_estimate": "600 to 1,000 years, by a reader's estimate",
+      "age_basis": "source",
+      "location": {
+        "address": "Beside a lane in the fields outside Murs, Vaucluse",
+        "latitude": 43.951254,
+        "longitude": 5.23972,
+        "neighbourhood": "Murs"
+      },
+      "story": "A reader sent us this downy oak from the countryside just outside Murs, a hill village on the edge of the Monts de Vaucluse, and put it at 600 to 1,000 years old with a trunk about six metres round.\n\nThose figures are theirs, not a measurement or a register we have seen, but the photographs explain why they think so. The trunk is a great grey column of cracked, scaly bark, flaring at the foot into knuckled roots that grip the bank like toes. At about head height it splits into three huge limbs, one of them reaching far out sideways over the verge, and above them the crown spreads into a broad dome much wider than it is tall, copper and gold in the November light.\n\nDowny oak, Quercus pubescens, is the oak of Provence's dry hills and truffle grounds. It keeps its dead leaves into winter, which is why the reader's tree is still clothed when the cherries and walnuts around it are bare. Old ones are often left standing alone at field edges, as this one is, beside a narrow lane with stone farmhouses on the slope behind.\n\nIf you know this tree's name or its story in the village, tell us here and we will add it. Walk under the outstretched limb to stand beside the trunk.",
+      "how_to_recognise": "A lone, very wide oak on the verge of a narrow paved lane through the fields: a squat grey trunk on knuckled roots splitting into three great limbs, one reaching out over the verge, a flat stone lying at its foot.",
+      "verified_sources": [
+        "A reader's photographs and figures through the app, 2026-11-27, with the pin they placed beside a lane near Murs"
+      ],
+      "access": "Beside a public lane outside the village, seen from the road. We have not confirmed who owns the field it stands in.",
+      "found_by_reader": {
+        "sighting_id": "15c9c8eb-0f24-4f63-8b09-9f54138fbcfc",
+        "date": "2026-11-27"
+      },
+      "curation_status": "flagged",
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "15c9c8eb-0f24-4f63-8b09-9f54138fbcfc",
+        "date": "2026-11-27",
+        "note": "The reader placed this pin on the map in the app and moved it 64 m while adding the tree (report 1000160); not a GPS fix."
+      },
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app (15c9c8eb-0f24-4f63-8b09-9f54138fbcfc). Photographs viewed: the massive grey trunk with its root buttresses and three great limbs, autumn leaves, a field and stone farmhouses behind; a second view from the lane; the whole wide crown in copper autumn leaf over a narrow paved lane; daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Downy Oak', species 'Downy Oak', age '600 to 1000 years old', girth 600 cm; all stated as theirs. No register entry within 100 m (corroborate.py). Commune read from the pin: Murs, about 1 km from the village.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/mur_001-the-great-downy-oak-of-murs.jpg",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "source": "contributor",
+        "contributor_user_id": "p_ece9ca6c7ea34ac62e71a9a5",
+        "sighting_id": "15c9c8eb-0f24-4f63-8b09-9f54138fbcfc",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-27, through the app); viewed and approved on 2026-11-27: the massive grey trunk with its root buttresses and three great limbs, autumn leaves, a field and stone farmhouses behind; a second view from the lane; the whole wide crown in copper autumn leaf over a narrow paved lane; daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/mur_001-the-great-downy-oak-of-murs-15c9c8eb-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_ece9ca6c7ea34ac62e71a9a5",
+          "sighting_id": "15c9c8eb-0f24-4f63-8b09-9f54138fbcfc-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/mur_001-the-great-downy-oak-of-murs-15c9c8eb-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_ece9ca6c7ea34ac62e71a9a5",
+          "sighting_id": "15c9c8eb-0f24-4f63-8b09-9f54138fbcfc-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
+    }
+  ],
+  "question_meta": "A huge downy oak beside a lane outside Murs in the Vaucluse, sent by a reader who puts it at 600 to 1,000 years: where it stands.",
+  "question_answer": "The Great Downy Oak of Murs stands on the verge of a narrow lane in the fields just outside Murs, in the Vaucluse. It can be seen from the lane at any time.",
+  "question_context": "A reader who sent us this tree from the fields just outside Murs, a hill village on the edge of the Monts de Vaucluse, puts it at 600 to 1,000 years old and its trunk at about six metres round. Neither figure comes from a register or a measurement we have seen, so they are the reader's own. Their photographs show a downy oak, Quercus pubescens, the oak of Provence's dry hills, standing alone on the verge of a narrow paved lane. The trunk is a squat grey column of cracked bark on knuckled roots, and at about head height it splits into three huge limbs, one of them reaching far out sideways over the verge. Above them the crown makes a dome much wider than it is tall, and because downy oaks keep their dead leaves into winter it was still copper and gold in late November, when the cherry trees around it were bare. Stone farmhouses stand on the slope behind. It stands beside a public lane, so it can be seen from the road at any time; we have not confirmed who owns the field.",
+  "faq": [
+    {
+      "q": "Can I visit The Great Downy Oak of Murs?",
+      "a": "Yes, from the lane. It stands on the verge of a narrow public lane outside the village; we have not confirmed who owns the field behind it."
+    },
+    {
+      "q": "How old is the downy oak at Murs?",
+      "a": "The reader who sent it puts it at 600 to 1,000 years. We have no register or measured figure for it yet."
+    },
+    {
+      "q": "When is the oak at Murs at its best?",
+      "a": "In late autumn its crown turns copper and gold, and a downy oak keeps those leaves well into winter."
+    }
+  ]
+}

@@ -43,21 +43,34 @@
         "note": "The reader placed this pin on the map by hand in the app (its submission says so); not a GPS fix, so approximate until a fix or a sighting confirms it (session 2026-11-20; it had been labelled a GPS fix)."
       },
       "photo": {
-        "url": "https://ancienttrees.app/photos/wdd_001-the-methuselah-tree.jpg",
-        "taken_month": 10,
-        "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
+        "url": "https://ancienttrees.app/photos/wdd_001-the-methuselah-tree-74724432.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
+        "taken_month": 9,
         "source": "contributor",
-        "contributor_user_id": "p_9cc31350702533ff4614483d",
-        "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994",
-        "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Base of a huge redwood trunk, daylight, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_b8cc3f2ece8104a236a0e2cb",
+        "sighting_id": "74724432-952b-4a7a-96ad-c0235a583c9f",
+        "note": "Photographed by a reader and sent through the app (2024-09-06); a viewing pass approved it on 2026-11-27: The whole redwood from the trail, looking up: a vast furrowed red trunk with a big burl, a split-rail wooden fence and a dirt path at the bottom right, daylight, colour. Shows the whole tree where the current lead shows only the base. Species seen: coast redwood: fibrous furrowed red-brown bark, flat sprays of dark green needles, columnar trunk. Fits the description: a vast furrowed trunk with burls beside a trail with a wooden railing, as the recognition line says; sent for this tree at its pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "girth_cm": 1340,
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/wdd_001-the-methuselah-tree.jpg",
+          "taken_month": 10,
+          "taken_month_basis": "the photograph's own date, kept by the app (2026-11-19)",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_9cc31350702533ff4614483d",
+          "sighting_id": "2ec0418a-ac10-4c61-9daf-a287193ae994",
+          "note": "Photographed by a reader and sent through the app (date unknown); a viewing pass approved it on 2026-11-15: Base of a huge redwood trunk, daylight, GPS fix at the tree.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
         {
           "url": "https://ancienttrees.app/photos/wdd_001-the-methuselah-tree-2ec0418a-x1.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",

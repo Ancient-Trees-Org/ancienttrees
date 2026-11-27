@@ -18,6 +18,45 @@
    "agreed": null
   },
   {
+   "id": "sight:15c9c8eb-0f24-4f63-8b09-9f54138fbcfc-extra-2",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Great Downy Oak of Murs",
+   "city": "Murs",
+   "species": "Downy Oak (Quercus pubescens)",
+   "photo": "p_ece9ca6c7ea34ac62e71a9a5/15C9C8EB-0F24-4F63-8B09-9F54138FBCFC.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Further photograph 2 viewed: the whole wide crown in copper autumn leaf over the paved lane; in the gallery of murs/mur_001."
+  },
+  {
+   "id": "sight:15c9c8eb-0f24-4f63-8b09-9f54138fbcfc-extra-1",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Great Downy Oak of Murs",
+   "city": "Murs",
+   "species": "Downy Oak (Quercus pubescens)",
+   "photo": "p_ece9ca6c7ea34ac62e71a9a5/15C9C8EB-0F24-4F63-8B09-9F54138FBCFC.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Further photograph 1 viewed: the same oak from the lane, trunk and limbs, field and farmhouse behind; in the gallery of murs/mur_001."
+  },
+  {
+   "id": "sight:15c9c8eb-0f24-4f63-8b09-9f54138fbcfc",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Great Downy Oak of Murs",
+   "city": "Murs",
+   "species": "Downy Oak (Quercus pubescens)",
+   "photo": "p_ece9ca6c7ea34ac62e71a9a5/15C9C8EB-0F24-4F63-8B09-9F54138FBCFC.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the massive grey trunk on knuckled roots splitting into three limbs, autumn leaves, daylight, colour; lead of murs/mur_001."
+  },
+  {
    "id": "sight:43dd1d12-dd99-4de0-a421-99d36e7d6496",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
@@ -596,6 +635,80 @@
    },
    "verdict": "publish",
    "reason": "Photograph viewed: a huge silver-blue cedar of several trunks among fan palms by a gravel drive in the park of Villa Cagnola, Gazzada, and its whole crown against a sunset; GPS from the photo. Live as varese/var_007, Atlas cedar as the reader says and the foliage shows.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2549a442-0870-4e1f-910d-bf1b18e33909",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Blue Atlas Cedar in Varese",
+   "photo": "p_df9da2fa289e6fdaa8b541de/2549A442-0870-4E1F-910D-BF1B18E33909.jpg",
+   "reader_note": "Formerly the Cagnola family’s villa, it is now a guesthouse owned by the Vatican.\nA very beautiful park with lovely views.\nIt is not always possible to go inside, but it is worth a try.",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a tall many-stemmed cedar by a gravel path in the park of Villa Cagnola, Gazzada; lead photo of var_006, its further view along the path to the brick tower in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:16c8b4f6-e3cc-4085-8f5e-a32092225659",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Blue Weeping Atlas Cedar in Varese",
+   "photo": "p_df9da2fa289e6fdaa8b541de/16C8B4F6-E3CC-4085-8F5E-A32092225659.jpg",
+   "reader_note": "Formerly the Cagnola family’s villa, it is now a guesthouse owned by the Vatican.\nA very beautiful park with lovely views.\nIt is not always possible to go inside, but it is worth a try.",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a huge silver-blue cedar of several trunks among fan palms at Villa Cagnola, Gazzada; lead photo of var_007, its further view against the sunset in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:74724432-952b-4a7a-96ad-c0235a583c9f",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "The Methuselah Tree",
+   "city": "Woodside",
+   "species": "Coast Redwood (Sequoia sempervirens)",
+   "photo": "out/sightings/74724432-952b-4a7a-96ad-c0235a583c9f.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Coast Redwood (Sequoia sempervirens)"
+   },
+   "verdict": "publish",
+   "reason": "Added to woodside/wdd_001 The Methuselah Tree: the whole redwood from the trail with its big burl and split-rail fence, daylight, colour; sent for this tree at its pin and fits the recognition line. Now leads the page, the earlier base shot moves to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:15c9c8eb-0f24-4f63-8b09-9f54138fbcfc",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Downy Oak",
+   "city": null,
+   "species": "Downy Oak",
+   "photo": "p_ece9ca6c7ea34ac62e71a9a5/15C9C8EB-0F24-4F63-8B09-9F54138FBCFC.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 600,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Downy Oak"
+   },
+   "verdict": "publish",
+   "reason": "Live as murs/mur_001: a huge downy oak, squat grey trunk on knuckled roots splitting into three great limbs, crown far wider than tall in copper autumn leaf, beside a public lane outside Murs (Vaucluse). Reader's figures (600 to 1000 years, 6 m girth) stated as theirs; hand-placed pin, approximate, the reader's own 64 m move taken; three photographs.",
    "hidde": null,
    "agreed": null
   },
@@ -30773,30 +30886,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:2549a442-0870-4e1f-910d-bf1b18e33909",
-   "seen": "2026-11-27",
-   "kind": "a tree we do not map",
-   "tree": "Blue Atlas Cedar in Varese",
-   "photo": "p_df9da2fa289e6fdaa8b541de/2549A442-0870-4E1F-910D-BF1B18E33909.jpg",
-   "reader_note": "Formerly the Cagnola family’s villa, it is now a guesthouse owned by the Vatican.\nA very beautiful park with lovely views.\nIt is not always possible to go inside, but it is worth a try.",
-   "verdict": "publish",
-   "reason": "Photograph viewed: a tall many-stemmed cedar by a gravel path in the park of Villa Cagnola, Gazzada; lead photo of var_006, its further view along the path to the brick tower in the strip.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:16c8b4f6-e3cc-4085-8f5e-a32092225659",
-   "seen": "2026-11-27",
-   "kind": "a tree we do not map",
-   "tree": "Blue Weeping Atlas Cedar in Varese",
-   "photo": "p_df9da2fa289e6fdaa8b541de/16C8B4F6-E3CC-4085-8F5E-A32092225659.jpg",
-   "reader_note": "Formerly the Cagnola family’s villa, it is now a guesthouse owned by the Vatican.\nA very beautiful park with lovely views.\nIt is not always possible to go inside, but it is worth a try.",
-   "verdict": "publish",
-   "reason": "Photograph viewed: a huge silver-blue cedar of several trunks among fan palms at Villa Cagnola, Gazzada; lead photo of var_007, its further view against the sunset in the strip.",
    "hidde": null,
    "agreed": null
   }

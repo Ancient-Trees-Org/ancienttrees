@@ -13470,6 +13470,42 @@
    "seen": "2026-11-27",
    "judged": "2026-11-27",
    "published_as": "varese/var_007"
+  },
+  {
+   "sighting_id": "15c9c8eb-0f24-4f63-8b09-9f54138fbcfc",
+   "user_id": "p_ece9ca6c7ea34ac62e71a9a5",
+   "mine": false,
+   "name": "Downy Oak",
+   "unsure_among": null,
+   "species": "Downy Oak",
+   "age": "600 to 1000 years old",
+   "girth_cm": 600,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 43.951254,
+   "longitude": 5.23972,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_ece9ca6c7ea34ac62e71a9a5/15C9C8EB-0F24-4F63-8B09-9F54138FBCFC.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/15c9c8eb-0f24-4f63-8b09-9f54138fbcfc-extra-1.jpg",
+    "out/sightings/15c9c8eb-0f24-4f63-8b09-9f54138fbcfc-extra-2.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photographs viewed 2026-11-27: the massive grey trunk with its root buttresses and three great limbs, autumn leaves, a field and stone farmhouses behind; a second view from the lane; the whole wide crown in copper autumn leaf over a narrow paved lane; daylight, colour. Live as murs/mur_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-27",
+   "judged": "2026-11-27",
+   "published_as": "murs/mur_001"
   }
  ]
 }

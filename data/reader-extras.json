@@ -341,6 +341,21 @@
    },
    "tree": "la-tene/prf_001"
   },
+  "15c9c8eb-0f24-4f63-8b09-9f54138fbcfc": {
+   "extras": {
+    "1": {
+     "date": "2026-11-27",
+     "file": "mur_001-the-great-downy-oak-of-murs-15c9c8eb-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-27",
+     "file": "mur_001-the-great-downy-oak-of-murs-15c9c8eb-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "murs/mur_001"
+  },
   "16c8b4f6-e3cc-4085-8f5e-a32092225659": {
    "extras": {
     "1": {
