@@ -268,6 +268,15 @@
       "android": "the same as iOS; nothing to change",
       "status": "one-sided",
       "why": "the website catching up with the phones, which never load a screen for this"
+    },
+    {
+      "what": "Where a tree was opened from (Hidde, 2026-11-27: \"op alle paginas ... waar mensen klikken op bomen\"): a pin's card on the map names its tap \"map/pin\" for tree_opened's `from`",
+      "since": "2026-11-27",
+      "web": "nothing to change: the website has no tree_opened; a tree page's visit already carries the page it came from in Google Analytics (the referrer)",
+      "ios": "MapTab.swift: TreePlaceBody's onOpen calls TreeSource.mark(\"map/pin\") (Kit/TreeSource.swift)",
+      "android": "MapTab.kt: TreePlaceBody's onOpen calls TreeSource.mark(\"map/pin\") (ui/TreeSource.kt)",
+      "status": "one-sided",
+      "why": "app measurement only; the website measures where a page was reached from with GA's own referrer"
     }
   ]
 }
