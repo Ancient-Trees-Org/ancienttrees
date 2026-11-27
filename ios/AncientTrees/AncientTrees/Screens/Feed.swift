@@ -94,7 +94,11 @@ struct FeedView: View {
                             // Instagram's "Suggested for you" comes mid-feed.
                             // Where both columns end level (FeedPosts.evenCut).
                             let colW = (geo.size.width - Self.edge * 2 - 12) / 2
-                            let cut = FeedPosts.evenCut(list.map { Double(colW * Self.ratio($0.post) + 70) })
+                            // Further down than the first screen or two (Hidde,
+                            // 2026-11-27: "te vroeg in je scroll ... iets lager"):
+                            // after ten to sixteen photographs, not four to eight.
+                            let cut = FeedPosts.evenCut(list.map { Double(colW * Self.ratio($0.post) + 70) },
+                                                        from: 10, to: 16)
                             tiles(Array(list.prefix(cut)), width: geo.size.width, offset: 0, total: list.count)
                                 .padding(.horizontal, -Self.edge)
                                 .padding(.top, 4)
@@ -110,7 +114,7 @@ struct FeedView: View {
                                 post(it.post, prev: it.prev, width: width)
                                     .id("feed-\(i)")
                                     .onAppear { if i >= list.count - 6 { Task { await more() } } }
-                                if i == 2 && account.isSignedIn && filter == .everyone {
+                                if i == 7 && account.isSignedIn && filter == .everyone {
                                     FeedPeopleRow(following: following)
                                 }
                             }
@@ -529,7 +533,16 @@ struct FeedView: View {
     private func restart() async {
         // Who you follow comes again too: pull to refresh after following
         // somebody left Following empty (release walk 2026-11-26, pass 1).
-        await Task { @MainActor in await loadFollowing(); await reload() }.value
+        await Task { @MainActor in
+            await loadFollowing()
+            await reload()
+            // People you may know, fetched now so the row is whole when it
+            // scrolls into view further down (Hidde, 2026-11-27).
+            if let me = account.session?.userId {
+                await FeedPeopleRow.warm(me: me, following: following, profiles: profiles,
+                                         token: await account.freshToken())
+            }
+        }.value
     }
 
     private func reload() async {

@@ -43,7 +43,7 @@ final class PhotoLikes {
         }
     }
 
-    private func load(_ ids: [String], token: String?) async {
+    fileprivate func load(_ ids: [String], token: String?) async {
         guard !ids.isEmpty else { return }
         struct Row: Decodable { let photo_id: String; let likes: Int; let mine: Bool }
         let r = Supa.request("/rest/v1/rpc/photo_like_counts", token: token, body: ["ids": ids])
@@ -71,6 +71,17 @@ final class PhotoLikes {
 }
 
 extension PhotoLikes {
+    /// The heart tapped while signed out, given once the account is in. The
+    /// count is asked again with the new session first, so a heart this
+    /// account already gave elsewhere is seen and not given twice.
+    static func giveAfterSignIn(_ id: String, account: Account) {
+        Task { @MainActor in
+            guard let t = await account.freshToken() else { return }
+            await shared.load([id], token: t)
+            await shared.give(id, token: t)
+        }
+    }
+
     /// A double tap only ever gives (Instagram: a second double tap does not
     /// take the like back); a heart you already gave stays as it is.
     func give(_ id: String, token: String) async {
@@ -103,7 +114,11 @@ struct DoubleTapHeart: ViewModifier {
                     .accessibilityHidden(true)
             }
             .highPriorityGesture(TapGesture(count: 2).onEnded {
-                guard account.isSignedIn else { nudge.require(.general) {}; return }
+                guard account.isSignedIn else {
+                    let id = photoId
+                    nudge.require(.general) { PhotoLikes.giveAfterSignIn(id, account: account) }
+                    return
+                }
                 UIImpactFeedbackGenerator(style: .light).impactOccurred()
                 withAnimation(.spring(duration: 0.25, bounce: 0.5)) { burst = true }
                 Task {
@@ -144,7 +159,13 @@ struct PhotoHeart: View {
                 if account.isSignedIn {
                     Task { if let t = await account.freshToken() { await store.toggle(photoId, token: t) } }
                 } else {
-                    nudge.require(.general) {}
+                    // THE HEART LANDS AFTER THE SIGN-IN (Hidde, 2026-11-27:
+                    // "de actie die ik aan het doen was hartje of bookmark
+                    // wordt niet gedaan als ik inlog"): it asked and then
+                    // forgot. Given, never toggled: the account may already
+                    // hold this heart from another phone (SaveHeart's rule).
+                    let id = photoId
+                    nudge.require(.general) { PhotoLikes.giveAfterSignIn(id, account: account) }
                 }
             } label: {
                 Image(systemName: s.mine ? "heart.fill" : "heart")

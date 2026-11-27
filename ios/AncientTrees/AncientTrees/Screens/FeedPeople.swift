@@ -30,7 +30,11 @@ struct FeedPeopleRow: View {
     private static let cardWidth: CGFloat = 132
 
     var body: some View {
-        let shown = people.filter { !gone.contains($0.profile.user_id) }
+        // What was fetched ahead, from the first frame, so nothing pops in.
+        let have = people.isEmpty
+            ? (account.session.map { (Self.ahead[$0.userId] ?? []).filter { !moderation.hides($0.profile.user_id) } } ?? [])
+            : people
+        let shown = have.filter { !gone.contains($0.profile.user_id) }
         // A stack that is always there, so its task runs before it has
         // anybody to show (an empty Group never appears, and never loads).
         VStack(spacing: 0) {
@@ -126,16 +130,28 @@ struct FeedPeopleRow: View {
         }
     }
 
+    /// Suggestions fetched ahead, by account, so the row is complete the
+    /// moment it scrolls into view instead of popping in after it arrives
+    /// (Hidde, 2026-11-27: "hij laadt wat later en komt later in"). The Feed
+    /// fills it as it loads its first page (`warm`).
+    @MainActor static var ahead: [String: [SuggestedPerson]] = [:]
+
+    @MainActor
+    static func warm(me: String, following: Set<String>, profiles: Profiles, token: String?) async {
+        if ahead[me] != nil { return }
+        if DemoPeople.on { ahead[me] = DemoPeople.suggestions; return }
+        guard let rows = await profiles.morePhotographers(skip: Array(following), n: 12, token: token) else { return }
+        ahead[me] = SuggestedPeople.more(rows, after: [], me: me, blocked: { _ in false })
+            .filter { !following.contains($0.profile.user_id.lowercased()) }
+    }
+
     private func load() async {
         guard let me = account.session?.userId else { people = []; return }
         // Not again on Back: the row would change under the reader.
         if loadedFor == me, !people.isEmpty { return }
         loadedFor = me
-        if DemoPeople.on { people = DemoPeople.suggestions; return }
-        let token = await account.freshToken()
-        guard let rows = await profiles.morePhotographers(skip: Array(following), n: 12, token: token) else { return }
-        people = SuggestedPeople.more(rows, after: [], me: me, blocked: { moderation.hides($0) })
-            .filter { !following.contains($0.profile.user_id.lowercased()) }
+        await Self.warm(me: me, following: following, profiles: profiles, token: await account.freshToken())
+        people = (Self.ahead[me] ?? []).filter { !moderation.hides($0.profile.user_id) }
     }
 
     private func toggle(_ id: String) async {

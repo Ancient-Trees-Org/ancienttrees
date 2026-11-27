@@ -1236,6 +1236,16 @@
    "reader_line": "A tree you add is now named after the town it stands in, not the nearest place we map",
    "test": "MyTreesTests AnUnnamedTreeIsNamedFromWhatWeKnow.theTownThePhoneNamesReplacesTheNearestPlaceOfOurs + android CollectRulesTest.theTownThePhoneNamesReplacesANameWeMade",
    "fixed_in": "6a085decb"
+  },
+  {
+   "id": "ESC-2026-11-27-a-heart-tapped-on-a-photo-while-signed-o",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "ios/AncientTrees/AncientTrees/Kit/PhotoLikes.swift",
+   "summary": "A heart tapped on a photo while signed out asked for a sign-in and then was not given",
+   "first_seen": "2026-11-27",
+   "status": "open",
+   "found_by": "hidde"
   }
  ]
 }
