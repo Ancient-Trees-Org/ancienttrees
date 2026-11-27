@@ -446,6 +446,27 @@
    },
    "tree": "la-tene/prf_002"
   },
+  "24fdccb3-a454-4556-8169-2bad2fb36abd": {
+   "extras": {
+    "1": {
+     "date": "2026-11-27",
+     "file": "wkm_001-the-giant-rata-of-the-ngamoko-track-24fdccb3-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-27",
+     "file": "wkm_001-the-giant-rata-of-the-ngamoko-track-24fdccb3-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-27",
+     "reason": "no_tree",
+     "verdict": "left_out",
+     "what": "the Department of Conservation sign beside the tree, its text alone; its facts are on the page as a source"
+    }
+   },
+   "tree": "lake-waikaremoana/wkm_001"
+  },
   "27e529b6-7e49-4fd7-853e-6acc23a947e9": {
    "extras": {
     "1": {

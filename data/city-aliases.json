@@ -2827,6 +2827,13 @@
     "lafayette-louisiana": [
       "Lafajetas"
     ],
+    "lake-waikaremoana": [
+      "Lac Waikaremoana",
+      "Lago Waikaremoana",
+      "Waikaremoana",
+      "Vaikaremoana",
+      "Danaw nin Waikaremoana"
+    ],
     "lampang": [
       "Lampangas"
     ],
@@ -3045,6 +3052,17 @@
       "Kutha Liverpool",
       "Lerphoyll",
       "Lerpol"
+    ],
+    "livorno": [
+      "Livourne",
+      "Liorna",
+      "Livornas",
+      "Labro",
+      "Levuorno",
+      "Ligorna",
+      "Livorn",
+      "Livornu",
+      "Lėvuorns"
     ],
     "ljubljana": [
       "Liubliana",
@@ -6196,6 +6214,7 @@
     "helmond": "Helmond",
     "helsinki": "Helsinki",
     "henrykow-lubanski": "Henryków Lubański",
+    "hervey-bay": "Hervey Bay",
     "hethersett": "Hethersett",
     "higashi-hiroshima": "Higashihiroshima",
     "higashiagatsuma": "Higashiagatsuma, Gunma",
@@ -6317,6 +6336,7 @@
     "la-salle": "La Salle, Aosta Valley",
     "la-tene": "La Tène (archaeological site)",
     "lafayette-louisiana": "Lafayette, Louisiana",
+    "lake-waikaremoana": "Lake Waikaremoana",
     "lampang": "Lampang",
     "lanercost": "Lanercost",
     "langwarrin": "Langwarrin",
@@ -6353,6 +6373,7 @@
     "lisbon": "Lisbon",
     "liskiava": "Liškiava",
     "liverpool": "Liverpool",
+    "livorno": "Livorno",
     "ljubljana": "Ljubljana",
     "llanerfyl": "Llanerfyl",
     "llanfihangel-nant-melan": "Llanfihangel Nant Melan",
@@ -6960,6 +6981,7 @@
     "gwytherin": "Gwytherin",
     "hatley": "Hatley, Cambridgeshire",
     "hawling": "Hawling",
+    "hervey-bay": "Hervey Bay",
     "hethersett": "Hethersett",
     "hniszow": "Hniszów",
     "hochneukirchen-gschaidt": "Hochneukirchen-Gschaidt",

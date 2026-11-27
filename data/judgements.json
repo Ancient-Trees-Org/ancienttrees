@@ -254,6 +254,123 @@
    "agreed": null
   },
   {
+   "id": "sight:24fdccb3-a454-4556-8169-2bad2fb36abd",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Giant Rata of the Ngamoko Track",
+   "city": "Lake Waikaremoana",
+   "species": "Northern Rata (Metrosideros robusta)",
+   "photo": "p_40111ad6d5fbfa454cb92a3a/24FDCCB3-A454-4556-8169-2BAD2FB36ABD.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the braided rata trunk behind the viewing platform rail; lead of wkm_001."
+  },
+  {
+   "id": "sight:f466425f-5733-43bf-ad8b-9a44fe96682b",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Cedar of Villa Fabbricotti",
+   "city": "Livorno",
+   "species": "Cedar (Cedrus sp.)",
+   "photo": "p_da24af7ac31ae7cdbc1ccdae/F466425F-5733-43BF-AD8B-9A44FE96682B.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the whole wide cedar on the park lawn; lead of lio_001."
+  },
+  {
+   "id": "sight:c4a19bef-1b0d-4c9e-970d-325bd64cf821",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Magnolia of Villa Fabbricotti",
+   "city": "Livorno",
+   "species": "Southern Magnolia (Magnolia grandiflora)",
+   "photo": "p_da24af7ac31ae7cdbc1ccdae/C4A19BEF-1B0D-4C9E-970D-325BD64CF821.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the whole magnolia beside a gravel path; lead of lio_002."
+  },
+  {
+   "id": "lead:24fdccb3-a454-4556-8169-2bad2fb36abd",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "Northern Rata : Metrosideros Robusta",
+   "city": null,
+   "species": "Northern Rata : Metrosideros Robusta",
+   "photo": "p_40111ad6d5fbfa454cb92a3a/24FDCCB3-A454-4556-8169-2BAD2FB36ABD.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 1300,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Northern Rata : Metrosideros Robusta"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed: a huge braided northern rata behind a viewing platform rail on the Ngamoko Track, Lake Waikaremoana, with the DOC sign (13 m around the base, 800 to 1,000 years); GPS fix from the photo. DOC's track page names the giant rata. Live as lake-waikaremoana/wkm_001, girth and age from the sign.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f466425f-5733-43bf-ad8b-9a44fe96682b",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Pisa",
+   "city": null,
+   "species": null,
+   "photo": "p_da24af7ac31ae7cdbc1ccdae/F466425F-5733-43BF-AD8B-9A44FE96682B.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a wide, lopsided cedar with drooping blue-green tiers on the lawn of Livorno's Villa Fabbricotti park (the reader called it near Pisa), daylight, colour; GPS fix from the photo. Stands out on its lawn. Species left as Cedrus sp. (looks like a deodar). Live as livorno/lio_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:c4a19bef-1b0d-4c9e-970d-325bd64cf821",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Pisa",
+   "city": null,
+   "species": null,
+   "photo": "p_da24af7ac31ae7cdbc1ccdae/C4A19BEF-1B0D-4C9E-970D-325BD64CF821.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: a mature southern magnolia, short dark trunk under a broad dome of glossy leaves, beside a gravel path in Livorno's Villa Fabbricotti park, daylight, colour; device GPS fix. A big tree alone on its lawn, so somewhat special. Live as livorno/lio_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",

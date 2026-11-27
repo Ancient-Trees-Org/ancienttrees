@@ -1,0 +1,105 @@
+{
+  "city": "Lake Waikaremoana",
+  "country": "New Zealand",
+  "status": "needs_curation",
+  "intro": "Lake Waikaremoana lies deep in Te Urewera, the forested hill country of the North Island's east, and its tracks run through some of the oldest forest in the land. On the Ngamoko Track, a short detour from the start, stands a northern rata that began life high in another tree, 13 metres around and 800 to 1,000 years old by the Department of Conservation's sign. A reader sent us its photographs.",
+  "meta_description": "The giant northern rata on the Ngamoko Track at Lake Waikaremoana: 13 metres round, 800 to 1,000 years old, and how to find it.",
+  "hero_tree_id": "wkm_001",
+  "oldest_tree_id": "wkm_001",
+  "trees": [
+    {
+      "id": "wkm_001",
+      "name": "The Giant Rata of the Ngamoko Track",
+      "species": "Northern Rata (Metrosideros robusta)",
+      "age_estimate": "800 to 1,000 years",
+      "age_min": 800,
+      "age_max": 1000,
+      "age_basis": "source",
+      "girth_cm": 1300,
+      "location": {
+        "address": "Ngamoko Track, Lake Waikaremoana, Te Urewera, Hawke's Bay",
+        "latitude": -38.76043,
+        "longitude": 177.153961166667,
+        "neighbourhood": "Waikaremoana"
+      },
+      "how_to_recognise": "From a wooden viewing platform with two benches: a trunk of braided grey and red-brown columns with dark hollows between them, tufts of perching lilies on top, and a green Department of Conservation sign titled Northern Rata at the rail.",
+      "access": "Free. A few minutes' detour off the lower Ngamoko Track in Te Urewera, on a forest path to a viewing platform. Check the Department of Conservation's track status before you go.",
+      "verified_sources": [
+        "https://www.doc.govt.nz/parks-and-recreation/places-to-go/east-coast/places/te-urewera/things-to-do/tracks/ngamoko-track/ (Department of Conservation, Ngamoko Track: a giant northern rata a short detour from the start, which began about 1,000 years ago as a seed in the fork of a host tree)",
+        "Department of Conservation interpretation sign at the tree, photographed by the reader on 2026-11-27: Northern Rata, Metrosideros robusta, began as an epiphyte possibly in the fork of a rimu, probably three main vines intertwined, 13 metres around the base, aged between 800 and 1,000 years"
+      ],
+      "story": "This tree began its life in the air. The Department of Conservation sign beside it on the Ngamoko Track, above Lake Waikaremoana, says it started as an epiphyte growing high up, possibly in the fork of a rimu. The young rata sent a network of aerial roots down to the forest floor, they thickened, and the rimu that held it has since rotted away.\n\nAccording to the same sign, it was probably three main vines that twined together, it is 13 metres around the base, and it is between 800 and 1,000 years old. The department's own track page dates its start to about 1,000 years ago, in a host that was probably centuries old already.\n\nA reader walked up to the viewing platform and sent us photographs, and they show what those numbers look like. The trunk is a braid of grey and red-brown columns, with dark hollows running up between them where the host once stood. Clumps of perching lilies sit on its shoulders like unruly hair, and tree ferns crowd its feet.\n\nThe rata is a short detour off the lower part of the track, which climbs on through dense forest to the summit of the Ngamoko Range. Stand at the rail and look up into the hollow where the rimu used to be.",
+      "found_by_reader": {
+        "sighting_id": "24fdccb3-a454-4556-8169-2bad2fb36abd",
+        "date": "2026-11-27"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "24fdccb3-a454-4556-8169-2bad2fb36abd",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/wkm_001-giant-rata-of-the-ngamoko-track.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_40111ad6d5fbfa454cb92a3a",
+        "sighting_id": "24fdccb3-a454-4556-8169-2bad2fb36abd",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); viewed and approved on 2026-11-27: the huge braided trunk of a northern rata behind the rail of a wooden viewing platform with benches, tufts of perching lilies on its shoulders, ferns at its foot, a green Department of Conservation sign at the right, forest daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app (sighting 24fdccb3-a454-4556-8169-2bad2fb36abd), location kind photo. Photograph viewed: the huge braided trunk of a northern rata behind the rail of a wooden viewing platform with benches, tufts of perching lilies on its shoulders, ferns at its foot, a green Department of Conservation sign at the right, forest daylight, colour. No register entry within 100 m, no encyclopaedia article within 300 m (corroborate.py). Reader's own figures: name 'Northern Rata : Metrosideros Robusta', species 'Northern Rata : Metrosideros Robusta', age '800 to 1000 years', girth 1300 cm. Published under the closed list for a reader's tree (Hidde, 2026-11-17).",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/wkm_001-the-giant-rata-of-the-ngamoko-track-24fdccb3-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_40111ad6d5fbfa454cb92a3a",
+          "sighting_id": "24fdccb3-a454-4556-8169-2bad2fb36abd-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/wkm_001-the-giant-rata-of-the-ngamoko-track-24fdccb3-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_40111ad6d5fbfa454cb92a3a",
+          "sighting_id": "24fdccb3-a454-4556-8169-2bad2fb36abd-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
+    }
+  ],
+  "question_meta": "Where is the giant rata at Lake Waikaremoana? On the Ngamoko Track in Te Urewera: its age, its size and how to walk to it.",
+  "question_answer": "The giant northern rata at Lake Waikaremoana stands a few minutes' detour off the lower Ngamoko Track in Te Urewera, behind a wooden viewing platform. The Department of Conservation's sign gives it 13 metres around the base and 800 to 1,000 years.",
+  "question_context": "Lake Waikaremoana fills a valley in Te Urewera, the steep, forested country between the Bay of Plenty and Hawke's Bay, and the Ngamoko Track climbs from near its shore through dense forest to the summit of the Ngamoko Range. A short detour from the start of the track brings walkers to a viewing platform and one of the biggest northern rata in the country. According to the Department of Conservation's sign at the rail, the tree began as an epiphyte, a seed growing high in the fork of a host, possibly a rimu. Its aerial roots reached the ground and thickened, and the host rotted away inside them, leaving a trunk of braided columns with dark hollows between. The sign says it was probably three main vines grown together, measures 13 metres around the base and is between 800 and 1,000 years old. A reader walked to the platform and sent us photographs. Check the department's track status before you go.",
+  "faq": [
+    {
+      "q": "How old is the giant rata on the Ngamoko Track?",
+      "a": "Between 800 and 1,000 years old, according to the Department of Conservation's sign beside it."
+    },
+    {
+      "q": "How do I find the rata at Lake Waikaremoana?",
+      "a": "It is a few minutes' detour off the lower Ngamoko Track in Te Urewera, behind a wooden viewing platform with a green sign. Check the track's status with the Department of Conservation first."
+    },
+    {
+      "q": "Why is the rata's trunk hollow?",
+      "a": "It began as a seed high in another tree, probably a rimu, and grew roots down to the ground. The host rotted away inside them, leaving the gaps."
+    }
+  ]
+}

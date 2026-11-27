@@ -1,0 +1,118 @@
+{
+  "city": "Livorno",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Livorno is Tuscany's port on the Ligurian Sea, a short train ride from Pisa. In its Villa Fabbricotti park, redesigned in the 1880s for the Fabbricotti family and owned by the city since 1936, a reader photographed two trees on an autumn walk and sent them to us: a wide, lopsided cedar on the lawn and a southern magnolia spreading its dome beside a gravel path.",
+  "meta_description": "Two trees in Livorno's Villa Fabbricotti park, sent by a reader: a wide cedar and a southern magnolia, where they stand and how to find them.",
+  "hero_tree_id": "lio_001",
+  "oldest_tree_id": "lio_001",
+  "trees": [
+    {
+      "id": "lio_001",
+      "name": "The Cedar of Villa Fabbricotti",
+      "species": "Cedar (Cedrus sp.)",
+      "location": {
+        "address": "Parco di Villa Fabbricotti, Viale della Liberta, Livorno",
+        "latitude": 43.5368,
+        "longitude": 10.3152833333333,
+        "neighbourhood": "Fabbricotti"
+      },
+      "how_to_recognise": "On the lawn near the playground fence: a cedar with one dark trunk and a crown spread wide and lopsided to the right, its long branches drooping almost to the fan palms beneath.",
+      "access": "Free, in a public park, open in daytime.",
+      "verified_sources": [
+        "https://www.regione.toscana.it/-/villa-fabbricotti (Regione Toscana, Villa Fabbricotti, Viale della Liberta 30, Livorno: park redesigned by Vincenzo Micheli for Bernardo Fabbricotti, who bought the estate in 1881; sold to the City of Livorno in 1936; its trees include magnolias and cedars; the villa houses the Biblioteca Labronica)"
+      ],
+      "story": "Livorno's Villa Fabbricotti park was redesigned by the architect Vincenzo Micheli for Bernardo Fabbricotti, who bought the estate in 1881, and the Tuscan region lists cedars among the trees he left behind. A reader walking in the park this autumn stopped at this one and sent us its photograph.\n\nIt is the kind of cedar that grows only when it is given a lawn of its own. A single dark trunk rises out of bare earth and opens into a crown far wider than it is deep, layered in flat blue-green tiers. On the right the limbs reach out so far that their ends droop down towards the fan palms beneath, while the crown leans after them, as if the whole tree had been pulled gently sideways for a century. The drooping sprays look like a Himalayan cedar, a deodar, but we would like a reader to confirm which cedar it is.\n\nThe family sold the villa and its grounds to the city in 1936, and the villa now holds the Biblioteca Labronica, the city library. We do not know when this tree was planted or how big it is; if you do, tell us here.\n\nWalk round to the right side to stand under the longest limbs.",
+      "found_by_reader": {
+        "sighting_id": "f466425f-5733-43bf-ad8b-9a44fe96682b",
+        "date": "2026-11-27"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f466425f-5733-43bf-ad8b-9a44fe96682b",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lio_001-cedar-of-villa-fabbricotti.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_da24af7ac31ae7cdbc1ccdae",
+        "sighting_id": "f466425f-5733-43bf-ad8b-9a44fe96682b",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); viewed and approved on 2026-11-27: the whole cedar from the lawn, a dark trunk rising into a wide, layered blue-green crown with drooping sprays, a playground fence and fan palms behind, a cloudy blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app (sighting f466425f-5733-43bf-ad8b-9a44fe96682b), location kind photo. Photograph viewed: the whole cedar from the lawn, a dark trunk rising into a wide, layered blue-green crown with drooping sprays, a playground fence and fan palms behind, a cloudy blue sky, daylight, colour. No register entry within 100 m, no encyclopaedia article within 300 m (corroborate.py). Reader's own figures: name 'A tree near Pisa', species 'None', age 'None', girth None cm. Published under the closed list for a reader's tree (Hidde, 2026-11-17)."
+    },
+    {
+      "id": "lio_002",
+      "name": "The Magnolia of Villa Fabbricotti",
+      "species": "Southern Magnolia (Magnolia grandiflora)",
+      "location": {
+        "address": "Parco di Villa Fabbricotti, Viale della Liberta, Livorno",
+        "latitude": 43.5366556692111,
+        "longitude": 10.3153099123463,
+        "neighbourhood": "Fabbricotti"
+      },
+      "how_to_recognise": "Beside a gravel path, on a ring of bare earth in the lawn: a short dark trunk splitting into a low broad dome of glossy evergreen leaves with rusty undersides, a tall palm just to the right.",
+      "access": "Free, in a public park, open in daytime.",
+      "verified_sources": [
+        "https://www.regione.toscana.it/-/villa-fabbricotti (Regione Toscana, Villa Fabbricotti, Viale della Liberta 30, Livorno: park redesigned by Vincenzo Micheli for Bernardo Fabbricotti, who bought the estate in 1881; sold to the City of Livorno in 1936; its trees include magnolias and cedars; the villa houses the Biblioteca Labronica)"
+      ],
+      "story": "A few steps from the park's big cedar, a reader photographed this southern magnolia on the same autumn walk in Livorno's Villa Fabbricotti, and sent it to us too.\n\nMagnolias were part of the plan here. The Tuscan region's account of the park, which the architect Vincenzo Micheli redesigned for Bernardo Fabbricotti after he bought it in 1881, names them among its trees, and this one has had room to become what a southern magnolia becomes in a Mediterranean garden. A short, dark trunk stands on a ring of bare earth worn by feet, then splits almost at once into a dozen crooked limbs that spread out level before turning up. The whole crown makes a dome wider than it is tall, thick with leathery evergreen leaves, glossy on top and rusty brown beneath.\n\nIn late spring and early summer it carries the big white flowers, scented like lemon, that gave the tree its fame in the gardens of the south. In the reader's November photograph it is all leaf, and the palm beside it tilts in from the right.\n\nWe do not know its age or girth; tell us here if you know them.\n\nStep under the outer limbs, where the leaves close over your head.",
+      "found_by_reader": {
+        "sighting_id": "c4a19bef-1b0d-4c9e-970d-325bd64cf821",
+        "date": "2026-11-27"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "c4a19bef-1b0d-4c9e-970d-325bd64cf821",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/lio_002-magnolia-of-villa-fabbricotti.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_da24af7ac31ae7cdbc1ccdae",
+        "sighting_id": "c4a19bef-1b0d-4c9e-970d-325bd64cf821",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); viewed and approved on 2026-11-27: the whole magnolia beside a gravel path, a short dark trunk under a broad dome of glossy leaves, a patch of bare earth around it, lawn, a palm at the right, blue sky, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app (sighting c4a19bef-1b0d-4c9e-970d-325bd64cf821), location kind device. Photograph viewed: the whole magnolia beside a gravel path, a short dark trunk under a broad dome of glossy leaves, a patch of bare earth around it, lawn, a palm at the right, blue sky, daylight, colour. No register entry within 100 m, no encyclopaedia article within 300 m (corroborate.py). Reader's own figures: name 'A tree near Pisa', species 'None', age 'None', girth None cm. Published under the closed list for a reader's tree (Hidde, 2026-11-17)."
+    }
+  ],
+  "question_meta": "Which old trees can you see in Livorno? A cedar and a southern magnolia in the Villa Fabbricotti park, and how to find them.",
+  "question_answer": "In Livorno's Villa Fabbricotti park, off Viale della Liberta, a wide cedar stands on the lawn by the playground and a southern magnolia spreads beside a gravel path a few steps away. Both are free to visit in park hours.",
+  "question_context": "Livorno grew up as the Medici's free port on the Tuscan coast, and its villa parks are the green rooms of the newer city. Villa Fabbricotti, on Viale della Liberta, was bought in 1881 by Bernardo Fabbricotti, whose architect Vincenzo Micheli redesigned the villa and its park; the Tuscan region's account lists magnolias, eucalyptus, cedars, figs and cypresses among its trees. The family sold it to the city in 1936, and today the villa houses the Biblioteca Labronica. A reader walking there in November photographed two of its trees and sent them to us. One is a cedar with a crown spread far wider than it is deep, its longest limbs drooping towards the fan palms. The other, a few steps away, is a southern magnolia whose short trunk breaks into a low dome of glossy leaves. We do not yet know their ages or sizes, and anyone who does can tell us on the trees' pages.",
+  "faq": [
+    {
+      "q": "Can I visit the trees in Villa Fabbricotti?",
+      "a": "Yes. Villa Fabbricotti is a public park in Livorno, free to enter in daytime."
+    },
+    {
+      "q": "When does the magnolia in Villa Fabbricotti flower?",
+      "a": "Southern magnolias carry their big white, lemon-scented flowers in late spring and early summer."
+    },
+    {
+      "q": "How old are the trees in Villa Fabbricotti?",
+      "a": "We do not know yet. The park was redesigned after 1881; if you know when these trees were planted, tell us on their pages."
+    }
+  ]
+}
