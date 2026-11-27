@@ -2,19 +2,6 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
-   "id": "sight:dbd699ab-cf16-49cf-a847-8159da83dbac",
-   "seen": "2026-11-27",
-   "kind": "a tree we do not map",
-   "tree": "The Giant Cottonwood of Alum Creek",
-   "city": "Alum Creek",
-   "species": "Eastern Cottonwood (Populus deltoides)",
-   "photo": "p_b8cc3f2ece8104a236a0e2cb/DBD699AB-CF16-49CF-A847-8159DA83DBAC.jpg",
-   "verdict": "publish",
-   "hidde": null,
-   "agreed": null,
-   "reason": "Lead photograph viewed: the whole cottonwood in snow, vast furrowed multi-stemmed trunk with a torn stub, bare crown, daylight, colour; lead of alum-creek/acw_001. Further photograph 1 (a person hugging the trunk) left off as person."
-  },
-  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -29,6 +16,19 @@
    "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:dbd699ab-cf16-49cf-a847-8159da83dbac",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Giant Cottonwood of Alum Creek",
+   "city": "Alum Creek",
+   "species": "Eastern Cottonwood (Populus deltoides)",
+   "photo": "p_b8cc3f2ece8104a236a0e2cb/DBD699AB-CF16-49CF-A847-8159DA83DBAC.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the whole cottonwood in snow, vast furrowed multi-stemmed trunk with a torn stub, bare crown, daylight, colour; lead of alum-creek/acw_001. Further photograph 1 (a person hugging the trunk) left off as person."
   },
   {
    "id": "sight:15c9c8eb-0f24-4f63-8b09-9f54138fbcfc-extra-2",
@@ -750,6 +750,50 @@
    },
    "verdict": "publish",
    "reason": "Former Ohio champion eastern cottonwood by Alum Creek State Park; reader's snow photograph shows the vast multi-stemmed trunk; two sources place it at Cheshire Rd and Africa Rd. Live as alum-creek/acw_001, pin approximate (hand-placed).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:7f6d33cc-9630-4e28-8032-27408a7d7350",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "Bella di Ceciliano",
+   "city": "Arezzo",
+   "species": "Downy Oak (Quercus pubescens)",
+   "photo": "out/sightings/7f6d33cc-9630-4e28-8032-27408a7d7350.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Downy Oak (Quercus pubescens)"
+   },
+   "verdict": "reject",
+   "reason": "Photograph viewed: the Bella di Ceciliano under a storm sky, pale multi-stemmed trunk behind a photinia hedge. Duplicate of the same reader's gallery photo x3, already on the page; nothing lost.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0c30f257-a373-43f7-801d-9367a4630f6a",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "Bella di Ceciliano",
+   "city": "Arezzo",
+   "species": "Downy Oak (Quercus pubescens)",
+   "photo": "out/sightings/0c30f257-a373-43f7-801d-9367a4630f6a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Downy Oak (Quercus pubescens)"
+   },
+   "verdict": "reject",
+   "reason": "Photograph viewed: the Bella di Ceciliano in copper autumn leaf, its trunk splitting low into five stems beside the gravel drive. Duplicate of the same reader's gallery photo x2, already on the page; nothing lost.",
    "hidde": null,
    "agreed": null
   },

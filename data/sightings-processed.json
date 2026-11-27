@@ -8256,6 +8256,18 @@
   "dbd699ab-cf16-49cf-a847-8159da83dbac": {
    "outcome": "published",
    "date": "2026-11-27"
+  },
+  "7f6d33cc-9630-4e28-8032-27408a7d7350": {
+   "outcome": "rejected",
+   "date": "2026-11-27",
+   "tree_id": "arz_001",
+   "reason": "Duplicate: the same frame as the further photograph already in the gallery (arz_001-bella-di-ceciliano-e604000d-x3, the storm-sky shot with a pale multi-stemmed trunk behind a photinia hedge), sent again by the same reader."
+  },
+  "0c30f257-a373-43f7-801d-9367a4630f6a": {
+   "outcome": "rejected",
+   "date": "2026-11-27",
+   "tree_id": "arz_001",
+   "reason": "Duplicate: the same frame as the further photograph already in the gallery (arz_001-bella-di-ceciliano-e604000d-x2, the autumn close shot of the five-stemmed trunk beside the gravel drive), sent again by the same reader."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
