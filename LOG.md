@@ -1,5 +1,14 @@
 # LOG
 
+## 2026-11-27 night run (17:48 window): six species intros, three leads handed back
+
+- Changed in the product: six species intros written from our own trees: Cedar, Eastern Cottonwood, Sweet Gum, Grand Fir, Empress Tree, Elm (data/species/). The Elm page keeps the species open and asks readers. Species pages stay noindexed under the strict cut, so this serves the app and Bing.
+- The 3 READY leads (York riverside plane, Sanfins cypress, Leamington lime) went back to leads as `held` with reasons: no source or photo, outside the day trip with no life check, no honest pin. READY pool is 0. `leads.py` calls a lead READY unless a block reason matches, so sourceless leads slip through; worth tightening.
+- pagegaps.py shows two false gaps: Laténa (its slug is built from the display name, the intro exists under `la-tene`) and Arnold Arboretum (nine newer trees carry the short park name, one page exists under the long name; fix is the trees' `neighbourhood`).
+- Rung 1: no photograph waiting past 24h (reader judge owns the rest); one tree note (Lisbon pohutukawa, "amazing species") read and kept.
+- Rung 2, answered: iOS run 46024472034 failed only because GitHub could not acquire a macOS runner (capacity), not a code fault. The web error "Transition was skipped" is already filtered (760cd8f1a, 01:35), the 16 reports are from cached old pages. 10 open app BUG rows (11-26 batch, Feed and map walks) need Swift and a Mac; this Linux runner cannot build or test them, so they stay for a session.
+- Nothing refused in the shell.
+
 ## 2026-11-27 reader judge: Ohio's former champion cottonwood at Alum Creek
 
 - Changed in the product: a new one-tree place, Alum Creek (Delaware County, Ohio): The Giant Cottonwood of Alum Creek (alum-creek/acw_001), a reader's app tree photographed in snow. Two sources confirm it: Columbus Navigator, which the reader cited, and a 2008 Ohio biodiversity blog that puts it at Cheshire Road and Africa Road, where the reader's pin falls. Their figures (380 in round, 122 ft, 527 points) are given as theirs. The page says it lost its state-champion title after 2020 storm damage, so it claims no current crown. The pin was placed by hand, so it is approximate. The photo is filed in February, from its own date.
