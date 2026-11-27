@@ -2602,6 +2602,16 @@
         "The Land Boat Pine",
         "The Camphor of the Kyoto University Clock Tower"
       ]
+    },
+    {
+      "user_id": "p_53aaa669253594e00af0eac0",
+      "place_slug": "squamish",
+      "place_name": "Squamish",
+      "date": "2026-11-27",
+      "trees": [
+        "The Hollow Cedar of Shannon Falls"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
