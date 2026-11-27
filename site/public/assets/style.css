@@ -1221,15 +1221,6 @@ button.profile-avatar.profile-edit { border: 0; padding: 0; cursor: pointer; }
    trees in view, everything the script set hidden stays hidden, whatever
    display its own rule gives. */
 .place-head [hidden], .panel.is-view .sheet-body > [hidden], #view-body[hidden] { display: none !important; }
-/* Fly, then the city (lib/fly-to-city-js.ts, Hidde 2026-11-26: "A, fly and
-   fade"): the browser's own cross-page fade, which Base.astro's pageswap
-   skips for every navigation but that one. The old map stays under the new
-   one while it fades in, so its tiles have a moment to draw. */
-@view-transition { navigation: auto; }
-html.at-fly #map { view-transition-name: at-map; }
-::view-transition-old(at-map) { animation: none; }
-::view-transition-new(at-map) { animation-duration: .7s; }
-::view-transition-old(root), ::view-transition-new(root) { animation-duration: .3s; }
 #ex-box .exc-box { margin: 14px 0 0; }
 .at-search .ats-clr svg { width: 14px; height: 14px; }
 .at-search .ats-clr:hover { background: #F1EFE8; }

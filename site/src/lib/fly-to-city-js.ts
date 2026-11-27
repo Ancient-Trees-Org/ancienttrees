@@ -1,13 +1,10 @@
 // FLY, THEN THE CITY (Hidde, 2026-11-26: "A, fly and fade"; step 3 of the one
 // map, lib/one-map.ts, CONVENTIONS.md "One map or two"). A city picked in the
 // search on the map does not leave the map: the map flies to the city's trees,
-// and when it lands the city's page opens at exactly that view (#map=, which
-// every map reads, tree-map-js.ts). window.atFlyFade lets the browser's own
-// cross-page fade run for this one navigation (Base.astro's pageswap skips
-// every other one; style.css @view-transition), so the map seems to stay and
-// only the panel changes. Swapping the panel in place instead would mean
-// re-running a dozen page scripts on the pages Google lands on: Hidde chose
-// this over that on 2026-11-26.
+// and when it lands the city's page takes the panel's place at exactly that
+// view (#map=, which every map reads, tree-map-js.ts), without a page load
+// since 2026-11-27 (soft-nav-js.ts). The cross-page fade of 2026-11-26 showed
+// the city twice (Hidde: "very cringe").
 //
 // Text inside a map script: needs maplibregl and atSheetTop (sheet-js.ts) when
 // there is a sheet. The trees' places come from /api/pins.json
@@ -16,11 +13,19 @@ export function flyToCityJs(): string {
   return `
 function atFlyToCity(map, slug) {
   var page = '/' + slug;
+  // The city's page is fetched while the map flies, and swapped in where it
+  // lands, without a page load (soft-nav-js.ts, Hidde 2026-11-27: "ok bouw
+  // optie 2"); a browser without that loads the page as before.
+  if (window.atPage && window.atPage.prefetch) { window.atPage.prefetch(page); }
+  // Where you were before the flight: Back returns there, not to the city
+  // the flight passed on its way (the map keeps its place in the address).
+  var c0 = map.getCenter(), was = '#map=' + map.getZoom().toFixed(2) + '/' + c0.lat.toFixed(5) + '/' + c0.lng.toFixed(5);
   function go() {
     var c = map.getCenter();
-    window.atFlyFade = true;
-    document.documentElement.classList.add('at-fly');
-    location.href = page + '#map=' + map.getZoom().toFixed(2) + '/' + c.lat.toFixed(5) + '/' + c.lng.toFixed(5);
+    var hash = '#map=' + map.getZoom().toFixed(2) + '/' + c.lat.toFixed(5) + '/' + c.lng.toFixed(5);
+    try { if (/^#map=|^$/.test(location.hash)) { history.replaceState(history.state, '', location.pathname + location.search + was); } } catch (e) {}
+    if (window.atPage && window.atPage.go) { window.atPage.go(page, hash); return; }
+    location.href = page + hash;
   }
   function fly(rows) {
     var lngs = [], lats = [];

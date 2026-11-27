@@ -40,6 +40,9 @@ function atTreeMap(o) {
   var opts = { container: o.container || 'map' };
   var map = new maplibregl.Map(atMapFrame(o, { container: o.container || 'map', style: '${MAP_STYLE}', ${ONE_WORLD},
     scrollZoom: !o.embedded, attributionControl: false }));
+  // The page's own map, which a city swapped in without a page load hands
+  // over to and removes (soft-nav-js.ts).
+  if (!o.embedded) { window.atMainMap = map; }
   map.addControl(new maplibregl.AttributionControl({compact: true, customAttribution: ${JSON.stringify(MAP_CREDIT)}}), 'top-left');
   map.addControl(new maplibregl.NavigationControl());
   var geo = null;

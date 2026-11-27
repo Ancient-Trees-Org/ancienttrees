@@ -259,6 +259,15 @@
       "android": "the same as iOS; nothing to change",
       "status": "one-sided",
       "why": "the website catching up with the phones"
+    },
+    {
+      "what": "One map, no reload (Hidde, 2026-11-27: \"ok bouw optie 2\", after the fly and fade showed Lisbon twice): a city picked in the search on any web map flies there, then that city's page is swapped in where the map landed, without a page load, Airbnb's way; the address becomes /<city>#map=...",
+      "since": "2026-11-27",
+      "web": "soft-nav-js.ts in Base.astro's head (listener record, page swap, history entries per page), fly-to-city-js.ts hands over to it; tree-map-js.ts window.atMainMap; the cross-page fade is gone",
+      "ios": "MapSearch frames a picked city on the same map with no new screen; nothing to change",
+      "android": "the same as iOS; nothing to change",
+      "status": "one-sided",
+      "why": "the website catching up with the phones, which never load a screen for this"
     }
   ]
 }

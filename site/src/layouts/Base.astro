@@ -33,6 +33,7 @@ const LEAF = icon("leaf", "bold", "ic");
 const CARET = icon("caret-down", "bold", "nav-caret");
 import AppModal from "../components/AppModal.astro";
 import AppDownloadModal from "../components/AppDownloadModal.astro";
+import { SOFT_NAV_JS } from "../lib/soft-nav-js";
 import ConsentBar from "../components/ConsentBar.astro";
 import {
   AUTH_ENABLED,
@@ -163,14 +164,12 @@ const robotsName = noindexScope(Astro.url.pathname) === "google" ? "googlebot" :
 <link rel="alternate icon" type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href={STYLE_HREF}>
-{/* THE MAP'S FADE, AND ONLY THE MAP'S (2026-11-26, Hidde: "A, fly and fade").
-    style.css opts every page into the browser's cross-page fade; this skips it
-    for every navigation but the one a map's search starts after flying to a
-    city (lib/fly-to-city-js.ts sets atFlyFade), so the map seems to stay and
-    the panel changes. Browsers without view transitions never fire it. */}
-<script is:inline>addEventListener('pageswap', function(e) { if (e.viewTransition && !window.atFlyFade) { var vt = e.viewTransition; vt.skipTransition(); ['ready', 'finished', 'updateCallbackDone'].forEach(function(k) { if (vt[k] && vt[k].catch) { vt[k].catch(function() {}); } }); } });
-addEventListener('pagereveal', function(e) { var v = e.viewTransition; if (!v) { return; } document.documentElement.classList.add('at-fly'); var off = function() { document.documentElement.classList.remove('at-fly'); }; v.ready.catch(off); v.updateCallbackDone.catch(function() {}); v.finished.then(off, off); });
-addEventListener('pageshow', function(e) { if (e.persisted) { window.atFlyFade = false; document.documentElement.classList.remove('at-fly'); } });</script>
+{/* ONE MAP, NO RELOAD (lib/soft-nav-js.ts, Hidde 2026-11-27: "ok bouw optie
+    2"): a city picked in a map's search is swapped in without a page load.
+    First of the page's scripts, so it can write down every listener a page
+    script adds and take them away when the next city comes in. It replaced
+    the cross-page fade of 2026-11-26. */}
+<Fragment set:html={'<script>' + SOFT_NAV_JS + '</script>'} />
 <Fragment set:html={headExtra} />
 {/* WHO YOU ARE, ANSWERED BEFORE ANY PAGE SCRIPT ASKS (2026-09-18). It is in
     the head rather than beside the sheet at the foot of the body because a
@@ -363,7 +362,9 @@ addEventListener('pageshow', function(e) { if (e.persisted) { window.atFlyFade =
     <a href="/app" class="bar-cta" data-app-download data-ev="app-cta">{t.getApp}</a>
   </nav>
 </header>
+<script is:inline data-at-page="main-start">if (window.atPage) { atPage.rec++; }</script>
 <slot />
+<script is:inline data-at-page="main-end">if (window.atPage) { atPage.rec--; }</script>
 {footer && (
 <footer>
   <div class="footer-inner">
@@ -518,7 +519,9 @@ document.addEventListener("click", function (e) {
   if (h.indexOf("google.com/maps/dir") !== -1) { at.track("directions"); }
 });
 </script>
+<script is:inline data-at-page="scripts-start">if (window.atPage) { atPage.rec++; }</script>
 <slot name="scripts" />
+<script is:inline data-at-page="scripts-end">if (window.atPage) { atPage.rec--; }</script>
 <script>
 // One listener tracks every element carrying data-ev, so adding a funnel
 // step is an attribute, never a new script (FUNNELS.md, 2026-08-14).

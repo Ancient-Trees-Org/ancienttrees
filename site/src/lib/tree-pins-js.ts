@@ -189,6 +189,9 @@ function atTreePins(map, o) {
   // time). A grid of PIN_DISTANCE cells keeps it cheap with thousands of trees.
   function place() {
     raf = 0;
+    // A map removed while a frame was pending (a city swapped in without a
+    // page load hands over its map, soft-nav-js.ts) has no style any more.
+    if (!map.style) { return; }
     var z = map.getZoom(), far = thin && z < ${FAR_ZOOM};
     var D = far ? ${FAR_PIN_DISTANCE} : ${PIN_DISTANCE}, D2 = D * D;
     var box = map.getContainer(), W = box.clientWidth, H = box.clientHeight;
@@ -312,6 +315,7 @@ function atTreePins(map, o) {
   var byId = {};
   var api = {
     setData: function(features) {
+      if (!map.style) { return; }
       var piled = atMarkPiles(features);
       map.getSource(src).setData({type: 'FeatureCollection', features: piled});
       byId = {};
