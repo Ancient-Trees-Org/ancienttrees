@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: Madison's Constitution-Year Oak
+
+- New tree live: **The Constitution-Year Oak** (madison/msn_006), Vilas neighbourhood, Madison, Wisconsin. A reader sent it through the app, with the phone's own location: a big, deeply ridged oak, and at its foot the 1987 bronze plaque of the National Arborist Association and the International Society of Arboriculture, presented by the Wisconsin Arborist Association, saying it "lived here at the time of the signing of our Constitution". The plaque is its age source (over 240 years). The reader's 250+ years, 4 m girth and white oak are stated as theirs, and the page asks readers to confirm the species. All three photographs are up: the lead and two in the gallery. It is now Madison's oldest tree we map, so the intro, question texts and first FAQ follow it. The access line says we have not confirmed who owns the wooded ground. A Vilas Park master plan is said to mention a bur oak with the same 1987 plaque, but its text could not be read, so the park is not named.
+- Further photographs: one more for the Fairchild Oak (ormond-beach/obc_001) went into its gallery. Its reader note was closed in reader_words.py because it reads as copied from a web page, and the dedication is already in the story.
+- No reports, tips or feedback waiting.
+
 ## 2026-11-27 reader judge: a kauri in the Kaimai Range
 
 - New tree live: **The Kaimai Kauri above Katikati** (katikati/kti_001), a new one-tree place in New Zealand. A reader sent it through the app with a GPS fix at the tree: a pale grey kauri column on a boardwalk, its sign giving 2.7 m across and 12.8 m to the first limb. Their 600 years and 8.5 m girth are stated as theirs. Both photographs are up (lead and gallery); the access line says to check DOC for kauri-dieback track closures. The track is not named: nothing ties this pin to the Tuahu kauri or the Herald's 600-year-old boardwalk kauri.

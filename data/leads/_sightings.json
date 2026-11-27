@@ -13677,6 +13677,47 @@
    "seen": "2026-11-27",
    "judged": "2026-11-27",
    "published_as": "katikati/kti_001"
+  },
+  {
+   "sighting_id": "2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
+   "user_id": "p_308cc43e79e474818099fff4",
+   "mine": false,
+   "name": "White Oak in Madison",
+   "unsure_among": null,
+   "species": "White Oak",
+   "age": "250+",
+   "girth_cm": 400,
+   "girth_hugs": null,
+   "note": "National arborist assoc named it a significant tree in Bicentennial year",
+   "latitude": 43.0627437,
+   "longitude": -89.4130012,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_308cc43e79e474818099fff4/2C29B653-F9B7-4E11-8AB1-4E5C8DFB6F68.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68-extra-1.jpg",
+    "out/sightings/2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68-extra-2.jpg",
+    "out/sightings/2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68-extra-3.jpg"
+   ],
+   "extra_months": [
+    11,
+    11,
+    11
+   ],
+   "nearest_published_m": 427,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-27: a broad, deeply furrowed oak trunk forking into great limbs, autumn leaf litter around it, a bronze plaque on a post in front reading '1787 1987 The National Arborist Association and the International Society of Arboriculture jointly recognize this significant tree in this bicentennial year as having lived here at the time of the signing of our Constitution. Presented by Wis. Arborist Assn.', houses beyond the trees, daylight, colour. Live as madison/msn_006 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-27",
+   "judged": "2026-11-27",
+   "published_as": "madison/msn_006"
   }
  ]
 }

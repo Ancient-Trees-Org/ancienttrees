@@ -155,6 +155,11 @@
      "date": "2026-11-26",
      "file": "obc_001-the-fairchild-oak-limbs.jpg",
      "verdict": "already_live"
+    },
+    "3": {
+     "date": "2026-11-27",
+     "file": "obc_001-the-fairchild-oak-0adac3f1-x3.jpg",
+     "verdict": "published"
     }
    },
    "tree": "ormond-beach/obc_001"
@@ -548,6 +553,26 @@
     }
    },
    "tree": "shanghai/sha_002"
+  },
+  "2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68": {
+   "extras": {
+    "1": {
+     "date": "2026-11-27",
+     "file": "msn_006-constitution-year-oak.jpg",
+     "verdict": "already_live"
+    },
+    "2": {
+     "date": "2026-11-27",
+     "file": "msn_006-the-constitution-year-oak-2c29b653-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-27",
+     "file": "msn_006-the-constitution-year-oak-2c29b653-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "madison/msn_006"
   },
   "2cbeafcc-400d-4069-a050-cee475026121": {
    "extras": {

@@ -2,17 +2,17 @@
   "city": "Madison",
   "country": "United States",
   "status": "needs_curation",
-  "intro": "Madison's record trees mostly come with paperwork. The University of Wisconsin Arboretum bought a black tupelo for forty cents in 1956 and wrote down the day it was planted out; a blue ash nearby went into the ground on 4 November 1968 and is still alive because it is treated against emerald ash borer. On campus stand Wisconsin's champion pin oak and a ponderosa pine from the far West. In the Vilas neighbourhood, a hackberry 30 metres tall won the city's first Heritage Tree Award for history. Every one is free to see.",
+  "intro": "Madison's record trees mostly come with paperwork. The University of Wisconsin Arboretum bought a black tupelo for forty cents in 1956; a blue ash nearby went into the ground in 1968 and is kept alive against emerald ash borer. On campus stand Wisconsin's champion pin oak and a ponderosa pine from the far West, and in the Vilas neighbourhood a 30-metre hackberry won the city's first Heritage Tree Award for history. Older than all of them is an oak a reader found nearby, its 1987 plaque saying it was alive when the Constitution was signed.",
   "meta_description": "Madison's champion trees: a forty-cent tupelo, a blue ash kept alive against the ash borer, Wisconsin's biggest pin oak and a 30-metre heritage hackberry.",
-  "question_meta": "Madison's oldest tree we map is the Oakland Avenue hackberry, over a century old by a family account. Its story, and four state champions.",
-  "question_answer": "The oldest tree we map in Madison is the Oakland Avenue Hackberry in the Vilas neighbourhood, which the family who nominated it say was planted over a hundred years ago by the man who had the first house in the Oakland development built, in 1897. It stands on the city terrace at Oakland Avenue and Madison Street and is also Wisconsin's champion hackberry, 30.2 metres tall.",
-  "question_context": "Madison's trees are unusually well documented, and the documents mostly describe planted trees rather than ancient ones. The University of Wisconsin Arboretum keeps the life story of its black tupelo down to the day: bought as a seedling for forty cents in 1956, grown on in the nursery, planted out on 3 October 1961. Its blue ash went into the ground on 4 November 1968, grown from seed of a Morton Arboretum tree. Those dates make them about seventy and about sixty, young for record trees, and both species are rare in Wisconsin, wild in one county each. The pin oak in Camp Randall Memorial Park and the ponderosa pine in Allen Centennial Garden have no published age at all. The state's champion register measures size, not years, and a university plant tag reading 56-1527 is a filing number until someone shows it is a date. That leaves the Oakland Avenue hackberry as the oldest, on the strength of a family's account rather than a record, somewhere between about a hundred and 129 years. If you know better, tell us.",
+  "question_meta": "Madison's oldest tree we map is an oak with a 1987 plaque saying it stood here when the Constitution was signed. Its story, and the city's champions.",
+  "question_answer": "The oldest tree we map in Madison is the Constitution-Year Oak in the Vilas neighbourhood, north of Lake Wingra. A bronze plaque at its foot, presented by the Wisconsin Arborist Association in 1987, says it was alive when the United States Constitution was signed in 1787, which makes it well over 240 years old. A reader who sent it to us puts it at more than 250.",
+  "question_context": "Madison's trees are unusually well documented, and the documents mostly describe planted trees rather than ancient ones. The University of Wisconsin Arboretum keeps the life story of its black tupelo down to the day: bought as a seedling for forty cents in 1956, grown on in the nursery, planted out on 3 October 1961. Its blue ash went into the ground on 4 November 1968, grown from seed of a Morton Arboretum tree. Those dates make them about seventy and about sixty, young for record trees, and both species are rare in Wisconsin, wild in one county each. The pin oak in Camp Randall Memorial Park and the ponderosa pine in Allen Centennial Garden have no published age at all. The state's champion register measures size, not years, and a university plant tag reading 56-1527 is a filing number until someone shows it is a date. The oldest is an oak a reader sent us, whose plaque, left in 1987 by two arborists' associations, says it was alive when the Constitution was signed. If you know better, tell us.",
   "hero_tree_id": "msn_001",
-  "oldest_tree_id": "msn_005",
+  "oldest_tree_id": "msn_006",
   "faq": [
     {
       "q": "What is the oldest tree in Madison?",
-      "a": "The oldest we map is the Oakland Avenue Hackberry, which the nominating family say was planted over a hundred years ago by the owner of the first house in the Oakland development, built in 1897. That is a family account, so its age sits somewhere between about 100 and 129 years."
+      "a": "The oldest we map is the Constitution-Year Oak in the Vilas neighbourhood. A 1987 plaque at its foot, presented by the Wisconsin Arborist Association, says it was alive when the Constitution was signed in 1787, so it is over 240 years old. Next comes the Oakland Avenue Hackberry, planted after 1897 by a family's account."
     },
     {
       "q": "Are the University of Wisconsin Arboretum trees free to visit?",
@@ -272,6 +272,85 @@
       "pin_source": "State register nomination point, objectid 3021 (map_display 'Exact location'); one tree coordinate, not checked against imagery",
       "curation_status": "ai_generated",
       "verify_notes": "Two sources: the state register and the City of Madison (Parks Habitat Stewardship Committee), whose first Heritage Tree Awards in 2012 gave the Historic category to this hackberry. City page carries the nominating family's account that the tree was planted over 100 years ago by the man who had the first house in the Oakland development built in 1897; that is a family account (age_max 129 from the 1897 house, an upper bound, not a planting date). House address deliberately not printed: use the street corner. Register points to the terrace on the Madison Street side. Nominatim places the pin beside a Madison St house, so pin is approximate on the corner. iNaturalist 2025-04-12 near pin (alive). Register figures (nomination measurement, date not in the layer): circumference 151.7 in (385 cm), height 99 ft (30.2 m), crown spread [62, 69] ft, 267.07 champion points. Champion status is the state's largest-of-species record at nomination; vitality field none. Open-licence photo search (Commons geosearch 200 m) found no picture of this trunk. Photo pass 2026-11-04 (approved): iNaturalist observation of Celtis occidentalis 3 m from our pin; one tall street hackberry fills the portrait frame on the Oakland Avenue corner, bare, clear daylight."
+    },
+    {
+      "id": "msn_006",
+      "name": "The Constitution-Year Oak",
+      "species": "White Oak (Quercus alba)",
+      "age_estimate": "over 240 years, by its 1987 plaque; more than 250 by a reader's estimate",
+      "age_min": 239,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Among trees in the Vilas neighbourhood, north of Lake Wingra, Madison",
+        "latitude": 43.0627437,
+        "longitude": -89.4130012,
+        "neighbourhood": "Vilas"
+      },
+      "story": "In 1987, the year the United States Constitution turned two hundred, two arborists' associations went looking for trees that had been alive when it was signed. This oak in Madison's Vilas neighbourhood was one of them, and the bronze plaque they left at its foot is still there, in the leaves. A reader sent us both.\n\nThe plaque says it plainly. The National Arborist Association and the International Society of Arboriculture \"jointly recognize this significant tree in this bicentennial year as having lived here at the time of the signing of our Constitution\", presented by the Wisconsin Arborist Association. That makes it older than 1787, so well over two centuries now. The reader puts it at more than 250 years and its trunk at about four metres round; those figures are theirs.\n\nWhat the photographs show is an oak that has had room for a long time. A thick, deeply ridged trunk rises from the leaf litter and splits into a few heavy limbs that bend out sideways and up, among much younger trees and the backs of houses. The reader knows it as a white oak; if you can confirm the species from its leaves or acorns, tell us.\n\nFind the plaque first, then step back to see the whole spread of the crown.",
+      "how_to_recognise": "A broad, deeply ridged oak trunk forking into a few heavy, sideways-bending limbs, with a bronze plaque on a post at its foot dated 1787 and 1987, presented by the Wisconsin Arborist Association.",
+      "access": "The reader photographed it standing beside the plaque among the trees. We have not confirmed who owns the ground; if it turns out to be a garden, look from the street.",
+      "verified_sources": [
+        "Reader's photograph of the plaque at the tree (2026-11-27): '1787 1987 The National Arborist Association and the International Society of Arboriculture jointly recognize this significant tree in this bicentennial year as having lived here at the time of the signing of our Constitution. Presented by: Wis. Arborist Assn.'"
+      ],
+      "found_by_reader": {
+        "sighting_id": "2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
+        "date": "2026-11-27"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app (2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68). Photograph viewed: a broad, deeply furrowed oak trunk forking into great limbs, autumn leaf litter around it, a bronze plaque on a post in front reading '1787 1987 The National Arborist Association and the International Society of Arboriculture jointly recognize this significant tree in this bicentennial year as having lived here at the time of the signing of our Constitution. Presented by Wis. Arborist Assn.', houses beyond the trees, daylight, colour. Two further photographs: the plaque close up, and the whole trunk and limbs from below. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'White Oak in Madison', species 'White Oak', age '250+', girth 400 cm; note: 'National arborist assoc named it a significant tree in Bicentennial year'. No register entry within 100 m. A search found a Vilas Park master plan (MSA, 2022) said to mention a bur oak with a 1987 Wisconsin Arborist Association plaque, but its text could not be read and nothing ties it to this pin, so it is not named; the species stays the reader's white oak and the page asks.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/msn_006-constitution-year-oak.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_308cc43e79e474818099fff4",
+        "sighting_id": "2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); viewed and approved on 2026-11-27: a broad, deeply furrowed oak trunk forking into great limbs, autumn leaf litter around it, a bronze plaque on a post in front reading '1787 1987 The National Arborist Association and the International Society of Arboriculture jointly recognize this significant tree in this bicentennial year as having lived here at the time of the signing of our Constitution. Presented by Wis. Arborist Assn.', houses beyond the trees, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/msn_006-the-constitution-year-oak-2c29b653-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, kept by the app",
+          "source": "contributor",
+          "contributor_user_id": "p_308cc43e79e474818099fff4",
+          "sighting_id": "2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/msn_006-the-constitution-year-oak-2c29b653-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, kept by the app",
+          "source": "contributor",
+          "contributor_user_id": "p_308cc43e79e474818099fff4",
+          "sighting_id": "2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

@@ -83,6 +83,18 @@
           "contributor_user_id": "p_456665b8a773124350ec9019",
           "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68-extra-1",
           "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/obc_001-the-fairchild-oak-0adac3f1-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_456665b8a773124350ec9019",
+          "sighting_id": "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-27 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
     }

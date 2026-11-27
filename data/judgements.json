@@ -2,19 +2,6 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
-   "id": "sight:412d732a-a569-428b-a51e-cd7bb7f82119",
-   "seen": "2026-11-27",
-   "kind": "a tree we do not map",
-   "tree": "The Kaimai Kauri above Katikati",
-   "city": "Katikati",
-   "species": "Kauri (Agathis australis)",
-   "photo": "p_bbdee5b7a8f38ffa1b4a1176/412D732A-A569-428B-A51E-CD7BB7F82119.jpg",
-   "verdict": "publish",
-   "hidde": null,
-   "agreed": null,
-   "reason": "Lead photograph viewed: the pale grey kauri column rising from a timber boardwalk, its sign at the foot (2.7 m across at 1.5 m, 12.8 m to first limb), daylight, colour; lead of katikati/kti_001. A second photograph, looking up the trunk into the crown, is in its gallery."
-  },
-  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -29,6 +16,32 @@
    "reason": "Recorded retroactively on 2026-09-23: approved by a viewing pass; reason in the photo note",
    "hidde": null,
    "agreed": null
+  },
+  {
+   "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Constitution-Year Oak",
+   "city": "Madison",
+   "species": "White Oak (Quercus alba)",
+   "photo": "p_308cc43e79e474818099fff4/2C29B653-F9B7-4E11-8AB1-4E5C8DFB6F68.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: a broad, deeply ridged oak trunk forking into heavy limbs, the 1787-1987 bicentennial plaque of the arborists' associations at its foot, daylight, colour; lead of madison/msn_006. The plaque close up and the whole trunk from below are in its gallery."
+  },
+  {
+   "id": "sight:412d732a-a569-428b-a51e-cd7bb7f82119",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Kaimai Kauri above Katikati",
+   "city": "Katikati",
+   "species": "Kauri (Agathis australis)",
+   "photo": "p_bbdee5b7a8f38ffa1b4a1176/412D732A-A569-428B-A51E-CD7BB7F82119.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the pale grey kauri column rising from a timber boardwalk, its sign at the foot (2.7 m across at 1.5 m, 12.8 m to first limb), daylight, colour; lead of katikati/kti_001. A second photograph, looking up the trunk into the crown, is in its gallery."
   },
   {
    "id": "sight:4b492b05-4ce4-46ec-8151-2c49e234334f",
@@ -955,6 +968,34 @@
    },
    "verdict": "publish",
    "reason": "Photograph viewed: a giant kauri trunk on a boardwalk with its sign (2.7 m across, 12.8 m to first limb), GPS fix at the tree; live as katikati/kti_001, a new one-tree place",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "White Oak in Madison",
+   "city": null,
+   "species": "White Oak",
+   "photo": "p_308cc43e79e474818099fff4/2C29B653-F9B7-4E11-8AB1-4E5C8DFB6F68.jpg",
+   "reader_note": "National arborist assoc named it a significant tree in Bicentennial year",
+   "reader_girth_cm": 400,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about White Oak"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a big, deeply ridged oak with a 1787-1987 bicentennial plaque from the arborists' associations at its foot; GPS fix from the phone. Live as madison/msn_006, Madison's oldest tree we map by the plaque.",
    "hidde": null,
    "agreed": null
   },
