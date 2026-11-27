@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-27 night run (12:08 window), rung 2 only, nothing shipped
+
+health.py exit 1: (1) postbox.yml and livecheck.yml are 28h old; `gh workflow run` was refused with HTTP 403 from this runner, so they need a session. (2) Web error "Transition was skipped" (16 reports, 13 pages): the ignore filter in web-errors-js.ts already shipped 2026-11-27 01:35 (760cd8f1a), so these are most likely older builds; check again after the next deploy. (3) Open app BUG rows: the Swift fixes for the 2026-11-26 rows are already on main with their walks (2030fd6f8, 6cc3a3380, 1d8b21a11, c05a3e156) but the rows still say open; they close once the iOS CI walks pass on those commits, which this runner cannot run. The 2026-11-25 row "a tree you added cannot be edited" has no test and no fix, and is a UX decision. No tree work: own research is paused, and reader judging belongs to the reader judge.
+
 <!-- archive-index -->
 
 **Older entries live in the archive**, moved by `scripts/archive_logs.py`, nothing deleted:
