@@ -426,6 +426,10 @@ export function searchWidgetJs(lang = "en"): string {
       syncClr();
       drop.hidden = true; active = -1;
       input.blur();
+      // The phone's full-screen search (the bar's details) closes, so the
+      // map it covered can be seen moving (no page load closes it now).
+      var dt = input.closest ? input.closest('details[open]') : null;
+      if (dt) { dt.open = false; }
       return;
     }
     window.location.href = row.getAttribute('href');

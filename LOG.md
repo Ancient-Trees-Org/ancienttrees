@@ -343,7 +343,9 @@ Rung 1: no reader backlog; one new tree note (North Berwick Law beeches, a visit
 - Open with Hidde: picking a city in the search still loads its page behind a fade; loading nothing at all means swapping the city's panel in place, the bigger rewrite he set aside on 2026-11-26.
 - **Every English city page is the one map now** (2026-11-27, Hidde: "Ja, alle steden"; `ONE_MAP_CITIES = "all"`). Checked live: London (wheel), Lisbon (drag), Bilbao on a 375px phone (drag), no console errors.
 - **Translated city pages too** (Hidde: "Ja, vertaalde ook"): /de/berlin dragged turns into "Die Karte der alten Bäume" at /de/explore#map=..., checked live.
-- Next: country and state pages.
+- **Country pages too** (Hidde: "Eerst landpagina's"): the map draws the neighbours' trees, a drag turns the panel into the trees in view; checked live on Portugal.
+- **No reload when a city is searched on a map** (Hidde: "ok bouw optie 2", after the fly and fade showed Lisbon twice: "very cringe"): the map flies, then the city's page is swapped in without a page load, Airbnb's way (site/src/lib/soft-nav-js.ts in Base.astro's head; the fade is gone). Checked live: London to Lisbon, /explore to Kyoto, Kyoto to Osaka on a 375px phone, no console errors; Back returns to where you were (a real load of that page). The phone's full-screen search now closes when a place is picked on the map. Google still gets every page whole from the server.
+- Next: state pages; translated pages swap to English cities with a real load (another language).
 
 ## 2026-11-26 night run (19:08 window): nothing to ship
 
