@@ -28,6 +28,12 @@ Web half: the last 24 hours were reader-judge trees (Alstonville fig, Squamish c
 - WARN site/dist/collections/ancient-oaks-of-europe.html and collections/europes-most-remarkable-yews.html "every coordinate verified" (twelfth review; hard rule 2). Also in api/browse.json.
 - NOTE session start reports the iOS app workflow failing on its schedule (newest 2026-11-27); rung 2 for a run.
 
+App half (iPhone SE: feed, feedback, map-bar, map-full, map-pin, map): looked at all six.
+
+- NOTE APP map-pin.png (repeat of 2026-11-26): the Amsterdam map is open with a card for "Dąb Fabrykant", a Polish oak, and the map is not centred on it. Still reads as a card that contradicts the map; a session to check whether a pin tap or only the sweep fixture does this.
+- NOTE APP map-full.png (repeat): the floating "Map" pill sits over the third list row and cuts "Copper Beech, 130 years" in half; a stray control next to the tab bar's own Map tab.
+- NOTE APP feedback.png: the sheet titled "Feedback" says behind the sign-in "You need an account to send a tree", which does not match the title; the sign-in sheet's "vote, correction and tip" matches the feedback purpose better.
+
 ---
 
 ## 2026-11-25 code (full)
