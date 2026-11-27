@@ -187,11 +187,13 @@ function toPlace() {
 // A zoom by wheel, pinch, double click or the + and - buttons does not
 // always carry an originalEvent on its zoomstart (a wheel zoom never did,
 // found live 2026-11-27), so those inputs are read on the map itself and
-// count for the move that ends within a second and a half.
+// make the move that STARTS within two seconds of them yours (a wheel's zoom
+// starts up to a second later and can end two seconds after the wheel).
 var _viewUserMove = false, _viewZoomAt = 0;
 function _viewZoomed() { _viewZoomAt = Date.now(); }
 map.on('dragstart', function() { _viewUserMove = true; });
 map.on('zoomstart', function(e) { if (e && e.originalEvent) { _viewUserMove = true; } });
+map.on('movestart', function() { if (Date.now() - _viewZoomAt < 2000) { _viewUserMove = true; } });
 (function() {
   var box = map.getContainer();
   box.addEventListener('wheel', _viewZoomed, { passive: true });
@@ -202,7 +204,7 @@ map.on('zoomstart', function(e) { if (e && e.originalEvent) { _viewUserMove = tr
   });
 })();
 map.on('moveend', function() {
-  var user = _viewUserMove || Date.now() - _viewZoomAt < 1500;
+  var user = _viewUserMove;
   _viewUserMove = false;
   if (VIEW || !user) { return; }
   _viewZoomAt = 0;
