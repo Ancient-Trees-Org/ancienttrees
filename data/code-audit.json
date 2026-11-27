@@ -1244,8 +1244,10 @@
    "file": "ios/AncientTrees/AncientTrees/Kit/PhotoLikes.swift",
    "summary": "A heart tapped on a photo while signed out asked for a sign-in and then was not given",
    "first_seen": "2026-11-27",
-   "status": "open",
-   "found_by": "hidde"
+   "status": "fixed",
+   "found_by": "hidde",
+   "no_test_reason": "the continuation runs after a real sign-in sheet closes; UI tests sign in through a launch session, not the sheet, so no test reaches the hand-off; read in code: PhotoHeart and the double tap now pass giveAfterSignIn as the job",
+   "fixed_in": "1e376665f"
   }
  ]
 }
