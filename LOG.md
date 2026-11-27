@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-27 reader judge: a reader's photo now leads the Larger Bunya Pine of Catania
+
+- A reader sent a photograph of the Larger Bunya Pine of Villa Bellini (cat_002), Catania, from 27 m away. I looked at it: a tall araucaria rising far above the palms and holm oaks by the Via Etnea steps, in daylight, with its near-identical neighbour just behind. It went up beside the Commons photograph and now leads the page. The reader's "it is on the page" mail is queued.
+- The old Anseman Oak photo from New Orleans (sighting 91f2f869) was left as a waiting lead by this afternoon's session, so I recorded its verdict: held `doubt_location`. It shows another oak in the grove, and its coordinate may be our old pin. The photo was only added to the reader's collection, so there is no submissions row and hold_reply.py could not queue the standard "is it that tree, and where?" mail. The text is in drafts/reply-reader-lead-91f2f869-2026-11-27.md, for a session to send as a one-mail batch.
+- There were no open reports, feedback, tips, further photographs or words to quote. The other open leads in _sightings.json are our own `mine` test sightings. qa source checks, preflight and i18ncheck were clean.
+- For Hidde: one mail to the New Orleans reader waits in drafts/reply-reader-lead-91f2f869-2026-11-27.md (a session sends it).
+
 ## 2026-11-27 reader judge: a Black Poplar on hold until we know where it stands
 
 - One tree was waiting: a reader's "Black Poplar near Ulverston" sent from the app (sighting 36e8a880). I looked at the photograph. It shows a big, deeply furrowed poplar with a hollow high on the trunk, beside a path on a raised bank, with a cyclist at its foot for scale. It is special enough to go live. But the pin, which the reader placed by hand, is on New Quay Road in Aldcliffe, Lancaster, by the Lune estuary path. Ulverston is 25 km away across Morecambe Bay. A wrong location costs trust, so I held it as `doubt_location`, and the standard mail asking where it stands goes at the next knock (submission 1753). When they answer, it goes live the same run.

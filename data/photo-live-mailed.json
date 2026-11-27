@@ -3490,7 +3490,17 @@
   },
   "p_9ba2fe2890d0fba37865bf67": {
    "last": "2026-11-27",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "aeef3c90-878d-4e12-8ea2-cd40d09dc161",
+     "tree_id": "cat_002",
+     "tree_name": "The Larger Bunya Pine of Villa Bellini",
+     "city": "Catania",
+     "city_slug": "catania",
+     "display_name": null,
+     "live": "2026-11-27"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "929beb72-30d0-4d9d-beaf-4e6ef5c88d6a",

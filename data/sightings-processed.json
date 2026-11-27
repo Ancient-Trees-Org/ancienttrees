@@ -8216,6 +8216,18 @@
   "36e8a880-dc48-4f47-8fdf-e60c4bbe6a1a": {
    "outcome": "held",
    "date": "2026-11-27"
+  },
+  "aeef3c90-878d-4e12-8ea2-cd40d09dc161": {
+   "outcome": "added",
+   "date": "2026-11-27",
+   "tree_id": "cat_002",
+   "city_slug": "catania",
+   "file": "cat_002-the-larger-bunya-pine-of-villa-bellini-aeef3c90.jpg",
+   "reason": "A tall Araucaria towering over the palms and holm oaks at the Via Etnea steps of Villa Bellini, daylight and colour, the whole tree in frame; sent for this tree from 27 m, a second araucaria crown just behind it, as the recognition line says of its near-identical neighbour. Species seen: Araucaria: ",
+   "lat": 37.5106716822531,
+   "lon": 15.0848830198144,
+   "extras": 0,
+   "pin_checked": "2026-11-27"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

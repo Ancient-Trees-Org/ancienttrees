@@ -522,6 +522,28 @@
    "agreed": null
   },
   {
+   "id": "sight:aeef3c90-878d-4e12-8ea2-cd40d09dc161",
+   "seen": "2026-11-27",
+   "kind": "photo of a tree we map",
+   "tree": "The Larger Bunya Pine of Villa Bellini",
+   "city": "Catania",
+   "species": "Bunya Pine (Araucaria bidwillii)",
+   "photo": "out/sightings/aeef3c90-878d-4e12-8ea2-cd40d09dc161.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 27,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Bunya Pine (Araucaria bidwillii)"
+   },
+   "verdict": "publish",
+   "reason": "Viewed: a tall araucaria rising far above the palms and holm oaks at the Via Etnea steps of Villa Bellini, daylight and colour, its near-identical neighbour just behind; sent for this tree from 27 m, so it is this tree. Added beside the Commons photo and now leads (cat_002).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",
@@ -27844,6 +27866,27 @@
    "id": "sight:e1144bea-fd53-4cc6-a71f-d523c763f64f",
    "verdict": "publish",
    "reason": "Contributor photograph now the lead on its page. Hidde's look 2026-11-18: goes live. A knotted, coiling pea-family trunk at the Mexikopuszta inn; pagoda tree or locust left open. GPS fix. Live as fertoujlak/fuj_001.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:91f2f869-b590-4465-8512-c49c7ca04a54",
+   "seen": "2026-11-15",
+   "kind": "a tree we do not map",
+   "tree": null,
+   "city": "New Orleans",
+   "species": null,
+   "photo": "p_802261c7cf0cd9b255100c55/91F2F869-B590-4465-8512-C49C7CA04A54.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "doubt_location: a massive burled live oak in City Park's grove, once the Anseman Oak's lead photo; the ambassador's placing shows the Anseman forks at head height and stands 115 m north, so this is another grove oak, and its coordinate may be our old pin. Question drafted (drafts/reply-reader-lead-91f2f869-2026-11-27.md) since the photo has no submissions row.",
    "hidde": null,
    "agreed": null
   },

@@ -93,18 +93,33 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Pino_del_Queensland_monumentale.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Ivan Ruggiero, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/cat_002-the-larger-bunya-pine-of-villa-bellini-aeef3c90.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1058,
-        "height": 2749,
-        "taken_month": 3
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_9ba2fe2890d0fba37865bf67",
+        "sighting_id": "aeef3c90-878d-4e12-8ea2-cd40d09dc161",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); a viewing pass approved it on 2026-11-27: A tall Araucaria towering over the palms and holm oaks at the Via Etnea steps of Villa Bellini, daylight and colour, the whole tree in frame; sent for this tree from 27 m, a second araucaria crown just behind it, as the recognition line says of its near-identical neighbour. Species seen: Araucaria: whorled branches of stiff, spiralled dark leaves on a straight column, conifer crown far above the park canopy. Fits the description: the tallest tree in Villa Bellini's lower garden, with a second similar araucaria close beside it, in the park by Via Etnea.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "height_m": 45.0,
       "verify_notes": "Height 45.0 m from the italy-masaf register, matched on our own pin (0 m away). 2026-09-04: a deepen pass on Catania found this tree's own citation and story text quoted the neighbour's girth (340cm) instead of its own (300cm, which matches sheet 03 at this pin's exact coordinate); corrected the citation and prose, girth_cm field was already right.",
       "girth_cm": 300,
-      "how_to_recognise": "You can recognise it by its straight bare trunk topped with a dark, dome-shaped crown of stiff spiralled leaves. It stands in Villa Bellini, twenty to thirty metres from its near-identical bunya pine neighbour."
+      "how_to_recognise": "You can recognise it by its straight bare trunk topped with a dark, dome-shaped crown of stiff spiralled leaves. It stands in Villa Bellini, twenty to thirty metres from its near-identical bunya pine neighbour.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Pino_del_Queensland_monumentale.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Ivan Ruggiero, via Wikimedia Commons",
+          "status": "approved",
+          "width": 1058,
+          "height": 2749,
+          "taken_month": 3
+        }
+      ]
     },
     {
       "id": "cat_003",
