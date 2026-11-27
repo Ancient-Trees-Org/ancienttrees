@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: the Kyoto Gyoen muku's pin moves off the road onto the park wall
+
+- **Live: kyoto/kyo_019, the Twisted Muku of Omiya Gate**: its pin moved about 120 m north (35.017 to 35.0181, same longitude). A reader wrote (report 1000159) that the tree is "slightly more north across Marutamachi-Dori on the southern wall of Gyo-en". Our old pin was the Sudajii's (kyo_016) estimated gate-area point, and it sat on Marutamachi-dori itself. The new spot is from their description, so it is now `approximate`. It had been marked `confirmed` under a 2026-10-05 "reader GPS fix" label, but its own verify_notes say the app recorded our pin, not the phone's. Overpass was at capacity, so the street's position comes from Marutamachi Station's known coordinate, not from OSM geometry.
+- The reader wrote words of their own, so the report closed `holds` with no mail. A suggested reply is in drafts/reply-reader-1000159-2026-11-27.md for Hidde. kyo_016 still sits on the old point and was not touched (nobody reported it).
+- Nothing else was waiting: no queued photographs, tips, feedback, further photographs or words to quote, and nothing late. The 37 open leads in _sightings.json are from our own accounts. Preflight found 0 problems, the qa source checks were clean and i18ncheck was clean.
+
 ## 2026-11-27 reader judge: Skarseken in Gothenburg has its first photograph, and its pin follows the reader
 
 - **Live: gothenburg/got_002, Skarseken** now has a lead photograph. Until now it had none. A reader sent it from the tree's page (sighting 53ef0785): a heavy oak with ivy up the trunk and a bare winter crown, standing alone between houses with a white house behind it. The species and the recognition line both match. It is filed under November, the month the photo was taken.

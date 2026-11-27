@@ -831,12 +831,12 @@
       "species": "Muku Tree (Aphananthe aspera)",
       "age_estimate": "Not documented",
       "location": {
-        "latitude": 35.017,
+        "latitude": 35.0181,
         "longitude": 135.7605,
         "address": "",
         "neighbourhood": "On the stone perimeter wall near Omiya-gomon, Kyoto Gyoen, Kamigyo-ku"
       },
-      "location_precision": "confirmed",
+      "location_precision": "approximate",
       "curation_status": "flagged",
       "story": "Go looking for the old chinkapin at the Omiya gate and this is the tree that catches your eye. Its trunk is pale grey and smooth, shedding in long strips, and it does not so much rise as wander. It leans, twists back on itself and swells into a burl where it clears the top of the stone wall, while its roots spill over the kerb onto the path.\n\nIt stands on the edge of the park, in the outer belt of woodland that the garden's own managers describe as full of big muku, hackberry and zelkova. We believe it is a muku, Aphananthe aspera, from the bark and the leaves in the one photograph we have. Nobody has measured it, dated it or put it on a register, so if you know better, or have a tape measure with you, we would like to hear from you.\n\nIf it is a muku, the leaves are worth touching. They are rough enough that craftsmen once used them as sandpaper, to polish wood, horn and lacquer. In autumn it drops small black fruit that is sweet enough to eat straight from the ground.\n\nThe camphor at Munakata Shrine is a few minutes' walk away.",
       "how_to_recognise": "You can recognise it by its pale grey trunk, shedding in long strips, that twists up past the top of the stone wall into a big burl, with roots spilling over the kerb and a darker, mossy trunk right behind it.",
@@ -861,11 +861,11 @@
       "verify_notes": "Added 2026-09-11 on Hidde's own ruling after seeing it: 'voeg m maar gewoon toe ik vind hem vet'. The evidence for this trunk is his photograph alone. Species is our identification from bark and leaves in that photograph (muku; keyaki the alternative, less likely because the bark shows no orange patches). No register, measurement or age. The cited source (the Kyoto Gyoen office, Ministry of the Environment) documents the setting, the park's outer woodland with many giant muku, enoki and keyaki, not this tree. Pin is kyo_016's approximate gate-area coordinate: Hidde reports it stands at that spot on the park's edge. The app recorded our pin rather than his phone's fix (CollectSheet.swift records t.lat/t.lng for a listed tree), so there is no GPS for the photograph.",
       "curation_note": "species identified from a photograph; ask readers",
       "pin_source": {
-        "kind": "reader GPS fix",
-        "sighting_id": "84ebae36-c683-4d39-86ac-a7db33d70910",
-        "moved_m": 0,
-        "date": "2026-10-05",
-        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it (CLAUDE.md 2026-09-08, made automatic 2026-10-05)."
+        "kind": "reader report",
+        "report_id": 1000159,
+        "moved_m": 122,
+        "date": "2026-11-27",
+        "note": "Reader report 1000159: the tree stands slightly further north, across Marutamachi-dori on the southern wall of Kyoto Gyoen. The old pin (35.017, 135.7605, kyo_016's approximate gate-area coordinate) sat on Marutamachi-dori itself; moved north onto the park's south wall at the same longitude. Approximate: a description in words. The 2026-10-05 label that called the old pin a reader's phone fix was wrong; the app had recorded our own pin for the photograph (see verify_notes)."
       }
     },
     {
