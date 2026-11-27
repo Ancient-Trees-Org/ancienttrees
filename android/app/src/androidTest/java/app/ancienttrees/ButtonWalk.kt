@@ -155,6 +155,22 @@ class ButtonWalk {
     private fun launch(args: List<String>) {
         beat("launch ${args.joinToString(" ")}")
         scenario?.close()
+        // THE OLD SCREEN GONE BEFORE THE NEXT (2026-11-27): launched straight after a
+        // close, Android's window manager on API 37 sometimes never gave the new screen
+        // its focus ("Duplicate finish request"), the app's main thread idle the whole
+        // time, and the launch waited for ever. Wait until no MainActivity is alive.
+        val gone = System.currentTimeMillis() + 10_000
+        while (System.currentTimeMillis() < gone) {
+            var alive = false
+            InstrumentationRegistry.getInstrumentation().runOnMainSync {
+                val m = ActivityLifecycleMonitorRegistry.getInstance()
+                alive = listOf(Stage.PRE_ON_CREATE, Stage.CREATED, Stage.STARTED, Stage.RESUMED, Stage.PAUSED, Stage.STOPPED)
+                    .any { st -> m.getActivitiesInStage(st).any { it is MainActivity } }
+            }
+            if (!alive) break
+            Thread.sleep(100)
+        }
+        Thread.sleep(300)
         val at = if (args.any { it.startsWith("-at=") }) emptyList() else listOf(ORIGIN)
         val intent = Intent(ApplicationProvider.getApplicationContext(), MainActivity::class.java)
             .putExtra("args", (base + at + args).toTypedArray())

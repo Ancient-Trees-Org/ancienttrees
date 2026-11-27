@@ -1,5 +1,21 @@
 # LOG
 
+## 2026-11-27 Android night walk: every button on every screen, unattended
+
+What changed in the app (Android):
+- The locate arrow on the map no longer takes a tap while it has faded to nothing (a full sheet, an open tree card): it leaves the screen instead of standing there invisible for a finger and TalkBack.
+- The Feed and Every photo visitors sent keep their posts as one list swapped whole, so a page arriving while the screen reads it can no longer throw (ConcurrentModificationException, seen in the walk).
+- A Supabase request that is cancelled stays cancelled instead of pretending it failed.
+
+What changed in the test street:
+- ButtonWalk.kt walks the Feed too (the iPhone's list had it), reads the screen on the app's own thread (reading from the test thread threw "performMeasureAndLayout called during measure layout"), waits until the old screen is gone before each launch, names a stall after 30 s with every thread's stack (logcat tag ButtonWalkStall) instead of waiting for ever, gives the root cause of a failure, and skips the locate arrow only when location is allowed (it then moves only MapLibre's camera, which the tree cannot show; CI's emulators have no permission, so there it is tapped and must ask).
+
+Result on a private API 37 emulator, one screen at a time: 28 of 32 green; unit tests 154 of 154.
+
+Still open, for the next session:
+- Feed in ButtonWalk: every control reads as dead in the walk (tiles, bylines, hearts), while a finger on the same build opens the tree (checked by hand, screenshots). The walk's taps do not reach the Feed; cause not found.
+- On the API 37 emulator a launch sometimes never gets focus from Android (app main thread idle, "Duplicate finish request"); rarer after the wait, not gone. Not seen on CI's API 35.
+- Why the first run sat at 0 of 29 for 2.5 hours: a Gradle run with no limit per test, the Mac asleep, and a second session driving the same emulator. Long walks now run one screen at a time with a limit, under caffeinate, on their own emulator.
 ## 2026-11-27 reader judge: a giant fig in the Big Scrub rainforest near Alstonville, NSW
 
 - **Live: alstonville/aln_001, The Moreton Bay Fig of Victoria Park.** A reader sent it through the app (sighting c428c962), and it is a tree we do not map; no tree of ours stands within 80 km. The photograph looks straight up a huge buttressed fig trunk laced with vines, with a thin palm rising beside it, in daylight and colour. Its GPS fix from the phone falls inside Victoria Park Nature Reserve, about 200 m from the reserve's Wikipedia centroid, so the pin is confirmed. The NSW National Parks page is the source that names the reserve. The species, the age (500 to 1,000 years) and the girth (15 m) are the reader's, and the story says so. The photo is filed in November from its own date.

@@ -41,7 +41,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.rememberUpdatedState
@@ -85,7 +84,9 @@ fun VisitorPhotosPage(catalogue: Catalogue, act: DiscoverActions, onBack: () -> 
     // Every row the server sent, each with the one before it. Which are tiles is
     // asked of the catalogue as the page draws (VisitorPhotos.swift `items`), so a
     // photograph the feed did not carry yet appears the moment the feed does.
-    val rows = remember { mutableStateListOf<Pair<NewFromVisitors.Row, NewFromVisitors.Row?>>() }
+    // ONE IMMUTABLE LIST, REPLACED WHOLE, as the Feed's (ButtonWalk, 2026-11-27: a
+    // ConcurrentModificationException in `items` while a page came in row by row).
+    var rows by remember { mutableStateOf<List<Pair<NewFromVisitors.Row, NewFromVisitors.Row?>>>(emptyList()) }
     val cat by rememberUpdatedState(catalogue)
     val items by remember {
         derivedStateOf {
@@ -118,10 +119,12 @@ fun VisitorPhotosPage(catalogue: Catalogue, act: DiscoverActions, onBack: () -> 
         // No answer: the page stops where it is, as the website's does.
         val page = answer ?: run { done = true; return }
         var prev = last
+        val added = ArrayList<Pair<NewFromVisitors.Row, NewFromVisitors.Row?>>()
         for (r in page) {
-            rows.add(r to prev)
+            added.add(r to prev)
             prev = r
         }
+        rows = rows + added
         page.lastOrNull()?.let { last = it }
         if (page.size < NewFromVisitors.PAGE_SIZE) done = true
         // A page whose photographs the feed does not carry yet added nothing, and
@@ -132,7 +135,7 @@ fun VisitorPhotosPage(catalogue: Catalogue, act: DiscoverActions, onBack: () -> 
     // Signed in, the names come with the account id; the page starts again when that changes.
     LaunchedEffect(signedIn) {
         generation++
-        rows.clear(); last = null; done = false; busy = false
+        rows = emptyList(); last = null; done = false; busy = false
         more()
     }
 
