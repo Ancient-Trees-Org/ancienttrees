@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-27 night run (retry, 22:10 window): shelf empty, nothing shipped
+
+- No product change. Resolved a LOG.md rebase conflict (kept both entries). No claims standing; READY leads 0; every unpublished verified file is a duplicate-by-pin or an id collision with a live tree (hard rule 3), not writable. Own research stays paused, so no verify pass.
+- Depth lanes empty: reader_words 0 notes (4 mail sentences wait for the sender's yes), recognise --stuck 0. Open app BUG rows need a Mac runner; web error getLayer (maplibre, 2 pages) is orange.
+
 ## 2026-11-27 reader judge: a new lead photograph for the Brockwell Oak
 
 - New lead photograph: **The Brockwell Oak** (london/lon_026) now opens with a second reader's sunlit autumn shot (taken 2026-11-23): the whole tree inside its new fence, with Brockwell Hall behind. The first reader's photo from 2026-11-20 moved to the gallery. The reader is mailed.
