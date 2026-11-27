@@ -111,6 +111,9 @@ export const WEB_ERRORS_JS = `
       var r = e && e.reason;
       var msg = r && r.message ? (r.name ? r.name + ': ' : '') + r.message : String(r);
       var stack = r && r.stack ? String(r.stack) : '';
+      // A page change that a quicker one replaces rejects the browser's view
+      // transition promise; nothing broke for the visitor, so it is not an error.
+      if (/Transition was (skipped|aborted)/.test(msg)) { e.preventDefault && e.preventDefault(); return; }
       if (foreign(stack)) return;
       var src = 'promise', line = 0;
       if (stack) {

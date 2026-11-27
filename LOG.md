@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 night run (second attempt): web error fix, nothing else to write
+
+- Changed in the product: nothing visible. `web-errors-js.ts` no longer reports a browser view-transition rejection ("Transition was skipped/aborted"; a faster page change replaced the slower one, nothing broke for the visitor). It was the red web-error row (16 reports, 13 pages). Not built or tested here: no dist in this runner, so qa could not run; the next deploy's checks will.
+- READY pool is 0 and passcheck --pending lists only stale or duplicate files (all already published under another id), so there was nothing to write. Own research is paused, so no verify pass was dispatched. recognise --stuck is empty, reader_words has 0 waiting.
+- iOS "failure" on 46024472034 is two cancelled jobs (look, test), no failed assertion: runner cancellation after a push superseded it. Not fixed, rerun on the next push. The 10 open app BUG rows already name their tests; fixing them needs Xcode, which this Linux runner does not have.
+
 ## 2026-11-27 night run (17:48 window): six species intros, three leads handed back
 
 - Changed in the product: six species intros written from our own trees: Cedar, Eastern Cottonwood, Sweet Gum, Grand Fir, Empress Tree, Elm (data/species/). The Elm page keeps the species open and asks readers. Species pages stay noindexed under the strict cut, so this serves the app and Bing.
