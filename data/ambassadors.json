@@ -4480,6 +4480,20 @@
       ],
       "since": "2026-11-27",
       "mailed": []
+    },
+    "powelltown": {
+      "trees": [
+        "pwt_001"
+      ],
+      "since": "2026-11-27",
+      "mailed": []
+    },
+    "lake-waikaremoana": {
+      "trees": [
+        "wkm_001"
+      ],
+      "since": "2026-11-27",
+      "mailed": []
     }
   }
 }
