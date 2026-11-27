@@ -5,6 +5,12 @@
 - Nothing changed in the product. The reader who added the Bella di Ceciliano (arezzo/arz_001) sent two more photographs of it through the app. I looked at both: they are the same frames as photographs x3 (storm sky) and x2 (autumn trunk), which are already in the tree's gallery. Both were rejected as `duplicate`, and the page loses nothing.
 - The 37 leads still `lead` in data/leads/_sightings.json are all from our own account (`mine`), so they are not reader work. No reports, feedback, tips, further photographs or unquoted notes were waiting.
 
+## 2026-11-27 night run (third attempt): two species intros, rung 2 answered
+
+- Changed in the product: two species intros from our own trees: Earpod Tree (Fort Lauderdale, Singapore, Oahu, Kauai) and Cunningham's Fig (Yungaburra, Palermo, Hong Kong, Brisbane). Species pages stay noindexed under the strict cut, so this serves the app and Bing. Preflight: 0 problems.
+- Rung 2 answered with health.py --answer: the skipTransition web error is already filtered (93cb1b69e, reports predate the deploy); the iOS red run was cancelled jobs, not a failed assertion. The open app BUG rows need Xcode, which this runner lacks.
+- READY pool 0, own research paused, no claims standing, nothing else to write. Remaining gaps: Arnold Arboretum and Prefargier park pages, 28 species under four trees.
+
 ## 2026-11-27 night run (second attempt): web error fix, nothing else to write
 
 - Changed in the product: nothing visible. `web-errors-js.ts` no longer reports a browser view-transition rejection ("Transition was skipped/aborted"; a faster page change replaced the slower one, nothing broke for the visitor). It was the red web-error row (16 reports, 13 pages). Not built or tested here: no dist in this runner, so qa could not run; the next deploy's checks will.

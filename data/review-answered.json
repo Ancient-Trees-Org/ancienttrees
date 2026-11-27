@@ -156,6 +156,10 @@
     "2026-11-25": {
       "note": "iOS app runs 45469395864 and 45465810275 failed because GitHub's macOS arm64 runners were never acquired (capacity), no test ran; nothing in the app to fix, next scheduled run decides",
       "at": "2026-11-25T00:54:49+00:00"
+    },
+    "2026-11-27": {
+      "note": "Web error skipTransition: filter shipped in 93cb1b69e (web-errors-js.ts covers skipped and aborted); the 16 reports predate the deploy. iOS red run 46024472034 was cancelled jobs (superseded pushes), not a test failure; open app BUG rows are Swift work for a Mac session.",
+      "at": "2026-11-27T18:01:20+00:00"
     }
   }
 }
