@@ -200,19 +200,46 @@ def save_attachments(msg, folder, date):
     return out
 
 
+def html_to_text(src):
+    """Readable text from an HTML mail part (2026-11-27: a reader's reply on
+    the Madrid eucalyptus came as HTML only and reached the digest as
+    "(no plain-text part)")."""
+    import html as _html
+    s = re.sub(r"(?is)<(script|style|head)[^>]*>.*?</\1>", " ", src)
+    s = re.sub(r"(?i)<br\s*/?>|</(p|div|li|tr|h\d|blockquote)>", "\n", s)
+    s = re.sub(r"<[^>]+>", " ", s)
+    s = _html.unescape(s).replace("\xa0", " ")
+    s = re.sub(r"[ \t]+", " ", s)
+    s = re.sub(r"\n\s*\n+", "\n\n", s)
+    return "\n".join(line.strip() for line in s.splitlines()).strip()
+
+
 def body_of(msg, limit=4000):
     if msg.is_multipart():
+        html_part = None
         for part in msg.walk():
-            if part.get_content_type() == "text/plain":
+            kind = part.get_content_type()
+            if kind == "text/plain":
                 try:
                     return part.get_payload(decode=True).decode(
                         part.get_content_charset() or "utf-8", "replace")[:limit]
                 except Exception:
                     continue
+            if kind == "text/html" and html_part is None:
+                html_part = part
+        if html_part is not None:
+            try:
+                return html_to_text(html_part.get_payload(decode=True).decode(
+                    html_part.get_content_charset() or "utf-8", "replace"))[:limit]
+            except Exception:
+                pass
         return "(no plain-text part)"
     try:
-        return msg.get_payload(decode=True).decode(
-            msg.get_content_charset() or "utf-8", "replace")[:limit]
+        text = msg.get_payload(decode=True).decode(
+            msg.get_content_charset() or "utf-8", "replace")
+        if msg.get_content_type() == "text/html":
+            text = html_to_text(text)
+        return text[:limit]
     except Exception:
         return "(unreadable)"
 
