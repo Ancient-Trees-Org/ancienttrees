@@ -5075,6 +5075,53 @@ def check_dist_is_newer_than_the_source():
             % (source - built)]
 
 
+def check_readers_content_is_in_the_html():
+    """Readers' notes and our own photographs reach the HTML a crawler reads
+    (Hidde, 2026-11-27: "Ja, bouw 1 en 2", after the notes turned out to be
+    filled only by a script, so Google saw the empty card on every tree page,
+    and visitors' photographs travelled as plain <img> tags). Source side: the
+    deploy fetches the notes before the build, the tree body renders them,
+    the tree page writes our own photographs as ImageObjects and the sitemap
+    lists them. Removing this needs Hidde."""
+    problems = []
+    deploy = (ROOT / ".github" / "workflows" / "deploy.yml").read_text(encoding="utf-8")
+    if "scripts/notes_for_build.py" not in deploy:
+        problems.append("deploy.yml no longer runs scripts/notes_for_build.py before the build: "
+                        "readers' notes would leave the HTML again")
+    body = (ROOT / "site" / "src" / "components" / "TreeDetail.astro").read_text(encoding="utf-8")
+    if "builtNotes(" not in body:
+        problems.append("TreeDetail.astro no longer renders builtNotes(): readers' notes only by script again")
+    page = (ROOT / "site" / "src" / "pages" / "[city]" / "[tree].astro").read_text(encoding="utf-8")
+    if "ownImageObjects(" not in page:
+        problems.append("the tree page no longer writes our own photographs as ImageObjects (lib/visitor-photos.ts)")
+    smap = (ROOT / "site" / "src" / "lib" / "sitemap-integration.ts").read_text(encoding="utf-8")
+    if "image:image" not in smap:
+        problems.append("sitemap-integration.ts no longer lists our own photographs as image:image")
+    return problems
+
+
+def check_readers_content_is_in_the_built_pages():
+    """The built side of check_readers_content_is_in_the_html(): when the
+    deploy fetched notes, tree pages carry them; when pages carry our own
+    photographs, sitemap.xml lists them. Removing this needs Hidde."""
+    problems = []
+    notes_file = ROOT / "data" / "build" / "tree-notes.json"
+    pages = list(DIST.rglob("*.html")) if DIST.exists() else []
+    if notes_file.exists():
+        try:
+            noted = len(json.loads(notes_file.read_text(encoding="utf-8")).get("notes") or {})
+        except ValueError:
+            noted = 0
+        shown = sum(1 for f in pages if 'class="td-notes-list"' in f.read_text(encoding="utf-8", errors="ignore"))
+        if noted and shown == 0:
+            problems.append("%d tree(s) have readers' notes but no built page carries one in its HTML" % noted)
+    own = sum(1 for f in pages if '"@type":"ImageObject"' in f.read_text(encoding="utf-8", errors="ignore"))
+    smap = DIST / "sitemap.xml"
+    if own and smap.exists() and "<image:image>" not in smap.read_text(encoding="utf-8"):
+        problems.append("%d page(s) carry our own photographs but sitemap.xml lists none" % own)
+    return problems
+
+
 def main():
     global DIST
     parser = argparse.ArgumentParser()
@@ -5171,6 +5218,7 @@ def main():
         check_a_sql_file_names_real_columns,
         check_one_place_card,
         check_one_place_head,
+        check_readers_content_is_in_the_html,
     ]
     if args.source_only:
         # The photo checks are left out on purpose: they read every image in
@@ -5201,6 +5249,8 @@ def main():
     failures += check_auth_corpus_agreement()
     failures += check_people_s_addresses_stay_out_of_the_repo()
     failures += check_no_reader_traces_in_the_repo()
+    failures += check_readers_content_is_in_the_html()
+    failures += check_readers_content_is_in_the_built_pages()
     failures += check_served_photos_carry_no_location()
     failures += check_app_crashes_reach_a_person()
     failures += check_the_code_is_read_every_week()

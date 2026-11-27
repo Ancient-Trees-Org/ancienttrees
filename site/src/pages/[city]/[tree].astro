@@ -8,6 +8,7 @@ import { cityHasQuestionPage } from "../../lib/question-page";
 import { speciesCommon, speciesPageSlugs } from "../../lib/species";
 import { parkKey, groupTreesByPark, parkGroupKey, parkPageIsAllowed } from "../../lib/parks";
 import { usablePhotos, metaImageUrls, ogImageUrl } from "../../lib/images";
+import { ownImageObjects } from "../../lib/visitor-photos";
 import { breadcrumbSchema, ldScript, SITE_SCHEMA, BASE_URL } from "../../lib/schema";
 import { fitTitle } from "../../lib/title";
 import { ageToken, metaForTree, girthLabel } from "../../lib/tree-copy";
@@ -182,6 +183,7 @@ const spSlug = speciesPages.get(spCommon);
 const seasonHtml = seasonBlock(tree, loc.latitude!);
 const girth = girthLabel((tree as any).girth_cm);
 
+const ownImages = ownImageObjects(shots as any[], tree.name, cityName);
 const graph = [
   ...SITE_SCHEMA,
   {
@@ -191,7 +193,9 @@ const graph = [
     // paid_entry first: "under 6 free" in a paid tree's access line made 118
     // paid trees tell Google they were free (found 2026-10-22).
     isAccessibleForFree: !tree.paid_entry && !/^paid/i.test(tree.access ?? "") && (tree.access ?? "").toLowerCase().includes("free"),
-    ...(photo?.url ? { image: metaImageUrls(photo.url) } : {}),
+    // Our own photographs as ImageObjects beside the lead's urls (2026-11-27,
+    // lib/visitor-photos.ts): taken at the tree, by a visitor, on that day.
+    ...(photo?.url || ownImages.length ? { image: [...(photo?.url ? metaImageUrls(photo.url) : []), ...ownImages] } : {}),
     // url, address and containedInPlace added 2026-08-18. They do not buy a
     // rich snippet, which TouristAttraction rarely gets: they tell a search
     // engine WHICH place this is, which is the part it cannot infer from a

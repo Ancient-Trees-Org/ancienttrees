@@ -50,6 +50,7 @@ import { treeSources } from "../lib/tree-sources";
 import { officialRegister } from "../lib/official-register";
 import type { Tree } from "../lib/trees";
 import { SEASONS, colourMonths, isSeasonal, seasonOfMonth } from "../lib/seasons";
+import { builtNotes, noteDay } from "../lib/notes-built";
 
 interface Props {
   lang: string;
@@ -95,6 +96,7 @@ const p = Astro.props as Props;
 const U = ui(p.lang);
 const tree = p.tree;
 const loc = tree.location;
+const notesHere = builtNotes(tree.id);
 const photo = p.shots[0] ?? null;
 const isApprox = locationIsApproximate(tree);
 // The per-tree sources, back on 2026-10-01 after Google's 09-28 demotion
@@ -386,6 +388,46 @@ const leadSeason = seasonal ? seasonOfMonth(photo?.taken_month, loc.latitude!, c
         data-save={U.noteSave} data-write={U.noteWrite} data-edit-mine={U.noteEditMine} data-shown-as={U.noteShownAs("{name}")} data-shown-anon={U.noteShownAnon}
         data-leaf-icon={icon("leaf", "fill")}>
         <h2>{U.notesHeading}</h2>
+        {/* THE NOTES ARE IN THE HTML SINCE 2026-11-27 (Hidde: "Ja, bouw 1 en
+            2"): before, only the script filled them, so every crawler read the
+            empty card. The build writes the notes from data/build/tree-notes.json
+            (lib/notes-built.ts) in the script's own markup; the script redraws
+            from Supabase on load. The empty card waits in a template, without
+            its button, for the day the last note goes. */}
+        {notesHere.length > 0 && (
+          <div class="td-notes-body">
+            <div class="td-notes-list">
+              {notesHere.map((n) => (
+                <div class="td-note">
+                  <div class="td-note-meta">
+                    <span class="td-note-who">
+                      {n.author_name
+                        ? <span class="td-avatar">{n.author_name.trim().charAt(0).toUpperCase()}</span>
+                        : <span class="td-avatar td-avatar-anon" aria-hidden="true"><Fragment set:html={icon("leaf", "fill")} /></span>}
+                      <b>{n.author_name || U.noteVisitor}</b>
+                    </span>
+                    {n.created_at && <time datetime={n.created_at.slice(0, 10)}>{noteDay(n.created_at, p.lang)}</time>}
+                  </div>
+                  <p>{n.body}</p>
+                </div>
+              ))}
+            </div>
+            <template class="td-notes-ghost">
+              <div class="td-notes-empty">
+                <span class="td-notes-empty-ic" aria-hidden="true"><Fragment set:html={icon("chat-text", "regular")} /></span>
+                <p class="td-notes-empty-t">{U.notesEmptyTitle}</p>
+                <p class="td-notes-empty-s">{U.notesEmptyAsk}</p>
+                <div class="td-notes-empty-act"></div>
+              </div>
+            </template>
+          </div>
+        )}
+        {notesHere.length > 0 && (
+          <div class="td-notes-btns">
+            <button type="button" class="addphoto-btn quiet td-note-ask" id="td-note-ask"><Fragment set:html={icon("note-pencil", "regular")} /><span class="td-note-ask-l">{U.noteWrite}</span></button>
+          </div>
+        )}
+        {notesHere.length === 0 && (
         <div class="td-notes-body">
           {/* EMPTY: A GREY CARD WITH THE ASK INSIDE (Hidde, 2026-10-25: "you kind
               of want a grey card like the cards are in app when you have not
@@ -405,7 +447,8 @@ const leadSeason = seasonal ? seasonOfMonth(photo?.taken_month, loc.latitude!, c
             </div>
           </div>
         </div>
-        <div class="td-notes-btns"></div>
+        )}
+        {notesHere.length === 0 && <div class="td-notes-btns"></div>}
       </section>
 
       {/* GETTING THERE: ONE BLOCK WITH A HEADING, as the app draws it (Hidde,

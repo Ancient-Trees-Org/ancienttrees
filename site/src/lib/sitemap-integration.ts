@@ -13,6 +13,7 @@ import { buildRedirectStubs } from "./redirect-map";
 import { slugify } from "./slug";
 import { QUESTION_SLUG } from "./i18n";
 import { googleOnlyPaths } from "./noindex";
+import { newestNoteDay } from "./notes-built";
 
 const BASE_URL = "https://ancienttrees.app";
 
@@ -30,6 +31,9 @@ export default function sitemapIntegration(): AstroIntegration {
         // (account.html, draft collections) is excluded by content, the same
         // heuristic qa.py's orphan check already uses, rather than a
         // hardcoded filename list that would silently miss the next one.
+        // Our own photographs per page (2026-11-27, lib/visitor-photos.ts),
+        // read back out of the page's structured data so the rule lives once.
+        const imagesOf = new Map<string, string[]>();
         const htmlFiles = walk(distRoot).filter((f) => {
           if (!f.endsWith(".html")) return false;
           if (redirectPaths.has(path.relative(distRoot, f))) return false;
@@ -45,6 +49,8 @@ export default function sitemapIntegration(): AstroIntegration {
           const self = canonicalFor(path.relative(distRoot, f));
           const tag = /<link rel="canonical" href="([^"]+)"/.exec(text);
           if (tag && tag[1].replace(/\/$/, "") !== self.replace(/\/$/, "")) return false;
+          const own = ownImagesIn(text);
+          if (own.length) imagesOf.set(self, own);
           return true;
         });
 
@@ -60,9 +66,9 @@ export default function sitemapIntegration(): AstroIntegration {
         const fallback = new Date().toISOString().slice(0, 10);
         const urls = htmlFiles.map((f) => canonicalFor(path.relative(distRoot, f))).sort();
         const entries = urls
-          .map((u) => `  <url><loc>${u}</loc><lastmod>${lastmod(u) ?? fallback}</lastmod></url>\n`)
+          .map((u) => `  <url><loc>${u}</loc><lastmod>${lastmod(u) ?? fallback}</lastmod>${imageTags(imagesOf.get(u))}</url>\n`)
           .join("");
-        const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}</urlset>\n`;
+        const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${entries}</urlset>\n`;
         fs.writeFileSync(path.join(distRoot, "sitemap.xml"), sitemap);
         // robots.txt is NOT written here. It used to be, three lines of it,
         // and because this hook runs after Astro has copied public/ into dist
@@ -73,7 +79,7 @@ export default function sitemapIntegration(): AstroIntegration {
         // read, and one file can only have one owner. Its Sitemap line points
         // at the flat sitemap.xml this hook writes, which is the only thing
         // the two ever had to agree on.
-        logger.info(`wrote sitemap.xml with ${urls.length} url(s)`);
+        logger.info(`wrote sitemap.xml with ${urls.length} url(s), ${[...imagesOf.values()].reduce((a, v) => a + v.length, 0)} own photograph(s)`);
         // Recovery sitemap (2026-10-01): every page on data/noindex.json,
         // dated the day it went on the list. Google only learns of a noindex
         // by recrawling the page, and the main sitemap above drops noindexed
@@ -142,6 +148,25 @@ export default function sitemapIntegration(): AstroIntegration {
  * RULE lives in the Python script and only its ANSWER travels here, per the
  * answer-not-rule convention in CLAUDE.md: this function never hashes anything.
  */
+/** The contentUrls of the ImageObjects in a built page's structured data:
+ *  our own photographs only, since only those are written as ImageObjects
+ *  (lib/visitor-photos.ts). */
+function ownImagesIn(html: string): string[] {
+  const out: string[] = [];
+  for (const block of html.match(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g) ?? []) {
+    for (const m of block.matchAll(/"@type":"ImageObject","contentUrl":"([^"]+)"/g)) out.push(m[1]);
+  }
+  return [...new Set(out)];
+}
+
+function xmlEsc(s: string): string {
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function imageTags(urls: string[] | undefined): string {
+  return (urls ?? []).map((u) => `<image:image><image:loc>${xmlEsc(u)}</image:loc></image:image>`).join("");
+}
+
 function pageDates(
   distRoot: string,
   fallback: (url: string) => string | undefined
@@ -181,14 +206,19 @@ function pageDates(
       prefix = `${seg.shift()}:`;
     }
     let key: string | undefined;
+    let treeId: string | undefined;
     if (seg.length === 1) key = `${prefix}city:${seg[0]}`;
     else if (seg.length === 2 && questionSlugs.has(seg[1])) key = `${prefix}q:${seg[0]}`;
     else if (seg.length === 2) {
-      const id = idsFor(seg[0]).get(seg[1]);
-      if (id) key = `${prefix}tree:${id}`;
+      treeId = idsFor(seg[0]).get(seg[1]);
+      if (treeId) key = `${prefix}tree:${treeId}`;
     }
     const hit = key ? entries[key] : undefined;
-    return hit?.d ?? fallback(url);
+    const d = hit?.d ?? fallback(url);
+    // A reader's note is content too (2026-11-27): the page changed the day
+    // the newest note was written, so the later of the two dates.
+    const noted = treeId ? newestNoteDay(treeId) : null;
+    return noted && (!d || noted > d) ? noted : d;
   };
 }
 

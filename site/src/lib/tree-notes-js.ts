@@ -40,7 +40,11 @@ export const TREE_NOTES_JS = `
   // 2026-10-25). Taken out before the card is kept as the empty state, so
   // redrawing the card never makes a second, dead copy of it.
   if (askBtn && askBtn.parentNode) askBtn.parentNode.removeChild(askBtn);
-  var ghost = body.innerHTML;
+  // Since 2026-11-27 the build writes the notes into the page, so the empty
+  // card waits in a template beside them; without notes it is the body.
+  var tpl = body.querySelector('template.td-notes-ghost');
+  var ghost = tpl ? tpl.innerHTML : body.innerHTML;
+  var built = !!tpl;
   function placeAsk() {
     if (!askBtn) return;
     // The app's words: "Edit your note" once you have one.
@@ -154,14 +158,16 @@ export const TREE_NOTES_JS = `
     var all = fetch(SB + '/rest/v1/rpc/tree_notes_for', { method: 'POST', headers: headers(null, true), body: JSON.stringify({ ids: ids }) })
       .then(function(r) {
         if (r.status === 404) { gone = true; return []; }
-        return r.ok ? r.json() : [];
-      }).catch(function() { return []; });
+        return r.ok ? r.json() : null;
+      }).catch(function() { return null; });
     var mine = !s ? Promise.resolve(null)
       : fetch(SB + '/rest/v1/tree_notes?select=body,created_at,updated_at&tree_id=eq.' + encodeURIComponent(treeId), { headers: headers(s) })
         .then(function(r) { return r.ok ? r.json() : []; })
         .then(function(a) { return (a && a[0]) || null; })
         .catch(function() { return null; });
     Promise.all([all, mine]).then(function(res) {
+      // No answer from Supabase: the notes the build wrote stay as they are.
+      if (res[0] === null && built && !res[1]) return;
       rows = res[0] || [];
       own = res[1];
       render();

@@ -74,3 +74,6 @@ drafts/reply-veronika-willhalm-*2026-11-0*.md
 drafts/reply-andrea-varese-ambassador-2026-11-26.md
 # Row-thumbnail copies, made by the deploy (vendor_photos.py --small), never committed
 site/public/photos/*-250.jpg
+
+# Readers notes fetched for the build (scripts/notes_for_build.py); their words never live in the repo
+data/build/

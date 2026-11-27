@@ -139,6 +139,12 @@ jobs:
       - name: Recompute the noindex list
         run: python3 scripts/thin_pages.py
 
+      # Readers' notes written into the tree pages (Hidde, 2026-11-27), so a
+      # crawler reads them, not only a browser. Gitignored; never fails the
+      # build (no answer means the empty card, as before).
+      - name: Readers' notes for the pages
+        run: python3 scripts/notes_for_build.py
+
       - name: Build site
         working-directory: site
         run: npx astro build
