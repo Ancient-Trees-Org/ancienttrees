@@ -2612,6 +2612,26 @@
         "The Hollow Cedar of Shannon Falls"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_7cb72c85b39c7dc30e1ec0e2",
+      "place_slug": "alstonville",
+      "place_name": "Alstonville",
+      "date": "2026-11-27",
+      "trees": [
+        "The Moreton Bay Fig of Victoria Park"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_4d76c495781f6f5803ca5686",
+      "place_slug": "washington-dc",
+      "place_name": "Washington DC",
+      "date": "2026-11-27",
+      "trees": [
+        "The Flame-Leaved Maple of the Arboretum"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
