@@ -49,7 +49,7 @@ as $$
                         'photo', p.user_id::text || '/' || upper(sg.id::text) || '.jpg',
                         'lat', sg.lat,
                         'lng', sg.lng)
-                      order by sg.created_at desc)
+                      order by sg.taken_at desc)
                      from public.sightings sg
                      where sg.user_id = p.user_id and sg.tree_id is null
                        and sg.photo is not null and sg.shared), '[]'::json),
@@ -58,12 +58,12 @@ as $$
     -- tree at its upload. Keys only, never a date.
     'recent', coalesce((select json_agg(r.k order by r.at desc) from (
         select 't:' || v.tree_id as k,
-               greatest(v.created_at, coalesce((select max(sg.created_at) from public.sightings sg
+               greatest(v.created_at, coalesce((select max(sg.taken_at) from public.sightings sg
                                                 where sg.user_id = p.user_id and sg.tree_id = v.tree_id),
                                                v.created_at)) as at
         from public.visited v where v.user_id = p.user_id
         union all
-        select 'o:' || lower(sg.id::text), sg.created_at
+        select 'o:' || lower(sg.id::text), sg.taken_at
         from public.sightings sg
         where sg.user_id = p.user_id and sg.tree_id is null and sg.photo is not null and sg.shared
       ) r), '[]'::json)
