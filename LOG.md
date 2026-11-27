@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-27 night run, second attempt in the window
+
+- Nothing written. No claims stood, `leads.py --ready` is empty (0 READY), and own research is paused, so there was no verify or write pass to dispatch. The "awaiting a writer" pile (382) is mostly id collisions and stale files that `passcheck.py --pending` says must not be merged as they are.
+- The last real deploy (19:57) failed on the fig description; the fix is on main, but both pushes after it were skipped by the workflow. This run could not dispatch a deploy (HTTP 403 from the integration token). For Hidde: run `gh workflow run deploy.yml` once to put the fix live.
+
 ## 2026-11-27 night run (rung 2 only)
 
 - **Fixed:** the 19:39 deploy failed because the Cunningham's fig species page had a 159-character meta description (limit 155). Shortened to 150 and pushed; the push redeploys. Run health still listed Open app bugs (10, 9 found by people), the iOS app run and the web error "skipTransition() called" (16 reports, 13 pages) as red. I did none of those this window.
