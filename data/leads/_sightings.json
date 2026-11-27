@@ -13541,6 +13541,39 @@
    "seen": "2026-11-27",
    "judged": "2026-11-27",
    "published_as": "alum-creek/acw_001"
+  },
+  {
+   "sighting_id": "1ff6cc31-6be5-40d3-90e8-62b0a221bd07",
+   "user_id": "p_84f03edc300cfd4dd24e38eb",
+   "mine": false,
+   "name": "A tree I found",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": -1.24088333333333,
+   "longitude": 36.7946166666667,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_84f03edc300cfd4dd24e38eb/1FF6CC31-6BE5-40D3-90E8-62B0A221BD07.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-27: three pale, smooth, mottled trunks rising from one base into a wide crown of crooked silver branches, lit from below at night in a walled garden with string lights and a café umbrella at the edge; colour. Live as nairobi/nbo_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-27",
+   "judged": "2026-11-27",
+   "published_as": "nairobi/nbo_001"
   }
  ]
 }

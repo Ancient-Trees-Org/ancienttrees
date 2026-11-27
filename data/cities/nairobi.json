@@ -1,0 +1,73 @@
+{
+  "city": "Nairobi",
+  "country": "Kenya",
+  "status": "needs_curation",
+  "intro": "Nairobi is Kenya's capital, and on its northern edge lies Karura Forest, more than a thousand hectares of trees saved from developers in a campaign led by Wangari Maathai. A reader sent us a tree from its western part, Sigiria: three pale, mottled trunks rising together in the garden by the coffee house. We do not yet know its species or age, and we would like to.",
+  "meta_description": "A tree with three pale trunks in Karura Forest's Sigiria section, Nairobi, sent by a reader: where it stands and what we know so far.",
+  "hero_tree_id": "nbo_001",
+  "oldest_tree_id": "nbo_001",
+  "trees": [
+    {
+      "id": "nbo_001",
+      "name": "The Pale Trunks of Sigiria",
+      "species": "Unknown species (smooth pale bark, to be confirmed)",
+      "location": {
+        "address": "Garden by the Sigiria Coffee House, Karura Forest (Sigiria section), off Thigiri Lane, Nairobi",
+        "latitude": -1.24088333333333,
+        "longitude": 36.7946166666667,
+        "neighbourhood": "Muthaiga"
+      },
+      "story": "A reader sent us this tree from Karura Forest, the big forest on Nairobi's northern edge, photographed after dark in the garden by the Sigiria Coffee House.\n\nLit from below, the tree looks carved. Three pale trunks, smooth and mottled like weathered stone, climb out of one base and lean apart, the tallest bending in a slow S before it breaks into a crown of crooked silver branches. Above them a dark canopy of small leaves fills the sky, with string lights glowing through the garden behind and a café umbrella at the edge of the frame.\n\nWe do not yet know what kind of tree it is, how old it is, or how far round the trunks are, and the reader did not say. If you know it, tell us here; a photograph of a leaf, a flower or a fruit would settle the name.\n\nSigiria is the western part of Karura, cut off from the rest by Limuru Road. In the 1990s much of the forest was secretly handed out for housing, and in January 1999 women led by Wangari Maathai were attacked while planting trees in protest; the campaign she led helped save it. Go in daylight and look for the pale trunks by the coffee house.",
+      "how_to_recognise": "In the garden by the Sigiria Coffee House: three smooth, pale grey, mottled trunks rising together from one base, the tallest curving in an S, under a wide crown of crooked pale branches.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Karura_Forest (Karura Forest: its western part, the Sigiria salient, separated by Limuru Road; the 1999 campaign led by Wangari Maathai against the forest's allocation for housing)"
+      ],
+      "access": "In Karura Forest's Sigiria section, beside the Sigiria Coffee House near Gate F. The forest charges an entry fee and is open in daytime; check hours before you go.",
+      "found_by_reader": {
+        "sighting_id": "1ff6cc31-6be5-40d3-90e8-62b0a221bd07",
+        "date": "2026-11-27"
+      },
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app (sighting 1ff6cc31-6be5-40d3-90e8-62b0a221bd07), location from the photograph's own GPS, no name, species, age, girth or note given. Photograph viewed: three pale, smooth, mottled trunks rising from one base into a wide crown of crooked silver branches, lit from below at night in a walled garden with string lights and a café umbrella at the edge; colour. The point falls in Karura Forest's Sigiria section beside the Sigiria Coffee House and Gate F (OpenStreetMap); the umbrella and lights in the frame fit the café garden. Public ground, forest entry fee. Published under the closed list for a reader's tree (Hidde, 2026-11-17). Kenya is out of focus for our own research only, never for a reader's tree. Species left open and asked on the page.",
+      "curation_status": "flagged",
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "1ff6cc31-6be5-40d3-90e8-62b0a221bd07",
+        "moved_m": 0,
+        "date": "2026-11-27",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "photo": {
+        "url": "https://ancienttrees.app/photos/nbo_001-pale-trunks-of-sigiria.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_84f03edc300cfd4dd24e38eb",
+        "sighting_id": "1ff6cc31-6be5-40d3-90e8-62b0a221bd07",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); viewed and approved on 2026-11-27: three pale, smooth, mottled trunks rising from one base into a wide crown of crooked silver branches, lit from below at night in a walled garden with string lights and a café umbrella at the edge; colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ],
+  "question_meta": "The pale three-trunked tree in Karura Forest's Sigiria section, Nairobi, sent by a reader: where it stands and how to visit.",
+  "question_answer": "The Pale Trunks of Sigiria stand in the garden by the Sigiria Coffee House in Karura Forest, on Nairobi's northern edge. The forest charges an entry fee and is open in daytime.",
+  "question_context": "A reader sent us this tree from Karura Forest, the forest of more than a thousand hectares on Nairobi's northern edge. It stands in the garden by the Sigiria Coffee House, in the western part of the forest that Limuru Road cuts off from the rest. In the reader's photograph, taken after dark with the tree lit from below, three smooth, pale, mottled trunks climb out of one base and lean apart, the tallest bending in a slow S before it breaks into a crown of crooked silver branches under a dark canopy of small leaves. We do not yet know its species, its age or its girth, and the reader did not give them, so the page asks anyone who knows the tree. Karura itself has a story: in the 1990s much of it was secretly allocated for housing, and in January 1999 women led by Wangari Maathai were attacked while planting trees in protest. The campaign helped save the forest, which is now walked, run and cycled by people from all over the city. Visit in daytime; the forest charges an entry fee.",
+  "faq": [
+    {
+      "q": "Can I visit The Pale Trunks of Sigiria?",
+      "a": "Yes. They stand in the garden by the Sigiria Coffee House in Karura Forest's Sigiria section, near Gate F. The forest charges an entry fee and is open in daytime."
+    },
+    {
+      "q": "What kind of tree is it?",
+      "a": "We do not know yet. The reader's photograph shows smooth, pale, mottled bark and small leaves; a photograph of a leaf, flower or fruit would settle the name."
+    },
+    {
+      "q": "What is Karura Forest?",
+      "a": "A forest of more than a thousand hectares on Nairobi's northern edge, in three parts divided by Limuru and Kiambu roads. Sigiria is its western part. A campaign led by Wangari Maathai in the late 1990s helped save it from being built on."
+    }
+  ]
+}

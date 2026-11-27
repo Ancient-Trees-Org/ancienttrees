@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-27 reader judge: a first tree in Kenya, in Nairobi's Karura Forest
+
+- **Changed:** a reader sent a tree through the app with the photo's own GPS and no name or note. I looked at the photo. It was taken at night and shows three pale, mottled trunks rising from one base, lit from below, with a café umbrella and string lights in the frame. OpenStreetMap puts the point in Karura Forest's Sigiria section, beside the Sigiria Coffee House and Gate F. That is public forest with an entry fee. The tree is live as nairobi/nbo_001 "The Pale Trunks of Sigiria", a new one-tree place (Kenya), with a confirmed pin and the photo filed in November from its own date. The species is left open and the page asks for it. The Karura history (Wangari Maathai, 1999) is cited to Wikipedia. Kenya is out of focus only for our own research, never for a reader's tree.
+- Nothing else was waiting: 0 queue photographs, 0 open reports, 0 feedback, 0 tips, 0 further photographs, 0 notes to quote. Preflight found 0 problems after the null age keys were dropped. qa source checks and i18ncheck were clean.
+
 ## 2026-11-27 reader judge: Lake Waikaremoana has an ambassador
 
 - **Changed:** the reader who sent the Giant Rata of the Ngamoko Track replied to our mail. They are happy with the page and said yes to being ambassador of Lake Waikaremoana, from abroad for now. Their account now has the badge (`ambassador.py --grant`; the sync shows their public profile name). Feedback 1768 is closed `handled`. reader_words is closed `--done` for the same row, because the mail is about the offer, not the tree.

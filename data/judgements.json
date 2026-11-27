@@ -2,6 +2,19 @@
  "_note": "One verdict per reader submission. See DECISIONS.md 2026-09-23.",
  "judgements": [
   {
+   "id": "sight:1ff6cc31-6be5-40d3-90e8-62b0a221bd07",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Pale Trunks of Sigiria",
+   "city": "Nairobi",
+   "species": "Unknown species (smooth pale bark, to be confirmed)",
+   "photo": "p_84f03edc300cfd4dd24e38eb/1FF6CC31-6BE5-40D3-90E8-62B0A221BD07.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: three pale mottled trunks from one base under a wide crown of crooked branches, lit from below at night in the garden by the Sigiria Coffee House, colour; lead of nairobi/nbo_001."
+  },
+  {
    "id": "sight:84ebae36-c683-4d39-86ac-a7db33d70910",
    "seen": "before 2026-09-23",
    "kind": "photo of a tree we map",
@@ -794,6 +807,31 @@
    },
    "verdict": "reject",
    "reason": "Photograph viewed: the Bella di Ceciliano in copper autumn leaf, its trunk splitting low into five stems beside the gravel drive. Duplicate of the same reader's gallery photo x2, already on the page; nothing lost.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:1ff6cc31-6be5-40d3-90e8-62b0a221bd07",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "A tree I found",
+   "city": null,
+   "species": null,
+   "photo": "p_84f03edc300cfd4dd24e38eb/1FF6CC31-6BE5-40D3-90E8-62B0A221BD07.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: three pale mottled trunks from one base under a wide crown, lit at night in the garden by the Sigiria Coffee House, Karura Forest, Nairobi; GPS from the photo; public forest ground. Live as nairobi/nbo_001, species asked on the page.",
    "hidde": null,
    "agreed": null
   },
