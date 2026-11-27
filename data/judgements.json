@@ -371,6 +371,47 @@
    "agreed": null
   },
   {
+   "id": "sight:e88184b7-ffe2-4a39-ae1e-657eda36d746",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "The Walking Chestnuts of Betchworth Park",
+   "city": "Dorking",
+   "species": "Sweet Chestnut (Castanea sativa)",
+   "photo": "p_0e9b63ca8063438dd88360b2/E88184B7-FFE2-4A39-AE1E-657EDA36D746.jpg",
+   "verdict": "publish",
+   "hidde": null,
+   "agreed": null,
+   "reason": "Lead photograph viewed: the massive ridged chestnut trunk with its low limb over autumn leaves; lead of dkg_001."
+  },
+  {
+   "id": "lead:e88184b7-ffe2-4a39-ae1e-657eda36d746",
+   "seen": "2026-11-27",
+   "kind": "a tree we do not map",
+   "tree": "'Walking' Sweet Chestnut stand (Betchworth Park Golf Club)",
+   "city": null,
+   "species": "Sweet Chestnut",
+   "photo": "p_0e9b63ca8063438dd88360b2/E88184B7-FFE2-4A39-AE1E-657EDA36D746.jpg",
+   "reader_note": "This is a stand of ancient 'walking' Sweet Chestnut from the 1500's when they were planted as part of the estate landscape works. They are known as walking trees due to their natural branch layering where they establish new trunks with their own root systems from the end of branches resting on the ground, but are still connected to the mother tree.",
+   "reader_girth_cm": 700,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sweet Chestnut"
+   },
+   "verdict": "publish",
+   "reason": "Live as dorking/dkg_001: the photograph shows a massive ridged sweet chestnut with a low layering limb, clearly special; Dorking Museum and Mole Valley confirm the park's old chestnuts and its public footpaths; hand-placed pin, approximate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "lead:636ce3a4-b14c-444f-99b2-39e18202be6c",
    "seen": "2026-11-26",
    "kind": "a tree we do not map",

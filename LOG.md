@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-27 reader judge: a walking sweet chestnut in Betchworth Park, Dorking, live from a reader's photograph
+
+- **Live: dorking/dkg_001, the Walking Chestnuts of Betchworth Park** (sighting e88184b7). This is a new one-tree place in Surrey, so it gets no place page. The photograph shows a massive sweet chestnut with deeply ridged bark splitting into heavy stems, a burr at its foot and a low limb arching towards the ground. It is clearly special. The reader's note explains how "walking" chestnuts layer, and the story quotes it. Their age (the 1500s, about 500 years) and girth (700 cm) are on the page as theirs. Dorking Museum is the source for the parkland's old sweet chestnuts and the 1448 emparkment. Mole Valley council is the source for the public footpaths round the golf course. The access line says to keep to the paths and that we have not checked how close a path passes this trunk.
+- **Pin**: the reader placed it by hand, so it is `approximate` (`pin_source` "reader's hand-placed pin"). The photo is filed under November for its autumn leaves. There were no further photographs. city_names.py was run for Dorking.
+- No open reports, tips, feedback or words to quote. The 37 other open leads are our own accounts' rows. qa source checks were clean, preflight found 0 problems (after trimming the meta to 155 characters) and i18ncheck was clean.
+
 ## 2026-11-27 reader judge: the giant rata at Lake Waikaremoana and two Villa Fabbricotti trees in Livorno, live from readers' photographs
 
 - **Live: lake-waikaremoana/wkm_001, the Giant Rata of the Ngamoko Track** (sighting 24fdccb3). This is a new one-tree place in New Zealand. The reader sent four photographs. They show a huge braided northern rata behind a viewing-platform rail, with the Department of Conservation sign beside it. The sign gives 13 metres around the base and 800 to 1,000 years. Those figures are on the page as the sign's (`girth_cm` 1300, `age_basis` source). The other source is DOC's Ngamoko Track page, which names the giant rata a short detour from the start. The pin is the photo's GPS fix, so it is `confirmed`. Two further trunk photographs are in the strip. The photograph of the sign alone was left out as `no_tree`; its text is now a source line.

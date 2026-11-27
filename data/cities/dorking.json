@@ -1,0 +1,77 @@
+{
+  "city": "Dorking",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Dorking is a market town in the Surrey Hills, under Box Hill. On its eastern edge lies Betchworth Park, what remains of the medieval deer park of Betchworth Castle and now a golf course crossed by public footpaths. Its old sweet chestnuts are the park's pride, and a reader sent us one of them: a huge ridged trunk with a low limb running out along the ground, the habit that gives these trees the name walking chestnuts.",
+  "meta_description": "The walking sweet chestnuts of Betchworth Park in Dorking, Surrey: an old deer-park tree a reader photographed, how old it may be and how to reach it.",
+  "hero_tree_id": "dkg_001",
+  "oldest_tree_id": "dkg_001",
+  "question_meta": "The walking sweet chestnuts of Betchworth Park in Dorking, Surrey: an old deer-park tree a reader photographed, how old it may be and how to reach it.",
+  "question_answer": "The Walking Chestnuts of Betchworth Park stand in Betchworth Park on the eastern edge of Dorking, the old deer park of Betchworth Castle. Public footpaths cross the park round the edge of the golf course.",
+  "question_context": "Betchworth Park lies on the eastern edge of Dorking, between the town and the ruins of Betchworth Castle. The castle's owner was licensed to make a deer park here in 1448, and what is left of it is now a golf course with public footpaths running round its edge, reached from Punchbowl Lane. Dorking Museum writes that the parkland's magnificent sweet chestnuts date back to that emparkment, and in another place says, more carefully, that they may have been planted then. A reader who sent us one of them puts it in the 1500s, about 500 years ago, and its trunk at some seven metres round; those figures are theirs. The photograph shows a great grey trunk of deeply ridged bark splitting into heavy stems, a burr at its foot and a limb bending low towards the ground. The reader calls them walking trees, because a branch that rests on the ground can root and raise a new trunk while staying joined to the mother tree. Autumn, when the leaves turn gold and the nuts fall, is the season to walk there.",
+  "faq": [
+    {
+      "q": "Can I visit The Walking Chestnuts of Betchworth Park?",
+      "a": "Yes. Public footpaths cross Betchworth Park round the edge of the golf course, reached from Punchbowl Lane. Keep to the paths; the fairways belong to the golf club."
+    },
+    {
+      "q": "How old are the sweet chestnuts of Betchworth Park?",
+      "a": "Dorking Museum links the parkland's sweet chestnuts to the deer park made in the 1440s. The reader who sent us this one puts it at about 500 years; nobody has dated it from its rings."
+    },
+    {
+      "q": "Why are they called walking chestnuts?",
+      "a": "In the reader's words, a branch resting on the ground can grow its own roots and become a new trunk while still joined to the mother tree, so the tree slowly spreads across the ground."
+    }
+  ],
+  "trees": [
+    {
+      "id": "dkg_001",
+      "name": "The Walking Chestnuts of Betchworth Park",
+      "species": "Sweet Chestnut (Castanea sativa)",
+      "age_estimate": "about 500 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Betchworth Park, off Punchbowl Lane, Dorking, Surrey",
+        "latitude": 51.2374059295796,
+        "longitude": -0.304264530481689,
+        "neighbourhood": "Betchworth Park"
+      },
+      "story": "\"They are known as walking trees,\" wrote the reader who sent us this sweet chestnut from Betchworth Park, on the eastern edge of Dorking, \"due to their natural branch layering where they establish new trunks with their own root systems from the end of branches resting on the ground, but are still connected to the mother tree.\"\n\nBetchworth Park is what remains of the deer park of Betchworth Castle, made under a licence of 1448. Dorking Museum writes that the parkland's magnificent sweet chestnuts date back to that emparkment; elsewhere the museum is more careful and says they may have been planted then. The reader puts this stand in the 1500s, about 500 years ago, and the trunk at some seven metres round. Those figures are theirs, not a measurement we have seen.\n\nThe photograph shows why they stopped. The trunk is a great grey column of deeply ridged bark that splits into heavy stems, with a burr swelling at its foot. On the left a limb bends low and runs out towards the ground, the kind of branch that, as the reader explains, can root where it touches and start a new trunk.\n\nThe park is a golf course now, and public footpaths run round its edge. Keep to the paths, and come in autumn, when the chestnut leaves turn gold.",
+      "how_to_recognise": "A massive sweet chestnut with deeply ridged grey bark that splits into several heavy stems, a big burr at its foot, and one low limb arching out along the ground on its left side.",
+      "verified_sources": [
+        "https://dorkingmuseum.org.uk/betchworth-castle-and-park/ (Dorking Museum: the parkland has a number of magnificent Sweet Chestnut trees which date back to the emparkment of the estate in 1449; the surviving sweet chestnuts may have been planted then)",
+        "https://www.molevalley.gov.uk/leisure-culture/parks-gardens-and-open-spaces (Mole Valley District Council: Betchworth Park, a remnant of the medieval deer park of Betchworth Castle; footpaths through the parkland run round the edge of the golf course; access from Punchbowl Lane)"
+      ],
+      "access": "Free. Public footpaths cross Betchworth Park round the edge of the golf course, reached from Punchbowl Lane. The fairways belong to the golf club, so keep to the paths; we have not yet checked how close a path passes this trunk.",
+      "found_by_reader": {
+        "sighting_id": "e88184b7-ffe2-4a39-ae1e-657eda36d746",
+        "date": "2026-11-27"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "e88184b7-ffe2-4a39-ae1e-657eda36d746",
+        "date": "2026-11-27",
+        "note": "The reader placed this pin on the map in the app; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app (sighting e88184b7-ffe2-4a39-ae1e-657eda36d746), pin placed by hand at Betchworth Park. Photograph viewed: a massive sweet chestnut trunk at close range, deeply ridged grey bark splitting into several heavy stems, a burr at its foot and one low limb arching out to the left over fallen leaves, woodland edge, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The park's sweet chestnuts and its public footpaths are confirmed by Dorking Museum and Mole Valley District Council; this particular trunk is known only from the reader. The reader's own figures: name ''Walking' Sweet Chestnut stand (Betchworth Park Golf Club)', age '500' (1500s), girth 700 cm, the walking-tree layering in their words. No register entry within 100 m.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/dkg_001-walking-chestnuts-of-betchworth-park.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 600,
+        "height": 450,
+        "source": "contributor",
+        "contributor_user_id": "p_0e9b63ca8063438dd88360b2",
+        "sighting_id": "e88184b7-ffe2-4a39-ae1e-657eda36d746",
+        "taken_month": 11,
+        "taken_month_basis": "autumn colour: yellowing chestnut leaves and a bed of fallen brown leaves in the photograph",
+        "note": "Photographed by a reader and sent through the app (2026-11-27); viewed and approved on 2026-11-27: a massive sweet chestnut trunk at close range, deeply ridged grey bark splitting into several heavy stems, a burr at its foot and one low limb arching out to the left over fallen leaves, woodland edge, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
+    }
+  ]
+}

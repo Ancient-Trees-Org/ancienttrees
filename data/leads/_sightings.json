@@ -13307,6 +13307,39 @@
    "seen": "2026-11-27",
    "judged": "2026-11-27",
    "published_as": "livorno/lio_002"
+  },
+  {
+   "sighting_id": "e88184b7-ffe2-4a39-ae1e-657eda36d746",
+   "user_id": "p_0e9b63ca8063438dd88360b2",
+   "mine": false,
+   "name": "'Walking' Sweet Chestnut stand (Betchworth Park Golf Club)",
+   "unsure_among": null,
+   "species": "Sweet Chestnut",
+   "age": "500",
+   "girth_cm": 700,
+   "girth_hugs": null,
+   "note": "This is a stand of ancient 'walking' Sweet Chestnut from the 1500's when they were planted as part of the estate landscape works. They are known as walking trees due to their natural branch layering where they establish new trunks with their own root systems from the end of branches resting on the ground, but are still connected to the mother tree.",
+   "latitude": 51.2374059295796,
+   "longitude": -0.304264530481689,
+   "location_kind": "placed",
+   "near": null,
+   "taken_month": null,
+   "photo": "p_0e9b63ca8063438dd88360b2/E88184B7-FFE2-4A39-AE1E-657EDA36D746.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-27: a massive sweet chestnut trunk at close range, deeply ridged grey bark splitting into several heavy stems, a burr at its foot and one low limb arching out to the left over fallen leaves, woodland edge, daylight, colour. Live as dorking/dkg_001 under the closed list (Hidde, 2026-11-17); hand-placed pin, so approximate.",
+   "seen": "2026-11-27",
+   "judged": "2026-11-27",
+   "published_as": "dorking/dkg_001"
   }
  ]
 }
