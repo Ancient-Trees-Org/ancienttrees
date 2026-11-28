@@ -1,5 +1,12 @@
 # LOG
 
+## 2026-11-28 night run: nothing writable, health answered
+
+- Rung 1 was empty (0 photographs waiting). Rung 2: the iOS app "failure" (run 46024472034) was GitHub's macOS runner capacity ("job was not acquired"), not code. A newer run is in progress. Answered with `health.py --answer`.
+- The web errors are orange only: `getLayer` in maplibre on 2 reports, 1 page, under the red threshold. Watch it.
+- The 10 open app BUG rows (the Feed, profile and tree card ones) need the Xcode simulator, which this Linux runner does not have. They wait for a session on the Mac.
+- Own research is paused and `leads.py --ready` shows 0 READY, so there was nothing to write. Prepare.py shelf: 382 trees await a writer, all held by missing photo, pin or recognition line.
+
 ## 2026-11-28 reader judge: a spring photograph for the Waldmüllerpark Wingnuts
 
 - **The Waldmüllerpark Wingnuts** (vienna/vie_038) got a second photograph in its gallery. It is a close view into the base of the many-stemmed trunk, with the wingnut's long-leaved suckers around it. It comes from the same reader whose November photo leads the page. It sits behind that lead and is filed under April, the photo's own date.
