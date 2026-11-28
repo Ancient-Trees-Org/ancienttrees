@@ -2573,7 +2573,17 @@
   },
   "p_230ca0c6269992f101ed0a8d": {
    "last": "2026-11-28",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "dbc6ce41-aa74-438b-961f-4b8756f0339c",
+     "tree_id": "vie_038",
+     "tree_name": "The Waldmüllerpark Wingnuts",
+     "city": "Vienna",
+     "city_slug": "vienna",
+     "display_name": null,
+     "live": "2026-11-28"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "869c8d36-3764-40a1-a159-da4f7c51e5d2",

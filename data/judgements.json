@@ -18,6 +18,28 @@
    "agreed": null
   },
   {
+   "id": "sight:dbc6ce41-aa74-438b-961f-4b8756f0339c",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Waldmüllerpark Wingnuts",
+   "city": "Vienna",
+   "species": "Caucasian Wingnut (Pterocarya fraxinifolia)",
+   "photo": "out/sightings/dbc6ce41-aa74-438b-961f-4b8756f0339c.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin. Its date is the photograph’s own date.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Caucasian Wingnut (Pterocarya fraxinifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Spring close-up into the base of the many-stemmed wingnut, pinnate suckers around it, from the same reader whose photo leads the page; in the gallery behind the lead, filed under April from its own date.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",

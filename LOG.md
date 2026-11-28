@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-28 reader judge: a spring photograph for the Waldmüllerpark Wingnuts
+
+- **The Waldmüllerpark Wingnuts** (vienna/vie_038) got a second photograph in its gallery. It is a close view into the base of the many-stemmed trunk, with the wingnut's long-leaved suckers around it. It comes from the same reader whose November photo leads the page. It sits behind that lead and is filed under April, the photo's own date.
+- The publish step's coordinate read hit an HTTPError again ("pins: could not read coordinates"). That did not matter here, because the row carries the tree's own pin and not a device fix.
+- Nothing else was waiting: no open reports, tips, feedback, further photographs or words to quote. The 37 open leads in _sightings.json are from our own accounts. The qa source checks were clean, preflight found 0 problems and i18ncheck was clean.
+
 ## 2026-11-27 night run (third retry): nothing shipped
 
 - No product change. No claims standing, READY leads 0, pending verified files all stale or duplicate-by-pin, own research paused. Same state as the two earlier attempts; nothing to write or verify.
