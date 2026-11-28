@@ -1,6 +1,9 @@
 {
   "note": "Token cost per agent pass, as each pass reported it. Recorded so the daily retro has something to measure instead of an impression. 'trees' is what reached data/cities, not what the pass drafted.",
   "days": {
+    "2026-11-28": [
+      {"date": "2026-11-28", "kind": "write", "target": "page intros: 8 species", "tokens": 95000, "trees": 0, "note": "page gaps: species intros American Beech, Apple, Aleppo Oak, Yellow Buckeye, Willow (Salix sp.), Torrey Pine, Til / Stinkwood, Scarlet Oak; Arnold Arboretum skipped again (a second intro would split one arboretum into two pages; needs the bos_030-038 addresses unified with the existing intro's key); Prefargier false gap fixed in pagegaps.py (parks keyed on the city file slug, not slugify of 'Latena'); no trees; estimate"}
+    ],
     "2026-11-27": [
       {"date": "2026-11-27", "kind": "write", "target": "york+guimaraes+leamington-spa", "tokens": 45000, "trees": 0, "note": "3 READY leads handed back unwritten as status held: York riverside plane (no source, photo or facts), Sanfins cypress (Pacos de Ferreira, no life or access check, outside the day trip), Jephson silver pendant lime (no honest pin, no size); READY pool now 0; estimate"},
       {"date": "2026-11-27", "kind": "write", "target": "page intros: 6 species", "tokens": 110000, "trees": 0, "note": "page gaps: species intros Cedar (Cedrus sp.), Eastern Cottonwood, Sweet Gum, Grand Fir, Empress Tree, Elm (Ulmus sp.); skipped Arnold Arboretum (its newer trees key as 'Arnold Arboretum', the existing intro as 'Arnold Arboretum of Harvard University': a second file would split one park into two pages) and Prefargier (false gap: intro exists under city_slug la-tene, pagegaps slugifies the city name 'Latena'); no trees; estimate"}

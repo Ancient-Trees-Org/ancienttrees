@@ -121,7 +121,10 @@ def corpus():
                 species[t["species"]] += 1
             park_name = park_name_of(t)
             if park_name:
-                parks[(d.get("city"), park_name)] += 1
+                # Keyed on the file's slug, which is the city id the site
+                # uses. slugify(d["city"]) turned "Laténa" into "lat-na" and
+                # reported the live Préfargier page as a gap (2026-11-28).
+                parks[(os.path.basename(path)[:-5], park_name)] += 1
     return species, countries, parks
 
 
@@ -173,7 +176,7 @@ def gaps():
           if c and n > 0 and slugify(c) not in have_co
           and cities_per[c] >= COUNTRY_MIN_CITIES]
     pk = [(n, city, park) for (city, park), n in parks.items()
-          if n >= PARK_MIN_TREES and (slugify(city), park.strip().lower()) not in have_pk]
+          if n >= PARK_MIN_TREES and (city, park.strip().lower()) not in have_pk]
     sp.sort(reverse=True)
     co.sort(reverse=True)
     pk.sort(reverse=True)
