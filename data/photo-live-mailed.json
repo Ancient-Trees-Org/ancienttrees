@@ -3587,6 +3587,15 @@
      "city_slug": "barcelona",
      "display_name": null,
      "live": "2026-11-28"
+    },
+    {
+     "sighting_id": "9f7e0b7a-0bd5-4ad3-b8b1-f5f1f641abc9",
+     "tree_id": "bcn_008",
+     "tree_name": "The Silk Tree of the Ciutadella",
+     "city": "Barcelona",
+     "city_slug": "barcelona",
+     "display_name": null,
+     "live": "2026-11-28"
     }
    ],
    "sent": []

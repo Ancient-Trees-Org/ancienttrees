@@ -513,6 +513,28 @@
    "agreed": null
   },
   {
+   "id": "sight:9f7e0b7a-0bd5-4ad3-b8b1-f5f1f641abc9",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Silk Tree of the Ciutadella",
+   "city": "Barcelona",
+   "species": "Silk Tree (Albizia julibrissin)",
+   "photo": "out/sightings/9f7e0b7a-0bd5-4ad3-b8b1-f5f1f641abc9.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 25,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Silk Tree (Albizia julibrissin)"
+   },
+   "verdict": "publish",
+   "reason": "The leaning silk tree on its prop with the park's tree sign in front, fern-like Albizia leaves; the tree's first photograph, now its lead",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",

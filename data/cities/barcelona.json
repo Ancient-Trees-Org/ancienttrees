@@ -422,10 +422,17 @@
       "access": "Free, public park",
       "transport": "Arc de Triomf (Metro L1) or Ciutadella-Vila Olimpica (Metro L4), 5 min walk",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bcn_008-the-silk-tree-of-the-ciutadella.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1201,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_2b760ccfef19d83856c999e0",
+        "sighting_id": "9f7e0b7a-0bd5-4ad3-b8b1-f5f1f641abc9",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: The leaning silk tree of the Ciutadella on its black prop, the park's green tree sign in front; the tree had no photograph Species seen: feathery bipinnate fern-like leaves on pale smooth grey branches, an Albizia. Fits the description: an old multi-stemmed silk tree leaning hard and held by a metal prop, part of the crown bare, a municipal tree sign beside it in the park, 25 m from our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Replaces the previous entry for this slot, 'The Plane Trees of La Rambla,' which CLAUDE.md's 2026-07-26 collectibility rule flagged for failing the collectible-point test (a kilometre of ~250 ordinary street trees is an avenue, not a tree). This entry is a single, individually catalogued specimen (Barcelona's Catalogue of Trees of Local Interest, number 0103-01-96), verified against two independent sources: the municipal catalogue itself (planting year, dimensions, hollowing) and an independent beteve.cat news article (flowering behaviour, species distribution). One minor discrepancy left unresolved: two renderings of the same municipal record give crown diameter as 10m in one and 13m in another; not material to the story, not picked either way. No open-licensed photo found this pass; the one Commons file for this species in Barcelona shows a different specimen at a different location (Parroquia Santa Teresa Nino Jesus), not used.",

@@ -10,6 +10,11 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 reader judge: the Silk Tree of the Ciutadella has its first photograph
+
+- **Barcelona, The Silk Tree of the Ciutadella** (bcn_008, sighting 9f7e0b7a, the same Barcelona reader as today's plane and palms): a daylight shot of the old silk tree leaning on its metal prop in Parc de la Ciutadella, with the fern-like Albizia leaves and the park's green tree sign at its foot. The tree had no photograph, and now this one leads. The reader gets the "it's on the page" mail. It is filed under November. The pin stays: it is the register's confirmed coordinate, 25 m from where the reader stood. The pin read hit an HTTPError again, which changed nothing.
+- Nothing else was waiting: 0 open reports, 0 feedback, 0 tips, 0 further photographs, 0 notes left to quote, and nothing late. The 37 old `lead` rows are our own accounts. qa, preflight and i18ncheck are clean.
+
 ## 2026-11-28 reader judge: one Copenhagen photograph, held as an ordinary tree
 
 - One app photograph came in, sent for the Ancient Cycad of the Palm House (cop_002, Copenhagen). It shows something else: a bare broadleaf tree with a leaning, forked trunk outside, at the Botanical Garden's fence on Gothersgade. Verdict `other_tree`, so it became a lead. Judged as a tree of its own, it is held `not_special`: an ordinary garden tree in an ordinary photo, with nothing that stands out where it grows. Under the brief, `not_special` gets no mail.
