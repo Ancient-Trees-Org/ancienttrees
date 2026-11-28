@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-28 night run, fourth attempt: nothing to ship, state re-checked
+
+- Pulled, no claims, `leads.py --ready` 0, `passcheck.py --pending`: only taiwan has one clean unpublished entry (needs a verify pass, paused); the rest is stale or duplicates of live trees. Open app BUG rows (10) are iOS simulator or Android work. Web error `getLayer` in maplibre is orange, not red. Nothing changed on main.
+
 ## 2026-11-28 night run, third attempt: nothing to ship, same state
 
 - Pulled, no claims, `leads.py --ready` 0, `prepare.py --status` names no workable write or verify (own research paused). `reader_words.py`: 0 notes waiting; 4 mail sentences wait for the sender's yes. Health unchanged: iOS failure is runner capacity, open app BUG rows need the Mac simulator. Nothing changed on main.
