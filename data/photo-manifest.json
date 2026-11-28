@@ -207,6 +207,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/acw_001-the-giant-cottonwood-of-alum-creek.jpg": {
+   "base": "acw_001-the-giant-cottonwood-of-alum-creek",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/e/ec/20141029_PlataanSchimmelpenninckstr_02.jpg": {
    "base": "ame_008-the-plane-of-the-sint-jorisschool",
    "widths": [
@@ -964,6 +970,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/bcn_010-the-palms-of-casa-de-la-misericordia-3d6a6a78.jpg": {
+   "base": "bcn_010-the-palms-of-casa-de-la-misericordia-3d6a6a78",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/b/b3/Washingt%C3%B2nies_de_la_casa_de_la_Miseric%C3%B2rdia_P1510832.jpg": {
    "base": "bcn_010-the-palms-of-casa-de-la-misericordia",
    "widths": [
@@ -1038,6 +1050,12 @@
   },
   "https://inaturalist-open-data.s3.amazonaws.com/photos/600040819/medium.jpg": {
    "base": "bcn_036-the-london-plane-of-the-ciutadella",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/bcn_039-the-oriental-plane-of-placa-de-la-universitat.jpg": {
+   "base": "bcn_039-the-oriental-plane-of-placa-de-la-universitat",
    "widths": [
     500
    ]
@@ -1212,6 +1230,12 @@
   },
   "https://ancienttrees.app/photos/ben_001-the-rain-tree-of-the-national-gallery-of-modern-art-853a4b12-x2.jpg": {
    "base": "ben_001-the-rain-tree-of-the-national-gallery-of-modern-art-853a4b12-x2",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/ben_002-rain-tree-of-cooke-town.jpg": {
+   "base": "ben_002-rain-tree-of-cooke-town",
    "widths": [
     500
    ]
@@ -2795,6 +2819,18 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/coe_001-american-chestnut-of-city-park.jpg": {
+   "base": "coe_001-american-chestnut-of-city-park",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/coe_002-beech-of-west-sherman-court.jpg": {
+   "base": "coe_002-beech-of-west-sherman-court",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/cls_001-the-oak-of-clingoe-hill-3f14603e.jpg": {
    "base": "cls_001-the-oak-of-clingoe-hill-3f14603e",
    "widths": [
@@ -2947,6 +2983,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/cop_007-the-weeping-beech-of-assistens-434147d1.jpg": {
+   "base": "cop_007-the-weeping-beech-of-assistens-434147d1",
+   "widths": [
+    500
+   ]
+  },
   "https://www.dendron.dk/dtr/photos/2019/H%E6ngeb%F8g_Assistens_HEL_MG_4294.JPG": {
    "base": "cop_007-the-weeping-beech-of-assistens",
    "widths": [
@@ -2985,6 +3027,12 @@
   },
   "https://www.dendron.dk/dtr/photos/2019/Skyr%E6kker_Assistens_HEL_MG_4322.JPG": {
    "base": "cop_013-the-sky-reacher-of-assistens",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_014-skovfogedegen-660fa3e1.jpg": {
+   "base": "cop_014-skovfogedegen-660fa3e1",
    "widths": [
     500
    ]
@@ -3223,6 +3271,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/cop_052-the-oak-on-its-roots-in-birker-d-a98996f1.jpg": {
+   "base": "cop_052-the-oak-on-its-roots-in-birker-d-a98996f1",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/cop_052-oak-on-its-roots-in-birkerod.jpg": {
    "base": "cop_052-oak-on-its-roots-in-birkerod",
    "widths": [
@@ -3237,6 +3291,72 @@
   },
   "https://ancienttrees.app/photos/cop_053-village-tree-by-the-thatched-house-in-birker-d.jpg": {
    "base": "cop_053-village-tree-by-the-thatched-house-in-birker-d",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_054-copper-beech-over-the-pavement-in-birker-d.jpg": {
+   "base": "cop_054-copper-beech-over-the-pavement-in-birker-d",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_054-the-copper-beech-over-the-pavement-in-birker-d-3dbc8af8-x1.jpg": {
+   "base": "cop_054-the-copper-beech-over-the-pavement-in-birker-d-3dbc8af8-x1",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_054-the-copper-beech-over-the-pavement-in-birker-d-3dbc8af8-x2.jpg": {
+   "base": "cop_054-the-copper-beech-over-the-pavement-in-birker-d-3dbc8af8-x2",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_055-twin-stemmed-lime-by-birker-d-skole.jpg": {
+   "base": "cop_055-twin-stemmed-lime-by-birker-d-skole",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x1.jpg": {
+   "base": "cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x1",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x2.jpg": {
+   "base": "cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x2",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x3.jpg": {
+   "base": "cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x3",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_056-leaning-oak-on-the-birker-d-school-path.jpg": {
+   "base": "cop_056-leaning-oak-on-the-birker-d-school-path",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_056-the-leaning-oak-on-the-birker-d-school-path-0ab146f5-x1.jpg": {
+   "base": "cop_056-the-leaning-oak-on-the-birker-d-school-path-0ab146f5-x1",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_056-the-leaning-oak-on-the-birker-d-school-path-0ab146f5-x2.jpg": {
+   "base": "cop_056-the-leaning-oak-on-the-birker-d-school-path-0ab146f5-x2",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/cop_057-yews-over-the-henrichsen-grave.jpg": {
+   "base": "cop_057-yews-over-the-henrichsen-grave",
    "widths": [
     500
    ]
@@ -6277,6 +6397,18 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/kti_001-kaimai-kauri-above-katikati.jpg": {
+   "base": "kti_001-kaimai-kauri-above-katikati",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/kti_001-the-kaimai-kauri-above-katikati-412d732a-x1.jpg": {
+   "base": "kti_001-the-kaimai-kauri-above-katikati-412d732a-x1",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/3/37/Maluhia_Road_Tree_Tunnel%2C_Maluhia_Rd%2C_Koloa_-_panoramio.jpg": {
    "base": "kau_005-the-tree-tunnel-maluhia-road",
    "widths": [
@@ -7721,6 +7853,12 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/lon_026-the-brockwell-oak-64eec98b.jpg": {
+   "base": "lon_026-the-brockwell-oak-64eec98b",
+   "widths": [
+    500
+   ]
+  },
   "https://ancienttrees.app/photos/lon_026-the-brockwell-oak-ad2b3c75.jpg": {
    "base": "lon_026-the-brockwell-oak-ad2b3c75",
    "widths": [
@@ -8275,6 +8413,24 @@
   },
   "https://inaturalist-open-data.s3.amazonaws.com/photos/352213109/original.jpg": {
    "base": "msn_005-the-oakland-avenue-hackberry",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/msn_006-constitution-year-oak.jpg": {
+   "base": "msn_006-constitution-year-oak",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/msn_006-the-constitution-year-oak-2c29b653-x2.jpg": {
+   "base": "msn_006-the-constitution-year-oak-2c29b653-x2",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/msn_006-the-constitution-year-oak-2c29b653-x3.jpg": {
+   "base": "msn_006-the-constitution-year-oak-2c29b653-x3",
    "widths": [
     500
    ]
@@ -9428,6 +9584,24 @@
     1280
    ]
   },
+  "https://ancienttrees.app/photos/mur_001-the-great-downy-oak-of-murs.jpg": {
+   "base": "mur_001-the-great-downy-oak-of-murs",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/mur_001-the-great-downy-oak-of-murs-15c9c8eb-x1.jpg": {
+   "base": "mur_001-the-great-downy-oak-of-murs-15c9c8eb-x1",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/mur_001-the-great-downy-oak-of-murs-15c9c8eb-x2.jpg": {
+   "base": "mur_001-the-great-downy-oak-of-murs-15c9c8eb-x2",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/2/2d/Muxika_San_Roman_Besangiz21.jpg": {
    "base": "urk_001-urkietako-artea-encina-de-urkieta",
    "widths": [
@@ -9478,6 +9652,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/f/fd/Camphor_Tree_in_Atsuta-jingu_Shrine_Keidai%2C_Jingu_1-chome_Atsuta_Ward_Nagoya_2023.jpg": {
    "base": "ngy_002-the-camphor-of-atsuta-shrine",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/nbo_001-pale-trunks-of-sigiria.jpg": {
+   "base": "nbo_001-pale-trunks-of-sigiria",
    "widths": [
     500
    ]
@@ -10080,6 +10260,12 @@
   },
   "https://ancienttrees.app/photos/obc_001-the-fairchild-oak-0adac3f1-x1.jpg": {
    "base": "obc_001-the-fairchild-oak-0adac3f1-x1",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/obc_001-the-fairchild-oak-0adac3f1-x3.jpg": {
+   "base": "obc_001-the-fairchild-oak-0adac3f1-x3",
    "widths": [
     500
    ]
@@ -13935,6 +14121,30 @@
     500
    ]
   },
+  "https://ancienttrees.app/photos/var_006-cedar-by-the-tower-at-villa-cagnola.jpg": {
+   "base": "var_006-cedar-by-the-tower-at-villa-cagnola",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/var_006-the-cedar-by-the-tower-at-villa-cagnola-2549a442-x1.jpg": {
+   "base": "var_006-the-cedar-by-the-tower-at-villa-cagnola-2549a442-x1",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/var_007-blue-cedar-of-villa-cagnola.jpg": {
+   "base": "var_007-blue-cedar-of-villa-cagnola",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/var_007-the-blue-cedar-of-villa-cagnola-16c8b4f6-x1.jpg": {
+   "base": "var_007-the-blue-cedar-of-villa-cagnola-16c8b4f6-x1",
+   "widths": [
+    500
+   ]
+  },
   "https://upload.wikimedia.org/wikipedia/commons/c/c5/Strom_roka_borovica_velke_borove_01.jpg": {
    "base": "vbo_001-the-pine-of-ve-k-borov",
    "widths": [
@@ -14255,6 +14465,12 @@
   },
   "https://ancienttrees.app/photos/vie_038-the-waldm-llerpark-wingnuts.jpg": {
    "base": "vie_038-the-waldm-llerpark-wingnuts",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/vie_038-the-waldm-llerpark-wingnuts-dbc6ce41.jpg": {
+   "base": "vie_038-the-waldm-llerpark-wingnuts-dbc6ce41",
    "widths": [
     500
    ]
@@ -14765,6 +14981,12 @@
   },
   "https://upload.wikimedia.org/wikipedia/commons/2/24/20191007_WolfhezeWodanseiken_02.jpg": {
    "base": "wlf_001-the-wodanseiken",
+   "widths": [
+    500
+   ]
+  },
+  "https://ancienttrees.app/photos/wdd_001-the-methuselah-tree-74724432.jpg": {
+   "base": "wdd_001-the-methuselah-tree-74724432",
    "widths": [
     500
    ]
