@@ -18,6 +18,17 @@ Severities: **BLOCKER** (the site is wrong or broken; runs treat as rung 2),
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-28
+
+Web half: the last 24 hours were reader-judge work (Katikati ambassador, a spring photograph in the Waldmüllerpark Wingnuts' gallery, the Brockwell Oak lead), digests and run logs. vienna.html and london.html hold no em dashes; the Vienna reader photo carries its "Provided by a reader" licence and no name. The four WARNs of 2026-11-27 still stand in site/dist (grep today), replacements as in the 2026-11-21 entry:
+
+- WARN site/dist/miami/baobabs-of-collins-park.html, key-west/strangler-figs-of-the-key-west-cemetery.html "writer must not invent any" (twelfth review; public copy never narrates process). Also in api/trees.json.
+- WARN site/dist/explore.html "Each pin opens a tree with its age, its species, why it is worth the walk..." (twenty-second review).
+- WARN site/dist/contribute.html "verified against independent sources" (thirty-third review; false since 2026-10-12).
+- WARN site/dist/collections/ancient-oaks-of-europe.html and collections/europes-most-remarkable-yews.html "every coordinate verified" (thirteenth review; hard rule 2). Also in api/browse.json.
+
+---
+
 ## 2026-11-27
 
 Web half: the last 24 hours were reader-judge trees (Alstonville fig, Squamish cedar, Washington DC maples), an app Feed fix, a build fix for a duplicate common name and a view-transition error catch. Alstonville and Squamish hold no em dashes or banned words (single-tree places redirect to the tree, as designed). Four earlier WARNs still stand in site/dist (grep today), replacements as in the 2026-11-21 entry:
