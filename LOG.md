@@ -10,6 +10,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 night run (retry, 7 min in): nothing shipped, shelf empty
+
+- Claims: none standing. READY leads: 0. Verified-unpublished: one Taiwan tree (below the six-tree floor), everything else in passcheck --pending is stale or duplicate files. enrich, recognise --stuck and reader_words: nothing to do. Own research stays paused.
+- Open app BUG rows are all features, not quick fixes: editing a tree you added (iOS), Android's place picker for a new tree (pin went to Amsterdam), Android's draft on the account. They need design and a build, so I left them.
+- Two reader photographs (bcn_035, bcn_012) and one unknown-tree sighting (8aefa773, Toronto) wait for the reader judge, which owns them.
+
 ## 2026-11-28 reader judge: a reader's photograph leads the Ciutadella's Mexican oak; the cheesewood page no longer puts it at the bandstand
 
 - **Barcelona, The Mexican Oak of the Ciutadella** (bcn_012, sighting 3c2e6b81): a reader's daylight photograph of the leaning twin stem in its roped ring now leads the page, and the Commons photograph moved to the strip. The app's coordinate stood 173 m from the register coordinate and from report 1000162, which agree within 18 m, and the file carried no camera data. sightings_publish.py moved the pin to it anyway, so I put it back on the register (approximate) and noted why in `verify_notes`.
