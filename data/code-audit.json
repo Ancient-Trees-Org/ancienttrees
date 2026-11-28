@@ -1070,9 +1070,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/Feed.swift",
    "summary": "Back from a tree or profile reloaded the Feed, Find people and profiles, so the list came back scrolled elsewhere",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "AncientTreesUITests/BackKeepsPlaceWalk"
+   "test": "AncientTreesUITests/BackKeepsPlaceWalk",
+   "fixed_in": "4df1ea0a3"
   },
   {
    "id": "ESC-2026-11-26-share-your-profile-on-find-people-opened",
@@ -1081,9 +1082,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/People.swift",
    "summary": "Share your profile on Find people opened nothing (a ShareLink inside the list took the tap)",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "AncientTreesUITests/ShareProfileWalk"
+   "test": "AncientTreesUITests/ShareProfileWalk",
+   "fixed_in": "921f2f8d4"
   },
   {
    "id": "ESC-2026-11-26-tapping-a-person-s-name-on-their-profile",
@@ -1092,9 +1094,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/PersonProfile.swift",
    "summary": "Tapping a person's name on their profile opened their followers (the count's tap area lay over the name)",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "AncientTreesUITests/PersonProfileWalk/testTheNameOpensNothing"
+   "test": "AncientTreesUITests/PersonProfileWalk/testTheNameOpensNothing",
+   "fixed_in": "921f2f8d4"
   },
   {
    "id": "ESC-2026-11-26-an-ambassador-s-badge-on-somebody-s-prof",
@@ -1103,9 +1106,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/PersonProfile.swift",
    "summary": "An ambassador's badge on somebody's profile opened nothing instead of their place",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "AncientTreesUITests/PersonProfileWalk/testTheAmbassadorBadgeOpensThePlace"
+   "test": "AncientTreesUITests/PersonProfileWalk/testTheAmbassadorBadgeOpensThePlace",
+   "fixed_in": "921f2f8d4"
   },
   {
    "id": "ESC-2026-11-26-a-fast-scroll-down-the-feed-queued-every",
@@ -1114,9 +1118,10 @@
    "file": "ios/AncientTrees/AncientTrees/Kit/TreePhoto.swift",
    "summary": "A fast scroll down the Feed queued every photograph scrolled past ahead of the ones on screen, and other pages loaded nothing",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "AncientTreesTests/ImageGateTests"
+   "test": "AncientTreesTests/ImageGateTests",
+   "fixed_in": "921f2f8d4"
   },
   {
    "id": "ESC-2026-11-26-pull-to-refresh-on-the-feed-said-the-fee",
@@ -1125,9 +1130,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/Feed.swift",
    "summary": "Pull to refresh on the Feed said the feed did not load: emptying the list cut its own request off",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "AncientTreesUITests/FeedRefreshWalk"
+   "test": "AncientTreesUITests/FeedRefreshWalk",
+   "fixed_in": "1d8b21a11"
   },
   {
    "id": "ESC-2026-11-26-the-hearts-on-the-feed-s-tiles-stood-13-",
@@ -1149,9 +1155,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/Feed.swift",
    "summary": "The Feed's grid broke after a fixed six photos for People you may know, leaving a hole under the shorter column",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "AncientTreesTests/FeedPostsTests/testTheGridBreaksWhereTheColumnsAreLevel"
+   "test": "AncientTreesTests/FeedPostsTests/testTheGridBreaksWhereTheColumnsAreLevel",
+   "fixed_in": "1d8b21a11"
   },
   {
    "id": "ESC-2026-11-26-a-tree-card-dragged-down-on-the-map-land",
@@ -1160,9 +1167,10 @@
    "file": "ios/AncientTrees/AncientTrees/Screens/TreePlaceSheet.swift",
    "summary": "A tree card dragged down on the map landed on the list's bar stop and the tab bar went away",
    "first_seen": "2026-11-26",
-   "status": "open",
+   "status": "fixed",
    "found_by": "hidde",
-   "test": "AncientTreesUITests/TreeCardDragWalk"
+   "test": "AncientTreesUITests/TreeCardDragWalk",
+   "fixed_in": "6cc3a3380"
   },
   {
    "id": "ESC-2026-11-26-after-the-third-tree-page-the-rating-ask",

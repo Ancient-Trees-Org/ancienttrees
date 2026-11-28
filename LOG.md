@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-28 second attempt, same window: closed 8 app bug rows
+
+- Nothing to write (0 READY leads, 1 unpublished tree in taiwan awaiting a writer), own research paused. Rung 2: 8 of the 10 open APP BUG rows (Feed back-keeps-place, share profile, name and badge taps, photo load order, pull to refresh, grid break, tree card drag) already had their fix and test on main (921f2f8d4, 1d8b21a11, 4df1ea0a3, 6cc3a3380) and the scheduled iOS run on main was green after them; set them `fixed` with those commits. Two stay open: editing a tree you added (a feature, needs his word) and Android DraftTree (needs an Android test run).
+
 ## 2026-11-28 night run (10:28 window): page gaps, nothing from readers
 
 - Rung 1 empty (no photographs waiting, reader backlog clear). Rung 2: health shows 10 open app BUG rows in data/code-audit.json, all iOS Swift UI fixes that need an XCTest run on a Mac, so left for a session there; web errors are orange only (maplibre `getLayer`, 2 reports). Own research is paused and 0 leads are ready, so the line had nothing to write.
