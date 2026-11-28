@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-28 reader judge: the Oriental Plane of Placa de la Universitat has its first photograph
+
+- **Barcelona, The Oriental Plane of Placa de la Universitat** (bcn_039, sighting 05b74ec7, the same reader as the palms): a daylight shot of the whole tree in autumn leaf, in front of the university building. The council's sign at its foot reads Platanus orientalis. The tree had no photograph, and now this one leads. The reader gets the "it's on the page" mail. It is filed under November, from the photograph's own date. The pin stays: it is the register's coordinate and already confirmed, and the reader stood about 40 m back. The publish step's pin read hit an HTTPError, which changed nothing here.
+- **Plus answer plus:30** ("How can we register a remarkable tree?") is closed `handled`: Add a tree is in both apps and on the contribute page. It is the second "how do I add a tree" after plus:13. **For a session:** check whether Add a tree is easy enough to find (a UX question, so it is not this run's to change).
+- Three new tree notes (Barcelona palms, the Birkerød oak, the Forster Linde) are fine, with nothing to hide. They are left for the notes pass to mark seen. No open reports, tips, further photographs or words to quote, and nothing late. The 37 old `lead` rows are our own accounts. qa, preflight and i18ncheck are clean.
+
 ## 2026-11-28 reader judge: a reader's photo now leads the Barcelona palms, and their pin moved
 
 - **Barcelona, The Palms of Casa de la Misericordia** (bcn_010, sighting 3d6a6a78): a daylight shot looking up at the four fan palms rising out of the walled courtyard. It is now the lead photograph, and the Commons photo moved to the strip. The reader gets the "it's on the page" mail. Filed under November, the month it was taken.

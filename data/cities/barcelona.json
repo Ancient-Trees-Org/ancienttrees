@@ -1820,10 +1820,17 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bcn_039-the-oriental-plane-of-placa-de-la-universitat.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1201,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_2b760ccfef19d83856c999e0",
+        "sighting_id": "05b74ec7-da04-49e0-9331-5154e3f564a1",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: The plane in front of the university building on Placa de la Universitat, the city's species sign at its foot reading Platanus orientalis / Platan d'Orient; daylight, autumn leaf, whole tree in frame. The tree had no photograph. Species seen: pale flaking plane bark on the limbs, deeply lobed plane leaves, and the council's species sign naming Platanus orientalis at the trunk. Fits the description: a mid-sized plane with a forked crown standing at the kerb before the university's main building on the square, as the recognition line says.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by the leaves, cut far more deeply into narrow lobes than the hybrid planes on every street around it, and by its lower, looser shape. It stands in Placa de la Universitat in front of the university's main building.",
       "official_register": {

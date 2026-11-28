@@ -448,6 +448,28 @@
    "agreed": null
   },
   {
+   "id": "sight:05b74ec7-da04-49e0-9331-5154e3f564a1",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Oriental Plane of Placa de la Universitat",
+   "city": "Barcelona",
+   "species": "Oriental Plane (Platanus orientalis)",
+   "photo": "out/sightings/05b74ec7-da04-49e0-9331-5154e3f564a1.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 42,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oriental Plane (Platanus orientalis)"
+   },
+   "verdict": "publish",
+   "reason": "The plane before the university building on Placa de la Universitat, the council's species sign at its foot naming Platanus orientalis; daylight, autumn leaf, whole tree. Now the lead photograph of a tree that had none.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",

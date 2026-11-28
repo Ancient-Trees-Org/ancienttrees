@@ -3578,6 +3578,15 @@
      "city_slug": "barcelona",
      "display_name": null,
      "live": "2026-11-28"
+    },
+    {
+     "sighting_id": "05b74ec7-da04-49e0-9331-5154e3f564a1",
+     "tree_id": "bcn_039",
+     "tree_name": "The Oriental Plane of Placa de la Universitat",
+     "city": "Barcelona",
+     "city_slug": "barcelona",
+     "display_name": null,
+     "live": "2026-11-28"
     }
    ],
    "sent": []

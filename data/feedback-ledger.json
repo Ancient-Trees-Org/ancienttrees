@@ -520,6 +520,11 @@
    "status": "bug",
    "what": "a tree added 15 km from Ripon was named 'near Ripon'; now named after its own town, both phones, 6a085decb"
   },
+  "plus:30": {
+   "date": "2026-11-28",
+   "status": "handled",
+   "what": "asks how to add a remarkable tree; Add a tree is in both apps and on the website's contribute page; the second such ask after plus:13, noted in LOG for a session"
+  },
   "plus:9": {
    "date": "2026-11-27",
    "status": "handled",
