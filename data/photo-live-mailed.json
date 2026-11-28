@@ -3623,6 +3623,15 @@
      "city_slug": "barcelona",
      "display_name": null,
      "live": "2026-11-28"
+    },
+    {
+     "sighting_id": "3c2e6b81-6fa3-40ce-8447-744d9d00e6b0",
+     "tree_id": "bcn_012",
+     "tree_name": "The Mexican Oak of the Ciutadella",
+     "city": "Barcelona",
+     "city_slug": "barcelona",
+     "display_name": null,
+     "live": "2026-11-28"
     }
    ],
    "sent": []

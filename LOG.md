@@ -10,6 +10,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 reader judge: a reader's photograph leads the Ciutadella's Mexican oak; the cheesewood page no longer puts it at the bandstand
+
+- **Barcelona, The Mexican Oak of the Ciutadella** (bcn_012, sighting 3c2e6b81): a reader's daylight photograph of the leaning twin stem in its roped ring now leads the page, and the Commons photograph moved to the strip. The app's coordinate stood 173 m from the register coordinate and from report 1000162, which agree within 18 m, and the file carried no camera data. sightings_publish.py moved the pin to it anyway, so I put it back on the register (approximate) and noted why in `verify_notes`.
+- **Barcelona, The Japanese Cheesewood of the Ciutadella** (bcn_037, report 1000163): the reader wrote that the bandstand is not near our pin and that an almost identical tree stands by the bandstand. OSM puts the Glorieta 170 m north of our pin. Our pin is the register's own coordinate, and a reader photographed the roped cheesewood there today, so the pin stays. The register's "in front of the Glorieta" wording came off the address, the recognition line and the story, in English and Spanish. The story now points to the rope ring and gives the twin by the bandstand as a visitor's word. They wrote their own words, so no standard mail went out. The report is closed `holds`.
+- **For Hidde:** a suggested reply to report 1000163 is in drafts/reply-reader-1000163-2026-11-28.md.
+- No new reader trees, tips or feedback waited. The same 37 `mine` leads stay as they were.
+
 ## 2026-11-28 reader judge: a reader's fir in Bentivoglio is live, the Ciutadella's Mexican oak pin moved
 
 - **New tree, Bentivoglio, The Fir of Bentivoglio** (bnt_001, sighting b19c636e). It was held this morning as `no_location` because the pin placed in the Android app landed on Dam Square, Amsterdam. The reader mailed back its place, the centre of Bentivoglio near Bologna, with coordinates (feedback 1813). Their four photographs show a dense conifer about four times the height of the building beside it. The page uses their figures as theirs: about 20 m tall, trunk about 300 cm. The pin is approximate (coordinates they typed, not a fix). The species is listed as fir (Abies sp.) because the photographs could also show a spruce, and the page asks readers. Access: seen from the street, and whether the lawn is open is unconfirmed. It is a one-tree place with its texts and three FAQ, and its names were looked up. All three further photographs went up.

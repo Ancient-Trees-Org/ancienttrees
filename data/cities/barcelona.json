@@ -643,13 +643,17 @@
       "access": "Free, public park",
       "transport": "Arc de Triomf (Metro L1) or Ciutadella-Vila Olimpica (Metro L4), 5 min walk",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Roure_-_Ciutadella_4.JPG",
-        "license": "CC BY-SA 3.0",
-        "attribution": "Herodotptlomeu, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/bcn_012-the-mexican-oak-of-the-ciutadella-3c2e6b81.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2048,
-        "height": 1536,
-        "taken_month": 6
+        "width": 1201,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_2b760ccfef19d83856c999e0",
+        "sighting_id": "3c2e6b81-6fa3-40ce-8447-744d9d00e6b0",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: The Ciutadella's Mexican oak in daylight: the leaning twin stem inside its roped circle of mulch on the park sand, the register plinth beside it, a dense crown of plain-edged evergreen leaves. A full-tree frame of this trunk, taken in November. Species seen: leathery, plain-edged, unlobed evergreen oak leaves; dark furrowed bark on a leaning stem. Fits the description: a leaning stem throwing a wide low crown sideways, on sand in Parc de la Ciutadella, a modest tree beside taller pines.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Municipal register (register_id 99400454956, catalogue number 0130-01-97, catalogued 1997) plus an independent beteve.cat feature, which is the source for the only-one-in-Catalonia claim and for the unlobed leaves. Pin: the register gives 41.388892, 2.186420 while OSM node 6924278485, carrying the same catalogue geocoded by address, gives 41.38829, 2.18680, 75 m apart. The Commons photograph shows the tree standing beside the park's bandstand, which supports the OSM position, so that one is used, but two municipal renderings disagreeing by 75 m is not a confirmed pin and it is marked approximate. Photo viewed directly before approval: leaning trunk fills the centre of frame, daylight, colour, crown readable, categorised on Commons under 'Roure de Mexic del parc de la Ciutadella'. Its upload path was resolved against the Commons API rather than guessed. File 3 in the same series was rejected: the bandstand takes the centre band and the tree sits at the left edge, which would not survive the card crop.",
@@ -667,7 +671,18 @@
         "date": "2026-11-28",
         "note": "reader report 1000162 moved our approximate pin 92 m, to 41.389049, 2.186355; the city's register entry stands 18 m from their spot, so the pin moved to the register's coordinate."
       },
-      "verify_notes": "2026-11-28 reader judge: a reader's pin report (1000162) put the oak 92 m from our pin, between the lake and the Cascada; Barcelona's AIL register (99400454956, planted 1887, girth 2.5 m, crown 11 m) agrees within 18 m. Pin moved to the register coordinate, still approximate."
+      "verify_notes": "2026-11-28 reader judge: a reader's pin report (1000162) put the oak 92 m from our pin, between the lake and the Cascada; Barcelona's AIL register (99400454956, planted 1887, girth 2.5 m, crown 11 m) agrees within 18 m. Pin moved to the register coordinate, still approximate. 2026-11-28 reader judge: a reader's app photograph (sighting 3c2e6b81) shows this oak from about ten metres, but its file carries no camera data and the app's coordinate stands 173 m from both the register and report 1000162, which agree within 18 m; the photograph went live, the pin stays on the register.",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Roure_-_Ciutadella_4.JPG",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Herodotptlomeu, via Wikimedia Commons",
+          "status": "approved",
+          "width": 2048,
+          "height": 1536,
+          "taken_month": 6
+        }
+      ]
     },
     {
       "id": "bcn_013",
@@ -1771,12 +1786,12 @@
       "planted": null,
       "girth_cm": 155,
       "location": {
-        "address": "Parc de la Ciutadella, in front of the Glorieta de la Transsexual Sonia, 08003 Barcelona",
+        "address": "Parc de la Ciutadella, roped lawn about 170 m south of the Glorieta, 08003 Barcelona",
         "latitude": 41.387625,
         "longitude": 2.186243,
         "neighbourhood": "Sant Pere, Santa Caterina i la Ribera, Ciutat Vella"
       },
-      "story": "This is a hedge that got away. Pittosporum tobira is the standard clipped shrub of Mediterranean car parks and hotel forecourts, usually held below waist height and almost never allowed a single trunk at all. This one has a trunk 1.55 metres around and a crown six metres wide, which is why the city added it to the register of trees of local interest in 2017, the only one of its species on that list. The register does not even record a height for it, an omission that says something about how unexpected the entry is. It grows in the Parc de la Ciutadella in front of the Glorieta de la Transsexual Sonia, the park's old bandstand, which the city renamed for a woman killed there and which is now one of Barcelona's memorials to violence against trans people. The tree is the quiet part of that corner. In spring it carries small cream flowers that smell of orange blossom strongly enough to reach the path, which is where the plant's other name, mock orange, comes from. Nobody has dated it. Pittosporum thickens slowly enough that a trunk this size suggests decades rather than years, but the register gives no planting year and no second source offers one.",
+      "story": "This is a hedge that got away. Pittosporum tobira is the standard clipped shrub of Mediterranean car parks and hotel forecourts, usually held below waist height and almost never allowed a single trunk at all. This one has a trunk 1.55 metres around and a crown six metres wide, which is why the city added it to the register of trees of local interest in 2017, the only one of its species on that list. The register does not even record a height for it, an omission that says something about how unexpected the entry is. It grows on a lawn in the Parc de la Ciutadella, inside a ring of rope and wooden posts, about 170 metres south of the park's old bandstand, the Glorieta de la Transsexual Sonia. A visitor tells us a second pittosporum of almost the same shape stands close to the bandstand, so the roped ring is the way to know you have the registered one. In spring it carries small cream flowers that smell of orange blossom strongly enough to reach the path, which is where the plant's other name, mock orange, comes from. Nobody has dated it. Pittosporum thickens slowly enough that a trunk this size suggests decades rather than years, but the register gives no planting year and no second source offers one.",
       "verified_sources": [
         "https://opendata-ajuntament.barcelona.cat/data/en/dataset/arbres-interes-local",
         "https://opendata-ajuntament.barcelona.cat/data/dataset/7052709e-1087-4ef3-862a-1a6c3e9a7200"
@@ -1799,11 +1814,12 @@
         "sighting_id": "01e5144b-547f-43c7-96f2-618233ad2a7d",
         "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: The Ciutadella cheesewood itself: a low dome of dense glossy evergreen leaves far wider than tall, a short stout trunk under it, roped off on a bed of bark, in park lawn, in daylight; taken 10 m from our pin. The tree had no photograph. Species seen: dense whorls of narrow, leathery, glossy obovate leaves, rounded billowing crown on a short single trunk: Pittosporum tobira. Fits the description: a single trunk under a crown about six metres wide, grown far past hedge size, standing alone on a park lawn in the Ciutadella.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
-      "how_to_recognise": "You can recognise it by a single trunk 1.55 metres round on a plant usually clipped into a waist high hedge, under a crown six metres wide. It stands in front of the Glorieta de la Transsexual Sonia, the park's old bandstand.",
+      "how_to_recognise": "You can recognise it by a single trunk 1.55 metres round on a plant usually clipped into a waist high hedge, under a crown six metres wide, inside a ring of rope and wooden posts on the lawn.",
       "official_register": {
         "name": "Arbres d'interès local (Ajuntament de Barcelona), no. 99400638005",
         "url": null
-      }
+      },
+      "verify_notes": " 2026-11-28 reader judge: reader report 1000163 said the bandstand is not near our pin and that an almost identical tree stands close to it. OSM puts the Glorieta (way 574334618) at 41.389141, 2.186080, 170 m north of our pin, which is the register's own coordinate and where a reader photographed this roped tree today (sighting 01e5144b, 10 m off). The pin stays; the register's 'in front of the Glorieta' wording came off the address, story and recognition line."
     },
     {
       "id": "bcn_038",

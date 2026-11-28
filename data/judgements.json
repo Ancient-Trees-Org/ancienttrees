@@ -724,6 +724,28 @@
    "agreed": null
   },
   {
+   "id": "sight:3c2e6b81-6fa3-40ce-8447-744d9d00e6b0",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Mexican Oak of the Ciutadella",
+   "city": "Barcelona",
+   "species": "Mexican White Oak (Quercus polymorpha)",
+   "photo": "out/sightings/3c2e6b81-6fa3-40ce-8447-744d9d00e6b0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 173,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Mexican White Oak (Quercus polymorpha)"
+   },
+   "verdict": "publish",
+   "reason": "Leads the Mexican oak's page now (Commons photo moved to the strip): the leaning twin stem in its roped ring on the Ciutadella sand, plain-edged evergreen leaves, daylight. The app's coordinate stood 173 m from both the register and a reader's pin report, the file carried no camera data, so the pin stays on the register.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
