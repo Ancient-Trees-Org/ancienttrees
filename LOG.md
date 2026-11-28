@@ -1,5 +1,9 @@
 # LOG
 
+## 2026-11-28 night run, third attempt: nothing to ship, same state
+
+- Pulled, no claims, `leads.py --ready` 0, `prepare.py --status` names no workable write or verify (own research paused). `reader_words.py`: 0 notes waiting; 4 mail sentences wait for the sender's yes. Health unchanged: iOS failure is runner capacity, open app BUG rows need the Mac simulator. Nothing changed on main.
+
 ## 2026-11-28 night run, second attempt: nothing to ship, checked again
 
 - No claims standing, `leads.py --ready` 0. The 382 "awaiting a writer" are mostly stale research files or entries within 50 m of a live tree under another id (alp, car, cdl, hrv, cyp, grx, sgz and others), so a write pass would only duplicate trees already live. Folding those into duplicate leads and deleting the stale files is a cleanup for a session, not a write pass.
