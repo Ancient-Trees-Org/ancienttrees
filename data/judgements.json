@@ -40,6 +40,34 @@
    "agreed": null
   },
   {
+   "id": "lead:3dbc8af8-6abf-47d4-92d0-b7bcdd41c443",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Copper Beech in Copenhagen",
+   "city": null,
+   "species": "Copper Beech",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/3DBC8AF8-6ABF-47D4-92D0-B7BCDD41C443.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 250,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Copper Beech"
+   },
+   "verdict": "publish",
+   "reason": "Photographs viewed: a big copper beech in a Birkerod front garden, forked grey trunk, crown spreading over the pavement, seen from the street. GPS from the photo at the tree. Live as copenhagen/cop_054 with both further photos; access says private garden, seen from the pavement; reader's 100 years and 250 cm stated as theirs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
@@ -31217,6 +31245,18 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3dbc8af8-6abf-47d4-92d0-b7bcdd41c443",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Copper Beech in Copenhagen",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/3DBC8AF8-6ABF-47D4-92D0-B7BCDD41C443.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photographs viewed: a big copper beech in a Birkerod front garden; lead photo of cop_054, two more in its strip.",
    "hidde": null,
    "agreed": null
   }

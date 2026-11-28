@@ -734,6 +734,21 @@
    },
    "tree": "borrowdale/bwd_001"
   },
+  "3dbc8af8-6abf-47d4-92d0-b7bcdd41c443": {
+   "extras": {
+    "1": {
+     "date": "2026-11-28",
+     "file": "cop_054-the-copper-beech-over-the-pavement-in-birker-d-3dbc8af8-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-28",
+     "file": "cop_054-the-copper-beech-over-the-pavement-in-birker-d-3dbc8af8-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "copenhagen/cop_054"
+  },
   "3dfeef4f-6a2a-474a-abaa-b0594c741084": {
    "extras": {
     "1": {

@@ -12,6 +12,11 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-28 reader judge: a copper beech in Birkerød
+
+- **Live**: copenhagen/cop_054, The Copper Beech over the Pavement in Birkerød. A reader sent it from the app with three photographs. They show a big forked beech in a front garden, its crown spreading over the pavement, with the last copper leaves of November. The reader is the same one who sent the three Kajerød trees nearby (cop_051 to cop_053). The pin is the GPS location from their photograph. The access line says the garden is private and the tree is seen from the pavement. Their age (about 100 years) and girth (250 cm) are on the page as their figures. All three photographs are up: the lead, plus two in the strip via reader_extras.py. The photo is filed under November, the month it was taken.
+- Nothing else was waiting: no reports, no feedback, no tips. reader_words had nothing to quote. qa, preflight and i18ncheck are all clean.
+
 ## 2026-11-28 reader judge: an ambassador for Katikati, and the way to its kauri
 
 - The reader who sent the Kaimai Kauri (katikati/kti_001) wrote back by mail. They work as an arborist in Tauranga and the Western Bay of Plenty, want to be ambassador there and plan to add many historic trees. They are now **ambassador of Katikati**, the only place we have in that area, and are named on the page as their public profile shows. Their second line, that the walk starts from the end of Hot Springs Road, is in the tree's access line and walk FAQ, given as their account. Feedback 1785 is closed `handled`.

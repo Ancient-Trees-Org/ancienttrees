@@ -2542,6 +2542,79 @@
         "taken_month": 4,
         "taken_month_basis": "the photograph's own date"
       }
+    },
+    {
+      "id": "cop_054",
+      "name": "The Copper Beech over the Pavement in Birkerød",
+      "species": "Copper Beech (Fagus sylvatica f. purpurea)",
+      "age_estimate": "about 100 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Front garden on a residential street, Kajerød, Birkerød, north of Copenhagen",
+        "latitude": 55.8438633333333,
+        "longitude": 12.415845,
+        "neighbourhood": "Birkerød, north of Copenhagen"
+      },
+      "how_to_recognise": "Behind a clipped beech hedge on a residential street: a smooth grey trunk that forks into two great leaders, with a dark yew pressed against its foot and a crown that spreads far over the pavement.",
+      "access": "In a private front garden; seen from the pavement. About 20 km north of central Copenhagen.",
+      "story": "A reader walking the streets of Birkerød, north of Copenhagen, stopped under this beech in late November and sent us three photographs of it. It is the same reader who has been sending us the old trees of Kajerød, a few hundred metres away.\n\nThe tree stands in a front garden, but nobody walking past could miss it. A smooth grey trunk, the elephant-skin bark of a beech, rises from behind a clipped hedge and a dark yew, then forks into two great leaders that climb side by side. Above them the crown spreads into a dome of fine twigs far wider than the house behind it, reaching out over the pavement and the road. In the reader's pictures most of the leaves have gone, and the ones still hanging are the deep copper of a copper beech going over.\n\nThe reader puts it at about a hundred years old and two and a half metres round. Those figures are theirs, not a measurement we have seen.\n\nCome in May, when the new leaves open a dark, glossy purple and the whole crown glows over the street.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "3dbc8af8-6abf-47d4-92d0-b7bcdd41c443",
+        "date": "2026-11-28"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "3dbc8af8-6abf-47d4-92d0-b7bcdd41c443",
+        "moved_m": 0,
+        "date": "2026-11-28",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-28 reader judge: sent by a reader (3dbc8af8-6abf-47d4-92d0-b7bcdd41c443, 2026-11-28, through the app). Photograph viewed: the whole beech from the pavement, a thick grey trunk splitting into two leaders under a broad dome of bare twigs with the last copper leaves hanging on, a beech hedge and a yew in front, houses and a street lamp around it, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Copper Beech in Copenhagen', species 'Copper Beech', age '100', girth 250 cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cop_054-copper-beech-over-the-pavement-in-birker-d.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+        "sighting_id": "3dbc8af8-6abf-47d4-92d0-b7bcdd41c443",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-28, through the app); viewed and approved on 2026-11-28: the whole beech from the pavement, a thick grey trunk splitting into two leaders under a broad dome of bare twigs with the last copper leaves hanging on, a beech hedge and a yew in front, houses and a street lamp around it, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cop_054-the-copper-beech-over-the-pavement-in-birker-d-3dbc8af8-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+          "sighting_id": "3dbc8af8-6abf-47d4-92d0-b7bcdd41c443-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cop_054-the-copper-beech-over-the-pavement-in-birker-d-3dbc8af8-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+          "sighting_id": "3dbc8af8-6abf-47d4-92d0-b7bcdd41c443-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     }
   ]
 }

@@ -13718,6 +13718,42 @@
    "seen": "2026-11-27",
    "judged": "2026-11-27",
    "published_as": "madison/msn_006"
+  },
+  {
+   "sighting_id": "3dbc8af8-6abf-47d4-92d0-b7bcdd41c443",
+   "user_id": "p_c9d7d7122bebe14afd5b82d4",
+   "mine": false,
+   "name": "Copper Beech in Copenhagen",
+   "unsure_among": null,
+   "species": "Copper Beech",
+   "age": "100",
+   "girth_cm": 250,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 55.8438633333333,
+   "longitude": 12.415845,
+   "location_kind": "photo",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_c9d7d7122bebe14afd5b82d4/3DBC8AF8-6ABF-47D4-92D0-B7BCDD41C443.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [
+    "out/sightings/3dbc8af8-6abf-47d4-92d0-b7bcdd41c443-extra-1.jpg",
+    "out/sightings/3dbc8af8-6abf-47d4-92d0-b7bcdd41c443-extra-2.jpg"
+   ],
+   "extra_months": null,
+   "nearest_published_m": 441,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-28: the whole beech from the pavement, a thick grey trunk splitting into two leaders under a broad dome of bare twigs with the last copper leaves hanging on, a beech hedge and a yew in front, houses and a street lamp around it, daylight, colour. Live as copenhagen/cop_054 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-28",
+   "judged": "2026-11-28",
+   "published_as": "copenhagen/cop_054"
   }
  ]
 }
