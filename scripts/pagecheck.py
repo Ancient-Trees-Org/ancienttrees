@@ -175,7 +175,9 @@ MAP_WALK = [
     ("/kyoto", "city map", False),
     ("/explore#map=12/35.01/135.76", "explore map", False),
     ("/japan", "country map", False),
-    ("/united-states/california", "state map", True),
+    # A full map since 542da792a (Hidde, 2026-11-28: "Ja, staatpagina's"): the
+    # country page's skeleton, so it is walked as the country map is.
+    ("/united-states/california", "state map", False),
 ]
 WALK_WIDTHS = [(1440, 900, "desktop"), (1024, 768, "laptop")]
 
