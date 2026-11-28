@@ -10,6 +10,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 night run (third attempt, same window): nothing shipped, same state
+
+- Pulled, no claims, READY 0, prepare.py has no writer work (own research paused). Health reds are only the open app BUG rows (edit a tree you added; Android draft on the account; Android pin place). Each needs a design plus an emulator or device build and cannot be verified on this runner, so none was started blind. A session takes them.
+
 ## 2026-11-28 night run (retry in the 15:00 window): nothing shipped, nothing left to take
 
 - Pulled, no claims standing, READY 0, no staged verify work (own research paused), `enrich.py --next` and `recognise.py --stuck` empty, `reader_words.py` 0 notes waiting (4 mail sentences wait for the sender's yes). Every non-stale `*-verified.json` is a duplicate or id clash of a live tree, so there is nothing to write. Health reds: the open app BUG rows only; each needs a server design or an emulator and a build (edit a tree you added, Android draft on the account, Android pin picker), so a session takes them. Web error "Unexpected end of input" is 1 report on 1 page, below the red line.
