@@ -275,18 +275,8 @@
    ]
   },
   "p_9f7b25dda38d08dabcad19bf": {
-   "last": "2026-11-16",
-   "pending": [
-    {
-     "sighting_id": "f17b77f9-8fa0-4fe2-af81-b92804eb0d11",
-     "tree_id": "kyo_019",
-     "tree_name": "The Twisted Muku of Omiya Gate, Kyoto Gyoen",
-     "city": "Kyoto",
-     "city_slug": "kyoto",
-     "display_name": null,
-     "live": "2026-11-27"
-    }
-   ],
+   "last": "2026-11-28",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "ca9fc102-0921-422a-ab13-5d1712d2e630",
@@ -307,6 +297,11 @@
      "sighting_id": "221f1245-c4b5-4b97-a777-879f9f8bd9e7",
      "tree_id": "nra_002",
      "mailed": "2026-11-16"
+    },
+    {
+     "sighting_id": "f17b77f9-8fa0-4fe2-af81-b92804eb0d11",
+     "tree_id": "kyo_019",
+     "mailed": "2026-11-28"
     }
    ]
   },
@@ -2577,32 +2572,23 @@
    ]
   },
   "p_230ca0c6269992f101ed0a8d": {
-   "last": "2026-11-21",
-   "pending": [
-    {
-     "sighting_id": "85138489-8105-46ff-b500-3c08c04ce8b1",
-     "tree_id": "vie_038",
-     "tree_name": "The Waldmüllerpark Wingnuts",
-     "city": "Vienna",
-     "city_slug": "vienna",
-     "display_name": null,
-     "live": "2026-11-21"
-    },
-    {
-     "sighting_id": "4491f36f-c569-42f1-a84c-a9bab33dab9a",
-     "tree_id": "vie_037",
-     "tree_name": "The Alois-Drasche-Park Beech",
-     "city": "Vienna",
-     "city_slug": "vienna",
-     "display_name": null,
-     "live": "2026-11-22"
-    }
-   ],
+   "last": "2026-11-28",
+   "pending": [],
    "sent": [
     {
      "sighting_id": "869c8d36-3764-40a1-a159-da4f7c51e5d2",
      "tree_id": "vie_003",
      "mailed": "2026-11-21"
+    },
+    {
+     "sighting_id": "85138489-8105-46ff-b500-3c08c04ce8b1",
+     "tree_id": "vie_038",
+     "mailed": "2026-11-28"
+    },
+    {
+     "sighting_id": "4491f36f-c569-42f1-a84c-a9bab33dab9a",
+     "tree_id": "vie_037",
+     "mailed": "2026-11-28"
     }
    ]
   },
@@ -3474,19 +3460,15 @@
    ]
   },
   "p_21429d1c6a44f14c7876e774": {
-   "last": null,
-   "pending": [
+   "last": "2026-11-28",
+   "pending": [],
+   "sent": [
     {
      "sighting_id": "3aadb77e-e8f1-4c64-b125-719c0aca8134",
      "tree_id": "bol_003",
-     "tree_name": "The Plane Tree of Piazza Minghetti",
-     "city": "Bologna",
-     "city_slug": "bologna",
-     "display_name": null,
-     "live": "2026-11-27"
+     "mailed": "2026-11-28"
     }
-   ],
-   "sent": []
+   ]
   },
   "p_9ba2fe2890d0fba37865bf67": {
    "last": "2026-11-27",
