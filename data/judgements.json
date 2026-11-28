@@ -252,6 +252,129 @@
    "agreed": null
   },
   {
+   "id": "sight:d406dd32-8c5f-442a-8a0a-1b718b18040b",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Lime in Copenhagen",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/D406DD32-8C5F-442A-8A0A-1B718B18040B.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photographs viewed: a big twin-stemmed lime by the Birkerød Skole path; lead photo of cop_055, three more in its strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0ab146f5-656c-4403-9974-beb4b3475704",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak in Copenhagen",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/0AB146F5-656C-4403-9974-BEB4B3475704.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photographs viewed: a leaning pedunculate oak on the Birkerød Skole path; lead photo of cop_056, two more in its strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f1118a64-24a1-4de4-95b9-8641a4ddbe43",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Raintree in Bengaluru",
+   "photo": "p_222d03c41c0146a3003004ee/F1118A64-24A1-4DE4-95B9-8641A4DDBE43.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a massive rain tree in a Cooke Town garden; lead photo of ben_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:4b1f47c4-2a3e-4c72-9898-c592a9665a06",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Handkerchief Tree of Assistens",
+   "city": "Copenhagen",
+   "species": "Handkerchief Tree (Davidia involucrata)",
+   "photo": "out/sightings/4b1f47c4-2a3e-4c72-9898-c592a9665a06.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 4,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Handkerchief Tree (Davidia involucrata)"
+   },
+   "verdict": "other_tree",
+   "reason": "Photograph viewed: two yews over a fenced grave, not the handkerchief tree; published as its own tree, copenhagen/cop_057",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:a98996f1-c889-43c5-b633-7f204e01cd5a",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Oak on Its Roots in Birkerød",
+   "city": "Copenhagen",
+   "species": "Oak (Quercus sp.)",
+   "photo": "out/sightings/a98996f1-c889-43c5-b633-7f204e01cd5a.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 80,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oak (Quercus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the same oak on its raised plate of bare roots, burr low on the trunk, fence and field behind, winter blue sky; added as the lead photo, the earlier one moved to the strip",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:660fa3e1-e915-4133-a6e3-6b258ca08faa",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "Skovfogedegen",
+   "city": "Copenhagen",
+   "species": "Pedunculate Oak (Quercus robur)",
+   "photo": "out/sightings/660fa3e1-e915-4133-a6e3-6b258ca08faa.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 31,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pedunculate Oak (Quercus robur)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: Skovfogedegen's hollow trunk split to the ground beside Strandvejen with the Sound behind, spring leaves; added as the lead photo, the Commons one moved to the strip",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:4b1f47c4-2a3e-4c72-9898-c592a9665a06",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Copenhagen",
+   "species": null,
+   "photo": "p_2448241466ccb6b6bfbed516/4B1F47C4-2A3E-4C72-9898-C592A9665A06.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: two tall old yews with a fluted red trunk over the Henrichsen grave in Assistens; somewhat special, live as copenhagen/cop_057",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
@@ -31429,42 +31552,6 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:d406dd32-8c5f-442a-8a0a-1b718b18040b",
-   "seen": "2026-11-28",
-   "kind": "a tree we do not map",
-   "tree": "Lime in Copenhagen",
-   "photo": "p_c9d7d7122bebe14afd5b82d4/D406DD32-8C5F-442A-8A0A-1B718B18040B.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photographs viewed: a big twin-stemmed lime by the Birkerød Skole path; lead photo of cop_055, three more in its strip.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:0ab146f5-656c-4403-9974-beb4b3475704",
-   "seen": "2026-11-28",
-   "kind": "a tree we do not map",
-   "tree": "Pedunculate Oak in Copenhagen",
-   "photo": "p_c9d7d7122bebe14afd5b82d4/0AB146F5-656C-4403-9974-BEB4B3475704.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photographs viewed: a leaning pedunculate oak on the Birkerød Skole path; lead photo of cop_056, two more in its strip.",
-   "hidde": null,
-   "agreed": null
-  },
-  {
-   "id": "sight:f1118a64-24a1-4de4-95b9-8641a4ddbe43",
-   "seen": "2026-11-28",
-   "kind": "a tree we do not map",
-   "tree": "Raintree in Bengaluru",
-   "photo": "p_222d03c41c0146a3003004ee/F1118A64-24A1-4DE4-95B9-8641A4DDBE43.jpg",
-   "reader_note": "",
-   "verdict": "publish",
-   "reason": "Photograph viewed: a massive rain tree in a Cooke Town garden; lead photo of ben_002.",
    "hidde": null,
    "agreed": null
   }

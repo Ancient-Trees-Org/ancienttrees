@@ -13885,6 +13885,31 @@
    "seen": "2026-11-28",
    "hold": "not_special",
    "judged": "2026-11-28"
+  },
+  {
+   "sighting_id": "4b1f47c4-2a3e-4c72-9898-c592a9665a06",
+   "user_id": "p_2448241466ccb6b6bfbed516",
+   "mine": false,
+   "name": "",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 55.6906888534476,
+   "longitude": 12.5539721278318,
+   "near": "Copenhagen",
+   "photo": "p_2448241466ccb6b6bfbed516/4B1F47C4-2A3E-4C72-9898-C592A9665A06.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": 4,
+   "sent_for": "cop_006",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-28: two tall yews side by side over an iron-fenced grave plot in Assistens cemetery, the right trunk reddish and fluted, dense dark crowns against a low late-autumn sun, a black gravestone with a round portrait medallion and the name Henrichsen at their feet, yellow leaves around, daylight, colour. Live as copenhagen/cop_057 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-28",
+   "judged": "2026-11-28",
+   "published_as": "copenhagen/cop_057"
   }
  ]
 }

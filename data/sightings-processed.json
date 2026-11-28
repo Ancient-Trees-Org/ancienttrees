@@ -8353,6 +8353,37 @@
    "date": "2026-11-28",
    "tree_id": "cop_008",
    "reason": "a birch with white bark and hanging yellow autumn twigs beside a cemetery path, 141 m from the sycamore it was sent for; not the maple"
+  },
+  "4b1f47c4-2a3e-4c72-9898-c592a9665a06": {
+   "outcome": "published",
+   "date": "2026-11-28",
+   "tree_id": "cop_006",
+   "reason": "The photograph shows two evergreen yews with flaking reddish trunks behind a fenced grave plot, not the deciduous, multi-stemmed handkerchief tree it was sent for; a tree of its own in Assistens.",
+   "published_as": "copenhagen/cop_057"
+  },
+  "a98996f1-c889-43c5-b633-7f204e01cd5a": {
+   "outcome": "added",
+   "date": "2026-11-28",
+   "tree_id": "cop_052",
+   "city_slug": "copenhagen",
+   "file": "cop_052-the-oak-on-its-roots-in-birker-d-a98996f1.jpg",
+   "reason": "The same oak: broad fissured trunk on a raised plate of bare knotted roots running into the path, burr low on one side, wire fence and field behind. Winter, blue sky. Species seen: deeply fissured grey oak bark, bare crooked oak limbs. Fits the description: raised plate of bare knotted roots over th",
+   "lat": 55.8430333333333,
+   "lon": 12.4056583333333,
+   "extras": 0,
+   "pin_checked": "2026-11-28"
+  },
+  "660fa3e1-e915-4133-a6e3-6b258ca08faa": {
+   "outcome": "added",
+   "date": "2026-11-28",
+   "tree_id": "cop_014",
+   "city_slug": "copenhagen",
+   "file": "cop_014-skovfogedegen-660fa3e1.jpg",
+   "reason": "Skovfogedegen itself: the enormous hollow oak shell open to the ground, beside Strandvejen with the Sound behind, fresh spring leaves. Species seen: rugged oak bark, fresh spring oak leaves. Fits the description: huge hollow trunk with a split open to the ground, road and sea behind, opposite Bellev",
+   "lat": 55.7788883333333,
+   "lon": 12.5891666666667,
+   "extras": 0,
+   "pin_checked": "2026-11-28"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

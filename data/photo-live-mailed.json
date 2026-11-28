@@ -3542,6 +3542,30 @@
     }
    ],
    "sent": []
+  },
+  "p_c9d7d7122bebe14afd5b82d4": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "a98996f1-c889-43c5-b633-7f204e01cd5a",
+     "tree_id": "cop_052",
+     "tree_name": "The Oak on Its Roots in Birkerød",
+     "city": "Copenhagen",
+     "city_slug": "copenhagen",
+     "display_name": null,
+     "live": "2026-11-28"
+    },
+    {
+     "sighting_id": "660fa3e1-e915-4133-a6e3-6b258ca08faa",
+     "tree_id": "cop_014",
+     "tree_name": "Skovfogedegen",
+     "city": "Copenhagen",
+     "city_slug": "copenhagen",
+     "display_name": null,
+     "live": "2026-11-28"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

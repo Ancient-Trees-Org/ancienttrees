@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-28 reader judge: the Assistens yews, new lead photos for Skovfogedegen and the Birkerød root oak
+
+- **Live**: copenhagen/cop_057, The Yews over the Henrichsen Grave. A reader sent it as a photograph of the Handkerchief Tree (cop_006), but it shows two tall yews with a fluted red trunk, so it went `other_tree` and was judged as a new tree. They stand over an iron-fenced grave a few steps from the handkerchief tree, and the stone with its portrait medallion and the name Henrichsen is the recognition line. The pin is approximate: the app did not say how this sighting's spot was taken. The source line is the Assistens plant list, which names yew among the cemetery's evergreens. We have no age or girth, and the story asks readers for one. The photo is filed under November, because of the autumn leaves around it.
+- **Skovfogedegen** (cop_014): a reader's spring photograph of the hollow trunk, with the Sound behind it, is now the lead photo. The Commons photo has moved to the strip.
+- **The Oak on Its Roots in Birkerød** (cop_052): the same reader's winter photo of the root plate is now the lead. Their earlier spring photo has moved to the strip.
+- Nothing else was waiting: no reports, no feedback, no tips, and no further photographs to sheet. reader_words had nothing to quote. The congratulation mail for cop_057 waits for the deploy, and this machine had no credentials to send it. qa, preflight and i18ncheck are all clean.
+
 ## 2026-11-28 reader judge: two more Birkerød trees, a Cooke Town rain tree, a new lead photo for the Assistens weeping beech
 
 - **Live**: copenhagen/cop_055, The Twin-Stemmed Lime by Birkerød Skole: a big lime splitting low into two trunks, standing over a thicket of saplings. The reader gives 150 years and 400 cm. It has four photographs. copenhagen/cop_056, The Leaning Oak on the Birkerød School Path: an old pedunculate oak with a long low limb over the path. The reader gives 130 years and 250 cm, and it has three photographs. Both came from the same reader as cop_051 to cop_054. Both are pinned at the GPS location of their photographs, beside the public footpath at the northern edge of Birkerød Skole, and the access lines say they are seen from the path.
