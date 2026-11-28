@@ -2,46 +2,6 @@
  "note": "One record per night run, written by the workflow's own Run health step, never by the run. A run cannot leave this empty by giving up, which is the entire point: on 2026-08-15 four runs ended after nine minutes of a sixty minute window and left no trace at all. 'denials' counts commands the allowlist refused; it read 4 to 25 until 2026-08-15 and has returned null since, because the SDK key it reads went away. Treat a null as a broken instrument, not a zero.",
  "runs": [
   {
-   "started": "2026-09-18T13:57:29+00:00",
-   "date": "2026-09-18",
-   "run_id": "35353251881",
-   "minutes": 21.6,
-   "minutes_basis": "measured",
-   "attempts": 2,
-   "turns": 175,
-   "denials": 8,
-   "denials_source": "permission_denials: Bash(curl), Bash(mkdir), Bash(printf), Bash(python3), Bash(rm)",
-   "ended": "success",
-   "tokens": 12283939,
-   "claims_held": [],
-   "commits": 8,
-   "cities_touched": 5,
-   "cities": [
-    {
-     "city": "higashi-hiroshima",
-     "trees": 2
-    },
-    {
-     "city": "guernica",
-     "trees": 1
-    },
-    {
-     "city": "valentin-tineo",
-     "trees": 1
-    },
-    {
-     "city": "lyon",
-     "trees": 0
-    },
-    {
-     "city": "milan",
-     "trees": 0
-    }
-   ],
-   "trees": 4,
-   "logged": true
-  },
-  {
    "started": "2026-09-18T20:07:21+00:00",
    "date": "2026-09-18",
    "run_id": "35389691793",
@@ -16722,6 +16682,34 @@
    "cities_touched": 0,
    "cities": [],
    "trees": 0,
+   "logged": true
+  },
+  {
+   "started": "2026-11-28T14:29:11+00:00",
+   "date": "2026-11-28",
+   "run_id": "46154813543",
+   "minutes": 7.2,
+   "minutes_basis": "measured",
+   "attempts": 4,
+   "turns": 130,
+   "denials": 1,
+   "denials_source": "permission_denials: Bash(git)",
+   "ended": "success",
+   "tokens": 1015776,
+   "claims_held": [],
+   "commits": 8,
+   "cities_touched": 2,
+   "cities": [
+    {
+     "city": "toronto",
+     "trees": 1
+    },
+    {
+     "city": "barcelona",
+     "trees": 0
+    }
+   ],
+   "trees": 1,
    "logged": true
   }
  ],
