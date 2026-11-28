@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-28 night run, second attempt: nothing to ship, checked again
+
+- No claims standing, `leads.py --ready` 0. The 382 "awaiting a writer" are mostly stale research files or entries within 50 m of a live tree under another id (alp, car, cdl, hrv, cyp, grx, sgz and others), so a write pass would only duplicate trees already live. Folding those into duplicate leads and deleting the stale files is a cleanup for a session, not a write pass.
+- Rung 2 is unchanged: the open app BUG rows are iOS simulator work, and the Android draft row needs a server-side draft on the account (Hidde's ruling), not a run's change. Nothing was changed on main.
+
 ## 2026-11-28 night run: nothing writable, health answered
 
 - Rung 1 was empty (0 photographs waiting). Rung 2: the iOS app "failure" (run 46024472034) was GitHub's macOS runner capacity ("job was not acquired"), not code. A newer run is in progress. Answered with `health.py --answer`.
