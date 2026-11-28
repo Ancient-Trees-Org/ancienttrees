@@ -434,6 +434,12 @@
    "status": "handled",
    "what": "Reader asked to look after the Bay of Plenty: Katikati badge granted; walk start added to the kauri's access line and FAQ as their account"
   },
+  "1813": {
+   "bug": "ESC-2026-11-28-android-adding-a-tree-the-reader-could-n",
+   "date": "2026-11-28",
+   "status": "bug",
+   "what": "Their fir is live in Bentivoglio on the coordinates they mailed; the Android pin problem is filed as a bug; the language wish went to PRODUCT_TODO ideas; a reply waits in drafts for Hidde."
+  },
   "405": {
    "date": "2026-11-17",
    "status": "handled",

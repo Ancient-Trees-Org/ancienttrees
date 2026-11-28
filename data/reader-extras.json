@@ -2246,6 +2246,26 @@
    },
    "tree": "cat-tien-national-park/ctn_001"
   },
+  "b19c636e-ecb0-4db0-8d3e-5487d853e570": {
+   "extras": {
+    "1": {
+     "date": "2026-11-28",
+     "file": "bnt_001-the-fir-of-bentivoglio-b19c636e-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-28",
+     "file": "bnt_001-the-fir-of-bentivoglio-b19c636e-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-28",
+     "file": "bnt_001-the-fir-of-bentivoglio-b19c636e-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "bentivoglio/bnt_001"
+  },
   "b19ea802-78de-410b-9b8d-2367eb9b8e59": {
    "extras": {
     "1": {

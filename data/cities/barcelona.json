@@ -626,9 +626,9 @@
       "age_min": 135,
       "age_max": 142,
       "location": {
-        "address": "Parc de la Ciutadella, near the bandstand, Passeig de Pujades 16, 08003 Barcelona",
-        "latitude": 41.38829,
-        "longitude": 2.1868,
+        "address": "Parc de la Ciutadella, between the lake and the Cascada, Passeig de Pujades, 08003 Barcelona",
+        "latitude": 41.38889203103123,
+        "longitude": 2.18641992248632,
         "neighbourhood": "Sant Pere, Santa Caterina i la Ribera, Ciutat Vella"
       },
       "story": "An oak with no lobes in its leaves, and the only one of its kind alive in Catalonia. Quercus polymorpha grows wild from Texas down through Mexico into Guatemala and Honduras, keeping leathery, plain-edged leaves for most of the year, and almost nobody in Europe plants it. Barcelona's single specimen has been leaning out over the sand of Parc de la Ciutadella since about 1887, the year the park was being rebuilt for the Universal Exposition that opened next door the following spring. It is not a big tree beside its neighbours, roughly eight metres tall with a trunk two and a half metres around, but it throws an 11 metre crown sideways from a stem that gave up on vertical decades ago and now sweeps out low enough to put a hand on. The species name means many-formed, and it was given because the leaves vary so much from tree to tree that botanists kept describing the same oak twice under different names. That is the thing to check when you find it. Hold a leaf, look for the shape every oak you know is supposed to have, and watch the family resemblance quietly fall apart in your hand.",
@@ -660,7 +660,14 @@
         "url": "https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/arbres-interes-local/arbre-d-interes-local-99400454956"
       },
       "girth_cm": 250,
-      "height_m": 8
+      "height_m": 8,
+      "pin_source": {
+        "kind": "official register",
+        "register": "Barcelona, Arbres d'Interes Local 99400454956 (Roure blanc mexica de la Ciutadella)",
+        "date": "2026-11-28",
+        "note": "reader report 1000162 moved our approximate pin 92 m, to 41.389049, 2.186355; the city's register entry stands 18 m from their spot, so the pin moved to the register's coordinate."
+      },
+      "verify_notes": "2026-11-28 reader judge: a reader's pin report (1000162) put the oak 92 m from our pin, between the lake and the Cascada; Barcelona's AIL register (99400454956, planted 1887, girth 2.5 m, crown 11 m) agrees within 18 m. Pin moved to the register coordinate, still approximate."
     },
     {
       "id": "bcn_013",

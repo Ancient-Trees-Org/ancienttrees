@@ -1,0 +1,114 @@
+{
+  "city": "Bentivoglio",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Bentivoglio is a small town on the flat farmland of the Po plain, about twenty kilometres north-east of Bologna. In its centre a tall evergreen conifer, about twenty metres high by a reader's measure, rises far above the two-storey buildings around it, its crown a dense dark pyramid that sweeps down to the lawn. A reader sent us its photographs and knows it as a silver fir; we would like to confirm which conifer it is.",
+  "meta_description": "A tall fir in the centre of Bentivoglio, near Bologna, sent by a reader: about twenty metres high, where it stands and how to see it.",
+  "hero_tree_id": "bnt_001",
+  "oldest_tree_id": "bnt_001",
+  "question_meta": "A tall fir in the centre of Bentivoglio, near Bologna, sent by a reader: about twenty metres high, where it stands and how to see it.",
+  "question_answer": "The Fir of Bentivoglio stands on a lawn beside a building in the centre of Bentivoglio, north-east of Bologna, and can be seen from the street.",
+  "question_context": "A reader sent us this tree from the centre of Bentivoglio, a town on the flat farmland of the Po plain about twenty kilometres north-east of Bologna, and gave us its coordinates by mail. It is a tall evergreen conifer on a strip of lawn beside a cream two-storey building, with a street lamp and parked cars around it. By the reader's measure it is about twenty metres tall, and its trunk about three metres round. The crown is a dense, dark pyramid whose lower branches sweep almost to the grass, so the trunk is hidden until you stand underneath, where a grey, scaly bole rises straight up and dozens of thin limbs radiate from it. The reader knows it as a silver fir; from the photographs we cannot rule out a spruce, so we list it as a fir and ask readers to confirm. Its age is not known. Its height and girth are the reader's figures, not a register's, and our pin is the point the reader gave us.",
+  "faq": [
+    {
+      "q": "Where is the Fir of Bentivoglio?",
+      "a": "On a lawn beside a building in the centre of Bentivoglio, a town about twenty kilometres north-east of Bologna."
+    },
+    {
+      "q": "Can I visit the Fir of Bentivoglio?",
+      "a": "It can be seen from the street. We have not confirmed whether the lawn it stands on is open to walk onto."
+    },
+    {
+      "q": "How big is the Fir of Bentivoglio?",
+      "a": "The reader who sent it puts it at about twenty metres tall, with a trunk about three metres round. We have no register measurement or age for it."
+    }
+  ],
+  "trees": [
+    {
+      "id": "bnt_001",
+      "name": "The Fir of Bentivoglio",
+      "species": "Fir (Abies sp.)",
+      "location": {
+        "address": "Centre of Bentivoglio, Metropolitan City of Bologna",
+        "latitude": 44.635019,
+        "longitude": 11.418208,
+        "neighbourhood": "Bentivoglio"
+      },
+      "how_to_recognise": "The tallest tree in the middle of town: a dense dark evergreen pyramid on a lawn beside a cream two-storey building and a curved street lamp, its lower branches sweeping to the grass.",
+      "access": "Seen from the street in the centre of Bentivoglio. We have not confirmed whether the lawn it stands on is open to walk onto.",
+      "verified_sources": [],
+      "story": "A reader sent us this conifer from the centre of Bentivoglio, a small town on the plain north-east of Bologna. \"Alto 20 metri circa,\" they wrote: about twenty metres tall, its trunk about three metres round.\n\nIn their photographs it stands on a strip of lawn beside a cream two-storey building, a street lamp and a few parked cars, and it rises far above all of them. The crown is a dense dark pyramid of evergreen branches that sweep down almost to the grass, so thick that the trunk disappears inside it. From underneath the view changes completely. A grey, scaly trunk dotted with old branch scars climbs straight up, and dozens of long, thin limbs spread out from it in every direction like the ribs of an umbrella.\n\nThe reader knows it as a silver fir, the fir of the Apennine forests. From the photographs alone we cannot rule out a spruce, so we list it as a fir and ask: if you can tell from its cones or needles, tell us here. Its age is unknown to the reader and to us; if the town has a record of its planting, we would love to see it.\n\nSee it first from the street, where the whole pyramid fits in view.",
+      "found_by_reader": {
+        "sighting_id": "b19c636e-ecb0-4db0-8d3e-5487d853e570",
+        "date": "2026-11-28"
+      },
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "sighting_id": "b19c636e-ecb0-4db0-8d3e-5487d853e570",
+        "date": "2026-11-28",
+        "note": "Coordinates the reader gave by mail (feedback 1813) after the pin placed in the app landed on Dam Square in Amsterdam; not a GPS fix."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-28 reader judge: sent by a reader (b19c636e-ecb0-4db0-8d3e-5487d853e570, through the app), held no_location because the hand-placed pin sat on Dam Square, Amsterdam; the reader mailed the place (centre of Bentivoglio, 44.635019, 11.418208) on 2026-11-28. Photographs viewed: a tall dense conifer, about four times the height of the cream two-storey building beside it, on a lawn with a street lamp and parked cars, a look up the grey scaly trunk into radiating limbs, and a close view of the bark, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: species 'Silver Fir', about 20 m tall (15 to 20 m in the mail), trunk about 300 cm. Bark and shoots could also be a spruce, so the genus is stated and the page asks. Access: visible from the street; whether the lawn is public is not confirmed and the access line says so.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/bnt_001-fir-of-bentivoglio.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_64aded5e0bdd8d60b3e78790",
+        "sighting_id": "b19c636e-ecb0-4db0-8d3e-5487d853e570",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-28, through the app); viewed and approved on 2026-11-28: a tall dense conifer, about four times the height of the cream two-storey building beside it, on a lawn with a street lamp and parked cars, a look up the grey scaly trunk into radiating limbs, and a close view of the bark, daylight, colour. Not an open licence: ask before reuse elsewhere."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bnt_001-the-fir-of-bentivoglio-b19c636e-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, kept by the app",
+          "source": "contributor",
+          "contributor_user_id": "p_64aded5e0bdd8d60b3e78790",
+          "sighting_id": "b19c636e-ecb0-4db0-8d3e-5487d853e570-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/bnt_001-the-fir-of-bentivoglio-b19c636e-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, kept by the app",
+          "source": "contributor",
+          "contributor_user_id": "p_64aded5e0bdd8d60b3e78790",
+          "sighting_id": "b19c636e-ecb0-4db0-8d3e-5487d853e570-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/bnt_001-the-fir-of-bentivoglio-b19c636e-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "taken_month_basis": "the photograph's own date, kept by the app",
+          "source": "contributor",
+          "contributor_user_id": "p_64aded5e0bdd8d60b3e78790",
+          "sighting_id": "b19c636e-ecb0-4db0-8d3e-5487d853e570-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
+    }
+  ]
+}

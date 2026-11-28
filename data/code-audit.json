@@ -1256,6 +1256,17 @@
    "found_by": "hidde",
    "no_test_reason": "the continuation runs after a real sign-in sheet closes; UI tests sign in through a launch session, not the sheet, so no test reaches the hand-off; read in code: PhotoHeart and the double tap now pass giveAfterSignIn as the job",
    "fixed_in": "1e376665f"
+  },
+  {
+   "id": "ESC-2026-11-28-android-adding-a-tree-the-reader-could-n",
+   "surface": "APP",
+   "kind": "BUG",
+   "file": "android/app/src/main/java/app/ancienttrees/ui/Contribute.kt",
+   "summary": "Android: adding a tree, the reader could not set the tree's place on the map although location was on (the pin went to Amsterdam), and could not correct the place or delete and re-add the tree afterwards",
+   "first_seen": "2026-11-28",
+   "status": "open",
+   "found_by": "reader",
+   "reader_line": "when you add a tree in the Android app, you can now put its pin on the map where it stands, and move it afterwards"
   }
  ]
 }

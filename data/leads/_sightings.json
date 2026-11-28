@@ -13922,8 +13922,8 @@
    "girth_cm": 300,
    "girth_hugs": null,
    "note": "Alto 20 metri circa. Tronco di 300 cm circa.",
-   "latitude": 52.3731008015663,
-   "longitude": 4.8922000000094,
+   "latitude": 44.635019,
+   "longitude": 11.418208,
    "location_kind": "placed",
    "near": null,
    "taken_month": 11,
@@ -13946,11 +13946,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "held",
-   "why": "Four photographs of a tall, full conifer (a fir or spruce, about 20 m and 300 cm round by the reader's figures) on a lawn beside a cream building, a street lamp and parked cars, in daylight: a big tree worth a page. But the pin was placed by hand on Dam Square in Amsterdam, and the scene and the Italian note do not fit there. Asked where it stands (hold_reply no_location, submission 1799).",
+   "status": "published",
+   "why": "Photograph viewed 2026-11-28: a tall dense conifer, about four times the height of the cream two-storey building beside it, on a lawn with a street lamp and parked cars, a look up the grey scaly trunk into radiating limbs, and a close view of the bark, daylight, colour. The reader mailed its place (centre of Bentivoglio, feedback 1813) after the hand-placed pin landed on Dam Square. Live as bentivoglio/bnt_001 under the closed list (Hidde, 2026-11-17).",
    "seen": "2026-11-28",
-   "hold": "no_location",
-   "judged": "2026-11-28"
+   "judged": "2026-11-28",
+   "published_as": "bentivoglio/bnt_001"
   },
   {
    "sighting_id": "d3a8040f-e881-4c70-9c33-87a0b0cebc25",
