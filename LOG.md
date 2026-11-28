@@ -703,7 +703,8 @@ Rung 1: no reader backlog; one new tree note (North Berwick Law beeches, a visit
 - **Translated city pages too** (Hidde: "Ja, vertaalde ook"): /de/berlin dragged turns into "Die Karte der alten Bäume" at /de/explore#map=..., checked live.
 - **Country pages too** (Hidde: "Eerst landpagina's"): the map draws the neighbours' trees, a drag turns the panel into the trees in view; checked live on Portugal.
 - **No reload when a city is searched on a map** (Hidde: "ok bouw optie 2", after the fly and fade showed Lisbon twice: "very cringe"): the map flies, then the city's page is swapped in without a page load, Airbnb's way (site/src/lib/soft-nav-js.ts in Base.astro's head; the fade is gone). Checked live: London to Lisbon, /explore to Kyoto, Kyoto to Osaka on a 375px phone, no console errors; Back returns to where you were (a real load of that page). The phone's full-screen search now closes when a place is picked on the map. Google still gets every page whole from the server.
-- Next: state pages; translated pages swap to English cities with a real load (another language).
+- US state pages (542da792a, live 2026-11-28): the country skeleton, sheet beside the map, neighbouring states' trees as pins, an own drag or zoom turns the panel into the tree map. Checked live on California (desktop, drag, Back) and Oregon (375px).
+- Next: translated pages swap to English cities with a real load (another language).
 
 ## 2026-11-26 night run (19:08 window): nothing to ship
 
