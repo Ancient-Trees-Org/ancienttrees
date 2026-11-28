@@ -1,10 +1,10 @@
 {
  "generated": "scripts/tagged_shown.py",
  "since": "2026-11-01",
- "google_data_through": "2026-11-26",
+ "google_data_through": "2026-11-27",
  "tagged_pages_shown": 1020,
- "impressions": 4360,
- "clicks": 82,
+ "impressions": 4363,
+ "clicks": 83,
  "pages": [
   {
    "path": "/united-states/maryland",
@@ -780,6 +780,16 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-02"
+  },
+  {
+   "path": "/fr/bordeaux/black-poplar-of-chante-grillon",
+   "impressions": 1,
+   "clicks": 1,
+   "days": [
+    "2026-11-27"
+   ],
+   "first_day": "2026-11-27",
+   "last_day": "2026-11-27"
   },
   {
    "path": "/istanbul/oldest-plane-of-bahcekoy",
@@ -2462,6 +2472,22 @@
    "last_day": "2026-11-09"
   },
   {
+   "path": "/gornja-stubica/gupceva-lipa",
+   "impressions": 8,
+   "clicks": 0,
+   "days": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-14",
+    "2026-11-26",
+    "2026-11-27"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-27"
+  },
+  {
    "path": "/hong-kong",
    "impressions": 8,
    "clicks": 0,
@@ -3033,20 +3059,6 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-12"
-  },
-  {
-   "path": "/gornja-stubica/gupceva-lipa",
-   "impressions": 6,
-   "clicks": 0,
-   "days": [
-    "2026-11-02",
-    "2026-11-03",
-    "2026-11-09",
-    "2026-11-10",
-    "2026-11-14"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-14"
   },
   {
    "path": "/higashi-hiroshima/great-ginkgo-of-renko-ji",
@@ -3931,17 +3943,6 @@
    "last_day": "2026-11-16"
   },
   {
-   "path": "/catania",
-   "impressions": 4,
-   "clicks": 0,
-   "days": [
-    "2026-11-02",
-    "2026-11-03"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-03"
-  },
-  {
    "path": "/chicago",
    "impressions": 4,
    "clicks": 0,
@@ -4211,6 +4212,19 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-04"
+  },
+  {
+   "path": "/it/palermo/date-palm-of-villa-bonanno",
+   "impressions": 4,
+   "clicks": 0,
+   "days": [
+    "2026-11-08",
+    "2026-11-20",
+    "2026-11-23",
+    "2026-11-27"
+   ],
+   "first_day": "2026-11-08",
+   "last_day": "2026-11-27"
   },
   {
    "path": "/it/rome/fitolacca-of-the-capitoline",
@@ -4487,6 +4501,18 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-09"
+  },
+  {
+   "path": "/rome/magnolia-of-via-corsini",
+   "impressions": 4,
+   "clicks": 0,
+   "days": [
+    "2026-11-02",
+    "2026-11-08",
+    "2026-11-27"
+   ],
+   "first_day": "2026-11-02",
+   "last_day": "2026-11-27"
   },
   {
    "path": "/singapore/nemesu-of-the-rainforest",
@@ -5119,18 +5145,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/it/palermo/date-palm-of-villa-bonanno",
-   "impressions": 3,
-   "clicks": 0,
-   "days": [
-    "2026-11-08",
-    "2026-11-20",
-    "2026-11-23"
-   ],
-   "first_day": "2026-11-08",
-   "last_day": "2026-11-23"
-  },
-  {
    "path": "/it/rome/cedar-of-the-belvedere",
    "impressions": 3,
    "clicks": 0,
@@ -5296,6 +5310,17 @@
    "last_day": "2026-11-08"
   },
   {
+   "path": "/milan/la-sofora-di-varedo",
+   "impressions": 3,
+   "clicks": 0,
+   "days": [
+    "2026-11-03",
+    "2026-11-27"
+   ],
+   "first_day": "2026-11-03",
+   "last_day": "2026-11-27"
+  },
+  {
    "path": "/munich/downy-birch-of-the-flaucher",
    "impressions": 3,
    "clicks": 0,
@@ -5436,17 +5461,6 @@
    ],
    "first_day": "2026-11-02",
    "last_day": "2026-11-02"
-  },
-  {
-   "path": "/rome/magnolia-of-via-corsini",
-   "impressions": 3,
-   "clicks": 0,
-   "days": [
-    "2026-11-02",
-    "2026-11-08"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-08"
   },
   {
    "path": "/ronda/pinsapo-of-las-escaleretas",
@@ -7140,16 +7154,6 @@
    "last_day": "2026-11-09"
   },
   {
-   "path": "/milan/la-sofora-di-varedo",
-   "impressions": 2,
-   "clicks": 0,
-   "days": [
-    "2026-11-03"
-   ],
-   "first_day": "2026-11-03",
-   "last_day": "2026-11-03"
-  },
-  {
    "path": "/morioka/shidare-katsura-of-ryugen-ji",
    "impressions": 2,
    "clicks": 0,
@@ -7158,6 +7162,17 @@
    ],
    "first_day": "2026-11-08",
    "last_day": "2026-11-08"
+  },
+  {
+   "path": "/muxika/urkietako-artea-encina-de-urkieta",
+   "impressions": 2,
+   "clicks": 0,
+   "days": [
+    "2026-11-08",
+    "2026-11-27"
+   ],
+   "first_day": "2026-11-08",
+   "last_day": "2026-11-27"
   },
   {
    "path": "/naples/camphor-of-the-garden-of-the-princes",
@@ -8298,16 +8313,6 @@
    "last_day": "2026-11-04"
   },
   {
-   "path": "/catania/larger-bunya-pine-of-villa-bellini",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-02"
-   ],
-   "first_day": "2026-11-02",
-   "last_day": "2026-11-02"
-  },
-  {
    "path": "/catania/smaller-bunya-pine-of-villa-bellini",
    "impressions": 1,
    "clicks": 0,
@@ -8746,6 +8751,16 @@
    ],
    "first_day": "2026-11-09",
    "last_day": "2026-11-09"
+  },
+  {
+   "path": "/es/barcelona/coral-tree-of-the-laribal-path",
+   "impressions": 1,
+   "clicks": 0,
+   "days": [
+    "2026-11-27"
+   ],
+   "first_day": "2026-11-27",
+   "last_day": "2026-11-27"
   },
   {
    "path": "/es/barcelona/green-ash-of-the-sot-de-lestany",
@@ -10126,16 +10141,6 @@
    ],
    "first_day": "2026-11-03",
    "last_day": "2026-11-03"
-  },
-  {
-   "path": "/muxika/urkietako-artea-encina-de-urkieta",
-   "impressions": 1,
-   "clicks": 0,
-   "days": [
-    "2026-11-08"
-   ],
-   "first_day": "2026-11-08",
-   "last_day": "2026-11-08"
   },
   {
    "path": "/myjava/linden-at-u-belanskych",

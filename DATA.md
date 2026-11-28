@@ -26,6 +26,313 @@ event on the list is unaffected.
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-27 (previous UTC day)
+
+**Today: 15 android waitlist signups arrived yesterday (2358 total); 17 tree submissions and an ambassador request for Powelltown and a feedback report arrived yesterday (716 submissions of every kind in all); 29 accounts were opened yesterday (1186 accounts in all).**
+
+**North star: 398 people have uploaded a tree or photo of their own (+141 this week); 64 of them did it on more than one day (+30).**
+
+**The numbers that matter** (this week against the week before; strangers only)
+
+| Number | Why | This week | Week before |
+|---|---|---:|---:|
+| New website visitors | people | 244 | 0 |
+| ... of which from search | every search engine | 74 | 0 |
+| ... from Google | Google's recovery | 64 | 0 |
+| ... from Bing | Bing | 3 | 0 |
+| Website visitors who came back | people who stay | 55 | 0 |
+| App downloads (first-time) | people | 2036 | 6703 |
+| New accounts | people | 318 | 806 |
+| Phones back within 30 days | people who stay | 15 of 37 | 6 of 15 |
+| Trees saved to Want to go | intent | 505 | 481 |
+| Trees collected | goal 1: stood at a tree | 274 | 442 |
+| Readers' contributions | data: trees, photos, corrections | 442 | 678 |
+| Worth-it votes | one tap, not a contribution | 59 | 166 |
+| Shares (app and web) | word of mouth, since 10-30 | 221 | 321 |
+| Visits from a shared link | what sharing brings | 54 | 116 |
+
+Website visitors are Google Analytics' count, so only people who accepted the cookie bar; a visitor who comes back on another browser or device counts as new, and GA cannot leave our own visits out, so read the came-back row as a direction, not a count. The 30-day row is the phones that arrived five weeks ago, so it moves slowly.
+
+**Quality**: Web red, iOS orange, Android grey, Backup green.
+
+| | Web | iOS | Android |
+|---|---|---|---|
+| Next version | orange: 1 compliance point(s) wait for Hidde (data/compliance.json); 2 compliance fix(es) open | orange: 1 compliance point(s) wait for Hidde (data/compliance.json); 2 compliance fix(es) open | grey: no checks wired yet |
+| Live | red: photographs look soft, oversized or broken on the live site (photos-live.yml; python3 scripts/photocheck.py --live names them) | green | grey: no checks wired yet |
+| Open bugs | green | orange: 10 open, 9 found by people | grey: no checks wired yet |
+
+**Plus question** (23 answers, 0 new; 7 asked to be told; 12 wrote an idea, read them with `python3 scripts/plus_answers.py`; up to two each)
+
+| Choice | Picked by |
+|---|---:|
+| A richer log of every tree you've collected | 9 |
+| Something else | 8 |
+| Download offline maps | 7 |
+| Recommended tree walks for a city trip | 7 |
+| Seasonal alerts when trees are at their best | 5 |
+
+**Fixed since 19 Nov: 22.**
+
+| Day | Where | What was wrong | Found by | Test |
+|---|---|---|---|---|
+| 27 Nov | iPhone | A heart tapped on a photo while signed out asked for a sign-in and then was not given | a person | no |
+| 27 Nov | iPhone | A tree you add up to 30 km from one of our places is named and placed after that place on both phones ("A tree near Ripon", the tree page... | a person | yes |
+| 26 Nov | iPhone | After the third tree page the rating ask fired while the page was leaving, never showed, and blocked every other sheet: collect, the came... | our test walk | yes |
+| 26 Nov | iPhone | Feed > Following stayed empty after following somebody, pull to refresh included | our test walk | no |
+| 26 Nov | iPhone | Offline, a tree with a photograph said 'No photograph yet' and 'No notes yet' | our test walk | yes |
+| 26 Nov | iPhone | Another person's profile at extra-extra-large text cut both counts to '0 follow...' | our test walk | no |
+| 26 Nov | iPhone | Tree page at extra-extra-large text: 'Amst...Amsterdam · Worth the...', district run into the city | our test walk | no |
+| 26 Nov | Web | Tree pages and cards cut the age at the comma in 2,000: 'Kingley Vale 500 to 2', 'about 1' on 27 pages, 8 cards | a person | yes |
+| 26 Nov | Android | Android: a tree of your own with a photograph put its pin on the map from a worker thread after the download (MapLibre CalledFromWorkerTh... | our test walk | yes |
+| 26 Nov | Android | Android: search 'oak' listed Adriatic and Aleppo Oak and never Pedunculate Oak (426): species ties were alphabetical | our test walk | yes |
+| 26 Nov | Android | Android: Back from a tree or species found by Discover's search landed on Discover and the query was gone | our test walk | no |
+| 26 Nov | Android | Android: a private account saw its own heart as 'A visitor' in the hearts list | our test walk | yes |
+
+And 10 more (data/code-audit.json, data/crash-fixes.json).
+
+**New ambassadors yesterday: 4.** Yussre E. (New York); Shady Sequoia 7424 (Kyoto); Evergreen Yew 7187 (Powelltown); Sunlit Chestnut 1733 (Lake Waikaremoana). Each got the mail and the badge automatically; 64 ambassadors in all (`python3 scripts/ambassador.py --list`).
+
+**Open for you: nothing.** Feedback handled and recorded: 100 (`python3 scripts/feedback.py`). Reader judge: 80 agent minutes yesterday, 754 in the last 7 days.
+
+**Day by day, the last seven days** (strangers only; visitors are Google Analytics', so only people who accepted the cookie bar)
+
+| | 11-21 | 11-22 | 11-23 | 11-24 | 11-25 | 11-26 | 11-27 | **7 days** |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Visitors | 0 | 0 | 0 | 61 | 109 | 56 | 38 | **264** |
+| New accounts | 41 | 67 | 42 | 74 | 41 | 24 | 29 | **318** |
+| Saves | 53 | 60 | 89 | 124 | 146 | 19 | 14 | **505** |
+| Android waitlist | 21 | 103 | 35 | 76 | 50 | 19 | 15 | **319** |
+| App downloads | 130 | 492 | 165 | 674 | 328 | 120 | – | **1909** |
+| App deletions | 9 | 15 | 7 | 12 | 12 | 8 | – | **63** |
+| App phones | 421 | 755 | 407 | 774 | 579 | 359 | 329 | **2930** |
+| Trees opened in the app | 830 | 1467 | 704 | 1401 | 922 | 737 | 447 | **6508** |
+| Trees collected | 24 | 38 | 17 | 14 | 9 | 8 | 9 | **119** |
+| Trees sent | 25 | 34 | 35 | 20 | 19 | 7 | 17 | **157** |
+| Pin moved | 11 | 8 | 3 | 8 | 1 | 7 | 2 | **40** |
+| Written feedback | 5 | 12 | 3 | 6 | 3 | 8 | 2 | **39** |
+| Report on a tree | 1 | 3 | 3 | 3 | 1 | 0 | 0 | **11** |
+| Worth-it votes | 8 | 16 | 10 | 9 | 8 | 2 | 6 | **59** |
+| Ambassador asks | 1 | 0 | 2 | 2 | 1 | 0 | 1 | **7** |
+| Website photos | 1 | 4 | 1 | 0 | 0 | 0 | 1 | **7** |
+| iPhone photos | 46 | 66 | 55 | 38 | 21 | 19 | 25 | **270** |
+| Android photos | 5 | 6 | 4 | 1 | 5 | 2 | 4 | **27** |
+| Tree notes | 8 | 5 | 6 | 6 | 0 | 3 | 1 | **29** |
+| Photo likes | 0 | 0 | 3 | 5 | 2 | 3 | 2 | **15** |
+| App Store reviews | 0 | 0 | 1 | 0 | 1 | 0 | 0 | **2** |
+- – means the source has not reported that day yet (Apple's downloads arrive a day or two late), not zero.
+- App deletions count only phones that share analytics with developers, and Apple leaves out days too small to show: read it against the installs of the same day, not as a total.
+
+**Trees readers sent, for you to inspect** (3 you have not looked at; ours left out)
+
+| Judged | Reader | Tree | Where | Species | Their girth | Our verdict | Page |
+|---|---|---|---|---|---:|---|---|
+| 2026-11-27 | A | Black Poplar near Ulverston | - | Black Poplar | - | hold | - |
+| 2026-11-26 | B | The Cedar of Lebanon of Acquasanta | Genoa | Cedar of Lebanon (Cedrus liban | - | hold | - |
+| 2026-11-15 | C | - | New Orleans | - | - | hold | - |
+- From 3 readers: reader A 1, reader B 1, reader C 1.
+- Photographs and the readers' own words: `python3 scripts/inspect_readers.py` (a local page, never in this public file). Your answer goes in with `python3 scripts/judgement.py --feedback <id> "..."`.
+
+**Waiting for you** (what the runs left for you since 2026-11-27)
+
+- the "Looking after Katikati" welcome mail did NOT go out (this runner has no mail credentials), and no knock sends it later.
+- `gh workflow run deploy.yml` once.
+- run `gh workflow run deploy.yml` once to put the fix live.
+- one mail to the New Orleans reader waits in drafts/reply-reader-lead-91f2f869-2026-11-27.md (a session sends it).
+
+**What readers gave us, and it went live**
+
+| Day | Reader | Tree | Where | What | Page |
+|---|---|---|---|---|---|
+| 11-26 | D |  | ? | a reader's photograph, published | not live yet |
+| 11-26 | E | The Preston Twin | Brighton | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/brighton/preston-twin) |
+| 11-26 | F | The Silk Mulberry of Ca' di David | Verona | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/verona/silk-mulberry-of-ca-di-david) |
+| 11-26 | G |  | ? | a reader's photograph, published | not live yet |
+| 11-26 | H |  | ? | a reader's photograph, published | not live yet |
+| 11-26 | I |  | ? | a reader's photograph, published | not live yet |
+| 11-26 | G |  | ? | a reader's photograph, published | not live yet |
+| 11-26 | G |  | ? | a reader's photograph, published | not live yet |
+| 11-26 | J | The Ginkgo of Varese | Varese | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/varese/ginkgo-of-varese) |
+| 11-26 | J | The Great Cedar of Varese | Varese | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/varese/great-cedar-of-varese) |
+| 11-26 | G |  | ? | a reader's photograph, published | not live yet |
+| 11-26 | K | The Act of Union Beeches of North Berwick Law | North Berwick | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/north-berwick/act-of-union-beeches-of-north-berwick-law) |
+| 11-26 | L |  | ? | a reader's photograph, published | not live yet |
+| 11-26 | M | The Sweet Chestnut of Greenwich Park | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/sweet-chestnut-of-greenwich-park) |
+| 11-26 | N | The Brockwell Oak | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/brockwell-oak) |
+| 11-27 | O | The Hollow Cedar of Shannon Falls | Squamish | a reader's photograph, published | [live](https://ancienttrees.app/squamish/hollow-cedar-of-shannon-falls) |
+| 11-27 | P | The Flame-Leaved Maple of the Arboretum | Washington DC | a reader's photograph, published | [live](https://ancienttrees.app/washington-dc/flame-leaved-maple-of-the-arboretum) |
+| 11-27 | P | The Yamaki Pine | Washington DC | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/washington-dc/yamaki-pine) |
+| 11-27 | Q |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | R | Skarseken | Gothenburg | a reader's photograph, published | [live](https://ancienttrees.app/gothenburg/skarseken) |
+| 11-27 | S | The Twisted Muku of Omiya Gate, Kyoto Gyoen | Kyoto | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/kyoto/twisted-muku-of-omiya-gate-kyoto-gyoen) |
+| 11-27 | T |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | U |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | V |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | V |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | W |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | X | The Cedar of Lebanon of Villa Torlonia | Rome | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/rome/cedar-of-lebanon-of-villa-torlonia) |
+| 11-27 | Y | The Whistler Cork Oak (Sobreiro Assobiador) | Aguas de Moura | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/aguas-de-moura/whistler-cork-oak-sobreiro-assobiador) |
+| 11-27 | Z | The Plane Tree of Piazza Minghetti | Bologna | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/bologna/plane-tree-of-piazza-minghetti) |
+| 11-27 | A1 | The Moreton Bay Fig of Villa Bellini | Catania | a reader's photograph, published | [live](https://ancienttrees.app/catania/moreton-bay-fig-of-villa-bellini) |
+| 11-27 | A1 | The Larger Bunya Pine of Villa Bellini | Catania | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/catania/larger-bunya-pine-of-villa-bellini) |
+| 11-27 | G |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | G |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | B1 |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | C1 | The Methuselah Tree | Woodside | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/woodside/methuselah-tree) |
+| 11-27 | C1 |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | D1 |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | E1 |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | E1 |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | F1 |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | G1 |  | ? | a reader's photograph, published | not live yet |
+| 11-27 | H1 | The Brockwell Oak | London | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/london/brockwell-oak) |
+| 11-28 | I1 | The Waldmüllerpark Wingnuts | Vienna | a reader's photograph, published beside the one it had | [live](https://ancienttrees.app/vienna/waldmullerpark-wingnuts) |
+| 11-26 | J1 | Woolland Yew | Woolland | a reader's correction changed the page | - |
+| 11-26 | H | Norfolk Island pine (Araucaria heterophylla), Palheiro Gardens | Funchal, Madeira, Portugal | a reader's tree changed the page | - |
+| 11-26 | K1 | Bella di Ceciliano | Arezzo | a reader's correction changed the page | - |
+| 11-26 | L1 | The Old Oak at Tolo | Kvam | a reader's correction changed the page | - |
+| 11-27 | R | got_002 (Skarseken) | Gothenburg | a reader's correction changed the page | - |
+- From 35 readers: reader G 6, reader A1 2, reader C1 2, reader E1 2, reader H 2, reader J 2, reader P 2, reader R 2, reader V 2, reader B1 1, reader D 1, reader D1 1, reader E 1, reader F 1, reader F1 1, reader G1 1, reader H1 1, reader I 1, reader I1 1, reader J1 1, reader K 1, reader K1 1, reader L 1, reader L1 1, reader M 1, reader N 1, reader O 1, reader Q 1, reader S 1, reader T 1, reader U 1, reader W 1, reader X 1, reader Y 1, reader Z 1.
+
+**What was sent in, and what we decided**
+
+| seen | what | where | size for its species | ours | Hidde |
+|---|---|---|---|---|---|
+| 2026-11-27 | Bella di Ceciliano | Arezzo | - | reject | - |
+| 2026-11-27 | Bella di Ceciliano | Arezzo | - | reject | - |
+| 2026-11-26 | The Preston Twin | Brighton | - | reject | - |
+| 2026-11-26 | The Cedar of the University Campus | Varese | - | reject | - |
+| 2026-11-26 | The Act of Union Beeches of North Berw | North Berwick | - | hold | - |
+| 2026-11-26 | The Sweet Chestnut of Greenwich Park | London | - | hold | - |
+| 2026-11-26 | The Brockwell Oak | London | - | reject | - |
+| 2026-11-26 | The Brockwell Oak | London | - | reject | - |
+| 2026-11-25 | The Carolyn Black Tupelo | Madison | - | reject | - |
+| 2026-11-25 | The Tall Tree | Humboldt Redwoods State Park | - | hold | - |
+| 2026-11-24 | Travilah Oak | Washington DC | - | hold | - |
+| 2026-11-24 | Travilah Oak | Washington DC | - | hold | - |
+| 2026-11-24 | Travilah Oak | Washington DC | - | hold | - |
+| 2026-11-24 | Travilah Oak | Washington DC | - | hold | - |
+| 2026-11-24 | The Silk Mulberry of Ca' di David | Verona | - | hold | - |
+
+0 waiting for a verdict. Disagree with one and the rule changes: `python3 scripts/judgement.py --feedback <id> "..."`, and `--learn` prints every verdict he has overruled.
+
+**Searched yesterday:** modena (5 times), lisbon (3 times), bath (2 times), ita (2 times), london (2 times), osaka (2 times), palermo (2 times), porto (2 times), aberystwyth, af, bolo, bournemouth, cata, edinbur, firenze, holm oak, italy, kyoto, leuven, lisb.
+
+**App crashes** (last 7 days, store builds; MetricKit, a sample)
+
+| Crashes | Kind | Build | Where | Phones | Last | Fix |
+|---:|---|---|---|---:|---|---|
+| 1 | hang | 1.0.4 (41) | AncientTrees+0x376463 | 1 | 2026-11-21 | none |
+
+**Where trees are opened in the app** (last 7 days, strangers): no data yet; it arrives with the app build after 2026-11-27.
+
+**Search**
+
+Google, the last 10 days it will give us (2-3 days behind; the newest row is still filling, so it reads better than it is):
+
+| Day | Clicks | Impressions | CTR | Position |
+|---|---:|---:|---:|---:|
+| 11-18 | 33 | 67 | 49.3% | 17.8 |
+| 11-19 | 19 | 60 | 31.7% | 32.5 |
+| 11-20 | 20 | 66 | 30.3% | 22.9 |
+| 11-21 | 15 | 47 | 31.9% | 15.7 |
+| 11-22 | 204 | 351 | 58.1% | 5.2 |
+| 11-23 | 32 | 82 | 39.0% | 12.0 |
+| 11-24 | 255 | 381 | 66.9% | 5.0 |
+| 11-25 | 102 | 166 | 61.4% | 6.7 |
+| 11-26 | 42 | 108 | 38.9% | 25.1 |
+| 11-27 *partial* | 22 | 46 | 47.8% | 10.1 |
+| **window** | **744** | **1374** | **54.1%** | |
+- Top queries (10d): ancient trees app (i728, p1); app ancient trees (i13, p1); ancient tree app (i10, p3); ancient trees (i21, p28); ancient tree (i24, p24)
+**What Bing shows and sends** (last 7 days with data, Bing Webmaster Tools)
+
+| Day | Impressions | Clicks | CTR |
+|---|---:|---:|---:|
+| 11-21 | 242 | 3 | 1.2% |
+| 11-22 | 349 | 13 | 3.7% |
+| 11-23 | 257 | 11 | 4.3% |
+| 11-24 | 258 | 11 | 4.3% |
+| 11-25 | 314 | 9 | 2.9% |
+| 11-26 | 218 | 6 | 2.8% |
+| 11-27 | - | - | 0.0% |
+| **7 days** | **1638** | **53** | **3.2%** |
+- Week before: 1241 impressions, 70 clicks. No Bing demotion in sight.
+- Top Bing queries: oldest tree china (c8/i4, p12); ancient trees app (c7/i33, p4); ancient trees (c5/i60, p5); ancient trees app (c4/i31, p4); platane du square des batignolles (c4/i2, p1); picture of the tree in helsinki city center that was preserved (c3/i2, p4); 太閤シダレザクラ (c3/i2, p5); evelyns mulberry (c3/i1, p3)
+- Bing alone, from Bing Webmaster Tools. DuckDuckGo and Yahoo draw on the same index and publish no numbers. Bing's data lags about two days.
+
+---
+
+**For the night run, not for you.** You can stop reading here.
+
+
+**What the machine did, the last 24 hours**
+
+| Started | Minutes | Trees | Commits | Refused | Cities |
+|---|---:|---:|---:|---:|---|
+| 11-27T06:08 | 4.7 | 0 | 6 | 2 | Washington Dc |
+| 11-27T12:08 | 4.1 | 0 | 15 | 0 | - |
+| 11-27T13:25 | 6.2 | 0 | 7 | 2 | Catania |
+| 11-27T15:28 | 3.1 | 0 | 3 | 1 | - |
+| 11-27T17:48 | 11.6 | 0 | 11 | 3 | - |
+| 11-27T19:54 | 5.2 | 2 | 8 | 1 | Coeur Dalene +2 |
+| 11-27T22:08 | 4.8 | 0 | 9 | 1 | London |
+| 11-28T01:48 | 4.5 | 0 | 6 | 0 | - |
+| **8 runs** | **44** | **2** | **65** | | |
+
+- 7 of 8 produced no trees; 1 to 3 commands refused per run; last build that went live: 2h ago.
+
+**What they made**
+
+- Record when each page last changed
+- Contributor replies and ambassador invitations sent, log updated
+- reader judge: Katikati ambassador, walk start for the Kaimai Kauri
+- Night run log: fourth attempt, nothing writable
+- Night run log: third attempt, nothing writable
+- Night run log: second attempt, nothing writable
+- Night run log: iOS failure was runner capacity, nothing writable
+- Record when each page last changed
+- Contributor replies and ambassador invitations sent, log updated
+- reader judge: a spring photograph in the Waldmüllerpark Wingnuts' gallery
+- Readers told their tree or photograph is live, after the deploy
+- Readers told their tree or photograph is live, after the deploy
+- Night run log: third retry, nothing writable
+- Night run log: second retry, shelf empty, iOS red was a cancelled run
+
+Machine: 12 chain attempts yesterday, 12 got real work time (~103 min total). Dead-in-seconds attempts cost nothing; few get-throughs means the usage window was full or closed.
+
+**Search work lists**
+
+- Top pages (10d): / (c732/i1106); /explore (c3/i16); /it (c3/i15); /app (c1/i16); /contribute (c1/i8)
+- Content leads, biggest first. A lead is a query no page TITLE covers, so some are ranking problems on a page we have rather than a page to write ('vegas trees' against /las-vegas). Check before building:
+    - 'android' (i4, p2)
+    - 'ancienttrees' (i3, p3)
+    - 'hidde burgmans' (i3, p2)
+    - 'download' (i1, p1)
+    - "non trovo l'app su play store" (i1, p2)
+    - 'trova app' (i1, p1)
+    - 'এই অ্যাপের লিংক দাও' (i1, p2)
+    - 'ancestral trees' (i1, p70)
+
+**Is enriching working** (indexed tree pages, last 10 days of Google; rich = register record, a measurement and concrete access)
+
+| Indexed tree pages | Pages | With an impression | Impressions | Per page | Clicks |
+|---|---:|---:|---:|---:|---:|
+| Rich | 241 | 6 | 23 | 0.10 | 0 |
+| Not yet rich | 501 | 11 | 22 | 0.04 | 0 |
+| Returned to Google's index in the last 7 days | 0 | 0 | 0 | 0.00 | 0 |
+
+- Google lags 2 to 3 days, so a page returned this week has had a few days at most. Compare the per-page numbers across weeks, not the totals across rows.
+
+**Depth is allowed on these cities** (10+ impressions in the window; photos, pins and best_time go here and nowhere else):
+
+| City | Clicks | Impressions | CTR | Position | Normal there | Biggest query, and where it really sits |
+|---|---:|---:|---:|---:|---:|---|
+| monterey | 0 | 16 | 0.0% | 74.1 | 0.4% | lone cypress (i6, p82) |
+| tenerife | 0 | 15 | 0.0% | 82.3 | 0.4% | arbol drago tenerife (i2, p90) |
+| malaga | 0 | 11 | 0.0% | 83.5 | 0.4% | árboles históricos de málaga (i10, p92) |
+
+- Plus 256 cities on the frozen 09-27 roster (data/depth-roster-frozen.json), biggest: singapore, lisbon, amsterdam, barcelona, seville, bath, berlin, rome.
+**Sign-in mail sent again** (stuck an hour or more, `scripts/signin_watch.py`): 6 people in 7 days, 1 of them got in afterwards.
+
 ## 2026-11-26 (previous UTC day)
 
 **Today: 19 android waitlist signups arrived yesterday (2345 total); 7 tree submissions and 7 feedback reports arrived yesterday (703 submissions of every kind in all); 24 accounts were opened yesterday (1163 accounts in all).**
@@ -7562,236 +7869,4 @@ Machine: 6 chain attempts yesterday, 2 got real work time (~31 min total). Dead-
 | seattle | 0 | 10 | 0.0% | 8.9 | 3.0% | oldest tree in seattle (i1, p10) |
 
 - Plus 210 cities on the frozen 09-27 roster (data/depth-roster-frozen.json), biggest: bath, rome, brussels, vienna, alicante, cadiz, pamplona, cagliari.
-
-## 2026-11-13 (previous UTC day)
-
-**Today: 1 tree submission arrived yesterday (23 trees sent in all).**
-
-**North star: 13 people have uploaded a tree or photo of their own (+1 this week); 4 of them did it on more than one day (+0).**
-
-**The numbers that matter** (this week against the week before; strangers only)
-
-| Number | Why | This week | Week before |
-|---|---|---:|---:|
-| New website visitors | people | 35 | 57 |
-| ... of which from search | every search engine | 15 | 21 |
-| ... from Google | Google's recovery | 10 | 13 |
-| ... from Bing | Bing | 0 | 3 |
-| Website visitors who came back | people who stay | 7 | 13 |
-| App downloads (first-time) | people | 19 | 17 |
-| New accounts | people | 2 | 13 |
-| Phones back within 30 days | people who stay | - | - |
-| Trees saved to Want to go | intent | 0 | 4 |
-| Trees collected | goal 1: stood at a tree | - | - |
-| Readers' contributions | data: trees, photos, corrections, votes | 2 | 8 |
-| Shares (app and web) | word of mouth, since 10-30 | 0 | 2 |
-| Visits from a shared link | what sharing brings | 0 | 2 |
-
-Website visitors are Google Analytics' count, so only people who accepted the cookie bar; a visitor who comes back on another browser or device counts as new, and GA cannot leave our own visits out, so read the came-back row as a direction, not a count. The 30-day row is the phones that arrived five weeks ago, so it moves slowly.
-
-**Quality**: Web green, iOS green, Android grey, Backup red. Backup: Hidde's one-time setup in BACKUP_RESTORE.md.
-
-**Plus question**: no answers yet.
-
-**Day by day, the last seven days** (strangers only; visitors are Google Analytics', so only people who accepted the cookie bar)
-
-| | 11-07 | 11-08 | 11-09 | 11-10 | 11-11 | 11-12 | 11-13 | **7 days** |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Visitors | 2 | 10 | 9 | 11 | 0 | 3 | 5 | **40** |
-| New accounts | 0 | 0 | 0 | 1 | 0 | 1 | 0 | **2** |
-| Saves | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| Android waitlist | 0 | 0 | 0 | 1 | 0 | 0 | 0 | **1** |
-| App downloads | 0 | 3 | 2 | 3 | 1 | 2 | – | **11** |
-| App phones | 4 | 7 | 7 | 5 | 6 | 5 | 5 | **31** |
-| Trees opened in the app | 5 | 27 | 5 | 14 | 3 | 3 | 4 | **61** |
-| Trees collected | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| Trees sent | 0 | 0 | 0 | 0 | 0 | 0 | 1 | **1** |
-| Feedback | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| Ambassador asks | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| Website photos | 0 | 0 | 0 | 0 | 1 | 0 | 0 | **1** |
-| iPhone photos | 1 | 0 | 0 | 0 | 0 | 0 | 0 | **1** |
-| Android photos | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| Tree notes | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-| App Store reviews | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
-- – means the source has not reported that day yet (Apple's downloads arrive a day or two late), not zero.
-
-**Trees readers sent, for you to inspect** (2 you have not looked at; ours left out)
-
-| Judged | Reader | Tree | Where | Species | Their girth | Our verdict | Page |
-|---|---|---|---|---|---:|---|---|
-| 2026-11-13 | A | The Oak of Villa Salina Park | - | Oak (Quercus sp.) | 580 cm | open | - |
-| 2026-11-11 | B | The Sophoras of Piazza Capitaniato | Padua | Japanese Pagoda Tree (Styphnol | - | hold | - |
-- From 2 readers: reader A 1, reader B 1.
-- Photographs and the readers' own words: `python3 scripts/inspect_readers.py` (a local page, never in this public file). Your answer goes in with `python3 scripts/judgement.py --feedback <id> "..."`.
-
-**Waiting for you** (what the runs left for you since 2026-11-13)
-
-- 246 email addresses ready to mail (archive 0, nature 9, guide 8, press 135, source 58, council 16, society 7, tourism 5, other 5, garden 3); **the night run found no new contacts in two days**
-
-**What was sent in, and what we decided**
-
-| seen | what | where | size for its species | ours | Hidde |
-|---|---|---|---|---|---|
-| 2026-11-11 | The Tipuana of Praça São João Bosco | Lisbon | - | publish | - |
-
-1 waiting for a verdict. Disagree with one and the rule changes: `python3 scripts/judgement.py --feedback <id> "..."`, and `--learn` prints every verdict he has overruled.
-
-**Searched yesterday:** castel maggiore (2 times), arbura, mel, portuga.
-
-**Search**
-
-Google, the last 10 days it will give us (2-3 days behind; the newest row is still filling, so it reads better than it is):
-
-| Day | Clicks | Impressions | CTR | Position |
-|---|---:|---:|---:|---:|
-| 11-04 | 14 | 261 | 5.4% | 9.9 |
-| 11-05 | 1 | 23 | 4.3% | 34.1 |
-| 11-06 | 1 | 35 | 2.9% | 36.6 |
-| 11-07 | 2 | 34 | 5.9% | 38.3 |
-| 11-08 | 25 | 1013 | 2.5% | 9.1 |
-| 11-09 | 28 | 1177 | 2.4% | 8.9 |
-| 11-10 | 8 | 196 | 4.1% | 13.0 |
-| 11-11 | 1 | 16 | 6.2% | 22.1 |
-| 11-12 | 1 | 28 | 3.6% | 31.4 |
-| 11-13 *partial* | 1 | 27 | 3.7% | 49.7 |
-| **window** | **82** | **2810** | **2.9%** | |
-- Top queries (10d): ancient trees app (i3, p1); ancient trees (i10, p20); leuven, belgium (i1, p4); skovfogedegen (i1, p4); a monaco di baviera? (i1, p20)
-**What Bing shows and sends** (last 7 days with data, Bing Webmaster Tools)
-
-| Day | Impressions | Clicks | CTR |
-|---|---:|---:|---:|
-| 11-05 | 132 | 9 | 6.8% |
-| 11-06 | 106 | 2 | 1.9% |
-| 11-07 | 80 | 7 | 8.8% |
-| 11-08 | 126 | 9 | 7.1% |
-| 11-09 | 151 | 4 | 2.6% |
-| 11-10 | 136 | 9 | 6.6% |
-| 11-11 | 97 | 7 | 7.2% |
-| **7 days** | **828** | **47** | **5.7%** |
-- **BING WATCHDOG:** impressions fell from 2918 to 828 week on week. That is the shape of a demotion; read the Bing Webmaster dashboard today.
-- Top Bing queries: oldest tree china (c8/i4, p12); picture of the tree in helsinki city center that was preserved (c3/i2, p4); ancient trees app (c2/i8, p5); fig tree in square alicante (c2/i4, p4); cipresso calvo indro montanelli milano (c2/i2, p8); palma del cile (c2/i2, p6); big trees of quebec city (c2/i1, p2); mit newton apple tree address (c2/i1, p2)
-- Bing alone, from Bing Webmaster Tools. DuckDuckGo and Yahoo draw on the same index and publish no numbers. Bing's data lags about two days.
-
----
-
-**For the night run, not for you.** You can stop reading here.
-
-
-**What the machine did, the last 24 hours**
-
-| Started | Minutes | Trees | Commits | Refused | Cities |
-|---|---:|---:|---:|---:|---|
-| 11-13T07:04 | 8.3 | 4 | 4 | 0 | Braga +4 |
-| 11-13T17:38 | 4.5 | 0 | 6 | 0 | - |
-| 11-13T19:04 | 5.3 | 0 | 5 | 0 | - |
-| 11-14T00:36 | 25.8 | 12 | 15 | 2 | Fort Lauderdale +6, Chicago +3, Miami +2, Leipzig +1 |
-| **4 runs** | **44** | **16** | **30** | | |
-
-- 2 of 4 produced no trees; 2 to 2 commands refused per run; last build that went live: 3h ago.
-
-**What they made**
-
-- Record when each page last changed
-- Leipzig: lpz_031 Great Oak of Leinestrasse written and merged, claim released
-- Leipzig deepen verify: lpz_031 Great Oak Leinestrasse, 7 leads, cost logged
-- Fort Lauderdale FAQ: not all trees are paid now
-- Fort Lauderdale: six trees written and merged (ftl_005 to ftl_010), app-only, claim released
-- Fort Lauderdale verify: 6 trees (ftl_005 to ftl_010), leads annotated, cost logged
-- Miami: two Fairchild trees written and merged (mia_013 Tantancayo, mia_014 Cannon Ball Tree), app-only
-- Miami verify (2 staged), Stratford scout retried, log
-- Chicago pass logged, duplicates dropped, claim released
-- Chicago: 3 Busse Forest South register trees (chi_048, 049, 051); 7 verified rows were duplicates of live trees
-- Photographs readers sent, queued for a look; vouched ones live
-- Contributor replies and ambassador invitations sent, log updated
-- Log: build fix, Spokane wall, Newark retry
-- Fix build: tip-668 photo path carries the reader code, not the account id
-
-Machine: 6 chain attempts yesterday, 3 got real work time (~23 min total). Dead-in-seconds attempts cost nothing; few get-throughs means the usage window was full or closed.
-
-**Search work lists**
-
-- Top pages (10d): / (c7/i72); /app (c3/i14); /switzerland (c3/i13); /seville (c2/i58); /de (c2/i20)
-- Content leads, biggest first. A lead is a query no page TITLE covers, so some are ranking problems on a page we have rather than a page to write ('vegas trees' against /las-vegas). Check before building:
-    - 'alte bäume in der nähe' (i5, p3)
-    - 'alte bäume karte' (i4, p6)
-    - 'acient tree' (i2, p14)
-    - 'a monaco di baviera?' (i1, p20)
-    - 'ahornbäume in der nähe' (i1, p7)
-    - 'alberi di roma' (i1, p1)
-    - 'alter' (i1, p2)
-    - 'angeloak' (i1, p59)
-    - and 1 more
-
-**Is enriching working** (indexed tree pages, last 10 days of Google; rich = register record, a measurement and concrete access)
-
-| Indexed tree pages | Pages | With an impression | Impressions | Per page | Clicks |
-|---|---:|---:|---:|---:|---:|
-| Rich | 113 | 12 | 42 | 0.37 | 1 |
-| Not yet rich | 80 | 14 | 49 | 0.61 | 0 |
-| Returned to Google's index in the last 7 days | 7 | 0 | 0 | 0.00 | 0 |
-
-- Google lags 2 to 3 days, so a page returned this week has had a few days at most. Compare the per-page numbers across weeks, not the totals across rows.
-
-**Depth is allowed on these cities** (10+ impressions in the window; photos, pins and best_time go here and nowhere else):
-
-| City | Clicks | Impressions | CTR | Position | Normal there | Biggest query, and where it really sits |
-|---|---:|---:|---:|---:|---:|---|
-| fortingall | 0 | 144 | 0.0% | 10.7 | 2.2% | fortingall yew (i117, p11) |
-| seville | 2 | 68 | 2.9% | 5.2 | 6.5% | sevilla (i1, p1) |
-| lisbon | 1 | 64 | 1.6% | 6.5 | 4.5% | historic giant plant of lisbon (i1, p12) |
-| fulufjallet | 0 | 46 | 0.0% | 9.3 | 2.9% | old tjikko (i25, p10) |
-| berlin | 2 | 44 | 4.5% | 6.8 | 4.2% | berlin trees (i2, p5) |
-| malaga | 1 | 34 | 2.9% | 17.9 | 1.0% | árboles históricos de málaga (i5, p83) |
-| tokyo | 0 | 33 | 0.0% | 5.8 | 5.3% | ginkgo sperm (i3, p11) |
-| olympic-national-park | 0 | 32 | 0.0% | 12.8 | 1.6% | duncan cedar (i14, p8) |
-| munich | 1 | 31 | 3.2% | 5.5 | 5.9% | a monaco di baviera? (i1, p20) |
-| singapore | 0 | 29 | 0.0% | 9.0 | 3.0% | earpod tree (i3, p5) |
-| paris | 1 | 27 | 3.7% | 5.6 | 5.7% | - |
-| south-korea | 0 | 27 | 0.0% | 12.6 | 1.7% | ginkgo tree korea (i2, p5) |
-| palermo | 0 | 26 | 0.0% | 8.9 | 3.0% | palermo tree (i1, p9) |
-| tenerife | 0 | 25 | 0.0% | 24.3 | 0.6% | dragon tree tenerife (i2, p32) |
-| kyoto | 1 | 24 | 4.2% | 7.4 | 3.8% | ginkgo tree kyoto (i1, p1) |
-| seoul | 1 | 24 | 4.2% | 7.8 | 3.6% | - |
-| copenhagen | 2 | 23 | 8.7% | 6.7 | 4.3% | copenhagen trees (i2, p16) |
-| amsterdam | 0 | 22 | 0.0% | 8.7 | 3.2% | lomanstraat (i2, p19) |
-| united-states | 2 | 21 | 9.5% | 17.0 | 1.0% | oldest tree in oregon (i4, p10) |
-| brisbane | 0 | 20 | 0.0% | 10.4 | 2.3% | banyan tree (i5, p11) |
-| germany | 1 | 19 | 5.3% | 6.2 | 4.8% | - |
-| london | 2 | 19 | 10.5% | 8.5 | 3.3% | - |
-| reykjavik | 1 | 19 | 5.3% | 5.7 | 5.6% | - |
-| venice | 3 | 18 | 16.7% | 4.0 | 8.0% | - |
-| taiwan | 0 | 18 | 0.0% | 11.1 | 2.1% | oldest tree in taiwan (i3, p5) |
-| sequoia-national-park | 0 | 17 | 0.0% | 18.0 | 1.0% | washington tree (i9, p20) |
-| porto | 1 | 16 | 6.2% | 3.0 | 11.0% | - |
-| kagoshima | 0 | 16 | 0.0% | 10.9 | 2.2% | oldest camphor tree (i1, p7) |
-| milan | 0 | 16 | 0.0% | 5.5 | 6.0% | - |
-| nara | 1 | 15 | 6.7% | 5.6 | 5.8% | - |
-| san-francisco | 0 | 15 | 0.0% | 4.9 | 7.1% | old tree near me (i1, p4) |
-| edinburgh | 0 | 15 | 0.0% | 6.7 | 4.3% | - |
-| barcelona | 0 | 15 | 0.0% | 10.3 | 2.4% | - |
-| fukuoka | 0 | 15 | 0.0% | 10.1 | 2.5% | gingkosidi (i3, p34) |
-| monterey | 0 | 14 | 0.0% | 40.9 | 0.4% | lone cypress (i3, p64) |
-| oahu | 0 | 14 | 0.0% | 9.4 | 2.8% | hitachi tree (i2, p10) |
-| austin | 0 | 14 | 0.0% | 12.4 | 1.7% | oldest tree in austin (i2, p12) |
-| cambridge | 0 | 14 | 0.0% | 20.5 | 0.8% | isaac newton tree (i1, p9) |
-| los-angeles | 0 | 14 | 0.0% | 7.8 | 3.6% | moreton bay fig tree beverly hills (i1, p9) |
-| prague | 0 | 14 | 0.0% | 4.9 | 7.1% | - |
-| switzerland | 3 | 13 | 23.1% | 7.7 | 3.7% | - |
-| chishang | 0 | 13 | 0.0% | 6.6 | 4.4% | takeshi kaneshiro tree (i7, p7) |
-| athens | 0 | 13 | 0.0% | 5.5 | 6.1% | - |
-| netherlands | 1 | 12 | 8.3% | 8.9 | 3.0% | dutch trees (i1, p39) |
-| kanazawa | 0 | 12 | 0.0% | 6.3 | 4.7% | - |
-| alicante | 1 | 11 | 9.1% | 4.7 | 7.3% | - |
-| segovia | 0 | 11 | 0.0% | 38.4 | 0.4% | - |
-| charleston | 0 | 11 | 0.0% | 17.5 | 1.0% | how old is the angel oak tree (i2, p17) |
-| madrid | 0 | 11 | 0.0% | 6.5 | 4.5% | - |
-| perth | 0 | 11 | 0.0% | 8.6 | 3.2% | - |
-| dublin | 1 | 10 | 10.0% | 4.4 | 7.6% | - |
-| new-york | 1 | 10 | 10.0% | 7.1 | 4.0% | - |
-| bristol | 0 | 10 | 0.0% | 6.0 | 5.0% | - |
-| poland | 0 | 10 | 0.0% | 7.7 | 3.6% | trees in poland (i1, p8) |
-| antwerp | 0 | 10 | 0.0% | 35.0 | 0.4% | den brandt park (i2, p78) |
-| seattle | 0 | 10 | 0.0% | 8.9 | 3.0% | oldest tree in seattle (i1, p10) |
-
-- Plus 208 cities on the frozen 09-27 roster (data/depth-roster-frozen.json), biggest: bath, rome, brussels, vienna, cadiz, pamplona, cagliari, glasgow.
 

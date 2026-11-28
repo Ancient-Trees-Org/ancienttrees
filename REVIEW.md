@@ -232,20 +232,6 @@ Web half: the last 24 hours were Leipzig lpz_031, Fort Lauderdale ftl_005 to ftl
 
 App half (iPhone SE: species, tree-nophoto, tree, city-map-full, city, collect-away): looked at tree-nophoto and collect-away; nothing a person would notice is wrong. The no-photo card reads honestly ("Yours would be the first on this page"). Did not open the other four.
 
-## 2026-11-13
-
-Web half: the last 24 hours were a Rotterdam source link, Braga trees (app-only), Android parity harness, data digests. No em dashes in site/dist. The Rotterdam link change is sound.
-
-- WARN site/dist/explore.html still says "Each pin opens a tree with its age, its species, why it is worth the walk, and directions from where you are" while app-only pins open a card with no story. Seventh review. Hard rule 2 and "a decision that changes what the product does also changes what the product says". Replacement: "Each pin opens a tree; some stories are in the app." Translations too.
-- WARN site/dist/contribute.html (source site/src/pages/contribute.astro) still says "verified against independent sources" / "check every tip against independent sources", four times in the built page. False since "Good reader input IS the source" (2026-10-12). Eighteenth review. Replacement: "We read every submission before it is kept."
-- NOTE data/cities/windsor.json wsr_002 still carries the sentence "An iNaturalist record from August 2026 falls within range of the spot, though nobody has checked...". Narrates our process ("Public copy never narrates our process"). Drop it.
-
-App half (iPhone SE: refused, review-ask, search, signin-email, signin, species-pick):
-
-- NOTE APP search.png: typing "lis" lists Lisbon, then Indianapolis, Minneapolis and Alishan, matched mid-word. A reader typing a place expects names that start with it first; Alishan (2 trees) outranks nothing useful. For a session.
-- NOTE APP signin-email.png is byte-identical in look to signin.png (it shows the three-button choice, not an email form), so the screen named for email entry is not being exercised by the sweep. For a session.
-- Nothing wrong found on refused.png, review-ask.png or species-pick.png.
-
 ## 2026-11-18 code
 
 - WEB-BUG-refresh-blip-signs-out, site/src/lib/signin-js.ts:254: a 429 or 5xx from the token refresh clears the stored session and signs the visitor out; only 400/401/403 mean the refresh token is spent.
