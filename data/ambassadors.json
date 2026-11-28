@@ -2807,6 +2807,16 @@
         "The Rain Tree of Cooke Town"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_95b607fd02de62c6c079cb34",
+      "place_slug": "guidonia-montecelio",
+      "place_name": "Guidonia Montecelio",
+      "date": "2026-11-28",
+      "trees": [
+        "The Holm Oak of La Pietrara"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
