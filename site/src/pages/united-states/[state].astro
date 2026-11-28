@@ -9,7 +9,6 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import { nTrees } from "../../lib/tree-count";
 import Base from "../../layouts/Base.astro";
 import TreeCard from "../../components/TreeCard.astro";
-import Breadcrumbs from "../../components/Breadcrumbs.astro";
 import { cityIsRenderable, renderableTrees, treeSlugsForCity, type CityEntry } from "../../lib/trees";
 import { collectionEntries, MODES } from "../../lib/collection-rank";
 import { GROUP_ORDER, speciesGroup, speciesCommon, speciesScientific, speciesPageSlugs } from "../../lib/species";
@@ -20,6 +19,15 @@ import { mapHead, countryMapScript, pinPriority } from "../../lib/map";
 import { savesOf } from "../../lib/saves";
 import { speciesIconKey } from "../../lib/species-icons";
 import { TREE_ACTIONS_JS } from "../../lib/tree-actions-js";
+import { mapSpecies } from "../../lib/map-species";
+import MapFilters from "../../components/MapFilters.astro";
+import PlaceHead from "../../components/PlaceHead.astro";
+import PlaceIntro from "../../components/PlaceIntro.astro";
+import { SHEET_JS } from "../../lib/sheet-js";
+import { SHARE_JS } from "../../lib/share-js";
+import { VISITED_SYNC_JS } from "../../lib/visited-sync-js";
+import { chrome } from "../../lib/ui-strings";
+import { ui } from "../../lib/i18n";
 import { usStateOf, stateSlug, assertEveryUsPlaceHasAState, STATE_MIN_TREES, STATE_MIN_PLACES } from "../../lib/us-states";
 
 function esc(s: string): string {
@@ -162,6 +170,9 @@ const graph = [
   breadcrumbSchema(crumbItems, canonical),
 ];
 const headExtra = mapHead() + ogImage + "\n" + ldScript(graph);
+// The filter row's species chip counts by the shared species index, as on
+// the country page.
+const { index: spIndex } = await mapSpecies();
 const mapScript = countryMapScript(
   ranked.map((c) => ({
     slug: c.slug,
@@ -171,64 +182,89 @@ const mapScript = countryMapScript(
       const ts = treeSlugsForCity(c.city)[t.id];
       return { id: t.id, lat: t.location.latitude!, lng: t.location.longitude!, url: ts ? `/${c.slug}/${ts}` : undefined,
                pr: pinPriority(Boolean(usablePhoto(t)), savesOf(t.id)), ic: speciesIconKey(speciesCommon(t)),
-               paid: Boolean(t.paid_entry) };
+               sp: spIndex.get(speciesCommon(t)) ?? -1, paid: Boolean(t.paid_entry) };
     }),
   })),
-  undefined
+  undefined,
+  undefined,
+  // ONE MAP (lib/one-map.ts, Hidde 2026-11-27: "Ja, staatpagina's"): the
+  // state page is the map opened on its state, the country page's skeleton;
+  // drag or zoom it yourself and the panel is the map's trees in view.
+  { sheet: true,
+    oneMap: { explorePath: "/explore", words: { title: ui("en").exploreHeading, note: ui("en").exploreNote,
+              map: chrome("en").map, docTitle: ui("en").exploreTitle } } }
 );
 ---
-<Base title={title} description={description} canonical={canonical} headExtra={headExtra}>
-  <main class="content-page">
-    <Breadcrumbs items={crumbItems} />
-    <h1>Oldest trees in {state}</h1>
-    <p class="answer-first">{answer} {countLine}</p>
-    <div class="prose-block" data-clamp><p>{intro.data.intro}</p></div>
-    <div class="map-embed"><div id="map" class="map"></div></div>
-    <h2>Every place we map in {state}</h2>
-    <div class="ctry-list">
-      {rows.map((r) => (
-        <a class="ctry-row" href={`/${r.slug}`}>
-          <span class="ctry-rank">{r.i}</span>
-          <Fragment set:html={r.ph} />
-          <span class="ctry-body"><b>{r.name}</b><span>{r.sub}</span></span>
-          <span class="ctry-chev" aria-hidden="true">›</span>
-        </a>
-      ))}
-    </div>
-    {speciesSections.length > 0 && (
-      <section class="ctry-species">
-        <h2>{speciesCount.size} species grow in {state}</h2>
-        {speciesSections.map((s) => (
-          <p class="ctry-species-row"><b>{s.g}</b>{" "}
-            {s.items.map((it, i) => (
-              <Fragment>
-                {i > 0 && <Fragment set:html=" &middot; " />}
-                {it.slug
-                  ? <a href={`/species/${it.slug}`}>{it.common}</a>
-                  : <span>{it.common}</span>}
-                <span class="ctry-species-n">{" "}{it.count}</span>
-              </Fragment>
+<Base title={title} description={description} canonical={canonical} headExtra={headExtra} footer={false}>
+  {/* The country page's skeleton ([country].astro), part for part, since
+      2026-11-27 (one map): the sheet on the left on a computer and over the
+      map on a phone, the map the stage behind it. Every block of Contract L is
+      in the sheet in the order it had, so the served HTML holds what it did. */}
+  <div class="split">
+    <aside class="panel" id="sheet">
+      <div class="sheet-grab">
+        <PlaceHead crumbs={crumbItems} eyebrow={`${nTrees(total)} · ${places.length} places`}
+                   lead="Oldest trees in {c}" name={state}
+                   share={{ url: canonical, title: `Oldest trees in ${state}` }}
+                   placeRow={{ share: ui("en").share, copied: ui("en").shareCopied, close: ui("en").photoClose }} />
+      </div>
+      <div class="sheet-body">
+        <PlaceIntro text={`${answer} ${countLine} ${intro.data.intro}`} readMore={ui("en").readMore} />
+        <div class="ctry-sheet">
+          <h2>Every place we map in {state}</h2>
+          <div class="ctry-list">
+            {rows.map((r) => (
+              <a class="ctry-row" href={`/${r.slug}`}>
+                <span class="ctry-rank">{r.i}</span>
+                <Fragment set:html={r.ph} />
+                <span class="ctry-body"><b>{r.name}</b><span>{r.sub}</span></span>
+                <span class="ctry-chev" aria-hidden="true">›</span>
+              </a>
             ))}
-          </p>
-        ))}
-      </section>
-    )}
-    {oldestTrees.length > 0 && (
-      <Fragment>
-        <h2>
-          {oldestTrees.length === 1
-            ? `The oldest tree we map in ${state}`
-            : `The ${oldestTrees.length} oldest trees we map in ${state}`}
-        </h2>
-        {oldestTrees.map((r) => (
-          <Fragment>
-            <TreeCard tree={r.tree} citySlug={r.stat.slug} treeSlug={r.tslug} note={r.note} omitAge />
-            <p class="coll-citycta"><a href={`/${r.stat.slug}`}>{r.stat.name} &rarr;</a></p>
-          </Fragment>
-        ))}
-      </Fragment>
-    )}
-    <p class="suggest" set:html={`${collLine}See <a href="/united-states">every place we map in the United States</a>, or <a href="/explore">open the map</a> to find what is near you.`} />
-  </main>
+          </div>
+          {speciesSections.length > 0 && (
+            <section class="ctry-species">
+              <h2>{speciesCount.size} species grow in {state}</h2>
+              {speciesSections.map((s) => (
+                <p class="ctry-species-row"><b>{s.g}</b>{" "}
+                  {s.items.map((it, i) => (
+                    <Fragment>
+                      {i > 0 && <Fragment set:html=" &middot; " />}
+                      {it.slug
+                        ? <a href={`/species/${it.slug}`}>{it.common}</a>
+                        : <span>{it.common}</span>}
+                      <span class="ctry-species-n">{" "}{it.count}</span>
+                    </Fragment>
+                  ))}
+                </p>
+              ))}
+            </section>
+          )}
+          {oldestTrees.length > 0 && (
+            <Fragment>
+              <h2>
+                {oldestTrees.length === 1
+                  ? `The oldest tree we map in ${state}`
+                  : `The ${oldestTrees.length} oldest trees we map in ${state}`}
+              </h2>
+              {oldestTrees.map((r) => (
+                <Fragment>
+                  <TreeCard tree={r.tree} citySlug={r.stat.slug} treeSlug={r.tslug} note={r.note} omitAge />
+                  <p class="coll-citycta"><a href={`/${r.stat.slug}`}>{r.stat.name} &rarr;</a></p>
+                </Fragment>
+              ))}
+            </Fragment>
+          )}
+        </div>
+        <div class="panel-foot">
+          <p class="suggest" set:html={`${collLine}See <a href="/united-states">every place we map in the United States</a>, or <a href="/explore">open the map</a> to find what is near you.`} />
+        </div>
+      </div>
+    </aside>
+    <div class="stage">
+      <MapFilters lang="en" />
+      <div id="map" class="map"></div>
+    </div>
+  </div>
+  <Fragment slot="scripts" set:html={TREE_ACTIONS_JS + VISITED_SYNC_JS + mapScript + SHEET_JS + SHARE_JS} />
 </Base>
-<Fragment slot="scripts" set:html={TREE_ACTIONS_JS + mapScript} />

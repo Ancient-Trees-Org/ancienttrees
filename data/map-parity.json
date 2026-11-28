@@ -285,6 +285,15 @@
       "ios": "TreeMap.swift: settle() keeps the coordinate under the inset's middle when the inset changes for a chosen or released tree; pinNeedsMove/pinHidden decide when it is brought in (TreeMapPinTapTests)",
       "android": "map/TreeMapView.kt: the selection moves the camera only when PinTap.needsMove says so; the padding effect keeps the coordinate under the new middle for a chosen or just-released tree and brings up only a pin the card covers (PinTapTest)",
       "status": "done"
+    },
+    {
+      "what": "One map on US state pages (Hidde, 2026-11-27: \"Ja, staatpagina's\"): the state page takes the country page's skeleton (sheet over or beside a full map, filter row), draws the neighbours' trees, and a drag or zoom of your own turns the panel into the map's trees in view",
+      "since": "2026-11-27",
+      "web": "united-states/[state].astro on [country].astro's skeleton, countryMapScript with sheet and oneMap",
+      "ios": "the app has no state screen; a state is a place on the one map; nothing to change",
+      "android": "the same as iOS; nothing to change",
+      "status": "one-sided",
+      "why": "the website catching up with the phones"
     }
   ]
 }
