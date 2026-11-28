@@ -2797,6 +2797,16 @@
         "General Sherman Tree",
         "Lincoln Tree"
       ]
+    },
+    {
+      "user_id": "p_222d03c41c0146a3003004ee",
+      "place_slug": "bengaluru",
+      "place_name": "Bengaluru",
+      "date": "2026-11-28",
+      "trees": [
+        "The Rain Tree of Cooke Town"
+      ],
+      "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
     }
   ],
   "requested": [
