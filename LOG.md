@@ -16,6 +16,12 @@
 - **Barcelona, The Japanese Cheesewood of the Ciutadella** (bcn_037, report 1000163): the reader wrote that the bandstand is not near our pin and that an almost identical tree stands by the bandstand. OSM puts the Glorieta 170 m north of our pin. Our pin is the register's own coordinate, and a reader photographed the roped cheesewood there today, so the pin stays. The register's "in front of the Glorieta" wording came off the address, the recognition line and the story, in English and Spanish. The story now points to the rope ring and gives the twin by the bandstand as a visitor's word. They wrote their own words, so no standard mail went out. The report is closed `holds`.
 - **For Hidde:** a suggested reply to report 1000163 is in drafts/reply-reader-1000163-2026-11-28.md.
 - No new reader trees, tips or feedback waited. The same 37 `mine` leads stay as they were.
+## 2026-11-28 night run (14:29 window): nothing shipped, one note closed
+
+- **Rung picked**: 2 was red only on open app BUG rows in data/code-audit.json (3 open, 2 found by readers). All three need work a run cannot verify: a tree you added cannot be edited afterwards (feature, Collect.swift), the Android draft that must live on the account (Hidde's rule 11, a server table), and the Android place step. I read the last one: `CollectSheet.kt` falls back to `origin`, which is Dam Square when the phone has no fix yet (`MainActivity.kt` `DAM_SQUARE`), and `PlaceStep` opens there. A fix is Android UI I cannot build or run here, so I made no blind change. The rows stay open.
+- Rung 1 left to the reader judge as written: bcn_035 and bcn_012 photographs, one unnamed Toronto-area sighting (8aefa773).
+- Own research is paused and nothing is READY or verified to write, so there was no supply work. Closed the reader note 1000163 (Ciutadella Japanese Cheesewood) in `reader_words.py --done`: a location report about a lookalike near the bandstand, not story words.
+- Web errors ORANGE: "undefined has no property 'getLayer'" inside maplibre-gl, two new types; not looked into this window.
 
 ## 2026-11-28 reader judge: a reader's fir in Bentivoglio is live, the Ciutadella's Mexican oak pin moved
 
