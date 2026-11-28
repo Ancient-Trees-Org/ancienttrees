@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-28 night run (10:28 window): page gaps, nothing from readers
+
+- Rung 1 empty (no photographs waiting, reader backlog clear). Rung 2: health shows 10 open app BUG rows in data/code-audit.json, all iOS Swift UI fixes that need an XCTest run on a Mac, so left for a session there; web errors are orange only (maplibre `getLayer`, 2 reports). Own research is paused and 0 leads are ready, so the line had nothing to write.
+- Rung 9: 8 species intros written from their own trees and committed (`988f5c958`): American Beech, Apple, Aleppo Oak, Yellow Buckeye, Willow, Torrey Pine, Til / Stinkwood, Scarlet Oak. Fixed a false gap in `pagegaps.py` (Préfargier's intro exists under `la-tene`). Arnold Arboretum is still not written: nine trees (bos_030 to bos_038) carry the address "Arnold Arboretum, Jamaica Plain", which would split the existing intro into two pages.
+- For Hidde: the Arnold Arboretum address fix (nine addresses to "Arnold Arboretum of Harvard University", then rewrite that intro for 15 trees).
+
 ## 2026-11-28 reader judge: the Assistens yews, new lead photos for Skovfogedegen and the Birkerød root oak
 
 - **Live**: copenhagen/cop_057, The Yews over the Henrichsen Grave. A reader sent it as a photograph of the Handkerchief Tree (cop_006), but it shows two tall yews with a fluted red trunk, so it went `other_tree` and was judged as a new tree. They stand over an iron-fenced grave a few steps from the handkerchief tree, and the stone with its portrait medallion and the name Henrichsen is the recognition line. The pin is approximate: the app did not say how this sighting's spot was taken. The source line is the Assistens plant list, which names yew among the cemetery's evergreens. We have no age or girth, and the story asks readers for one. The photo is filed under November, because of the autumn leaves around it.
