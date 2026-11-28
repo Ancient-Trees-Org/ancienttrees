@@ -14009,6 +14009,37 @@
    "seen": "2026-11-28",
    "judged": "2026-11-28",
    "published_as": "guidonia-montecelio/gdm_001"
+  },
+  {
+   "sighting_id": "8aefa773-8c44-403a-86e2-144dc686b154",
+   "user_id": "p_a30725b92f30d3f70303155e",
+   "mine": false,
+   "name": "",
+   "unsure_among": "The Dawn Redwood of Kew Gardens (tro_007); The Kew Gardens Red Oak (tro_001)",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 43.6589558453554,
+   "longitude": -79.3061309283337,
+   "location_kind": null,
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_a30725b92f30d3f70303155e/8AEFA773-8C44-403A-86E2-144DC686B154.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": 1177,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "lead",
+   "why": "sent by a reader who was not sure which tree it is; judged as a new tree unless the photograph shows one of ours (it then matches no tree we map until a judge says so).",
+   "seen": "2026-11-28"
   }
  ]
 }
