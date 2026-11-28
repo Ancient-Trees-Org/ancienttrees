@@ -14,7 +14,8 @@
 
 - Claims: none standing. READY leads: 0. Verified-unpublished: one Taiwan tree (below the six-tree floor), everything else in passcheck --pending is stale or duplicate files. enrich, recognise --stuck and reader_words: nothing to do. Own research stays paused.
 - Open app BUG rows are all features, not quick fixes: editing a tree you added (iOS), Android's place picker for a new tree (pin went to Amsterdam), Android's draft on the account. They need design and a build, so I left them.
-- Two reader photographs (bcn_035, bcn_012) and one unknown-tree sighting (8aefa773, Toronto) wait for the reader judge, which owns them.
+- **Toronto, The Pine of Ashbridges Bay** (tro_008, sighting 8aefa773): the push was blocked by this reader's tree sitting as a lead with no verdict. Photograph viewed (a multi-stemmed pine with orange peeling bark on the lake boardwalk, GPS fix at the tree), so it is live under the closed list, species kept at genus (Pine, Pinus sp.). Place from the fix (The Boardwalk, South Riverdale). Toronto's counts went from seven to eight in the intro, meta and FAQ. The congratulation mail goes on the next knock.
+- Two reader photographs (bcn_035, bcn_012) still wait for the reader judge, which owns them.
 
 ## 2026-11-28 reader judge: a reader's photograph leads the Ciutadella's Mexican oak; the cheesewood page no longer puts it at the bandstand
 

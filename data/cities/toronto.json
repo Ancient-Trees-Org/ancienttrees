@@ -2,9 +2,9 @@
   "city": "Toronto",
   "country": "Canada",
   "status": "needs_curation",
-  "intro": "These seven span twenty kilometres of Toronto, several outings rather than one afternoon. The oldest is Zhelevo, a red oak in Etobicoke that predates European settlement of the Humber River, saved when the city bought and demolished the house beside it. The official tree, in Kew Gardens, has one limb sagging to the grass. A coronation oak from 1937 anchors a ring of maples on the waterfront, Big Red holds a corner in Long Branch, a Turkish hazel survives a private nut farm, and six maples in Lambton were planted by grieving mothers on Remembrance Day, 1919.",
-  "meta_description": "Toronto's oldest tree is Zhelevo, a 300-year red oak the city bought a house to save. Seven trees, from Kew Gardens to a WWI remembrance planting.",
-  "question_meta": "Toronto's oldest tree is Zhelevo, a roughly 300-year red oak in Etobicoke the city bought a house to save. Where it stands, and six more to see.",
+  "intro": "These eight span twenty kilometres of Toronto, several outings rather than one afternoon. The oldest is Zhelevo, a red oak in Etobicoke that predates European settlement of the Humber River, saved when the city bought and demolished the house beside it. The official tree, in Kew Gardens, has one limb sagging to the grass. A coronation oak from 1937 anchors a ring of maples on the waterfront, Big Red holds a corner in Long Branch, a Turkish hazel survives a private nut farm, and six maples in Lambton were planted by grieving mothers on Remembrance Day, 1919.",
+  "meta_description": "Toronto's oldest tree is Zhelevo, a 300-year red oak the city bought a house to save. Eight trees, from Kew Gardens to a WWI remembrance planting.",
+  "question_meta": "Toronto's oldest tree is Zhelevo, a roughly 300-year red oak in Etobicoke the city bought a house to save. Where it stands, and seven more to see.",
   "question_answer": "The oldest tree in Toronto is Zhelevo, a red oak on Coral Gable Drive in Etobicoke, at roughly three hundred years old with an honest band running from 250 to 320. It predates the European settlement of the Humber River area, which began in 1793, and stood near the old Toronto Carrying Place Trail between Lake Ontario and Lake Simcoe. Its trunk measures nearly five metres round and its crown, at 24 metres, used to tower over the private house beside it, until Toronto City Council voted in 2020 to buy that property and demolish the house instead, after a public campaign of more than 1,300 donors got there first. The city is building a public parkette on the lot now, due to open in spring 2027; until then the tree is visible from the street rather than walk-up. Toronto's official tree, the red oak in Kew Gardens, is close behind at roughly 220 years, a title the city gave it in 2022 for its own reasons rather than for age: its trunk measures 5.3 metres round, the crown reaches roughly 36 metres, and arborists read a diameter of 169 centimetres as an age of about 220 years, with an honest band running from 200 to 260. Nobody has cored either tree, so both bands are the answer rather than a hedge.",
   "question_context": "Ontario has no government register of remarkable trees. What it has instead is the Ontario Heritage Tree Program run by Forests Ontario, a nomination-based designation, and that is where all but one tree on this page come from (the dawn redwood in Kew Gardens was found by a reader); each was then checked against independent sources, a city page, a local historical society or a newspaper. Most ages here come off a tape measure and an assumed growth rate, with three exceptions: the King's Oak was planted on 12 May 1937 and the Lambton Park maples on 11 November 1919, both birthdays known to the day, and Zhelevo's age follows several newspapers' converged estimate of roughly 300 years rather than the register's own older figure of 250. Two figures on this page disagree and both are recorded rather than reconciled: Forests Canada puts Big Red at 24 metres tall, a 2024 local report at 33. Two cautions about precision: the five heritage trees in Echo Valley Park share a single map coordinate, which is why the Turkish hazel here is marked approximate, and the six Lambton Park maples share one register coordinate the same way.",
   "faq": [
@@ -18,7 +18,7 @@
     },
     {
       "q": "Are they free to visit?",
-      "a": "Yes, all seven, though Zhelevo is currently viewable from the street rather than walk-up: the city is building a public parkette around it, due to open in spring 2027. Every other tree stands on public ground, and Coronation Park and the Long Branch corner are open at all hours. The Lambton Park maples stand on the school's street frontage and are viewable from the public sidewalk without entering the schoolyard."
+      "a": "Yes, all eight, though Zhelevo is currently viewable from the street rather than walk-up: the city is building a public parkette around it, due to open in spring 2027. Every other tree stands on public ground, and Coronation Park and the Long Branch corner are open at all hours. The Lambton Park maples stand on the school's street frontage and are viewable from the public sidewalk without entering the schoolyard."
     },
     {
       "q": "Is the tree in Echo Valley Park easy to find?",
@@ -350,6 +350,48 @@
           "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
+    },
+    {
+      "id": "tro_008",
+      "name": "The Pine of Ashbridges Bay",
+      "species": "Pine (Pinus sp.)",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "The Boardwalk, Ashbridges Bay, South Riverdale, Toronto",
+        "latitude": 43.6589558453554,
+        "longitude": -79.3061309283337,
+        "neighbourhood": "South Riverdale"
+      },
+      "how_to_recognise": "On the lakeshore path beside a bench: a pine whose trunk splits low into several stems, orange and peeling above, the branches layered flat over the grass and the lake behind.",
+      "access": "Free. It stands beside the public boardwalk along Lake Ontario; the shore edge beside it was taped off when the reader visited.",
+      "story": "A reader walking the boardwalk along Lake Ontario, east of the Beaches, stopped at this pine and sent us a photograph from its foot.\n\nWhat stops you is the bark. Low down the trunk is grey and deeply plated, but where it divides the stems turn a warm copper orange and the thin skin flakes away in patches, the look of a Scots pine that has been shaped by wind. The trunk splits into three or four stems close to the ground, one of them sweeping out sideways over a bench, and the branches spread flat and wide, layered like the crown of an old pine in a Japanese garden. Behind it the lake runs out to a line of boulders along the shore.\n\nWe do not know its species for certain, its age or its girth, and nobody has told us who planted it. If you know the tree, or have measured it, tell us here and we will add it.\n\nCome on a still late-autumn day, when the bare neighbours let the orange stems show against the water.",
+      "verified_sources": [],
+      "found_by_reader": {
+        "sighting_id": "8aefa773-8c44-403a-86e2-144dc686b154",
+        "date": "2026-11-28"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "note": "The reader's phone fix at the tree, taken with the photograph (2026-11-28).",
+        "date": "2026-11-28"
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-28 night run (reader rung): sent by a reader (8aefa773-8c44-403a-86e2-144dc686b154, through the app) as 'not sure which tree'; judged as new, it is 1,177 m from the nearest tree of ours and not a trunk of Kew Gardens. Photograph viewed: the whole lower tree beside the lakeshore path, a thick trunk splitting into several stems with orange peeling bark above, the lake and a bench behind, caution tape round the shore edge, daylight, colour. Published under the closed list for a reader's tree: GPS fix at the tree, a photograph, somewhat special. Place found by reverse geocoding the fix (OpenStreetMap: The Boardwalk, South Riverdale). Species left at genus; the orange upper bark suggests Scots pine, which we have not confirmed. The reader gave no name, age or note.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/tro_008-pine-of-ashbridges-bay.jpg",
+        "taken_month": 11,
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_a30725b92f30d3f70303155e",
+        "sighting_id": "8aefa773-8c44-403a-86e2-144dc686b154",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-28, through the app); viewed and approved on 2026-11-28: the whole lower tree beside the lakeshore path, a thick trunk splitting into several stems with orange peeling bark above, the lake and a bench behind, caution tape round the shore edge, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+      }
     }
   ]
 }

@@ -14037,9 +14037,11 @@
     "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
     "nearest": []
    },
-   "status": "lead",
-   "why": "sent by a reader who was not sure which tree it is; judged as a new tree unless the photograph shows one of ours (it then matches no tree we map until a judge says so).",
-   "seen": "2026-11-28"
+   "status": "published",
+   "why": "a pine with orange peeling stems on the Ashbridges Bay boardwalk, GPS fix at the tree, daylight, colour; a new tree, 1,177 m from Kew Gardens' trees.",
+   "seen": "2026-11-28",
+   "published_as": "toronto/tro_008",
+   "judged": "2026-11-28"
   }
  ]
 }

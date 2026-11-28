@@ -746,6 +746,65 @@
    "agreed": null
   },
   {
+   "id": "sight:6b0ae614-aef6-44d1-a741-12f606bd8a68",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Black Locust of the Ciutadella",
+   "city": "Barcelona",
+   "species": "Black Locust (Robinia pseudoacacia)",
+   "photo": "out/sightings/6b0ae614-aef6-44d1-a741-12f606bd8a68.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 206,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Black Locust (Robinia pseudoacacia)"
+   },
+   "verdict": null,
+   "reason": null,
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:8aefa773-8c44-403a-86e2-144dc686b154",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": null,
+   "species": null,
+   "photo": "p_a30725b92f30d3f70303155e/8AEFA773-8C44-403A-86E2-144DC686B154.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "publish",
+   "reason": "a new tree: pine with orange peeling stems on the Ashbridges Bay boardwalk, GPS fix at the tree, daylight, colour; published as toronto/tro_008",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:8aefa773-8c44-403a-86e2-144dc686b154",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "A pine in Toronto",
+   "photo": "p_a30725b92f30d3f70303155e/8AEFA773-8C44-403A-86E2-144DC686B154.jpg",
+   "reader_note": "",
+   "hidde": null,
+   "agreed": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed 2026-11-28: the whole lower tree beside the lakeshore boardwalk, a trunk splitting into several stems with orange peeling bark, lake and bench behind, daylight, colour, GPS fix at the tree. Live as toronto/tro_008 under the closed list."
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
