@@ -10,6 +10,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 fourth attempt: nothing shipped, same findings
+
+No claims standing, `leads.py --ready` 0, `reader_words.py` 0 waiting, `passcheck.py --pending` only stale or duplicate files plus one taiwan tree. Own research is paused, so there is nothing to dispatch.
+
 ## 2026-11-28 third attempt: nothing shipped, same findings
 
 Re-checked: no claims, 0 READY, `enrich.py --next` and `recognise.py --stuck` empty, `reader_words.py` 0 waiting. The only unpublished verified tree is one in taiwan (below the six-tree floor for a write pass). Everything else in `passcheck.py --pending` is stale or a duplicate under another id. health.py rung 2 is still the two open app BUG rows, which are features that need a screen or server table.
