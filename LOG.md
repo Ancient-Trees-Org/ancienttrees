@@ -16,6 +16,7 @@ So absence from this file is not evidence something was never tried: `grep -ri "
 
 - Rung 1 empty (no photographs waiting, reader backlog clear). Rung 2: health shows 10 open app BUG rows in data/code-audit.json, all iOS Swift UI fixes that need an XCTest run on a Mac, so left for a session there; web errors are orange only (maplibre `getLayer`, 2 reports). Own research is paused and 0 leads are ready, so the line had nothing to write.
 - Rung 9: 8 species intros written from their own trees and committed (`988f5c958`): American Beech, Apple, Aleppo Oak, Yellow Buckeye, Willow, Torrey Pine, Til / Stinkwood, Scarlet Oak. Fixed a false gap in `pagegaps.py` (Préfargier's intro exists under `la-tene`). Arnold Arboretum is still not written: nine trees (bos_030 to bos_038) carry the address "Arnold Arboretum, Jamaica Plain", which would split the existing intro into two pages.
+- Second batch (`bbf15affe`): 9 more species intros (Portuguese Oak, Oriental Cork Oak, Northern Catalpa, Mulberry, Lemon-scented Gum, Japanese Umbrella Pine, Hoop Pine, Green Ash, Great Basin Bristlecone Pine). 17 species intros in all this window; the next gaps are False Kamani, Coolibah, Coast Douglas-fir and the rest at three trees or fewer.
 - For Hidde: the Arnold Arboretum address fix (nine addresses to "Arnold Arboretum of Harvard University", then rewrite that intro for 15 trees).
 
 ## 2026-11-28 reader judge: the Assistens yews, new lead photos for Skovfogedegen and the Birkerød root oak
