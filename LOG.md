@@ -10,6 +10,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 night run (fourth attempt, same window): nothing shipped, same state
+
+- Pulled, no claims, READY 0, prepare.py names no writer work (own research paused; every verified file is stale or an id clash), `enrich.py --next`, `recognise.py --stuck` and `reader_words.py` empty. Only reds: the open app BUG rows (edit a tree you added, Android pin place), which need a device or emulator build this runner lacks. Left for a session.
+
 ## 2026-11-28 night run (third attempt, same window): nothing shipped, same state
 
 - Pulled, no claims, READY 0, prepare.py has no writer work (own research paused). Health reds are only the open app BUG rows (edit a tree you added; Android draft on the account; Android pin place). Each needs a design plus an emulator or device build and cannot be verified on this runner, so none was started blind. A session takes them.
