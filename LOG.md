@@ -14,6 +14,11 @@
 
 - Pulled, no claims, `leads.py --ready` 0, `prepare.py --status` names no workable write or verify (own research paused). `reader_words.py`: 0 notes waiting; 4 mail sentences wait for the sender's yes. Health unchanged: iOS failure is runner capacity, open app BUG rows need the Mac simulator. Nothing changed on main.
 
+## 2026-11-28 session: Android build 7 ready for Hidde's phone
+
+- **Build 7 (0.1.0)** is signed from main da723febe in a clean worktree: out/play/ancient-trees-0.1.0-7.aab, which replaces the never-uploaded 11-26 bundle. It carries everything up to 11-27 that the iPhone has: the walk's bugs, the Feed v4, Trending, Discover's new order, the signed-out heart given after sign-in, a tapped pin that no longer moves the map, and taps counted per Discover row. CI on main is green (build, walk, spacing). The release walk (R8) found no crash. The Feed was opened by finger in the release build too: Everyone, Following and Near you, scrolled, no crash. The buttonwalk still fails on its two old test findings, not on the app.
+- **Internal testing set up** for Hidde alone (list "Hidde (internal)", his Workspace address), so a build reaches his phone before the 63 closed testers. Join link: https://play.google.com/apps/internaltest/4699336765561121853. Play takes the bundle by drag only (the browser tool uploads 10 MB at most), so **For Hidde: drag the .aab into the open release page, roll it out, and join through the link on the phone.** After his five minutes it is promoted to the closed test, and 7 goes into data/android-releases.json.
+
 ## 2026-11-28 night run, second attempt: nothing to ship, checked again
 
 - No claims standing, `leads.py --ready` 0. The 382 "awaiting a writer" are mostly stale research files or entries within 50 m of a live tree under another id (alp, car, cdl, hrv, cyp, grx, sgz and others), so a write pass would only duplicate trees already live. Folding those into duplicate leads and deleting the stale files is a cleanup for a session, not a write pass.
