@@ -2,178 +2,6 @@
  "note": "One record per night run, written by the workflow's own Run health step, never by the run. A run cannot leave this empty by giving up, which is the entire point: on 2026-08-15 four runs ended after nine minutes of a sixty minute window and left no trace at all. 'denials' counts commands the allowlist refused; it read 4 to 25 until 2026-08-15 and has returned null since, because the SDK key it reads went away. Treat a null as a broken instrument, not a zero.",
  "runs": [
   {
-   "started": "2026-09-18T06:03:53+00:00",
-   "date": "2026-09-18",
-   "run_id": "35313272175",
-   "minutes": 89.5,
-   "minutes_basis": "measured",
-   "attempts": 4,
-   "turns": 493,
-   "denials": 33,
-   "denials_source": "permission_denials: Bash, Bash(bash), Bash(cat), Bash(cd), Bash(curl), Bash(env), Bash(for), Bash(grep), Bash(mkdir), Bash(python3), Bash(rm), Bash(sed), Bash(wc)",
-   "ended": "success",
-   "tokens": 23624709,
-   "claims_held": [],
-   "commits": 12,
-   "cities_touched": 38,
-   "cities": [
-    {
-     "city": "chikubushima",
-     "trees": 1
-    },
-    {
-     "city": "gifu",
-     "trees": 1
-    },
-    {
-     "city": "ibigawa",
-     "trees": 1
-    },
-    {
-     "city": "iida",
-     "trees": 1
-    },
-    {
-     "city": "morioka",
-     "trees": 1
-    },
-    {
-     "city": "tokyo",
-     "trees": 1
-    },
-    {
-     "city": "yakushima",
-     "trees": 1
-    },
-    {
-     "city": "alicante",
-     "trees": 0
-    },
-    {
-     "city": "alkmaar",
-     "trees": 0
-    },
-    {
-     "city": "amersfoort",
-     "trees": 0
-    },
-    {
-     "city": "berlin",
-     "trees": 0
-    },
-    {
-     "city": "boise",
-     "trees": 0
-    },
-    {
-     "city": "bonnerue",
-     "trees": 0
-    },
-    {
-     "city": "breda",
-     "trees": 0
-    },
-    {
-     "city": "brussels",
-     "trees": 0
-    },
-    {
-     "city": "bulat-pestivien",
-     "trees": 0
-    },
-    {
-     "city": "crecy-en-ponthieu",
-     "trees": 0
-    },
-    {
-     "city": "florence",
-     "trees": 0
-    },
-    {
-     "city": "fontaine-belfort",
-     "trees": 0
-    },
-    {
-     "city": "helmond",
-     "trees": 0
-    },
-    {
-     "city": "jalhay",
-     "trees": 0
-    },
-    {
-     "city": "kaunas",
-     "trees": 0
-    },
-    {
-     "city": "lausanne",
-     "trees": 0
-    },
-    {
-     "city": "maastricht",
-     "trees": 0
-    },
-    {
-     "city": "miedzyzdroje",
-     "trees": 0
-    },
-    {
-     "city": "milan",
-     "trees": 0
-    },
-    {
-     "city": "plauginiai-forest",
-     "trees": 0
-    },
-    {
-     "city": "prague",
-     "trees": 0
-    },
-    {
-     "city": "s-gravenvoeren",
-     "trees": 0
-    },
-    {
-     "city": "salamanca",
-     "trees": 0
-    },
-    {
-     "city": "spokane",
-     "trees": 0
-    },
-    {
-     "city": "tallinn",
-     "trees": 0
-    },
-    {
-     "city": "trieste",
-     "trees": 0
-    },
-    {
-     "city": "vainiai",
-     "trees": 0
-    },
-    {
-     "city": "viroflay",
-     "trees": 0
-    },
-    {
-     "city": "visnova",
-     "trees": 0
-    },
-    {
-     "city": "warsaw",
-     "trees": 0
-    },
-    {
-     "city": "zalgiriai",
-     "trees": 0
-    }
-   ],
-   "trees": 7,
-   "logged": true
-  },
-  {
    "started": "2026-09-18T08:34:59+00:00",
    "date": "2026-09-18",
    "run_id": "35325070475",
@@ -16907,6 +16735,25 @@
      "trees": 0
     }
    ],
+   "trees": 0,
+   "logged": true
+  },
+  {
+   "started": "2026-11-28T01:48:21+00:00",
+   "date": "2026-11-28",
+   "run_id": "46094893537",
+   "minutes": 4.5,
+   "minutes_basis": "measured",
+   "attempts": 4,
+   "turns": 66,
+   "denials": 0,
+   "denials_source": "permission_denials: no names in the record",
+   "ended": "success",
+   "tokens": 777253,
+   "claims_held": [],
+   "commits": 6,
+   "cities_touched": 0,
+   "cities": [],
    "trees": 0,
    "logged": true
   }
