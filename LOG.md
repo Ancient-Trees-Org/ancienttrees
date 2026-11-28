@@ -10,6 +10,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 later attempt: nothing shipped, same findings
+
+No claims standing. `leads.py --ready` is 0. `enrich.py --next` and `recognise.py --stuck` have nothing. `passcheck.py --pending` lists only stale or duplicate research files (e.g. cyprus, croatia, grazalema, which hold the same trees under other ids), so no write pass is possible. `reader_words.py`: 0 waiting; 4 mail sentences wait for the sender's yes. health.py rung 2 is still the same two open app BUG rows (edit-after-add; Android draft on the account). Both need a server table or a new screen, so they are not a night run's.
+
 ## 2026-11-28 12:29 run: nothing shipped
 
 Rung 1: the reader judge is current (backlog empty). I read the four new tree notes (Barcelona plane and palms, Birkerød oak, Aachen linden), found none that meets the hide list, and marked them seen. Rung 2: health.py exits 1 on two open app BUG rows. One is the edit-after-add bug (ESC-2026-11-25). The other is the Android draft bug (ESC-2026-11-26), which needs a draft row on the account. Both need a new server table or screen, and the draft one also needs a SQL paste from Hidde. A night run can't test either, so neither is fixed. Web errors are orange only (`getLayer` on 2 pages, a one-off SyntaxError), below the red threshold. Own research is paused and the shelf has 0 ready to write. Nothing was committed apart from this entry.
