@@ -470,6 +470,49 @@
    "agreed": null
   },
   {
+   "id": "sight:d3a8040f-e881-4c70-9c33-87a0b0cebc25",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Ancient Cycad of the Palm House",
+   "city": "Copenhagen",
+   "species": "Mexican Cycad (Dioon edule)",
+   "photo": "out/sightings/d3a8040f-e881-4c70-9c33-87a0b0cebc25.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 11,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Mexican Cycad (Dioon edule)"
+   },
+   "verdict": "hold",
+   "reason": "Not the Palm House cycad: the photograph shows an outdoor broadleaf at the garden's street fence, so it went on as a tree of its own (lead below).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:d3a8040f-e881-4c70-9c33-87a0b0cebc25",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Copenhagen",
+   "species": null,
+   "photo": "p_2448241466ccb6b6bfbed516/D3A8040F-E881-4C70-9C33-87A0B0CEBC25.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: a mid-sized bare broadleaf with a leaning forked trunk at the Botanical Garden fence on Gothersgade, an ordinary garden tree in an ordinary frame.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",

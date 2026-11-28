@@ -13951,6 +13951,31 @@
    "seen": "2026-11-28",
    "hold": "no_location",
    "judged": "2026-11-28"
+  },
+  {
+   "sighting_id": "d3a8040f-e881-4c70-9c33-87a0b0cebc25",
+   "user_id": "p_2448241466ccb6b6bfbed516",
+   "mine": false,
+   "name": "",
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 55.6849651617685,
+   "longitude": 12.5731180486184,
+   "near": "Copenhagen",
+   "photo": "p_2448241466ccb6b6bfbed516/D3A8040F-E881-4C70-9C33-87A0B0CEBC25.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "nearest_published_m": 11,
+   "sent_for": "cop_002",
+   "status": "held",
+   "why": "Judged 2026-11-28 from the photograph: a mid-sized broadleaf, bare in winter, with a leaning forked trunk beside a shrub at the Botanical Garden's street fence on Gothersgade, a garden label on the trunk. Sent as the Palm House cycad by mistake; as a tree of its own it is an ordinary garden tree in an ordinary frame, nothing in it stands out in its setting.",
+   "seen": "2026-11-28",
+   "hold": "not_special",
+   "judged": "2026-11-28"
   }
  ]
 }

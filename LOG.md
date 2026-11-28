@@ -10,6 +10,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 reader judge: one Copenhagen photograph, held as an ordinary tree
+
+- One app photograph came in, sent for the Ancient Cycad of the Palm House (cop_002, Copenhagen). It shows something else: a bare broadleaf tree with a leaning, forked trunk outside, at the Botanical Garden's fence on Gothersgade. Verdict `other_tree`, so it became a lead. Judged as a tree of its own, it is held `not_special`: an ordinary garden tree in an ordinary photo, with nothing that stands out where it grows. Under the brief, `not_special` gets no mail.
+- Nothing else was waiting: 0 open reports, 0 feedback, 0 tips without a photograph, 0 readers' notes left to quote. No photo went live, so there were no extra photos to apply and no deploy is needed for this run.
+- For a later run (rung 3, not the judge's work): cop_002's approximate pin (55.684895, 12.573239) sits at the garden's Gothersgade edge. The reader stood there and photographed an outdoor tree, not the Palm House. The Palm House is about 150 m further north, in the middle of the garden, so the pin should move onto it.
+
 ## 2026-11-28 fourth attempt: nothing shipped, same findings
 
 No claims standing, `leads.py --ready` 0, `reader_words.py` 0 waiting, `passcheck.py --pending` only stale or duplicate files plus one taiwan tree. Own research is paused, so there is nothing to dispatch.
