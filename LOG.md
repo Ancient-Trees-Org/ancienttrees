@@ -10,6 +10,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 night run (second retry): nothing shipped, shelf still empty
+
+- Claims none, READY 0, passcheck --pending only stale or duplicate files, reader_words and recognise --stuck empty, reader backlog clear, health: only the three open app BUG rows (edit a tree you added, Android place picker, Android draft on the account), all features needing a build and design. Own research paused, so nothing was dispatched. Two Barcelona photographs (bcn_035, bcn_012) wait for the reader judge.
+
 ## 2026-11-28 night run (retry, 7 min in): nothing shipped, shelf empty
 
 - Claims: none standing. READY leads: 0. Verified-unpublished: one Taiwan tree (below the six-tree floor), everything else in passcheck --pending is stale or duplicate files. enrich, recognise --stuck and reader_words: nothing to do. Own research stays paused.
