@@ -283,9 +283,8 @@
       "since": "2026-11-27",
       "web": "nothing to change: the website's card opens beside its pin and the map does not move (map-card-js.ts)",
       "ios": "TreeMap.swift: settle() keeps the coordinate under the inset's middle when the inset changes for a chosen or released tree; pinNeedsMove/pinHidden decide when it is brought in (TreeMapPinTapTests)",
-      "android": "not yet checked: the Android map may still recentre on every pin tap",
-      "status": "open",
-      "owed": "android: tap a pin in the upper map and close the card, the map must not move; copy the iOS rule"
+      "android": "map/TreeMapView.kt: the selection moves the camera only when PinTap.needsMove says so; the padding effect keeps the coordinate under the new middle for a chosen or just-released tree and brings up only a pin the card covers (PinTapTest)",
+      "status": "done"
     }
   ]
 }

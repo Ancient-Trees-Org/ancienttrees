@@ -100,6 +100,8 @@ private class MapHolder {
     var lastMove: Pair<(MapLibreMap) -> Unit, Long>? = null
     /** The tree the camera last went to. */
     var centred: String? = null
+    /** When a chosen tree was let go: its card falls, and the map holds still meanwhile. */
+    var releasedAt = 0L
 
     private var swaps = 0
     private var firstPinsLogged = false
@@ -363,7 +365,10 @@ fun TreeMapView(
         val sel = selected
         if (sel == null) {
             // A tree was just let go: say once what is in view now.
-            if (holder.centred != null) latestView(viewBox(map))
+            if (holder.centred != null) {
+                latestView(viewBox(map))
+                holder.releasedAt = System.currentTimeMillis()
+            }
             holder.centred = null
             return@LaunchedEffect
         }
@@ -375,6 +380,15 @@ fun TreeMapView(
         // Centred at the zoom it already had, never zoomed in (Apple Maps leaves
         // the neighbours on screen); only a map zoomed out past a city comes in.
         val zoom = maxOf(map.cameraPosition.zoom, zoomFor(20_000.0))
+        // ONLY WHEN THE PIN WOULD BE HIDDEN (Hidde, 2026-11-27: "dan verspringt
+        // de hele kaart"; iOS TreeMap does the same): a pin you tapped is where
+        // your finger is, so the map stays; one off screen or where the card
+        // will rise, or paged to in the sheet, is brought in.
+        val at = map.projection.toScreenLocation(LatLng(sel.lat, sel.lng))
+        val air = 40f * mapView.resources.displayMetrics.density
+        val zoomsIn = zoom > map.cameraPosition.zoom + 0.01
+        if (!zoomsIn && !PinTap.needsMove(at.x, at.y, mapView.width.toFloat(), mapView.height.toFloat(),
+                holder.padTop.toFloat(), air)) return@LaunchedEffect
         val redo: (MapLibreMap) -> Unit = {
             it.animateCamera(CameraUpdateFactory.newLatLngZoom(LatLng(sel.lat, sel.lng), zoom), 300)
         }
@@ -388,7 +402,28 @@ fun TreeMapView(
         val map = ready?.first ?: return@LaunchedEffect
         val h = mapView.height.toFloat()
         val topPx = minOf(topCover, h / 3).toDouble()
+        // A TREE'S CARD RISING OR FALLING LEAVES THE MAP WHERE IT IS (Hidde,
+        // 2026-11-27; iOS TreeMap.settle): the camera keeps its target in the
+        // middle of the padding, so a new padding slid every pin by half the
+        // card. The coordinate under the new middle is read first and kept there.
+        val now = System.currentTimeMillis()
+        val sel = latestSelected
+        val holdStill = holder.aimed &&
+            (sel != null || holder.centred != null || now - holder.releasedAt < 2_000) &&
+            (holder.lastMove?.let { now - it.second >= 4_000 } ?: true)
+        val middleY = (topPx + (h - topPx - bottomCover) / 2).toFloat()
+        val keep = map.projection.fromScreenLocation(android.graphics.PointF(mapView.width / 2f, middleY))
         map.moveCamera(CameraUpdateFactory.paddingTo(0.0, topPx, 0.0, bottomCover.toDouble()))
+        if (holdStill) {
+            map.moveCamera(CameraUpdateFactory.newLatLng(keep))
+            if (sel != null) {
+                val at = map.projection.toScreenLocation(LatLng(sel.lat, sel.lng))
+                val air = 40f * mapView.resources.displayMetrics.density
+                if (PinTap.hidden(at.x, at.y, mapView.width.toFloat(), h, topPx.toFloat(), bottomCover, air)) {
+                    map.animateCamera(CameraUpdateFactory.newLatLng(LatLng(sel.lat, sel.lng)), 300)
+                }
+            }
+        }
         holder.padTop = topPx
         holder.padBottom = bottomCover.toDouble()
         // The inset change cancels a flight in progress: finish a deliberate one
