@@ -8587,6 +8587,24 @@
    "date": "2026-11-28",
    "tree_id": "pal_001",
    "reason": "doubt_photo: it is the Piazza Marina ficus (colonnade of aerial-root trunks, a person standing among them), but the file is 960x720 with no camera data at all and a heavy glow filter, unlike the app's own 1200x1600 photographs; we cannot tell who took it, so we ask the sender before it goes up."
+  },
+  "0e44b1c0-1978-4748-b067-eee5350e04c0": {
+   "outcome": "held",
+   "date": "2026-11-28",
+   "tree_id": "zaf_001",
+   "reason": "doubt_photo: a huge holm oak with long low arms over a wooded slope, a man photographing it, daylight in leaf; it fits the Ilice di Carrinu, but the file is a 1070x1070 square with no camera data at all, the shape of a social-media download, from the same account whose Palermo photo was held for the"
+  },
+  "3d8fb79c-4dca-40f2-9bbb-6e78e2f2cbb6": {
+   "outcome": "rejected",
+   "date": "2026-11-28",
+   "tree_id": "pal_001",
+   "reason": "duplicate: byte for byte the same file as sighting d1b53020, already held as doubt_photo this afternoon (960x720, no camera data, glow filter)."
+  },
+  "14ce83d8-a9cc-4ccd-b5e0-c9003fd2540c": {
+   "outcome": "rejected",
+   "date": "2026-11-28",
+   "tree_id": "pal_001",
+   "reason": "duplicate: byte for byte the same file as sighting d1b53020, already held as doubt_photo this afternoon (960x720, no camera data, glow filter)."
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

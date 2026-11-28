@@ -10,6 +10,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 reader judge: an Etna holm oak photo held to ask who took it; the Palermo ficus photo sent twice more
+
+- Three app photographs from the same reader, all kept in their own collection only, so no submissions row and no mail (hold_reply.py said so).
+- Ilice di Carrinu (zaf_001), the tree's first photograph: it fits (holm oak, long low arms over a wooded slope, a man photographing it), but it is a 1070x1070 square with no camera data, a social-media download, so held `doubt_photo` under the 2026-11-26 screenshot rule. A good picture; it goes up the day the maker says yes.
+- The Ficus of Piazza Marina (pal_001), twice: the same file, byte for byte, as the photo held this afternoon (d1b53020). Rejected as duplicates.
+- No open reports, tips, feedback, further photographs or readers' notes. The 37 waiting leads are all the owner's own account.
+
 ## 2026-11-28 reader judge: Palermo ficus photo held to ask who took it
 
 - One photograph waited: an app reader's shot of the Ficus of Piazza Marina (pal_001). It is that tree, but the file is 960x720 with no camera data and a heavy glow filter, where the app's own photographs arrive at 1200x1600, so it is held as `doubt_photo` (the screenshot rule of 2026-11-26). The reader kept it in their own collection only, so there is no submission row to ask through and no mail went out (hold_reply.py said so).

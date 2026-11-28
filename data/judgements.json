@@ -1073,6 +1073,72 @@
    "agreed": null
   },
   {
+   "id": "sight:0e44b1c0-1978-4748-b067-eee5350e04c0",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "Ilice di Carrinu",
+   "city": "Zafferana Etnea",
+   "species": "Holm Oak (Quercus ilex)",
+   "photo": "out/sightings/0e44b1c0-1978-4748-b067-eee5350e04c0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Holm Oak (Quercus ilex)"
+   },
+   "verdict": "hold",
+   "reason": "doubt_photo: it fits the Ilice di Carrinu, but the file is a 1070x1070 square with no camera data, a social-media download shape; waits for the maker's yes",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:3d8fb79c-4dca-40f2-9bbb-6e78e2f2cbb6",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Ficus of Piazza Marina",
+   "city": "Palermo",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/3d8fb79c-4dca-40f2-9bbb-6e78e2f2cbb6.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "reject",
+   "reason": "duplicate of sighting d1b53020, same file, already held as doubt_photo",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:14ce83d8-a9cc-4ccd-b5e0-c9003fd2540c",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Ficus of Piazza Marina",
+   "city": "Palermo",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/14ce83d8-a9cc-4ccd-b5e0-c9003fd2540c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "reject",
+   "reason": "duplicate of sighting d1b53020, same file, already held as doubt_photo",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
