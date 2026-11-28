@@ -10,6 +10,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 night run (retry in the 15:00 window): nothing shipped, nothing left to take
+
+- Pulled, no claims standing, READY 0, no staged verify work (own research paused), `enrich.py --next` and `recognise.py --stuck` empty, `reader_words.py` 0 notes waiting (4 mail sentences wait for the sender's yes). Every non-stale `*-verified.json` is a duplicate or id clash of a live tree, so there is nothing to write. Health reds: the open app BUG rows only; each needs a server design or an emulator and a build (edit a tree you added, Android draft on the account, Android pin picker), so a session takes them. Web error "Unexpected end of input" is 1 report on 1 page, below the red line.
+
 ## 2026-11-28 night run (15:00 window): nothing shipped, shelf empty
 
 - Rung 1: read the 9 new tree notes (Barcelona Ciutadella, Copenhagen, Aachen); none on the closed list, all left public, marked seen. Reader backlog clear. Rung 2: health reds only the open app BUG rows. The Android add-a-tree pin row (ESC-2026-11-28) is likely already covered by PinPicker.kt (pin step shipped earlier), so it needs a session to confirm on an emulator. The edit-a-tree-you-added row and the Android draft-on-account row need a server design and a build, so a session takes them. Web errors orange: one inline "Unexpected end of input" type, below the red threshold. READY 0, own research paused, nothing to dispatch.
