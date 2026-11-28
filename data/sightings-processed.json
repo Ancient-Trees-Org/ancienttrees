@@ -8605,6 +8605,24 @@
    "date": "2026-11-28",
    "tree_id": "pal_001",
    "reason": "duplicate: byte for byte the same file as sighting d1b53020, already held as doubt_photo this afternoon (960x720, no camera data, glow filter)."
+  },
+  "2027a083-49e0-4647-bc76-cf915f483ec5": {
+   "outcome": "published",
+   "date": "2026-11-28",
+   "tree_id": "nyc_013",
+   "city_slug": "new-york",
+   "file": "nyc_013-the-elm-allee-of-literary-walk.jpg",
+   "reason": "Daylight wide view of the Mall's double row of American elms in late November, bare crowns arching, Literary Walk's fencing and crowds along the right; the tree had no photograph Species seen: tall grey furrowed trunks forking into vase-shaped crowns, bare, the American elm habit. Fits the descripti",
+   "lat": 40.7708783333333,
+   "lon": -73.9725116666667,
+   "extras": 1,
+   "pin_checked": "2026-11-28"
+  },
+  "06d425d1-7595-4ac9-a549-d29a16d2bb06": {
+   "outcome": "rejected",
+   "date": "2026-11-28",
+   "tree_id": "nyc_013",
+   "reason": "duplicate: the same photograph and extra as sighting 2027a083, sent twice"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

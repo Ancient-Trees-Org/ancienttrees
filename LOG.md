@@ -10,6 +10,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 reader judge: the Central Park elm avenue gets its first photograph
+
+- The Elm Allee of Literary Walk (nyc_013), New York: a reader's app photograph is now the lead. It shows the Mall's double row of bare American elms in daylight, with Literary Walk's fencing and walkers along it, 86 m from our pin. It is filed under November, the photo's own month. Their second frame of the grove went in the gallery (reader_extras). The pin stays where it was, because it is the confirmed register point. The reader got the "it is on the page" mail through `--send`.
+- The same photograph and its extra came in a second time (06d425d1). Rejected as a duplicate.
+- With a photograph the page now counts as indexed, so preflight caught two colon reveals in its story. Both sentences were rewritten without changing any fact.
+- No open reports, tips, feedback or readers' notes, and nothing late. The 37 waiting leads are all the owner's own account. qa (source), preflight (0 problems) and i18ncheck are clean.
+
 ## 2026-11-28 reader judge: an Etna holm oak photo held to ask who took it; the Palermo ficus photo sent twice more
 
 - Three app photographs from the same reader, all kept in their own collection only, so no submissions row and no mail (hold_reply.py said so).

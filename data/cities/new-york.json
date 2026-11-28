@@ -538,13 +538,20 @@
       "transport": "72nd Street (Metro B/C), 8 min walk",
       "location_precision": "confirmed",
       "curation_status": "flagged",
-      "story": "Central Park's most photographed avenue of trees is not the original one. The Mall, also called Literary Walk, has been replanted with American elms twice before the row standing today: the first two plantings failed when foot traffic compacted the soil around the roots, and the elms there now went in during the 1920s, the third attempt, protected from the start by low fencing along the path.\n\nThat makes these trees roughly a century old, not the century and a half some press coverage implies by counting from the park's 1858 design. NYC Parks lists the grove as an official Great Tree, and it is often called the largest grove of American elms in the world, a claim the park's own conservancy states more carefully: one of the largest remaining plantations of a species that Dutch elm disease has been cutting down, city-wide, since the 1930s. Central Park still holds about 1,600 elms, several hundred on a rotating fungicide programme, and still loses 15 to 30 a year to the same disease that ended the first two plantings here by other means.\n\nWalk the Mall in full leaf and it reads as a cathedral aisle, two unbroken rows meeting overhead. Every one of them is a replacement, and every one of them is still, by the numbers, worth the trip.",
+      "story": "Central Park's most photographed avenue of trees is not the original one. The Mall, also called Literary Walk, has been replanted with American elms twice before the row standing today. The first two plantings failed when foot traffic compacted the soil around the roots, and the elms there now went in during the 1920s, the third attempt, protected from the start by low fencing along the path.\n\nThat makes these trees roughly a century old, not the century and a half some press coverage implies by counting from the park's 1858 design. NYC Parks lists the grove as an official Great Tree, and it is often called the largest grove of American elms in the world, a claim the park's own conservancy states more carefully, calling it one of the largest remaining plantations of a species that Dutch elm disease has been cutting down, city-wide, since the 1930s. Central Park still holds about 1,600 elms, several hundred on a rotating fungicide programme, and still loses 15 to 30 a year to the same disease that ended the first two plantings here by other means.\n\nWalk the Mall in full leaf and it reads as a cathedral aisle, two unbroken rows meeting overhead. Every one of them is a replacement, and every one of them is still, by the numbers, worth the trip.",
       "notes": "NYC Parks Great Trees register (id=37), Central Park Conservancy's own article, and Untapped Cities' Great Trees guide. Age corrected from press coverage that implies an 1858 planting: the Conservancy states this is the THIRD planting on the site, installed in the 1920s after the first two failed from soil compaction. Superlative softened per hard rule 8: some sources call it the largest American elm grove in the world, the Conservancy's own wording (used here) is 'one of the largest remaining plantations'. Coordinates are the Mall's known reference point, an approximate pin for a promenade rather than one trunk.",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/nyc_013-the-elm-allee-of-literary-walk.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_38747cbba7c8398a4aa974ff",
+        "sighting_id": "2027a083-49e0-4647-bc76-cf915f483ec5",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: Daylight wide view of the Mall's double row of American elms in late November, bare crowns arching, Literary Walk's fencing and crowds along the right; the tree had no photograph Species seen: tall grey furrowed trunks forking into vase-shaped crowns, bare, the American elm habit. Fits the description: two long rows of elms on the lawn beside the Mall path, fencing and walkers along it, 86 m from our pin.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by the two unbroken rows of elms meeting overhead, low fencing along the path to keep feet off their roots. It stands on the Mall, the avenue also called Literary Walk.",
       "girth_cm": 249,
@@ -554,7 +561,21 @@
         "url": "https://web.archive.org/web/2024/https://www.nycgovparks.org/facilities/great-trees/37",
         "date": "2026-10-09",
         "moved_m": 146
-      }
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nyc_013-the-elm-allee-of-literary-walk-2027a083-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "source": "contributor",
+          "contributor_user_id": "p_38747cbba7c8398a4aa974ff",
+          "sighting_id": "2027a083-49e0-4647-bc76-cf915f483ec5-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
     },
     {
       "id": "nyc_014",

@@ -3678,6 +3678,21 @@
     }
    ],
    "sent": []
+  },
+  "p_38747cbba7c8398a4aa974ff": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "2027a083-49e0-4647-bc76-cf915f483ec5",
+     "tree_id": "nyc_013",
+     "tree_name": "The Elm Allee of Literary Walk",
+     "city": "New York",
+     "city_slug": "new-york",
+     "display_name": null,
+     "live": "2026-11-28"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

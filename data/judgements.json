@@ -1139,6 +1139,50 @@
    "agreed": null
   },
   {
+   "id": "sight:2027a083-49e0-4647-bc76-cf915f483ec5",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Elm Allee of Literary Walk",
+   "city": "New York",
+   "species": "American Elm (Ulmus americana)",
+   "photo": "out/sightings/2027a083-49e0-4647-bc76-cf915f483ec5.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 86,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Elm (Ulmus americana)"
+   },
+   "verdict": "publish",
+   "reason": "Daylight late-November view of the Mall's double row of bare American elms, fencing and walkers along Literary Walk, 86 m from our pin; the tree's first photograph, with the reader's second frame in the gallery",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:06d425d1-7595-4ac9-a549-d29a16d2bb06",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Elm Allee of Literary Walk",
+   "city": "New York",
+   "species": "American Elm (Ulmus americana)",
+   "photo": "out/sightings/06d425d1-7595-4ac9-a549-d29a16d2bb06.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 86,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about American Elm (Ulmus americana)"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate: the same photograph and extra as sighting 2027a083, sent twice; rejected in the queue, nothing to add",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
