@@ -12,6 +12,10 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-28 fourth attempt, same window: nothing left to ship
+
+- Re-checked in order: claims empty, 0 READY leads, `--pending` lists only stale files or copies of live trees under other ids (not written, hard rule 3), pagegaps shows only the Arnold Arboretum park, recognise and reader_words have nothing. Open APP BUG rows (edit a tree you added; Android draft on the account) need a server table and his yes. Nothing shipped, nothing claimed.
+
 ## 2026-11-28 third attempt, same window: last species gaps closed, nothing to ship as trees
 
 - 0 READY leads, claims empty, enrich and recognise have nothing, own research paused. The `awaiting a writer` list is stale or duplicates: every verified file left is either a copy of a live tree under another id or claims an id a live tree holds (hard rule 3), so none was written. Rung 2's two open BUG rows (edit a tree you added; Android draft on the account) need a server table and his yes on personal data, so left.
