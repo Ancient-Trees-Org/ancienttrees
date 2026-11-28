@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-28 third attempt, same window: last species gaps closed, nothing to ship as trees
+
+- 0 READY leads, claims empty, enrich and recognise have nothing, own research paused. The `awaiting a writer` list is stale or duplicates: every verified file left is either a copy of a live tree under another id or claims an id a live tree holds (hard rule 3), so none was written. Rung 2's two open BUG rows (edit a tree you added; Android draft on the account) need a server table and his yes on personal data, so left.
+- Rung 9: 9 more species intros from their own trees (False Kamani, Coolibah, Coast Douglas-fir, Catalpa, Black Tupelo, Bitternut Hickory, American Yellowwood, American Chestnut, African Mahogany). `pagegaps.py` now shows 0 species gaps; preflight 0 problems. Only the Arnold Arboretum park gap is left (waits on the address fix below).
+- For Hidde: the stale `data/research/*-verified.json` files (duplicates of live trees under other ids) could be folded into leads marked duplicate and removed; not done by a run, as passcheck says to check by hand.
+
 ## 2026-11-28 second attempt, same window: closed 8 app bug rows
 
 - Nothing to write (0 READY leads, 1 unpublished tree in taiwan awaiting a writer), own research paused. Rung 2: 8 of the 10 open APP BUG rows (Feed back-keeps-place, share profile, name and badge taps, photo load order, pull to refresh, grid break, tree card drag) already had their fix and test on main (921f2f8d4, 1d8b21a11, 4df1ea0a3, 6cc3a3380) and the scheduled iOS run on main was green after them; set them `fixed` with those commits. Two stay open: editing a tree you added (a feature, needs his word) and Android DraftTree (needs an Android test run).
