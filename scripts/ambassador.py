@@ -705,6 +705,13 @@ def welcome_missing(send, skip=()):
     prefix) are left out; a mail ambassador without an account is printed."""
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import ours
+    # The already-mailed check matches people codes made from the service key.
+    # A stale key (the mail env carried one, 2026-11-28) makes every code new,
+    # so every badge holder looks unmailed: refuse unless the key reads accounts.
+    if people.accounts() is None:
+        print("ambassador --welcome-missing: the service key cannot read the accounts, "
+              "so people codes would not match; nothing sent")
+        return 1
     with open(FILE, encoding="utf-8") as fh:
         doc = json.load(fh)
     n = 0

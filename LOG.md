@@ -56,6 +56,8 @@
 - **New place, Scarborough**: two trees from a reader's tips with their own what3words spots, on Hidde's yes. The Raincliffe Woods Beech (sca_001) and the East Ayton Chestnut (sca_002) both have approximate pins and no photo. The chestnut's spot is on Seavegate in East Ayton, 3 km from the woods the tip named. Its page says so and asks, and "second oldest in the country" is given as the reader's claim.
 - Mails sent on Hidde's "you can send all these emails": the Lake Waikaremoana and Katikati ambassadors got personal replies instead of the standard welcome (so `--welcome-missing` must skip lake-waikaremoana and katikati). Bill and the cedar reader get theirs once this deploy is live.
 - Found: `ambassador.py --welcome-missing` without `--send` wrote Horn-Lehe and Girona into data/ambassadors.json as handled; reverted, and their welcome mails are still owed.
+- Later, on Hidde's "send out the mails you suggested": Bill, the cedar reader and Dave (Scarborough, asked where the chestnut stands) have their replies. Horn-Lehe and Girona got the standard ambassador welcome. Mattia (Il Dolomiti, Instagram tag) waits until tomorrow, by his word.
+- Fixed: ~/.ancienttrees-mail.env carries an old SUPABASE_SERVICE_KEY, and loaded alone it makes every people code new. `--welcome-missing` then saw 50 badge holders as never mailed; it sent nothing only because the stale key could not find their addresses. It now refuses when the key cannot read the accounts. A session that needs both files loads the mail file first and the Supabase file last.
 
 ## 2026-11-28 night run (fourth attempt, same window): nothing shipped, same state
 
