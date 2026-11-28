@@ -10,6 +10,11 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 reader judge: the Japanese Cheesewood of the Ciutadella has its first photograph
+
+- **Barcelona, The Japanese Cheesewood of the Ciutadella** (bcn_037, sighting 01e5144b, the same Barcelona reader again): a daylight shot of the cheesewood, roped off on the park lawn. Its broad dome of glossy Pittosporum leaves stands over a short trunk, far past hedge size, as the story says. The tree had no photograph, and now this one leads. The reader gets the "it's on the page" mail. It is filed under November. The pin stays: it is the register's confirmed coordinate, 10 m from where the reader stood. The pin read hit an HTTPError again, which changed nothing.
+- Nothing else was waiting: 0 open reports, 0 feedback, 0 tips, 0 further photographs, 0 notes left to quote, and nothing late. The 37 old `lead` rows are our own accounts. qa, preflight and i18ncheck are clean.
+
 ## 2026-11-28 reader judge: the Silk Tree of the Ciutadella has its first photograph
 
 - **Barcelona, The Silk Tree of the Ciutadella** (bcn_008, sighting 9f7e0b7a, the same Barcelona reader as today's plane and palms): a daylight shot of the old silk tree leaning on its metal prop in Parc de la Ciutadella, with the fern-like Albizia leaves and the park's green tree sign at its foot. The tree had no photograph, and now this one leads. The reader gets the "it's on the page" mail. It is filed under November. The pin stays: it is the register's confirmed coordinate, 25 m from where the reader stood. The pin read hit an HTTPError again, which changed nothing.

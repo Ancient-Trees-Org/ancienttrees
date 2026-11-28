@@ -535,6 +535,28 @@
    "agreed": null
   },
   {
+   "id": "sight:01e5144b-547f-43c7-96f2-618233ad2a7d",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Japanese Cheesewood of the Ciutadella",
+   "city": "Barcelona",
+   "species": "Japanese Cheesewood (Pittosporum tobira)",
+   "photo": "out/sightings/01e5144b-547f-43c7-96f2-618233ad2a7d.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 10,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Japanese Cheesewood (Pittosporum tobira)"
+   },
+   "verdict": "publish",
+   "reason": "Looked at: the Ciutadella cheesewood itself, a broad dome of glossy Pittosporum leaves over a short trunk, roped off on park lawn, daylight, 10 m from our pin; the tree's first photograph.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",

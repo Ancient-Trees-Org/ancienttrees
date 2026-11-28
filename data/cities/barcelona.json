@@ -1750,10 +1750,17 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/bcn_037-the-japanese-cheesewood-of-the-ciutadella.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1201,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_2b760ccfef19d83856c999e0",
+        "sighting_id": "01e5144b-547f-43c7-96f2-618233ad2a7d",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: The Ciutadella cheesewood itself: a low dome of dense glossy evergreen leaves far wider than tall, a short stout trunk under it, roped off on a bed of bark, in park lawn, in daylight; taken 10 m from our pin. The tree had no photograph. Species seen: dense whorls of narrow, leathery, glossy obovate leaves, rounded billowing crown on a short single trunk: Pittosporum tobira. Fits the description: a single trunk under a crown about six metres wide, grown far past hedge size, standing alone on a park lawn in the Ciutadella.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by a single trunk 1.55 metres round on a plant usually clipped into a waist high hedge, under a crown six metres wide. It stands in front of the Glorieta de la Transsexual Sonia, the park's old bandstand.",
       "official_register": {

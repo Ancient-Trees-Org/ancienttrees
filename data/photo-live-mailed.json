@@ -3596,6 +3596,15 @@
      "city_slug": "barcelona",
      "display_name": null,
      "live": "2026-11-28"
+    },
+    {
+     "sighting_id": "01e5144b-547f-43c7-96f2-618233ad2a7d",
+     "tree_id": "bcn_037",
+     "tree_name": "The Japanese Cheesewood of the Ciutadella",
+     "city": "Barcelona",
+     "city_slug": "barcelona",
+     "display_name": null,
+     "live": "2026-11-28"
     }
    ],
    "sent": []
