@@ -3605,6 +3605,24 @@
      "city_slug": "barcelona",
      "display_name": null,
      "live": "2026-11-28"
+    },
+    {
+     "sighting_id": "ace9ab37-d149-40a2-87de-47f8f2961d57",
+     "tree_id": "bcn_013",
+     "tree_name": "The Osage Orange of the Ciutadella",
+     "city": "Barcelona",
+     "city_slug": "barcelona",
+     "display_name": null,
+     "live": "2026-11-28"
+    },
+    {
+     "sighting_id": "36abb76b-2773-4d02-a533-06c8ffeb285c",
+     "tree_id": "bcn_036",
+     "tree_name": "The London Plane of the Ciutadella",
+     "city": "Barcelona",
+     "city_slug": "barcelona",
+     "display_name": null,
+     "live": "2026-11-28"
     }
    ],
    "sent": []

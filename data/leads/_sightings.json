@@ -13976,6 +13976,39 @@
    "seen": "2026-11-28",
    "hold": "not_special",
    "judged": "2026-11-28"
+  },
+  {
+   "sighting_id": "281ca01f-f9a1-494b-89b1-416875b0be42",
+   "user_id": "p_95b607fd02de62c6c079cb34",
+   "mine": false,
+   "name": "Holm Oak near Rome",
+   "unsure_among": null,
+   "species": "Holm Oak",
+   "age": "1935",
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 42.0004951445832,
+   "longitude": 12.7279508459983,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_95b607fd02de62c6c079cb34/281CA01F-F9A1-494B-89B1-416875B0BE42.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "published",
+   "why": "Photograph viewed 2026-11-28: looking up a thick holm oak trunk that splits into many limbs under a dark evergreen crown, a sports ground's clubhouse, five-a-side cage and an Italian flag around it, daylight, colour. A broad, many-limbed holm oak that stands out in its yard; live as guidonia-montecelio/gdm_001 under the closed list (Hidde, 2026-11-17).",
+   "seen": "2026-11-28",
+   "judged": "2026-11-28",
+   "published_as": "guidonia-montecelio/gdm_001"
   }
  ]
 }

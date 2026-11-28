@@ -10,6 +10,12 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 reader judge: a reader's holm oak near Rome is live, two more Ciutadella photographs
+
+- **New tree, Guidonia Montecelio, The Holm Oak of La Pietrara** (gdm_001, sighting 281ca01f, sent through the app). The photo looks up a thick holm oak trunk that splits into a fan of upright limbs under a dark crown. It stands in the yard of a small sports ground on Via Robert Baden Powell, beside the clubhouse and the netting of a five-a-side pitch. The pin is confirmed: it is the reader's device fix. The reader gives 1935, and the page says "about 90 years, by a reader's estimate". There is no register entry within 100 m. The access line is honest: the tree is inside the sports ground, so visitors should ask at the clubhouse. This is a one-tree place, so it has no place page. Its texts and three FAQ are written and its names have been looked up. The photo is filed under November, the month of its own date.
+- **Barcelona, Ciutadella** (the same Barcelona reader again): sighting ace9ab37 shows the whole Osage orange (bcn_013), with its furrowed orange trunk, yellowing leaves and the park label at its foot. Sighting 36abb76b shows the unpruned London plane (bcn_036) in bronze autumn leaf. Both went on as `add`, so the reader's photo now leads and the old one moves into the strip. The reader's mail goes out under the weekly bundling. The pin read hit an HTTPError again, which changed nothing.
+- Nothing else was waiting: 0 open reports, 0 feedback, 0 tips, 0 further photographs, 0 notes left to quote, and nothing late. qa, preflight and i18ncheck are clean.
+
 ## 2026-11-28 reader judge: the Japanese Cheesewood of the Ciutadella has its first photograph
 
 - **Barcelona, The Japanese Cheesewood of the Ciutadella** (bcn_037, sighting 01e5144b, the same Barcelona reader again): a daylight shot of the cheesewood, roped off on the park lawn. Its broad dome of glossy Pittosporum leaves stands over a short trunk, far past hedge size, as the story says. The tree had no photograph, and now this one leads. The reader gets the "it's on the page" mail. It is filed under November. The pin stays: it is the register's confirmed coordinate, 10 m from where the reader stood. The pin read hit an HTTPError again, which changed nothing.

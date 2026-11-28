@@ -1,0 +1,75 @@
+{
+  "city": "Guidonia Montecelio",
+  "country": "Italy",
+  "status": "needs_curation",
+  "intro": "Guidonia Montecelio is a town on the plain north-east of Rome, below the hill village of Montecelio and a short way from Tivoli. In the La Pietrara quarter a holm oak, the evergreen oak of the Roman countryside, grows in the yard of a small sports ground, its trunk opening into a fan of upright limbs. A reader sent us its photograph and dates it to 1935.",
+  "meta_description": "A holm oak in La Pietrara, Guidonia Montecelio, near Rome, sent by a reader who dates it to 1935: where it stands and how to find it.",
+  "hero_tree_id": "gdm_001",
+  "oldest_tree_id": "gdm_001",
+  "trees": [
+    {
+      "id": "gdm_001",
+      "name": "The Holm Oak of La Pietrara",
+      "species": "Holm Oak (Quercus ilex)",
+      "age_estimate": "about 90 years, by a reader's estimate (they give 1935)",
+      "age_min": null,
+      "age_max": null,
+      "age_basis": "source",
+      "location": {
+        "address": "Sports ground, Via Robert Baden Powell, La Pietrara, Guidonia, Guidonia Montecelio",
+        "latitude": 42.0004951445832,
+        "longitude": 12.7279508459983,
+        "neighbourhood": "La Pietrara"
+      },
+      "how_to_recognise": "The big evergreen oak in the yard of the sports ground: one rough grey trunk splitting into a fan of upright limbs under a dark round crown, between the glazed clubhouse veranda and the netting of the small pitch.",
+      "access": "In the yard of a small sports ground with a clubhouse on Via Robert Baden Powell, where the reader stood under it. We have not confirmed its opening hours; ask at the clubhouse.",
+      "verified_sources": [],
+      "story": "A reader sent us this holm oak from La Pietrara, a quarter of Guidonia on the plain north-east of Rome, where it stands in the yard of a small sports ground on Via Robert Baden Powell. They date it to 1935, which would make it about ninety years old.\n\nHolm oak, the leccio, is the evergreen oak of the Roman countryside, the tree of the old villas and the sacred groves, dark green in every month of the year. This one has been given room to show what the species does in the open. A single grey trunk, rough and checkered, rises clear of the clubhouse roofs and then opens into a fan of a dozen limbs that climb almost straight up before spreading into a dense dome of small leathery leaves. Old pruning cuts show where it has been shaped over the years, and moss runs up the shaded side of the stems. Around its foot stand the clubhouse veranda, the netting of a five-a-side pitch, a row of recycling bins and an Italian flag.\n\nThe year 1935 is the reader's; we have no girth or record of its planting. If you know the ground or the tree's story, tell us here.\n\nStand by the trunk and look straight up through the limbs.",
+      "found_by_reader": {
+        "sighting_id": "281ca01f-f9a1-494b-89b1-416875b0be42",
+        "date": "2026-11-28"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "281ca01f-f9a1-494b-89b1-416875b0be42",
+        "moved_m": 0,
+        "date": "2026-11-28",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-28 reader judge: sent by a reader (281ca01f-f9a1-494b-89b1-416875b0be42, through the app). Photograph viewed: looking up a thick holm oak trunk that splits into many limbs under a dark evergreen crown, a sports ground's clubhouse, five-a-side cage and an Italian flag around it, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Holm Oak near Rome', species 'Holm Oak', age '1935'. No register entry within 100 m (corroborate.py). Access: a sports ground's yard; whether it is open to walk-in visitors is not confirmed and the access line says so.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/gdm_001-holm-oak-of-la-pietrara.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date",
+        "source": "contributor",
+        "contributor_user_id": "p_95b607fd02de62c6c079cb34",
+        "sighting_id": "281ca01f-f9a1-494b-89b1-416875b0be42",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-28, through the app); viewed and approved on 2026-11-28: looking up a thick holm oak trunk that splits into many limbs under a dark evergreen crown, a sports ground's clubhouse, five-a-side cage and an Italian flag around it, daylight, colour. Not an open licence: ask before reuse elsewhere."
+      }
+    }
+  ],
+  "question_meta": "A holm oak in La Pietrara, Guidonia Montecelio, near Rome, sent by a reader who dates it to 1935: where it stands and how to find it.",
+  "question_answer": "The Holm Oak of La Pietrara grows in the yard of a small sports ground on Via Robert Baden Powell in Guidonia. Ask at the clubhouse to walk up to it.",
+  "question_context": "A reader who sent this photograph from La Pietrara, a quarter of Guidonia on the plain north-east of Rome, dates the tree to 1935. It is a holm oak, Quercus ilex, the evergreen oak that shades the villas and old groves of the Roman countryside. It grows in the yard of a small sports ground with a clubhouse on Via Robert Baden Powell, and the photograph looks straight up from its foot. A single rough grey trunk rises above the clubhouse roofs and then divides into a fan of a dozen limbs, which climb almost upright before spreading into a dense, dark crown of small leathery leaves. Old pruning cuts show it has been shaped over the years, and moss climbs the shaded side of the stems. The year 1935 is the reader's, not a date from a register or a planting record we have seen, and we have no girth for it yet. It stands inside the sports ground, so the way to see it is to ask at the clubhouse when it is open.",
+  "faq": [
+    {
+      "q": "Where is the Holm Oak of La Pietrara?",
+      "a": "In the yard of a small sports ground on Via Robert Baden Powell, in the La Pietrara quarter of Guidonia, north-east of Rome."
+    },
+    {
+      "q": "Can I visit the Holm Oak of La Pietrara?",
+      "a": "It grows inside a sports ground with a clubhouse. Ask at the clubhouse when it is open."
+    },
+    {
+      "q": "How old is the Holm Oak of La Pietrara?",
+      "a": "The reader who sent it dates it to 1935, which makes it about 90 years old. We have no register date or girth for it yet."
+    }
+  ]
+}

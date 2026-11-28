@@ -557,6 +557,78 @@
    "agreed": null
   },
   {
+   "id": "sight:ace9ab37-d149-40a2-87de-47f8f2961d57",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Osage Orange of the Ciutadella",
+   "city": "Barcelona",
+   "species": "Osage Orange (Maclura pomifera)",
+   "photo": "out/sightings/ace9ab37-d149-40a2-87de-47f8f2961d57.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 172,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Osage Orange (Maclura pomifera)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's photograph of the Osage orange in the Ciutadella, Barcelona: whole tree from the path, furrowed orange bark, yellowing leaves, park label at its foot. Now the lead photograph on bcn_013, the old one in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:36abb76b-2773-4d02-a533-06c8ffeb285c",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The London Plane of the Ciutadella",
+   "city": "Barcelona",
+   "species": "London Plane (Platanus x acerifolia)",
+   "photo": "out/sightings/36abb76b-2773-4d02-a533-06c8ffeb285c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 172,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about London Plane (Platanus x acerifolia)"
+   },
+   "verdict": "publish",
+   "reason": "Reader's photograph of the London plane in the Ciutadella, Barcelona: pale mottled trunk under an unpruned bronze crown beside the path. Now the lead photograph on bcn_036, the old one in the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:281ca01f-f9a1-494b-89b1-416875b0be42",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Holm Oak near Rome",
+   "city": null,
+   "species": "Holm Oak",
+   "photo": "p_95b607fd02de62c6c079cb34/281CA01F-F9A1-494B-89B1-416875B0BE42.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Holm Oak"
+   },
+   "verdict": "publish",
+   "reason": "A broad holm oak in a sports ground's yard in La Pietrara, Guidonia, near Rome, dated 1935 by the reader: a thick trunk opening into a fan of upright limbs under a dark crown. GPS fix at the tree. Live as guidonia-montecelio/gdm_001; the access line says to ask at the clubhouse.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
@@ -31734,6 +31806,25 @@
    "measure": null,
    "verdict": "hold",
    "reason": "Not a tree submission. A home office window scene: blinds, a clock, headphones on the sill, trees visible only distantly through the glass. Nothing to research.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:281ca01f-f9a1-494b-89b1-416875b0be42",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Holm Oak of La Pietrara",
+   "city": "Guidonia Montecelio",
+   "species": "Holm Oak (Quercus ilex)",
+   "photo": "out/sightings/281ca01f-f9a1-494b-89b1-416875b0be42.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": null,
+   "measure": null,
+   "verdict": "publish",
+   "reason": "Photograph viewed: the reader's own picture of the holm oak they added in La Pietrara, Guidonia, now the lead photograph of gdm_001.",
    "hidde": null,
    "agreed": null
   }

@@ -695,13 +695,17 @@
       "access": "Free, public park",
       "transport": "Arc de Triomf (Metro L1) or Ciutadella-Vila Olimpica (Metro L4), 5 min walk",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Maclura_pomifera_arbre_d%27inter%C3%A8s_local_Parc_de_la_Ciutadella_P2080013_-_Flickr_-_tgrauros.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Teresa Grau Ros, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/bcn_013-the-osage-orange-of-the-ciutadella-ace9ab37.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3888,
-        "height": 5184,
-        "taken_month": 2
+        "width": 1201,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_2b760ccfef19d83856c999e0",
+        "sighting_id": "ace9ab37-d149-40a2-87de-47f8f2961d57",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: the whole tree from the path, its leaning furrowed orange-brown trunk under a broad crown of yellowing leaves, the park's label at its foot behind the rope fence, daylight, colour Species seen: deeply furrowed orange-brown bark, ovate pointed leaves turning yellow, spreading crown: Maclura. Fits the description: a broad tree on a trunk about two and a half metres round beside a Ciutadella path, autumn leaf fall on the grass.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Municipal register (register_id 99400679805, catalogue number 0039-01-93, catalogued 1993) plus an independent beteve.cat article about the species in Barcelona, which supplies the fruit description, the fact that it is not edible, and the timing: the fruit falls in late autumn with some hanging into winter. That article is the basis for best_time. Dimensions differ between the register (16 m tall, crown 19 m) and bcnsostenible (14 m, crown 13.5 m) and are given as a range. Pin confirmed on three-way agreement: register 41.388569/2.187622, OSM node 6924265087 at 19 m, and iNaturalist observation 330848719 at 12 m, the last of which is a photograph taken in the park. Photo approved 2026-08-08 in a viewing pass: the Commons file by Teresa Grau Ros names the same catalogue number 0039-01-93 and shows the bare winter crown filling the frame in daylight. The iNaturalist observation, a close-up of a split fruit on the ground, was rejected as no portrait of the tree. The megafauna explanation for the fruit is presented as a hypothesis, which is what it is.",
@@ -713,7 +717,18 @@
         "url": "https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/arbres-interes-local/arbre-d-interes-local-99400679805"
       },
       "height_m": 16.0,
-      "verify_notes": "Height from Arbres d'interès local (Ajuntament de Barcelona) no. 99400679805 (data/registers/barcelona-ail.json), matched on our pin at 20 m (register_match.py, 2026-10-12)."
+      "verify_notes": "Height from Arbres d'interès local (Ajuntament de Barcelona) no. 99400679805 (data/registers/barcelona-ail.json), matched on our pin at 20 m (register_match.py, 2026-10-12).",
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Maclura_pomifera_arbre_d%27inter%C3%A8s_local_Parc_de_la_Ciutadella_P2080013_-_Flickr_-_tgrauros.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Teresa Grau Ros, via Wikimedia Commons",
+          "status": "approved",
+          "width": 3888,
+          "height": 5184,
+          "taken_month": 2
+        }
+      ]
     },
     {
       "id": "bcn_014",
@@ -1709,19 +1724,34 @@
       "location_precision": "confirmed",
       "curation_status": "flagged",
       "photo": {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600040819/medium.jpg",
-        "license": "CC BY",
-        "attribution": "Clifton Ladd, C.W.B, via iNaturalist",
+        "url": "https://ancienttrees.app/photos/bcn_036-the-london-plane-of-the-ciutadella-36abb76b.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 375,
-        "height": 500
+        "width": 1201,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_2b760ccfef19d83856c999e0",
+        "sighting_id": "36abb76b-2773-4d02-a533-06c8ffeb285c",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: the whole plane from the path, a pale mottled trunk climbing into an unpruned crown of bronze autumn leaves, rope fence and walkers beside it, daylight, colour Species seen: pale flaking patchwork bark, maple-shaped leaves turning bronze, round seed balls: Platanus. Fits the description: a tall unpruned plane with a wide crown beside a park path in the Ciutadella, not a pollarded street plane.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "You can recognise it by the crown, 24 metres across on a tree 25 metres tall, unpruned where the city's other planes are cut back to knuckles each winter. It stands between the Ciutadella lake and the zoo fence.",
       "official_register": {
         "name": "Arbres d'interes local (Ajuntament de Barcelona), no. 99400728979",
         "url": "https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/arbres-interes-local/arbre-d-interes-local-99400728979"
       },
-      "height_m": 25
+      "height_m": 25,
+      "photos": [
+        {
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600040819/medium.jpg",
+          "license": "CC BY",
+          "attribution": "Clifton Ladd, C.W.B, via iNaturalist",
+          "status": "approved",
+          "width": 375,
+          "height": 500
+        }
+      ]
     },
     {
       "id": "bcn_037",

@@ -8449,6 +8449,34 @@
    "lon": 2.18630726402486,
    "extras": 0,
    "pin_checked": "2026-11-28"
+  },
+  "281ca01f-f9a1-494b-89b1-416875b0be42": {
+   "outcome": "published",
+   "date": "2026-11-28"
+  },
+  "ace9ab37-d149-40a2-87de-47f8f2961d57": {
+   "outcome": "added",
+   "date": "2026-11-28",
+   "tree_id": "bcn_013",
+   "city_slug": "barcelona",
+   "file": "bcn_013-the-osage-orange-of-the-ciutadella-ace9ab37.jpg",
+   "reason": "the whole tree from the path, its leaning furrowed orange-brown trunk under a broad crown of yellowing leaves, the park's label at its foot behind the rope fence, daylight, colour Species seen: deeply furrowed orange-brown bark, ovate pointed leaves turning yellow, spreading crown: Maclura. Fits the",
+   "lat": 41.3872114,
+   "lon": 2.1872469,
+   "extras": 0,
+   "pin_checked": "2026-11-28"
+  },
+  "36abb76b-2773-4d02-a533-06c8ffeb285c": {
+   "outcome": "added",
+   "date": "2026-11-28",
+   "tree_id": "bcn_036",
+   "city_slug": "barcelona",
+   "file": "bcn_036-the-london-plane-of-the-ciutadella-36abb76b.jpg",
+   "reason": "the whole plane from the path, a pale mottled trunk climbing into an unpruned crown of bronze autumn leaves, rope fence and walkers beside it, daylight, colour Species seen: pale flaking patchwork bark, maple-shaped leaves turning bronze, round seed balls: Platanus. Fits the description: a tall unpr",
+   "lat": 41.3872114,
+   "lon": 2.1872469,
+   "extras": 0,
+   "pin_checked": "2026-11-28"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {
