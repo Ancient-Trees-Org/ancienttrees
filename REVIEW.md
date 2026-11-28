@@ -27,6 +27,12 @@ Web half: the last 24 hours were reader-judge work (Katikati ambassador, a sprin
 - WARN site/dist/contribute.html "verified against independent sources" (thirty-third review; false since 2026-10-12).
 - WARN site/dist/collections/ancient-oaks-of-europe.html and collections/europes-most-remarkable-yews.html "every coordinate verified" (thirteenth review; hard rule 2). Also in api/browse.json.
 
+App half (iPhone SE: own-tree, people, photo-viewer, place-pin, profile-edit, profile-signed-in): looked at all six.
+
+- NOTE APP place-pin.png: the "Where is it really?" sheet says "You need an account to send this" under a disabled "The tree is here" button while the sweep may be signed in; a session to check the line only shows signed out, since a signed-in person would read it as a contradiction.
+- NOTE APP profile-edit.png: Country is prefilled "United States" while Name is empty; a person outside the US who saves without looking publishes a wrong country on a public profile (every account is public). A session to check whether this is only the sweep fixture.
+- NOTE APP own-tree.png: the hero is a flat green drawing standing in for a photograph, with Age and Girth "Add" rows; honest, but the placeholder fills most of the first screen. No fault, for a session's taste.
+
 ---
 
 ## 2026-11-27
