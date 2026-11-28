@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-27T19:23Z",
+  "synced": "2026-11-28T01:48Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -221,12 +221,12 @@
       "profile_public": true
     },
     {
-      "user_id": "970ee2a0-056c-47a4-b75a-b57d9b72301e",
-      "place_slug": "brisbane",
-      "place_name": "Brisbane",
+      "user_id": "252cb970-b683-4917-b6d1-5f13ef7798bc",
+      "place_slug": "inistioge",
+      "place_name": "Inistioge",
       "public": true,
       "since": "2026-11-19",
-      "display_name": "Olivia B.",
+      "display_name": "Ram Jack",
       "profile_public": true
     },
     {
@@ -257,12 +257,12 @@
       "profile_public": true
     },
     {
-      "user_id": "252cb970-b683-4917-b6d1-5f13ef7798bc",
-      "place_slug": "inistioge",
-      "place_name": "Inistioge",
+      "user_id": "970ee2a0-056c-47a4-b75a-b57d9b72301e",
+      "place_slug": "brisbane",
+      "place_name": "Brisbane",
       "public": true,
       "since": "2026-11-19",
-      "display_name": "Ram Jack",
+      "display_name": "Olivia B.",
       "profile_public": true
     },
     {
@@ -491,6 +491,24 @@
       "public": true,
       "since": "2026-11-27",
       "display_name": "Sunlit Chestnut 1733",
+      "profile_public": true
+    },
+    {
+      "user_id": "32d9a861-e26f-444f-b2fc-872642c1034a",
+      "place_slug": "pemberton",
+      "place_name": "Pemberton",
+      "public": true,
+      "since": "2026-11-28",
+      "display_name": "Shaily N.",
+      "profile_public": true
+    },
+    {
+      "user_id": "d47dcb36-a04d-491b-aea9-243b46578a54",
+      "place_slug": "sequoia-national-park",
+      "place_name": "Sequoia National Park",
+      "public": true,
+      "since": "2026-11-28",
+      "display_name": "Jonathan B.",
       "profile_public": true
     },
     {
@@ -2750,6 +2768,26 @@
         "The Constitution-Year Oak"
       ],
       "note": "asked in a P.S. under the congratulation mail (tree_approved.py)"
+    },
+    {
+      "user_id": "p_3187c89ebb9a049f017c6aa5",
+      "place_slug": "pemberton",
+      "place_name": "Pemberton",
+      "date": "2026-11-28",
+      "trees": [
+        "The Karri that Swallowed a Tree",
+        "The Twin Karri of Anzac Road"
+      ]
+    },
+    {
+      "user_id": "p_697eb4a0c77311e0508c5fb0",
+      "place_slug": "sequoia-national-park",
+      "place_name": "Sequoia National Park",
+      "date": "2026-11-28",
+      "trees": [
+        "General Sherman Tree",
+        "Lincoln Tree"
+      ]
     }
   ],
   "requested": [
@@ -3497,7 +3535,8 @@
         "gui_006",
         "gui_007",
         "gui_008",
-        "gui_009"
+        "gui_009",
+        "gui_010"
       ],
       "since": "2026-10-28",
       "mailed": [
@@ -3505,6 +3544,12 @@
           "date": "2026-11-12",
           "trees": [
             "gui_009"
+          ]
+        },
+        {
+          "date": "2026-11-28",
+          "trees": [
+            "gui_010"
           ]
         }
       ]
@@ -4533,6 +4578,29 @@
         "wkm_001"
       ],
       "since": "2026-11-27",
+      "mailed": []
+    },
+    "pemberton": {
+      "trees": [
+        "pem_001",
+        "pem_002",
+        "pem_003",
+        "pem_004"
+      ],
+      "since": "2026-11-28",
+      "mailed": []
+    },
+    "sequoia-national-park": {
+      "trees": [
+        "seq_001",
+        "seq_002",
+        "seq_003",
+        "seq_004",
+        "seq_005",
+        "seq_006",
+        "seq_007"
+      ],
+      "since": "2026-11-28",
       "mailed": []
     }
   }
