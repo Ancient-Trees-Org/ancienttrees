@@ -10,6 +10,13 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 session: Android build 8 ready for Hidde's phone, instead of 7
+
+- Build 8 (versionCode 8) is everything on main: the map no longer jumps when you tap a pin (35ce95e87), and a tree chosen at launch no longer shows a second dot half under its big pin (map-parity row done, walked in Baarn).
+- Signed, then walked on the emulator: every tab, a tree, and the Feed opened and scrolled. No crash.
+- For Hidde: drag out/play/ancient-trees-0.1.0-8.aab into Play's internal testing release, then install from the internal link on your phone. Build 7 is not uploaded and is skipped.
+- Still red: the button walk on two test-side points (the Discover Save heart signed in, map pin Close sheet signed out); not yet proven to be the test's fault.
+
 ## 2026-11-28 reader judge: two Rome trees get readers' photographs, one olive and one beech held
 
 - **Rome, the Himalayan Cedar of the German Institute (rom_011)** has its first photograph, a reader's: the broad deodar in Villa Sciarra's statue garden. The register pin stays, since the app's coordinate (1.1 km off) carried no camera data and the same reader sent Villa Sciarra photographs that day.
