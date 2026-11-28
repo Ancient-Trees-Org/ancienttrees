@@ -12,6 +12,13 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-28 reader judge: two more Birkerød trees, a Cooke Town rain tree, a new lead photo for the Assistens weeping beech
+
+- **Live**: copenhagen/cop_055, The Twin-Stemmed Lime by Birkerød Skole: a big lime splitting low into two trunks, standing over a thicket of saplings. The reader gives 150 years and 400 cm. It has four photographs. copenhagen/cop_056, The Leaning Oak on the Birkerød School Path: an old pedunculate oak with a long low limb over the path. The reader gives 130 years and 250 cm, and it has three photographs. Both came from the same reader as cop_051 to cop_054. Both are pinned at the GPS location of their photographs, beside the public footpath at the northern edge of Birkerød Skole, and the access lines say they are seen from the path.
+- **Live**: bengaluru/ben_002, The Rain Tree of Cooke Town: a massive rain tree whose huge limbs bend low over a garden path off High Street, with a stone bench at its foot. The reader gives 60 years and 500 cm. Bengaluru now has two trees, so its intro and meta describe both. The access line says honestly that we have not confirmed the garden's hours.
+- **Assistens**: a reader's photograph of the Weeping Beech (cop_007) is now its lead photo: the curtain of hanging branches over the Kapelvej wall. Hans Erik Lund's register photograph has moved into the strip. The same frame, sent twice, was rejected as a duplicate. A photo sent for the Great Maple (cop_008) shows a birch 141 m away, so it went `other_tree`. The birch is held `not_special`: an ordinary birch of modest size. That reason sends no mail.
+- Nothing else was waiting: no reports, no feedback, no tips. reader_words had nothing to quote. qa, preflight and i18ncheck are all clean.
+
 ## 2026-11-28 reader judge: a copper beech in Birkerød
 
 - **Live**: copenhagen/cop_054, The Copper Beech over the Pavement in Birkerød. A reader sent it from the app with three photographs. They show a big forked beech in a front garden, its crown spreading over the pavement, with the last copper leaves of November. The reader is the same one who sent the three Kajerød trees nearby (cop_051 to cop_053). The pin is the GPS location from their photograph. The access line says the garden is private and the tree is seen from the pavement. Their age (about 100 years) and girth (250 cm) are on the page as their figures. All three photographs are up: the lead, plus two in the strip via reader_extras.py. The photo is filed under November, the month it was taken.

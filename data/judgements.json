@@ -68,6 +68,190 @@
    "agreed": null
   },
   {
+   "id": "sight:3dbc8af8-6abf-47d4-92d0-b7bcdd41c443",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Copper Beech in Copenhagen",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/3DBC8AF8-6ABF-47D4-92D0-B7BCDD41C443.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photographs viewed: a big copper beech in a Birkerod front garden; lead photo of cop_054, two more in its strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:b47229e5-0f85-4c26-b430-e5841fbeb248",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Great Maple of Assistens",
+   "city": "Copenhagen",
+   "species": "Sycamore (Acer pseudoplatanus)",
+   "photo": "out/sightings/b47229e5-0f85-4c26-b430-e5841fbeb248.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 141,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Sycamore (Acer pseudoplatanus)"
+   },
+   "verdict": "hold",
+   "reason": "Not the Great Maple: a birch, 141 m from it. Turned into its own lead (other_tree) and judged there.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:434147d1-e084-405b-b971-962a54c021e8",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Weeping Beech of Assistens",
+   "city": "Copenhagen",
+   "species": "Weeping Beech (Fagus sylvatica 'Pendula')",
+   "photo": "out/sightings/434147d1-e084-405b-b971-962a54c021e8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 32,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Weeping Beech (Fagus sylvatica 'Pendula')"
+   },
+   "verdict": "publish",
+   "reason": "The weeping beech's curtain of hanging twigs over the Kapelvej cemetery wall, 31 m from our pin; species and setting fit. Now the lead photograph of cop_007, the register photo moved into the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ad3429fa-dc38-46fd-8b52-0e34ed5395f0",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Weeping Beech of Assistens",
+   "city": "Copenhagen",
+   "species": "Weeping Beech (Fagus sylvatica 'Pendula')",
+   "photo": "out/sightings/ad3429fa-dc38-46fd-8b52-0e34ed5395f0.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 31,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Weeping Beech (Fagus sylvatica 'Pendula')"
+   },
+   "verdict": "hold",
+   "reason": "Duplicate of 434147d1, the same frame sent twice; rejected as a duplicate, the other copy is on the page.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:d406dd32-8c5f-442a-8a0a-1b718b18040b",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Lime in Copenhagen",
+   "city": null,
+   "species": "Lime",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/D406DD32-8C5F-442A-8A0A-1B718B18040B.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 400,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Lime"
+   },
+   "verdict": "publish",
+   "reason": "A big twin-stemmed lime towering over a thicket of saplings by the Birkerød Skole path, 400 cm by the reader. Live as copenhagen/cop_055 with four photographs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:0ab146f5-656c-4403-9974-beb4b3475704",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak in Copenhagen",
+   "city": null,
+   "species": "Pedunculate Oak",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/0AB146F5-656C-4403-9974-BEB4B3475704.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 250,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 0.638,
+    "via": "girth",
+    "note": "64% of the genus reference (392 cm, n=2, max 392)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": "publish",
+   "reason": "An old leaning pedunculate oak with a long low limb over the Birkerød Skole path, 250 cm by the reader. Live as copenhagen/cop_056 with three photographs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:f1118a64-24a1-4de4-95b9-8641a4ddbe43",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Raintree in Bengaluru",
+   "city": null,
+   "species": "Raintree (Samanea sp.)",
+   "photo": "p_222d03c41c0146a3003004ee/F1118A64-24A1-4DE4-95B9-8641A4DDBE43.jpg",
+   "reader_note": "",
+   "reader_girth_cm": 500,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Raintree (Samanea sp.)"
+   },
+   "verdict": "publish",
+   "reason": "A massive rain tree with huge bending limbs over a garden path in Cooke Town, 500 cm by the reader. Live as bengaluru/ben_002.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b47229e5-0f85-4c26-b430-e5841fbeb248",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Copenhagen",
+   "species": null,
+   "photo": "p_2448241466ccb6b6bfbed516/B47229E5-0F85-4C26-B430-E5841FBEB248.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: a slender birch of modest size with yellow autumn twigs beside a path in Assistens cemetery; an ordinary tree in an ordinary frame, no register entry nearby.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
@@ -31249,14 +31433,38 @@
    "agreed": null
   },
   {
-   "id": "sight:3dbc8af8-6abf-47d4-92d0-b7bcdd41c443",
+   "id": "sight:d406dd32-8c5f-442a-8a0a-1b718b18040b",
    "seen": "2026-11-28",
    "kind": "a tree we do not map",
-   "tree": "Copper Beech in Copenhagen",
-   "photo": "p_c9d7d7122bebe14afd5b82d4/3DBC8AF8-6ABF-47D4-92D0-B7BCDD41C443.jpg",
+   "tree": "Lime in Copenhagen",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/D406DD32-8C5F-442A-8A0A-1B718B18040B.jpg",
    "reader_note": "",
    "verdict": "publish",
-   "reason": "Photographs viewed: a big copper beech in a Birkerod front garden; lead photo of cop_054, two more in its strip.",
+   "reason": "Photographs viewed: a big twin-stemmed lime by the Birkerød Skole path; lead photo of cop_055, three more in its strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0ab146f5-656c-4403-9974-beb4b3475704",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Pedunculate Oak in Copenhagen",
+   "photo": "p_c9d7d7122bebe14afd5b82d4/0AB146F5-656C-4403-9974-BEB4B3475704.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photographs viewed: a leaning pedunculate oak on the Birkerød Skole path; lead photo of cop_056, two more in its strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:f1118a64-24a1-4de4-95b9-8641a4ddbe43",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Raintree in Bengaluru",
+   "photo": "p_222d03c41c0146a3003004ee/F1118A64-24A1-4DE4-95B9-8641A4DDBE43.jpg",
+   "reader_note": "",
+   "verdict": "publish",
+   "reason": "Photograph viewed: a massive rain tree in a Cooke Town garden; lead photo of ben_002.",
    "hidde": null,
    "agreed": null
   }

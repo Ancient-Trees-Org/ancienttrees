@@ -3527,6 +3527,21 @@
      "mailed": "2026-11-27"
     }
    ]
+  },
+  "p_2448241466ccb6b6bfbed516": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "434147d1-e084-405b-b971-962a54c021e8",
+     "tree_id": "cop_007",
+     "tree_name": "The Weeping Beech of Assistens",
+     "city": "Copenhagen",
+     "city_slug": "copenhagen",
+     "display_name": null,
+     "live": "2026-11-28"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

@@ -8317,6 +8317,42 @@
   "3dbc8af8-6abf-47d4-92d0-b7bcdd41c443": {
    "outcome": "published",
    "date": "2026-11-28"
+  },
+  "d406dd32-8c5f-442a-8a0a-1b718b18040b": {
+   "outcome": "published",
+   "date": "2026-11-28"
+  },
+  "0ab146f5-656c-4403-9974-beb4b3475704": {
+   "outcome": "published",
+   "date": "2026-11-28"
+  },
+  "f1118a64-24a1-4de4-95b9-8641a4ddbe43": {
+   "outcome": "published",
+   "date": "2026-11-28"
+  },
+  "434147d1-e084-405b-b971-962a54c021e8": {
+   "outcome": "added",
+   "date": "2026-11-28",
+   "tree_id": "cop_007",
+   "city_slug": "copenhagen",
+   "file": "cop_007-the-weeping-beech-of-assistens-434147d1.jpg",
+   "reason": "The weeping beech from Kapelvej, its curtain of hanging branches with the last copper leaves rising over the yellow cemetery wall and iron railing, daylight, colour. Species seen: pendulous beech: long hanging twigs, smooth grey limbs, withered copper beech leaves held on. Fits the description: a we",
+   "lat": 55.6894571150748,
+   "lon": 12.5534009238661,
+   "extras": 0,
+   "pin_checked": "2026-11-28"
+  },
+  "ad3429fa-dc38-46fd-8b52-0e34ed5395f0": {
+   "outcome": "rejected",
+   "date": "2026-11-28",
+   "tree_id": "cop_007",
+   "reason": "duplicate: the same frame as 434147d1, sent twice a second apart"
+  },
+  "b47229e5-0f85-4c26-b430-e5841fbeb248": {
+   "outcome": "held",
+   "date": "2026-11-28",
+   "tree_id": "cop_008",
+   "reason": "a birch with white bark and hanging yellow autumn twigs beside a cemetery path, 141 m from the sycamore it was sent for; not the maple"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

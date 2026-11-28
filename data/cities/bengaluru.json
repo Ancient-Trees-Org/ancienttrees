@@ -2,8 +2,8 @@
   "city": "Bengaluru",
   "country": "India",
   "status": "needs_curation",
-  "intro": "Bengaluru, long known as Bangalore, is the garden city of southern India, its avenues and compounds shaded by trees planted since the colonial era. In the grounds of the National Gallery of Modern Art stands a rain tree whose dark limbs fan out over the lawn in a crown as wide as the building beside it. A reader sent us its photograph.",
-  "meta_description": "The rain tree in the grounds of the National Gallery of Modern Art, Bengaluru, sent by a reader: where it stands and what we know.",
+  "intro": "Bengaluru, long known as Bangalore, is the garden city of southern India, its avenues and compounds shaded by trees planted since the colonial era. Readers have sent us two of its rain trees: one in the grounds of the National Gallery of Modern Art, its dark limbs fanning out over the lawn in a crown as wide as the building beside it, and one in a small garden in Cooke Town whose huge limbs bend low over the path.",
+  "meta_description": "Two great rain trees in Bengaluru sent by readers, at the National Gallery of Modern Art and in a Cooke Town garden: where they stand and what we know.",
   "hero_tree_id": "ben_001",
   "oldest_tree_id": "ben_001",
   "trees": [
@@ -78,6 +78,53 @@
           "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]
+    },
+    {
+      "id": "ben_002",
+      "name": "The Rain Tree of Cooke Town",
+      "species": "Rain Tree (Samanea saman)",
+      "age_estimate": "about 60 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Small garden off High Street, Balaji Layout, Cooke Town, Bengaluru",
+        "latitude": 13.000755555,
+        "longitude": 77.624145,
+        "neighbourhood": "Cooke Town"
+      },
+      "how_to_recognise": "In a small garden of palms and shrubs off High Street: a massive dark trunk with a stone bench at its foot, sending out several huge limbs that bend sideways and then turn upward, one of them crossing low over the path.",
+      "access": "In a small garden with benches off High Street, Cooke Town, where the reader photographed it. We have not confirmed the garden's opening hours.",
+      "story": "A reader in Cooke Town, in the east of Bengaluru, sent us this rain tree from a small garden off High Street, and the photograph is mostly limb.\n\nThe trunk is massive and dark, its bark broken into small rough plates, and a stone bench sits at its foot as if the garden had been laid out around it. A little way up the tree gives up on growing straight. Huge limbs, each as thick as an ordinary tree, swing out sideways, kink, and turn upward again, one of them crossing low over the path so that anyone walking through ducks beneath it. Above, the fine feathery leaves of a rain tree make a high green roof, and under it the garden has filled with palms and shrubs that thrive in the shade.\n\nRain trees came to Bengaluru from tropical America and became one of the trees that made it the garden city, prized for the wide shade they cast. The reader puts this one at about 60 years old and five metres round. Those figures are theirs, not a measurement we have seen.\n\nSit on the bench at the foot of the trunk and look up along the low limb.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "f1118a64-24a1-4de4-95b9-8641a4ddbe43",
+        "date": "2026-11-28"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "f1118a64-24a1-4de4-95b9-8641a4ddbe43",
+        "moved_m": 0,
+        "date": "2026-11-28",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-28 reader judge: sent by a reader (f1118a64-24a1-4de4-95b9-8641a4ddbe43, 2026-11-28, through the app). Photograph viewed: the lower trunk and the great bending limbs of a rain tree in a small planted garden, a stone bench at its foot, palms and a building behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). No register entry within 100 m. The reader's own figures: name 'Raintree in Bengaluru', species 'Raintree (Samanea sp.)', age '60', girth 500 cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/ben_002-rain-tree-of-cooke-town.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1024,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_222d03c41c0146a3003004ee",
+        "sighting_id": "f1118a64-24a1-4de4-95b9-8641a4ddbe43",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-28, through the app); viewed and approved on 2026-11-28: the lower trunk and the great bending limbs of a rain tree in a small planted garden, a stone bench at its foot, palms and a building behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 12,
+        "taken_month_basis": "the photograph's own date"
+      }
     }
   ],
   "question_meta": "The rain tree in the grounds of the National Gallery of Modern Art, Bengaluru, sent by a reader: where it stands and what we know.",

@@ -372,18 +372,31 @@
       "access": "Free, open access; Assistens Kirkegård functions as both cemetery and public park, open 07:00-22:00 in summer and 07:00-19:00 in winter",
       "transport": "Nørrebros Runddel metro station (M3 Cityringen) or the Kapelvej main entrance, roughly 5-10 minute walk",
       "photo": {
-        "url": "https://www.dendron.dk/dtr/photos/2019/H%E6ngeb%F8g_Assistens_HEL_MG_4294.JPG",
-        "license": "Used with permission from Hans Erik Lund, Dansk Dendrologisk Forening; credit required",
-        "attribution": "Hans Erik Lund",
+        "url": "https://ancienttrees.app/photos/cop_007-the-weeping-beech-of-assistens-434147d1.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 1000,
-        "height": 1500,
-        "note": "Photographed by Hans Erik Lund, who runs the Dansk Traeregister, and given to us by mail on 2026-09-20 in answer to our own request: 'You are welcome to use my pictures (c) Hans Erik Lund in www.dendron.dk/dtr freely (no charge) as long as You mention me as author.' Not an open licence: credit him and ask before reuse elsewhere. Looked at before approving on 2026-09-23. The whole weeping frame, bare, which is when this tree is at its most legible. photo_light OK. Danish Tree Register id 1467."
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_2448241466ccb6b6bfbed516",
+        "sighting_id": "434147d1-e084-405b-b971-962a54c021e8",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: The weeping beech from Kapelvej, its curtain of hanging branches with the last copper leaves rising over the yellow cemetery wall and iron railing, daylight, colour. Species seen: pendulous beech: long hanging twigs, smooth grey limbs, withered copper beech leaves held on. Fits the description: a weeping crown over the cemetery wall 31 m from our pin by the Kapelvej entrance; the curtain the story describes.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "location_precision": "confirmed",
       "how_to_recognise": "Section B, just right of the Kapelvej entrance. Look for the graft union about a metre up where the trunk steps outward, and the large wound at its base.",
       "photos": [
+        {
+          "url": "https://www.dendron.dk/dtr/photos/2019/H%E6ngeb%F8g_Assistens_HEL_MG_4294.JPG",
+          "license": "Used with permission from Hans Erik Lund, Dansk Dendrologisk Forening; credit required",
+          "attribution": "Hans Erik Lund",
+          "status": "approved",
+          "width": 1000,
+          "height": 1500,
+          "note": "Photographed by Hans Erik Lund, who runs the Dansk Traeregister, and given to us by mail on 2026-09-20 in answer to our own request: 'You are welcome to use my pictures (c) Hans Erik Lund in www.dendron.dk/dtr freely (no charge) as long as You mention me as author.' Not an open licence: credit him and ask before reuse elsewhere. Looked at before approving on 2026-09-23. The whole weeping frame, bare, which is when this tree is at its most legible. photo_light OK. Danish Tree Register id 1467."
+        },
         {
           "url": "https://www.dendron.dk/dtr/photos/2019/H%E6ngeb%F8g_Assistens_HEL_MG_4297.JPG",
           "license": "Used with permission from Hans Erik Lund, Dansk Dendrologisk Forening; credit required",
@@ -2612,6 +2625,164 @@
           "source": "contributor",
           "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
           "sighting_id": "3dbc8af8-6abf-47d4-92d0-b7bcdd41c443-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
+    },
+    {
+      "id": "cop_055",
+      "name": "The Twin-Stemmed Lime by Birkerød Skole",
+      "species": "Lime (Tilia sp.)",
+      "age_estimate": "about 150 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Footpath at the northern edge of Birkerød Skole, Birkerød Parkvej, Birkerød",
+        "latitude": 55.8419,
+        "longitude": 12.4155533333333,
+        "neighbourhood": "Birkerød, north of Copenhagen"
+      },
+      "how_to_recognise": "In a strip of young woodland beside the school path: one broad trunk that splits low into two great grey stems, standing far taller and thicker than the thin saplings crowded round it.",
+      "access": "Beside a public footpath at the northern edge of Birkerød Skole, seen from the path. About 20 km north of central Copenhagen.",
+      "story": "Along the northern edge of Birkerød Skole runs a strip of young woodland, a thicket of thin saplings, and out of the middle of it rises a lime that makes everything around it look like a seedling. A reader walking the path sent us four photographs of it in late November.\n\nThe pictures show a single broad base that splits almost at once into two great trunks, grey and finely ridged, which climb side by side and then break into a fan of long stems. By November the leaves have gone, and against the sky the crown is a dense net of twigs reaching higher than the school roof behind it. The saplings below barely reach its first branches.\n\nThe reader puts it at about 150 years old and four metres round. Those figures are theirs, not a measurement we have seen, but a lime of that girth would be a big one anywhere in Denmark. Which lime it is, small-leaved or common, the bare winter twigs do not tell; if you know, tell us here.\n\nIt is the same reader who has been sending us the old trees of Birkerød, and a pedunculate oak stands a few steps along the same path. Come in July, when the lime is in flower and the whole crown hums with bees.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "d406dd32-8c5f-442a-8a0a-1b718b18040b",
+        "date": "2026-11-28"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "d406dd32-8c5f-442a-8a0a-1b718b18040b",
+        "moved_m": 0,
+        "date": "2026-11-28",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-28 reader judge: sent by a reader (d406dd32-8c5f-442a-8a0a-1b718b18040b, 2026-11-28, through the app). Photograph viewed: a big bare lime looking up from its foot, a twin trunk splitting into many tall stems over a thicket of young saplings, a red-brick school building behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). No register entry within 100 m. The reader's own figures: name 'Lime in Copenhagen', species 'Lime', age '150', girth 400 cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cop_055-twin-stemmed-lime-by-birker-d-skole.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+        "sighting_id": "d406dd32-8c5f-442a-8a0a-1b718b18040b",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-28, through the app); viewed and approved on 2026-11-28: a big bare lime looking up from its foot, a twin trunk splitting into many tall stems over a thicket of young saplings, a red-brick school building behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+          "sighting_id": "d406dd32-8c5f-442a-8a0a-1b718b18040b-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+          "sighting_id": "d406dd32-8c5f-442a-8a0a-1b718b18040b-extra-2",
+          "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x3.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+          "sighting_id": "d406dd32-8c5f-442a-8a0a-1b718b18040b-extra-3",
+          "note": "The same reader's further photograph 3, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        }
+      ]
+    },
+    {
+      "id": "cop_056",
+      "name": "The Leaning Oak on the Birkerød School Path",
+      "species": "Pedunculate Oak (Quercus robur)",
+      "age_estimate": "about 130 years, by a reader's estimate",
+      "age_min": null,
+      "age_max": null,
+      "location": {
+        "address": "Footpath at the northern edge of Birkerød Skole, Birkerød Parkvej, Birkerød",
+        "latitude": 55.8416583333333,
+        "longitude": 12.41573,
+        "neighbourhood": "Birkerød, north of Copenhagen"
+      },
+      "how_to_recognise": "Where the paved school path meets the woodland strip: an oak whose trunk leans away from the path, with one long crooked limb stretched out low over the paving and a no-mopeds sign at its foot.",
+      "access": "Beside a public footpath at the northern edge of Birkerød Skole, by the bike racks; seen from the path. About 20 km north of central Copenhagen.",
+      "story": "Schoolchildren in Birkerød lock their bikes almost under this oak. It stands where the paved path along the northern edge of Birkerød Skole meets a strip of woodland, and a reader sent us three photographs of it in late November, one with their dog nosing through the fallen leaves at its foot.\n\nThe oak leans. Its thick, deeply furrowed trunk rises from the leaf litter at an angle, away from the path, and then throws out one long crooked limb back over the paving, low and level, as if reaching for the school. Above that the crown opens into the broad, twisting dome of an old pedunculate oak, bare now except for a few brown leaves holding on. A no-mopeds sign stands at its foot, which gives some idea of how many feet and wheels pass it every day.\n\nThe reader puts it at about 130 years old and two and a half metres round. Those are their figures, not a measurement we have seen.\n\nA big twin-stemmed lime grows a few steps further along the same path, so the two make one short stop. Look at the oak from the far side of the path, where you can see the whole lean.",
+      "verified_sources": [],
+      "age_basis": "source",
+      "found_by_reader": {
+        "sighting_id": "0ab146f5-656c-4403-9974-beb4b3475704",
+        "date": "2026-11-28"
+      },
+      "location_precision": "confirmed",
+      "pin_source": {
+        "kind": "reader GPS fix",
+        "sighting_id": "0ab146f5-656c-4403-9974-beb4b3475704",
+        "moved_m": 0,
+        "date": "2026-11-28",
+        "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-28 reader judge: sent by a reader (0ab146f5-656c-4403-9974-beb4b3475704, 2026-11-28, through the app). Photograph viewed: the whole bare oak leaning over a paved path, a long low limb reaching out to the left, a no-mopeds sign and bike racks at its foot, the school buildings behind, daylight, colour. Published under the closed list for a reader's tree (Hidde, 2026-11-17). No register entry within 100 m. The reader's own figures: name 'Pedunculate Oak in Copenhagen', species 'Pedunculate Oak', age '130', girth 250 cm. Every figure on the page not in verified_sources is stated as theirs.",
+      "photo": {
+        "url": "https://ancienttrees.app/photos/cop_056-leaning-oak-on-the-birker-d-school-path.jpg",
+        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "attribution": null,
+        "status": "approved",
+        "width": 1200,
+        "height": 1600,
+        "source": "contributor",
+        "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+        "sighting_id": "0ab146f5-656c-4403-9974-beb4b3475704",
+        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-28, through the app); viewed and approved on 2026-11-28: the whole bare oak leaning over a paved path, a long low limb reaching out to the left, a no-mopeds sign and bike racks at its foot, the school buildings behind, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04).",
+        "taken_month": 11,
+        "taken_month_basis": "the photograph's own date"
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/cop_056-the-leaning-oak-on-the-birker-d-school-path-0ab146f5-x1.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+          "sighting_id": "0ab146f5-656c-4403-9974-beb4b3475704-extra-1",
+          "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/cop_056-the-leaning-oak-on-the-birker-d-school-path-0ab146f5-x2.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_c9d7d7122bebe14afd5b82d4",
+          "sighting_id": "0ab146f5-656c-4403-9974-beb4b3475704-extra-2",
           "note": "The same reader's further photograph 2, sent with the tree and put in its gallery on 2026-11-28 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
         }
       ]

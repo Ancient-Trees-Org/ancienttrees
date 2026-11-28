@@ -144,6 +144,21 @@
    },
    "tree": "kyoto/kyo_014"
   },
+  "0ab146f5-656c-4403-9974-beb4b3475704": {
+   "extras": {
+    "1": {
+     "date": "2026-11-28",
+     "file": "cop_056-the-leaning-oak-on-the-birker-d-school-path-0ab146f5-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-28",
+     "file": "cop_056-the-leaning-oak-on-the-birker-d-school-path-0ab146f5-x2.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "copenhagen/cop_056"
+  },
   "0adac3f1-3c3f-4da8-bb6e-a88bc759ac68": {
    "extras": {
     "1": {
@@ -2840,6 +2855,26 @@
     }
    },
    "tree": "east-hampton/ehp_003"
+  },
+  "d406dd32-8c5f-442a-8a0a-1b718b18040b": {
+   "extras": {
+    "1": {
+     "date": "2026-11-28",
+     "file": "cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x1.jpg",
+     "verdict": "published"
+    },
+    "2": {
+     "date": "2026-11-28",
+     "file": "cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x2.jpg",
+     "verdict": "published"
+    },
+    "3": {
+     "date": "2026-11-28",
+     "file": "cop_055-the-twin-stemmed-lime-by-birker-d-skole-d406dd32-x3.jpg",
+     "verdict": "published"
+    }
+   },
+   "tree": "copenhagen/cop_055"
   },
   "d419093c-142b-4fb7-9a9d-962863c404a1": {
    "extras": {
