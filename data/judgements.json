@@ -1051,6 +1051,28 @@
    "agreed": null
   },
   {
+   "id": "sight:d1b53020-ea20-47be-bc44-d11137edbc64",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Ficus of Piazza Marina",
+   "city": "Palermo",
+   "species": "Moreton Bay Fig (Ficus macrophylla)",
+   "photo": "out/sightings/d1b53020-ea20-47be-bc44-d11137edbc64.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Moreton Bay Fig (Ficus macrophylla)"
+   },
+   "verdict": "hold",
+   "reason": "doubt_photo: the Piazza Marina ficus itself, but 960x720 with no camera data and a heavy filter, so we cannot tell who took it; kept in the reader's own collection only, so no submission row to ask through",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",

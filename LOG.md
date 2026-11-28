@@ -10,6 +10,11 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 reader judge: Palermo ficus photo held to ask who took it
+
+- One photograph waited: an app reader's shot of the Ficus of Piazza Marina (pal_001). It is that tree, but the file is 960x720 with no camera data and a heavy glow filter, where the app's own photographs arrive at 1200x1600, so it is held as `doubt_photo` (the screenshot rule of 2026-11-26). The reader kept it in their own collection only, so there is no submission row to ask through and no mail went out (hold_reply.py said so).
+- No open reports, no unjudged tips, no feedback, no further photographs, no readers' words waiting. The 37 leads still marked `lead` are all the owner's own account (`mine`), so this run left them alone.
+
 ## 2026-11-28 session: Android build 8 ready for Hidde's phone, instead of 7
 
 - Build 8 (versionCode 8) is everything on main: the map no longer jumps when you tap a pin (35ce95e87), and a tree chosen at launch no longer shows a second dot half under its big pin (map-parity row done, walked in Baarn).
