@@ -10,6 +10,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 third attempt: nothing shipped, same findings
+
+Re-checked: no claims, 0 READY, `enrich.py --next` and `recognise.py --stuck` empty, `reader_words.py` 0 waiting. The only unpublished verified tree is one in taiwan (below the six-tree floor for a write pass). Everything else in `passcheck.py --pending` is stale or a duplicate under another id. health.py rung 2 is still the two open app BUG rows, which are features that need a screen or server table.
+
 ## 2026-11-28 later attempt: nothing shipped, same findings
 
 No claims standing. `leads.py --ready` is 0. `enrich.py --next` and `recognise.py --stuck` have nothing. `passcheck.py --pending` lists only stale or duplicate research files (e.g. cyprus, croatia, grazalema, which hold the same trees under other ids), so no write pass is possible. `reader_words.py`: 0 waiting; 4 mail sentences wait for the sender's yes. health.py rung 2 is still the same two open app BUG rows (edit-after-add; Android draft on the account). Both need a server table or a new screen, so they are not a night run's.
