@@ -2604,7 +2604,26 @@
   },
   "p_b411fdc6cd3d1a6d15f76de6": {
    "last": "2026-11-21",
-   "pending": [],
+   "pending": [
+    {
+     "sighting_id": "62de8b34-5421-46c5-85c4-d9672a2f081c",
+     "tree_id": "rom_011",
+     "tree_name": "The Himalayan Cedar of the German Institute",
+     "city": "Rome",
+     "city_slug": "rome",
+     "display_name": null,
+     "live": "2026-11-28"
+    },
+    {
+     "sighting_id": "6dfe189c-04f4-4ecf-a862-0b7964af5391",
+     "tree_id": "rom_001",
+     "tree_name": "The Ginkgo of Villa Sciarra",
+     "city": "Rome",
+     "city_slug": "rome",
+     "display_name": null,
+     "live": "2026-11-28"
+    }
+   ],
    "sent": [
     {
      "sighting_id": "08d9dca8-6910-4532-9104-3882784466f6",

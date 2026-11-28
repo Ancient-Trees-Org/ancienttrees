@@ -53,13 +53,17 @@
         "label": "November, when it turns uniformly gold within days"
       },
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Roma_-_ginko_-_202109220753.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Carlo8688, via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/rom_001-the-ginkgo-of-villa-sciarra-6dfe189c.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 3000,
-        "height": 4000,
-        "taken_month": 11
+        "width": 1200,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_b411fdc6cd3d1a6d15f76de6",
+        "sighting_id": "6dfe189c-04f4-4ecf-a862-0b7964af5391",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: The Villa Sciarra ginkgo in turning autumn colour, the whole tree from the lawn, a tall dark main trunk under a crown of green and yellow fans, fallen yellow leaves on the grass, daylight and colour. The reader's own photograph leads; the Commons one moves to the strip. Species seen: ginkgo: fan-shaped two-lobed leaves in hanging sprays, turning yellow, a carpet of yellow fans below. Fits the description: a single tall ginkgo, well over 20 metres, standing above the shrubbery of the villa's hillside.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Replaces The Quercia del Tasso on 2026-07-27: verified via Italian-language sources (ilgiornale.it's coverage of a 2025 exhibition at the Museo di Roma in Trastevere dedicated to the tree) that the oak on the Gianicolo is now explicitly described as 'secco, morto, corroso' (dry, dead, decayed), propped up inside a small wall, not the living tree the old entry's own sources had left ambiguous ('what remains of a monumental tree'). This is the same violation of Hidde's 'we doen niet aan dode bomen' rule (CLAUDE.md Step 1) as Queen Elizabeth's Oak and Stock im Eisen, found while sweeping Rome's suspects from the same list. Id rom_001 reused; a redirect for the old slug (quercia-del-tasso) is registered in scripts/build_site.py's RENAMED_TREE_SLUGS. This replacement is sourced to Rome's own municipal monumental-tree page and a dedicated registry-style page (alberimonumentali.info, used for verification of size/location only, not copied); the circa-1900s planting date and Wurts/Tower estate history are corroborated by independent general sources (Wikipedia's Villa Sciarra and Henrietta Tower articles, Walks in Rome) but not a single primary planting record, so flagged. No open-licensed photo found; one Flickr photo of this exact tree exists but is marked all-rights-reserved, not usable. Photo found and approved 2026-07-28 via Wikidata's Roma monumental-tree register (item tagged with this exact address, uploaded through Wiki Loves Monuments Italia 2021): viewed directly (fetched full image, not just metadata), shows an unmistakable ginkgo in full golden autumn foliage over a leaf-carpeted clearing with a visitor path and sign, matching this entry's own November best_time description exactly. Upgraded to confirmed 2026-07-28: Italy's official AMI national monumental-trees register lists a 'Ginco' at 'Villa Sciarra - Viale Adolfo Leducq' with circumference 310cm and height 25.0m, matching this story's own already-cited figures (just over three metres around, a 25 metre crown) exactly. Read with a purpose-built binary XLS parser (this session's tools could not parse MASAF's legacy .xls format with any library, so one was hand-written against the OLE2/BIFF8 spec), about 220m from the previous estimate.",
@@ -70,7 +74,18 @@
         "url": null
       },
       "girth_cm": 310,
-      "height_m": 25
+      "height_m": 25,
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Roma_-_ginko_-_202109220753.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Carlo8688, via Wikimedia Commons",
+          "status": "approved",
+          "width": 3000,
+          "height": 4000,
+          "taken_month": 11
+        }
+      ]
     },
     {
       "id": "rom_002",
@@ -482,10 +497,17 @@
       "access": "Free, open access, Villa Sciarra public park",
       "transport": "15 min walk from Trastevere, or bus to Via Dandolo / Via Calandrelli",
       "photo": {
-        "url": null,
-        "license": null,
+        "url": "https://ancienttrees.app/photos/rom_011-the-himalayan-cedar-of-the-german-institute.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
-        "status": "missing"
+        "status": "approved",
+        "width": 1600,
+        "height": 1200,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_b411fdc6cd3d1a6d15f76de6",
+        "sighting_id": "62de8b34-5421-46c5-85c4-d9672a2f081c",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: A big deodar on the lawn of a villa garden: a short massive trunk dividing into long arms, tiered drooping blue-green sprays, a white marble statue group, palms and gravel paths around it, low sun. Sent for this tree by a reader who sent the Villa Sciarra ginkgo the same day; the app coordinate carries no camera data (the file has none), so our register pin stays. Species seen: cedar: drooping tiered sprays of soft blue-green needles and nodding leader tips, the habit of a deodar. Fits the description: a broad, shapely deodar in Villa Sciarra's statue garden, a tree listed for its shape; trunk thick enough for the register's measure.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
       "notes": "Sheet 10/H501/RM/12. Existence, species and location confirmed by three sources (Lazio regional register, Roma Capitale's own monumental-tree page, abitarearoma.it). No source anywhere gives an age or planting date, so the range here is a conservative placeholder tied to the Wurts era (1902-1928), not a sourced estimate, exactly as on rom_008 and rom_009. Girth genuinely disputed between the two registers: MASAF national 500cm, Lazio regional 330cm, same sheet number and same coordinates. Height agrees at 20m. The story states the disagreement rather than picking one. Coordinates are the register's own GPS, identical in both lists; converted from the regional list's DMS (41 deg 53' 00,19\", 12 deg 27' 53,03\") they match the national decimal figure. 130m from rom_001.",

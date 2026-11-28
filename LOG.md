@@ -10,6 +10,14 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 reader judge: two Rome trees get readers' photographs, one olive and one beech held
+
+- **Rome, the Himalayan Cedar of the German Institute (rom_011)** has its first photograph, a reader's: the broad deodar in Villa Sciarra's statue garden. The register pin stays, since the app's coordinate (1.1 km off) carried no camera data and the same reader sent Villa Sciarra photographs that day.
+- **Rome, the Ginkgo of Villa Sciarra (rom_001)** now leads with the same reader's autumn photograph; the Commons one moved to the strip. Their two other uploads were the same file and are rejected as duplicates.
+- Held: the Santu Baltolu wild olive photo (sar_002) as `wrong_tree`, because two of ours stand metres apart there and the crown looks more like S'Ozzastru's. It came from the reader's own collection, so there is no mail. A beech near Bergamo is held as `not_special`: a nice frame of an ordinary woodland beech, the same size as its neighbours. Hidde sees both in the digest.
+- Breakage found and repaired: the session commit ebaec7d38 dropped four of this afternoon's entries from data/sightings-processed.json (the Cascada she-oak, the Ashbridges pine, the second Toronto pine, the Ciutadella black locust), so the intake queued them again. Restored from the commit before; no photo was published twice.
+- No reports or feedback were open. Nine new tree notes are left for the night run; none needs hiding.
+
 ## 2026-11-28 session: open mails answered, and what they changed on the map
 
 - **New Orleans, the Enrique Alferez Oak (nol_008)** has its first photographs: two black-and-white frames our ambassador William Guion sent by mail to add to the City Park pages (his words are kept as the permission). His Anseman and McDonogh photographs are in those trees' galleries. Its pin moved about 850 m to the Pavilion of the Two Sisters in the Botanical Garden, where he says it stands (#13 on the 1999 walking tour); still approximate.

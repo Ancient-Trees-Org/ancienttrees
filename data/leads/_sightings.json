@@ -14092,6 +14092,39 @@
    "seen": "2026-11-28",
    "hold": "doubt_location",
    "judged": "2026-11-28"
+  },
+  {
+   "sighting_id": "91240112-ccb0-4ddc-8fd6-2e15a741d8ac",
+   "user_id": "p_4365e35b1bc52b7dbbfe79fd",
+   "mine": false,
+   "name": "A tree near Bergamo",
+   "unsure_among": null,
+   "species": null,
+   "age": null,
+   "girth_cm": null,
+   "girth_hugs": null,
+   "note": "",
+   "latitude": 45.7678359747359,
+   "longitude": 10.1295272167866,
+   "location_kind": "device",
+   "near": null,
+   "taken_month": 11,
+   "photo": "p_4365e35b1bc52b7dbbfe79fd/91240112-CCB0-4DDC-8FD6-2E15A741D8AC.jpg",
+   "sign_photo": null,
+   "sign_file": null,
+   "extra_files": [],
+   "extra_months": null,
+   "nearest_published_m": null,
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "status": "held",
+   "why": "Photograph viewed: looking up a beech in a beech wood beside a forest track, a smooth grey trunk forking into two stems, the last copper leaves, low sun behind the hills. A tree of the same size as the beeches around it, nothing in frame or setting that sets it apart; the GPS fix is good, so a second photograph or a word on what makes it special would reopen it.",
+   "seen": "2026-11-28",
+   "hold": "not_special",
+   "judged": "2026-11-28"
   }
  ]
 }

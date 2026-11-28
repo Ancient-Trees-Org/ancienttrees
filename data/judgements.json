@@ -916,6 +916,141 @@
    "agreed": null
   },
   {
+   "id": "sight:62de8b34-5421-46c5-85c4-d9672a2f081c",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Himalayan Cedar of the German Institute",
+   "city": "Rome",
+   "species": "Himalayan Cedar (Cedrus deodara)",
+   "photo": "out/sightings/62de8b34-5421-46c5-85c4-d9672a2f081c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 1130,
+   "current_photo": "none",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Himalayan Cedar (Cedrus deodara)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: a broad deodar with tiered drooping sprays in Villa Sciarra's statue garden, daylight; the first photograph on rom_011, our register pin kept (the app coordinate had no camera data).",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:6dfe189c-04f4-4ecf-a862-0b7964af5391",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Ginkgo of Villa Sciarra",
+   "city": "Rome",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/6dfe189c-04f4-4ecf-a862-0b7964af5391.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 116,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the whole Villa Sciarra ginkgo turning yellow from the lawn, daylight; added and now leading rom_001, the Commons photo moved to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:afcd9cae-5b45-4910-a611-bd3f95f6a479",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Ginkgo of Villa Sciarra",
+   "city": "Rome",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/afcd9cae-5b45-4910-a611-bd3f95f6a479.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 116,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "reject",
+   "reason": "Duplicate: the same file as 6dfe189c from the same reader, which went up.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:2abbbd20-9aa8-49b8-8ee4-972ec35cc0c8",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Ginkgo of Villa Sciarra",
+   "city": "Rome",
+   "species": "Ginkgo (Ginkgo biloba)",
+   "photo": "out/sightings/2abbbd20-9aa8-49b8-8ee4-972ec35cc0c8.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 116,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Ginkgo (Ginkgo biloba)"
+   },
+   "verdict": "reject",
+   "reason": "Duplicate: the same file as 6dfe189c from the same reader, which went up.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:0087d142-8af3-447e-a6aa-d312ee0d8f7b",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Second Olivastro of Santu Baltolu",
+   "city": "Sardinia",
+   "species": "Wild Olive (Olea europaea var. sylvestris)",
+   "photo": "out/sightings/0087d142-8af3-447e-a6aa-d312ee0d8f7b.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "held",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Wild Olive (Olea europaea var. sylvestris)"
+   },
+   "verdict": "hold",
+   "reason": "wrong_tree: a huge wild olive at Santu Baltolu with somebody in its cleft; two of ours stand metres apart there (S'Ozzastru and the second olivastro) and the wide crown looks more like S'Ozzastru's. Sent from the reader's own collection, no row to mail.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:91240112-ccb0-4ddc-8fd6-2e15a741d8ac",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "A tree near Bergamo",
+   "city": null,
+   "species": null,
+   "photo": "p_4365e35b1bc52b7dbbfe79fd/91240112-CCB0-4DDC-8FD6-2E15A741D8AC.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": null,
+   "verdict": "hold",
+   "reason": "not_special: a beech in a beech wood beside a forest track near Bergamo, as big as the beeches around it, nothing in frame or setting that sets it apart; GPS fix is good, a word on what makes it special reopens it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
