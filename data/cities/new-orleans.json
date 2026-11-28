@@ -84,6 +84,20 @@
           "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
           "sighting_id": "417749a0-3387-4bd0-853a-ce00cd4dad90-extra-1",
           "note": "The same reader's further photograph 1, sent with the tree and put in its gallery on 2026-11-26 (scripts/reader_extras.py). Not an open licence: ask before reuse elsewhere."
+        },
+        {
+          "url": "https://ancienttrees.app/photos/nol_001-the-mcdonogh-oak-guion.jpg",
+          "license": "Provided by William Guion with permission, credit required",
+          "attribution": "William Guion",
+          "attribution_url": "https://100oaks.wordpress.com/",
+          "status": "approved",
+          "width": 1600,
+          "height": 1028,
+          "note": "Sent by mail by William Guion, photographer of City Park's oaks and our New Orleans ambassador, on 2026-11-27 with the words \"Here are a couple of images to add to your City Park post\"; his own caption names the tree. Looked at before approval: a black-and-white infrared frame of the oak with its long limbs resting on wooden props. Not an open licence: ask him before reuse elsewhere.",
+          "permission": {
+            "words": "Here are a couple of images to add to your City Park post",
+            "date": "2026-11-27"
+          }
         }
       ],
       "girth_cm": 775,
@@ -136,7 +150,23 @@
       },
       "girth_cm": 719,
       "height_m": 18.3,
-      "verify_notes": "2026-11-27: the city's ambassador, a New Orleans photographer of the park's oaks, wrote that our pin was wrong and that the tree stands just off Anseman Avenue east of the lagoon bridge, where nol_009's reader GPS fix stood; nol_009 (sent by that reader for this tree) folded in as a duplicate and its photo made the lead. The previous lead (sighting 91f2f869, a burly knotted trunk 115 m south) shows another grove oak, tree unknown; kept as a lead in data/leads/_sightings.json. Girth and height from the 1999 walking tour brochure."
+      "verify_notes": "2026-11-27: the city's ambassador, a New Orleans photographer of the park's oaks, wrote that our pin was wrong and that the tree stands just off Anseman Avenue east of the lagoon bridge, where nol_009's reader GPS fix stood; nol_009 (sent by that reader for this tree) folded in as a duplicate and its photo made the lead. The previous lead (sighting 91f2f869, a burly knotted trunk 115 m south) shows another grove oak, tree unknown; kept as a lead in data/leads/_sightings.json. Girth and height from the 1999 walking tour brochure.",
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nol_002-the-anseman-oak-guion.jpg",
+          "license": "Provided by William Guion with permission, credit required",
+          "attribution": "William Guion",
+          "attribution_url": "https://100oaks.wordpress.com/",
+          "status": "approved",
+          "width": 1291,
+          "height": 1600,
+          "note": "Sent by mail by William Guion, photographer of City Park's oaks and our New Orleans ambassador, on 2026-11-27 with the words \"Here are a couple of images to add to your City Park post\"; his own caption names the tree. Looked at before approval: a black-and-white frame of a huge burled trunk with Spanish moss hanging from wide limbs. Not an open licence: ask him before reuse elsewhere.",
+          "permission": {
+            "words": "Here are a couple of images to add to your City Park post",
+            "date": "2026-11-27"
+          }
+        }
+      ]
     },
     {
       "id": "nol_003",
@@ -359,8 +389,8 @@
       "girth_cm": 528,
       "location": {
         "address": "New Orleans Botanical Garden, City Park, 5 Victory Avenue",
-        "latitude": 29.9946,
-        "longitude": -90.0983,
+        "latitude": 29.98729,
+        "longitude": -90.09544,
         "neighbourhood": "City Park"
       },
       "verified_sources": [
@@ -376,14 +406,43 @@
       "story": "Every December this oak wears blue. Draped in dripping LED lights for Celebration in the Oaks, City Park's holiday lighting event, it is one of the more theatrical trees on a list that runs mostly to war and duels.\n\nIt carries the name of Enrique Alferez, the sculptor whose WPA-era fountains and figures are scattered through City Park, though the tree itself stands in the Botanical Garden rather than at the newer sculpture garden that also bears his name. It is one of 26 oaks the park singled out for a historic walking tour, drawn from roughly 250 Live Oak Society members growing across the grounds, and when the park re-measured its tour trees between 1983 and 1999, this was the one that had grown the most. Its trunk measured just over 16 feet round in 1983; the Live Oak Society's current figure puts it at over 17.\n\nNobody has published its age, which for a tree in a park this thoroughly documented is itself a small honest gap. What is on record is upkeep: City Park describes it as getting regular watering and feeding at that spot, the kind of attention that keeps a showpiece a showpiece.",
       "how_to_recognise": "You can recognise it, in December, by the blue LED lights draped through its crown for Celebration in the Oaks. It stands in the New Orleans Botanical Garden, City Park.",
       "photo": {
-        "url": null,
-        "license": null,
-        "attribution": null,
-        "status": "missing"
+        "url": "https://ancienttrees.app/photos/nol_008-the-enrique-alferez-oak.jpg",
+        "license": "Provided by William Guion with permission, credit required",
+        "attribution": "William Guion",
+        "attribution_url": "https://100oaks.wordpress.com/",
+        "status": "approved",
+        "width": 1600,
+        "height": 1194,
+        "note": "Sent by mail by William Guion, photographer of City Park's oaks and our New Orleans ambassador, on 2026-11-27 with the words \"Here are a couple of images to add to your City Park post\"; his own caption names the tree. Looked at before approval: a black-and-white infrared frame of the whole oak, its long limbs spread wide over a lawn, a garden building behind. Not an open licence: ask him before reuse elsewhere.",
+        "permission": {
+          "words": "Here are a couple of images to add to your City Park post",
+          "date": "2026-11-27"
+        }
       },
-      "photos": [],
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nol_008-the-enrique-alferez-oak-trunk.jpg",
+          "license": "Provided by William Guion with permission, credit required",
+          "attribution": "William Guion",
+          "attribution_url": "https://100oaks.wordpress.com/",
+          "status": "approved",
+          "width": 1600,
+          "height": 1544,
+          "note": "Sent by mail by William Guion, photographer of City Park's oaks and our New Orleans ambassador, on 2026-11-27 with the words \"Here are a couple of images to add to your City Park post\"; his own caption names the tree. Looked at before approval: a black-and-white infrared frame of the same oak's trunk and lower limbs. Not an open licence: ask him before reuse elsewhere.",
+          "permission": {
+            "words": "Here are a couple of images to add to your City Park post",
+            "date": "2026-11-27"
+          }
+        }
+      ],
       "paid_entry": true,
-      "height_m": 15.2
+      "height_m": 15.2,
+      "pin_source": {
+        "kind": "ambassador's account by mail",
+        "date": "2026-11-28",
+        "note": "William Guion (2026-11-27): it stands in the Botanical Garden right next to the Pavilion of the Two Sisters, #13 on the 1999 walking tour. Pin on the Pavilion (OpenStreetMap way 325825754); the old pin was about 850 m north. Hand-placed from his account, so approximate."
+      },
+      "verify_notes": " 2026-11-28: pin moved to the Pavilion of the Two Sisters on William Guion's mail; his two photographs lead the page."
     }
   ]
 }

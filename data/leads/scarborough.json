@@ -1,31 +1,39 @@
 {
-  "leads": [
-    {
-      "id": "sca_L1",
-      "name": "Raincliffe Woods beech",
-      "species": "Beech (Fagus sp.)",
-      "place": "Raincliffe Woods, Scarborough, North Yorkshire",
-      "found_by_reader": {
-        "tip": "submission 1654"
-      },
-      "reader_girth_cm": 400,
-      "reason": "Reader's tip without a photograph (2026-11-25): one of the biggest, oldest and most beautiful trees in Raincliffe Woods, girth about 400 cm by their measure. Missing: where in the wood it stands (Raincliffe Woods is a large woodland, so no honest pin yet). No register or source found. Reader asked where exactly. 2026-11-25 mail replies (feedback 1667, 1668): the reader gave two what3words spots. Session 2026-11-25: the subjects of the two mails settle which is which: \"Re: About what you sent us: beech\" (15:43 UTC) gave ///fallback.snoring.duet, \"Re: About what you sent us: chestnut\" (15:44 UTC) gave ///subsets.roaming.commit; both resolved on what3words.com. Still no photograph or written source, so it stays a lead; a photograph from the spot would put it live under the closed list.",
-      "what3words": "fallback.snoring.duet",
-      "location": {"latitude": 54.284673, "longitude": -0.473462, "source": "the reader's what3words square ///fallback.snoring.duet (3 m square chosen by the reader, not a GPS fix), resolved on what3words.com 2026-11-25"}
-    },
-    {
-      "id": "sca_L2",
-      "name": "Raincliffe Woods chestnut",
-      "species": "Chestnut (Castanea sp.)",
-      "place": "Raincliffe Woods, Scarborough, North Yorkshire",
-      "found_by_reader": {
-        "tip": "submission 1655"
-      },
-      "reader_girth_cm": 420,
-      "reason": "Reader's tip without a photograph (2026-11-25): believed locally to be the second oldest chestnut in the country, girth about 420 cm by their measure. Missing: where in the wood it stands; no source found for the claim in a quick search. Reader asked where exactly. 2026-11-25 mail replies (feedback 1667, 1668): the reader gave two what3words spots. Session 2026-11-25: the subjects of the two mails settle which is which: \"Re: About what you sent us: chestnut\" (15:44 UTC) gave ///subsets.roaming.commit. Still no photograph or written source, so it stays a lead; a photograph from the spot would put it live under the closed list.",
-      "what3words": "subsets.roaming.commit",
-      "location": {"latitude": 54.25597, "longitude": -0.482793, "source": "the reader's what3words square ///subsets.roaming.commit (3 m square chosen by the reader, not a GPS fix), resolved on what3words.com 2026-11-25"}
-    }
-  ],
-  "blocked": []
+ "leads": [
+  {
+   "id": "sca_L1",
+   "name": "Raincliffe Woods beech",
+   "species": "Beech (Fagus sp.)",
+   "place": "Raincliffe Woods, Scarborough, North Yorkshire",
+   "found_by_reader": {
+    "tip": "submission 1654"
+   },
+   "reader_girth_cm": 400,
+   "reason": "Reader's tip without a photograph (2026-11-25): one of the biggest, oldest and most beautiful trees in Raincliffe Woods, girth about 400 cm by their measure. Missing: where in the wood it stands (Raincliffe Woods is a large woodland, so no honest pin yet). No register or source found. Reader asked where exactly. 2026-11-25 mail replies (feedback 1667, 1668): the reader gave two what3words spots. Session 2026-11-25: the subjects of the two mails settle which is which: \"Re: About what you sent us: beech\" (15:43 UTC) gave ///fallback.snoring.duet, \"Re: About what you sent us: chestnut\" (15:44 UTC) gave ///subsets.roaming.commit; both resolved on what3words.com. Still no photograph or written source, so it stays a lead; a photograph from the spot would put it live under the closed list. RESOLVED 2026-11-28: published as sca_001.",
+   "what3words": "fallback.snoring.duet",
+   "location": {
+    "latitude": 54.284673,
+    "longitude": -0.473462,
+    "source": "the reader's what3words square ///fallback.snoring.duet (3 m square chosen by the reader, not a GPS fix), resolved on what3words.com 2026-11-25"
+   }
+  },
+  {
+   "id": "sca_L2",
+   "name": "Raincliffe Woods chestnut",
+   "species": "Chestnut (Castanea sp.)",
+   "place": "Raincliffe Woods, Scarborough, North Yorkshire",
+   "found_by_reader": {
+    "tip": "submission 1655"
+   },
+   "reader_girth_cm": 420,
+   "reason": "Reader's tip without a photograph (2026-11-25): believed locally to be the second oldest chestnut in the country, girth about 420 cm by their measure. Missing: where in the wood it stands; no source found for the claim in a quick search. Reader asked where exactly. 2026-11-25 mail replies (feedback 1667, 1668): the reader gave two what3words spots. Session 2026-11-25: the subjects of the two mails settle which is which: \"Re: About what you sent us: chestnut\" (15:44 UTC) gave ///subsets.roaming.commit. Still no photograph or written source, so it stays a lead; a photograph from the spot would put it live under the closed list. RESOLVED 2026-11-28: published as sca_002.",
+   "what3words": "subsets.roaming.commit",
+   "location": {
+    "latitude": 54.25597,
+    "longitude": -0.482793,
+    "source": "the reader's what3words square ///subsets.roaming.commit (3 m square chosen by the reader, not a GPS fix), resolved on what3words.com 2026-11-25"
+   }
+  }
+ ],
+ "blocked": []
 }

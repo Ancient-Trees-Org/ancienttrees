@@ -10,6 +10,14 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 session: open mails answered, and what they changed on the map
+
+- **New Orleans, the Enrique Alferez Oak (nol_008)** has its first photographs: two black-and-white frames our ambassador William Guion sent by mail to add to the City Park pages (his words are kept as the permission). His Anseman and McDonogh photographs are in those trees' galleries. Its pin moved about 850 m to the Pavilion of the Two Sisters in the Botanical Garden, where he says it stands (#13 on the 1999 walking tour); still approximate.
+- **Genoa, the Cedar of Lebanon of Acquasanta (gnv_012)** now leads with the app reader's own photograph, after they confirmed by mail that they took it. The access line and story now say it stands by the church square, on the wooded slope its photo shows.
+- **New place, Scarborough**: two trees from a reader's tips with their own what3words spots, on Hidde's yes. The Raincliffe Woods Beech (sca_001) and the East Ayton Chestnut (sca_002) both have approximate pins and no photo. The chestnut's spot is on Seavegate in East Ayton, 3 km from the woods the tip named. Its page says so and asks, and "second oldest in the country" is given as the reader's claim.
+- Mails sent on Hidde's "you can send all these emails": the Lake Waikaremoana and Katikati ambassadors got personal replies instead of the standard welcome (so `--welcome-missing` must skip lake-waikaremoana and katikati). Bill and the cedar reader get theirs once this deploy is live.
+- Found: `ambassador.py --welcome-missing` without `--send` wrote Horn-Lehe and Girona into data/ambassadors.json as handled; reverted, and their welcome mails are still owed.
+
 ## 2026-11-28 night run (fourth attempt, same window): nothing shipped, same state
 
 - Pulled, no claims, READY 0, prepare.py names no writer work (own research paused; every verified file is stale or an id clash), `enrich.py --next`, `recognise.py --stuck` and `reader_words.py` empty. Only reds: the open app BUG rows (edit a tree you added, Android pin place), which need a device or emulator build this runner lacks. Left for a session.

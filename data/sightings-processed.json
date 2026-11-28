@@ -8063,12 +8063,6 @@
    "tree_id": "lon_005",
    "reason": "duplicate: the same reader's second frame of the same chestnut a step closer, seconds apart; the other frame (9a624f9b) carries the whole crown and goes up."
   },
-  "fe75421a-c2ab-470d-ad74-f92168b79eee": {
-   "outcome": "held",
-   "date": "2026-11-26",
-   "tree_id": "gnv_012",
-   "reason": "doubt_photo: a cedar with a tall clear trunk among pines and broadleaves on a grassy wooded slope in full summer green, a 2:3 camera frame with no camera data, sent in November with our pin as its spot (no fix of its own). It looks like a register or stock photograph rather than the sender's, and th"
-  },
   "ad2b3c75-3e16-463b-8c24-6067e42f14ed": {
    "outcome": "added",
    "date": "2026-11-26",
@@ -8493,41 +8487,17 @@
   "8aefa773-8c44-403a-86e2-144dc686b154": {
    "outcome": "published"
   },
-  "3eff6d97-f1ab-4b92-9cea-f2d3064fe273": {
-   "outcome": "added",
+  "fe75421a-c2ab-470d-ad74-f92168b79eee": {
+   "outcome": "published",
    "date": "2026-11-28",
-   "tree_id": "bcn_011",
-   "city_slug": "barcelona",
-   "file": "bcn_011-the-casuarina-of-the-cascada-3eff6d97.jpg",
-   "reason": "The Cascada she-oak from the lawn: two trunks fused at the base splitting low, drooping grey green crown hung with cones, daylight; another view of the tree we map. Species seen: drooping grey green jointed twigs like pine needles, small round cones, fibrous furrowed bark. Fits the description: a hu",
-   "lat": 41.3894878,
-   "lon": 2.1867607,
+   "tree_id": "gnv_012",
+   "city_slug": "genoa",
+   "file": "gnv_012-the-cedar-of-lebanon-of-acquasanta.jpg",
+   "reason": "Reopened 2026-11-28: the reader wrote by mail that the photo is theirs and may be published (2026-11-27 16:11), and their map link lands 13 m from our pin, the register cedar (MASAF 16/D969/GE/07). A tall cedar with tiered flat sprays above a long straight trunk on a grassy wooded slope, summer dayl",
+   "lat": 44.457933,
+   "lon": 8.770197,
    "extras": 0,
    "pin_checked": "2026-11-28"
-  },
-  "ce4c5494-56a0-4303-8b8c-2cf49f8ff25c": {
-   "outcome": "added",
-   "date": "2026-11-28",
-   "tree_id": "tro_008",
-   "city_slug": "toronto",
-   "file": "tro_008-the-pine-of-ashbridges-bay-ce4c5494.jpg",
-   "reason": "The same Ashbridges Bay pine from the other side: the low split into stems with orange peeling bark, the bench beside it, the taped shore edge and the lake behind. Species seen: pine: plated grey lower trunk, copper orange flaking bark on the upper stems, needle clusters. Fits the description: trunk",
-   "lat": 43.6589558453554,
-   "lon": -79.3061309283337,
-   "extras": 0,
-   "pin_checked": "2026-11-28"
-  },
-  "5198b700-e6b6-4308-b222-68570b95c2ca": {
-   "outcome": "held",
-   "date": "2026-11-28",
-   "tree_id": "tro_008",
-   "reason": "A different pine: a single trunk with long limbs sweeping out low over a lawn, spruces and a path behind, no lake, no bench. Not the lakeshore pine tro_008. Its coordinate is identical to the digit to the one sent with the lakeshore pine, so it is where the phone was when sending, not where this was"
-  },
-  "6b0ae614-aef6-44d1-a741-12f606bd8a68": {
-   "outcome": "held",
-   "date": "2026-11-28",
-   "tree_id": "bcn_035",
-   "reason": "A black locust, but not the register's 4.3 m trunk: this one is perhaps 1.5 to 2 m round beside two shrubs, on a tree taller than 12 m. The reader's own report 1000166 says the much bigger black locust stands by the drinking fountain near the Cascada, which is where the register puts ours. The app c"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

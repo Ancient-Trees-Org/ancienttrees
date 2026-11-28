@@ -1534,7 +1534,10 @@
    "verdict": "hold",
    "reason": "Viewed: a big furrowed black poplar with a hollow high on the trunk beside a path on a raised bank, a cyclist at its foot for scale. Special enough, but the reader names it near Ulverston while their hand-placed pin is on New Quay Road, Lancaster, 25 km across Morecambe Bay: held doubt_location, the standard mail asks where it stands.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-28"
+   ]
   },
   {
    "id": "sight:aeef3c90-878d-4e12-8ea2-cd40d09dc161",
@@ -2473,8 +2476,11 @@
    },
    "verdict": "hold",
    "reason": "doubt_photo: a summer camera frame of a cedar on a wooded slope, no camera data, our pin as its spot, sent in November; looks like a register or stock photograph and the setting does not match the open church square. Collection-only sighting, so no submissions row to ask through; waits for the maker's yes.",
-   "hidde": null,
-   "agreed": null
+   "hidde": "you can send all these emails (on the reply saying the reader's photo leads the cedar's page)",
+   "agreed": false,
+   "shown": [
+    "2026-11-28"
+   ]
   },
   {
    "id": "sight:8c2f3642-8774-498f-9e53-de421aba50c3",
@@ -29264,7 +29270,10 @@
    "verdict": "hold",
    "reason": "doubt_location: a massive burled live oak in City Park's grove, once the Anseman Oak's lead photo; the ambassador's placing shows the Anseman forks at head height and stands 115 m north, so this is another grove oak, and its coordinate may be our old pin. Question drafted (drafts/reply-reader-lead-91f2f869-2026-11-27.md) since the photo has no submissions row.",
    "hidde": null,
-   "agreed": null
+   "agreed": null,
+   "shown": [
+    "2026-11-28"
+   ]
   },
   {
    "id": "sight:a441709a-94ad-424e-b0f7-812cf9ab0862",

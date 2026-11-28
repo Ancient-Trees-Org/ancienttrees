@@ -1,0 +1,104 @@
+{
+  "city": "Scarborough",
+  "country": "United Kingdom",
+  "status": "needs_curation",
+  "intro": "Scarborough is a seaside town on the North Yorkshire coast. A few kilometres west, Raincliffe and Forge Valley Woods climb the hillside above the village of East Ayton, together a National Nature Reserve and a Site of Special Scientific Interest. A reader who knows the area sent us two of its big trees: a beech about four metres round in Raincliffe Woods, and a chestnut in East Ayton that is believed locally to be one of the oldest in the country.",
+  "meta_description": "Two big trees west of Scarborough a reader sent us: a beech in Raincliffe Woods and a chestnut in East Ayton.",
+  "hero_tree_id": "sca_001",
+  "oldest_tree_id": "sca_002",
+  "trees": [
+    {
+      "id": "sca_001",
+      "name": "The Raincliffe Woods Beech",
+      "species": "Beech (Fagus sp.)",
+      "location": {
+        "address": "Raincliffe Woods, by Low Road, near East Ayton, Scarborough, North Yorkshire",
+        "latitude": 54.284673,
+        "longitude": -0.473462,
+        "neighbourhood": "Raincliffe Woods"
+      },
+      "story": "A reader who knows Raincliffe Woods sent us this beech as one of the biggest, oldest and most beautiful trees in the wood. Its trunk is about four metres round by their own measure, and they gave us the spot where it stands, by Low Road at the foot of the wooded slope, a few kilometres west of Scarborough.\n\nRaincliffe Woods covers about 160 hectares of hillside. It is listed as planted ancient woodland: ground that has been woodland for centuries, though much of it was later replanted, a good deal of it with conifers. The Woodland Trust and the Raincliffe Community Woodland Enterprise are now turning it back into broadleaf woodland, taking out larch and other trees that do not belong. Together with Forge Valley Woods next to it, it is a Site of Special Scientific Interest and a National Nature Reserve.\n\nNobody has published an age for this beech, and we have no photograph of it yet. The pin is the reader's own spot, so look for the biggest grey trunk near it. If you know the tree, its age, or have a photograph, tell us.",
+      "how_to_recognise": "A beech about four metres round, by the reader's measure, near Low Road at the foot of the wooded slope; look for the biggest grey trunk by the pin.",
+      "verified_sources": [
+        "https://en.wikipedia.org/wiki/Raincliffe_Woods (161.9 hectares, planted ancient woodland, with Forge Valley Woods a Site of Special Scientific Interest)",
+        "https://www.woodlandtrust.org.uk/protecting-trees-and-woods/ancient-woodland-restoration/restoring-raincliffe-woods/ (Woodland Trust with Raincliffe Community Woodland Enterprise restoring the ancient woodland)",
+        "https://www.northyorkmoors.org.uk/things-to-do/attractions/raincliffe-and-forge-valley-woods (Raincliffe and Forge Valley Woods National Nature Reserve)",
+        "A reader's account (submission 1654, 2026-11-25): one of the biggest, oldest and most beautiful trees in Raincliffe Woods, girth about 400 cm by their measure, spot ///fallback.snoring.duet"
+      ],
+      "access": "Free. Raincliffe Woods is open woodland with public paths; the tree is by Low Road.",
+      "found_by_reader": {
+        "tip": "submission 1654",
+        "date": "2026-11-25"
+      },
+      "reader_girth_cm": 400,
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's what3words square",
+        "date": "2026-11-25",
+        "note": "the reader's own what3words square ///fallback.snoring.duet (a 3 m square they chose by hand), resolved on what3words.com 2026-11-25; hand-placed, so approximate"
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-28 session: published from the reader's tip (submission 1654) and their what3words spot by mail (2026-11-25, subject 'beech'), on Hidde's yes to the reply saying it is on the map. No photograph, no source for the tree itself; the woods are sourced. OSM puts the spot on Low Road. Genus only, girth theirs.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    },
+    {
+      "id": "sca_002",
+      "name": "The East Ayton Chestnut",
+      "species": "Chestnut (Castanea sp.)",
+      "location": {
+        "address": "Seavegate, East Ayton, Scarborough, North Yorkshire",
+        "latitude": 54.25597,
+        "longitude": -0.482793,
+        "neighbourhood": "East Ayton"
+      },
+      "story": "A reader sent us this chestnut with a claim we would love to see settled: it is believed locally to be the second oldest chestnut in the country. We have found nothing in print that says so, so it stands here as their account, along with their measure of the trunk, about 4.2 metres round.\n\nThey sent it with Raincliffe Woods in mind, and the spot they gave us is on Seavegate in East Ayton, the village at the southern end of Raincliffe and Forge Valley Woods, a few kilometres west of Scarborough. The pin is that spot. We do not yet know whether the tree stands by the road, in a churchyard or in a garden seen from the street, or whether it is a sweet chestnut or a horse chestnut, which the reader's word alone does not tell us.\n\nA chestnut 4.2 metres round would be a big tree anywhere, and worth a look if you are walking out of the woods into the village. If you know which tree this is, how old it is, or have a photograph of it, tell us and we will put it on the page.",
+      "how_to_recognise": "A chestnut about 4.2 metres round, by the reader's measure, at their spot on Seavegate in East Ayton.",
+      "verified_sources": [
+        "A reader's account (submission 1655, 2026-11-25): believed to be the second oldest chestnut in the country, girth about 420 cm by their measure, spot ///subsets.roaming.commit",
+        "https://www.openstreetmap.org/way/6249528 (Seavegate, East Ayton: the road at the reader's spot)"
+      ],
+      "access": "Seavegate is a public village road in East Ayton; whether the tree stands on public ground is not yet known.",
+      "found_by_reader": {
+        "tip": "submission 1655",
+        "date": "2026-11-25"
+      },
+      "reader_girth_cm": 420,
+      "location_precision": "approximate",
+      "pin_source": {
+        "kind": "reader's what3words square",
+        "date": "2026-11-25",
+        "note": "the reader's own what3words square ///subsets.roaming.commit (a 3 m square they chose by hand), resolved on what3words.com 2026-11-25; hand-placed, so approximate"
+      },
+      "curation_status": "flagged",
+      "verify_notes": "2026-11-28 session: published from the reader's tip (submission 1655) and their what3words spot by mail (2026-11-25, subject 'chestnut'), on Hidde's yes. The tip says Raincliffe Woods, the spot is on Seavegate in East Ayton, 3 km south; the page says so and asks. 'Second oldest' is theirs, unsourced (a quick search found nothing). A 2025 planning application mentions a sweet chestnut in St John the Baptist churchyard, East Ayton, near here; nothing ties it to this tip, so it is not named. Sweet or horse chestnut unknown.",
+      "photo": {
+        "url": null,
+        "license": null,
+        "attribution": null,
+        "status": "missing"
+      }
+    }
+  ],
+  "question_meta": "The oldest tree near Scarborough on our map is a chestnut in East Ayton, believed locally to be the second oldest in the country, by a reader's account.",
+  "question_answer": "By a reader's account, a chestnut on Seavegate in East Ayton, a few kilometres west of Scarborough, believed locally to be the second oldest chestnut in the country and about 4.2 metres round. Nothing in print confirms its age yet.",
+  "question_context": "We know two of the area's old trees so far, both from the same reader. The first is a beech in Raincliffe Woods, one of the biggest, oldest and most beautiful trees in the wood by their account, its trunk about four metres round by their measure. It stands by Low Road at the foot of the wooded slope. Raincliffe Woods covers about 160 hectares and is listed as planted ancient woodland, ground that has been woodland for centuries but was later replanted, much of it with conifers. The Woodland Trust and the Raincliffe Community Woodland Enterprise are turning it back into broadleaf woodland. With Forge Valley Woods it is a Site of Special Scientific Interest and a National Nature Reserve. The second tree is a chestnut on Seavegate in East Ayton, the village at the southern end of the woods, believed locally to be the second oldest chestnut in the country and about 4.2 metres round by the reader's measure. We have found no written source for its age, and do not yet know whether it is a sweet or a horse chestnut. Neither tree has a photograph on our map yet.",
+  "faq": [
+    {
+      "q": "Where is the old beech in Raincliffe Woods?",
+      "a": "By Low Road at the foot of the wooded slope, at the spot the reader gave us. The woods are open, with public paths."
+    },
+    {
+      "q": "Is the East Ayton chestnut really the second oldest in the country?",
+      "a": "That is what the reader tells us is believed locally. We have found nothing in print to confirm it, so the page gives it as their account."
+    },
+    {
+      "q": "How old are these trees?",
+      "a": "Nobody has published an age for either. The reader measured the beech at about four metres round and the chestnut at about 4.2 metres."
+    }
+  ]
+}
