@@ -10,6 +10,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 night run (15:00 window): nothing shipped, shelf empty
+
+- Rung 1: read the 9 new tree notes (Barcelona Ciutadella, Copenhagen, Aachen); none on the closed list, all left public, marked seen. Reader backlog clear. Rung 2: health reds only the open app BUG rows. The Android add-a-tree pin row (ESC-2026-11-28) is likely already covered by PinPicker.kt (pin step shipped earlier), so it needs a session to confirm on an emulator. The edit-a-tree-you-added row and the Android draft-on-account row need a server design and a build, so a session takes them. Web errors orange: one inline "Unexpected end of input" type, below the red threshold. READY 0, own research paused, nothing to dispatch.
+
 ## 2026-11-28 reader judge: new lead photographs for the Cascada she-oak and the Ashbridges Bay pine; two other trees asked about
 
 - **Barcelona, The Casuarina of the Cascada** (bcn_011, sighting 3eff6d97, the same Barcelona reader as all day): the two fused trunks and the drooping grey green crown, seen from the lawn. Added, so it now leads, and the earlier reader's photo moved to the strip. The pin is confirmed and stays.
