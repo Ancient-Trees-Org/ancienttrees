@@ -380,18 +380,33 @@
       "curation_status": "flagged",
       "verify_notes": "2026-11-28 night run (reader rung): sent by a reader (8aefa773-8c44-403a-86e2-144dc686b154, through the app) as 'not sure which tree'; judged as new, it is 1,177 m from the nearest tree of ours and not a trunk of Kew Gardens. Photograph viewed: the whole lower tree beside the lakeshore path, a thick trunk splitting into several stems with orange peeling bark above, the lake and a bench behind, caution tape round the shore edge, daylight, colour. Published under the closed list for a reader's tree: GPS fix at the tree, a photograph, somewhat special. Place found by reverse geocoding the fix (OpenStreetMap: The Boardwalk, South Riverdale). Species left at genus; the orange upper bark suggests Scots pine, which we have not confirmed. The reader gave no name, age or note.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/tro_008-pine-of-ashbridges-bay.jpg",
-        "taken_month": 11,
-        "license": "Provided by a reader through Ancient Trees, all rights reserved",
+        "url": "https://ancienttrees.app/photos/tro_008-the-pine-of-ashbridges-bay-ce4c5494.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1200,
         "height": 1600,
+        "taken_month": 11,
         "source": "contributor",
         "contributor_user_id": "p_a30725b92f30d3f70303155e",
-        "sighting_id": "8aefa773-8c44-403a-86e2-144dc686b154",
-        "note": "Photographed by a reader and sent to Ancient Trees (2026-11-28, through the app); viewed and approved on 2026-11-28: the whole lower tree beside the lakeshore path, a thick trunk splitting into several stems with orange peeling bark above, the lake and a bench behind, caution tape round the shore edge, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
-      }
+        "sighting_id": "ce4c5494-56a0-4303-8b8c-2cf49f8ff25c",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: The same Ashbridges Bay pine from the other side: the low split into stems with orange peeling bark, the bench beside it, the taped shore edge and the lake behind. Species seen: pine: plated grey lower trunk, copper orange flaking bark on the upper stems, needle clusters. Fits the description: trunk splitting low into several stems beside a bench on the lakeshore path, lake and boulders behind, caution tape at the shore.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+      },
+      "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/tro_008-pine-of-ashbridges-bay.jpg",
+          "taken_month": 11,
+          "license": "Provided by a reader through Ancient Trees, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "source": "contributor",
+          "contributor_user_id": "p_a30725b92f30d3f70303155e",
+          "sighting_id": "8aefa773-8c44-403a-86e2-144dc686b154",
+          "note": "Photographed by a reader and sent to Ancient Trees (2026-11-28, through the app); viewed and approved on 2026-11-28: the whole lower tree beside the lakeshore path, a thick trunk splitting into several stems with orange peeling bark above, the lake and a bench behind, caution tape round the shore edge, daylight, colour. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04)."
+        }
+      ]
     }
   ]
 }

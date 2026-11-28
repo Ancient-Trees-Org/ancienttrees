@@ -10,6 +10,15 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 reader judge: new lead photographs for the Cascada she-oak and the Ashbridges Bay pine; two other trees asked about
+
+- **Barcelona, The Casuarina of the Cascada** (bcn_011, sighting 3eff6d97, the same Barcelona reader as all day): the two fused trunks and the drooping grey green crown, seen from the lawn. Added, so it now leads, and the earlier reader's photo moved to the strip. The pin is confirmed and stays.
+- **Toronto, The Pine of Ashbridges Bay** (tro_008, sighting ce4c5494, the reader who added it): the same pine from the other side, with the bench, the taped shore and the lake. Added, so it now leads, and their first photo is in the strip. Report 1000165 (the app's "which tree" for their first photo) was already settled by tro_008, so it is closed `holds`.
+- **Held `doubt_location`, Toronto** (sighting 5198b700 from the same reader, sent for tro_008): a different pine, alone on a lawn with long low limbs. It is worth a page, but its coordinate matches the lakeshore pine's to the last digit, so it shows where the phone was, not the tree. The standard mail asking where it stands goes at the next knock (row 1823).
+- **Barcelona, The Black Locust of the Ciutadella** (bcn_035): the reader's photo (sighting 6b0ae614) shows a much slimmer black locust than the register's 4.3 m trunk. In report 1000166 they wrote themselves that the big one stands by the drinking fountain near the Cascada. So the photo did not go on the page. It became a lead and is held `doubt_location`: the app coordinate is 206 m off and carries no camera data. It has no submissions row, so no automatic mail went. Their hand-moved pin (report 1000164, 29 m, towards the Cascada) is now the page's pin. It stays approximate, `pin_source` records it, and the standard pin thank-you went out. Report 1000166 carried their own words, so it is closed `holds` with no mail.
+- **For Hidde:** a suggested reply to report 1000166 is in drafts/reply-reader-1000166-2026-11-28.md. It says yes, the one by the fountain is ours, and asks where the slimmer one stands.
+- Nothing else waited: 0 feedback, 0 tips, 0 further photographs, and the 37 `mine` leads are untouched. The pin read hit an HTTPError again, which changed nothing. qa, preflight (0 problems) and i18ncheck are clean.
+
 ## 2026-11-28 night run (second retry): nothing shipped, shelf still empty
 
 - Claims none, READY 0, passcheck --pending only stale or duplicate files, reader_words and recognise --stuck empty, reader backlog clear, health: only the three open app BUG rows (edit a tree you added, Android place picker, Android draft on the account), all features needing a build and design. Own research paused, so nothing was dispatched. Two Barcelona photographs (bcn_035, bcn_012) wait for the reader judge.

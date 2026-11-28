@@ -583,17 +583,17 @@
       "access": "Free, public park",
       "transport": "Arc de Triomf (Metro L1) or Ciutadella-Vila Olimpica (Metro L4), 6 min walk",
       "photo": {
-        "url": "https://ancienttrees.app/photos/bcn_011-the-casuarina-of-the-cascada-d692d0b9.jpg",
+        "url": "https://ancienttrees.app/photos/bcn_011-the-casuarina-of-the-cascada-3eff6d97.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
-        "width": 1200,
+        "width": 1201,
         "height": 1600,
         "taken_month": 11,
         "source": "contributor",
-        "contributor_user_id": "p_ea87c37237a90bc84686676a",
-        "sighting_id": "d692d0b9-929c-4599-a852-8929dad58135",
-        "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-18: the whole tree in daylight from the lawn, reader's own; makes a reader's photo the lead Species seen: drooping grey green jointed twigs like a pine that is not, furrowed fibrous bark. Fits the description: a huge she-oak, two trunks fused at the base splitting low, in the park lawn behind a rope fence.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_2b760ccfef19d83856c999e0",
+        "sighting_id": "3eff6d97-f1ab-4b92-9cea-f2d3064fe273",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: The Cascada she-oak from the lawn: two trunks fused at the base splitting low, drooping grey green crown hung with cones, daylight; another view of the tree we map. Species seen: drooping grey green jointed twigs like pine needles, small round cones, fibrous furrowed bark. Fits the description: a huge she-oak whose two trunks are fused at the base and part about a metre up, on the park lawn.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "ai_generated",
       "notes": "Sourced from the municipal Arbres d'interes local register (register_id 99400455029, catalogued 1994) plus an independent beteve.cat feature on the park's notable trees, which supplies the Australian origin, the not-a-conifer point and the claim that its trunk perimeter is the second largest in Barcelona. That claim is deliberately softened in the story to 'one of the thickest', per hard rule 8, because it is a different metric from the 'biggest tree' claim the city page already makes for the Sot de l'Estany wingnut and the two should not be set against each other. Height and girth differ between the register (27 m, 5.5 m) and bcnsostenible (22.5 m, 5 m); both are given as a range. Pin is the register coordinate alone, about 35 m from the Cascada monument, with no OSM node to cross-check, so precision is approximate rather than confirmed. Photo viewed directly before approval: Wiki Loves Earth Catalonia 2014 upload, full tree in daylight, trunk and crown both readable, tree occupies the centre band and survives a wide card crop.",
@@ -607,6 +607,19 @@
       "height_m": 27.0,
       "verify_notes": "Height from Arbres d'interès local (Ajuntament de Barcelona) no. 99400455029 (data/registers/barcelona-ail.json), matched on our pin at 0 m (register_match.py, 2026-10-12).",
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/bcn_011-the-casuarina-of-the-cascada-d692d0b9.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1200,
+          "height": 1600,
+          "taken_month": 11,
+          "source": "contributor",
+          "contributor_user_id": "p_ea87c37237a90bc84686676a",
+          "sighting_id": "d692d0b9-929c-4599-a852-8929dad58135",
+          "note": "Photographed by a reader and sent through the app (2026-11-16); a viewing pass approved it on 2026-11-18: the whole tree in daylight from the lawn, reader's own; makes a reader's photo the lead Species seen: drooping grey green jointed twigs like a pine that is not, furrowed fibrous bark. Fits the description: a huge she-oak, two trunks fused at the base splitting low, in the park lawn behind a rope fence.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Casuarina_del_Parc_de_la_Ciutadella3.JPG",
           "license": "CC BY-SA 3.0",
@@ -1683,8 +1696,8 @@
       "girth_cm": 430,
       "location": {
         "address": "Parc de la Ciutadella, parterre between Passeig de Joaquim Renart and the Cascada, 08003 Barcelona",
-        "latitude": 41.388178,
-        "longitude": 2.186597,
+        "latitude": 41.388345,
+        "longitude": 2.186323,
         "neighbourhood": "Sant Pere, Santa Caterina i la Ribera, Ciutat Vella"
       },
       "story": "A trunk of 4.3 metres on a tree only 12 metres tall makes this the stoutest black locust in Barcelona and the only one the city has ever put on its register. Black locusts usually run up thin and fast and then fall over. This one went sideways and stayed, and it grows in the parterre between the Passeig de Joaquim Renart and the Cascada, the monumental fountain a young Gaudi worked on as a student assistant. How old it is nobody has established. The register's age column holds the words '100 anys' where a planting year should be, which is somebody's estimate written into the wrong box rather than a date anyone has checked, and the tree was only catalogued in 2024. What is certain is the ground it stands on. The park is 1888 work, laid out for the Universal Exposition on the cleared site of the Bourbon citadel that Barcelona spent 150 years resenting and then demolished. The species itself was one of the first American trees to reach Europe, planted in Paris around 1601 by Jean Robin, the royal gardener it is named after. In late spring the crown fills with white pea flowers heavy enough to hang and strong enough to smell before you have found the tree.",
@@ -1716,7 +1729,13 @@
         "name": "Arbres d'interès local (Ajuntament de Barcelona), no. 99400761017",
         "url": null
       },
-      "height_m": 12
+      "height_m": 12,
+      "pin_source": {
+        "kind": "reader's hand-placed pin",
+        "note": "reader report 1000164, a pin moved by hand 29 m from the register coordinate (41.388178, 2.186597); the same reader wrote (report 1000166) that the big black locust stands by the drinking fountain near the Cascada. Approximate: placed by hand, not a fix.",
+        "date": "2026-11-28"
+      },
+      "verify_notes": "2026-11-28 reader judge: a reader's photograph sent for this tree (sighting 6b0ae614) showed a smaller black locust elsewhere in the park, so it was not put on this page; the same reader moved our approximate pin 29 m towards the Cascada fountain (report 1000164) and the pin follows them."
     },
     {
       "id": "bcn_036",

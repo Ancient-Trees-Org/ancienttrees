@@ -762,8 +762,8 @@
     "score": null,
     "note": "nothing measurable about Black Locust (Robinia pseudoacacia)"
    },
-   "verdict": null,
-   "reason": null,
+   "verdict": "lead",
+   "reason": "Photograph viewed: a slimmer black locust, not the register's 4.3 m trunk it was sent for (the reader's own report says the big one is by the Cascada fountain); became lead:6b0ae614, judged there.",
    "hidde": null,
    "agreed": null
   },
@@ -803,6 +803,117 @@
    "agreed": null,
    "verdict": "publish",
    "reason": "Photograph viewed 2026-11-28: the whole lower tree beside the lakeshore boardwalk, a trunk splitting into several stems with orange peeling bark, lake and bench behind, daylight, colour, GPS fix at the tree. Live as toronto/tro_008 under the closed list."
+  },
+  {
+   "id": "sight:3eff6d97-f1ab-4b92-9cea-f2d3064fe273",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Casuarina of the Cascada",
+   "city": "Barcelona",
+   "species": "River She-oak (Casuarina cunninghamiana)",
+   "photo": "out/sightings/3eff6d97-f1ab-4b92-9cea-f2d3064fe273.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 47,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about River She-oak (Casuarina cunninghamiana)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the Cascada she-oak's two fused trunks and drooping grey green crown from the lawn; added and now leading bcn_011, the earlier reader's photo moved to the strip.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:ce4c5494-56a0-4303-8b8c-2cf49f8ff25c",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Pine of Ashbridges Bay",
+   "city": "Toronto",
+   "species": "Pine (Pinus sp.)",
+   "photo": "out/sightings/ce4c5494-56a0-4303-8b8c-2cf49f8ff25c.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "distance",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pine (Pinus sp.)"
+   },
+   "verdict": "publish",
+   "reason": "Photograph viewed: the same lakeshore pine from the other side, low split stems with orange peeling bark, bench and lake; added to tro_008 and now leading it.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "sight:5198b700-e6b6-4308-b222-68570b95c2ca",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Pine of Ashbridges Bay",
+   "city": "Toronto",
+   "species": "Pine (Pinus sp.)",
+   "photo": "out/sightings/5198b700-e6b6-4308-b222-68570b95c2ca.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "distance",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Pine (Pinus sp.)"
+   },
+   "verdict": "lead",
+   "reason": "Photograph viewed: a different pine on a lawn with low sweeping limbs, not the lakeshore pine it was sent for; became lead:5198b700, judged there.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:5198b700-e6b6-4308-b222-68570b95c2ca",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Toronto",
+   "species": "Scots Pine",
+   "photo": "p_a30725b92f30d3f70303155e/5198B700-E6B6-4308-B222-68570B95C2CA.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Scots Pine"
+   },
+   "verdict": "hold",
+   "reason": "doubt_location: a striking lone pine with low level limbs, but its coordinate is a copy of the one sent with the lakeshore pine, so where it stands is unknown; the standard mail asks where, and it goes live once we know.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:6b0ae614-aef6-44d1-a741-12f606bd8a68",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "",
+   "city": "Barcelona",
+   "species": null,
+   "photo": "p_2b760ccfef19d83856c999e0/6B0AE614-AEF6-44D1-A741-12F606BD8A68.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "coords": [
+    null,
+    null
+   ],
+   "register": null,
+   "measure": null,
+   "verdict": "hold",
+   "reason": "doubt_location: a mature black locust in the Ciutadella with a cabled trunk; the app coordinate has no camera data and this reader's were wrong earlier today, so where it stands is unknown. No submissions row, so no automatic mail; Hidde's draft reply to report 1000166 asks where.",
+   "hidde": null,
+   "agreed": null
   },
   {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",

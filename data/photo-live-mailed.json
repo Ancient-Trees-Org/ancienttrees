@@ -3632,6 +3632,30 @@
      "city_slug": "barcelona",
      "display_name": null,
      "live": "2026-11-28"
+    },
+    {
+     "sighting_id": "3eff6d97-f1ab-4b92-9cea-f2d3064fe273",
+     "tree_id": "bcn_011",
+     "tree_name": "The Casuarina of the Cascada",
+     "city": "Barcelona",
+     "city_slug": "barcelona",
+     "display_name": null,
+     "live": "2026-11-28"
+    }
+   ],
+   "sent": []
+  },
+  "p_a30725b92f30d3f70303155e": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "ce4c5494-56a0-4303-8b8c-2cf49f8ff25c",
+     "tree_id": "tro_008",
+     "tree_name": "The Pine of Ashbridges Bay",
+     "city": "Toronto",
+     "city_slug": "toronto",
+     "display_name": null,
+     "live": "2026-11-28"
     }
    ],
    "sent": []
