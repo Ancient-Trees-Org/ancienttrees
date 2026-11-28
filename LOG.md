@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-28 reader judge: a reader's photo now leads the Barcelona palms, and their pin moved
+
+- **Barcelona, The Palms of Casa de la Misericordia** (bcn_010, sighting 3d6a6a78): a daylight shot looking up at the four fan palms rising out of the walled courtyard. It is now the lead photograph, and the Commons photo moved to the strip. The reader gets the "it's on the page" mail. Filed under November, the month it was taken.
+- **Pin fixed**: the reader's GPS, the Commons photo's geotag and the city register's coordinate (no. 99400454978) agree within about 25 m. Our pin sat on the Carrer d'Elisabets 24 street address, about 80 m off, so it now stands on the register's coordinate (`pin_source` says so). The old note claiming the Commons geotag sat "within 15 m" of our pin was wrong, and it's corrected.
+- No open reports, feedback, tips or readers' words. The 37 old `lead` rows in _sightings.json are our own test accounts, which the backlog check leaves out. qa, preflight and i18ncheck are clean.
+
 ## 2026-11-28 reader judge: two held, nothing went live
 
 - **Tsagarada, The Plane of Agia Paraskevi** (sighting e3ee25ba): a daylight photo from October of what fits our plane (limbs as thick as trunks, patched bark), but the frame is a man posing, standing up on one of the great limbs. Held as `person`, the same reason we leave extra photos off. The tree keeps its night photos. The reader gets no mail.

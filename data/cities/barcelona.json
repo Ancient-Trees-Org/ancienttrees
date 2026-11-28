@@ -494,8 +494,8 @@
       "age_max": 125,
       "location": {
         "address": "Carrer d'Elisabets 24, 08001 Barcelona",
-        "latitude": 41.3830253,
-        "longitude": 2.1679675,
+        "latitude": 41.3835375,
+        "longitude": 2.168652,
         "neighbourhood": "El Raval, Ciutat Vella"
       },
       "story": "Four palm trees have stood in the courtyard of a former orphanage for over a century, planted around 1904 when the building still ran as the Casa de la Misericordia, a charitable institution founded in 1583 that raised abandoned girls into the 20th century. California fan palms are native to desert oases in the American Southwest and northern Mexico, an odd match on paper for a Gothic Revival courtyard in the Raval, but the species tolerates poor soil and long dry spells well enough to have become a fixture of Mediterranean city planting. For decades the courtyard itself was closed to the public, part of an institutional building tucked behind Carrer Elisabets that most of the Raval walked past without ever seeing inside. That changed recently when a cafe opened in the garden, putting four palms that had grown for a century behind closed doors back in view of anyone who orders a coffee. The building continues to house a school; the palms, remarkably, have outlasted several changes of institutional purpose above their heads.",
@@ -509,16 +509,20 @@
       "access": "Free to enter the courtyard from Carrer Elisabets or via La Central bookshop; the cafe itself is paid",
       "transport": "Catalunya (Metro L1/L3), 6 min walk",
       "photo": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Washingt%C3%B2nies_de_la_casa_de_la_Miseric%C3%B2rdia_P1510832.jpg",
-        "license": "CC BY-SA 3.0",
-        "attribution": "Pere Lopez Brosa (Pere prlpz), via Wikimedia Commons",
+        "url": "https://ancienttrees.app/photos/bcn_010-the-palms-of-casa-de-la-misericordia-3d6a6a78.jpg",
+        "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+        "attribution": null,
         "status": "approved",
-        "width": 2304,
-        "height": 3072,
-        "taken_month": 7
+        "width": 1201,
+        "height": 1600,
+        "taken_month": 11,
+        "source": "contributor",
+        "contributor_user_id": "p_2b760ccfef19d83856c999e0",
+        "sighting_id": "3d6a6a78-0674-4c6c-814c-6fa5bf2364a3",
+        "note": "Photographed by a reader and sent through the app (2026-11-28); a viewing pass approved it on 2026-11-28: Four tall fan palms rising out of a walled courtyard against a blue sky, a Canary palm and a Norfolk pine below them: the Casa de la Misericordia palms, in daylight and colour, taken looking up from the courtyard. Species seen: four slender single-trunk palms with fan-shaped leaves and a skirt of dead fronds under each crown: Washingtonia. Fits the description: four fan palms standing together in one enclosed courtyard between old stone buildings, about 26 m tall.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "curation_status": "flagged",
-      "notes": "Access described as best understood from available sources; opening hours for the courtyard itself (as distinct from the cafe) were not confirmed and should be checked before a visitor relies on this. Photo found 2026-07-26: file's own title and description name this exact location (\"Casa de la Misericordia, Carrer Elisabets 24\") and cite the trees' Catalan heritage protection ID (MA-080193/0096-01-94), a direct match rather than a lookalike. Its embedded GPS (41.383536, 2.168661) also lands within about 15m of the existing pin, corroborating it independently.",
+      "notes": "Access described as best understood from available sources; opening hours for the courtyard itself (as distinct from the cafe) were not confirmed and should be checked before a visitor relies on this. Photo found 2026-07-26: file's own title and description name this exact location (\"Casa de la Misericordia, Carrer Elisabets 24\") and cite the trees' Catalan heritage protection ID (MA-080193/0096-01-94), a direct match rather than a lookalike. Its embedded GPS (41.383536, 2.168661) lands about 80 m from the old street-address pin and within a few metres of the register's coordinate, which is where the pin stands since 2026-11-28.",
       "location_precision": "confirmed",
       "how_to_recognise": "You can recognise them by four fan palms standing together in one enclosed courtyard, planted around 1904. They stand in the old Casa de la Misericordia, reached from Carrer d'Elisabets or through La Central bookshop.",
       "official_register": {
@@ -526,7 +530,25 @@
         "url": "https://www.barcelona.cat/ca/que-pots-fer-a-bcn/parcs-i-jardins/arbres-interes-local/arbre-d-interes-local-99400454978"
       },
       "girth_cm": 200,
-      "height_m": 26
+      "height_m": 26,
+      "pin_source": {
+        "kind": "register",
+        "url": "https://opendata-ajuntament.barcelona.cat/data/dataset/7052709e-1087-4ef3-862a-1a6c3e9a7200",
+        "date": "2026-11-28",
+        "moved_m": 82,
+        "note": "Register 99400454978's coordinate; a reader's photo GPS (sighting 3d6a6a78, 2026-11-28) and the Commons photo's geotag both stand within about 25 m of it. The old pin at the Carrer d'Elisabets 24 street address was about 80 m off."
+      },
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Washingt%C3%B2nies_de_la_casa_de_la_Miseric%C3%B2rdia_P1510832.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Pere Lopez Brosa (Pere prlpz), via Wikimedia Commons",
+          "status": "approved",
+          "width": 2304,
+          "height": 3072,
+          "taken_month": 7
+        }
+      ]
     },
     {
       "id": "bcn_011",

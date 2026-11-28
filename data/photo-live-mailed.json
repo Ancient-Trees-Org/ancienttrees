@@ -3566,6 +3566,21 @@
     }
    ],
    "sent": []
+  },
+  "p_2b760ccfef19d83856c999e0": {
+   "last": null,
+   "pending": [
+    {
+     "sighting_id": "3d6a6a78-0674-4c6c-814c-6fa5bf2364a3",
+     "tree_id": "bcn_010",
+     "tree_name": "The Palms of Casa de la Misericordia",
+     "city": "Barcelona",
+     "city_slug": "barcelona",
+     "display_name": null,
+     "live": "2026-11-28"
+    }
+   ],
+   "sent": []
   }
  },
  "p_65a5c90c9072f11a77218aba": {

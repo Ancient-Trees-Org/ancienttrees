@@ -426,6 +426,28 @@
    "agreed": null
   },
   {
+   "id": "sight:3d6a6a78-0674-4c6c-814c-6fa5bf2364a3",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Palms of Casa de la Misericordia",
+   "city": "Barcelona",
+   "species": "California Fan Palm (Washingtonia filifera)",
+   "photo": "out/sightings/3d6a6a78-0674-4c6c-814c-6fa5bf2364a3.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 97,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about California Fan Palm (Washingtonia filifera)"
+   },
+   "verdict": "publish",
+   "reason": "Four fan palms rising out of the walled Misericordia courtyard, daylight and colour: our bcn_010. Now the lead photograph (the Commons one moved to the strip). Its GPS, the Commons geotag and the city register all put the palms ~80 m from our street-address pin, so the pin moved to the register's coordinate.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
