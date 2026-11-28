@@ -1,6 +1,6 @@
 {
   "_note": "Who looks after a place, written by scripts/ambassador.py --sync from the ambassadors table and never by hand. display_name appears only when the person consented to be named or their profile is public (public true, since 2026-10-28); the website prints that line and nothing else from here. An account that is deleted leaves on the next sync, which runs with photo_takedown.py on every knock.",
-  "synced": "2026-11-28T01:48Z",
+  "synced": "2026-11-28T03:42Z",
   "ambassadors": [
     {
       "user_id": "de4ed97a-01e5-42ce-83c3-28883cf6d91b",
@@ -24,8 +24,8 @@
     },
     {
       "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "guimaraes",
-      "place_name": "Guimaraes",
+      "place_slug": "braga",
+      "place_name": "Braga",
       "public": true,
       "since": "2026-10-28",
       "display_name": "Miguel Portugal",
@@ -51,11 +51,20 @@
     },
     {
       "user_id": "a9d4dda0-13ee-4f44-985a-c10fcc843402",
-      "place_slug": "braga",
-      "place_name": "Braga",
+      "place_slug": "guimaraes",
+      "place_name": "Guimaraes",
       "public": true,
       "since": "2026-10-28",
       "display_name": "Miguel Portugal",
+      "profile_public": true
+    },
+    {
+      "user_id": "ab3fc145-297e-4811-bf2b-2f530bffec20",
+      "place_slug": "pamplona",
+      "place_name": "Pamplona",
+      "public": true,
+      "since": "2026-11-02",
+      "display_name": "Mikel B.",
       "profile_public": true
     },
     {
@@ -77,15 +86,6 @@
       "profile_public": true
     },
     {
-      "user_id": "ab3fc145-297e-4811-bf2b-2f530bffec20",
-      "place_slug": "pamplona",
-      "place_name": "Pamplona",
-      "public": true,
-      "since": "2026-11-02",
-      "display_name": "Mikel B.",
-      "profile_public": true
-    },
-    {
       "user_id": "873a220d-e03b-49ac-9bae-7061e05ee39b",
       "place_slug": "leuven",
       "place_name": "Leuven",
@@ -104,21 +104,21 @@
       "profile_public": true
     },
     {
-      "user_id": "4ec36139-4bf3-4dae-9433-f55cf21ec1ad",
-      "place_slug": "london",
-      "place_name": "London",
-      "public": true,
-      "since": "2026-11-15",
-      "display_name": "Golden Fig 0074",
-      "profile_public": true
-    },
-    {
       "user_id": "22d2ba90-aae5-4f61-a5ed-50659da65ae4",
       "place_slug": "edinburgh",
       "place_name": "Edinburgh",
       "public": true,
       "since": "2026-11-15",
       "display_name": "Joanne P.",
+      "profile_public": true
+    },
+    {
+      "user_id": "4ec36139-4bf3-4dae-9433-f55cf21ec1ad",
+      "place_slug": "london",
+      "place_name": "London",
+      "public": true,
+      "since": "2026-11-15",
+      "display_name": "Golden Fig 0074",
       "profile_public": true
     },
     {
@@ -221,15 +221,6 @@
       "profile_public": true
     },
     {
-      "user_id": "252cb970-b683-4917-b6d1-5f13ef7798bc",
-      "place_slug": "inistioge",
-      "place_name": "Inistioge",
-      "public": true,
-      "since": "2026-11-19",
-      "display_name": "Ram Jack",
-      "profile_public": true
-    },
-    {
       "user_id": "f73e92aa-f513-4fee-be90-eb0402939a78",
       "place_slug": "gdansk",
       "place_name": "Gdansk",
@@ -263,6 +254,15 @@
       "public": true,
       "since": "2026-11-19",
       "display_name": "Olivia B.",
+      "profile_public": true
+    },
+    {
+      "user_id": "252cb970-b683-4917-b6d1-5f13ef7798bc",
+      "place_slug": "inistioge",
+      "place_name": "Inistioge",
+      "public": true,
+      "since": "2026-11-19",
+      "display_name": "Ram Jack",
       "profile_public": true
     },
     {
@@ -509,6 +509,15 @@
       "public": true,
       "since": "2026-11-28",
       "display_name": "Jonathan B.",
+      "profile_public": true
+    },
+    {
+      "user_id": "75a59425-b80a-4839-ae0f-7f32df12ea2a",
+      "place_slug": "katikati",
+      "place_name": "Katikati",
+      "public": true,
+      "since": "2026-11-28",
+      "display_name": "Philip S.",
       "profile_public": true
     },
     {

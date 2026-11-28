@@ -23,7 +23,7 @@
       },
       "story": "\"One of the largest in the Kaimai range,\" wrote the reader who sent us this kauri from the forest above Katikati, \"only about 15 to 20 mins walk to the tree.\"\n\nThe Kaimai Range is the southern edge of the kauri's natural home, so a giant here is a long way from the famous forests of Northland. The photograph shows the shape that makes a kauri unlike any other tree. A single grey column, smooth and pale and patterned like hammered metal, rises without a branch far above the forest around it, and only then breaks into a crown of thick, crooked limbs carrying their own gardens of ferns and lilies.\n\nA sign at its foot gives 12.8 metres of trunk to the first limb and 2.7 metres across at one and a half metres up. The reader puts its girth at about 8.5 metres and its age at 600 years. The age is their estimate; we have not seen a measurement of it.\n\nA timber boardwalk carries you right up to the trunk and keeps your feet off its shallow roots, which kauri dieback attacks through soil carried on boots. Stay on the boards, and when you reach the sign, look straight up.",
       "how_to_recognise": "A huge pale grey column of a trunk with no branches for its first twelve metres, ringed by a timber boardwalk with a green sign at its foot naming it Kauri, Agathis australis.",
-      "access": "Free, on a forest track about 15 to 20 minutes' walk in, by the reader's account. Kauri tracks in the Kaimai Range can close to protect the trees from kauri dieback; check the track's status with the Department of Conservation before you go, and clean your boots at any hygiene station.",
+      "access": "Free, on a forest track about 15 to 20 minutes' walk in, by the reader's account; the walk starts from the end of Hot Springs Road, they tell us. Kauri tracks in the Kaimai Range can close to protect the trees from kauri dieback; check the track's status with the Department of Conservation before you go, and clean your boots at any hygiene station.",
       "verified_sources": [
         "Reader's photograph of the sign at the tree (2026-11-27): 'KAURI Agathis australis, Height to first limb 12.8 m, Diameter at 1.5 m 2.7 m'"
       ],
@@ -40,7 +40,7 @@
         "note": "The pin marks where a reader stood to photograph this tree; the photograph was checked to show it."
       },
       "curation_status": "flagged",
-      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app (412d732a-a569-428b-a51e-cd7bb7f82119). Photograph viewed: the pale, hammered grey column of a kauri trunk rising straight from a timber boardwalk into the forest canopy, a DOC-style sign at its foot reading 'KAURI Agathis australis, Height to first limb 12.8 m, Diameter at 1.5 m 2.7 m', daylight, colour. A second photograph looks up the trunk into the crown. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Kauri', species 'Kauri', age '600', girth 850 cm (the sign's 2.7 m diameter agrees). No register entry within 100 m. A web search found the Tuahu Kauri Track and a NZ Herald piece on a 600-year-old kauri with a wraparound boardwalk south of Katikati, but nothing ties either to this pin, so neither is named.",
+      "verify_notes": "2026-11-27 reader judge: sent by a reader through the app (412d732a-a569-428b-a51e-cd7bb7f82119). Photograph viewed: the pale, hammered grey column of a kauri trunk rising straight from a timber boardwalk into the forest canopy, a DOC-style sign at its foot reading 'KAURI Agathis australis, Height to first limb 12.8 m, Diameter at 1.5 m 2.7 m', daylight, colour. A second photograph looks up the trunk into the crown. Published under the closed list for a reader's tree (Hidde, 2026-11-17). The reader's own figures: name 'Kauri', species 'Kauri', age '600', girth 850 cm (the sign's 2.7 m diameter agrees). No register entry within 100 m. A web search found the Tuahu Kauri Track and a NZ Herald piece on a 600-year-old kauri with a wraparound boardwalk south of Katikati, but nothing ties either to this pin, so neither is named. 2026-11-28 reader judge: the same reader wrote by mail (feedback 1785) that the walk starts from the end of Hot Springs Road; added to access and the walk FAQ as their account.",
       "photo": {
         "url": "https://ancienttrees.app/photos/kti_001-kaimai-kauri-above-katikati.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
@@ -87,7 +87,7 @@
     },
     {
       "q": "How long is the walk to the kauri?",
-      "a": "About 15 to 20 minutes from the start of the track, by the account of the reader who sent it to us."
+      "a": "About 15 to 20 minutes from the start of the track, which is at the end of Hot Springs Road, by the account of the reader who sent it to us."
     }
   ]
 }

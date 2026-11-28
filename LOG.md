@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-11-28 reader judge: an ambassador for Katikati, and the way to its kauri
+
+- The reader who sent the Kaimai Kauri (katikati/kti_001) wrote back by mail. They work as an arborist in Tauranga and the Western Bay of Plenty, want to be ambassador there and plan to add many historic trees. They are now **ambassador of Katikati**, the only place we have in that area, and are named on the page as their public profile shows. Their second line, that the walk starts from the end of Hot Springs Road, is in the tree's access line and walk FAQ, given as their account. Feedback 1785 is closed `handled`.
+- For Hidde: the "Looking after Katikati" welcome mail did NOT go out (this runner has no mail credentials), and no knock sends it later. A session with mail access should run `python3 scripts/ambassador.py --welcome-missing --send`.
+- Nothing else was waiting: no queued photographs, reports, tips or other feedback. The 37 open leads in _sightings.json are our own account's. qa source checks were clean, preflight found 0 problems and i18ncheck was clean.
+
 ## 2026-11-28 night run, fourth attempt: nothing to ship, state re-checked
 
 - Pulled, no claims, `leads.py --ready` 0, `passcheck.py --pending`: only taiwan has one clean unpublished entry (needs a verify pass, paused); the rest is stale or duplicates of live trees. Open app BUG rows (10) are iOS simulator or Android work. Web error `getLayer` in maplibre is orange, not red. Nothing changed on main.
