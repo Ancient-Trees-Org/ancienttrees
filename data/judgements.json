@@ -1183,6 +1183,28 @@
    "agreed": null
   },
   {
+   "id": "sight:59225ae1-8a68-4129-946a-a4b1cea4603c",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The McDonogh Oak",
+   "city": "New Orleans",
+   "species": "Southern Live Oak (Quercus virginiana)",
+   "photo": "out/sightings/59225ae1-8a68-4129-946a-a4b1cea4603c.jpg",
+   "reader_note": "Photograph sent from this tree’s page on the website. The position on this row is the tree’s own published coordinate, not a device fix, and is not evidence about the pin. Its date is the photograph’s own date.",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Southern Live Oak (Quercus virginiana)"
+   },
+   "verdict": "publish",
+   "reason": "Added to the McDonogh Oak (nol_001): a summer panorama of the whole tree, its long fern-covered limbs resting on the wooden props, camera-dated July 2016; species and props match our record.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",

@@ -8623,6 +8623,18 @@
    "date": "2026-11-28",
    "tree_id": "nyc_013",
    "reason": "duplicate: the same photograph and extra as sighting 2027a083, sent twice"
+  },
+  "59225ae1-8a68-4129-946a-a4b1cea4603c": {
+   "outcome": "added",
+   "date": "2026-11-28",
+   "tree_id": "nol_001",
+   "city_slug": "new-orleans",
+   "file": "nol_001-the-mcdonogh-oak-59225ae1.jpg",
+   "reason": "The McDonogh Oak in City Park in full summer leaf: the massive trunk with long fern-covered limbs resting on four wooden props, open lawn around it, daylight and colour. Sent from the tree's own page, camera-dated July 2016; a wide view of the whole tree that complements the existing lead. Species s",
+   "lat": 29.98403,
+   "lon": -90.09509,
+   "extras": 0,
+   "pin_checked": "2026-11-28"
   }
  },
  "a7751610-e6bc-4dc1-96f6-63005ef4f2dc": {

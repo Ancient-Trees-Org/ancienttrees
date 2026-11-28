@@ -10,6 +10,11 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 reader judge: a summer photograph now leads the McDonogh Oak page
+
+- The McDonogh Oak (nol_001), New Orleans: a reader sent a wide summer photograph from the tree's page. It shows the whole oak in full leaf, its long fern-covered limbs resting on the four wooden props on the open lawn of the Old Grove. It carries camera data dated July 2016, so it is not a screenshot. It went on as `add`: it now leads, it is filed under July, and the February photograph moved into the strip. The reader got the "it is on the page" mail through `--send`. The pin read hit an HTTPError again, which changed nothing (the row carried our own pin anyway).
+- No open reports, tips, feedback, further photographs or readers' notes, and nothing late. The 37 waiting leads are all the owner's own account. qa (source), preflight (0 problems) and i18ncheck are clean.
+
 ## 2026-11-28 reader judge: the Central Park elm avenue gets its first photograph
 
 - The Elm Allee of Literary Walk (nyc_013), New York: a reader's app photograph is now the lead. It shows the Mall's double row of bare American elms in daylight, with Literary Walk's fencing and walkers along it, 86 m from our pin. It is filed under November, the photo's own month. Their second frame of the grove went in the gallery (reader_extras). The pin stays where it was, because it is the confirmed register point. The reader got the "it is on the page" mail through `--send`.

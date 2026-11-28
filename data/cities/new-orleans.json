@@ -51,17 +51,17 @@
       "access": "Free. Public city park, open daily.",
       "transport": "City Park, about 6 km north of the French Quarter. Canal Streetcar to City Park / Museum, then a walk west along the grove.",
       "photo": {
-        "url": "https://ancienttrees.app/photos/nol_001-the-mcdonogh-oak.jpg",
+        "url": "https://ancienttrees.app/photos/nol_001-the-mcdonogh-oak-59225ae1.jpg",
         "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
         "attribution": null,
         "status": "approved",
         "width": 1600,
-        "height": 1200,
-        "taken_month": 2,
+        "height": 892,
+        "taken_month": 7,
         "source": "contributor",
-        "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
-        "sighting_id": "417749a0-3387-4bd0-853a-ce00cd4dad90",
-        "note": "Photographed by a reader and sent through the app (2026-02-22); a viewing pass approved it on 2026-11-19: The McDonogh Oak in City Park, propped by its poles, daylight and colour, whole crown. Species seen: Southern Live Oak (Quercus virginiana), Spanish moss. Fits the description: huge spreading live oak with its long limbs held up by timber props.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        "contributor_user_id": "p_1b7ebd595a940fcea8093cb0",
+        "sighting_id": "59225ae1-8a68-4129-946a-a4b1cea4603c",
+        "note": "Photographed by a reader and sent through the app (2016-07-16); a viewing pass approved it on 2026-11-28: The McDonogh Oak in City Park in full summer leaf: the massive trunk with long fern-covered limbs resting on four wooden props, open lawn around it, daylight and colour. Sent from the tree's own page, camera-dated July 2016; a wide view of the whole tree that complements the existing lead. Species seen: evergreen live oak: small leathery leaves, furrowed dark trunk, low sprawling limbs covered in resurrection fern. Fits the description: huge spreading crown on a short thick trunk, lower limbs held up by wooden props, in an open grove lawn.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
       },
       "how_to_recognise": "The only tree in the grove with wooden props under its lower branches, and a plaque at the base of the trunk.",
       "curation_status": "ai_generated",
@@ -73,6 +73,19 @@
         "status": "held"
       },
       "photos": [
+        {
+          "url": "https://ancienttrees.app/photos/nol_001-the-mcdonogh-oak.jpg",
+          "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
+          "attribution": null,
+          "status": "approved",
+          "width": 1600,
+          "height": 1200,
+          "taken_month": 2,
+          "source": "contributor",
+          "contributor_user_id": "p_57c98e1ef3e54e44a10e0ab7",
+          "sighting_id": "417749a0-3387-4bd0-853a-ce00cd4dad90",
+          "note": "Photographed by a reader and sent through the app (2026-02-22); a viewing pass approved it on 2026-11-19: The McDonogh Oak in City Park, propped by its poles, daylight and colour, whole crown. Species seen: Southern Live Oak (Quercus virginiana), Spanish moss. Fits the description: huge spreading live oak with its long limbs held up by timber props.. Not an open licence: ask before reuse elsewhere. No name is printed beside it (2026-09-04). Comes off the page when the account is deleted (scripts/photo_takedown.py)."
+        },
         {
           "url": "https://ancienttrees.app/photos/nol_001-the-mcdonogh-oak-417749a0-x1.jpg",
           "license": "Provided by a reader through the Ancient Trees app, all rights reserved",
