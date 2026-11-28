@@ -103,9 +103,8 @@
       "since": "2026-11-20",
       "web": "the chosen tree is always a full pin (tree-pins-js.ts)",
       "ios": "not seen (the 2026-11-20 check opened Baarn without a choice)",
-      "android": "seen once on the emulator with -select=brn_001 in Baarn: a second dot half under the first; without -select the map is as iOS. Not yet known whether the clear-dot change caused it",
-      "status": "open",
-      "owed": "android: open Baarn with -select on the build before 2026-11-20 and this one; if new, the chosen layer must hide that tree's dot as iOS does (pinPredicate without the selected id)"
+      "android": "TreeMapView.kt: the chosen tree's small pin and dot step aside while its big pin is drawn (singlePins(without), the dots filter), as iOS pinPredicate(without:) does (2026-11-28)",
+      "status": "done"
     },
     {
       "what": "The nearest tree, when no tree is in view",

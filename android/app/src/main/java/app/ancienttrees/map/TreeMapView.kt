@@ -362,6 +362,13 @@ fun TreeMapView(
         (style.getLayer(LAYER_CHOSEN) as? SymbolLayer)?.setFilter(
             Expression.eq(Expression.get(KEY_ID), Expression.literal(selected?.id ?: "")),
         )
+        (style.getLayer(LAYER_PINS) as? SymbolLayer)?.setFilter(singlePins(selected?.id))
+        (style.getLayer(LAYER_FAR) as? SymbolLayer)?.setFilter(singlePins(selected?.id))
+        // Its dot too: a tree chosen at launch while it was a dot showed a
+        // second dot half under the big pin (map-parity.json, 2026-11-20).
+        (style.getLayer(LAYER_DOTS) as? SymbolLayer)?.setFilter(
+            Expression.neq(Expression.get(KEY_ID), Expression.literal(selected?.id ?: "")),
+        )
         val sel = selected
         if (sel == null) {
             // A tree was just let go: say once what is in view now.
@@ -603,6 +610,20 @@ private fun feature(t: Tree, lat: Double, lng: Double, n: Int, spot: String, spr
     }
 }
 
+/**
+ * The ordinary pins: a pile's first tree is an ordinary pin until STACK_ZOOM, then
+ * its bubble. WITHOUT THE CHOSEN TREE (TreeMap.swift pinPredicate(without:)): its
+ * small pin steps aside while the big one is drawn, or the two read as a target.
+ */
+private fun singlePins(without: String?): Expression = Expression.all(
+    Expression.eq(Expression.get("spread"), Expression.literal(false)),
+    Expression.any(
+        Expression.eq(Expression.get("n"), Expression.literal(1)),
+        Expression.lt(Expression.zoom(), Expression.literal(Stacks.STACK_ZOOM)),
+    ),
+    Expression.neq(Expression.get(KEY_ID), Expression.literal(without ?: "")),
+)
+
 private fun installLayers(style: Style) {
     style.addSource(GeoJsonSource(SOURCE, FeatureCollection.fromFeatures(emptyList<Feature>())))
 
@@ -637,14 +658,7 @@ private fun installLayers(style: Style) {
         PropertyFactory.iconAnchor(Property.ICON_ANCHOR_CENTER),
         PropertyFactory.symbolSortKey(Expression.get("pr")),
     )
-    // A pile's first tree is an ordinary pin until STACK_ZOOM, then its bubble.
-    val single = Expression.all(
-        Expression.eq(Expression.get("spread"), Expression.literal(false)),
-        Expression.any(
-            Expression.eq(Expression.get("n"), Expression.literal(1)),
-            Expression.lt(Expression.zoom(), Expression.literal(Stacks.STACK_ZOOM)),
-        ),
-    )
+    val single = singlePins(null)
     style.addLayer(pins(LAYER_PINS, PinRules.PIN_DISTANCE).apply { minZoom = PinRules.FAR_ZOOM; setFilter(single) })
     style.addLayer(pins(LAYER_FAR, PinRules.FAR_PIN_DISTANCE).apply { maxZoom = PinRules.FAR_ZOOM; setFilter(single) })
 
