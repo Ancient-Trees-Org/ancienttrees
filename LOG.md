@@ -10,6 +10,10 @@
 - [2026-08](archive/LOG-2026-08.md)
 - [2026-07](archive/LOG-2026-07.md)
 
+## 2026-11-28 12:29 run: nothing shipped
+
+Rung 1: the reader judge is current (backlog empty). I read the four new tree notes (Barcelona plane and palms, Birkerød oak, Aachen linden), found none that meets the hide list, and marked them seen. Rung 2: health.py exits 1 on two open app BUG rows. One is the edit-after-add bug (ESC-2026-11-25). The other is the Android draft bug (ESC-2026-11-26), which needs a draft row on the account. Both need a new server table or screen, and the draft one also needs a SQL paste from Hidde. A night run can't test either, so neither is fixed. Web errors are orange only (`getLayer` on 2 pages, a one-off SyntaxError), below the red threshold. Own research is paused and the shelf has 0 ready to write. Nothing was committed apart from this entry.
+
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
 ## 2026-11-28 reader judge: the Oriental Plane of Placa de la Universitat has its first photograph
