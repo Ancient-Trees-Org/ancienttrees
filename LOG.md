@@ -12,6 +12,12 @@
 
 So absence from this file is not evidence something was never tried: `grep -ri "<place>" archive/` before concluding a hunt is new. Re-running an exhausted hunt is this project's most repeated waste.
 <!-- archive-index -->
+## 2026-11-28 reader judge: two held, nothing went live
+
+- **Tsagarada, The Plane of Agia Paraskevi** (sighting e3ee25ba): a daylight photo from October of what fits our plane (limbs as thick as trunks, patched bark), but the frame is a man posing, standing up on one of the great limbs. Held as `person`, the same reason we leave extra photos off. The tree keeps its night photos. The reader gets no mail.
+- **"Silver Fir in Amsterdam"** (lead b19c636e, four photos): a big conifer that is worth a page, about 20 m tall and 300 cm round by the reader's own figures. But the pin was placed by hand on Dam Square, and the scene and the Italian note don't fit Amsterdam. Held `no_location`, and the standard "where does it stand?" mail is queued on submission 1799.
+- No open reports, no feedback, no unjudged tips, no readers' words waiting. qa, preflight and i18ncheck are clean.
+
 ## 2026-11-28 fourth attempt, same window: nothing left to ship
 
 - Re-checked in order: claims empty, 0 READY leads, `--pending` lists only stale files or copies of live trees under other ids (not written, hard rule 3), pagegaps shows only the Arnold Arboretum park, recognise and reader_words have nothing. Open APP BUG rows (edit a tree you added; Android draft on the account) need a server table and his yes. Nothing shipped, nothing claimed.

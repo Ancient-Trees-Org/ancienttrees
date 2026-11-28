@@ -375,6 +375,57 @@
    "agreed": null
   },
   {
+   "id": "sight:e3ee25ba-a70a-417c-8f85-886b7f1e8f91",
+   "seen": "2026-11-28",
+   "kind": "photo of a tree we map",
+   "tree": "The Plane of Agia Paraskevi",
+   "city": "Tsagarada",
+   "species": "Oriental Plane (Platanus orientalis)",
+   "photo": "out/sightings/e3ee25ba-a70a-417c-8f85-886b7f1e8f91.jpg",
+   "reader_note": "",
+   "reader_girth_cm": null,
+   "match": "app",
+   "distance_m": 0,
+   "current_photo": "approved",
+   "measure": {
+    "score": null,
+    "note": "nothing measurable about Oriental Plane (Platanus orientalis)"
+   },
+   "verdict": "hold",
+   "reason": "The plane fits (vast oriental plane, limbs thick as trunks, patched bark), but the frame is a man posing standing up on a great limb; a person posing on the tree stays off the page, as extras do. The tree keeps its night photographs.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
+   "id": "lead:b19c636e-ecb0-4db0-8d3e-5487d853e570",
+   "seen": "2026-11-28",
+   "kind": "a tree we do not map",
+   "tree": "Silver Fir in Amsterdam",
+   "city": null,
+   "species": "Silver Fir",
+   "photo": "p_64aded5e0bdd8d60b3e78790/B19C636E-ECB0-4DB0-8D3E-5487D853E570.jpg",
+   "reader_note": "Alto 20 metri circa. Tronco di 300 cm circa.",
+   "reader_girth_cm": 300,
+   "coords": [
+    null,
+    null
+   ],
+   "register": {
+    "verdict": "unlisted",
+    "why": "no register entry within 100 m: only this reader has said it is remarkable, so it needs the normal bar",
+    "nearest": []
+   },
+   "measure": {
+    "score": 0.583,
+    "via": "girth",
+    "note": "58% of the genus reference (515 cm, n=1, max 515)  THIN: fewer than ten records, treat as a hint"
+   },
+   "verdict": "hold",
+   "reason": "no_location: a big conifer about 20 m tall and 300 cm round by the reader's figures, worth a page, but the hand-placed pin sits on Dam Square in Amsterdam and the scene and the Italian note do not fit there. Asked where it stands.",
+   "hidde": null,
+   "agreed": null
+  },
+  {
    "id": "sight:2c29b653-f9b7-4e11-8ab1-4e5c8dfb6f68",
    "seen": "2026-11-27",
    "kind": "a tree we do not map",
